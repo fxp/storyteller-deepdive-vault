@@ -2,47 +2,42 @@ name: StoryTeller Monitor
 
 on:
   schedule:
-    # 每小时整点触发（UTC）
-    - cron: '0 * * * *'
-  workflow_dispatch:
-    # 支持手动触发，方便测试
+    - cron: '0 * * * *'   # 每小时整点（UTC）
+  workflow_dispatch:        # 支持手动触发
 
 jobs:
   monitor:
-    name: Run monitoring session
+    name: Run monitoring
     runs-on: ubuntu-latest
-    timeout-minutes: 15  # 单次最多 15 分钟，防止超时计费
+    timeout-minutes: 10
 
     steps:
-      - name: Checkout vault repo
+      - name: Checkout vault
         uses: actions/checkout@v4
-        # 注意：这里 checkout 的是 vault repo 本身
-        # agent_ids.json 和 scripts/ 都在这个 repo 里
+        with:
+          token: ${{ secrets.VAULT_GITHUB_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-          cache: 'pip'
+          cache: pip
 
       - name: Install dependencies
-        run: pip install anthropic
+        run: pip install requests pyyaml
 
-      - name: Trigger monitoring session
+      - name: Run monitor
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          VAULT_REPO: ${{ secrets.VAULT_REPO }}
-          GITHUB_TOKEN: ${{ secrets.VAULT_GITHUB_TOKEN }}
-          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          TAVILY_API_KEY:    ${{ secrets.TAVILY_API_KEY }}
+          BIGMODEL_API_KEY:  ${{ secrets.BIGMODEL_API_KEY }}
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-        run: |
-          python3 scripts/trigger.py --deployment deepdive
+        run: python3 scripts/monitor.py
 
-      - name: Upload session log (on failure)
-        if: failure()
-        uses: actions/upload-artifact@v4
-        with:
-          name: session-log-${{ github.run_id }}
-          path: /tmp/storyteller_*.log
-          retention-days: 7
-          if-no-files-found: ignore
+      - name: Commit & push findings
+        run: |
+          git config user.email "storyteller-bot@users.noreply.github.com"
+          git config user.name  "StoryTeller Bot"
+          git add events/ findings/
+          git diff --staged --quiet \
+            && echo "No changes." \
+            || (git commit -m "track: $(date -u '+%Y-%m-%dT%H:%M') [bigmodel]" && git push)
