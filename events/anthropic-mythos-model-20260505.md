@@ -1,42 +1,45 @@
 ---
-id: "anthropic-mythos-model-20260505"
-title: "Anthropic 发布 Mythos 前沿模型，引发全球安全震动"
-seed_url: "https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing"
+id: anthropic-mythos-model-20260505
+title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
+seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: ACTIVE
-last_check: "2026-05-08T04:00"
+last_check: 2026-05-08T04:00
 last_activity: 2026-05-05
-next_check: "2026-05-08T10:00"
+next_check: 2026-05-08T00:00
 interval_hours: 6
 consecutive_empty: 11
 findings_count: 0
-tags: [tracker, ACTIVE]
+tags:
+- tracker
+- ACTIVE
 entities:
   orgs:
-    - Anthropic
-    - "US Department of Commerce"
-    - CAISI
-    - "Trump administration"
-    - Pentagon
+  - Anthropic
+  - US Department of Commerce
+  - CAISI
+  - Trump administration
+  - Pentagon
   people:
-    - "Elizabeth Kelly（前 CAISI 负责人，已加入 Anthropic）"
+  - Elizabeth Kelly（前 CAISI 负责人，已加入 Anthropic）
   products:
-    - "Mythos（Anthropic 新前沿模型，preview 阶段）"
-    - "Claude Opus 4.7"
+  - Mythos（Anthropic 新前沿模型，preview 阶段）
+  - Claude Opus 4.7
   topics:
-    - "AI frontier model"
-    - "AI national security"
-    - "AI model safety testing"
-    - "hacker exploitation risk"
-    - "government AI oversight"
+  - AI frontier model
+  - AI national security
+  - AI model safety testing
+  - hacker exploitation risk
+  - government AI oversight
 search_queries:
-  - "Anthropic Mythos model capabilities launch 2026"
-  - "Anthropic Mythos security risk hacker national security"
-  - "Anthropic Mythos model benchmark evaluation"
-  - "Anthropic Trump administration dispute war AI ethics"
-  - "Mythos AI model government response reaction"
-deepdive_article: "[[待填写]]"
+- Anthropic Mythos model capabilities launch 2026
+- Anthropic Mythos security risk hacker national security
+- Anthropic Mythos model benchmark evaluation
+- Anthropic Trump administration dispute war AI ethics
+- Mythos AI model government response reaction
+deepdive_article: '[[待填写]]'
 ---
+
 
 # Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 

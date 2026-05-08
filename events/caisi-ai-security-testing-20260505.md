@@ -1,53 +1,56 @@
 ---
-id: "caisi-ai-security-testing-20260505"
-title: "美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic 被排除"
-seed_url: "https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing"
+id: caisi-ai-security-testing-20260505
+title: 美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic 被排除
+seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: ACTIVE
-last_check: "2026-05-08T04:00"
+last_check: 2026-05-08T04:00
 last_activity: 2026-05-05
-next_check: "2026-05-08T10:00"
+next_check: 2026-05-08T00:00
 interval_hours: 6
 consecutive_empty: 11
 findings_count: 0
-tags: [tracker, ACTIVE]
+tags:
+- tracker
+- ACTIVE
 entities:
   orgs:
-    - Microsoft
-    - Google
-    - xAI
-    - CAISI
-    - "US Department of Commerce"
-    - Pentagon
-    - "Trump administration"
-    - OpenAI
-    - "Amazon Web Services"
-    - Nvidia
-    - Reflection
-    - SpaceX
-    - Anthropic
-    - "UK AI Security Institute"
+  - Microsoft
+  - Google
+  - xAI
+  - CAISI
+  - US Department of Commerce
+  - Pentagon
+  - Trump administration
+  - OpenAI
+  - Amazon Web Services
+  - Nvidia
+  - Reflection
+  - SpaceX
+  - Anthropic
+  - UK AI Security Institute
   people:
-    - "Chris Fall（CAISI 主任）"
+  - Chris Fall（CAISI 主任）
   products:
-    - "Microsoft AI models"
-    - "Google Gemini"
-    - "Grok（xAI）"
-    - "Anthropic Mythos（明显缺席）"
+  - Microsoft AI models
+  - Google Gemini
+  - Grok（xAI）
+  - Anthropic Mythos（明显缺席）
   topics:
-    - "AI national security testing"
-    - "government AI oversight"
-    - "AI model security evaluation"
-    - "Pentagon AI"
-    - "Trump AI policy"
+  - AI national security testing
+  - government AI oversight
+  - AI model security evaluation
+  - Pentagon AI
+  - Trump AI policy
 search_queries:
-  - "CAISI AI security testing Microsoft Google xAI agreement 2026"
-  - "Pentagon AI classified systems Google Microsoft Amazon OpenAI"
-  - "Anthropic Trump administration excluded Pentagon AI deal"
-  - "CAISI AI model evaluation results national security 2026"
-  - "AI model vetting government testing program expansion 2026"
-deepdive_article: "[[待填写]]"
+- CAISI AI security testing Microsoft Google xAI agreement 2026
+- Pentagon AI classified systems Google Microsoft Amazon OpenAI
+- Anthropic Trump administration excluded Pentagon AI deal
+- CAISI AI model evaluation results national security 2026
+- AI model vetting government testing program expansion 2026
+deepdive_article: '[[待填写]]'
 ---
+
 
 # 美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic 被排除
 

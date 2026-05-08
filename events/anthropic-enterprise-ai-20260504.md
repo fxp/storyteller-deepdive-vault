@@ -1,48 +1,51 @@
 ---
-id: "anthropic-enterprise-ai-20260504"
-title: "Anthropic + Blackstone 联合组建企业 AI 交付公司"
-seed_url: "https://www.anthropic.com/news/enterprise-ai-services-company"
+id: anthropic-enterprise-ai-20260504
+title: Anthropic + Blackstone 联合组建企业 AI 交付公司
+seed_url: https://www.anthropic.com/news/enterprise-ai-services-company
 published_date: 2026-05-04
 status: ACTIVE
-last_check: "2026-05-08T04:00"
+last_check: 2026-05-08T04:00
 last_activity: 2026-05-04
-next_check: "2026-05-08T10:00"
+next_check: 2026-05-08T00:00
 interval_hours: 6
 consecutive_empty: 11
 findings_count: 0
-tags: [tracker, ACTIVE]
+tags:
+- tracker
+- ACTIVE
 entities:
   orgs:
-    - Anthropic
-    - Blackstone
-    - "Hellman & Friedman"
-    - "Goldman Sachs"
-    - "General Atlantic"
-    - "Leonard Green"
-    - "Apollo Global Management"
-    - GIC
-    - "Sequoia Capital"
-    - Accenture
-    - Deloitte
-    - PwC
+  - Anthropic
+  - Blackstone
+  - Hellman & Friedman
+  - Goldman Sachs
+  - General Atlantic
+  - Leonard Green
+  - Apollo Global Management
+  - GIC
+  - Sequoia Capital
+  - Accenture
+  - Deloitte
+  - PwC
   people:
-    - "Krishna Rao（Anthropic CFO）"
+  - Krishna Rao（Anthropic CFO）
   products:
-    - Claude
-    - "Claude Partner Network"
+  - Claude
+  - Claude Partner Network
   topics:
-    - "enterprise AI services"
-    - "systems integrators"
-    - "mid-market AI deployment"
-    - "AI professional services"
+  - enterprise AI services
+  - systems integrators
+  - mid-market AI deployment
+  - AI professional services
 search_queries:
-  - "Anthropic Blackstone enterprise AI services company launch customers"
-  - "Hellman Friedman Goldman Sachs Claude AI delivery company name"
-  - "Claude Partner Network new member firm 2026"
-  - "Anthropic applied AI engineers enterprise mid-market deployment"
-  - "Anthropic enterprise services OpenAI Google professional services competitor"
-deepdive_article: "[[待填写]]"
+- Anthropic Blackstone enterprise AI services company launch customers
+- Hellman Friedman Goldman Sachs Claude AI delivery company name
+- Claude Partner Network new member firm 2026
+- Anthropic applied AI engineers enterprise mid-market deployment
+- Anthropic enterprise services OpenAI Google professional services competitor
+deepdive_article: '[[待填写]]'
 ---
+
 
 # Anthropic + Blackstone 联合组建企业 AI 交付公司
 
