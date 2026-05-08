@@ -1,17 +1,17 @@
 ---
 event: "[[caisi-ai-security-testing-20260505]]"
 date: 2026-05-08
-url: "https://www.defenseone.com/business/2026/05/ai-pentagon-classified-networks/413268/"
-source_title: "7 AI firms cleared to provide tools for classified Pentagon networks - Defense One"
+url: "https://www.facebook.com/weareticker/posts/the-pentagon-signed-eight-ai-giants-for-classified-network-accessin-microsoft-am/1679904673493223/"
+source_title: "The Pentagon signed eight AI giants for classified network access. IN"
 relevance: RELEVANT
 ---
 
-# 7 AI firms cleared to provide tools for classified Pentagon networks - Defense One
+# The Pentagon signed eight AI giants for classified network access. IN
 
-**来源**: [7 AI firms cleared to provide tools for classified Pentagon networks - Defense One](https://www.defenseone.com/business/2026/05/ai-pentagon-classified-networks/413268/)
+**来源**: [The Pentagon signed eight AI giants for classified network access. IN](https://www.facebook.com/weareticker/posts/the-pentagon-signed-eight-ai-giants-for-classified-network-accessin-microsoft-am/1679904673493223/)
 **发现时间**: 2026-05-08
 **所属事件**: [[caisi-ai-security-testing-20260505]]
 
 ## 摘要
 
-七家领先的AI开发商被授权在国防部的机密网络中安装工具，以防止供应商锁定。
+美国国防部与八家AI巨头签署了机密网络访问协议，包括微软、亚马逊、OpenAI、谷歌、英伟达、SpaceX、甲骨文和Reflection，但排除了Anthropic。

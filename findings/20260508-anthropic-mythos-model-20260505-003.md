@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-08
-url: "https://securityaffairs.com/191087/ai/the-us-nsa-is-using-anthropics-claude-mythos-despite-supply-chain-risk.html"
-source_title: "The US NSA is using Anthropic's Claude Mythos despite supply chain risk"
+url: "https://medium.com/@davidroliver/anthropic-mythos-real-threat-or-marketing-drama-21b2f5e49d19"
+source_title: "Anthropic Mythos: Real Threat or Marketing Drama? - Medium"
 relevance: RELEVANT
 ---
 
-# The US NSA is using Anthropic's Claude Mythos despite supply chain risk
+# Anthropic Mythos: Real Threat or Marketing Drama? - Medium
 
-**来源**: [The US NSA is using Anthropic's Claude Mythos despite supply chain risk](https://securityaffairs.com/191087/ai/the-us-nsa-is-using-anthropics-claude-mythos-despite-supply-chain-risk.html)
+**来源**: [Anthropic Mythos: Real Threat or Marketing Drama? - Medium](https://medium.com/@davidroliver/anthropic-mythos-real-threat-or-marketing-drama-21b2f5e49d19)
 **发现时间**: 2026-05-08
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-尽管存在供应链风险，美国国家安全局（NSA）仍在使用Anthropic的Claude Mythos模型。
+Anthropic的Mythos Preview被宣布为前沿AI模型，但故意没有公开发布。

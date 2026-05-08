@@ -4,12 +4,12 @@ title: 美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-08T16:40
+last_check: 2026-05-08T20:30
 last_activity: '2026-05-08'
-next_check: 2026-05-08T19:40
+next_check: 2026-05-08T23:30
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 32
+findings_count: 36
 tags:
 - tracker
 - HOT
@@ -124,4 +124,9 @@ deepdive_article: '[[待填写]]'
 - [Trump says he fired Anthropic ‘like dogs’ as Pentagon formally blacklists AI startup | Technology | The Guardian](https://www.theguardian.com/technology/2026/mar/05/trump-anthropic-ai-pentagon) — 特朗普吹嘘解除了美国军方与AI初创公司Anthropic的联系，同时有报道称国防部和该初创公司就军事使用其AI进行了谈判。
 - [Judge blocks Pentagon from labeling Anthropic AI a "supply chain risk" and halts Trump's ban on federal use - CBS News](https://www.cbsnews.com/news/anthropic-ruling-judge-trump-pentagon-ai/) — 一位法官阻止了五角大楼将Anthropic AI标记为“供应链风险”并暂停了特朗普对联邦使用该公司的禁令。
 - [The U.S. government is expanding its AI risk testing program ...](https://www.instagram.com/p/DYAGJSCjVKB/) — 美国政府正在扩大其AI风险测试计划，包括Google DeepMind、微软和xAI在内的公司正在加入这一努力。
+### 2026-05-08
+- [The Pentagon signed eight AI giants for classified network access. IN](https://www.facebook.com/weareticker/posts/the-pentagon-signed-eight-ai-giants-for-classified-network-accessin-microsoft-am/1679904673493223/) — 美国国防部与八家AI巨头签署了机密网络访问协议，包括微软、亚马逊、OpenAI、谷歌、英伟达、SpaceX、甲骨文和Reflection，但排除了Anthropic。
+- [Pentagon signs AI deals with tech giants, excludes Anthropic - MSN](https://www.msn.com/en-us/news/other/pentagon-inks-ai-deals-with-major-firms-leaves-out-anthropic/gm-GMEFB5BFCD?ocid=TobArticle) — 五角大楼与科技巨头签署了AI协议，排除了Anthropic，因为该公司被国防部认定为供应链风险。
+- [U.S. government to test AI models, expand oversight - UPI.com](https://www.upi.com/Top_News/US/2026/05/05/govt-to-vet-AI-models/2521778004357/) — 美国政府对AI模型进行测试并扩大监管，与微软、xAI和谷歌DeepMind达成协议进行测试和针对性研究。
+- [White House considers government reviews for AI models, NYT reports](https://www.reuters.com/world/white-house-considers-vetting-ai-models-before-they-are-released-nyt-reports-2026-05-04/) — 白宫考虑在AI模型发布前对其进行政府审查，据《纽约时报》报道。
 

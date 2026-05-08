@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-enterprise-ai-20260504]]"
 date: 2026-05-08
-url: "https://www.reddit.com/r/AIGuild/comments/1t3yfdh/anthropic_is_building_its_own_enterprise_ai/"
-source_title: "Anthropic Is Building Its Own Enterprise AI Deployment Company"
+url: "https://www.inc.com/lucia-auerbach/anthropic-announces-new-joint-venture-for-businesses/91339979"
+source_title: "Claude Is Coming to Your Office: Anthropic Announces $1.5 Billion ..."
 relevance: RELEVANT
 ---
 
-# Anthropic Is Building Its Own Enterprise AI Deployment Company
+# Claude Is Coming to Your Office: Anthropic Announces $1.5 Billion ...
 
-**来源**: [Anthropic Is Building Its Own Enterprise AI Deployment Company](https://www.reddit.com/r/AIGuild/comments/1t3yfdh/anthropic_is_building_its_own_enterprise_ai/)
+**来源**: [Claude Is Coming to Your Office: Anthropic Announces $1.5 Billion ...](https://www.inc.com/lucia-auerbach/anthropic-announces-new-joint-venture-for-businesses/91339979)
 **发现时间**: 2026-05-08
 **所属事件**: [[anthropic-enterprise-ai-20260504]]
 
 ## 摘要
 
-Anthropic宣布与Blackstone、Hellman & Friedman和Goldman Sachs合作，成立了一家新的AI服务公司，以帮助中型企业部署AI。
+Anthropic宣布成立新的联合企业，专注于AI的推广和分发，估值约为15亿美元。

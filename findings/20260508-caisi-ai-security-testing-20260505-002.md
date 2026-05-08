@@ -1,17 +1,17 @@
 ---
 event: "[[caisi-ai-security-testing-20260505]]"
 date: 2026-05-08
-url: "https://www.instagram.com/reel/DXztf1ukxDd/"
-source_title: "The Pentagon said Friday that it has reached deals with seven tech ..."
+url: "https://www.msn.com/en-us/news/other/pentagon-inks-ai-deals-with-major-firms-leaves-out-anthropic/gm-GMEFB5BFCD?ocid=TobArticle"
+source_title: "Pentagon signs AI deals with tech giants, excludes Anthropic - MSN"
 relevance: RELEVANT
 ---
 
-# The Pentagon said Friday that it has reached deals with seven tech ...
+# Pentagon signs AI deals with tech giants, excludes Anthropic - MSN
 
-**来源**: [The Pentagon said Friday that it has reached deals with seven tech ...](https://www.instagram.com/reel/DXztf1ukxDd/)
+**来源**: [Pentagon signs AI deals with tech giants, excludes Anthropic - MSN](https://www.msn.com/en-us/news/other/pentagon-inks-ai-deals-with-major-firms-leaves-out-anthropic/gm-GMEFB5BFCD?ocid=TobArticle)
 **发现时间**: 2026-05-08
 **所属事件**: [[caisi-ai-security-testing-20260505]]
 
 ## 摘要
 
-五角大楼与包括OpenAI、谷歌、微软和亚马逊在内的七家主要科技公司达成协议，将AI集成到美国军事系统中。
+五角大楼与科技巨头签署了AI协议，排除了Anthropic，因为该公司被国防部认定为供应链风险。

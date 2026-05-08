@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-08T16:40
+last_check: 2026-05-08T20:30
 last_activity: '2026-05-08'
-next_check: 2026-05-08T19:40
+next_check: 2026-05-08T23:30
 interval_hours: 3
-consecutive_empty: 1
-findings_count: 27
+consecutive_empty: 0
+findings_count: 32
 tags:
 - tracker
 - HOT
@@ -104,3 +104,10 @@ deepdive_article: '[[待填写]]'
 - [Claude Mythos Review: Anthropic's Most Powerful AI Model That ...](https://www.linkedin.com/pulse/claude-mythos-review-anthropics-most-powerful-ai-model-motasem-hamdan-ifuvf) — Claude Mythos被评价为Anthropic最强大的AI模型，其性能可能突破2000的基准记录。
 - [[PDF] Claude Mythos Preview System Card - Anthropic](https://www-cdn.anthropic.com/8b8380204f74670be75e81c820ca8dda846ab289.pdf) — Anthropic发布了Claude Mythos预览系统卡，展示了该模型在多个评估基准上的显著进步。
 - [Anthropic's Mythos puts DC, Wall Street on high alert](https://thehill.com/policy/technology/5829315-anthropic-mythos-ai-cybersecurity-risks/) — Anthropic的Mythos AI模型引发了安全担忧，使华盛顿官员处于高度戒备状态。
+### 2026-05-08
+- [Anthropic's Claude Mythos Preview Launched with Advanced ...](https://www.linkedin.com/posts/sadiakhalil_assessing-claude-mythos-previews-cybersecurity-activity-7448148271002189824-ZCdk) — Anthropic发布了Mythos前沿模型，这是一个受限的研究模型，旨在提高网络安全。
+- [Claude Mythos Preview: What Developers Need to Know - Verdent ...](https://www.verdent.ai/it/guides/claude-mythos-preview) — Anthropic的Mythos Preview作为Project Glasswing的一部分发布，旨在帮助保护关键软件。
+- [Anthropic Mythos: Real Threat or Marketing Drama? - Medium](https://medium.com/@davidroliver/anthropic-mythos-real-threat-or-marketing-drama-21b2f5e49d19) — Anthropic的Mythos Preview被宣布为前沿AI模型，但故意没有公开发布。
+- [Anthropic just launched Claude Managed Agents. Here's the 2026 ...](https://www.reddit.com/r/Cyclopt/comments/1sl6y8z/anthropic_just_launched_claude_managed_agents/) — Anthropic的Mythos模型引起了白宫的关注，尽管之前被列入黑名单。
+- [Anthropic’s Claude Mythos and the AI Cybersecurity Reckoning](https://entro.security/blog/anthropics-claude-mythos-and-the-ai-cybersecurity-reckoning/) — Anthropic的Mythos模型被用于加强全球最重要的代码库的安全性。
+
