@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-08
-url: "https://www.apexhours.com/claude-mythos-why-it-is-too-dangerous-to-launch/"
-source_title: "Claude Mythos: Why Anthropic Says Its Most Powerful Model Is Too Dangerous to Launch - Apex Hours"
+url: "https://www.weforum.org/stories/2026/04/anthropic-mythos-ai-cybersecurity/"
+source_title: "Anthropic's Mythos moment: how frontier AI is redefining cybersecurity"
 relevance: RELEVANT
 ---
 
-# Claude Mythos: Why Anthropic Says Its Most Powerful Model Is Too Dangerous to Launch - Apex Hours
+# Anthropic's Mythos moment: how frontier AI is redefining cybersecurity
 
-**来源**: [Claude Mythos: Why Anthropic Says Its Most Powerful Model Is Too Dangerous to Launch - Apex Hours](https://www.apexhours.com/claude-mythos-why-it-is-too-dangerous-to-launch/)
+**来源**: [Anthropic's Mythos moment: how frontier AI is redefining cybersecurity](https://www.weforum.org/stories/2026/04/anthropic-mythos-ai-cybersecurity/)
 **发现时间**: 2026-05-08
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-Anthropic的Mythos AI模型被发现具有强大的安全漏洞识别能力，但被认为过于危险而无法发布。
+Anthropic的Mythos模型被描述为重新定义了网络安全，AI进入了以安全为首要的时代。

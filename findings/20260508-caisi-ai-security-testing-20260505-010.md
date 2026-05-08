@@ -1,17 +1,17 @@
 ---
 event: "[[caisi-ai-security-testing-20260505]]"
 date: 2026-05-08
-url: "https://blogs.microsoft.com/on-the-issues/2026/05/05/advancing-ai-evaluation-with-the-center-for-ai-standards-us-and-innovation-and-the-ai-security-institute-uk/"
-source_title: "Advancing AI evaluation with the Center for AI Standards (US) and ..."
+url: "https://www.cnn.com/2026/05/01/tech/pentagon-ai-anthropic"
+source_title: "Pentagon strikes deals with 8 Big Tech companies after shunning ..."
 relevance: RELEVANT
 ---
 
-# Advancing AI evaluation with the Center for AI Standards (US) and ...
+# Pentagon strikes deals with 8 Big Tech companies after shunning ...
 
-**来源**: [Advancing AI evaluation with the Center for AI Standards (US) and ...](https://blogs.microsoft.com/on-the-issues/2026/05/05/advancing-ai-evaluation-with-the-center-for-ai-standards-us-and-innovation-and-the-ai-security-institute-uk/)
+**来源**: [Pentagon strikes deals with 8 Big Tech companies after shunning ...](https://www.cnn.com/2026/05/01/tech/pentagon-ai-anthropic)
 **发现时间**: 2026-05-08
 **所属事件**: [[caisi-ai-security-testing-20260505]]
 
 ## 摘要
 
-微软宣布与CAISI和AI安全研究所合作，以推进AI测试和评估的科学。
+五角大楼与8家大型科技公司达成协议，在忽视Anthropic之后。

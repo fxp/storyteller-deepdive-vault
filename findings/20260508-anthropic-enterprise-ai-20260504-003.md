@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-enterprise-ai-20260504]]"
 date: 2026-05-08
-url: "https://www.connectmoney.com/stories/anthropic-blackstone-and-partners-launch-ai-native-enterprise-services-firm/"
-source_title: "Anthropic, Blackstone and Partners Launch AI-Native Enterprise Services Firm - Connect Money"
+url: "https://x.com/shanaka86/status/2051905492868616674"
+source_title: "On April 6, Goldman Sachs published research showing AI ..."
 relevance: RELEVANT
 ---
 
-# Anthropic, Blackstone and Partners Launch AI-Native Enterprise Services Firm - Connect Money
+# On April 6, Goldman Sachs published research showing AI ...
 
-**来源**: [Anthropic, Blackstone and Partners Launch AI-Native Enterprise Services Firm - Connect Money](https://www.connectmoney.com/stories/anthropic-blackstone-and-partners-launch-ai-native-enterprise-services-firm/)
+**来源**: [On April 6, Goldman Sachs published research showing AI ...](https://x.com/shanaka86/status/2051905492868616674)
 **发现时间**: 2026-05-08
 **所属事件**: [[anthropic-enterprise-ai-20260504]]
 
 ## 摘要
 
-Anthropic 与 Blackstone、Hellman & Friedman 和 Goldman Sachs 合作成立了一家新的 AI 原生企业服务公司。
+Goldman Sachs 发布了关于 AI 的研究，显示与 Blackstone、Goldman 和 Hellman & Friedman 的 15 亿美元合资企业创建了一个嵌入式 Claude 的前沿部署工程运营。

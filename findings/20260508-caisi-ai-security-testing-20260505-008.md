@@ -1,17 +1,17 @@
 ---
 event: "[[caisi-ai-security-testing-20260505]]"
 date: 2026-05-08
-url: "https://www.npr.org/2026/02/27/nx-s1-5729118/trump-anthropic-pentagon-openai-ai-weapons-ban"
-source_title: "OpenAI announces Pentagon deal after Trump bans Anthropic - NPR"
+url: "https://www.military.com/us-military-reaches-deals-with-7-tech-companies-to-use-their-ai-on-classified-systems"
+source_title: "US Military Reaches Deals with 7 Tech Companies to Use Their AI on Classified Systems"
 relevance: RELEVANT
 ---
 
-# OpenAI announces Pentagon deal after Trump bans Anthropic - NPR
+# US Military Reaches Deals with 7 Tech Companies to Use Their AI on Classified Systems
 
-**来源**: [OpenAI announces Pentagon deal after Trump bans Anthropic - NPR](https://www.npr.org/2026/02/27/nx-s1-5729118/trump-anthropic-pentagon-openai-ai-weapons-ban)
+**来源**: [US Military Reaches Deals with 7 Tech Companies to Use Their AI on Classified Systems](https://www.military.com/us-military-reaches-deals-with-7-tech-companies-to-use-their-ai-on-classified-systems)
 **发现时间**: 2026-05-08
 **所属事件**: [[caisi-ai-security-testing-20260505]]
 
 ## 摘要
 
-OpenAI在特朗普禁止Anthropic后宣布与五角大楼达成协议。
+美国军方与7家科技公司达成协议，在机密系统中使用其AI。

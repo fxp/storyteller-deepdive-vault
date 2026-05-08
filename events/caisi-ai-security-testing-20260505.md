@@ -4,12 +4,12 @@ title: 美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-08T09:37
+last_check: 2026-05-08T12:42
 last_activity: '2026-05-08'
-next_check: 2026-05-08T12:37
+next_check: 2026-05-08T15:42
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 13
+findings_count: 27
 tags:
 - tracker
 - HOT
@@ -103,4 +103,19 @@ deepdive_article: '[[待填写]]'
 - [US government agency to safety test frontier AI models before release](https://www.cio.com/article/4168122/us-government-agency-to-safety-test-frontier-ai-models-before-release.html) — 美国政府机构将在AI模型发布前对其进行安全测试。
 - [AI Vetting Shifts National Security Policy - AI CERTs News](https://www.aicerts.ai/news/ai-vetting-shifts-national-security-policy/) — AI审查转变了国家安全政策。
 - [Microsoft, Google and xAI will let the government test their AI models ...](https://www.cnn.com/2026/05/05/tech/microsoft-google-xai-government-test-ai-models) — Microsoft、Google和xAI将允许政府在AI模型发布前对其进行测试。
+### 2026-05-08
+- [CAISI Signs Frontier AI Testing Agreements With Google DeepMind, Microsoft, and xAI: What You Need to Know | Knowledge Hub Media](https://knowledgehubmedia.com/caisi-signs-frontier-ai-testing-agreements-with-google-deepmind-microsoft-and-xai-what-you-need-to-know/) — CAISI与Google DeepMind、Microsoft和xAI签署了前沿AI测试协议。
+- [CAISI Enters Security Testing Agreements With Google, Microsoft ...](https://www.linkedin.com/posts/meritalk_caisi-enters-security-testing-agreements-activity-7457533213058445312-TJ6k) — CAISI与Google、Microsoft达成安全测试协议。
+- [Google, Microsoft and xAI's frontier AI to face national security testing](https://www.ciodive.com/news/Google-Microsoft-xAI-to-face-security-testing/819375/) — Google、Microsoft和xAI的前沿AI将面临国家安全测试。
+- [Pentagon reaches deal with leading AI companies for classified work](https://thehill.com/policy/technology/5858995-pentagon-ai-companies-classified-work-deal/) — 五角大楼与领先的AI公司达成协议，在国防部的机密网络中部署其AI系统。
+- [Pentagon clears 8 tech firms to deploy their AI on its classified ...](https://breakingdefense.com/2026/05/pentagon-clears-7-tech-firms-to-deploy-their-ai-on-its-classified-networks/) — 五角大楼批准8家科技公司在其机密网络上部署AI。
+- [US military and 7 companies make deals to use AI ...](https://apnews.com/article/pentagon-artificial-intelligence-military-classified-systems-war-060cecf836c4cebcf012a3ceb5333f2c) — 美国军方与7家公司达成协议，使用其AI。
+- [Pentagon signs AI deals with OpenAI, Google, Microsoft and Amazon](https://uk.finance.yahoo.com/news/pentagon-signs-ai-deals-openai-145000657.html) — 五角大楼与OpenAI、Google、Microsoft和Amazon签署AI协议。
+- [US Military Reaches Deals with 7 Tech Companies to Use Their AI on Classified Systems](https://www.military.com/us-military-reaches-deals-with-7-tech-companies-to-use-their-ai-on-classified-systems) — 美国军方与7家科技公司达成协议，在机密系统中使用其AI。
+- [Pentagon Signs Classified AI Deals With Tech Giants, Snubs Anthropic](https://thedefensepost.com/2026/05/04/pentagon-snubs-anthropic-ai/) — 五角大楼与科技巨头签署机密AI协议，忽视Anthropic。
+- [Pentagon strikes deals with 8 Big Tech companies after shunning ...](https://www.cnn.com/2026/05/01/tech/pentagon-ai-anthropic) — 五角大楼与8家大型科技公司达成协议，在忽视Anthropic之后。
+- [Anthropic Rejects Pentagon AI Deal: Claude Hits #1 ... - ALM Corp](https://almcorp.com/blog/anthropic-rejects-pentagon-deal-claude-number-one-app-store-military-ai-2026/) — Anthropic拒绝五角大楼的AI协议，Claude成为美国军事AI的No.1应用。
+- [Pentagon taps 7 tech companies for classified AI, shuns Anthropic](https://www.youtube.com/watch?v=5U5n0k3nLHw) — 五角大楼选择7家AI公司进行机密AI工作。
+- [US government to test AI models, expand oversight - MSN](https://www.msn.com/en-us/money/other/us-government-to-test-ai-models-expand-oversight/ar-AA22rBYv) — 美国政府将测试AI模型，扩大监管。
+- [Data Points: US government to vet new models - DeepLearning.AI](https://www.deeplearning.ai/the-batch/us-government-to-vet-new-models/) — 美国政府将审查新模型。
 

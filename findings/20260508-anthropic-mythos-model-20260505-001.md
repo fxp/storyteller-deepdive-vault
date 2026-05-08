@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-08
-url: "https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/"
-source_title: "Anthropic debuts preview of powerful new AI model Mythos in new ..."
+url: "https://www.nytimes.com/2026/04/07/technology/anthropic-claims-its-new-ai-model-mythos-is-a-cybersecurity-reckoning.html"
+source_title: "Anthropic Claims Its New A.I. Model, Mythos, Is a Cybersecurity ..."
 relevance: RELEVANT
 ---
 
-# Anthropic debuts preview of powerful new AI model Mythos in new ...
+# Anthropic Claims Its New A.I. Model, Mythos, Is a Cybersecurity ...
 
-**来源**: [Anthropic debuts preview of powerful new AI model Mythos in new ...](https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/)
+**来源**: [Anthropic Claims Its New A.I. Model, Mythos, Is a Cybersecurity ...](https://www.nytimes.com/2026/04/07/technology/anthropic-claims-its-new-ai-model-mythos-is-a-cybersecurity-reckoning.html)
 **发现时间**: 2026-05-08
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-Anthropic发布Mythos AI模型，该模型在安全方面存在风险，因此尚未公开发布。
+Anthropic的新AI模型Mythos被宣布，引发全球安全震动，该模型被用于网络安全领域，并引起了国家安全方面的担忧。

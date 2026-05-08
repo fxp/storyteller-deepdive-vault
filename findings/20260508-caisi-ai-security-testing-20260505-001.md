@@ -1,17 +1,17 @@
 ---
 event: "[[caisi-ai-security-testing-20260505]]"
 date: 2026-05-08
-url: "https://www.theguardian.com/technology/2026/may/05/commerce-department-ai-agreements-google-microsoft-xai"
-source_title: "US and tech firms strike deal to review AI models for national security before public release | Technology | The Guardian"
+url: "https://knowledgehubmedia.com/caisi-signs-frontier-ai-testing-agreements-with-google-deepmind-microsoft-and-xai-what-you-need-to-know/"
+source_title: "CAISI Signs Frontier AI Testing Agreements With Google DeepMind, Microsoft, and xAI: What You Need to Know | Knowledge Hub Media"
 relevance: RELEVANT
 ---
 
-# US and tech firms strike deal to review AI models for national security before public release | Technology | The Guardian
+# CAISI Signs Frontier AI Testing Agreements With Google DeepMind, Microsoft, and xAI: What You Need to Know | Knowledge Hub Media
 
-**来源**: [US and tech firms strike deal to review AI models for national security before public release | Technology | The Guardian](https://www.theguardian.com/technology/2026/may/05/commerce-department-ai-agreements-google-microsoft-xai)
+**来源**: [CAISI Signs Frontier AI Testing Agreements With Google DeepMind, Microsoft, and xAI: What You Need to Know | Knowledge Hub Media](https://knowledgehubmedia.com/caisi-signs-frontier-ai-testing-agreements-with-google-deepmind-microsoft-and-xai-what-you-need-to-know/)
 **发现时间**: 2026-05-08
 **所属事件**: [[caisi-ai-security-testing-20260505]]
 
 ## 摘要
 
-美国政府与Google DeepMind、Microsoft和xAI签署了AI安全测试协议，以在AI模型公开发布前对其进行审查。
+CAISI与Google DeepMind、Microsoft和xAI签署了前沿AI测试协议。

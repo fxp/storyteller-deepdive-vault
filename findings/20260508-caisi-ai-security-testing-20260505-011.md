@@ -1,17 +1,17 @@
 ---
 event: "[[caisi-ai-security-testing-20260505]]"
 date: 2026-05-08
-url: "https://www.cio.com/article/4168122/us-government-agency-to-safety-test-frontier-ai-models-before-release.html"
-source_title: "US government agency to safety test frontier AI models before release"
+url: "https://almcorp.com/blog/anthropic-rejects-pentagon-deal-claude-number-one-app-store-military-ai-2026/"
+source_title: "Anthropic Rejects Pentagon AI Deal: Claude Hits #1 ... - ALM Corp"
 relevance: RELEVANT
 ---
 
-# US government agency to safety test frontier AI models before release
+# Anthropic Rejects Pentagon AI Deal: Claude Hits #1 ... - ALM Corp
 
-**来源**: [US government agency to safety test frontier AI models before release](https://www.cio.com/article/4168122/us-government-agency-to-safety-test-frontier-ai-models-before-release.html)
+**来源**: [Anthropic Rejects Pentagon AI Deal: Claude Hits #1 ... - ALM Corp](https://almcorp.com/blog/anthropic-rejects-pentagon-deal-claude-number-one-app-store-military-ai-2026/)
 **发现时间**: 2026-05-08
 **所属事件**: [[caisi-ai-security-testing-20260505]]
 
 ## 摘要
 
-美国政府机构将在AI模型发布前对其进行安全测试。
+Anthropic拒绝五角大楼的AI协议，Claude成为美国军事AI的No.1应用。
