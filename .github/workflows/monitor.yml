@@ -10,12 +10,12 @@ jobs:
     name: Run monitoring
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    permissions:
+      contents: write   # 允许 git push 回 vault repo
 
     steps:
       - name: Checkout vault
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.VAULT_GITHUB_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
