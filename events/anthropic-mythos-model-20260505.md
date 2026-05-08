@@ -3,16 +3,16 @@ id: anthropic-mythos-model-20260505
 title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
-status: ACTIVE
-last_check: 2026-05-08T04:00
-last_activity: 2026-05-05
-next_check: 2026-05-08T00:00
-interval_hours: 6
-consecutive_empty: 11
-findings_count: 0
+status: HOT
+last_check: 2026-05-08T09:37
+last_activity: '2026-05-08'
+next_check: 2026-05-08T12:37
+interval_hours: 3
+consecutive_empty: 0
+findings_count: 18
 tags:
 - tracker
-- ACTIVE
+- HOT
 entities:
   orgs:
   - Anthropic
@@ -39,7 +39,6 @@ search_queries:
 - Mythos AI model government response reaction
 deepdive_article: '[[待填写]]'
 ---
-
 
 # Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 
@@ -76,3 +75,23 @@ deepdive_article: '[[待填写]]'
 ## 相关文章
 
 - （DeepDive 原文待发布后填入）
+### 2026-05-08
+- [Anthropic debuts preview of powerful new AI model Mythos in new ...](https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/) — Anthropic发布Mythos AI模型，该模型在安全方面存在风险，因此尚未公开发布。
+- [Claude Mythos: Why Anthropic Says Its Most Powerful Model Is Too Dangerous to Launch - Apex Hours](https://www.apexhours.com/claude-mythos-why-it-is-too-dangerous-to-launch/) — Anthropic的Mythos AI模型被发现具有强大的安全漏洞识别能力，但被认为过于危险而无法发布。
+- [Anthropic limits rollout of Mythos AI model over cyberattack fears](https://www.cnbc.com/2026/04/07/anthropic-claude-mythos-ai-hackers-cyberattacks.html) — Anthropic的Mythos AI模型因网络安全担忧而限制发布，将仅提供给特定公司用于防御性安全工作。
+- [Exclusive: Anthropic 'Mythos' AI model representing 'step change' in ...](https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities/) — Anthropic的Mythos AI模型在测试中表现出色，但被认为过于强大而无法公开发布。
+- [Anthropic's latest AI model could let hackers carry out attacks ... - CNN](https://www.cnn.com/2026/04/07/tech/anthropic-claude-mythos-preview-cybersecurity) — Anthropic的Mythos AI模型旨在帮助网络安全公司，但被认为可能被黑客滥用。
+- [Former national cyber director: Anthropic's 'Mythos' AI can hack nearly anything and we aren't ready | Fortune](https://fortune.com/2026/04/23/anthropic-mythos-ai-cybersecurity-critical-infrastructure-kemba-walden/) — 前国家网络安全总监表示，Anthropic的Mythos AI模型过于强大，可能对国家安全构成风险。
+- [Anthropic's Mythos AI Becomes A National Security Risk](https://www.youtube.com/watch?v=O7jjONv1o5Q) — Anthropic的Mythos AI模型引发全球安全担忧，印度金融系统面临新风险。
+- [AI hacking fears jolt Washington as Anthropic unveils Mythos - The Washington Post](https://www.washingtonpost.com/technology/2026/04/24/anthropic-mythos-ai-washington-cybersecurity-hacking-risk/) — Anthropic的Mythos AI模型引发华盛顿的担忧，特朗普政府试图评估其风险。
+- [US security agency is using Anthropic's Mythos despite ...](https://www.reuters.com/business/us-security-agency-is-using-anthropics-mythos-despite-blacklist-axios-reports-2026-04-19/) — 尽管五角大楼将其列入黑名单，美国国家安全局仍在使用Anthropic的Mythos AI模型。
+- [What is Anthopic's Claude Mythos and what risks does it pose? - BBC](https://www.bbc.com/news/articles/crk1py1jgzko) — Anthropic的Mythos AI模型引发对AI风险的担忧，包括其潜在的安全风险。
+- [Claude Mythos leads 17 of 18 benchmarks Anthropic ... - R&D World](https://www.rdworldonline.com/claude-mythos-leads-17-of-18-benchmarks-anthropic-measured-muse-spark-put-meta-back-in-the-frontier-club-and-openais-spud-model-is-reportedly-near-launch/) — Anthropic的Mythos AI模型在基准测试中表现出色，但公司表示该模型过于强大而无法公开发布。
+- [Claude Mythos Benchmarks: 93.9% SWE-Bench and 59 ...](https://www.mindstudio.ai/blog/claude-mythos-benchmark-results-swe-bench/) — Anthropic的Mythos AI模型在基准测试中取得了优异的成绩，但被认为过于强大而无法公开发布。
+- [Everything You Need to Know About Claude Mythos](https://www.vellum.ai/blog/everything-you-need-to-know-about-claude-mythos) — Anthropic的Mythos AI模型在数学推理基准测试中表现出色，被认为是AI领域的一大飞跃。
+- [Anthropic's New Mythos A.I. Model Sets Off Global Alarms](https://www.nytimes.com/2026/04/22/technology/anthropics-mythos-ai.html) — Anthropic的Mythos AI模型引发全球安全警报，引发对AI伦理的讨论。
+- [Why Anthropic's new Mythos AI model has Washington and Wall Street worked up | Euronews](https://www.euronews.com/next/2026/04/14/why-anthropics-new-mythos-ai-model-has-washington-and-wall-street-worked-up) — Anthropic的Mythos AI模型引发华盛顿和华尔街的担忧，公司正在与政府进行紧急讨论。
+- [Claude Mythos: China Reacts - by Irene Zhang - ChinaTalk](https://www.chinatalk.media/p/chinese-reactions-to-claude-mythos) — Anthropic的Mythos AI模型引发中国反应，被认为具有强大的网络安全能力。
+- [US Govt sounds alarm on Mythos AI, even as Anthropic closes in on ...](https://www.facebook.com/thinkdigit/posts/us-govt-sounds-alarm-on-mythos-ai-even-as-anthropic-closes-in-on-openais-valuati/1307977594762818/) — 美国政府警告银行家关于Mythos AI模型的风险，该模型可以自动化代码编写以入侵计算机系统。
+- [Finance ministers and bankers raise serious concerns about Mythos ...](https://www.bbc.com/news/articles/c2ev24yx4rmo) — 财政部长和银行家对Mythos AI模型表示严重关切，该模型可能对金融系统构成风险。
+
