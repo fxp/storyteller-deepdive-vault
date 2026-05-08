@@ -4,11 +4,11 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-08T12:42
+last_check: 2026-05-08T16:40
 last_activity: '2026-05-08'
-next_check: 2026-05-08T15:42
+next_check: 2026-05-08T19:40
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 27
 tags:
 - tracker
@@ -104,4 +104,3 @@ deepdive_article: '[[待填写]]'
 - [Claude Mythos Review: Anthropic's Most Powerful AI Model That ...](https://www.linkedin.com/pulse/claude-mythos-review-anthropics-most-powerful-ai-model-motasem-hamdan-ifuvf) — Claude Mythos被评价为Anthropic最强大的AI模型，其性能可能突破2000的基准记录。
 - [[PDF] Claude Mythos Preview System Card - Anthropic](https://www-cdn.anthropic.com/8b8380204f74670be75e81c820ca8dda846ab289.pdf) — Anthropic发布了Claude Mythos预览系统卡，展示了该模型在多个评估基准上的显著进步。
 - [Anthropic's Mythos puts DC, Wall Street on high alert](https://thehill.com/policy/technology/5829315-anthropic-mythos-ai-cybersecurity-risks/) — Anthropic的Mythos AI模型引发了安全担忧，使华盛顿官员处于高度戒备状态。
-

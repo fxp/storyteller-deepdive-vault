@@ -4,12 +4,12 @@ title: Anthropic + Blackstone 联合组建企业 AI 交付公司
 seed_url: https://www.anthropic.com/news/enterprise-ai-services-company
 published_date: 2026-05-04
 status: HOT
-last_check: 2026-05-08T12:42
+last_check: 2026-05-08T16:40
 last_activity: '2026-05-08'
-next_check: 2026-05-08T15:42
+next_check: 2026-05-08T19:40
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 13
+findings_count: 17
 tags:
 - tracker
 - HOT
@@ -95,4 +95,9 @@ deepdive_article: '[[待填写]]'
 - [Anthropic launches enterprise AI firm with Blackstone, Goldman Sachs](https://qz.com/anthropic-blackstone-goldman-sachs-enterprise-ai-firm-050426?ref=morningtech.it) — Anthropic 与 Blackstone 和 Goldman Sachs 联合成立了一家价值 15 亿美元的企业 AI 公司，并计划将 Claude 集成到新公司中。
 - [Anthropic, Blackstone, Goldman Sachs Building A New AI Enterprise ...](https://www.youtube.com/watch?v=nsPKz4sQfRo) — Anthropic、Blackstone 和 Hellman & Friedman 各自投资 3 亿美元，共同成立了一家新的 AI 企业服务公司。
 - [On April 6, Goldman Sachs published research showing AI ...](https://x.com/shanaka86/status/2051905492868616674) — Goldman Sachs 发布了关于 AI 的研究，显示与 Blackstone、Goldman 和 Hellman & Friedman 的 15 亿美元合资企业创建了一个嵌入式 Claude 的前沿部署工程运营。
+### 2026-05-08
+- [Anthropic partners Wall Street firms to launch $1.5 billion Claude AI services firm - Storyboard18](https://www.storyboard18.com/brand-makers/anthropic-partners-wall-street-firms-to-launch-1-5-billion-claude-ai-services-firm-97129.htm) — Anthropic与华尔街公司合作，成立了一家价值15亿美元的Claude AI服务公司。
+- [Anthropic Forms New Enterprise AI Venture With Blackstone, Goldman Sachs and Hellman & Friedman - Alpha Spread](https://www.alphaspread.com/market-news/corporate-moves/anthropic-forms-new-enterprise-ai-venture-with-blackstone-goldman-sachs-and-hellman-friedman) — Anthropic与Blackstone、Hellman & Friedman和Goldman Sachs合作，成立了一家新的企业AI公司。
+- [Anthropic has partnered with Blackstone, Hellman & Friedman, and ...](https://www.instagram.com/p/DX8uWzrjTdj/) — Anthropic与Blackstone、Hellman & Friedman和Goldman Sachs合作，推出了一项新的AI服务公司。
+- [Anthropic Is Building Its Own Enterprise AI Deployment Company](https://www.reddit.com/r/AIGuild/comments/1t3yfdh/anthropic_is_building_its_own_enterprise_ai/) — Anthropic宣布与Blackstone、Hellman & Friedman和Goldman Sachs合作，成立了一家新的AI服务公司，以帮助中型企业部署AI。
 

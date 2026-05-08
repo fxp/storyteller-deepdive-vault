@@ -1,17 +1,17 @@
 ---
 event: "[[caisi-ai-security-testing-20260505]]"
 date: 2026-05-08
-url: "https://www.linkedin.com/posts/meritalk_caisi-enters-security-testing-agreements-activity-7457533213058445312-TJ6k"
-source_title: "CAISI Enters Security Testing Agreements With Google, Microsoft ..."
+url: "https://www.instagram.com/reel/DXztf1ukxDd/"
+source_title: "The Pentagon said Friday that it has reached deals with seven tech ..."
 relevance: RELEVANT
 ---
 
-# CAISI Enters Security Testing Agreements With Google, Microsoft ...
+# The Pentagon said Friday that it has reached deals with seven tech ...
 
-**来源**: [CAISI Enters Security Testing Agreements With Google, Microsoft ...](https://www.linkedin.com/posts/meritalk_caisi-enters-security-testing-agreements-activity-7457533213058445312-TJ6k)
+**来源**: [The Pentagon said Friday that it has reached deals with seven tech ...](https://www.instagram.com/reel/DXztf1ukxDd/)
 **发现时间**: 2026-05-08
 **所属事件**: [[caisi-ai-security-testing-20260505]]
 
 ## 摘要
 
-CAISI与Google、Microsoft达成安全测试协议。
+五角大楼与包括OpenAI、谷歌、微软和亚马逊在内的七家主要科技公司达成协议，将AI集成到美国军事系统中。

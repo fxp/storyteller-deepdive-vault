@@ -4,12 +4,12 @@ title: 美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-08T12:42
+last_check: 2026-05-08T16:40
 last_activity: '2026-05-08'
-next_check: 2026-05-08T15:42
+next_check: 2026-05-08T19:40
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 27
+findings_count: 32
 tags:
 - tracker
 - HOT
@@ -118,4 +118,10 @@ deepdive_article: '[[待填写]]'
 - [Pentagon taps 7 tech companies for classified AI, shuns Anthropic](https://www.youtube.com/watch?v=5U5n0k3nLHw) — 五角大楼选择7家AI公司进行机密AI工作。
 - [US government to test AI models, expand oversight - MSN](https://www.msn.com/en-us/money/other/us-government-to-test-ai-models-expand-oversight/ar-AA22rBYv) — 美国政府将测试AI模型，扩大监管。
 - [Data Points: US government to vet new models - DeepLearning.AI](https://www.deeplearning.ai/the-batch/us-government-to-vet-new-models/) — 美国政府将审查新模型。
+### 2026-05-08
+- [7 AI firms cleared to provide tools for classified Pentagon networks - Defense One](https://www.defenseone.com/business/2026/05/ai-pentagon-classified-networks/413268/) — 七家领先的AI开发商被授权在国防部的机密网络中安装工具，以防止供应商锁定。
+- [The Pentagon said Friday that it has reached deals with seven tech ...](https://www.instagram.com/reel/DXztf1ukxDd/) — 五角大楼与包括OpenAI、谷歌、微软和亚马逊在内的七家主要科技公司达成协议，将AI集成到美国军事系统中。
+- [Trump says he fired Anthropic ‘like dogs’ as Pentagon formally blacklists AI startup | Technology | The Guardian](https://www.theguardian.com/technology/2026/mar/05/trump-anthropic-ai-pentagon) — 特朗普吹嘘解除了美国军方与AI初创公司Anthropic的联系，同时有报道称国防部和该初创公司就军事使用其AI进行了谈判。
+- [Judge blocks Pentagon from labeling Anthropic AI a "supply chain risk" and halts Trump's ban on federal use - CBS News](https://www.cbsnews.com/news/anthropic-ruling-judge-trump-pentagon-ai/) — 一位法官阻止了五角大楼将Anthropic AI标记为“供应链风险”并暂停了特朗普对联邦使用该公司的禁令。
+- [The U.S. government is expanding its AI risk testing program ...](https://www.instagram.com/p/DYAGJSCjVKB/) — 美国政府正在扩大其AI风险测试计划，包括Google DeepMind、微软和xAI在内的公司正在加入这一努力。
 

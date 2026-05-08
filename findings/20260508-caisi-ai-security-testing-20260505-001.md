@@ -1,17 +1,17 @@
 ---
 event: "[[caisi-ai-security-testing-20260505]]"
 date: 2026-05-08
-url: "https://knowledgehubmedia.com/caisi-signs-frontier-ai-testing-agreements-with-google-deepmind-microsoft-and-xai-what-you-need-to-know/"
-source_title: "CAISI Signs Frontier AI Testing Agreements With Google DeepMind, Microsoft, and xAI: What You Need to Know | Knowledge Hub Media"
+url: "https://www.defenseone.com/business/2026/05/ai-pentagon-classified-networks/413268/"
+source_title: "7 AI firms cleared to provide tools for classified Pentagon networks - Defense One"
 relevance: RELEVANT
 ---
 
-# CAISI Signs Frontier AI Testing Agreements With Google DeepMind, Microsoft, and xAI: What You Need to Know | Knowledge Hub Media
+# 7 AI firms cleared to provide tools for classified Pentagon networks - Defense One
 
-**来源**: [CAISI Signs Frontier AI Testing Agreements With Google DeepMind, Microsoft, and xAI: What You Need to Know | Knowledge Hub Media](https://knowledgehubmedia.com/caisi-signs-frontier-ai-testing-agreements-with-google-deepmind-microsoft-and-xai-what-you-need-to-know/)
+**来源**: [7 AI firms cleared to provide tools for classified Pentagon networks - Defense One](https://www.defenseone.com/business/2026/05/ai-pentagon-classified-networks/413268/)
 **发现时间**: 2026-05-08
 **所属事件**: [[caisi-ai-security-testing-20260505]]
 
 ## 摘要
 
-CAISI与Google DeepMind、Microsoft和xAI签署了前沿AI测试协议。
+七家领先的AI开发商被授权在国防部的机密网络中安装工具，以防止供应商锁定。

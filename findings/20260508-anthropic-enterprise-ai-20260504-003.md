@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-enterprise-ai-20260504]]"
 date: 2026-05-08
-url: "https://x.com/shanaka86/status/2051905492868616674"
-source_title: "On April 6, Goldman Sachs published research showing AI ..."
+url: "https://www.instagram.com/p/DX8uWzrjTdj/"
+source_title: "Anthropic has partnered with Blackstone, Hellman & Friedman, and ..."
 relevance: RELEVANT
 ---
 
-# On April 6, Goldman Sachs published research showing AI ...
+# Anthropic has partnered with Blackstone, Hellman & Friedman, and ...
 
-**来源**: [On April 6, Goldman Sachs published research showing AI ...](https://x.com/shanaka86/status/2051905492868616674)
+**来源**: [Anthropic has partnered with Blackstone, Hellman & Friedman, and ...](https://www.instagram.com/p/DX8uWzrjTdj/)
 **发现时间**: 2026-05-08
 **所属事件**: [[anthropic-enterprise-ai-20260504]]
 
 ## 摘要
 
-Goldman Sachs 发布了关于 AI 的研究，显示与 Blackstone、Goldman 和 Hellman & Friedman 的 15 亿美元合资企业创建了一个嵌入式 Claude 的前沿部署工程运营。
+Anthropic与Blackstone、Hellman & Friedman和Goldman Sachs合作，推出了一项新的AI服务公司。
