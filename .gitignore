@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+.venv/
+
+# 本地测试日志
+*.log
+/tmp/
+
+# macOS
+.DS_Store
+
+# 不要 ignore agent_ids.json — 这不是 secret，需要提交到 repo
+# agent_ids.json 里只有 agent_id 和 environment_id，不含 API key

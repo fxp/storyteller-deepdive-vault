@@ -1,0 +1,48 @@
+name: StoryTeller Monitor
+
+on:
+  schedule:
+    # 每小时整点触发（UTC）
+    - cron: '0 * * * *'
+  workflow_dispatch:
+    # 支持手动触发，方便测试
+
+jobs:
+  monitor:
+    name: Run monitoring session
+    runs-on: ubuntu-latest
+    timeout-minutes: 15  # 单次最多 15 分钟，防止超时计费
+
+    steps:
+      - name: Checkout vault repo
+        uses: actions/checkout@v4
+        # 注意：这里 checkout 的是 vault repo 本身
+        # agent_ids.json 和 scripts/ 都在这个 repo 里
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install anthropic
+
+      - name: Trigger monitoring session
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          VAULT_REPO: ${{ secrets.VAULT_REPO }}
+          GITHUB_TOKEN: ${{ secrets.VAULT_GITHUB_TOKEN }}
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: |
+          python3 scripts/trigger.py --deployment deepdive
+
+      - name: Upload session log (on failure)
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: session-log-${{ github.run_id }}
+          path: /tmp/storyteller_*.log
+          retention-days: 7
+          if-no-files-found: ignore

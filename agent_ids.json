@@ -1,0 +1,7 @@
+{
+  "agent_id": "FILL_AFTER_SETUP",
+  "environment_id": "FILL_AFTER_SETUP",
+  "deployment": "deepdive",
+  "model": "claude-sonnet-4-5",
+  "_note": "Run scripts/setup_agent.py to populate these IDs"
+}
