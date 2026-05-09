@@ -4,12 +4,12 @@ title: Google Chrome 推出 Prompt API（浏览器内置 Gemini Nano）
 seed_url: https://developer.chrome.com/docs/ai/prompt-api
 published_date: 2024-11-12
 status: HOT
-last_check: 2026-05-09T16:25
+last_check: 2026-05-09T19:30
 last_activity: '2026-05-09'
-next_check: 2026-05-09T19:25
+next_check: 2026-05-09T22:30
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 10
+findings_count: 16
 tags:
 - tracker
 - HOT
@@ -89,4 +89,11 @@ search_queries:
 - [If Chrome has the *#optimization-guide-on-device-model* and *#prompt-api-for-gem... | Hacker News](https://news.ycombinator.com/item?id=48019542) — Chrome 148版本将发布，支持Prompt API的新下载功能。
 - [Discover the Power of Gemini Nano: The On-Device AI Model running in Chrome 127+ - DEV Community](https://dev.to/codewithahsan/discover-the-power-of-gemini-nano-the-on-device-ai-model-running-in-chrome-127-e7g) — 介绍Gemini Nano在Chrome 127+版本中的运行情况。
 - [Google is building its Gemini Nano AI model into Chrome on the desktop | TechCrunch](https://techcrunch.com/2024/05/14/google-is-building-its-gemini-nano-ai-model-into-chrome-on-the-desktop/) — Google宣布将Gemini Nano AI模型直接集成到Chrome桌面客户端中。
+### 2026-05-09
+- [Any release timeline for LanguageModel? - Google Groups](https://groups.google.com/a/chromium.org/g/chrome-ai-dev-preview-discuss/c/lTfc3susp8g/m/ODo9ndWnAwAJ) — Google Groups 中讨论了 Prompt API 的当前 origin trial 包括多模态支持，提供了新事实。
+- [# Gemini Nano: Google's Most Powerful On-Device AI Model ...](https://www.facebook.com/groups/AIUGM/posts/3799327687014865/) — Facebook 群组中提到 Gemini Nano 目前在 Chrome Canary 中可用，提供了新事实。
+- [Google launches Gemini Nano for Chrome desktop client | Okoone](https://www.okoone.com/spark/technology-innovation/google-launches-gemini-nano-for-chrome-desktop-client/) — Okoone 文章探讨了 Gemini Nano 如何增强 Chrome，提供了新事实。
+- [Practical built-in AI with Gemini Nano in Chrome - YouTube](https://www.youtube.com/watch?v=CjpZCWYrSxM) — YouTube 视频介绍了 Chrome 内置 AI 和 Prompt API，提供了新事实。
+- [Is Google’s New Chrome AI API a Security Risk?](https://twit.tv/posts/tech/googles-new-chrome-ai-api-security-risk) — Twit.tv 上讨论了 Google 新的 Chrome AI API 的安全问题，提供了新事实。
+- [Exploring Built-in AI for Chrome: The Prompt API | tyingshoelaces](https://tyingshoelaces.com/blog/chrome-ai-prompt-api) — tyingshoelaces 博客介绍了如何获取浏览器中的生成式 AI 结果，提供了新事实。
 
