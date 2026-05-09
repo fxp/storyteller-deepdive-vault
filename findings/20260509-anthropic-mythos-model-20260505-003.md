@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-09
-url: "https://www.kiro7.com/news/local/anthropics-mythos-ai-raises-cybersecurity-fears-withholds-public-release-over-dangers/EV4SHFG7KNFDRBLKSYZTD2265A/"
-source_title: "Anthropic’s ‘Mythos’ AI raises cybersecurity fears, withholds public release over ‘dangers’"
+url: "https://llm-stats.com/models/claude-mythos-preview"
+source_title: "Claude Mythos Preview Benchmarks, Pricing & Context Window"
 relevance: RELEVANT
 ---
 
-# Anthropic’s ‘Mythos’ AI raises cybersecurity fears, withholds public release over ‘dangers’
+# Claude Mythos Preview Benchmarks, Pricing & Context Window
 
-**来源**: [Anthropic’s ‘Mythos’ AI raises cybersecurity fears, withholds public release over ‘dangers’](https://www.kiro7.com/news/local/anthropics-mythos-ai-raises-cybersecurity-fears-withholds-public-release-over-dangers/EV4SHFG7KNFDRBLKSYZTD2265A/)
+**来源**: [Claude Mythos Preview Benchmarks, Pricing & Context Window](https://llm-stats.com/models/claude-mythos-preview)
 **发现时间**: 2026-05-09
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-Anthropic的Mythos AI因网络安全担忧而推迟公开发布。
+Claude Mythos Preview是Anthropic的一个未发布的前沿模型，性能表现和定价信息被公布。

@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-09
-url: "https://www.theguardian.com/technology/2026/apr/22/anthropic-investigates-report-of-rogue-access-to-hack-enabling-mythos-ai"
-source_title: "Anthropic investigates report of rogue access to hack-enabling Mythos AI | AI (artificial intelligence) | The Guardian"
+url: "https://www.befreed.ai/blog/claude-mythos-anthropic-ai-model-2026"
+source_title: "Claude Mythos: Anthropic's New AI Model Beyond Opus"
 relevance: RELEVANT
 ---
 
-# Anthropic investigates report of rogue access to hack-enabling Mythos AI | AI (artificial intelligence) | The Guardian
+# Claude Mythos: Anthropic's New AI Model Beyond Opus
 
-**来源**: [Anthropic investigates report of rogue access to hack-enabling Mythos AI | AI (artificial intelligence) | The Guardian](https://www.theguardian.com/technology/2026/apr/22/anthropic-investigates-report-of-rogue-access-to-hack-enabling-mythos-ai)
+**来源**: [Claude Mythos: Anthropic's New AI Model Beyond Opus](https://www.befreed.ai/blog/claude-mythos-anthropic-ai-model-2026)
 **发现时间**: 2026-05-09
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-Anthropic正在调查未经授权的用户访问其Mythos模型，该模型可能对网络安全构成风险。
+Anthropic发布Mythos模型，该模型比Opus模型更大、更智能，引发全球安全震动。

@@ -4,12 +4,12 @@ title: Anthropic + Blackstone 联合组建企业 AI 交付公司
 seed_url: https://www.anthropic.com/news/enterprise-ai-services-company
 published_date: 2026-05-04
 status: HOT
-last_check: 2026-05-09T05:12
+last_check: 2026-05-09T08:41
 last_activity: '2026-05-09'
-next_check: 2026-05-09T08:12
+next_check: 2026-05-09T11:41
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 27
+findings_count: 28
 tags:
 - tracker
 - HOT
@@ -113,4 +113,6 @@ deepdive_article: '[[待填写]]'
 - [Anthropic Launches Enterprise AI Services Firm](https://hrtechedge.com/ai-in-hr/anthropic-blackstone-launch-ai-services-firm-for-claude/) — Anthropic 和 Blackstone 联合组建了一家新的 AI 服务公司，旨在加速 Claude AI 在全球商业运营中的应用。
 - [Anthropic Partners with GIC to Launch Enterprise AI Services Firm | GIC Newsroom](https://www.gic.com.sg/newsroom/all/anthropic-partners-with-blackstone-hellman-friedman-and-goldman-sachs-to-launch-enterprise-ai-services-firm/) — Anthropic 与 GIC 合作，宣布成立一家新的 AI 服务公司，旨在快速将 Claude 引入企业运营。
 - [Claude, Open the Pod Bay Doors](https://peprofessional.com/2026/05/claude-open-the-pod-bay-doors/) — Anthropic、Blackstone、Hellman & Friedman 和 Goldman Sachs 共同成立了一家新的 AI 服务公司，以应对对 AI 系统的需求。
+### 2026-05-09
+- [8 iconic firms have united with Anthropic. Because AI is ... - LinkedIn](https://www.linkedin.com/posts/marcrjandrew_8-iconic-firms-have-united-with-anthropic-activity-7457127087557206017-OmKD) — 八家知名公司加入Anthropic，共同成立一家新的企业AI服务公司。
 

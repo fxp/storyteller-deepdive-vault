@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-09T05:12
+last_check: 2026-05-09T08:41
 last_activity: '2026-05-09'
-next_check: 2026-05-09T08:12
+next_check: 2026-05-09T11:41
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 42
+findings_count: 45
 tags:
 - tracker
 - HOT
@@ -122,4 +122,8 @@ deepdive_article: '[[待填写]]'
 - [Anthropic investigates report of rogue access to hack-enabling Mythos AI | AI (artificial intelligence) | The Guardian](https://www.theguardian.com/technology/2026/apr/22/anthropic-investigates-report-of-rogue-access-to-hack-enabling-mythos-ai) — Anthropic正在调查未经授权的用户访问其Mythos模型，该模型可能对网络安全构成风险。
 - [The global cybersecurity gap deepens as AI-powered attacks surge](https://restofworld.org/2026/ai-cybersecurity-anthropic-mythos/) — 全球网络安全差距因AI攻击激增而加深，Anthropic的Mythos模型发现了大量漏洞。
 - [Anthropic’s ‘Mythos’ AI raises cybersecurity fears, withholds public release over ‘dangers’](https://www.kiro7.com/news/local/anthropics-mythos-ai-raises-cybersecurity-fears-withholds-public-release-over-dangers/EV4SHFG7KNFDRBLKSYZTD2265A/) — Anthropic的Mythos AI因网络安全担忧而推迟公开发布。
+### 2026-05-09
+- [Claude Mythos: Anthropic's New AI Model Beyond Opus](https://www.befreed.ai/blog/claude-mythos-anthropic-ai-model-2026) — Anthropic发布Mythos模型，该模型比Opus模型更大、更智能，引发全球安全震动。
+- [What is Mythos AI and why could it be a threat to global cybersecurity?](https://www.theguardian.com/technology/2026/apr/22/what-is-anthropic-mythos-ai-threat-global-cybersecurity) — Mythos模型能够检测任何主要IT操作系统和浏览器的缺陷，可能对全球网络安全构成威胁。
+- [Claude Mythos Preview Benchmarks, Pricing & Context Window](https://llm-stats.com/models/claude-mythos-preview) — Claude Mythos Preview是Anthropic的一个未发布的前沿模型，性能表现和定价信息被公布。
 

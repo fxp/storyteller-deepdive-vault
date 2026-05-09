@@ -4,12 +4,12 @@ title: 美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-09T05:12
+last_check: 2026-05-09T08:41
 last_activity: '2026-05-09'
-next_check: 2026-05-09T08:12
+next_check: 2026-05-09T11:41
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 42
+findings_count: 44
 tags:
 - tracker
 - HOT
@@ -137,4 +137,7 @@ deepdive_article: '[[待填写]]'
 - [Google, Microsoft and xAI agree to US government AI testing programme](https://www.euronews.com/next/2026/05/08/tech-giants-agree-to-us-government-ai-testing) — 美国政府与Google、Microsoft和xAI签署AI安全测试协议，将评估模型在发布前的网络安全、生物安全和化学武器相关风险。
 - [White House reportedly considers mandatory government vetting of ...](https://www.tomshardware.com/tech-industry/artificial-intelligence/white-house-considers-mandatory-government-vetting-of-ai-models-before-release) — 白宫考虑在AI模型发布前进行政府审查，以建立AI模型发布前的政府审查流程。
 - [White House Considers Vetting A.I. Models Before They Are Released](https://www.nytimes.com/2026/05/04/technology/trump-ai-models.html) — 白宫考虑在AI模型发布前进行政府审查，以建立AI模型发布前的政府审查流程。
+### 2026-05-09
+- [Trump admin blacklists Anthropic; AI firm refuses Pentagon demands](https://www.cnbc.com/2026/02/27/trump-anthropic-ai-pentagon.html) — 美国政府禁止使用Anthropic的技术，并对其提起诉讼，这与追踪事件中提到的Anthropic被排除在AI安全测试协议之外相关。
+- [Anthropic sues Trump administration in AI dispute with Pentagon](https://www.nbcnews.com/tech/tech-news/anthropic-sues-trump-administration-ai-dispute-pentagon-rcna262444) — Anthropic因与五角大楼的AI争议而起诉特朗普政府，这与追踪事件中提到的Anthropic被排除在AI安全测试协议之外相关。
 
