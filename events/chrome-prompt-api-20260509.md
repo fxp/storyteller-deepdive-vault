@@ -4,12 +4,12 @@ title: Google Chrome 推出 Prompt API（浏览器内置 Gemini Nano）
 seed_url: https://developer.chrome.com/docs/ai/prompt-api
 published_date: 2024-11-12
 status: HOT
-last_check: 2026-05-09T09:18
-last_activity: 2024-11-12
-next_check: 2026-05-09T12:18
+last_check: 2026-05-09T12:30
+last_activity: '2026-05-09'
+next_check: 2026-05-09T15:30
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 0
+findings_count: 7
 tags:
 - tracker
 - HOT
@@ -41,7 +41,6 @@ search_queries:
 - Chrome Prompt API enterprise developer use cases production deployment
 - Chrome AI APIs stable release graduation origin trial update
 ---
-
 
 # Google Chrome 推出 Prompt API（浏览器内置 Gemini Nano）
 
@@ -78,3 +77,12 @@ search_queries:
 
 - [Prompt API - Chrome for Developers](https://developer.chrome.com/docs/ai/prompt-api)
 - [Chrome Extensions Prompt API Origin Trial](https://developer.chrome.com/docs/extensions/ai/prompt-api)
+### 2026-05-09
+- [Join the Prompt API origin trial  |  Blog  |  Chrome for Developers](https://developer.chrome.com/blog/prompt-multimodal-origin-trial) — Google Chrome 推出 Prompt API，允许开发者在其网站上使用该 API。
+- [Mozilla pushes back against Google's Prompt API](https://www.theregister.com/software/2026/04/30/mozilla-pushes-back-against-googles-prompt-api/5223409) — Mozilla 对 Google 的 Prompt API 决策表示反对。
+- [Prompt API - Chrome Platform Status](https://chromestatus.com/feature/5134603979063296?gate=5123192519393280) — Prompt API 提供了对设备上 AI 语言模型的直接访问。
+- [Expanding built-in AI to more devices with Chrome  |  Blog  |  Chrome for Developers](https://developer.chrome.com/blog/gemini-nano-cpu-support) — Chrome 中的 Gemini Nano 更新，旨在将强大的客户端 AI 功能带给更广泛的用户和设备。
+- [Chrome's Built-In AI: Gemini Nano and Prompt API Complete Guide](https://flaming.codes/posts/chrome-gemini-nano-built-in-ai) — Google Chrome 通过 Prompt API 直接在浏览器中添加了 Gemini Nano。
+- [Prompt API - Chrome Platform Status](https://chromestatus.com/feature/5134603979063296) — Prompt API 支持各种用例，从生成图像标题和执行视觉搜索到转录音频，分类声音。
+- [AI APIs are in stable and origin trials, with new Early Preview Program APIs  |  Blog  |  Chrome for Developers](https://developer.chrome.com/blog/ai-api-updates-io25) — 从 Chrome 138 开始，Summarizer API、Language Detector API 和 Translator API 可用。
+
