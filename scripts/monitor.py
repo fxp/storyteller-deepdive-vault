@@ -141,9 +141,16 @@ def judge_relevance(
     candidates: list[dict],
     event_title: str,
     criteria: str,
+    known_findings: list[dict] | None = None,
 ) -> list[dict]:
     """
-    调用 BigModel GLM-4-Flash 判断相关性，返回 RELEVANT 的结果（含 _summary 字段）。
+    调用 BigModel GLM-4-Flash 判断相关性，返回 NEW+RELEVANT 的结果（含 _summary 字段）。
+
+    known_findings: 历史 findings 列表，用于内容层去重。
+    分类：
+      RELEVANT  — 相关且包含历史未出现的新事实
+      DUPLICATE — 与历史发现信息重叠（即使 URL 不同）
+      NOISE     — 与事件无关或泛泛提及
     """
     if not candidates or not BIGMODEL_API_KEY:
         if not BIGMODEL_API_KEY:
@@ -157,22 +164,42 @@ def judge_relevance(
         for i, r in enumerate(candidates)
     )
 
-    prompt = f"""你是新闻相关性判断专家。判断以下搜索结果是否与正在追踪的事件相关。
+    # 历史发现上下文（最多 20 条，避免 prompt 过长）
+    known_section = ""
+    if known_findings:
+        known_lines = "\n".join(
+            f"- {f['title'] or f['url']}: {f['summary']}"
+            for f in known_findings[-20:]
+            if f.get("summary") or f.get("title")
+        )
+        known_section = f"""
+## 已知历史发现（勿重复）
+以下是该事件此前已捕获的发现，内容相同或高度重叠的结果请标记为 DUPLICATE：
+
+{known_lines}
+"""
+
+    prompt = f"""你是新闻去重与相关性判断专家。对以下搜索结果进行三分类判断。
 
 ## 追踪事件
 {event_title}
 
 ## 相关性标准
 {criteria}
-
+{known_section}
 ## 待判断结果
 {items_text}
 
-## 输出要求
-只输出 JSON 数组，每个元素格式如下（RELEVANT 时填写 summary，NOISE 时 summary 为空字符串）：
-[{{"index": 0, "relevance": "RELEVANT", "summary": "一句话：核心新事实是什么"}}, ...]
+## 判断规则
+- RELEVANT  ：与事件相关，且包含历史发现中未出现的新事实（新命名、新客户、新融资、新声明等）
+- DUPLICATE ：信息与历史发现高度重叠，即使 URL 不同、表述不同，本质上是同一事实的重复报道
+- NOISE     ：与事件无关，或仅泛泛提及，无实质新信息
 
-直接输出 JSON，不要有任何其他文字或 markdown 代码块。"""
+## 输出要求
+只输出 JSON 数组，格式：
+[{{"index": 0, "label": "RELEVANT", "summary": "一句话：具体新事实是什么（仅 RELEVANT 填写）"}}, ...]
+
+label 只能是 RELEVANT / DUPLICATE / NOISE 之一。直接输出 JSON，不要 markdown 代码块。"""
 
     try:
         resp = requests.post(
@@ -203,8 +230,12 @@ def judge_relevance(
 
         judgments = json.loads(json_match.group())
         relevant = []
+        dup_count  = sum(1 for j in judgments if j.get("label") == "DUPLICATE")
+        noise_count = sum(1 for j in judgments if j.get("label") == "NOISE")
+        if dup_count or noise_count:
+            print(f"   Filtered: {dup_count} duplicate, {noise_count} noise")
         for j in judgments:
-            if j.get("relevance") == "RELEVANT":
+            if j.get("label") == "RELEVANT":
                 idx = int(j.get("index", -1))
                 if 0 <= idx < len(candidates):
                     r = dict(candidates[idx])
@@ -277,6 +308,29 @@ def create_finding_file(event_id: str, finding: dict, date_str: str, seq: int):
     )
     path.write_text(content, encoding="utf-8")
     return filename
+
+
+# ══════════════════════════════════════════════════════════════════
+# 读取已有 findings（用于内容去重）
+# ══════════════════════════════════════════════════════════════════
+
+def load_existing_findings(event_id: str) -> list[dict]:
+    """
+    读取该事件所有历史 finding 文件，返回 [{url, title, summary}] 列表。
+    用于：① URL 层去重 ② 内容层去重（喂给 BigModel）
+    """
+    findings = []
+    if not FINDINGS_DIR.exists():
+        return findings
+    for f in sorted(FINDINGS_DIR.glob(f"*-{event_id}-*.md")):
+        fm, body = parse_md(f)
+        url   = str(fm.get("url", ""))
+        title = str(fm.get("source_title", ""))
+        # 提取 ## 摘要 章节内容
+        m = re.search(r"## 摘要\n+(.+?)(?:\n##|\Z)", body, re.DOTALL)
+        summary = m.group(1).strip()[:300] if m else ""
+        findings.append({"url": url, "title": title, "summary": summary})
+    return findings
 
 
 # ══════════════════════════════════════════════════════════════════
@@ -355,8 +409,13 @@ def run():
         last_check_str  = str(fm.get("last_check", "2000-01-01T00:00"))
         search_queries  = fm.get("search_queries") or []
 
-        # 已见 URL（从 body 正文中提取，用于去重）
-        seen_urls: set[str] = set(re.findall(r"https?://[^\s\)\"']+", body))
+        # 加载历史 findings（URL 去重 + 内容去重上下文）
+        known_findings = load_existing_findings(event_id)
+        known_urls     = {f["url"] for f in known_findings if f["url"]}
+        print(f"   Known findings: {len(known_findings)}")
+
+        # 已见 URL：事件 body 中的链接 + 历史 finding 文件的 URL
+        seen_urls: set[str] = set(re.findall(r"https?://[^\s\)\"']+", body)) | known_urls
 
         # ── 逐条搜索 ──────────────────────────────────────────────
         all_candidates: list[dict] = []
@@ -379,8 +438,8 @@ def run():
 
         print(f"   Candidates after dedup: {len(deduped)}")
 
-        # ── 相关性判断 ────────────────────────────────────────────
-        relevant = judge_relevance(deduped, title, criteria) if deduped else []
+        # ── 相关性判断（含历史去重）────────────────────────────────
+        relevant = judge_relevance(deduped, title, criteria, known_findings=known_findings) if deduped else []
         print(f"   Relevant: {len(relevant)}")
 
         # ── 状态更新 ──────────────────────────────────────────────
