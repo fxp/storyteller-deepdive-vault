@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-09
-url: "https://andrewclearwater.substack.com/p/you-need-the-model-to-fight-the-model"
-source_title: "You Need the Model to Fight the Model - Andrew Clearwater"
+url: "https://www.kiro7.com/news/local/anthropics-mythos-ai-raises-cybersecurity-fears-withholds-public-release-over-dangers/EV4SHFG7KNFDRBLKSYZTD2265A/"
+source_title: "Anthropic’s ‘Mythos’ AI raises cybersecurity fears, withholds public release over ‘dangers’"
 relevance: RELEVANT
 ---
 
-# You Need the Model to Fight the Model - Andrew Clearwater
+# Anthropic’s ‘Mythos’ AI raises cybersecurity fears, withholds public release over ‘dangers’
 
-**来源**: [You Need the Model to Fight the Model - Andrew Clearwater](https://andrewclearwater.substack.com/p/you-need-the-model-to-fight-the-model)
+**来源**: [Anthropic’s ‘Mythos’ AI raises cybersecurity fears, withholds public release over ‘dangers’](https://www.kiro7.com/news/local/anthropics-mythos-ai-raises-cybersecurity-fears-withholds-public-release-over-dangers/EV4SHFG7KNFDRBLKSYZTD2265A/)
 **发现时间**: 2026-05-09
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-Anthropic不会向公众发布其新的Mythos AI模型，引发关注。
+Anthropic的Mythos AI因网络安全担忧而推迟公开发布。

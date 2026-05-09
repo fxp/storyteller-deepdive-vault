@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-09
-url: "https://www.theaiconsultingnetwork.com/blog/microsoft-anthropic-claude-mythos-sdl-ai-security-cre-investors-2026"
-source_title: "Claude Mythos Microsoft SDL: CRE Cybersecurity Guide 2026"
+url: "https://restofworld.org/2026/ai-cybersecurity-anthropic-mythos/"
+source_title: "The global cybersecurity gap deepens as AI-powered attacks surge"
 relevance: RELEVANT
 ---
 
-# Claude Mythos Microsoft SDL: CRE Cybersecurity Guide 2026
+# The global cybersecurity gap deepens as AI-powered attacks surge
 
-**来源**: [Claude Mythos Microsoft SDL: CRE Cybersecurity Guide 2026](https://www.theaiconsultingnetwork.com/blog/microsoft-anthropic-claude-mythos-sdl-ai-security-cre-investors-2026)
+**来源**: [The global cybersecurity gap deepens as AI-powered attacks surge](https://restofworld.org/2026/ai-cybersecurity-anthropic-mythos/)
 **发现时间**: 2026-05-09
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-Microsoft采用Anthropic的Claude Mythos，将其整合到安全开发生命周期中，以增强AI网络安全。
+全球网络安全差距因AI攻击激增而加深，Anthropic的Mythos模型发现了大量漏洞。

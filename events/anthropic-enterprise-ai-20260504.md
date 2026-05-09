@@ -4,12 +4,12 @@ title: Anthropic + Blackstone 联合组建企业 AI 交付公司
 seed_url: https://www.anthropic.com/news/enterprise-ai-services-company
 published_date: 2026-05-04
 status: HOT
-last_check: 2026-05-09T01:02
+last_check: 2026-05-09T05:12
 last_activity: '2026-05-09'
-next_check: 2026-05-09T04:02
+next_check: 2026-05-09T08:12
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 24
+findings_count: 27
 tags:
 - tracker
 - HOT
@@ -109,4 +109,8 @@ deepdive_article: '[[待填写]]'
 - [Anthropic confirms deal to launch enterprise AI services business (ANTHRO:Private) | Seeking Alpha](https://seekingalpha.com/news/4584679-anthropic-confirms-deal-to-launch-enterprise-ai-services-business) — Anthropic 与 Blackstone 联合宣布成立一家企业 AI 服务公司，并得到了 Goldman Sachs 和 Hellman & Friedman 的支持。
 - [Antrhopic and Goldman Sachs launch AI services company](https://www.facebook.com/pramanik.pankaj/posts/anthropic-blackstone-hellman-friedman-and-goldman-sachs-announced-the-formation-/10243525216043018/) — Anthropic 与 Blackstone、Hellman & Friedman 和 Goldman Sachs 宣布成立一家新的 AI 服务公司。
 - [Anthropic confirms deal to launch enterprise AI services business](https://www.msn.com/en-us/money/smallbusiness/anthropic-confirms-deal-to-launch-enterprise-ai-services-business/ar-AA22mqkd?gemSnapshotKey=GM0DFF7A3B-snapshot-2) — Anthropic 与 Blackstone 联合宣布成立一家企业 AI 服务公司，并得到了 Goldman Sachs 和 Hellman & Friedman 的支持。
+### 2026-05-09
+- [Anthropic Launches Enterprise AI Services Firm](https://hrtechedge.com/ai-in-hr/anthropic-blackstone-launch-ai-services-firm-for-claude/) — Anthropic 和 Blackstone 联合组建了一家新的 AI 服务公司，旨在加速 Claude AI 在全球商业运营中的应用。
+- [Anthropic Partners with GIC to Launch Enterprise AI Services Firm | GIC Newsroom](https://www.gic.com.sg/newsroom/all/anthropic-partners-with-blackstone-hellman-friedman-and-goldman-sachs-to-launch-enterprise-ai-services-firm/) — Anthropic 与 GIC 合作，宣布成立一家新的 AI 服务公司，旨在快速将 Claude 引入企业运营。
+- [Claude, Open the Pod Bay Doors](https://peprofessional.com/2026/05/claude-open-the-pod-bay-doors/) — Anthropic、Blackstone、Hellman & Friedman 和 Goldman Sachs 共同成立了一家新的 AI 服务公司，以应对对 AI 系统的需求。
 

@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-enterprise-ai-20260504]]"
 date: 2026-05-09
-url: "https://seekingalpha.com/news/4584679-anthropic-confirms-deal-to-launch-enterprise-ai-services-business"
-source_title: "Anthropic confirms deal to launch enterprise AI services business (ANTHRO:Private) | Seeking Alpha"
+url: "https://hrtechedge.com/ai-in-hr/anthropic-blackstone-launch-ai-services-firm-for-claude/"
+source_title: "Anthropic Launches Enterprise AI Services Firm"
 relevance: RELEVANT
 ---
 
-# Anthropic confirms deal to launch enterprise AI services business (ANTHRO:Private) | Seeking Alpha
+# Anthropic Launches Enterprise AI Services Firm
 
-**来源**: [Anthropic confirms deal to launch enterprise AI services business (ANTHRO:Private) | Seeking Alpha](https://seekingalpha.com/news/4584679-anthropic-confirms-deal-to-launch-enterprise-ai-services-business)
+**来源**: [Anthropic Launches Enterprise AI Services Firm](https://hrtechedge.com/ai-in-hr/anthropic-blackstone-launch-ai-services-firm-for-claude/)
 **发现时间**: 2026-05-09
 **所属事件**: [[anthropic-enterprise-ai-20260504]]
 
 ## 摘要
 
-Anthropic 与 Blackstone 联合宣布成立一家企业 AI 服务公司，并得到了 Goldman Sachs 和 Hellman & Friedman 的支持。
+Anthropic 和 Blackstone 联合组建了一家新的 AI 服务公司，旨在加速 Claude AI 在全球商业运营中的应用。

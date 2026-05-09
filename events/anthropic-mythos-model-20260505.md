@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-09T01:02
+last_check: 2026-05-09T05:12
 last_activity: '2026-05-09'
-next_check: 2026-05-09T04:02
+next_check: 2026-05-09T08:12
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 39
+findings_count: 42
 tags:
 - tracker
 - HOT
@@ -118,4 +118,8 @@ deepdive_article: '[[待填写]]'
 - [Anthropic v the US military: what this public feud says about the use of AI in warfare](https://theconversation.com/anthropic-v-the-us-military-what-this-public-feud-says-about-the-use-of-ai-in-warfare-276999) — Anthropic与美国国防部之间的公开争执反映了AI在战争中的使用。
 - [Anthropic CEO says he's sticking to AI "red lines" despite clash with Pentagon - CBS News](https://www.cbsnews.com/news/pentagon-anthropic-dario-amodei-cbs-news-interview-exclusive/) — Anthropic CEO表示，尽管与五角大楼发生争执，但他仍坚持AI的“红线”。
 - [Anthropic's Mythos AI model draws White House attention - The Hill](https://thehill.com/policy/technology/5843290-anthropic-mythos-white-house/) — Anthropic的Mythos AI模型引起了白宫的关注。
+### 2026-05-09
+- [Anthropic investigates report of rogue access to hack-enabling Mythos AI | AI (artificial intelligence) | The Guardian](https://www.theguardian.com/technology/2026/apr/22/anthropic-investigates-report-of-rogue-access-to-hack-enabling-mythos-ai) — Anthropic正在调查未经授权的用户访问其Mythos模型，该模型可能对网络安全构成风险。
+- [The global cybersecurity gap deepens as AI-powered attacks surge](https://restofworld.org/2026/ai-cybersecurity-anthropic-mythos/) — 全球网络安全差距因AI攻击激增而加深，Anthropic的Mythos模型发现了大量漏洞。
+- [Anthropic’s ‘Mythos’ AI raises cybersecurity fears, withholds public release over ‘dangers’](https://www.kiro7.com/news/local/anthropics-mythos-ai-raises-cybersecurity-fears-withholds-public-release-over-dangers/EV4SHFG7KNFDRBLKSYZTD2265A/) — Anthropic的Mythos AI因网络安全担忧而推迟公开发布。
 

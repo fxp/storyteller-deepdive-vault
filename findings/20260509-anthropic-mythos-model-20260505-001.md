@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-09
-url: "https://safina.ai/en/blog/claude-mythos-project-glasswing-explained/"
-source_title: "Claude Mythos and Project Glasswing: The Full Story [2026] | Safina AI"
+url: "https://www.theguardian.com/technology/2026/apr/22/anthropic-investigates-report-of-rogue-access-to-hack-enabling-mythos-ai"
+source_title: "Anthropic investigates report of rogue access to hack-enabling Mythos AI | AI (artificial intelligence) | The Guardian"
 relevance: RELEVANT
 ---
 
-# Claude Mythos and Project Glasswing: The Full Story [2026] | Safina AI
+# Anthropic investigates report of rogue access to hack-enabling Mythos AI | AI (artificial intelligence) | The Guardian
 
-**来源**: [Claude Mythos and Project Glasswing: The Full Story [2026] | Safina AI](https://safina.ai/en/blog/claude-mythos-project-glasswing-explained/)
+**来源**: [Anthropic investigates report of rogue access to hack-enabling Mythos AI | AI (artificial intelligence) | The Guardian](https://www.theguardian.com/technology/2026/apr/22/anthropic-investigates-report-of-rogue-access-to-hack-enabling-mythos-ai)
 **发现时间**: 2026-05-09
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-Anthropic的Mythos模型泄露，揭示了前所未有的AI能力，并引发了Project Glasswing。
+Anthropic正在调查未经授权的用户访问其Mythos模型，该模型可能对网络安全构成风险。

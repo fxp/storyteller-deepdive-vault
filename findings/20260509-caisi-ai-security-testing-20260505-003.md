@@ -1,17 +1,17 @@
 ---
 event: "[[caisi-ai-security-testing-20260505]]"
 date: 2026-05-09
-url: "https://www.facebook.com/cnninternational/posts/anthropic-sues-pentagon-after-trump-administration-designates-the-ai-company-as-/1296350495693332/"
-source_title: "Anthropic sues Pentagon after Trump administration designates the ..."
+url: "https://www.nytimes.com/2026/05/04/technology/trump-ai-models.html"
+source_title: "White House Considers Vetting A.I. Models Before They Are Released"
 relevance: RELEVANT
 ---
 
-# Anthropic sues Pentagon after Trump administration designates the ...
+# White House Considers Vetting A.I. Models Before They Are Released
 
-**来源**: [Anthropic sues Pentagon after Trump administration designates the ...](https://www.facebook.com/cnninternational/posts/anthropic-sues-pentagon-after-trump-administration-designates-the-ai-company-as-/1296350495693332/)
+**来源**: [White House Considers Vetting A.I. Models Before They Are Released](https://www.nytimes.com/2026/05/04/technology/trump-ai-models.html)
 **发现时间**: 2026-05-09
 **所属事件**: [[caisi-ai-security-testing-20260505]]
 
 ## 摘要
 
-Anthropic 对特朗普政府将其指定为供应链风险提出诉讼。
+白宫考虑在AI模型发布前进行政府审查，以建立AI模型发布前的政府审查流程。

@@ -4,12 +4,12 @@ title: 美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-09T01:02
+last_check: 2026-05-09T05:12
 last_activity: '2026-05-09'
-next_check: 2026-05-09T04:02
+next_check: 2026-05-09T08:12
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 39
+findings_count: 42
 tags:
 - tracker
 - HOT
@@ -133,4 +133,8 @@ deepdive_article: '[[待填写]]'
 - [7 AI companies signed Pentagon deals. Anthropic was rejected.](https://www.instagram.com/p/DXz85R4DSJz/) — 美国政府与微软、Google、xAI 签署 AI 安全测试协议，将 Anthropic 排除在外，理由是供应链风险。
 - [Pentagon inks deals with AI giants, but not Anthropic - MSN](https://www.msn.com/en-gb/news/world/pentagon-inks-deals-with-ai-giants-but-not-anthropic/ar-AA22bbk3) — Pentagon 与 AI 巨头签署协议，但排除 Anthropic。
 - [Anthropic sues Pentagon after Trump administration designates the ...](https://www.facebook.com/cnninternational/posts/anthropic-sues-pentagon-after-trump-administration-designates-the-ai-company-as-/1296350495693332/) — Anthropic 对特朗普政府将其指定为供应链风险提出诉讼。
+### 2026-05-09
+- [Google, Microsoft and xAI agree to US government AI testing programme](https://www.euronews.com/next/2026/05/08/tech-giants-agree-to-us-government-ai-testing) — 美国政府与Google、Microsoft和xAI签署AI安全测试协议，将评估模型在发布前的网络安全、生物安全和化学武器相关风险。
+- [White House reportedly considers mandatory government vetting of ...](https://www.tomshardware.com/tech-industry/artificial-intelligence/white-house-considers-mandatory-government-vetting-of-ai-models-before-release) — 白宫考虑在AI模型发布前进行政府审查，以建立AI模型发布前的政府审查流程。
+- [White House Considers Vetting A.I. Models Before They Are Released](https://www.nytimes.com/2026/05/04/technology/trump-ai-models.html) — 白宫考虑在AI模型发布前进行政府审查，以建立AI模型发布前的政府审查流程。
 
