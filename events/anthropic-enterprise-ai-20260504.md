@@ -4,12 +4,12 @@ title: Anthropic + Blackstone 联合组建企业 AI 交付公司
 seed_url: https://www.anthropic.com/news/enterprise-ai-services-company
 published_date: 2026-05-04
 status: HOT
-last_check: 2026-05-08T20:30
-last_activity: '2026-05-08'
-next_check: 2026-05-08T23:30
+last_check: 2026-05-09T01:02
+last_activity: '2026-05-09'
+next_check: 2026-05-09T04:02
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 21
+findings_count: 24
 tags:
 - tracker
 - HOT
@@ -105,4 +105,8 @@ deepdive_article: '[[待填写]]'
 - [Anthropic launches AI integration biz with backing from Blackstone ...](https://citywire.com/pro-buyer/news/anthropic-launches-ai-integration-biz-with-backing-from-blackstone-goldman-sachs/a2489161) — Anthropic宣布与Blackstone、Goldman Sachs合作成立AI集成业务。
 - [Anthropic Partners with Blackstone, Hellman & Friedman, and Goldman Sachs to Launch Enterprise AI Services Firm | Nasdaq](https://www.nasdaq.com/press-release/anthropic-partners-blackstone-hellman-friedman-and-goldman-sachs-launch-enterprise-ai) — Anthropic与Blackstone、Hellman & Friedman和Goldman Sachs合作成立新的企业AI服务公司，旨在帮助企业将Claude集成到核心业务运营中。
 - [Claude Is Coming to Your Office: Anthropic Announces $1.5 Billion ...](https://www.inc.com/lucia-auerbach/anthropic-announces-new-joint-venture-for-businesses/91339979) — Anthropic宣布成立新的联合企业，专注于AI的推广和分发，估值约为15亿美元。
+### 2026-05-09
+- [Anthropic confirms deal to launch enterprise AI services business (ANTHRO:Private) | Seeking Alpha](https://seekingalpha.com/news/4584679-anthropic-confirms-deal-to-launch-enterprise-ai-services-business) — Anthropic 与 Blackstone 联合宣布成立一家企业 AI 服务公司，并得到了 Goldman Sachs 和 Hellman & Friedman 的支持。
+- [Antrhopic and Goldman Sachs launch AI services company](https://www.facebook.com/pramanik.pankaj/posts/anthropic-blackstone-hellman-friedman-and-goldman-sachs-announced-the-formation-/10243525216043018/) — Anthropic 与 Blackstone、Hellman & Friedman 和 Goldman Sachs 宣布成立一家新的 AI 服务公司。
+- [Anthropic confirms deal to launch enterprise AI services business](https://www.msn.com/en-us/money/smallbusiness/anthropic-confirms-deal-to-launch-enterprise-ai-services-business/ar-AA22mqkd?gemSnapshotKey=GM0DFF7A3B-snapshot-2) — Anthropic 与 Blackstone 联合宣布成立一家企业 AI 服务公司，并得到了 Goldman Sachs 和 Hellman & Friedman 的支持。
 

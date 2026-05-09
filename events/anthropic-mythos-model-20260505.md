@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-08T20:30
-last_activity: '2026-05-08'
-next_check: 2026-05-08T23:30
+last_check: 2026-05-09T01:02
+last_activity: '2026-05-09'
+next_check: 2026-05-09T04:02
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 32
+findings_count: 39
 tags:
 - tracker
 - HOT
@@ -110,4 +110,12 @@ deepdive_article: '[[待填写]]'
 - [Anthropic Mythos: Real Threat or Marketing Drama? - Medium](https://medium.com/@davidroliver/anthropic-mythos-real-threat-or-marketing-drama-21b2f5e49d19) — Anthropic的Mythos Preview被宣布为前沿AI模型，但故意没有公开发布。
 - [Anthropic just launched Claude Managed Agents. Here's the 2026 ...](https://www.reddit.com/r/Cyclopt/comments/1sl6y8z/anthropic_just_launched_claude_managed_agents/) — Anthropic的Mythos模型引起了白宫的关注，尽管之前被列入黑名单。
 - [Anthropic’s Claude Mythos and the AI Cybersecurity Reckoning](https://entro.security/blog/anthropics-claude-mythos-and-the-ai-cybersecurity-reckoning/) — Anthropic的Mythos模型被用于加强全球最重要的代码库的安全性。
+### 2026-05-09
+- [Claude Mythos and Project Glasswing: The Full Story [2026] | Safina AI](https://safina.ai/en/blog/claude-mythos-project-glasswing-explained/) — Anthropic的Mythos模型泄露，揭示了前所未有的AI能力，并引发了Project Glasswing。
+- [Claude Mythos Microsoft SDL: CRE Cybersecurity Guide 2026](https://www.theaiconsultingnetwork.com/blog/microsoft-anthropic-claude-mythos-sdl-ai-security-cre-investors-2026) — Microsoft采用Anthropic的Claude Mythos，将其整合到安全开发生命周期中，以增强AI网络安全。
+- [You Need the Model to Fight the Model - Andrew Clearwater](https://andrewclearwater.substack.com/p/you-need-the-model-to-fight-the-model) — Anthropic不会向公众发布其新的Mythos AI模型，引发关注。
+- [Anthropic just dropped benchmark scores for their unreleased model. The gap is embarrassing for everyone else. : r/ClaudeCode](https://www.reddit.com/r/ClaudeCode/comments/1sf4yvm/anthropic_just_dropped_benchmark_scores_for_their/) — Anthropic发布了其未发布模型的基准分数，引发了业界的关注。
+- [Anthropic v the US military: what this public feud says about the use of AI in warfare](https://theconversation.com/anthropic-v-the-us-military-what-this-public-feud-says-about-the-use-of-ai-in-warfare-276999) — Anthropic与美国国防部之间的公开争执反映了AI在战争中的使用。
+- [Anthropic CEO says he's sticking to AI "red lines" despite clash with Pentagon - CBS News](https://www.cbsnews.com/news/pentagon-anthropic-dario-amodei-cbs-news-interview-exclusive/) — Anthropic CEO表示，尽管与五角大楼发生争执，但他仍坚持AI的“红线”。
+- [Anthropic's Mythos AI model draws White House attention - The Hill](https://thehill.com/policy/technology/5843290-anthropic-mythos-white-house/) — Anthropic的Mythos AI模型引起了白宫的关注。
 
