@@ -4,12 +4,12 @@ title: Google Chrome 推出 Prompt API（浏览器内置 Gemini Nano）
 seed_url: https://developer.chrome.com/docs/ai/prompt-api
 published_date: 2024-11-12
 status: HOT
-last_check: 2026-05-09T12:30
+last_check: 2026-05-09T16:25
 last_activity: '2026-05-09'
-next_check: 2026-05-09T15:30
+next_check: 2026-05-09T19:25
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 7
+findings_count: 10
 tags:
 - tracker
 - HOT
@@ -85,4 +85,8 @@ search_queries:
 - [Chrome's Built-In AI: Gemini Nano and Prompt API Complete Guide](https://flaming.codes/posts/chrome-gemini-nano-built-in-ai) — Google Chrome 通过 Prompt API 直接在浏览器中添加了 Gemini Nano。
 - [Prompt API - Chrome Platform Status](https://chromestatus.com/feature/5134603979063296) — Prompt API 支持各种用例，从生成图像标题和执行视觉搜索到转录音频，分类声音。
 - [AI APIs are in stable and origin trials, with new Early Preview Program APIs  |  Blog  |  Chrome for Developers](https://developer.chrome.com/blog/ai-api-updates-io25) — 从 Chrome 138 开始，Summarizer API、Language Detector API 和 Translator API 可用。
+### 2026-05-09
+- [If Chrome has the *#optimization-guide-on-device-model* and *#prompt-api-for-gem... | Hacker News](https://news.ycombinator.com/item?id=48019542) — Chrome 148版本将发布，支持Prompt API的新下载功能。
+- [Discover the Power of Gemini Nano: The On-Device AI Model running in Chrome 127+ - DEV Community](https://dev.to/codewithahsan/discover-the-power-of-gemini-nano-the-on-device-ai-model-running-in-chrome-127-e7g) — 介绍Gemini Nano在Chrome 127+版本中的运行情况。
+- [Google is building its Gemini Nano AI model into Chrome on the desktop | TechCrunch](https://techcrunch.com/2024/05/14/google-is-building-its-gemini-nano-ai-model-into-chrome-on-the-desktop/) — Google宣布将Gemini Nano AI模型直接集成到Chrome桌面客户端中。
 
