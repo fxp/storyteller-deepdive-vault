@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-10T13:36
+last_check: 2026-05-10T17:25
 last_activity: '2026-05-10'
-next_check: 2026-05-10T16:36
+next_check: 2026-05-10T20:25
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 34
+findings_count: 37
 tags:
 - tracker
 - HOT
@@ -86,4 +86,8 @@ deepdive_article: '[[待填写]]'
 - [Claude Mythos Preview: Anthropic's Most Powerful AI (93.9% SWE ...](https://www.nxcode.io/resources/news/claude-mythos-preview-anthropic-most-powerful-model-2026) — Anthropic发布了Claude Mythos Preview，这是其迄今为止最强大的模型，但未公开发布。
 - [Anthropic's new Mythos AI model is raising concern among ...](https://www.facebook.com/financialtimes/posts/anthropics-new-mythos-ai-model-is-raising-concern-among-governments-and-companie/1363050669201640/) — Anthropic的Mythos AI模型引起了政府和公司的担忧，担心其可能超过当前的网络安全防御。
 - [White House and Anthropic hold 'productive' meeting amid fears over Mythos model](https://www.bbc.com/news/articles/cyv10e1d13po) — 白宫与Anthropic举行了会议，讨论了Mythos模型可能带来的担忧。
+### 2026-05-10
+- [How to Prepare for Claude Mythos in 2026](https://www.befreed.ai/blog/prepare-for-claude-mythos-developers-guide-2026) — Anthropic的Mythos AI模型被描述为“迄今为止最强大的AI模型”，并引发了对2026年开发者如何准备使用该模型的讨论。
+- [White House accelerates response as Anthropic’s Mythos raises AI security fears - CHOSUNBIZ](https://biz.chosun.com/en/en-it/2026/04/12/33MNOZLR3JGCNAGHFXSZOYWJYQ/) — 白宫加快了对Anthropic的Mythos模型可能带来的AI安全威胁的响应。
+- [Claude Mythos AI unauthorised access claim probed by Anthropic](https://www.bbc.com/news/articles/cy41zejp9pko) — Anthropic正在调查未经授权访问其Claude Mythos AI工具的指控。
 

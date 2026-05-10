@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-10
-url: "https://www.bbc.com/news/articles/cyv10e1d13po"
-source_title: "White House and Anthropic hold 'productive' meeting amid fears over Mythos model"
+url: "https://www.bbc.com/news/articles/cy41zejp9pko"
+source_title: "Claude Mythos AI unauthorised access claim probed by Anthropic"
 relevance: RELEVANT
 ---
 
-# White House and Anthropic hold 'productive' meeting amid fears over Mythos model
+# Claude Mythos AI unauthorised access claim probed by Anthropic
 
-**来源**: [White House and Anthropic hold 'productive' meeting amid fears over Mythos model](https://www.bbc.com/news/articles/cyv10e1d13po)
+**来源**: [Claude Mythos AI unauthorised access claim probed by Anthropic](https://www.bbc.com/news/articles/cy41zejp9pko)
 **发现时间**: 2026-05-10
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-白宫与Anthropic举行了会议，讨论了Mythos模型可能带来的担忧。
+Anthropic正在调查未经授权访问其Claude Mythos AI工具的指控。

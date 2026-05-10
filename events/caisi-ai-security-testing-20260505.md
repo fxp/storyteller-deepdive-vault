@@ -4,12 +4,12 @@ title: 美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-10T13:36
+last_check: 2026-05-10T17:25
 last_activity: '2026-05-10'
-next_check: 2026-05-10T16:36
+next_check: 2026-05-10T20:25
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 33
+findings_count: 40
 tags:
 - tracker
 - HOT
@@ -107,4 +107,12 @@ deepdive_article: '[[待填写]]'
 - [OpenAI announces Pentagon deal after Trump bans Anthropic - NPR](https://www.npr.org/2026/02/27/nx-s1-5729118/trump-anthropic-pentagon-openai-ai-weapons-ban) — OpenAI宣布与五角大楼达成协议，这是历史发现中未出现的新事实。
 - [Microsoft, Google and xAI will let the government test their AI models ...](https://www.cnn.com/2026/05/05/tech/microsoft-google-xai-government-test-ai-models) — 微软、Google和xAI将允许政府在AI模型发布前进行测试，这是历史发现中未出现的新事实。
 - [Google, Microsoft and xAI agree to US government AI testing programme | Euronews](https://www.euronews.com/next/2026/05/08/tech-giants-agree-to-us-government-ai-testing) — Google、Microsoft和xAI同意美国政府的AI测试计划，这是历史发现中未出现的新事实。
+### 2026-05-10
+- [DeepMind, Microsoft, and xAI signed agreements with the U.S.](https://www.linkedin.com/posts/kevin-klyman_deepmind-microsoft-and-xai-signed-agreements-activity-7457764250355281921-w1Et) — 美国政府与DeepMind、Microsoft和xAI签署了AI安全测试协议，这是历史发现中未出现的新事实。
+- [The Pentagon announces AI deals with OpenAI, Google, Microsoft, Amazon, Nvidia, and more — LLMs to be deployed on classified Department of War networks ‘for lawful operational use’ | Tom's Hardware](https://www.tomshardware.com/tech-industry/artificial-intelligence/the-pentagon-announces-ai-deals-with-openai-google-microsoft-amazon-nvidia-and-more-llms-to-be-deployed-on-classified-department-of-war-networks-for-lawful-operational-use) — 五角大楼宣布与OpenAI、Google、Microsoft、Amazon、Nvidia等签署AI协议，将AI模型部署在机密国防网络中，这是历史发现中未出现的新事实。
+- [Pentagon strikes classified AI deals with OpenAI, Google, and Nvidia](https://www.theverge.com/ai-artificial-intelligence/922113/pentagon-ai-classified-openai-google-nvidia) — 五角大楼与OpenAI、Google、Microsoft、Amazon、Nvidia、xAI和Reflection签署机密AI协议，但排除了Anthropic，这是历史发现中未出现的新事实。
+- [Pentagon Signs AI Deals With Google, Amazon, and OpenAI Raising Privacy Fears - PrivacySavvy](https://privacysavvy.com/news/cybersecurity/pentagon-ai-deals-google-amazon-microsoft-openai/) — 五角大楼与Google、Amazon和OpenAI签署AI协议，引发隐私担忧，这是历史发现中未出现的新事实。
+- [Pentagon strikes deals with 8 Big Tech companies  | Nation & World News | komu.com](https://www.komu.com/news/nationworld/pentagon-strikes-deals-with-8-big-tech-companies-after-shunning-anthropic/article_6e501058-a62d-54d3-9078-6a432b33bb08.html) — 五角大楼与8家大型科技公司达成协议，在国防部机密网络中部署AI系统，这是历史发现中未出现的新事实。
+- [US government agency to safety test frontier AI models before release](https://www.cio.com/article/4168122/us-government-agency-to-safety-test-frontier-ai-models-before-release.html) — 美国政府机构将在AI模型发布前对其进行安全测试，这是历史发现中未出现的新事实。
+- [NIST will test three major tech firms' frontier AI models for ...](https://www.cybersecuritydive.com/news/nist-ai-model-testing-caisi-google-microsoft/819452/) — NIST将对Google、Microsoft和xAI的前沿AI模型进行测试，这是历史发现中未出现的新事实。
 

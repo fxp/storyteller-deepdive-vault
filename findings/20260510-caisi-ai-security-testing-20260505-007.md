@@ -1,17 +1,17 @@
 ---
 event: "[[caisi-ai-security-testing-20260505]]"
 date: 2026-05-10
-url: "https://www.euronews.com/next/2026/05/08/tech-giants-agree-to-us-government-ai-testing"
-source_title: "Google, Microsoft and xAI agree to US government AI testing programme | Euronews"
+url: "https://www.cybersecuritydive.com/news/nist-ai-model-testing-caisi-google-microsoft/819452/"
+source_title: "NIST will test three major tech firms' frontier AI models for ..."
 relevance: RELEVANT
 ---
 
-# Google, Microsoft and xAI agree to US government AI testing programme | Euronews
+# NIST will test three major tech firms' frontier AI models for ...
 
-**来源**: [Google, Microsoft and xAI agree to US government AI testing programme | Euronews](https://www.euronews.com/next/2026/05/08/tech-giants-agree-to-us-government-ai-testing)
+**来源**: [NIST will test three major tech firms' frontier AI models for ...](https://www.cybersecuritydive.com/news/nist-ai-model-testing-caisi-google-microsoft/819452/)
 **发现时间**: 2026-05-10
 **所属事件**: [[caisi-ai-security-testing-20260505]]
 
 ## 摘要
 
-Google、Microsoft和xAI同意美国政府的AI测试计划，这是历史发现中未出现的新事实。
+NIST将对Google、Microsoft和xAI的前沿AI模型进行测试，这是历史发现中未出现的新事实。

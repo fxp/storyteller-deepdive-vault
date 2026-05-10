@@ -1,17 +1,17 @@
 ---
 event: "[[caisi-ai-security-testing-20260505]]"
 date: 2026-05-10
-url: "https://www.cnn.com/2026/05/05/tech/microsoft-google-xai-government-test-ai-models"
-source_title: "Microsoft, Google and xAI will let the government test their AI models ..."
+url: "https://www.cio.com/article/4168122/us-government-agency-to-safety-test-frontier-ai-models-before-release.html"
+source_title: "US government agency to safety test frontier AI models before release"
 relevance: RELEVANT
 ---
 
-# Microsoft, Google and xAI will let the government test their AI models ...
+# US government agency to safety test frontier AI models before release
 
-**来源**: [Microsoft, Google and xAI will let the government test their AI models ...](https://www.cnn.com/2026/05/05/tech/microsoft-google-xai-government-test-ai-models)
+**来源**: [US government agency to safety test frontier AI models before release](https://www.cio.com/article/4168122/us-government-agency-to-safety-test-frontier-ai-models-before-release.html)
 **发现时间**: 2026-05-10
 **所属事件**: [[caisi-ai-security-testing-20260505]]
 
 ## 摘要
 
-微软、Google和xAI将允许政府在AI模型发布前进行测试，这是历史发现中未出现的新事实。
+美国政府机构将在AI模型发布前对其进行安全测试，这是历史发现中未出现的新事实。

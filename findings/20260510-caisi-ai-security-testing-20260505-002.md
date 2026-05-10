@@ -1,17 +1,17 @@
 ---
 event: "[[caisi-ai-security-testing-20260505]]"
 date: 2026-05-10
-url: "https://www.facebook.com/firstpostin/videos/ai-in-warfare-pentagon-signs-deals-with-google-microsoft-openai-nvidia-vantage-o/1971160687619286/"
-source_title: "2.3K views · 51 reactions | The United States Pentagon has signed agreements with seven major technology companies to integrate artificial intelligence into military operations. These include Google, OpenAI, Amazon Web Services, Microsoft, Nvidia, SpaceX and Reflection. AI tools are being deployed across classified systems to support mission planning, intelligence analysis, logistics and targeting. More than 1.3 million personnel are already using these platforms. Anthropic was excluded following a dispute over military usage conditions and has taken legal action. Integration timelines have accelerated significantly, while the Pentagon has requested 54 billion dollars for autonomous weapons programmes. The development signals a major shift in how modern warfare is conducted. | #VantageOnFirstpost | Firstpost"
+url: "https://www.tomshardware.com/tech-industry/artificial-intelligence/the-pentagon-announces-ai-deals-with-openai-google-microsoft-amazon-nvidia-and-more-llms-to-be-deployed-on-classified-department-of-war-networks-for-lawful-operational-use"
+source_title: "The Pentagon announces AI deals with OpenAI, Google, Microsoft, Amazon, Nvidia, and more — LLMs to be deployed on classified Department of War networks ‘for lawful operational use’ | Tom's Hardware"
 relevance: RELEVANT
 ---
 
-# 2.3K views · 51 reactions | The United States Pentagon has signed agreements with seven major technology companies to integrate artificial intelligence into military operations. These include Google, OpenAI, Amazon Web Services, Microsoft, Nvidia, SpaceX and Reflection. AI tools are being deployed across classified systems to support mission planning, intelligence analysis, logistics and targeting. More than 1.3 million personnel are already using these platforms. Anthropic was excluded following a dispute over military usage conditions and has taken legal action. Integration timelines have accelerated significantly, while the Pentagon has requested 54 billion dollars for autonomous weapons programmes. The development signals a major shift in how modern warfare is conducted. | #VantageOnFirstpost | Firstpost
+# The Pentagon announces AI deals with OpenAI, Google, Microsoft, Amazon, Nvidia, and more — LLMs to be deployed on classified Department of War networks ‘for lawful operational use’ | Tom's Hardware
 
-**来源**: [2.3K views · 51 reactions | The United States Pentagon has signed agreements with seven major technology companies to integrate artificial intelligence into military operations. These include Google, OpenAI, Amazon Web Services, Microsoft, Nvidia, SpaceX and Reflection. AI tools are being deployed across classified systems to support mission planning, intelligence analysis, logistics and targeting. More than 1.3 million personnel are already using these platforms. Anthropic was excluded following a dispute over military usage conditions and has taken legal action. Integration timelines have accelerated significantly, while the Pentagon has requested 54 billion dollars for autonomous weapons programmes. The development signals a major shift in how modern warfare is conducted. | #VantageOnFirstpost | Firstpost](https://www.facebook.com/firstpostin/videos/ai-in-warfare-pentagon-signs-deals-with-google-microsoft-openai-nvidia-vantage-o/1971160687619286/)
+**来源**: [The Pentagon announces AI deals with OpenAI, Google, Microsoft, Amazon, Nvidia, and more — LLMs to be deployed on classified Department of War networks ‘for lawful operational use’ | Tom's Hardware](https://www.tomshardware.com/tech-industry/artificial-intelligence/the-pentagon-announces-ai-deals-with-openai-google-microsoft-amazon-nvidia-and-more-llms-to-be-deployed-on-classified-department-of-war-networks-for-lawful-operational-use)
 **发现时间**: 2026-05-10
 **所属事件**: [[caisi-ai-security-testing-20260505]]
 
 ## 摘要
 
-美国国防部与七家主要科技公司签署协议，将人工智能集成到军事行动中，包括Google、OpenAI、Amazon Web Services、Microsoft、Nvidia、SpaceX和Reflection，这是历史发现中未出现的新事实。
+五角大楼宣布与OpenAI、Google、Microsoft、Amazon、Nvidia等签署AI协议，将AI模型部署在机密国防网络中，这是历史发现中未出现的新事实。
