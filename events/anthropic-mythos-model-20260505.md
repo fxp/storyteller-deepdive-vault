@@ -3,16 +3,16 @@ id: anthropic-mythos-model-20260505
 title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
-status: TRACKING
-last_check: 2026-05-09T09:10
-last_activity: 2026-05-05
-next_check: 2026-05-10T09:10
-interval_hours: 24
-consecutive_empty: 12
-findings_count: 25
+status: HOT
+last_check: 2026-05-10T09:37
+last_activity: '2026-05-10'
+next_check: 2026-05-10T12:37
+interval_hours: 3
+consecutive_empty: 0
+findings_count: 31
 tags:
 - tracker
-- TRACKING
+- HOT
 entities:
   orgs:
   - Anthropic
@@ -39,7 +39,6 @@ search_queries:
 - Mythos AI model government response reaction
 deepdive_article: '[[待填写]]'
 ---
-
 
 # Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 
@@ -76,3 +75,11 @@ deepdive_article: '[[待填写]]'
 ## 相关文章
 
 - （DeepDive 原文待发布后填入）
+### 2026-05-10
+- [Claude Mythos: Why Anthropic Says Its Most Powerful Model Is Too Dangerous to Launch - Apex Hours](https://www.apexhours.com/claude-mythos-why-it-is-too-dangerous-to-launch/) — Anthropic宣布其最强大的AI模型Claude Mythos不会公开发布，因为该模型自主发现了数千个之前未知的软件漏洞，包括几十年的旧漏洞。
+- [Exclusive: Anthropic ‘Mythos’ AI model representing ‘step change’ in power revealed in data leak | Fortune](https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities/) — Anthropic正在测试一个比之前任何发布都更强大的新AI模型Mythos，该模型在性能上代表了一个重大飞跃，被认为是迄今为止构建的最强大的模型。
+- [Anthropic debuts preview of powerful new AI model Mythos in new cybersecurity initiative | TechCrunch](https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/) — Anthropic发布了其新前沿模型Mythos的预览，该模型将被一小部分合作伙伴组织用于网络安全工作，被认为是迄今为止最强大的模型之一。
+- [Claude Mythos Guide: Anthropic's Cybersecurity AI Model Explained](https://www.sentisight.ai/claude-mythos-a-guide-on-the-much-talked-about-anthropic-model/) — Anthropic的Mythos AI模型被认为具有强大的网络安全能力，引发了全球安全警报，被认为可能对全球网络安全构成威胁。
+- [Anthropic's AI sparks concerns over a new national security risk](https://www.politico.com/newsletters/digital-future-daily/2026/04/09/anthropics-ai-sparks-concerns-over-a-new-national-security-risk-00865901) — 前国家网络安全总监表示，Anthropic的Mythos AI模型可以攻击几乎所有东西，而我们还没有准备好应对这种风险。
+- [Former national cyber director: Anthropic's 'Mythos' AI can hack nearly anything and we aren't ready | Fortune](https://fortune.com/2026/04/23/anthropic-mythos-ai-cybersecurity-critical-infrastructure-kemba-walden/) — Anthropic的Mythos AI模型引发了白宫的关注，因为它可能对国家安全构成风险。
+

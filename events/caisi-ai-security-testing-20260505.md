@@ -3,16 +3,16 @@ id: caisi-ai-security-testing-20260505
 title: 美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic 被排除
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
-status: TRACKING
-last_check: 2026-05-09T09:10
-last_activity: 2026-05-05
-next_check: 2026-05-10T09:10
-interval_hours: 24
-consecutive_empty: 12
-findings_count: 17
+status: HOT
+last_check: 2026-05-10T09:37
+last_activity: '2026-05-10'
+next_check: 2026-05-10T12:37
+interval_hours: 3
+consecutive_empty: 0
+findings_count: 26
 tags:
 - tracker
-- TRACKING
+- HOT
 entities:
   orgs:
   - Microsoft
@@ -50,7 +50,6 @@ search_queries:
 - AI model vetting government testing program expansion 2026
 deepdive_article: '[[待填写]]'
 ---
-
 
 # 美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic 被排除
 
@@ -90,3 +89,14 @@ deepdive_article: '[[待填写]]'
 - [[anthropic-mythos-model-20260505]]（关联事件：Mythos 模型）
 - [[anthropic-enterprise-ai-20260504]]（关联事件：Anthropic 企业 AI 服务）
 - （DeepDive 原文待发布后填入）
+### 2026-05-10
+- [CAISI Signs Frontier AI Testing Agreements With Google DeepMind, Microsoft, and xAI: What You Need to Know | Knowledge Hub Media](https://knowledgehubmedia.com/caisi-signs-frontier-ai-testing-agreements-with-google-deepmind-microsoft-and-xai-what-you-need-to-know/) — CAISI与Google DeepMind、Microsoft和xAI签署了前沿AI测试协议。
+- [US government expands vetting of frontier AI models for security risks](https://www.politico.com/news/2026/05/05/microsoft-xai-google-caisi-safety-testing-00906529) — 美国政府对前沿AI模型进行安全风险评估，扩大了审查范围。
+- [US and tech firms strike deal to review AI models for national ...](https://www.theguardian.com/technology/2026/may/05/commerce-department-ai-agreements-google-microsoft-xai) — 美国政府和科技巨头达成协议，审查AI模型以保障国家安全。
+- [Google, Microsoft, and xAI allow the government to test AI models in advance - Techzine Global](https://www.techzine.eu/news/privacy-compliance/141065/google-microsoft-and-xai-allow-the-government-to-test-ai-models-in-advance/) — Google、Microsoft和xAI允许政府在AI模型发布前进行测试。
+- [DOC NIST’s CAISI Signs Agreements Regarding Frontier AI National Security Testing With Google DeepMind, Microsoft and xAI | OrangeSlices AI](https://orangeslices.ai/doc-nists-caisi-signs-agreements-regarding-frontier-ai-national-security-testing-with-google-deepmind-microsoft-and-xai/) — CAISI与美国商务部签署了关于前沿AI国家安全测试的协议。
+- [Advancing AI evaluation with the Center for AI Standards (US) and ...](https://blogs.microsoft.com/on-the-issues/2026/05/05/advancing-ai-evaluation-with-the-center-for-ai-standards-us-and-innovation-and-the-ai-security-institute-uk/) — Microsoft宣布与CAISI和AI安全研究所合作，推进AI测试和评估。
+- [AI Vetting Shifts National Security Policy - AI CERTs News](https://www.aicerts.ai/news/ai-vetting-shifts-national-security-policy/) — CAISI与三家前沿AI开发者达成安全测试协议。
+- [CAISI reaches agreement on security testing with three major ...](https://insideaipolicy.com/ai-daily-news/caisi-reaches-agreement-security-testing-three-major-frontier-ai-developers) — 美国政府将测试新的AI模型以评估国家安全风险。
+- [US government to test new AI models for national security risks](https://www.usatoday.com/story/tech/news/2026/05/05/ai-models-security-testing-government/89947869007/) — Microsoft、Google和xAI将允许政府在AI模型发布前进行测试。
+
