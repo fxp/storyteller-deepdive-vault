@@ -4,12 +4,12 @@ title: 美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-10T17:25
+last_check: 2026-05-10T21:23
 last_activity: '2026-05-10'
-next_check: 2026-05-10T20:25
+next_check: 2026-05-11T00:23
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 40
+findings_count: 41
 tags:
 - tracker
 - HOT
@@ -115,4 +115,6 @@ deepdive_article: '[[待填写]]'
 - [Pentagon strikes deals with 8 Big Tech companies  | Nation & World News | komu.com](https://www.komu.com/news/nationworld/pentagon-strikes-deals-with-8-big-tech-companies-after-shunning-anthropic/article_6e501058-a62d-54d3-9078-6a432b33bb08.html) — 五角大楼与8家大型科技公司达成协议，在国防部机密网络中部署AI系统，这是历史发现中未出现的新事实。
 - [US government agency to safety test frontier AI models before release](https://www.cio.com/article/4168122/us-government-agency-to-safety-test-frontier-ai-models-before-release.html) — 美国政府机构将在AI模型发布前对其进行安全测试，这是历史发现中未出现的新事实。
 - [NIST will test three major tech firms' frontier AI models for ...](https://www.cybersecuritydive.com/news/nist-ai-model-testing-caisi-google-microsoft/819452/) — NIST将对Google、Microsoft和xAI的前沿AI模型进行测试，这是历史发现中未出现的新事实。
+### 2026-05-10
+- [Google, Microsoft and xAI's frontier AI to face national security testing](https://www.ciodive.com/news/Google-Microsoft-xAI-to-face-security-testing/819375/) — 美国政府与微软、Google和xAI签署了AI安全测试协议，这是历史发现中未出现的新事实。
 

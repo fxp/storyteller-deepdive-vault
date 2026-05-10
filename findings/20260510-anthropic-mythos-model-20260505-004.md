@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-10
-url: "https://www.sentisight.ai/claude-mythos-a-guide-on-the-much-talked-about-anthropic-model/"
-source_title: "Claude Mythos Guide: Anthropic's Cybersecurity AI Model Explained"
+url: "https://apnews.com/article/anthropic-pentagon-ai-dario-amodei-hegseth-0c464a054359b9fdc80cf18b0d4f690c"
+source_title: "Defense Secretary halts Anthropic's AI work over military use dispute | AP News"
 relevance: RELEVANT
 ---
 
-# Claude Mythos Guide: Anthropic's Cybersecurity AI Model Explained
+# Defense Secretary halts Anthropic's AI work over military use dispute | AP News
 
-**来源**: [Claude Mythos Guide: Anthropic's Cybersecurity AI Model Explained](https://www.sentisight.ai/claude-mythos-a-guide-on-the-much-talked-about-anthropic-model/)
+**来源**: [Defense Secretary halts Anthropic's AI work over military use dispute | AP News](https://apnews.com/article/anthropic-pentagon-ai-dario-amodei-hegseth-0c464a054359b9fdc80cf18b0d4f690c)
 **发现时间**: 2026-05-10
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-Anthropic的Mythos AI模型被认为具有强大的网络安全能力，引发了全球安全警报，被认为可能对全球网络安全构成威胁。
+国防部长因军事用途争议暂停Anthropic的AI工作，涉及Mythos AI模型。

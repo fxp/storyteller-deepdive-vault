@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-10
-url: "https://fortune.com/2026/04/23/anthropic-mythos-ai-cybersecurity-critical-infrastructure-kemba-walden/"
-source_title: "Former national cyber director: Anthropic's 'Mythos' AI can hack nearly anything and we aren't ready | Fortune"
+url: "https://www.wsj.com/tech/ai/trump-ai-anthropic-mythos-regulation-2378971f"
+source_title: "How Anthropic’s Mythos AI Model Threw the Trump White House’s Tech Strategy Into Chaos"
 relevance: RELEVANT
 ---
 
-# Former national cyber director: Anthropic's 'Mythos' AI can hack nearly anything and we aren't ready | Fortune
+# How Anthropic’s Mythos AI Model Threw the Trump White House’s Tech Strategy Into Chaos
 
-**来源**: [Former national cyber director: Anthropic's 'Mythos' AI can hack nearly anything and we aren't ready | Fortune](https://fortune.com/2026/04/23/anthropic-mythos-ai-cybersecurity-critical-infrastructure-kemba-walden/)
+**来源**: [How Anthropic’s Mythos AI Model Threw the Trump White House’s Tech Strategy Into Chaos](https://www.wsj.com/tech/ai/trump-ai-anthropic-mythos-regulation-2378971f)
 **发现时间**: 2026-05-10
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-Anthropic的Mythos AI模型引发了白宫的关注，因为它可能对国家安全构成风险。
+Anthropic的Mythos AI模型使特朗普政府的科技战略陷入混乱。

@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-10
-url: "https://biz.chosun.com/en/en-it/2026/04/12/33MNOZLR3JGCNAGHFXSZOYWJYQ/"
-source_title: "White House accelerates response as Anthropic’s Mythos raises AI security fears - CHOSUNBIZ"
+url: "https://www.theguardian.com/technology/2026/apr/10/anthropic-new-ai-model-claude-mythos-implications"
+source_title: "Anthropic's new AI tool has implications for us all - The Guardian"
 relevance: RELEVANT
 ---
 
-# White House accelerates response as Anthropic’s Mythos raises AI security fears - CHOSUNBIZ
+# Anthropic's new AI tool has implications for us all - The Guardian
 
-**来源**: [White House accelerates response as Anthropic’s Mythos raises AI security fears - CHOSUNBIZ](https://biz.chosun.com/en/en-it/2026/04/12/33MNOZLR3JGCNAGHFXSZOYWJYQ/)
+**来源**: [Anthropic's new AI tool has implications for us all - The Guardian](https://www.theguardian.com/technology/2026/apr/10/anthropic-new-ai-model-claude-mythos-implications)
 **发现时间**: 2026-05-10
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-白宫加快了对Anthropic的Mythos模型可能带来的AI安全威胁的响应。
+Anthropic的新AI工具对所有人都有影响，其Mythos AI模型具有强大的网络安全和攻击能力。

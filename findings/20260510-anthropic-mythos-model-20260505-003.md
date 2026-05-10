@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-10
-url: "https://www.bbc.com/news/articles/cy41zejp9pko"
-source_title: "Claude Mythos AI unauthorised access claim probed by Anthropic"
+url: "https://www.washingtonpost.com/technology/2026/04/24/anthropic-mythos-ai-washington-cybersecurity-hacking-risk/"
+source_title: "AI hacking fears jolt Washington as Anthropic unveils Mythos - The Washington Post"
 relevance: RELEVANT
 ---
 
-# Claude Mythos AI unauthorised access claim probed by Anthropic
+# AI hacking fears jolt Washington as Anthropic unveils Mythos - The Washington Post
 
-**来源**: [Claude Mythos AI unauthorised access claim probed by Anthropic](https://www.bbc.com/news/articles/cy41zejp9pko)
+**来源**: [AI hacking fears jolt Washington as Anthropic unveils Mythos - The Washington Post](https://www.washingtonpost.com/technology/2026/04/24/anthropic-mythos-ai-washington-cybersecurity-hacking-risk/)
 **发现时间**: 2026-05-10
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-Anthropic正在调查未经授权访问其Claude Mythos AI工具的指控。
+Anthropic的Mythos AI模型引发华盛顿的AI黑客恐惧，该模型可以快速发现和利用数字漏洞。

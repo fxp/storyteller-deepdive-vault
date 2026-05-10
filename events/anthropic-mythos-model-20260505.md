@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-10T17:25
+last_check: 2026-05-10T21:23
 last_activity: '2026-05-10'
-next_check: 2026-05-10T20:25
+next_check: 2026-05-11T00:23
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 37
+findings_count: 43
 tags:
 - tracker
 - HOT
@@ -90,4 +90,11 @@ deepdive_article: '[[待填写]]'
 - [How to Prepare for Claude Mythos in 2026](https://www.befreed.ai/blog/prepare-for-claude-mythos-developers-guide-2026) — Anthropic的Mythos AI模型被描述为“迄今为止最强大的AI模型”，并引发了对2026年开发者如何准备使用该模型的讨论。
 - [White House accelerates response as Anthropic’s Mythos raises AI security fears - CHOSUNBIZ](https://biz.chosun.com/en/en-it/2026/04/12/33MNOZLR3JGCNAGHFXSZOYWJYQ/) — 白宫加快了对Anthropic的Mythos模型可能带来的AI安全威胁的响应。
 - [Claude Mythos AI unauthorised access claim probed by Anthropic](https://www.bbc.com/news/articles/cy41zejp9pko) — Anthropic正在调查未经授权访问其Claude Mythos AI工具的指控。
+### 2026-05-10
+- [Scoop: OpenAI plans new product for cybersecurity use](https://www.axios.com/2026/04/09/openai-new-model-cyber-mythos-anthopic) — OpenAI计划推出新的用于网络安全的产品，与Anthropic的Mythos AI模型相关。
+- [Anthropic's new AI tool has implications for us all - The Guardian](https://www.theguardian.com/technology/2026/apr/10/anthropic-new-ai-model-claude-mythos-implications) — Anthropic的新AI工具对所有人都有影响，其Mythos AI模型具有强大的网络安全和攻击能力。
+- [AI hacking fears jolt Washington as Anthropic unveils Mythos - The Washington Post](https://www.washingtonpost.com/technology/2026/04/24/anthropic-mythos-ai-washington-cybersecurity-hacking-risk/) — Anthropic的Mythos AI模型引发华盛顿的AI黑客恐惧，该模型可以快速发现和利用数字漏洞。
+- [Defense Secretary halts Anthropic's AI work over military use dispute | AP News](https://apnews.com/article/anthropic-pentagon-ai-dario-amodei-hegseth-0c464a054359b9fdc80cf18b0d4f690c) — 国防部长因军事用途争议暂停Anthropic的AI工作，涉及Mythos AI模型。
+- [Anthropic fights designation from Department of War as AI dispute escalates | Mashable](https://mashable.com/article/anthropic-supply-chain-risk-ceo-statement) — Anthropic与美国国防部之间的AI争议升级，国防部将其指定为供应链风险。
+- [How Anthropic’s Mythos AI Model Threw the Trump White House’s Tech Strategy Into Chaos](https://www.wsj.com/tech/ai/trump-ai-anthropic-mythos-regulation-2378971f) — Anthropic的Mythos AI模型使特朗普政府的科技战略陷入混乱。
 
