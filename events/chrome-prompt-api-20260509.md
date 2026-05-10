@@ -4,12 +4,12 @@ title: Google Chrome 推出 Prompt API（浏览器内置 Gemini Nano）
 seed_url: https://developer.chrome.com/docs/ai/prompt-api
 published_date: 2024-11-12
 status: HOT
-last_check: 2026-05-09T23:23
-last_activity: '2026-05-09'
-next_check: 2026-05-10T02:23
+last_check: 2026-05-10T03:18
+last_activity: '2026-05-10'
+next_check: 2026-05-10T06:18
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 18
+findings_count: 21
 tags:
 - tracker
 - HOT
@@ -99,4 +99,8 @@ search_queries:
 ### 2026-05-09
 - [Enhancing Gemini Nano: delivering higher quality summaries with LoRA  |  Blog  |  Chrome for Developers](https://developer.chrome.com/blog/improved-summaries-gemini-nano) — Chrome 与 Google Cloud 合作改进 Gemini Nano 的输出，提供更高质量的摘要。
 - [Browser AI with Chrome Prompt API | by Roman Fedytskyi - Medium](https://medium.com/@roman_fedyskyi/browser-ai-with-chrome-prompt-api-7954b46d113c) — 使用 Chrome 的 Prompt API 调用 AI 模型，构建交互式助手。
+### 2026-05-10
+- [Any release timeline for LanguageModel? - Google Groups](https://groups.google.com/a/chromium.org/g/chrome-ai-dev-preview-discuss/c/lTfc3susp8g) — Google Chrome 的 Prompt API 现在支持多模态支持，这是新事实。
+- [Join the Prompt API for Chrome Extensions origin trial | Blog](https://developer.chrome.com/blog/prompt-api-origin-trial) — Prompt API 现在可用于 Chrome 扩展程序的 origin trial，这是新事实。
+- [Build a local and offline-capable chatbot with the Prompt API  |  web.dev](https://web.dev/articles/ai-chatbot-promptapi) — 文章介绍了如何使用 Prompt API 构建本地和离线聊天机器人，这是新事实。
 
