@@ -4,11 +4,11 @@ title: Google Chrome 推出 Prompt API（浏览器内置 Gemini Nano）
 seed_url: https://developer.chrome.com/docs/ai/prompt-api
 published_date: 2024-11-12
 status: HOT
-last_check: 2026-05-10T10:33
+last_check: 2026-05-10T13:36
 last_activity: '2026-05-10'
-next_check: 2026-05-10T13:33
+next_check: 2026-05-10T16:36
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 24
 tags:
 - tracker
@@ -108,4 +108,3 @@ search_queries:
 - [Build a helpful, powerful web in the Google Chrome Built-in AI Challenge 2025  |  Blog  |  Chrome for Developers](https://developer.chrome.com/blog/ai-challenge-2025) — Google Chrome Built-in AI Challenge 2025，邀请开发者使用内置AI API构建新应用或扩展。
 ### 2026-05-10
 - [Prompt API on Chrome AI in 2025 - YouTube](https://www.youtube.com/watch?v=b-5WjGqsVz0) — 视频展示了 Chrome Prompt API 的几个功能，包括 zero-shot prompting、system prompts 和 n-shot prompting。
-

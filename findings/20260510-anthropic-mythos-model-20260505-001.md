@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-10
-url: "https://www.apexhours.com/claude-mythos-why-it-is-too-dangerous-to-launch/"
-source_title: "Claude Mythos: Why Anthropic Says Its Most Powerful Model Is Too Dangerous to Launch - Apex Hours"
+url: "https://www.nxcode.io/resources/news/claude-mythos-preview-anthropic-most-powerful-model-2026"
+source_title: "Claude Mythos Preview: Anthropic's Most Powerful AI (93.9% SWE ..."
 relevance: RELEVANT
 ---
 
-# Claude Mythos: Why Anthropic Says Its Most Powerful Model Is Too Dangerous to Launch - Apex Hours
+# Claude Mythos Preview: Anthropic's Most Powerful AI (93.9% SWE ...
 
-**来源**: [Claude Mythos: Why Anthropic Says Its Most Powerful Model Is Too Dangerous to Launch - Apex Hours](https://www.apexhours.com/claude-mythos-why-it-is-too-dangerous-to-launch/)
+**来源**: [Claude Mythos Preview: Anthropic's Most Powerful AI (93.9% SWE ...](https://www.nxcode.io/resources/news/claude-mythos-preview-anthropic-most-powerful-model-2026)
 **发现时间**: 2026-05-10
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-Anthropic宣布其最强大的AI模型Claude Mythos不会公开发布，因为该模型自主发现了数千个之前未知的软件漏洞，包括几十年的旧漏洞。
+Anthropic发布了Claude Mythos Preview，这是其迄今为止最强大的模型，但未公开发布。

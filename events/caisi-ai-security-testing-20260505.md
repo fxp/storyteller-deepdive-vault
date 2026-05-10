@@ -4,12 +4,12 @@ title: 美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-10T09:37
+last_check: 2026-05-10T13:36
 last_activity: '2026-05-10'
-next_check: 2026-05-10T12:37
+next_check: 2026-05-10T16:36
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 26
+findings_count: 33
 tags:
 - tracker
 - HOT
@@ -99,4 +99,12 @@ deepdive_article: '[[待填写]]'
 - [AI Vetting Shifts National Security Policy - AI CERTs News](https://www.aicerts.ai/news/ai-vetting-shifts-national-security-policy/) — CAISI与三家前沿AI开发者达成安全测试协议。
 - [CAISI reaches agreement on security testing with three major ...](https://insideaipolicy.com/ai-daily-news/caisi-reaches-agreement-security-testing-three-major-frontier-ai-developers) — 美国政府将测试新的AI模型以评估国家安全风险。
 - [US government to test new AI models for national security risks](https://www.usatoday.com/story/tech/news/2026/05/05/ai-models-security-testing-government/89947869007/) — Microsoft、Google和xAI将允许政府在AI模型发布前进行测试。
+### 2026-05-10
+- [AI oversight: Trump admin. will test Google, Microsoft and xAI models](https://www.cnbc.com/2026/05/05/ai-oversight-trump-google-microsoft-xai.html) — 美国政府与微软、Google和xAI签署AI安全测试协议，但Anthropic被排除在外，这是历史发现中未出现的新事实。
+- [2.3K views · 51 reactions | The United States Pentagon has signed agreements with seven major technology companies to integrate artificial intelligence into military operations. These include Google, OpenAI, Amazon Web Services, Microsoft, Nvidia, SpaceX and Reflection. AI tools are being deployed across classified systems to support mission planning, intelligence analysis, logistics and targeting. More than 1.3 million personnel are already using these platforms. Anthropic was excluded following a dispute over military usage conditions and has taken legal action. Integration timelines have accelerated significantly, while the Pentagon has requested 54 billion dollars for autonomous weapons programmes. The development signals a major shift in how modern warfare is conducted. | #VantageOnFirstpost | Firstpost](https://www.facebook.com/firstpostin/videos/ai-in-warfare-pentagon-signs-deals-with-google-microsoft-openai-nvidia-vantage-o/1971160687619286/) — 美国国防部与七家主要科技公司签署协议，将人工智能集成到军事行动中，包括Google、OpenAI、Amazon Web Services、Microsoft、Nvidia、SpaceX和Reflection，这是历史发现中未出现的新事实。
+- [Seven AI firms agree to deploy tech in Pentagon classified networks](https://thehill.com/policy/technology/5858995-pentagon-ai-companies-classified-work-deal/) — 八家美国主要人工智能公司同意在国防部（DOD）的机密网络中部署其AI系统，这是历史发现中未出现的新事实。
+- [Pentagon clears 8 tech firms to deploy their AI on its classified networks](https://breakingdefense.com/2026/05/pentagon-clears-7-tech-firms-to-deploy-their-ai-on-its-classified-networks/) — 美国国防部批准了八家科技公司在其机密网络上部署其AI，这是历史发现中未出现的新事实。
+- [OpenAI announces Pentagon deal after Trump bans Anthropic - NPR](https://www.npr.org/2026/02/27/nx-s1-5729118/trump-anthropic-pentagon-openai-ai-weapons-ban) — OpenAI宣布与五角大楼达成协议，这是历史发现中未出现的新事实。
+- [Microsoft, Google and xAI will let the government test their AI models ...](https://www.cnn.com/2026/05/05/tech/microsoft-google-xai-government-test-ai-models) — 微软、Google和xAI将允许政府在AI模型发布前进行测试，这是历史发现中未出现的新事实。
+- [Google, Microsoft and xAI agree to US government AI testing programme | Euronews](https://www.euronews.com/next/2026/05/08/tech-giants-agree-to-us-government-ai-testing) — Google、Microsoft和xAI同意美国政府的AI测试计划，这是历史发现中未出现的新事实。
 

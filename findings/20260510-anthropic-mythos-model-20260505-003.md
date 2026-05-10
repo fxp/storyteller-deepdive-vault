@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-10
-url: "https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/"
-source_title: "Anthropic debuts preview of powerful new AI model Mythos in new cybersecurity initiative | TechCrunch"
+url: "https://www.bbc.com/news/articles/cyv10e1d13po"
+source_title: "White House and Anthropic hold 'productive' meeting amid fears over Mythos model"
 relevance: RELEVANT
 ---
 
-# Anthropic debuts preview of powerful new AI model Mythos in new cybersecurity initiative | TechCrunch
+# White House and Anthropic hold 'productive' meeting amid fears over Mythos model
 
-**来源**: [Anthropic debuts preview of powerful new AI model Mythos in new cybersecurity initiative | TechCrunch](https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/)
+**来源**: [White House and Anthropic hold 'productive' meeting amid fears over Mythos model](https://www.bbc.com/news/articles/cyv10e1d13po)
 **发现时间**: 2026-05-10
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-Anthropic发布了其新前沿模型Mythos的预览，该模型将被一小部分合作伙伴组织用于网络安全工作，被认为是迄今为止最强大的模型之一。
+白宫与Anthropic举行了会议，讨论了Mythos模型可能带来的担忧。

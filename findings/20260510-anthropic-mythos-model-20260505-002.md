@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-10
-url: "https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities/"
-source_title: "Exclusive: Anthropic ‘Mythos’ AI model representing ‘step change’ in power revealed in data leak | Fortune"
+url: "https://www.facebook.com/financialtimes/posts/anthropics-new-mythos-ai-model-is-raising-concern-among-governments-and-companie/1363050669201640/"
+source_title: "Anthropic's new Mythos AI model is raising concern among ..."
 relevance: RELEVANT
 ---
 
-# Exclusive: Anthropic ‘Mythos’ AI model representing ‘step change’ in power revealed in data leak | Fortune
+# Anthropic's new Mythos AI model is raising concern among ...
 
-**来源**: [Exclusive: Anthropic ‘Mythos’ AI model representing ‘step change’ in power revealed in data leak | Fortune](https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities/)
+**来源**: [Anthropic's new Mythos AI model is raising concern among ...](https://www.facebook.com/financialtimes/posts/anthropics-new-mythos-ai-model-is-raising-concern-among-governments-and-companie/1363050669201640/)
 **发现时间**: 2026-05-10
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-Anthropic正在测试一个比之前任何发布都更强大的新AI模型Mythos，该模型在性能上代表了一个重大飞跃，被认为是迄今为止构建的最强大的模型。
+Anthropic的Mythos AI模型引起了政府和公司的担忧，担心其可能超过当前的网络安全防御。

@@ -1,17 +1,17 @@
 ---
 event: "[[caisi-ai-security-testing-20260505]]"
 date: 2026-05-10
-url: "https://www.theguardian.com/technology/2026/may/05/commerce-department-ai-agreements-google-microsoft-xai"
-source_title: "US and tech firms strike deal to review AI models for national ..."
+url: "https://thehill.com/policy/technology/5858995-pentagon-ai-companies-classified-work-deal/"
+source_title: "Seven AI firms agree to deploy tech in Pentagon classified networks"
 relevance: RELEVANT
 ---
 
-# US and tech firms strike deal to review AI models for national ...
+# Seven AI firms agree to deploy tech in Pentagon classified networks
 
-**来源**: [US and tech firms strike deal to review AI models for national ...](https://www.theguardian.com/technology/2026/may/05/commerce-department-ai-agreements-google-microsoft-xai)
+**来源**: [Seven AI firms agree to deploy tech in Pentagon classified networks](https://thehill.com/policy/technology/5858995-pentagon-ai-companies-classified-work-deal/)
 **发现时间**: 2026-05-10
 **所属事件**: [[caisi-ai-security-testing-20260505]]
 
 ## 摘要
 
-美国政府和科技巨头达成协议，审查AI模型以保障国家安全。
+八家美国主要人工智能公司同意在国防部（DOD）的机密网络中部署其AI系统，这是历史发现中未出现的新事实。

@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-10T09:37
+last_check: 2026-05-10T13:36
 last_activity: '2026-05-10'
-next_check: 2026-05-10T12:37
+next_check: 2026-05-10T16:36
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 31
+findings_count: 34
 tags:
 - tracker
 - HOT
@@ -82,4 +82,8 @@ deepdive_article: '[[待填写]]'
 - [Claude Mythos Guide: Anthropic's Cybersecurity AI Model Explained](https://www.sentisight.ai/claude-mythos-a-guide-on-the-much-talked-about-anthropic-model/) — Anthropic的Mythos AI模型被认为具有强大的网络安全能力，引发了全球安全警报，被认为可能对全球网络安全构成威胁。
 - [Anthropic's AI sparks concerns over a new national security risk](https://www.politico.com/newsletters/digital-future-daily/2026/04/09/anthropics-ai-sparks-concerns-over-a-new-national-security-risk-00865901) — 前国家网络安全总监表示，Anthropic的Mythos AI模型可以攻击几乎所有东西，而我们还没有准备好应对这种风险。
 - [Former national cyber director: Anthropic's 'Mythos' AI can hack nearly anything and we aren't ready | Fortune](https://fortune.com/2026/04/23/anthropic-mythos-ai-cybersecurity-critical-infrastructure-kemba-walden/) — Anthropic的Mythos AI模型引发了白宫的关注，因为它可能对国家安全构成风险。
+### 2026-05-10
+- [Claude Mythos Preview: Anthropic's Most Powerful AI (93.9% SWE ...](https://www.nxcode.io/resources/news/claude-mythos-preview-anthropic-most-powerful-model-2026) — Anthropic发布了Claude Mythos Preview，这是其迄今为止最强大的模型，但未公开发布。
+- [Anthropic's new Mythos AI model is raising concern among ...](https://www.facebook.com/financialtimes/posts/anthropics-new-mythos-ai-model-is-raising-concern-among-governments-and-companie/1363050669201640/) — Anthropic的Mythos AI模型引起了政府和公司的担忧，担心其可能超过当前的网络安全防御。
+- [White House and Anthropic hold 'productive' meeting amid fears over Mythos model](https://www.bbc.com/news/articles/cyv10e1d13po) — 白宫与Anthropic举行了会议，讨论了Mythos模型可能带来的担忧。
 

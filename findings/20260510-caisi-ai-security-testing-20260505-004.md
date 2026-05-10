@@ -1,17 +1,17 @@
 ---
 event: "[[caisi-ai-security-testing-20260505]]"
 date: 2026-05-10
-url: "https://www.techzine.eu/news/privacy-compliance/141065/google-microsoft-and-xai-allow-the-government-to-test-ai-models-in-advance/"
-source_title: "Google, Microsoft, and xAI allow the government to test AI models in advance - Techzine Global"
+url: "https://breakingdefense.com/2026/05/pentagon-clears-7-tech-firms-to-deploy-their-ai-on-its-classified-networks/"
+source_title: "Pentagon clears 8 tech firms to deploy their AI on its classified networks"
 relevance: RELEVANT
 ---
 
-# Google, Microsoft, and xAI allow the government to test AI models in advance - Techzine Global
+# Pentagon clears 8 tech firms to deploy their AI on its classified networks
 
-**来源**: [Google, Microsoft, and xAI allow the government to test AI models in advance - Techzine Global](https://www.techzine.eu/news/privacy-compliance/141065/google-microsoft-and-xai-allow-the-government-to-test-ai-models-in-advance/)
+**来源**: [Pentagon clears 8 tech firms to deploy their AI on its classified networks](https://breakingdefense.com/2026/05/pentagon-clears-7-tech-firms-to-deploy-their-ai-on-its-classified-networks/)
 **发现时间**: 2026-05-10
 **所属事件**: [[caisi-ai-security-testing-20260505]]
 
 ## 摘要
 
-Google、Microsoft和xAI允许政府在AI模型发布前进行测试。
+美国国防部批准了八家科技公司在其机密网络上部署其AI，这是历史发现中未出现的新事实。
