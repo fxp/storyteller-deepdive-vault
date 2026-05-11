@@ -4,12 +4,12 @@ title: Google Chrome 推出 Prompt API（浏览器内置 Gemini Nano）
 seed_url: https://developer.chrome.com/docs/ai/prompt-api
 published_date: 2024-11-12
 status: HOT
-last_check: 2026-05-11T13:14
+last_check: 2026-05-11T17:03
 last_activity: '2026-05-11'
-next_check: 2026-05-11T16:14
+next_check: 2026-05-11T20:03
 interval_hours: 3
-consecutive_empty: 1
-findings_count: 32
+consecutive_empty: 0
+findings_count: 34
 tags:
 - tracker
 - HOT
@@ -121,3 +121,7 @@ search_queries:
 - [When Chrome's Prompt API goes public — what are the first real use ...](https://www.reddit.com/r/chrome_extensions/comments/1r78n49/when_chromes_prompt_api_goes_public_what_are_the/) — 讨论了 Chrome Prompt API 的潜在用途，提供了新事实。
 ### 2026-05-11
 - [Built-in AI Web APIs: Chrome's On-Device Revolution - LinkedIn](https://www.linkedin.com/pulse/built-in-ai-web-apis-chromes-on-device-revolution-rahulkumar-gaddam-dzume) — LinkedIn 博客介绍了 Chrome 内置 AI Web API 的革命性，包括实验性 API 的测试。
+### 2026-05-11
+- [Google's Gemini Nano in Chrome Raises Privacy and Performance Concerns | Welcome.AI](https://welcome.ai/content/googles-gemini-nano-in-chrome-raises-privacy-and-performance-concerns) — Google 的 Gemini Nano 引起隐私和性能担忧，用户可以通过切换功能禁用它。
+- [Google Tests Gemini Nano AI Inside Chrome - LinkedIn](https://www.linkedin.com/posts/acceleratorxorg_gemini-chrome-google-activity-7396089105584955392-qhYS) — Google 在 Chrome 浏览器中测试 Gemini Nano AI，这是一个新事实。
+

@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-11T13:14
+last_check: 2026-05-11T17:03
 last_activity: '2026-05-11'
-next_check: 2026-05-11T16:14
+next_check: 2026-05-11T20:03
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 56
+findings_count: 59
 tags:
 - tracker
 - HOT
@@ -114,4 +114,8 @@ deepdive_article: '[[待填写]]'
 - [Anthropic’s latest AI model could let hackers carry out attacks faster than ever. It wants companies to put up defenses first | CNN Business](https://edition.cnn.com/2026/04/07/tech/anthropic-claude-mythos-preview-cybersecurity) — Anthropic 将其新 AI 模型 Mythos (正式称为 Claude Mythos Preview) 的一部分提供给全球最大的网络安全和软件公司，以减缓黑客手中 AI 引发的军备竞赛。
 - [Anthropic limits rollout of Mythos AI model over cyberattack fears](https://www.cnbc.com/2026/04/07/anthropic-claude-mythos-ai-hackers-cyberattacks.html) — Anthropic 宣布 Claude Mythos Preview，这是一种先进的 AI 模型，擅长识别软件中的弱点和安全漏洞。
 - [Anthropic's Mythos moment: how frontier AI is redefining cybersecurity](https://www.weforum.org/stories/2026/04/anthropic-mythos-ai-cybersecurity/) — Anthropic 的最新模型 Mythos 的推出受到限制，因为担心它可能被网络犯罪分子和间谍滥用。
+### 2026-05-11
+- [Anthropic Mythos Is a Monster](https://medium.com/@mahendraa1188/anthropic-mythos-is-a-monster-fe751f1beb19) — Anthropic决定不公开其名为Claude Mythos Preview的模型，这是一个前所未有的举动，被认为是一个重要的里程碑。
+- [Mythos AI is a cybersecurity threat, but it doesn't rewrite the rules of ...](https://theconversation.com/mythos-ai-is-a-cybersecurity-threat-but-it-doesnt-rewrite-the-rules-of-the-game-281268) — Mythos AI能够以前所未有的速度发现和利用软件漏洞，引发了公众、世界各国政府和信息技术行业的担忧。
+- [Claude Mythos Preview: Benchmarks, Pricing & Project Glasswing](https://llm-stats.com/blog/research/claude-mythos-preview-launch) — Anthropic宣布了Claude Mythos Preview，并发布了基准分数，同时推出了Project Glasswing，这是一个跨行业的倡议，旨在保护关键软件。
 

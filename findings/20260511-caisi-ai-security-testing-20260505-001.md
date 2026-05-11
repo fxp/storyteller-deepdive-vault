@@ -1,17 +1,17 @@
 ---
 event: "[[caisi-ai-security-testing-20260505]]"
 date: 2026-05-11
-url: "https://ca.news.yahoo.com/google-microsoft-xai-agree-us-050203283.html"
-source_title: "Google, Microsoft and xAI agree to US government AI testing ..."
+url: "https://www.ibtimes.com/pentagon-excludes-anthropic-deal-openai-google-spacex-others-classified-ai-work-3802270"
+source_title: "Pentagon Excludes Anthropic in Deal With OpenAI, Google, SpaceX and Others for Classified AI Work | IBTimes"
 relevance: RELEVANT
 ---
 
-# Google, Microsoft and xAI agree to US government AI testing ...
+# Pentagon Excludes Anthropic in Deal With OpenAI, Google, SpaceX and Others for Classified AI Work | IBTimes
 
-**来源**: [Google, Microsoft and xAI agree to US government AI testing ...](https://ca.news.yahoo.com/google-microsoft-xai-agree-us-050203283.html)
+**来源**: [Pentagon Excludes Anthropic in Deal With OpenAI, Google, SpaceX and Others for Classified AI Work | IBTimes](https://www.ibtimes.com/pentagon-excludes-anthropic-deal-openai-google-spacex-others-classified-ai-work-3802270)
 **发现时间**: 2026-05-11
 **所属事件**: [[caisi-ai-security-testing-20260505]]
 
 ## 摘要
 
-美国政府与微软、Google和xAI签署了AI安全测试协议，这是历史发现中未出现的新事实。
+五角大楼在新的AI协议中排除了Anthropic，这是历史发现中未出现的新事实。
