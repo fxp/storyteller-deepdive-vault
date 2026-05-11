@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-11T09:23
+last_check: 2026-05-11T13:14
 last_activity: '2026-05-11'
-next_check: 2026-05-11T12:23
+next_check: 2026-05-11T16:14
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 53
+findings_count: 56
 tags:
 - tracker
 - HOT
@@ -110,4 +110,8 @@ deepdive_article: '[[待填写]]'
 - [Anthropic's Mythos Will Force a Cybersecurity Reckoning—Just Not ...](https://www.reddit.com/r/pwnhub/comments/1shufnq/anthropics_mythos_will_force_a_cybersecurity/) — Anthropic因黑客恐惧而保留其强大的Claude Mythos AI，引发网络安全方面的重新审视。
 - [Trump orders US agencies to stop use of Anthropic technology amid dispute over ethics of AI | US news | The Guardian](https://www.theguardian.com/us-news/2026/feb/27/trump-anthropic-ai-federal-agencies) — 特朗普下令所有联邦机构立即停止使用Anthropic技术，这是关于AI安全公开冲突的最新事件。
 - [Anthropic Sues the Pentagon Over AI Ethics Standoff - YouTube](https://www.youtube.com/watch?v=c1eGS1zxEUw) — Anthropic在美国国防部将其指定为供应链风险后，通过诉讼寻求撤销特朗普政府对其的‘供应链风险’指定。
+### 2026-05-11
+- [Anthropic’s latest AI model could let hackers carry out attacks faster than ever. It wants companies to put up defenses first | CNN Business](https://edition.cnn.com/2026/04/07/tech/anthropic-claude-mythos-preview-cybersecurity) — Anthropic 将其新 AI 模型 Mythos (正式称为 Claude Mythos Preview) 的一部分提供给全球最大的网络安全和软件公司，以减缓黑客手中 AI 引发的军备竞赛。
+- [Anthropic limits rollout of Mythos AI model over cyberattack fears](https://www.cnbc.com/2026/04/07/anthropic-claude-mythos-ai-hackers-cyberattacks.html) — Anthropic 宣布 Claude Mythos Preview，这是一种先进的 AI 模型，擅长识别软件中的弱点和安全漏洞。
+- [Anthropic's Mythos moment: how frontier AI is redefining cybersecurity](https://www.weforum.org/stories/2026/04/anthropic-mythos-ai-cybersecurity/) — Anthropic 的最新模型 Mythos 的推出受到限制，因为担心它可能被网络犯罪分子和间谍滥用。
 
