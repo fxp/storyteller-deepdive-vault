@@ -1,17 +1,17 @@
 ---
 event: "[[caisi-ai-security-testing-20260505]]"
 date: 2026-05-11
-url: "https://www.ibtimes.com/pentagon-excludes-anthropic-deal-openai-google-spacex-others-classified-ai-work-3802270"
-source_title: "Pentagon Excludes Anthropic in Deal With OpenAI, Google, SpaceX and Others for Classified AI Work | IBTimes"
+url: "https://thedailyrecord.com/2026/05/01/pentagon-agreements-ai-companies-excluding-anthropic-security/"
+source_title: "Pentagon reaches agreements with top AI companies,"
 relevance: RELEVANT
 ---
 
-# Pentagon Excludes Anthropic in Deal With OpenAI, Google, SpaceX and Others for Classified AI Work | IBTimes
+# Pentagon reaches agreements with top AI companies,
 
-**来源**: [Pentagon Excludes Anthropic in Deal With OpenAI, Google, SpaceX and Others for Classified AI Work | IBTimes](https://www.ibtimes.com/pentagon-excludes-anthropic-deal-openai-google-spacex-others-classified-ai-work-3802270)
+**来源**: [Pentagon reaches agreements with top AI companies,](https://thedailyrecord.com/2026/05/01/pentagon-agreements-ai-companies-excluding-anthropic-security/)
 **发现时间**: 2026-05-11
 **所属事件**: [[caisi-ai-security-testing-20260505]]
 
 ## 摘要
 
-五角大楼在新的AI协议中排除了Anthropic，这是历史发现中未出现的新事实。
+五角大楼与七家AI公司达成协议，将部署其先进能力在国防部的机密网络上，但排除了Anthropic。

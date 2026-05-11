@@ -4,12 +4,12 @@ title: Google Chrome 推出 Prompt API（浏览器内置 Gemini Nano）
 seed_url: https://developer.chrome.com/docs/ai/prompt-api
 published_date: 2024-11-12
 status: HOT
-last_check: 2026-05-11T17:03
+last_check: 2026-05-11T20:42
 last_activity: '2026-05-11'
-next_check: 2026-05-11T20:03
+next_check: 2026-05-11T23:42
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 34
+findings_count: 37
 tags:
 - tracker
 - HOT
@@ -124,4 +124,8 @@ search_queries:
 ### 2026-05-11
 - [Google's Gemini Nano in Chrome Raises Privacy and Performance Concerns | Welcome.AI](https://welcome.ai/content/googles-gemini-nano-in-chrome-raises-privacy-and-performance-concerns) — Google 的 Gemini Nano 引起隐私和性能担忧，用户可以通过切换功能禁用它。
 - [Google Tests Gemini Nano AI Inside Chrome - LinkedIn](https://www.linkedin.com/posts/acceleratorxorg_gemini-chrome-google-activity-7396089105584955392-qhYS) — Google 在 Chrome 浏览器中测试 Gemini Nano AI，这是一个新事实。
+### 2026-05-11
+- [Mozilla's opposition to Chrome's Prompt API | Hacker News](https://news.ycombinator.com/item?id=47959463) — Mozilla 对 Chrome 的 Prompt API 表示反对，提供了新的事实和观点。
+- [Inside Chrome's / Edge's silent 4GB AI install: a complete hands-on ...](https://dev.to/jacquesgariepy/inside-chromes-edges-silent-4gb-ai-install-a-complete-hands-on-investigation-54g2) — Chrome 和 Edge 的 4GB AI 安装调查，提供了新的事实。
+- [Chrome's Local AI Model in production (Gemini Nano) 41 ... - Reddit](https://www.reddit.com/r/LocalLLaMA/comments/1qkph45/chromes_local_ai_model_in_production_gemini_nano/) — Reddit 上关于 Chrome 本地 AI 模型 Gemini Nano 的性能讨论，提供了新的事实。
 

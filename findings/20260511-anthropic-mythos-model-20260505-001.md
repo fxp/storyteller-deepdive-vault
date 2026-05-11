@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-11
-url: "https://medium.com/@mahendraa1188/anthropic-mythos-is-a-monster-fe751f1beb19"
-source_title: "Anthropic Mythos Is a Monster"
+url: "https://apnews.com/article/anthropic-pentagon-openai-claude-chatgpt-military-ai-b2bbcf5fda3f27353eae1e0eb7ab07b6"
+source_title: "Anthropic's moral stand against Pentagon raises questions about AI's readiness for military use | AP News"
 relevance: RELEVANT
 ---
 
-# Anthropic Mythos Is a Monster
+# Anthropic's moral stand against Pentagon raises questions about AI's readiness for military use | AP News
 
-**来源**: [Anthropic Mythos Is a Monster](https://medium.com/@mahendraa1188/anthropic-mythos-is-a-monster-fe751f1beb19)
+**来源**: [Anthropic's moral stand against Pentagon raises questions about AI's readiness for military use | AP News](https://apnews.com/article/anthropic-pentagon-openai-claude-chatgpt-military-ai-b2bbcf5fda3f27353eae1e0eb7ab07b6)
 **发现时间**: 2026-05-11
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-Anthropic决定不公开其名为Claude Mythos Preview的模型，这是一个前所未有的举动，被认为是一个重要的里程碑。
+Anthropic因与美国国防部在军事AI使用上的冲突而被国防部指定为供应链风险，并因此起诉特朗普政府，寻求撤销这一指定。

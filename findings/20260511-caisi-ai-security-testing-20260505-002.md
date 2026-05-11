@@ -1,17 +1,17 @@
 ---
 event: "[[caisi-ai-security-testing-20260505]]"
 date: 2026-05-11
-url: "https://decrypt.co/366351/pentagon-ai-deals-google-openai-nvidia-microsoft-amazon-spacex"
-source_title: "Pentagon Signs AI Deals With Google, OpenAI, Nvidia, Microsoft, Amazon and SpaceX"
+url: "https://www.axios.com/2026/05/05/us-frontier-ai-testing-white-house-pivots-safety"
+source_title: "U.S. ramps up frontier AI testing as White House pivots toward safety"
 relevance: RELEVANT
 ---
 
-# Pentagon Signs AI Deals With Google, OpenAI, Nvidia, Microsoft, Amazon and SpaceX
+# U.S. ramps up frontier AI testing as White House pivots toward safety
 
-**来源**: [Pentagon Signs AI Deals With Google, OpenAI, Nvidia, Microsoft, Amazon and SpaceX](https://decrypt.co/366351/pentagon-ai-deals-google-openai-nvidia-microsoft-amazon-spacex)
+**来源**: [U.S. ramps up frontier AI testing as White House pivots toward safety](https://www.axios.com/2026/05/05/us-frontier-ai-testing-white-house-pivots-safety)
 **发现时间**: 2026-05-11
 **所属事件**: [[caisi-ai-security-testing-20260505]]
 
 ## 摘要
 
-五角大楼与Google、OpenAI、Nvidia、Microsoft、Amazon和SpaceX签署了AI协议，将AI模型部署在机密国防网络中，这是历史发现中未出现的新事实。
+美国政府深化对前沿AI的监管，与Google DeepMind、Microsoft和xAI签署新协议以测试强大模型，以了解其安全影响。

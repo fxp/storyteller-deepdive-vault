@@ -4,12 +4,12 @@ title: 美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-11T17:03
+last_check: 2026-05-11T20:42
 last_activity: '2026-05-11'
-next_check: 2026-05-11T20:03
+next_check: 2026-05-11T23:42
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 48
+findings_count: 50
 tags:
 - tracker
 - HOT
@@ -128,4 +128,7 @@ deepdive_article: '[[待填写]]'
 - [Microsoft, Google and xAI will let the government test their AI models before launch](https://edition.cnn.com/2026/05/05/tech/microsoft-google-xai-government-test-ai-models) — 微软、Google和xAI将允许政府在AI模型发布前进行测试，这是历史发现中未出现的新事实。
 ### 2026-05-11
 - [Pentagon Excludes Anthropic in Deal With OpenAI, Google, SpaceX and Others for Classified AI Work | IBTimes](https://www.ibtimes.com/pentagon-excludes-anthropic-deal-openai-google-spacex-others-classified-ai-work-3802270) — 五角大楼在新的AI协议中排除了Anthropic，这是历史发现中未出现的新事实。
+### 2026-05-11
+- [Pentagon reaches agreements with top AI companies,](https://thedailyrecord.com/2026/05/01/pentagon-agreements-ai-companies-excluding-anthropic-security/) — 五角大楼与七家AI公司达成协议，将部署其先进能力在国防部的机密网络上，但排除了Anthropic。
+- [U.S. ramps up frontier AI testing as White House pivots toward safety](https://www.axios.com/2026/05/05/us-frontier-ai-testing-white-house-pivots-safety) — 美国政府深化对前沿AI的监管，与Google DeepMind、Microsoft和xAI签署新协议以测试强大模型，以了解其安全影响。
 

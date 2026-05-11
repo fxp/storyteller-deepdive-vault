@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-11T17:03
+last_check: 2026-05-11T20:42
 last_activity: '2026-05-11'
-next_check: 2026-05-11T20:03
+next_check: 2026-05-11T23:42
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 59
+findings_count: 62
 tags:
 - tracker
 - HOT
@@ -118,4 +118,8 @@ deepdive_article: '[[待填写]]'
 - [Anthropic Mythos Is a Monster](https://medium.com/@mahendraa1188/anthropic-mythos-is-a-monster-fe751f1beb19) — Anthropic决定不公开其名为Claude Mythos Preview的模型，这是一个前所未有的举动，被认为是一个重要的里程碑。
 - [Mythos AI is a cybersecurity threat, but it doesn't rewrite the rules of ...](https://theconversation.com/mythos-ai-is-a-cybersecurity-threat-but-it-doesnt-rewrite-the-rules-of-the-game-281268) — Mythos AI能够以前所未有的速度发现和利用软件漏洞，引发了公众、世界各国政府和信息技术行业的担忧。
 - [Claude Mythos Preview: Benchmarks, Pricing & Project Glasswing](https://llm-stats.com/blog/research/claude-mythos-preview-launch) — Anthropic宣布了Claude Mythos Preview，并发布了基准分数，同时推出了Project Glasswing，这是一个跨行业的倡议，旨在保护关键软件。
+### 2026-05-11
+- [Anthropic's moral stand against Pentagon raises questions about AI's readiness for military use | AP News](https://apnews.com/article/anthropic-pentagon-openai-claude-chatgpt-military-ai-b2bbcf5fda3f27353eae1e0eb7ab07b6) — Anthropic因与美国国防部在军事AI使用上的冲突而被国防部指定为供应链风险，并因此起诉特朗普政府，寻求撤销这一指定。
+- [AI company Anthropic sues Trump administration seeking to undo ‘supply chain risk’ designation | The Seattle Times](https://www.seattletimes.com/business/anthropic-sues-trump-administration-seeking-to-undo-supply-chain-risk-designation/) — Anthropic因拒绝允许其技术不受限制地用于军事目的而与美国政府发生冲突，现在正在起诉特朗普政府，要求撤销将其指定为供应链风险的措施。
+- [Trump picked a fight with Anthropic. Now the administration ... - Politico](https://www.politico.com/news/2026/04/23/trump-picked-a-fight-with-anthropic-now-the-administration-is-backing-off-00889241) — 特朗普政府与Anthropic发生争执，现在政府正在撤回对Anthropic的批评，这反映了AI在军事应用中的能力问题。
 
