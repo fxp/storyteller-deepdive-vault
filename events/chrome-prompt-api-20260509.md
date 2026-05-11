@@ -4,12 +4,12 @@ title: Google Chrome 推出 Prompt API（浏览器内置 Gemini Nano）
 seed_url: https://developer.chrome.com/docs/ai/prompt-api
 published_date: 2024-11-12
 status: HOT
-last_check: 2026-05-10T21:23
-last_activity: '2026-05-10'
-next_check: 2026-05-11T00:23
+last_check: 2026-05-11T01:07
+last_activity: '2026-05-11'
+next_check: 2026-05-11T04:07
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 28
+findings_count: 29
 tags:
 - tracker
 - HOT
@@ -114,4 +114,6 @@ search_queries:
 ### 2026-05-10
 - [Chrome's Gemini Nano Local AI Model: Eligibility and Performance](https://www.linkedin.com/posts/thenextgentechinsider_tech-news-activity-7421157310749843457-OSyN) — Chrome 的 Gemini Nano 本地 AI 模型具有 41% 的合格率，6 倍的运行速度，生产中的 0 成本。
 - [Lionel Péramo's Post - Prompt API - LinkedIn](https://www.linkedin.com/posts/lionel-p%C3%A9ramo-web-development_prompt-api-ai-is-now-in-your-browser-the-activity-7423289014641790976-BzSh) — Prompt API 的常见用例包括自动化重复性工作流程、测试基于浏览器的流程、跨多个标签运行研究任务等。
+### 2026-05-11
+- [Explainer for the Prompt API - GitHub](https://github.com/webmachinelearning/prompt-api) — 解释了 Prompt API 的使用情况，包括下载进度监控。
 

@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-10T21:23
-last_activity: '2026-05-10'
-next_check: 2026-05-11T00:23
+last_check: 2026-05-11T01:07
+last_activity: '2026-05-11'
+next_check: 2026-05-11T04:07
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 43
+findings_count: 46
 tags:
 - tracker
 - HOT
@@ -97,4 +97,8 @@ deepdive_article: '[[待填写]]'
 - [Defense Secretary halts Anthropic's AI work over military use dispute | AP News](https://apnews.com/article/anthropic-pentagon-ai-dario-amodei-hegseth-0c464a054359b9fdc80cf18b0d4f690c) — 国防部长因军事用途争议暂停Anthropic的AI工作，涉及Mythos AI模型。
 - [Anthropic fights designation from Department of War as AI dispute escalates | Mashable](https://mashable.com/article/anthropic-supply-chain-risk-ceo-statement) — Anthropic与美国国防部之间的AI争议升级，国防部将其指定为供应链风险。
 - [How Anthropic’s Mythos AI Model Threw the Trump White House’s Tech Strategy Into Chaos](https://www.wsj.com/tech/ai/trump-ai-anthropic-mythos-regulation-2378971f) — Anthropic的Mythos AI模型使特朗普政府的科技战略陷入混乱。
+### 2026-05-11
+- [Anthrophic's Mythos: Experts warn cyber threat was already here - CNBC](https://www.cnbc.com/2026/05/08/anthropic-mythos-ai-cybersecurity-banks.html) — 专家警告Anthropic的Mythos AI模型已存在的网络安全威胁。
+- [Assessing Claude Mythos Preview's cybersecurity capabilities](https://red.anthropic.com/2026/mythos-preview/) — 评估Claude Mythos Preview的网络安全能力，包括其自主编写针对已修复漏洞的复杂利用代码的能力。
+- [How Anthropic's Mythos has rewritten Firefox's ... - TechCrunch](https://techcrunch.com/2026/05/07/how-anthropics-mythos-has-rewritten-firefoxs-approach-to-cybersecurity/) — Anthropic的Mythos AI模型重写了Firefox的网络安全方法。
 
