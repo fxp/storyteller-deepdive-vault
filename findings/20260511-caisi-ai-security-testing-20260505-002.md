@@ -1,17 +1,17 @@
 ---
 event: "[[caisi-ai-security-testing-20260505]]"
 date: 2026-05-11
-url: "https://us.cnn.com/2026/05/01/tech/pentagon-ai-anthropic"
-source_title: "Pentagon strikes deals with 8 Big Tech companies after shunning Anthropic | CNN Business"
+url: "https://decrypt.co/366351/pentagon-ai-deals-google-openai-nvidia-microsoft-amazon-spacex"
+source_title: "Pentagon Signs AI Deals With Google, OpenAI, Nvidia, Microsoft, Amazon and SpaceX"
 relevance: RELEVANT
 ---
 
-# Pentagon strikes deals with 8 Big Tech companies after shunning Anthropic | CNN Business
+# Pentagon Signs AI Deals With Google, OpenAI, Nvidia, Microsoft, Amazon and SpaceX
 
-**来源**: [Pentagon strikes deals with 8 Big Tech companies after shunning Anthropic | CNN Business](https://us.cnn.com/2026/05/01/tech/pentagon-ai-anthropic)
+**来源**: [Pentagon Signs AI Deals With Google, OpenAI, Nvidia, Microsoft, Amazon and SpaceX](https://decrypt.co/366351/pentagon-ai-deals-google-openai-nvidia-microsoft-amazon-spacex)
 **发现时间**: 2026-05-11
 **所属事件**: [[caisi-ai-security-testing-20260505]]
 
 ## 摘要
 
-五角大楼在忽视Anthropic之后与8家大型科技公司达成协议。
+五角大楼与Google、OpenAI、Nvidia、Microsoft、Amazon和SpaceX签署了AI协议，将AI模型部署在机密国防网络中，这是历史发现中未出现的新事实。

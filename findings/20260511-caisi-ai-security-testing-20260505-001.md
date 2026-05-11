@@ -1,17 +1,17 @@
 ---
 event: "[[caisi-ai-security-testing-20260505]]"
 date: 2026-05-11
-url: "https://www.linkedin.com/posts/meritalk_caisi-enters-security-testing-agreements-activity-7457533213058445312-TJ6k"
-source_title: "CAISI Enters Security Testing Agreements With Google, Microsoft ..."
+url: "https://ca.news.yahoo.com/google-microsoft-xai-agree-us-050203283.html"
+source_title: "Google, Microsoft and xAI agree to US government AI testing ..."
 relevance: RELEVANT
 ---
 
-# CAISI Enters Security Testing Agreements With Google, Microsoft ...
+# Google, Microsoft and xAI agree to US government AI testing ...
 
-**来源**: [CAISI Enters Security Testing Agreements With Google, Microsoft ...](https://www.linkedin.com/posts/meritalk_caisi-enters-security-testing-agreements-activity-7457533213058445312-TJ6k)
+**来源**: [Google, Microsoft and xAI agree to US government AI testing ...](https://ca.news.yahoo.com/google-microsoft-xai-agree-us-050203283.html)
 **发现时间**: 2026-05-11
 **所属事件**: [[caisi-ai-security-testing-20260505]]
 
 ## 摘要
 
-CAISI与Google, Microsoft签署了安全测试协议，这是历史发现中未出现的新事实。
+美国政府与微软、Google和xAI签署了AI安全测试协议，这是历史发现中未出现的新事实。

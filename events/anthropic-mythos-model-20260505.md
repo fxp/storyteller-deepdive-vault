@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-11T05:28
+last_check: 2026-05-11T09:23
 last_activity: '2026-05-11'
-next_check: 2026-05-11T08:28
+next_check: 2026-05-11T12:23
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 50
+findings_count: 53
 tags:
 - tracker
 - HOT
@@ -106,4 +106,8 @@ deepdive_article: '[[待填写]]'
 - [Anthropic's Mythos - The Most Important AI Announcement of 2026](https://www.youtube.com/watch?v=tK8qhHrSXy8) — Anthropic的Mythos模型被认为是2026年最重要的AI公告。
 - [Anthropic's Mythos AI Becomes A National Security Risk - YouTube](https://www.youtube.com/watch?v=O7jjONv1o5Q) — Anthropic的Mythos AI模型被视为国家安全风险。
 - [Anthropic’s Claude Mythos and What it Means for Security](https://www.armorcode.com/blog/anthropics-claude-mythos-and-what-it-means-for-security) — Anthropic的Mythos模型在发现而非创造安全漏洞方面具有积极意义。
+### 2026-05-11
+- [Anthropic's Mythos Will Force a Cybersecurity Reckoning—Just Not ...](https://www.reddit.com/r/pwnhub/comments/1shufnq/anthropics_mythos_will_force_a_cybersecurity/) — Anthropic因黑客恐惧而保留其强大的Claude Mythos AI，引发网络安全方面的重新审视。
+- [Trump orders US agencies to stop use of Anthropic technology amid dispute over ethics of AI | US news | The Guardian](https://www.theguardian.com/us-news/2026/feb/27/trump-anthropic-ai-federal-agencies) — 特朗普下令所有联邦机构立即停止使用Anthropic技术，这是关于AI安全公开冲突的最新事件。
+- [Anthropic Sues the Pentagon Over AI Ethics Standoff - YouTube](https://www.youtube.com/watch?v=c1eGS1zxEUw) — Anthropic在美国国防部将其指定为供应链风险后，通过诉讼寻求撤销特朗普政府对其的‘供应链风险’指定。
 

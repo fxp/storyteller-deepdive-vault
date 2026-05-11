@@ -4,12 +4,12 @@ title: 美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-11T05:28
+last_check: 2026-05-11T09:23
 last_activity: '2026-05-11'
-next_check: 2026-05-11T08:28
+next_check: 2026-05-11T12:23
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 44
+findings_count: 47
 tags:
 - tracker
 - HOT
@@ -122,4 +122,8 @@ deepdive_article: '[[待填写]]'
 - [Pentagon strikes deals with 8 Big Tech companies after shunning Anthropic | CNN Business](https://us.cnn.com/2026/05/01/tech/pentagon-ai-anthropic) — 五角大楼在忽视Anthropic之后与8家大型科技公司达成协议。
 ### 2026-05-11
 - [CAISI Enters Security Testing Agreements With Google, Microsoft ...](https://www.linkedin.com/posts/meritalk_caisi-enters-security-testing-agreements-activity-7457533213058445312-TJ6k) — CAISI与Google, Microsoft签署了安全测试协议，这是历史发现中未出现的新事实。
+### 2026-05-11
+- [Google, Microsoft and xAI agree to US government AI testing ...](https://ca.news.yahoo.com/google-microsoft-xai-agree-us-050203283.html) — 美国政府与微软、Google和xAI签署了AI安全测试协议，这是历史发现中未出现的新事实。
+- [Pentagon Signs AI Deals With Google, OpenAI, Nvidia, Microsoft, Amazon and SpaceX](https://decrypt.co/366351/pentagon-ai-deals-google-openai-nvidia-microsoft-amazon-spacex) — 五角大楼与Google、OpenAI、Nvidia、Microsoft、Amazon和SpaceX签署了AI协议，将AI模型部署在机密国防网络中，这是历史发现中未出现的新事实。
+- [Microsoft, Google and xAI will let the government test their AI models before launch](https://edition.cnn.com/2026/05/05/tech/microsoft-google-xai-government-test-ai-models) — 微软、Google和xAI将允许政府在AI模型发布前进行测试，这是历史发现中未出现的新事实。
 
