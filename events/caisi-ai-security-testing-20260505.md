@@ -4,12 +4,12 @@ title: 美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-11T01:07
+last_check: 2026-05-11T05:28
 last_activity: '2026-05-11'
-next_check: 2026-05-11T04:07
+next_check: 2026-05-11T08:28
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 43
+findings_count: 44
 tags:
 - tracker
 - HOT
@@ -120,4 +120,6 @@ deepdive_article: '[[待填写]]'
 ### 2026-05-11
 - [CAISI [Center for AI Standards and Innovation] Signs Agreements Regarding Frontier AI National Security Testing With Google DeepMind, Microsoft and xAI : r/singularity](https://www.reddit.com/r/singularity/comments/1t4l117/caisi_center_for_ai_standards_and_innovation/) — CAISI与Google DeepMind、Microsoft和xAI签署了关于前沿AI国家安全测试的协议。
 - [Pentagon strikes deals with 8 Big Tech companies after shunning Anthropic | CNN Business](https://us.cnn.com/2026/05/01/tech/pentagon-ai-anthropic) — 五角大楼在忽视Anthropic之后与8家大型科技公司达成协议。
+### 2026-05-11
+- [CAISI Enters Security Testing Agreements With Google, Microsoft ...](https://www.linkedin.com/posts/meritalk_caisi-enters-security-testing-agreements-activity-7457533213058445312-TJ6k) — CAISI与Google, Microsoft签署了安全测试协议，这是历史发现中未出现的新事实。
 

@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-11
-url: "https://techcrunch.com/2026/05/07/how-anthropics-mythos-has-rewritten-firefoxs-approach-to-cybersecurity/"
-source_title: "How Anthropic's Mythos has rewritten Firefox's ... - TechCrunch"
+url: "https://www.youtube.com/watch?v=O7jjONv1o5Q"
+source_title: "Anthropic's Mythos AI Becomes A National Security Risk - YouTube"
 relevance: RELEVANT
 ---
 
-# How Anthropic's Mythos has rewritten Firefox's ... - TechCrunch
+# Anthropic's Mythos AI Becomes A National Security Risk - YouTube
 
-**来源**: [How Anthropic's Mythos has rewritten Firefox's ... - TechCrunch](https://techcrunch.com/2026/05/07/how-anthropics-mythos-has-rewritten-firefoxs-approach-to-cybersecurity/)
+**来源**: [Anthropic's Mythos AI Becomes A National Security Risk - YouTube](https://www.youtube.com/watch?v=O7jjONv1o5Q)
 **发现时间**: 2026-05-11
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-Anthropic的Mythos AI模型重写了Firefox的网络安全方法。
+Anthropic的Mythos AI模型被视为国家安全风险。

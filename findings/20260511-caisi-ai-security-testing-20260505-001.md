@@ -1,17 +1,17 @@
 ---
 event: "[[caisi-ai-security-testing-20260505]]"
 date: 2026-05-11
-url: "https://www.reddit.com/r/singularity/comments/1t4l117/caisi_center_for_ai_standards_and_innovation/"
-source_title: "CAISI [Center for AI Standards and Innovation] Signs Agreements Regarding Frontier AI National Security Testing With Google DeepMind, Microsoft and xAI : r/singularity"
+url: "https://www.linkedin.com/posts/meritalk_caisi-enters-security-testing-agreements-activity-7457533213058445312-TJ6k"
+source_title: "CAISI Enters Security Testing Agreements With Google, Microsoft ..."
 relevance: RELEVANT
 ---
 
-# CAISI [Center for AI Standards and Innovation] Signs Agreements Regarding Frontier AI National Security Testing With Google DeepMind, Microsoft and xAI : r/singularity
+# CAISI Enters Security Testing Agreements With Google, Microsoft ...
 
-**来源**: [CAISI [Center for AI Standards and Innovation] Signs Agreements Regarding Frontier AI National Security Testing With Google DeepMind, Microsoft and xAI : r/singularity](https://www.reddit.com/r/singularity/comments/1t4l117/caisi_center_for_ai_standards_and_innovation/)
+**来源**: [CAISI Enters Security Testing Agreements With Google, Microsoft ...](https://www.linkedin.com/posts/meritalk_caisi-enters-security-testing-agreements-activity-7457533213058445312-TJ6k)
 **发现时间**: 2026-05-11
 **所属事件**: [[caisi-ai-security-testing-20260505]]
 
 ## 摘要
 
-CAISI与Google DeepMind、Microsoft和xAI签署了关于前沿AI国家安全测试的协议。
+CAISI与Google, Microsoft签署了安全测试协议，这是历史发现中未出现的新事实。

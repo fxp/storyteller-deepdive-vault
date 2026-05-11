@@ -4,12 +4,12 @@ title: Google Chrome 推出 Prompt API（浏览器内置 Gemini Nano）
 seed_url: https://developer.chrome.com/docs/ai/prompt-api
 published_date: 2024-11-12
 status: HOT
-last_check: 2026-05-11T01:07
+last_check: 2026-05-11T05:28
 last_activity: '2026-05-11'
-next_check: 2026-05-11T04:07
+next_check: 2026-05-11T08:28
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 29
+findings_count: 31
 tags:
 - tracker
 - HOT
@@ -116,4 +116,7 @@ search_queries:
 - [Lionel Péramo's Post - Prompt API - LinkedIn](https://www.linkedin.com/posts/lionel-p%C3%A9ramo-web-development_prompt-api-ai-is-now-in-your-browser-the-activity-7423289014641790976-BzSh) — Prompt API 的常见用例包括自动化重复性工作流程、测试基于浏览器的流程、跨多个标签运行研究任务等。
 ### 2026-05-11
 - [Explainer for the Prompt API - GitHub](https://github.com/webmachinelearning/prompt-api) — 解释了 Prompt API 的使用情况，包括下载进度监控。
+### 2026-05-11
+- ["Try Chrome's free, local AI with Prompt API" | Addy Osmani posted on the topic | LinkedIn](https://www.linkedin.com/posts/addyosmani_ai-softwareengineering-programming-activity-7360916715783770113-WtOb) — 介绍了 Chrome 的 Prompt API 和其他 API 的使用情况，包括 Writer API 和 Rewriter API，提供了新事实。
+- [When Chrome's Prompt API goes public — what are the first real use ...](https://www.reddit.com/r/chrome_extensions/comments/1r78n49/when_chromes_prompt_api_goes_public_what_are_the/) — 讨论了 Chrome Prompt API 的潜在用途，提供了新事实。
 

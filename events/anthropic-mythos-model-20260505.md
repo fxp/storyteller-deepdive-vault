@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-11T01:07
+last_check: 2026-05-11T05:28
 last_activity: '2026-05-11'
-next_check: 2026-05-11T04:07
+next_check: 2026-05-11T08:28
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 46
+findings_count: 50
 tags:
 - tracker
 - HOT
@@ -101,4 +101,9 @@ deepdive_article: '[[待填写]]'
 - [Anthrophic's Mythos: Experts warn cyber threat was already here - CNBC](https://www.cnbc.com/2026/05/08/anthropic-mythos-ai-cybersecurity-banks.html) — 专家警告Anthropic的Mythos AI模型已存在的网络安全威胁。
 - [Assessing Claude Mythos Preview's cybersecurity capabilities](https://red.anthropic.com/2026/mythos-preview/) — 评估Claude Mythos Preview的网络安全能力，包括其自主编写针对已修复漏洞的复杂利用代码的能力。
 - [How Anthropic's Mythos has rewritten Firefox's ... - TechCrunch](https://techcrunch.com/2026/05/07/how-anthropics-mythos-has-rewritten-firefoxs-approach-to-cybersecurity/) — Anthropic的Mythos AI模型重写了Firefox的网络安全方法。
+### 2026-05-11
+- [Anthropic Claims Its New A.I. Model, Mythos, Is a Cybersecurity ...](https://www.nytimes.com/2026/04/07/technology/anthropic-claims-its-new-ai-model-mythos-is-a-cybersecurity-reckoning.html) — Anthropic宣布其新AI模型Mythos，引发网络安全方面的重大关注。
+- [Anthropic's Mythos - The Most Important AI Announcement of 2026](https://www.youtube.com/watch?v=tK8qhHrSXy8) — Anthropic的Mythos模型被认为是2026年最重要的AI公告。
+- [Anthropic's Mythos AI Becomes A National Security Risk - YouTube](https://www.youtube.com/watch?v=O7jjONv1o5Q) — Anthropic的Mythos AI模型被视为国家安全风险。
+- [Anthropic’s Claude Mythos and What it Means for Security](https://www.armorcode.com/blog/anthropics-claude-mythos-and-what-it-means-for-security) — Anthropic的Mythos模型在发现而非创造安全漏洞方面具有积极意义。
 

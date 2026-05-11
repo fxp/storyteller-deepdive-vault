@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-11
-url: "https://www.cnbc.com/2026/05/08/anthropic-mythos-ai-cybersecurity-banks.html"
-source_title: "Anthrophic's Mythos: Experts warn cyber threat was already here - CNBC"
+url: "https://www.nytimes.com/2026/04/07/technology/anthropic-claims-its-new-ai-model-mythos-is-a-cybersecurity-reckoning.html"
+source_title: "Anthropic Claims Its New A.I. Model, Mythos, Is a Cybersecurity ..."
 relevance: RELEVANT
 ---
 
-# Anthrophic's Mythos: Experts warn cyber threat was already here - CNBC
+# Anthropic Claims Its New A.I. Model, Mythos, Is a Cybersecurity ...
 
-**来源**: [Anthrophic's Mythos: Experts warn cyber threat was already here - CNBC](https://www.cnbc.com/2026/05/08/anthropic-mythos-ai-cybersecurity-banks.html)
+**来源**: [Anthropic Claims Its New A.I. Model, Mythos, Is a Cybersecurity ...](https://www.nytimes.com/2026/04/07/technology/anthropic-claims-its-new-ai-model-mythos-is-a-cybersecurity-reckoning.html)
 **发现时间**: 2026-05-11
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-专家警告Anthropic的Mythos AI模型已存在的网络安全威胁。
+Anthropic宣布其新AI模型Mythos，引发网络安全方面的重大关注。
