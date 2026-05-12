@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-12
-url: "https://www.getpassionfruit.com/blog/what-anthropic-s-most-powerful-ai-model-means-for-marketing-teams-claude-mythos-preview"
-source_title: "Anthropic announced Claude Mythos Preview, the most powerful AI model ever benchmarked, and restricted public access. Here is what the 93.9% SWE-bench score, the 97.6% USAMO result, and the Project Glasswing partner list mean for marketing teams building AI workflows in 2026."
+url: "https://restofworld.org/2026/ai-cybersecurity-anthropic-mythos/"
+source_title: "The global cybersecurity gap deepens as AI-powered attacks surge"
 relevance: RELEVANT
 ---
 
-# Anthropic announced Claude Mythos Preview, the most powerful AI model ever benchmarked, and restricted public access. Here is what the 93.9% SWE-bench score, the 97.6% USAMO result, and the Project Glasswing partner list mean for marketing teams building AI workflows in 2026.
+# The global cybersecurity gap deepens as AI-powered attacks surge
 
-**来源**: [Anthropic announced Claude Mythos Preview, the most powerful AI model ever benchmarked, and restricted public access. Here is what the 93.9% SWE-bench score, the 97.6% USAMO result, and the Project Glasswing partner list mean for marketing teams building AI workflows in 2026.](https://www.getpassionfruit.com/blog/what-anthropic-s-most-powerful-ai-model-means-for-marketing-teams-claude-mythos-preview)
+**来源**: [The global cybersecurity gap deepens as AI-powered attacks surge](https://restofworld.org/2026/ai-cybersecurity-anthropic-mythos/)
 **发现时间**: 2026-05-12
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-Anthropic发布了其最强大的AI模型Claude Mythos Preview，并限制了公众访问。
+Anthropic的Mythos Preview模型发现了数千个漏洞，这是历史发现中未提及的新事实。

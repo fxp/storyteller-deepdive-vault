@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-12
-url: "https://www.labellerr.com/blog/anthropic-claude-mythos-capabilities/"
-source_title: "Claude Mythos: Benchmark-Dominating AI with Real Risks"
+url: "https://www.cfr.org/articles/six-reasons-claude-mythos-is-an-inflection-point-for-ai-and-global-security"
+source_title: "Six Reasons Claude Mythos Is an Inflection Point for AI—and Global ..."
 relevance: RELEVANT
 ---
 
-# Claude Mythos: Benchmark-Dominating AI with Real Risks
+# Six Reasons Claude Mythos Is an Inflection Point for AI—and Global ...
 
-**来源**: [Claude Mythos: Benchmark-Dominating AI with Real Risks](https://www.labellerr.com/blog/anthropic-claude-mythos-capabilities/)
+**来源**: [Six Reasons Claude Mythos Is an Inflection Point for AI—and Global ...](https://www.cfr.org/articles/six-reasons-claude-mythos-is-an-inflection-point-for-ai-and-global-security)
 **发现时间**: 2026-05-12
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-Claude Mythos在安全基准测试中得分高于Claude Opus 4.6，揭示了AI代理、安全团队和构建者之间的能力差距。
+文章讨论了Mythos模型对AI和全球安全的转折点，提供了新的观点和担忧。

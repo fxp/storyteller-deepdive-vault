@@ -1,17 +1,17 @@
 ---
 event: "[[caisi-ai-security-testing-20260505]]"
 date: 2026-05-12
-url: "https://www.linkedin.com/posts/quartzmedia_pentagon-sealed-classified-ai-deals-with-activity-7455963796629786624-RGN-"
-source_title: "Pentagon seals AI deals with Google, Microsoft, Amazon, SpaceX"
+url: "https://www.techbuzz.ai/articles/pentagon-strikes-classified-ai-deals-with-openai-google-and-nvidia-but-not-anthropic"
+source_title: "Pentagon strikes classified AI deals with OpenAI, Google, and Nvidia — but not Anthropic | The Tech Buzz"
 relevance: RELEVANT
 ---
 
-# Pentagon seals AI deals with Google, Microsoft, Amazon, SpaceX
+# Pentagon strikes classified AI deals with OpenAI, Google, and Nvidia — but not Anthropic | The Tech Buzz
 
-**来源**: [Pentagon seals AI deals with Google, Microsoft, Amazon, SpaceX](https://www.linkedin.com/posts/quartzmedia_pentagon-sealed-classified-ai-deals-with-activity-7455963796629786624-RGN-)
+**来源**: [Pentagon strikes classified AI deals with OpenAI, Google, and Nvidia — but not Anthropic | The Tech Buzz](https://www.techbuzz.ai/articles/pentagon-strikes-classified-ai-deals-with-openai-google-and-nvidia-but-not-anthropic)
 **发现时间**: 2026-05-12
 **所属事件**: [[caisi-ai-security-testing-20260505]]
 
 ## 摘要
 
-SpaceX, NVIDIA, 和 Reflection 也被纳入了五角大楼的机密AI协议中。
+美国政府与OpenAI、Google、Nvidia等签署了AI安全测试协议，但排除了Anthropic。

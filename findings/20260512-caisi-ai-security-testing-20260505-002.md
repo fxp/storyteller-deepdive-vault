@@ -1,17 +1,17 @@
 ---
 event: "[[caisi-ai-security-testing-20260505]]"
 date: 2026-05-12
-url: "https://perplexityaimagazine.com/ai-news/ai-news-microsoft-google-xai-government-ai-testing-2026/"
-source_title: "Microsoft Google government AI testing 2026"
+url: "https://www.alphaspread.com/market-news/corporate-moves/pentagon-signs-ai-deals-with-openai-google-microsoft-amazon-and-others-for-classified-networks"
+source_title: "Pentagon signs AI deals with OpenAI, Google, Microsoft, Amazon and others for classified networks - Alpha Spread"
 relevance: RELEVANT
 ---
 
-# Microsoft Google government AI testing 2026
+# Pentagon signs AI deals with OpenAI, Google, Microsoft, Amazon and others for classified networks - Alpha Spread
 
-**来源**: [Microsoft Google government AI testing 2026](https://perplexityaimagazine.com/ai-news/ai-news-microsoft-google-xai-government-ai-testing-2026/)
+**来源**: [Pentagon signs AI deals with OpenAI, Google, Microsoft, Amazon and others for classified networks - Alpha Spread](https://www.alphaspread.com/market-news/corporate-moves/pentagon-signs-ai-deals-with-openai-google-microsoft-amazon-and-others-for-classified-networks)
 **发现时间**: 2026-05-12
 **所属事件**: [[caisi-ai-security-testing-20260505]]
 
 ## 摘要
 
-Microsoft、Google和xAI与政府达成协议，允许在AI模型发布前进行测试。
+五角大楼宣布与七家AI公司达成协议，使用其工具在机密设置中。
