@@ -4,12 +4,12 @@ title: Google Chrome 推出 Prompt API（浏览器内置 Gemini Nano）
 seed_url: https://developer.chrome.com/docs/ai/prompt-api
 published_date: 2024-11-12
 status: HOT
-last_check: 2026-05-11T20:42
-last_activity: '2026-05-11'
-next_check: 2026-05-11T23:42
+last_check: 2026-05-12T01:01
+last_activity: '2026-05-12'
+next_check: 2026-05-12T04:01
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 37
+findings_count: 39
 tags:
 - tracker
 - HOT
@@ -128,4 +128,7 @@ search_queries:
 - [Mozilla's opposition to Chrome's Prompt API | Hacker News](https://news.ycombinator.com/item?id=47959463) — Mozilla 对 Chrome 的 Prompt API 表示反对，提供了新的事实和观点。
 - [Inside Chrome's / Edge's silent 4GB AI install: a complete hands-on ...](https://dev.to/jacquesgariepy/inside-chromes-edges-silent-4gb-ai-install-a-complete-hands-on-investigation-54g2) — Chrome 和 Edge 的 4GB AI 安装调查，提供了新的事实。
 - [Chrome's Local AI Model in production (Gemini Nano) 41 ... - Reddit](https://www.reddit.com/r/LocalLLaMA/comments/1qkph45/chromes_local_ai_model_in_production_gemini_nano/) — Reddit 上关于 Chrome 本地 AI 模型 Gemini Nano 的性能讨论，提供了新的事实。
+### 2026-05-12
+- [A Browser AI API? - End of Bug Bounties? - YouTube](https://www.youtube.com/watch?v=EWJbJgHFLcg) — Google 在 Chrome 中秘密集成了一个 4.7GB 的大规模 AI 模型，Mozilla 正在反击，这预示着浏览器未来的 AI 转变。
+- [New AI powered APIs added to Chrome 138+ versions - Reddit](https://www.reddit.com/r/chrome/comments/1lgrv0i/new_ai_powered_apis_added_to_chrome_138_versions/) — Chrome 138 及更高版本内置了 3 个新的基于 AI 的网络 API，包括语言检测 API 和摘要 API。
 

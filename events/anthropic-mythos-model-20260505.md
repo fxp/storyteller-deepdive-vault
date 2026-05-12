@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-11T20:42
-last_activity: '2026-05-11'
-next_check: 2026-05-11T23:42
+last_check: 2026-05-12T01:01
+last_activity: '2026-05-12'
+next_check: 2026-05-12T04:01
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 62
+findings_count: 67
 tags:
 - tracker
 - HOT
@@ -122,4 +122,10 @@ deepdive_article: '[[待填写]]'
 - [Anthropic's moral stand against Pentagon raises questions about AI's readiness for military use | AP News](https://apnews.com/article/anthropic-pentagon-openai-claude-chatgpt-military-ai-b2bbcf5fda3f27353eae1e0eb7ab07b6) — Anthropic因与美国国防部在军事AI使用上的冲突而被国防部指定为供应链风险，并因此起诉特朗普政府，寻求撤销这一指定。
 - [AI company Anthropic sues Trump administration seeking to undo ‘supply chain risk’ designation | The Seattle Times](https://www.seattletimes.com/business/anthropic-sues-trump-administration-seeking-to-undo-supply-chain-risk-designation/) — Anthropic因拒绝允许其技术不受限制地用于军事目的而与美国政府发生冲突，现在正在起诉特朗普政府，要求撤销将其指定为供应链风险的措施。
 - [Trump picked a fight with Anthropic. Now the administration ... - Politico](https://www.politico.com/news/2026/04/23/trump-picked-a-fight-with-anthropic-now-the-administration-is-backing-off-00889241) — 特朗普政府与Anthropic发生争执，现在政府正在撤回对Anthropic的批评，这反映了AI在军事应用中的能力问题。
+### 2026-05-12
+- [Anthropic's 'Mythos' AI Sparks Cybersecurity Upheaval in April 2026 | MWM](https://mwm.ai/articles/anthropic-s-mythos-ai-sparks-cybersecurity-upheaval-in-april-2026) — Anthropic发布Mythos AI模型，该模型具有自动化发现软件漏洞的能力，引发网络安全震动。
+- [How dangerous is Anthropic's Mythos AI? | Bruce Schneier](https://www.theguardian.com/commentisfree/2026/may/08/how-dangerous-is-anthropics-mythos-ai) — 文章讨论Mythos AI模型的潜在危险，指出其可能对黑客活动产生重大影响。
+- [U.S. Government Reconsiders Anthropic's Mythos AI Amid Cybersecurity Shifts](https://www.chosun.com/english/industry-en/2026/04/18/D5ZAZZ6BG5E2HKJECY2VAIMCB4/) — 美国政府重新考虑Anthropic的Mythos AI模型，背景是网络安全领域的转变。
+- [New AI model sparks alarm as governments brace for AI-driven cyberattacks  | IAPP](https://iapp.org/news/a/new-ai-model-sparks-alarm-as-governments-brace-for-ai-driven-cyberattacks) — Anthropic的Mythos AI模型引发政府担忧，准备应对AI驱动的网络攻击。
+- [Anthropic's AI model sparks rush from industry, government to batten ...](https://www.theglobeandmail.com/business/economy/article-anthropic-mythos-ai-defence/) — 金融和科技行业以及国家政府为Mythos AI模型可能带来的安全威胁做好准备。
 

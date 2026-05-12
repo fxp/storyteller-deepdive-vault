@@ -4,12 +4,12 @@ title: 美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-11T20:42
-last_activity: '2026-05-11'
-next_check: 2026-05-11T23:42
+last_check: 2026-05-12T01:01
+last_activity: '2026-05-12'
+next_check: 2026-05-12T04:01
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 50
+findings_count: 52
 tags:
 - tracker
 - HOT
@@ -131,4 +131,7 @@ deepdive_article: '[[待填写]]'
 ### 2026-05-11
 - [Pentagon reaches agreements with top AI companies,](https://thedailyrecord.com/2026/05/01/pentagon-agreements-ai-companies-excluding-anthropic-security/) — 五角大楼与七家AI公司达成协议，将部署其先进能力在国防部的机密网络上，但排除了Anthropic。
 - [U.S. ramps up frontier AI testing as White House pivots toward safety](https://www.axios.com/2026/05/05/us-frontier-ai-testing-white-house-pivots-safety) — 美国政府深化对前沿AI的监管，与Google DeepMind、Microsoft和xAI签署新协议以测试强大模型，以了解其安全影响。
+### 2026-05-12
+- [Google, Microsoft, xAI To Send Models To U.S. ...](https://www.mediapost.com/publications/article/414826/google-microsoft-xai-to-send-models-to-us-gove.html) — Google, Microsoft, xAI 将向美国政府发送模型进行安全测试，这是历史发现中未出现的新事实。
+- [POLITICO Pro | Article | US government expands vetting of frontier AI models for security risks](https://subscriber.politicopro.com/article/2026/05/microsoft-xai-google-to-give-us-government-early-look-at-ai-models-00906529) — 美国政府扩大了对前沿AI模型的安全风险评估，这是历史发现中未出现的新事实。
 
