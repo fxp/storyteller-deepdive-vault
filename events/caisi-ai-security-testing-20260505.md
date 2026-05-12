@@ -4,12 +4,12 @@ title: 美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-12T01:01
+last_check: 2026-05-12T05:22
 last_activity: '2026-05-12'
-next_check: 2026-05-12T04:01
+next_check: 2026-05-12T08:22
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 52
+findings_count: 54
 tags:
 - tracker
 - HOT
@@ -134,4 +134,7 @@ deepdive_article: '[[待填写]]'
 ### 2026-05-12
 - [Google, Microsoft, xAI To Send Models To U.S. ...](https://www.mediapost.com/publications/article/414826/google-microsoft-xai-to-send-models-to-us-gove.html) — Google, Microsoft, xAI 将向美国政府发送模型进行安全测试，这是历史发现中未出现的新事实。
 - [POLITICO Pro | Article | US government expands vetting of frontier AI models for security risks](https://subscriber.politicopro.com/article/2026/05/microsoft-xai-google-to-give-us-government-early-look-at-ai-models-00906529) — 美国政府扩大了对前沿AI模型的安全风险评估，这是历史发现中未出现的新事实。
+### 2026-05-12
+- [Center for AI Standards and Innovation signed frontier AI national ...](https://digitalpolicyalert.org/event/39699-center-for-ai-standards-and-innovation-signed-frontier-ai-national-security-testing-agreements-with-google-deepmind-microsoft-and-xai) — 美国人工智能标准和创新中心与Google DeepMind、Microsoft和xAI签署了前沿AI国家安全测试协议。
+- [Microsoft Google government AI testing 2026](https://perplexityaimagazine.com/ai-news/ai-news-microsoft-google-xai-government-ai-testing-2026/) — Microsoft、Google和xAI与政府达成协议，允许在AI模型发布前进行测试。
 

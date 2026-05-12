@@ -4,12 +4,12 @@ title: Google Chrome 推出 Prompt API（浏览器内置 Gemini Nano）
 seed_url: https://developer.chrome.com/docs/ai/prompt-api
 published_date: 2024-11-12
 status: HOT
-last_check: 2026-05-12T01:01
+last_check: 2026-05-12T05:22
 last_activity: '2026-05-12'
-next_check: 2026-05-12T04:01
+next_check: 2026-05-12T08:22
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 39
+findings_count: 42
 tags:
 - tracker
 - HOT
@@ -131,4 +131,8 @@ search_queries:
 ### 2026-05-12
 - [A Browser AI API? - End of Bug Bounties? - YouTube](https://www.youtube.com/watch?v=EWJbJgHFLcg) — Google 在 Chrome 中秘密集成了一个 4.7GB 的大规模 AI 模型，Mozilla 正在反击，这预示着浏览器未来的 AI 转变。
 - [New AI powered APIs added to Chrome 138+ versions - Reddit](https://www.reddit.com/r/chrome/comments/1lgrv0i/new_ai_powered_apis_added_to_chrome_138_versions/) — Chrome 138 及更高版本内置了 3 个新的基于 AI 的网络 API，包括语言检测 API 和摘要 API。
+### 2026-05-12
+- [Your Chrome Browser Just Became an AI Assistant](https://ai.plainenglish.io/your-chrome-browser-just-became-an-ai-assistant-heres-what-that-means-209b3acc6299) — Google Gemini 现已内置 Chrome，使浏览器成为 AI 助手，这是新事实。
+- [Mozilla opposes the implementation of Chrome's Prompt API in the ...](https://www.reddit.com/r/firefox/comments/1ta8uz0/mozilla_opposes_the_implementation_of_chromes/) — Mozilla 反对 Chrome 的 Prompt API 实施，提供了新的事实和观点。
+- [Get started with built-in AI  |  AI on Chrome  |  Chrome for Developers](https://developer.chrome.com/docs/ai/get-started) — Chrome 内置 AI API，允许 Web 应用执行 AI 任务，这是新事实。
 

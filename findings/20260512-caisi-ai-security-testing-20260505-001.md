@@ -1,17 +1,17 @@
 ---
 event: "[[caisi-ai-security-testing-20260505]]"
 date: 2026-05-12
-url: "https://www.mediapost.com/publications/article/414826/google-microsoft-xai-to-send-models-to-us-gove.html"
-source_title: "Google, Microsoft, xAI To Send Models To U.S. ..."
+url: "https://digitalpolicyalert.org/event/39699-center-for-ai-standards-and-innovation-signed-frontier-ai-national-security-testing-agreements-with-google-deepmind-microsoft-and-xai"
+source_title: "Center for AI Standards and Innovation signed frontier AI national ..."
 relevance: RELEVANT
 ---
 
-# Google, Microsoft, xAI To Send Models To U.S. ...
+# Center for AI Standards and Innovation signed frontier AI national ...
 
-**来源**: [Google, Microsoft, xAI To Send Models To U.S. ...](https://www.mediapost.com/publications/article/414826/google-microsoft-xai-to-send-models-to-us-gove.html)
+**来源**: [Center for AI Standards and Innovation signed frontier AI national ...](https://digitalpolicyalert.org/event/39699-center-for-ai-standards-and-innovation-signed-frontier-ai-national-security-testing-agreements-with-google-deepmind-microsoft-and-xai)
 **发现时间**: 2026-05-12
 **所属事件**: [[caisi-ai-security-testing-20260505]]
 
 ## 摘要
 
-Google, Microsoft, xAI 将向美国政府发送模型进行安全测试，这是历史发现中未出现的新事实。
+美国人工智能标准和创新中心与Google DeepMind、Microsoft和xAI签署了前沿AI国家安全测试协议。

@@ -3,16 +3,16 @@ id: anthropic-enterprise-ai-20260504
 title: Anthropic + Blackstone 联合组建企业 AI 交付公司
 seed_url: https://www.anthropic.com/news/enterprise-ai-services-company
 published_date: 2026-05-04
-status: ACTIVE
-last_check: 2026-05-11T21:35
-last_activity: '2026-05-10'
-next_check: 2026-05-12T03:35
-interval_hours: 6
-consecutive_empty: 7
-findings_count: 16
+status: HOT
+last_check: 2026-05-12T05:22
+last_activity: '2026-05-12'
+next_check: 2026-05-12T08:22
+interval_hours: 3
+consecutive_empty: 0
+findings_count: 18
 tags:
 - tracker
-- ACTIVE
+- HOT
 entities:
   orgs:
   - Anthropic
@@ -84,3 +84,7 @@ deepdive_article: '[[待填写]]'
 - [Anthropic Launches Enterprise AI Services Firm](https://hrtechedge.com/ai-in-hr/anthropic-blackstone-launch-ai-services-firm-for-claude/) — Anthropic 与 Blackstone 联合组建的企业 AI 交付公司正式成立，并宣布将 Claude AI 集成到全球企业运营中。
 - [Anthropic Partners with Blackstone, Hellman & Friedman, and Goldman Sachs to Launch Enterprise AI Services Firm - Blackstone](https://www.blackstone.com/news/press/anthropic-partners-with-blackstone-hellman-friedman-and-goldman-sachs-to-launch-enterprise-ai-services-firm/) — Anthropic 与 Blackstone、Hellman & Friedman 和 Goldman Sachs 合作成立了一家新的 AI 原生企业服务公司，旨在快速将 Claude 引入企业核心业务运营。
 - [Anthropic, Wall St. to Launch Enterprise AI Services Firm - Markets Media](https://www.marketsmedia.com/anthropic-partners-with-wall-st-to-launch-enterprise-ai-services-firm/) — Anthropic 与 Blackstone、Hellman & Friedman 和 Goldman Sachs 宣布成立一家新的 AI 原生企业服务公司，该公司将帮助企业快速将 Claude 引入核心业务运营。
+### 2026-05-12
+- [Anthropic Launches Enterprise AI Services with Blackstone ...](https://www.linkedin.com/posts/startup-pedia_startuppedia-startupbusiness-startup-activity-7457495431594438656-4fTD) — Anthropic 与 Blackstone 合作推出新的企业AI服务公司，这是历史发现中未出现的新事实。
+- [Anthropic Forms New Enterprise AI Venture With Blackstone ...](https://www.alphaspread.com/market-news/corporate-moves/anthropic-forms-new-enterprise-ai-venture-with-blackstone-goldman-sachs-and-hellman-friedman) — Anthropic 与 Blackstone、Goldman Sachs 和 Hellman & Friedman 合作成立新的企业AI服务公司，这是历史发现中未出现的新事实。
+

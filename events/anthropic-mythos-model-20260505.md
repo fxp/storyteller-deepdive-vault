@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-12T01:01
+last_check: 2026-05-12T05:22
 last_activity: '2026-05-12'
-next_check: 2026-05-12T04:01
+next_check: 2026-05-12T08:22
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 67
+findings_count: 69
 tags:
 - tracker
 - HOT
@@ -128,4 +128,7 @@ deepdive_article: '[[待填写]]'
 - [U.S. Government Reconsiders Anthropic's Mythos AI Amid Cybersecurity Shifts](https://www.chosun.com/english/industry-en/2026/04/18/D5ZAZZ6BG5E2HKJECY2VAIMCB4/) — 美国政府重新考虑Anthropic的Mythos AI模型，背景是网络安全领域的转变。
 - [New AI model sparks alarm as governments brace for AI-driven cyberattacks  | IAPP](https://iapp.org/news/a/new-ai-model-sparks-alarm-as-governments-brace-for-ai-driven-cyberattacks) — Anthropic的Mythos AI模型引发政府担忧，准备应对AI驱动的网络攻击。
 - [Anthropic's AI model sparks rush from industry, government to batten ...](https://www.theglobeandmail.com/business/economy/article-anthropic-mythos-ai-defence/) — 金融和科技行业以及国家政府为Mythos AI模型可能带来的安全威胁做好准备。
+### 2026-05-12
+- [Anthropic is giving some firms early access to Claude Mythos to bolster cybersecurity defenses | Fortune](https://fortune.com/2026/04/07/anthropic-claude-mythos-model-project-glasswing-cybersecurity/) — Anthropic 向包括亚马逊、苹果和微软在内的公司提供 Claude Mythos 模型的早期访问，以加强网络安全防御。
+- [Federal CIO cautious on Anthropic’s Mythos despite planned rollout | CyberScoop](https://cyberscoop.com/anthropic-mythos-federal-cybersecurity-evaluation-greg-barbaccia/) — 联邦首席信息官 Greg Barbaccia 表示，政府正在谨慎地对待 Anthropic 的 Mythos 模型，尽管计划推出。
 

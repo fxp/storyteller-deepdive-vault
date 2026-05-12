@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-12
-url: "https://www.theguardian.com/commentisfree/2026/may/08/how-dangerous-is-anthropics-mythos-ai"
-source_title: "How dangerous is Anthropic's Mythos AI? | Bruce Schneier"
+url: "https://cyberscoop.com/anthropic-mythos-federal-cybersecurity-evaluation-greg-barbaccia/"
+source_title: "Federal CIO cautious on Anthropic’s Mythos despite planned rollout | CyberScoop"
 relevance: RELEVANT
 ---
 
-# How dangerous is Anthropic's Mythos AI? | Bruce Schneier
+# Federal CIO cautious on Anthropic’s Mythos despite planned rollout | CyberScoop
 
-**来源**: [How dangerous is Anthropic's Mythos AI? | Bruce Schneier](https://www.theguardian.com/commentisfree/2026/may/08/how-dangerous-is-anthropics-mythos-ai)
+**来源**: [Federal CIO cautious on Anthropic’s Mythos despite planned rollout | CyberScoop](https://cyberscoop.com/anthropic-mythos-federal-cybersecurity-evaluation-greg-barbaccia/)
 **发现时间**: 2026-05-12
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-文章讨论Mythos AI模型的潜在危险，指出其可能对黑客活动产生重大影响。
+联邦首席信息官 Greg Barbaccia 表示，政府正在谨慎地对待 Anthropic 的 Mythos 模型，尽管计划推出。
