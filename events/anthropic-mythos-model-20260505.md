@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-12T12:54
+last_check: 2026-05-12T16:53
 last_activity: '2026-05-12'
-next_check: 2026-05-12T15:54
+next_check: 2026-05-12T19:53
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 75
+findings_count: 77
 tags:
 - tracker
 - HOT
@@ -139,4 +139,7 @@ deepdive_article: '[[待填写]]'
 - [Six Reasons Claude Mythos Is an Inflection Point for AI—and Global ...](https://www.cfr.org/articles/six-reasons-claude-mythos-is-an-inflection-point-for-ai-and-global-security) — 文章讨论了Mythos模型对AI和全球安全的转折点，提供了新的观点和担忧。
 - [Anthropic-Pentagon battle shows how big tech has reversed course on AI and war | AI (artificial intelligence) | The Guardian](https://www.theguardian.com/technology/2026/mar/13/anthropic-pentagon-artificial-intelligence) — 文章讨论了Anthropic与五角大楼之间的冲突，这是历史发现中未提及的新事实。
 - [From scepticism to concern: Mythos panic is slowly starting to reach ...](https://www.scmp.com/tech/article/3351485/scepticism-concern-mythos-panic-slowly-starting-reach-china) — 文章讨论了中国对Mythos模型可能带来的AI网络攻击威胁的反应，提供了新的视角。
+### 2026-05-12
+- [The U.S. government warns financial institutions that Anthropic's ...](https://www.reddit.com/r/Futurology/comments/1sjlgmm/the_us_government_warns_financial_institutions/) — 美国政府对金融机构发出警告，Anthropic的Mythos AI能够以前所未有的方式发现和利用软件漏洞。
+- [Anthropic sues Trump administration in AI dispute with Pentagon](https://www.nbcnews.com/tech/tech-news/anthropic-sues-trump-administration-ai-dispute-pentagon-rcna262444) — Anthropic因与美国国防部在AI使用上的争议而起诉特朗普政府，指控其将其指定为国家安全威胁。
 

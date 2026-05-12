@@ -4,11 +4,11 @@ title: Google Chrome 推出 Prompt API（浏览器内置 Gemini Nano）
 seed_url: https://developer.chrome.com/docs/ai/prompt-api
 published_date: 2024-11-12
 status: HOT
-last_check: 2026-05-12T12:54
+last_check: 2026-05-12T16:53
 last_activity: '2026-05-12'
-next_check: 2026-05-12T15:54
+next_check: 2026-05-12T19:53
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 45
 tags:
 - tracker
@@ -140,4 +140,3 @@ search_queries:
 - [Chrome for Developers: Gemini Nano supports CPU inference for wider AI access | Sunil Kumar Nayak posted on the topic | LinkedIn](https://www.linkedin.com/posts/sunil-kumar-nayak_expanding-built-in-ai-to-more-devices-with-activity-7379530207247986688-mMix) — Gemini Nano 支持在 CPU 上进行推理，以实现更广泛的 AI 访问，对开发者友好。
 ### 2026-05-12
 - [Prompt API - Chrome Platform Status](https://cr-status.appspot.com/feature/5134603979063296?gate=5165720748687360) — Prompt API 支持多种用例，包括生成图像标题、执行视觉搜索、转录音频和分类声音。
-

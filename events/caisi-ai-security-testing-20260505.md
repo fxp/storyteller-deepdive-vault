@@ -4,12 +4,12 @@ title: 美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-12T12:54
+last_check: 2026-05-12T16:53
 last_activity: '2026-05-12'
-next_check: 2026-05-12T15:54
+next_check: 2026-05-12T19:53
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 57
+findings_count: 59
 tags:
 - tracker
 - HOT
@@ -142,4 +142,7 @@ deepdive_article: '[[待填写]]'
 ### 2026-05-12
 - [Pentagon strikes classified AI deals with OpenAI, Google, and Nvidia — but not Anthropic | The Tech Buzz](https://www.techbuzz.ai/articles/pentagon-strikes-classified-ai-deals-with-openai-google-and-nvidia-but-not-anthropic) — 美国政府与OpenAI、Google、Nvidia等签署了AI安全测试协议，但排除了Anthropic。
 - [Pentagon signs AI deals with OpenAI, Google, Microsoft, Amazon and others for classified networks - Alpha Spread](https://www.alphaspread.com/market-news/corporate-moves/pentagon-signs-ai-deals-with-openai-google-microsoft-amazon-and-others-for-classified-networks) — 五角大楼宣布与七家AI公司达成协议，使用其工具在机密设置中。
+### 2026-05-12
+- [The Pentagon announces AI deals with OpenAI, Google, Microsoft ...](https://www.reddit.com/r/pcmasterrace/comments/1t1awxk/the_pentagon_announces_ai_deals_with_openai/) — 五角大楼宣布与OpenAI、Google、Microsoft、Amazon、Nvidia等签署AI协议，将AI模型部署在机密国防网络中。
+- [Pentagon snubs Anthropic as it secures classified AI deals with tech ...](https://www.tag24.com/en/news/politics/us-politics/pentagon-snubs-anthropic-as-it-secures-classified-ai-deals-with-tech-giants-3494959) — 五角大楼在宣布与七家领先AI公司达成协议时，特别排除了Anthropic。
 

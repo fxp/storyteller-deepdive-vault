@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-12
-url: "https://www.cfr.org/articles/six-reasons-claude-mythos-is-an-inflection-point-for-ai-and-global-security"
-source_title: "Six Reasons Claude Mythos Is an Inflection Point for AI—and Global ..."
+url: "https://www.nbcnews.com/tech/tech-news/anthropic-sues-trump-administration-ai-dispute-pentagon-rcna262444"
+source_title: "Anthropic sues Trump administration in AI dispute with Pentagon"
 relevance: RELEVANT
 ---
 
-# Six Reasons Claude Mythos Is an Inflection Point for AI—and Global ...
+# Anthropic sues Trump administration in AI dispute with Pentagon
 
-**来源**: [Six Reasons Claude Mythos Is an Inflection Point for AI—and Global ...](https://www.cfr.org/articles/six-reasons-claude-mythos-is-an-inflection-point-for-ai-and-global-security)
+**来源**: [Anthropic sues Trump administration in AI dispute with Pentagon](https://www.nbcnews.com/tech/tech-news/anthropic-sues-trump-administration-ai-dispute-pentagon-rcna262444)
 **发现时间**: 2026-05-12
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-文章讨论了Mythos模型对AI和全球安全的转折点，提供了新的观点和担忧。
+Anthropic因与美国国防部在AI使用上的争议而起诉特朗普政府，指控其将其指定为国家安全威胁。

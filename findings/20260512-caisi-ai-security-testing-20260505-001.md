@@ -1,17 +1,17 @@
 ---
 event: "[[caisi-ai-security-testing-20260505]]"
 date: 2026-05-12
-url: "https://www.techbuzz.ai/articles/pentagon-strikes-classified-ai-deals-with-openai-google-and-nvidia-but-not-anthropic"
-source_title: "Pentagon strikes classified AI deals with OpenAI, Google, and Nvidia — but not Anthropic | The Tech Buzz"
+url: "https://www.reddit.com/r/pcmasterrace/comments/1t1awxk/the_pentagon_announces_ai_deals_with_openai/"
+source_title: "The Pentagon announces AI deals with OpenAI, Google, Microsoft ..."
 relevance: RELEVANT
 ---
 
-# Pentagon strikes classified AI deals with OpenAI, Google, and Nvidia — but not Anthropic | The Tech Buzz
+# The Pentagon announces AI deals with OpenAI, Google, Microsoft ...
 
-**来源**: [Pentagon strikes classified AI deals with OpenAI, Google, and Nvidia — but not Anthropic | The Tech Buzz](https://www.techbuzz.ai/articles/pentagon-strikes-classified-ai-deals-with-openai-google-and-nvidia-but-not-anthropic)
+**来源**: [The Pentagon announces AI deals with OpenAI, Google, Microsoft ...](https://www.reddit.com/r/pcmasterrace/comments/1t1awxk/the_pentagon_announces_ai_deals_with_openai/)
 **发现时间**: 2026-05-12
 **所属事件**: [[caisi-ai-security-testing-20260505]]
 
 ## 摘要
 
-美国政府与OpenAI、Google、Nvidia等签署了AI安全测试协议，但排除了Anthropic。
+五角大楼宣布与OpenAI、Google、Microsoft、Amazon、Nvidia等签署AI协议，将AI模型部署在机密国防网络中。
