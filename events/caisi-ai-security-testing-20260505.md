@@ -4,12 +4,12 @@ title: 美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-12T05:22
+last_check: 2026-05-12T09:09
 last_activity: '2026-05-12'
-next_check: 2026-05-12T08:22
+next_check: 2026-05-12T12:09
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 54
+findings_count: 55
 tags:
 - tracker
 - HOT
@@ -137,4 +137,6 @@ deepdive_article: '[[待填写]]'
 ### 2026-05-12
 - [Center for AI Standards and Innovation signed frontier AI national ...](https://digitalpolicyalert.org/event/39699-center-for-ai-standards-and-innovation-signed-frontier-ai-national-security-testing-agreements-with-google-deepmind-microsoft-and-xai) — 美国人工智能标准和创新中心与Google DeepMind、Microsoft和xAI签署了前沿AI国家安全测试协议。
 - [Microsoft Google government AI testing 2026](https://perplexityaimagazine.com/ai-news/ai-news-microsoft-google-xai-government-ai-testing-2026/) — Microsoft、Google和xAI与政府达成协议，允许在AI模型发布前进行测试。
+### 2026-05-12
+- [Pentagon seals AI deals with Google, Microsoft, Amazon, SpaceX](https://www.linkedin.com/posts/quartzmedia_pentagon-sealed-classified-ai-deals-with-activity-7455963796629786624-RGN-) — SpaceX, NVIDIA, 和 Reflection 也被纳入了五角大楼的机密AI协议中。
 

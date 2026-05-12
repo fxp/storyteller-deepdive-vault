@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-12
-url: "https://cyberscoop.com/anthropic-mythos-federal-cybersecurity-evaluation-greg-barbaccia/"
-source_title: "Federal CIO cautious on Anthropic’s Mythos despite planned rollout | CyberScoop"
+url: "https://www.labellerr.com/blog/anthropic-claude-mythos-capabilities/"
+source_title: "Claude Mythos: Benchmark-Dominating AI with Real Risks"
 relevance: RELEVANT
 ---
 
-# Federal CIO cautious on Anthropic’s Mythos despite planned rollout | CyberScoop
+# Claude Mythos: Benchmark-Dominating AI with Real Risks
 
-**来源**: [Federal CIO cautious on Anthropic’s Mythos despite planned rollout | CyberScoop](https://cyberscoop.com/anthropic-mythos-federal-cybersecurity-evaluation-greg-barbaccia/)
+**来源**: [Claude Mythos: Benchmark-Dominating AI with Real Risks](https://www.labellerr.com/blog/anthropic-claude-mythos-capabilities/)
 **发现时间**: 2026-05-12
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-联邦首席信息官 Greg Barbaccia 表示，政府正在谨慎地对待 Anthropic 的 Mythos 模型，尽管计划推出。
+Claude Mythos在安全基准测试中得分高于Claude Opus 4.6，揭示了AI代理、安全团队和构建者之间的能力差距。

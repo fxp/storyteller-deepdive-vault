@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-12T05:22
+last_check: 2026-05-12T09:09
 last_activity: '2026-05-12'
-next_check: 2026-05-12T08:22
+next_check: 2026-05-12T12:09
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 69
+findings_count: 71
 tags:
 - tracker
 - HOT
@@ -131,4 +131,7 @@ deepdive_article: '[[待填写]]'
 ### 2026-05-12
 - [Anthropic is giving some firms early access to Claude Mythos to bolster cybersecurity defenses | Fortune](https://fortune.com/2026/04/07/anthropic-claude-mythos-model-project-glasswing-cybersecurity/) — Anthropic 向包括亚马逊、苹果和微软在内的公司提供 Claude Mythos 模型的早期访问，以加强网络安全防御。
 - [Federal CIO cautious on Anthropic’s Mythos despite planned rollout | CyberScoop](https://cyberscoop.com/anthropic-mythos-federal-cybersecurity-evaluation-greg-barbaccia/) — 联邦首席信息官 Greg Barbaccia 表示，政府正在谨慎地对待 Anthropic 的 Mythos 模型，尽管计划推出。
+### 2026-05-12
+- [Anthropic announced Claude Mythos Preview, the most powerful AI model ever benchmarked, and restricted public access. Here is what the 93.9% SWE-bench score, the 97.6% USAMO result, and the Project Glasswing partner list mean for marketing teams building AI workflows in 2026.](https://www.getpassionfruit.com/blog/what-anthropic-s-most-powerful-ai-model-means-for-marketing-teams-claude-mythos-preview) — Anthropic发布了其最强大的AI模型Claude Mythos Preview，并限制了公众访问。
+- [Claude Mythos: Benchmark-Dominating AI with Real Risks](https://www.labellerr.com/blog/anthropic-claude-mythos-capabilities/) — Claude Mythos在安全基准测试中得分高于Claude Opus 4.6，揭示了AI代理、安全团队和构建者之间的能力差距。
 

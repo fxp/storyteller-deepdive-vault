@@ -4,12 +4,12 @@ title: Google Chrome 推出 Prompt API（浏览器内置 Gemini Nano）
 seed_url: https://developer.chrome.com/docs/ai/prompt-api
 published_date: 2024-11-12
 status: HOT
-last_check: 2026-05-12T05:22
+last_check: 2026-05-12T09:09
 last_activity: '2026-05-12'
-next_check: 2026-05-12T08:22
+next_check: 2026-05-12T12:09
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 42
+findings_count: 44
 tags:
 - tracker
 - HOT
@@ -135,4 +135,7 @@ search_queries:
 - [Your Chrome Browser Just Became an AI Assistant](https://ai.plainenglish.io/your-chrome-browser-just-became-an-ai-assistant-heres-what-that-means-209b3acc6299) — Google Gemini 现已内置 Chrome，使浏览器成为 AI 助手，这是新事实。
 - [Mozilla opposes the implementation of Chrome's Prompt API in the ...](https://www.reddit.com/r/firefox/comments/1ta8uz0/mozilla_opposes_the_implementation_of_chromes/) — Mozilla 反对 Chrome 的 Prompt API 实施，提供了新的事实和观点。
 - [Get started with built-in AI  |  AI on Chrome  |  Chrome for Developers](https://developer.chrome.com/docs/ai/get-started) — Chrome 内置 AI API，允许 Web 应用执行 AI 任务，这是新事实。
+### 2026-05-12
+- [Next-Level Web Applications with On-Device Generative AI: A Look at Google Chrome's Built-In Gemini Nano LLM - DEV Community](https://dev.to/ptvty/next-level-web-applications-with-on-device-generative-ai-a-look-at-google-chromes-built-in-gemini-nano-llm-4bng) — 介绍了 Chrome 内置的 Gemini Nano LLM 和 `window.ai` API，为网站提供设备端生成式 AI 功能。
+- [Chrome for Developers: Gemini Nano supports CPU inference for wider AI access | Sunil Kumar Nayak posted on the topic | LinkedIn](https://www.linkedin.com/posts/sunil-kumar-nayak_expanding-built-in-ai-to-more-devices-with-activity-7379530207247986688-mMix) — Gemini Nano 支持在 CPU 上进行推理，以实现更广泛的 AI 访问，对开发者友好。
 

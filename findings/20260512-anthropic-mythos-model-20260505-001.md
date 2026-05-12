@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-12
-url: "https://fortune.com/2026/04/07/anthropic-claude-mythos-model-project-glasswing-cybersecurity/"
-source_title: "Anthropic is giving some firms early access to Claude Mythos to bolster cybersecurity defenses | Fortune"
+url: "https://www.getpassionfruit.com/blog/what-anthropic-s-most-powerful-ai-model-means-for-marketing-teams-claude-mythos-preview"
+source_title: "Anthropic announced Claude Mythos Preview, the most powerful AI model ever benchmarked, and restricted public access. Here is what the 93.9% SWE-bench score, the 97.6% USAMO result, and the Project Glasswing partner list mean for marketing teams building AI workflows in 2026."
 relevance: RELEVANT
 ---
 
-# Anthropic is giving some firms early access to Claude Mythos to bolster cybersecurity defenses | Fortune
+# Anthropic announced Claude Mythos Preview, the most powerful AI model ever benchmarked, and restricted public access. Here is what the 93.9% SWE-bench score, the 97.6% USAMO result, and the Project Glasswing partner list mean for marketing teams building AI workflows in 2026.
 
-**来源**: [Anthropic is giving some firms early access to Claude Mythos to bolster cybersecurity defenses | Fortune](https://fortune.com/2026/04/07/anthropic-claude-mythos-model-project-glasswing-cybersecurity/)
+**来源**: [Anthropic announced Claude Mythos Preview, the most powerful AI model ever benchmarked, and restricted public access. Here is what the 93.9% SWE-bench score, the 97.6% USAMO result, and the Project Glasswing partner list mean for marketing teams building AI workflows in 2026.](https://www.getpassionfruit.com/blog/what-anthropic-s-most-powerful-ai-model-means-for-marketing-teams-claude-mythos-preview)
 **发现时间**: 2026-05-12
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-Anthropic 向包括亚马逊、苹果和微软在内的公司提供 Claude Mythos 模型的早期访问，以加强网络安全防御。
+Anthropic发布了其最强大的AI模型Claude Mythos Preview，并限制了公众访问。

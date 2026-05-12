@@ -1,17 +1,17 @@
 ---
 event: "[[caisi-ai-security-testing-20260505]]"
 date: 2026-05-12
-url: "https://digitalpolicyalert.org/event/39699-center-for-ai-standards-and-innovation-signed-frontier-ai-national-security-testing-agreements-with-google-deepmind-microsoft-and-xai"
-source_title: "Center for AI Standards and Innovation signed frontier AI national ..."
+url: "https://www.linkedin.com/posts/quartzmedia_pentagon-sealed-classified-ai-deals-with-activity-7455963796629786624-RGN-"
+source_title: "Pentagon seals AI deals with Google, Microsoft, Amazon, SpaceX"
 relevance: RELEVANT
 ---
 
-# Center for AI Standards and Innovation signed frontier AI national ...
+# Pentagon seals AI deals with Google, Microsoft, Amazon, SpaceX
 
-**来源**: [Center for AI Standards and Innovation signed frontier AI national ...](https://digitalpolicyalert.org/event/39699-center-for-ai-standards-and-innovation-signed-frontier-ai-national-security-testing-agreements-with-google-deepmind-microsoft-and-xai)
+**来源**: [Pentagon seals AI deals with Google, Microsoft, Amazon, SpaceX](https://www.linkedin.com/posts/quartzmedia_pentagon-sealed-classified-ai-deals-with-activity-7455963796629786624-RGN-)
 **发现时间**: 2026-05-12
 **所属事件**: [[caisi-ai-security-testing-20260505]]
 
 ## 摘要
 
-美国人工智能标准和创新中心与Google DeepMind、Microsoft和xAI签署了前沿AI国家安全测试协议。
+SpaceX, NVIDIA, 和 Reflection 也被纳入了五角大楼的机密AI协议中。
