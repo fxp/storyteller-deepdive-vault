@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-12T16:53
+last_check: 2026-05-12T20:40
 last_activity: '2026-05-12'
-next_check: 2026-05-12T19:53
+next_check: 2026-05-12T23:40
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 77
+findings_count: 79
 tags:
 - tracker
 - HOT
@@ -142,4 +142,7 @@ deepdive_article: '[[待填写]]'
 ### 2026-05-12
 - [The U.S. government warns financial institutions that Anthropic's ...](https://www.reddit.com/r/Futurology/comments/1sjlgmm/the_us_government_warns_financial_institutions/) — 美国政府对金融机构发出警告，Anthropic的Mythos AI能够以前所未有的方式发现和利用软件漏洞。
 - [Anthropic sues Trump administration in AI dispute with Pentagon](https://www.nbcnews.com/tech/tech-news/anthropic-sues-trump-administration-ai-dispute-pentagon-rcna262444) — Anthropic因与美国国防部在AI使用上的争议而起诉特朗普政府，指控其将其指定为国家安全威胁。
+### 2026-05-12
+- [Our evaluation of Claude Mythos Preview's cyber capabilities | AISI ...](https://www.aisi.gov.uk/blog/our-evaluation-of-claude-mythos-previews-cyber-capabilities) — AISI对Anthropic的Claude Mythos Preview进行了网络安全评估，发现其在CTF挑战和多层网络攻击模拟方面有显著改进。
+- [Anthropic’s Mythos AI Sparks Cybersecurity Panic, but Experts Say the Threat Already Exists](https://www.macobserver.com/news/anthropics-mythos-ai-sparks-cybersecurity-panic-but-experts-say-the-threat-already-exists/) — Anthropic的新AI模型Mythos引发了网络安全行业的恐慌，但专家表示，这种威胁已经存在。
 

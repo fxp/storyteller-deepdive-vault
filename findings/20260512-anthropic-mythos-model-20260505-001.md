@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-12
-url: "https://www.reddit.com/r/Futurology/comments/1sjlgmm/the_us_government_warns_financial_institutions/"
-source_title: "The U.S. government warns financial institutions that Anthropic's ..."
+url: "https://www.aisi.gov.uk/blog/our-evaluation-of-claude-mythos-previews-cyber-capabilities"
+source_title: "Our evaluation of Claude Mythos Preview's cyber capabilities | AISI ..."
 relevance: RELEVANT
 ---
 
-# The U.S. government warns financial institutions that Anthropic's ...
+# Our evaluation of Claude Mythos Preview's cyber capabilities | AISI ...
 
-**来源**: [The U.S. government warns financial institutions that Anthropic's ...](https://www.reddit.com/r/Futurology/comments/1sjlgmm/the_us_government_warns_financial_institutions/)
+**来源**: [Our evaluation of Claude Mythos Preview's cyber capabilities | AISI ...](https://www.aisi.gov.uk/blog/our-evaluation-of-claude-mythos-previews-cyber-capabilities)
 **发现时间**: 2026-05-12
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-美国政府对金融机构发出警告，Anthropic的Mythos AI能够以前所未有的方式发现和利用软件漏洞。
+AISI对Anthropic的Claude Mythos Preview进行了网络安全评估，发现其在CTF挑战和多层网络攻击模拟方面有显著改进。

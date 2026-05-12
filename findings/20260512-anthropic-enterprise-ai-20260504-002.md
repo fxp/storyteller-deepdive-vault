@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-enterprise-ai-20260504]]"
 date: 2026-05-12
-url: "https://www.facebook.com/rundownnewsletter/posts/anthropic-has-officially-announced-a-new-enterprise-ai-services-company-with-bla/848790554909398/"
-source_title: "The Rundown - Anthropic has officially announced a new..."
+url: "https://qz.com/anthropic-blackstone-goldman-sachs-enterprise-ai-firm-050426"
+source_title: "Anthropic launches enterprise AI firm with Blackstone, Goldman Sachs"
 relevance: RELEVANT
 ---
 
-# The Rundown - Anthropic has officially announced a new...
+# Anthropic launches enterprise AI firm with Blackstone, Goldman Sachs
 
-**来源**: [The Rundown - Anthropic has officially announced a new...](https://www.facebook.com/rundownnewsletter/posts/anthropic-has-officially-announced-a-new-enterprise-ai-services-company-with-bla/848790554909398/)
+**来源**: [Anthropic launches enterprise AI firm with Blackstone, Goldman Sachs](https://qz.com/anthropic-blackstone-goldman-sachs-enterprise-ai-firm-050426)
 **发现时间**: 2026-05-12
 **所属事件**: [[anthropic-enterprise-ai-20260504]]
 
 ## 摘要
 
-Anthropic 官方宣布与 Blackstone、Hellman & Friedman 和 Goldman Sachs 合作成立一家新的企业 AI 服务公司。
+新公司旨在将 Claude 集成到中型企业中，由 Apollo、General Atlantic 和 Sequoia Capital 等投资机构支持。

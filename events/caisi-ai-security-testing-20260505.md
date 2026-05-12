@@ -4,12 +4,12 @@ title: 美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-12T16:53
+last_check: 2026-05-12T20:40
 last_activity: '2026-05-12'
-next_check: 2026-05-12T19:53
+next_check: 2026-05-12T23:40
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 59
+findings_count: 65
 tags:
 - tracker
 - HOT
@@ -145,4 +145,11 @@ deepdive_article: '[[待填写]]'
 ### 2026-05-12
 - [The Pentagon announces AI deals with OpenAI, Google, Microsoft ...](https://www.reddit.com/r/pcmasterrace/comments/1t1awxk/the_pentagon_announces_ai_deals_with_openai/) — 五角大楼宣布与OpenAI、Google、Microsoft、Amazon、Nvidia等签署AI协议，将AI模型部署在机密国防网络中。
 - [Pentagon snubs Anthropic as it secures classified AI deals with tech ...](https://www.tag24.com/en/news/politics/us-politics/pentagon-snubs-anthropic-as-it-secures-classified-ai-deals-with-tech-giants-3494959) — 五角大楼在宣布与七家领先AI公司达成协议时，特别排除了Anthropic。
+### 2026-05-12
+- [Microsoft, Google and xAI to give US government early access to AI ...](https://www.reuters.com/legal/litigation/microsoft-xai-google-will-share-ai-models-with-us-govt-security-reviews-2026-05-05/) — 微软、Google和xAI将允许美国政府提前访问其AI模型进行安全审查。
+- [Microsoft and Amazon join Pentagon’s push to build AI-first military with classified network deals](https://www.geekwire.com/2026/microsoft-and-amazon-join-pentagons-push-to-build-ai-first-military-with-classified-network-deals/) — 五角大楼与微软、亚马逊推动建立以AI为主的军事力量，签署了机密网络协议。
+- [Pentagon strikes AI deals for classified military use - The Washington Post](https://www.washingtonpost.com/technology/2026/05/01/pentagon-ai-deals-microsoft-amazon-google-classified-military/) — 五角大楼与包括亚马逊、Google和微软在内的公司签署了AI协议，用于机密军事用途。
+- [OpenAI strikes deal with Pentagon after Trump orders government to stop using Anthropic](https://www.nbcnews.com/tech/tech-news/trump-bans-anthropic-government-use-rcna261055) — OpenAI在与特朗普政府命令停止使用Anthropic后，与五角大楼达成协议。
+- [Trump orders US government to cut ties with Anthropic; Hegseth declares supply chain 'risk' - ABC News](https://abcnews.com/Politics/anthropic-latest-pentagon-contract-bar-ai-autonomous-weapons/story?id=130558898) — 特朗普下令美国政府与Anthropic断绝联系，并宣布其为供应链风险。
+- [Microsoft, Google and xAI will let the government test their AI models before launch | News Channel 3-12](https://keyt.com/news/money-and-business/cnn-business-consumer/2026/05/05/microsoft-google-and-xai-will-let-the-government-test-their-ai-models-before-launch/) — 微软、Google和xAI将允许政府在AI模型发布前进行测试，以减少网络安全威胁。
 

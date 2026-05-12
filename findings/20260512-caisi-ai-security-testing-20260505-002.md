@@ -1,17 +1,17 @@
 ---
 event: "[[caisi-ai-security-testing-20260505]]"
 date: 2026-05-12
-url: "https://www.tag24.com/en/news/politics/us-politics/pentagon-snubs-anthropic-as-it-secures-classified-ai-deals-with-tech-giants-3494959"
-source_title: "Pentagon snubs Anthropic as it secures classified AI deals with tech ..."
+url: "https://www.geekwire.com/2026/microsoft-and-amazon-join-pentagons-push-to-build-ai-first-military-with-classified-network-deals/"
+source_title: "Microsoft and Amazon join Pentagon’s push to build AI-first military with classified network deals"
 relevance: RELEVANT
 ---
 
-# Pentagon snubs Anthropic as it secures classified AI deals with tech ...
+# Microsoft and Amazon join Pentagon’s push to build AI-first military with classified network deals
 
-**来源**: [Pentagon snubs Anthropic as it secures classified AI deals with tech ...](https://www.tag24.com/en/news/politics/us-politics/pentagon-snubs-anthropic-as-it-secures-classified-ai-deals-with-tech-giants-3494959)
+**来源**: [Microsoft and Amazon join Pentagon’s push to build AI-first military with classified network deals](https://www.geekwire.com/2026/microsoft-and-amazon-join-pentagons-push-to-build-ai-first-military-with-classified-network-deals/)
 **发现时间**: 2026-05-12
 **所属事件**: [[caisi-ai-security-testing-20260505]]
 
 ## 摘要
 
-五角大楼在宣布与七家领先AI公司达成协议时，特别排除了Anthropic。
+五角大楼与微软、亚马逊推动建立以AI为主的军事力量，签署了机密网络协议。

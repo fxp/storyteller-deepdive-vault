@@ -4,12 +4,12 @@ title: Anthropic + Blackstone 联合组建企业 AI 交付公司
 seed_url: https://www.anthropic.com/news/enterprise-ai-services-company
 published_date: 2026-05-04
 status: HOT
-last_check: 2026-05-12T16:53
+last_check: 2026-05-12T20:40
 last_activity: '2026-05-12'
-next_check: 2026-05-12T19:53
+next_check: 2026-05-12T23:40
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 22
+findings_count: 25
 tags:
 - tracker
 - HOT
@@ -93,4 +93,8 @@ deepdive_article: '[[待填写]]'
 - [Anthropic, Blackstone and Partners Launch AI-Native Enterprise Services Firm - Connect Money](https://www.connectmoney.com/stories/anthropic-blackstone-and-partners-launch-ai-native-enterprise-services-firm/) — Anthropic 与 Blackstone、Hellman & Friedman 和 Goldman Sachs 合作成立了一家新的 AI 原生企业服务公司。
 - [The Rundown - Anthropic has officially announced a new...](https://www.facebook.com/rundownnewsletter/posts/anthropic-has-officially-announced-a-new-enterprise-ai-services-company-with-bla/848790554909398/) — Anthropic 官方宣布与 Blackstone、Hellman & Friedman 和 Goldman Sachs 合作成立一家新的企业 AI 服务公司。
 - [Anthropic Launches Enterprise AI Services with Blackstone and ...](https://www.linkedin.com/posts/pareekhjain_building-a-new-enterprise-ai-services-company-activity-7457125643290324992-x06c) — Anthropic 与 Blackstone、Hellman & Friedman 和 Goldman Sachs 合作成立了一家新的 AI 服务公司，旨在帮助企业部署 Claude。
+### 2026-05-12
+- [Anthropic Launches Enterprise AI Venture With Blackstone, Goldman Sachs and Hellman & Friedman - Alpha Spread](https://www.alphaspread.com/market-news/corporate-moves/anthropic-launches-enterprise-ai-venture-with-blackstone-goldman-sachs-and-hellman-friedman) — Anthropic 与 Blackstone、Goldman Sachs 和 Hellman & Friedman 合作成立了一家新的 AI 服务公司，该公司的估值约为 15 亿美元。
+- [Anthropic launches enterprise AI firm with Blackstone, Goldman Sachs](https://qz.com/anthropic-blackstone-goldman-sachs-enterprise-ai-firm-050426) — 新公司旨在将 Claude 集成到中型企业中，由 Apollo、General Atlantic 和 Sequoia Capital 等投资机构支持。
+- [Anthropic has partnered with Blackstone, Hellman & Friedman, and ...](https://www.instagram.com/p/DX8uWzrjTdj/) — Anthropic 与华尔街公司合作，推出价值 15 亿美元的 Claude AI 服务公司，旨在扩大 Claude 的部署。
 
