@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-13
-url: "https://www.mindstudio.ai/blog/claude-mythos-vs-opus-4-6-cybersecurity-gap/"
-source_title: "Claude Mythos vs Claude Opus 4.6: How Big Is the Cybersecurity Capability Gap? | MindStudio"
+url: "https://www.cbsnews.com/news/mythos-anthropic-ai-project-glasswing-hacker-threat/"
+source_title: "Anthropic's Mythos AI can spot weaknesses in almost ... - CBS News"
 relevance: RELEVANT
 ---
 
-# Claude Mythos vs Claude Opus 4.6: How Big Is the Cybersecurity Capability Gap? | MindStudio
+# Anthropic's Mythos AI can spot weaknesses in almost ... - CBS News
 
-**来源**: [Claude Mythos vs Claude Opus 4.6: How Big Is the Cybersecurity Capability Gap? | MindStudio](https://www.mindstudio.ai/blog/claude-mythos-vs-opus-4-6-cybersecurity-gap/)
+**来源**: [Anthropic's Mythos AI can spot weaknesses in almost ... - CBS News](https://www.cbsnews.com/news/mythos-anthropic-ai-project-glasswing-hacker-threat/)
 **发现时间**: 2026-05-13
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-文章比较了Claude Mythos和Claude Opus 4.6在网络安全基准测试中的得分，讨论了AI代理、安全团队和构建者的影响。
+Anthropic的Mythos AI技术能够揭示软件漏洞，公司担心该模型可能落入恶意行为者手中。

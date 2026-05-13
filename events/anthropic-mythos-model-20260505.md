@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-13T12:57
+last_check: 2026-05-13T16:56
 last_activity: '2026-05-13'
-next_check: 2026-05-13T15:57
+next_check: 2026-05-13T19:56
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 88
+findings_count: 91
 tags:
 - tracker
 - HOT
@@ -158,4 +158,8 @@ deepdive_article: '[[待填写]]'
 - [Why Anthropic's Mythos Is Sparking Alarm - YouTube](https://www.youtube.com/watch?v=JmFKaqJg5X4) — YouTube视频讨论了Anthropic的Mythos模型可能带来的AI网络攻击威胁，提供了新的视角。
 - [Claude Mythos vs Claude Opus 4.6: How Big Is the Cybersecurity Capability Gap? | MindStudio](https://www.mindstudio.ai/blog/claude-mythos-vs-opus-4-6-cybersecurity-gap/) — 文章比较了Claude Mythos和Claude Opus 4.6在网络安全基准测试中的得分，讨论了AI代理、安全团队和构建者的影响。
 - [Govt Warns Companies About Risks From Advanced AI Models ...](https://www.youtube.com/watch?v=5RZvr4Ahpt4) — YouTube视频讨论了政府警告公司关于高级AI模型的风险，包括Anthropic未发布的Mythos模型。
+### 2026-05-13
+- [Anthropic investigates report of rogue access to hack-enabling Mythos AI | AI (artificial intelligence) | The Guardian](https://www.theguardian.com/technology/2026/apr/22/anthropic-investigates-report-of-rogue-access-to-hack-enabling-mythos-ai) — Anthropic正在调查未经授权的用户访问其Mythos模型，该模型被警告可能对网络安全构成风险。
+- [Anthropic's Mythos AI can spot weaknesses in almost ... - CBS News](https://www.cbsnews.com/news/mythos-anthropic-ai-project-glasswing-hacker-threat/) — Anthropic的Mythos AI技术能够揭示软件漏洞，公司担心该模型可能落入恶意行为者手中。
+- [Anthropic’s Mythos Will Force a Cybersecurity Reckoning—Just Not the One You Think | WIRED](https://www.wired.com/story/anthropics-mythos-will-force-a-cybersecurity-reckoning-just-not-the-one-you-think/) — Anthropic的Mythos AI模型在AI编程基准测试中树立了新标杆。
 

@@ -4,12 +4,12 @@ title: Google Chrome 推出 Prompt API（浏览器内置 Gemini Nano）
 seed_url: https://developer.chrome.com/docs/ai/prompt-api
 published_date: 2024-11-12
 status: HOT
-last_check: 2026-05-13T12:57
+last_check: 2026-05-13T16:56
 last_activity: '2026-05-13'
-next_check: 2026-05-13T15:57
+next_check: 2026-05-13T19:56
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 51
+findings_count: 52
 tags:
 - tracker
 - HOT
@@ -150,4 +150,6 @@ search_queries:
 - [AI Right in the Browser With Chrome’s Built-in AI APIs by Thomas Steiner](https://gitnation.com/contents/chrome-built-in-ai-apis) — Thomas Steiner 讨论了 Chrome 内置 AI API 的探索性 Prompt API 和 Gemini Nano 模型，提供了新信息。
 ### 2026-05-13
 - [Chrome's Built in AI model (Gemini Nano) is 6x slower, only 41% of ...](https://www.reddit.com/r/ArtificialInteligence/comments/1qjxnw8/chromes_built_in_ai_model_gemini_nano_is_6x/) — Chrome 内置 AI 模型 Gemini Nano 的性能数据，包括速度和可用性，提供了新事实。
+### 2026-05-13
+- [Chrome is about to break the web... AGAIN! - YouTube](https://www.youtube.com/watch?v=seKv8ZyTiOU) — 视频讨论了 Chrome 内置 AI 模型和 Prompt API 的限制，以及 Mozilla 的立场，提供了新事实。
 

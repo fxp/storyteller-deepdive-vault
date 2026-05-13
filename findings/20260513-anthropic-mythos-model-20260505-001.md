@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-13
-url: "https://www.youtube.com/watch?v=JmFKaqJg5X4"
-source_title: "Why Anthropic's Mythos Is Sparking Alarm - YouTube"
+url: "https://www.theguardian.com/technology/2026/apr/22/anthropic-investigates-report-of-rogue-access-to-hack-enabling-mythos-ai"
+source_title: "Anthropic investigates report of rogue access to hack-enabling Mythos AI | AI (artificial intelligence) | The Guardian"
 relevance: RELEVANT
 ---
 
-# Why Anthropic's Mythos Is Sparking Alarm - YouTube
+# Anthropic investigates report of rogue access to hack-enabling Mythos AI | AI (artificial intelligence) | The Guardian
 
-**来源**: [Why Anthropic's Mythos Is Sparking Alarm - YouTube](https://www.youtube.com/watch?v=JmFKaqJg5X4)
+**来源**: [Anthropic investigates report of rogue access to hack-enabling Mythos AI | AI (artificial intelligence) | The Guardian](https://www.theguardian.com/technology/2026/apr/22/anthropic-investigates-report-of-rogue-access-to-hack-enabling-mythos-ai)
 **发现时间**: 2026-05-13
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-YouTube视频讨论了Anthropic的Mythos模型可能带来的AI网络攻击威胁，提供了新的视角。
+Anthropic正在调查未经授权的用户访问其Mythos模型，该模型被警告可能对网络安全构成风险。
