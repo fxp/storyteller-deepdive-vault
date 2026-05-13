@@ -3,16 +3,16 @@ id: anthropic-enterprise-ai-20260504
 title: Anthropic + Blackstone 联合组建企业 AI 交付公司
 seed_url: https://www.anthropic.com/news/enterprise-ai-services-company
 published_date: 2026-05-04
-status: ACTIVE
-last_check: 2026-05-13T12:57
-last_activity: '2026-05-12'
-next_check: 2026-05-13T18:57
-interval_hours: 6
-consecutive_empty: 4
-findings_count: 25
+status: HOT
+last_check: 2026-05-13T19:39
+last_activity: '2026-05-13'
+next_check: 2026-05-13T22:39
+interval_hours: 3
+consecutive_empty: 0
+findings_count: 26
 tags:
 - tracker
-- ACTIVE
+- HOT
 entities:
   orgs:
   - Anthropic
@@ -97,3 +97,6 @@ deepdive_article: '[[待填写]]'
 - [Anthropic Launches Enterprise AI Venture With Blackstone, Goldman Sachs and Hellman & Friedman - Alpha Spread](https://www.alphaspread.com/market-news/corporate-moves/anthropic-launches-enterprise-ai-venture-with-blackstone-goldman-sachs-and-hellman-friedman) — Anthropic 与 Blackstone、Goldman Sachs 和 Hellman & Friedman 合作成立了一家新的 AI 服务公司，该公司的估值约为 15 亿美元。
 - [Anthropic launches enterprise AI firm with Blackstone, Goldman Sachs](https://qz.com/anthropic-blackstone-goldman-sachs-enterprise-ai-firm-050426) — 新公司旨在将 Claude 集成到中型企业中，由 Apollo、General Atlantic 和 Sequoia Capital 等投资机构支持。
 - [Anthropic has partnered with Blackstone, Hellman & Friedman, and ...](https://www.instagram.com/p/DX8uWzrjTdj/) — Anthropic 与华尔街公司合作，推出价值 15 亿美元的 Claude AI 服务公司，旨在扩大 Claude 的部署。
+### 2026-05-13
+- [Anthropic launches enterprise AI firm with Blackstone, Goldman Sachs](https://finance.yahoo.com/sectors/technology/articles/anthropic-launches-enterprise-ai-firm-140605794.html) — Anthropic 与 Blackstone、Goldman Sachs 合作成立了一家新的企业AI服务公司，旨在将 Anthropic 的 Claude AI 引入中型企业的核心运营。
+
