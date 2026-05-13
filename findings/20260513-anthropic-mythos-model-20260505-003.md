@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-13
-url: "https://www.youtube.com/watch?v=FMoO1ndNpNI"
-source_title: "The White House Wants To Approve AI Models. Blame Mythos."
+url: "https://www.youtube.com/watch?v=5RZvr4Ahpt4"
+source_title: "Govt Warns Companies About Risks From Advanced AI Models ..."
 relevance: RELEVANT
 ---
 
-# The White House Wants To Approve AI Models. Blame Mythos.
+# Govt Warns Companies About Risks From Advanced AI Models ...
 
-**来源**: [The White House Wants To Approve AI Models. Blame Mythos.](https://www.youtube.com/watch?v=FMoO1ndNpNI)
+**来源**: [Govt Warns Companies About Risks From Advanced AI Models ...](https://www.youtube.com/watch?v=5RZvr4Ahpt4)
 **发现时间**: 2026-05-13
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-视频讨论了政府希望批准AI模型，并将Mythos模型作为催化剂。
+YouTube视频讨论了政府警告公司关于高级AI模型的风险，包括Anthropic未发布的Mythos模型。

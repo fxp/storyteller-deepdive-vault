@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-13T09:14
+last_check: 2026-05-13T12:57
 last_activity: '2026-05-13'
-next_check: 2026-05-13T12:14
+next_check: 2026-05-13T15:57
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 85
+findings_count: 88
 tags:
 - tracker
 - HOT
@@ -154,4 +154,8 @@ deepdive_article: '[[待填写]]'
 - [The White House Wants To Approve AI Models. Blame Mythos.](https://www.youtube.com/watch?v=FMoO1ndNpNI) — 视频讨论了政府希望批准AI模型，并将Mythos模型作为催化剂。
 ### 2026-05-13
 - [Major US firms granted access to Anthropic's Mythos to prepare against AI cyber threats, as Australian firms left out - ABC News](https://www.abc.net.au/news/2026-04-23/powerful-ai-tools-posing-cybersecurity-risks-australia-lagging/106584436) — 美国主要公司被授予访问Anthropic的Mythos以准备应对AI网络威胁，而澳大利亚公司被排除在外。
+### 2026-05-13
+- [Why Anthropic's Mythos Is Sparking Alarm - YouTube](https://www.youtube.com/watch?v=JmFKaqJg5X4) — YouTube视频讨论了Anthropic的Mythos模型可能带来的AI网络攻击威胁，提供了新的视角。
+- [Claude Mythos vs Claude Opus 4.6: How Big Is the Cybersecurity Capability Gap? | MindStudio](https://www.mindstudio.ai/blog/claude-mythos-vs-opus-4-6-cybersecurity-gap/) — 文章比较了Claude Mythos和Claude Opus 4.6在网络安全基准测试中的得分，讨论了AI代理、安全团队和构建者的影响。
+- [Govt Warns Companies About Risks From Advanced AI Models ...](https://www.youtube.com/watch?v=5RZvr4Ahpt4) — YouTube视频讨论了政府警告公司关于高级AI模型的风险，包括Anthropic未发布的Mythos模型。
 

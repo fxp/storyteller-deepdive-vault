@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-13
-url: "https://www.nytimes.com/2026/05/12/technology/anthropic-claude-mythos.html"
-source_title: "Is Anthropic's Claude Mythos Really a Cybersecurity Risk?"
+url: "https://www.mindstudio.ai/blog/claude-mythos-vs-opus-4-6-cybersecurity-gap/"
+source_title: "Claude Mythos vs Claude Opus 4.6: How Big Is the Cybersecurity Capability Gap? | MindStudio"
 relevance: RELEVANT
 ---
 
-# Is Anthropic's Claude Mythos Really a Cybersecurity Risk?
+# Claude Mythos vs Claude Opus 4.6: How Big Is the Cybersecurity Capability Gap? | MindStudio
 
-**来源**: [Is Anthropic's Claude Mythos Really a Cybersecurity Risk?](https://www.nytimes.com/2026/05/12/technology/anthropic-claude-mythos.html)
+**来源**: [Claude Mythos vs Claude Opus 4.6: How Big Is the Cybersecurity Capability Gap? | MindStudio](https://www.mindstudio.ai/blog/claude-mythos-vs-opus-4-6-cybersecurity-gap/)
 **发现时间**: 2026-05-13
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-文章探讨了Anthropic的Mythos模型是否真的构成网络安全风险。
+文章比较了Claude Mythos和Claude Opus 4.6在网络安全基准测试中的得分，讨论了AI代理、安全团队和构建者的影响。
