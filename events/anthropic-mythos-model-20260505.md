@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-13T05:25
+last_check: 2026-05-13T09:14
 last_activity: '2026-05-13'
-next_check: 2026-05-13T08:25
+next_check: 2026-05-13T12:14
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 84
+findings_count: 85
 tags:
 - tracker
 - HOT
@@ -152,4 +152,6 @@ deepdive_article: '[[待填写]]'
 - [Explainer: What do we know about Anthropic's Mythos amid rising ...](https://www.reuters.com/business/finance/what-do-we-know-about-anthropics-mythos-amid-rising-concerns-2026-04-20/) — 文章讨论了Anthropic的Mythos模型在网络安全方面的潜在影响，提供了新的视角。
 - [Is Anthropic's Claude Mythos Really a Cybersecurity Risk?](https://www.nytimes.com/2026/05/12/technology/anthropic-claude-mythos.html) — 文章探讨了Anthropic的Mythos模型是否真的构成网络安全风险。
 - [The White House Wants To Approve AI Models. Blame Mythos.](https://www.youtube.com/watch?v=FMoO1ndNpNI) — 视频讨论了政府希望批准AI模型，并将Mythos模型作为催化剂。
+### 2026-05-13
+- [Major US firms granted access to Anthropic's Mythos to prepare against AI cyber threats, as Australian firms left out - ABC News](https://www.abc.net.au/news/2026-04-23/powerful-ai-tools-posing-cybersecurity-risks-australia-lagging/106584436) — 美国主要公司被授予访问Anthropic的Mythos以准备应对AI网络威胁，而澳大利亚公司被排除在外。
 

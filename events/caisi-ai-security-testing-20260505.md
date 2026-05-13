@@ -4,12 +4,12 @@ title: 美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-13T05:25
+last_check: 2026-05-13T09:14
 last_activity: '2026-05-13'
-next_check: 2026-05-13T08:25
+next_check: 2026-05-13T12:14
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 66
+findings_count: 69
 tags:
 - tracker
 - HOT
@@ -156,4 +156,8 @@ deepdive_article: '[[待填写]]'
 - [6.3K views · 30 reactions | The Pentagon said Friday that it has reached deals with seven tech companies to use their artificial intelligence in its classified computer networks, allowing the military to tap into AI-powered capabilities to help it fight wars.
 
 Google, Microsoft, Amazon Web Services, Nvidia, OpenAI, Reflection and SpaceX will provide their resources to help "augment warfighter decision-making in complex operational environments," the Defense Department said. | ABC7NY](https://www.facebook.com/ABC7NY/videos/us-military-reaches-deals-with-7-tech-companies-to-use-their-ai-on-classified-sy/1848787366525825/) — 美国国防部与七家科技公司达成协议，允许军事部门在机密计算机网络中使用这些公司的AI技术，以增强作战决策能力。
+### 2026-05-13
+- [US to safety test new AI models from Google, Microsoft, xAI - BBC](https://www.bbc.com/news/articles/cgjp2we2j8go) — 美国政府将测试Google、Microsoft和xAI的新AI模型，以在发布前确保其安全性。
+- [US military reaches deals with 7 tech companies to use their AI on classified systems](https://wjla.com/news/local/military-ai-artificial-intelligence-contract-classified-systems-tech-company-google-microsoft-amazon-nvidia-openai-space-x-war-ethics-battlefield-resources-trump-administration-pentagon-dod) — 美国国防部与七家科技公司达成协议，在机密计算机网络中使用这些公司的AI技术，以增强作战决策能力。
+- [Federal government to vet AI models before release - The Hill](https://thehill.com/homenews/5863937-google-microsoft-xai-ai-testing/) — 作为协议的一部分，Google DeepMind、Microsoft和xAI将向AI标准与创新中心（CAISI）提供他们的模型，以进行部署前的评估和定向研究，以更好地评估前沿AI能力并推进AI安全状态。
 

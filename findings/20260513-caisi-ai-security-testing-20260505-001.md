@@ -1,23 +1,17 @@
 ---
 event: "[[caisi-ai-security-testing-20260505]]"
 date: 2026-05-13
-url: "https://www.facebook.com/ABC7NY/videos/us-military-reaches-deals-with-7-tech-companies-to-use-their-ai-on-classified-sy/1848787366525825/"
-source_title: "6.3K views · 30 reactions | The Pentagon said Friday that it has reached deals with seven tech companies to use their artificial intelligence in its classified computer networks, allowing the military to tap into AI-powered capabilities to help it fight wars.
-
-Google, Microsoft, Amazon Web Services, Nvidia, OpenAI, Reflection and SpaceX will provide their resources to help 'augment warfighter decision-making in complex operational environments,' the Defense Department said. | ABC7NY"
+url: "https://www.bbc.com/news/articles/cgjp2we2j8go"
+source_title: "US to safety test new AI models from Google, Microsoft, xAI - BBC"
 relevance: RELEVANT
 ---
 
-# 6.3K views · 30 reactions | The Pentagon said Friday that it has reached deals with seven tech companies to use their artificial intelligence in its classified computer networks, allowing the military to tap into AI-powered capabilities to help it fight wars.
+# US to safety test new AI models from Google, Microsoft, xAI - BBC
 
-Google, Microsoft, Amazon Web Services, Nvidia, OpenAI, Reflection and SpaceX will provide their resources to help "augment warfighter decision-making in complex operational environments," the Defense Department said. | ABC7NY
-
-**来源**: [6.3K views · 30 reactions | The Pentagon said Friday that it has reached deals with seven tech companies to use their artificial intelligence in its classified computer networks, allowing the military to tap into AI-powered capabilities to help it fight wars.
-
-Google, Microsoft, Amazon Web Services, Nvidia, OpenAI, Reflection and SpaceX will provide their resources to help "augment warfighter decision-making in complex operational environments," the Defense Department said. | ABC7NY](https://www.facebook.com/ABC7NY/videos/us-military-reaches-deals-with-7-tech-companies-to-use-their-ai-on-classified-sy/1848787366525825/)
+**来源**: [US to safety test new AI models from Google, Microsoft, xAI - BBC](https://www.bbc.com/news/articles/cgjp2we2j8go)
 **发现时间**: 2026-05-13
 **所属事件**: [[caisi-ai-security-testing-20260505]]
 
 ## 摘要
 
-美国国防部与七家科技公司达成协议，允许军事部门在机密计算机网络中使用这些公司的AI技术，以增强作战决策能力。
+美国政府将测试Google、Microsoft和xAI的新AI模型，以在发布前确保其安全性。
