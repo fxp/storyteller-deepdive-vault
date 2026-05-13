@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-12T20:40
-last_activity: '2026-05-12'
-next_check: 2026-05-12T23:40
+last_check: 2026-05-13T01:06
+last_activity: '2026-05-13'
+next_check: 2026-05-13T04:06
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 79
+findings_count: 81
 tags:
 - tracker
 - HOT
@@ -145,4 +145,7 @@ deepdive_article: '[[待填写]]'
 ### 2026-05-12
 - [Our evaluation of Claude Mythos Preview's cyber capabilities | AISI ...](https://www.aisi.gov.uk/blog/our-evaluation-of-claude-mythos-previews-cyber-capabilities) — AISI对Anthropic的Claude Mythos Preview进行了网络安全评估，发现其在CTF挑战和多层网络攻击模拟方面有显著改进。
 - [Anthropic’s Mythos AI Sparks Cybersecurity Panic, but Experts Say the Threat Already Exists](https://www.macobserver.com/news/anthropics-mythos-ai-sparks-cybersecurity-panic-but-experts-say-the-threat-already-exists/) — Anthropic的新AI模型Mythos引发了网络安全行业的恐慌，但专家表示，这种威胁已经存在。
+### 2026-05-13
+- [Anthropic's 'Mythos' AI can hack nearly anything and we aren't ready](https://tech.yahoo.com/cybersecurity/articles/former-national-cyber-director-anthropic-100000869.html) — Anthropic的Mythos AI模型具有强大的黑客能力，引发了对网络安全威胁的担忧。
+- [US Government Now Wants Anthropic's 'Mythos', Preparing for AI Cybersecurity Threats - Slashdot](https://yro.slashdot.org/story/26/04/18/039221/us-government-now-wants-anthropics-mythos-preparing-for-ai-cybersecurity-threats) — 美国政府希望获得Anthropic的Mythos模型，以准备应对AI网络安全威胁。
 

@@ -4,11 +4,11 @@ title: 美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-12T20:40
+last_check: 2026-05-13T01:06
 last_activity: '2026-05-12'
-next_check: 2026-05-12T23:40
+next_check: 2026-05-13T04:06
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 65
 tags:
 - tracker
@@ -152,4 +152,3 @@ deepdive_article: '[[待填写]]'
 - [OpenAI strikes deal with Pentagon after Trump orders government to stop using Anthropic](https://www.nbcnews.com/tech/tech-news/trump-bans-anthropic-government-use-rcna261055) — OpenAI在与特朗普政府命令停止使用Anthropic后，与五角大楼达成协议。
 - [Trump orders US government to cut ties with Anthropic; Hegseth declares supply chain 'risk' - ABC News](https://abcnews.com/Politics/anthropic-latest-pentagon-contract-bar-ai-autonomous-weapons/story?id=130558898) — 特朗普下令美国政府与Anthropic断绝联系，并宣布其为供应链风险。
 - [Microsoft, Google and xAI will let the government test their AI models before launch | News Channel 3-12](https://keyt.com/news/money-and-business/cnn-business-consumer/2026/05/05/microsoft-google-and-xai-will-let-the-government-test-their-ai-models-before-launch/) — 微软、Google和xAI将允许政府在AI模型发布前进行测试，以减少网络安全威胁。
-
