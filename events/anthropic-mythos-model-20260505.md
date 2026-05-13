@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-13T01:06
+last_check: 2026-05-13T05:25
 last_activity: '2026-05-13'
-next_check: 2026-05-13T04:06
+next_check: 2026-05-13T08:25
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 81
+findings_count: 84
 tags:
 - tracker
 - HOT
@@ -148,4 +148,8 @@ deepdive_article: '[[待填写]]'
 ### 2026-05-13
 - [Anthropic's 'Mythos' AI can hack nearly anything and we aren't ready](https://tech.yahoo.com/cybersecurity/articles/former-national-cyber-director-anthropic-100000869.html) — Anthropic的Mythos AI模型具有强大的黑客能力，引发了对网络安全威胁的担忧。
 - [US Government Now Wants Anthropic's 'Mythos', Preparing for AI Cybersecurity Threats - Slashdot](https://yro.slashdot.org/story/26/04/18/039221/us-government-now-wants-anthropics-mythos-preparing-for-ai-cybersecurity-threats) — 美国政府希望获得Anthropic的Mythos模型，以准备应对AI网络安全威胁。
+### 2026-05-13
+- [Explainer: What do we know about Anthropic's Mythos amid rising ...](https://www.reuters.com/business/finance/what-do-we-know-about-anthropics-mythos-amid-rising-concerns-2026-04-20/) — 文章讨论了Anthropic的Mythos模型在网络安全方面的潜在影响，提供了新的视角。
+- [Is Anthropic's Claude Mythos Really a Cybersecurity Risk?](https://www.nytimes.com/2026/05/12/technology/anthropic-claude-mythos.html) — 文章探讨了Anthropic的Mythos模型是否真的构成网络安全风险。
+- [The White House Wants To Approve AI Models. Blame Mythos.](https://www.youtube.com/watch?v=FMoO1ndNpNI) — 视频讨论了政府希望批准AI模型，并将Mythos模型作为催化剂。
 

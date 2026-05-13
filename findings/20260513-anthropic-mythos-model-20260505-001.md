@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-13
-url: "https://tech.yahoo.com/cybersecurity/articles/former-national-cyber-director-anthropic-100000869.html"
-source_title: "Anthropic's 'Mythos' AI can hack nearly anything and we aren't ready"
+url: "https://www.reuters.com/business/finance/what-do-we-know-about-anthropics-mythos-amid-rising-concerns-2026-04-20/"
+source_title: "Explainer: What do we know about Anthropic's Mythos amid rising ..."
 relevance: RELEVANT
 ---
 
-# Anthropic's 'Mythos' AI can hack nearly anything and we aren't ready
+# Explainer: What do we know about Anthropic's Mythos amid rising ...
 
-**来源**: [Anthropic's 'Mythos' AI can hack nearly anything and we aren't ready](https://tech.yahoo.com/cybersecurity/articles/former-national-cyber-director-anthropic-100000869.html)
+**来源**: [Explainer: What do we know about Anthropic's Mythos amid rising ...](https://www.reuters.com/business/finance/what-do-we-know-about-anthropics-mythos-amid-rising-concerns-2026-04-20/)
 **发现时间**: 2026-05-13
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-Anthropic的Mythos AI模型具有强大的黑客能力，引发了对网络安全威胁的担忧。
+文章讨论了Anthropic的Mythos模型在网络安全方面的潜在影响，提供了新的视角。

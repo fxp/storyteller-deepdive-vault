@@ -4,12 +4,12 @@ title: 美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-13T01:06
-last_activity: '2026-05-12'
-next_check: 2026-05-13T04:06
+last_check: 2026-05-13T05:25
+last_activity: '2026-05-13'
+next_check: 2026-05-13T08:25
 interval_hours: 3
-consecutive_empty: 1
-findings_count: 65
+consecutive_empty: 0
+findings_count: 66
 tags:
 - tracker
 - HOT
@@ -152,3 +152,8 @@ deepdive_article: '[[待填写]]'
 - [OpenAI strikes deal with Pentagon after Trump orders government to stop using Anthropic](https://www.nbcnews.com/tech/tech-news/trump-bans-anthropic-government-use-rcna261055) — OpenAI在与特朗普政府命令停止使用Anthropic后，与五角大楼达成协议。
 - [Trump orders US government to cut ties with Anthropic; Hegseth declares supply chain 'risk' - ABC News](https://abcnews.com/Politics/anthropic-latest-pentagon-contract-bar-ai-autonomous-weapons/story?id=130558898) — 特朗普下令美国政府与Anthropic断绝联系，并宣布其为供应链风险。
 - [Microsoft, Google and xAI will let the government test their AI models before launch | News Channel 3-12](https://keyt.com/news/money-and-business/cnn-business-consumer/2026/05/05/microsoft-google-and-xai-will-let-the-government-test-their-ai-models-before-launch/) — 微软、Google和xAI将允许政府在AI模型发布前进行测试，以减少网络安全威胁。
+### 2026-05-13
+- [6.3K views · 30 reactions | The Pentagon said Friday that it has reached deals with seven tech companies to use their artificial intelligence in its classified computer networks, allowing the military to tap into AI-powered capabilities to help it fight wars.
+
+Google, Microsoft, Amazon Web Services, Nvidia, OpenAI, Reflection and SpaceX will provide their resources to help "augment warfighter decision-making in complex operational environments," the Defense Department said. | ABC7NY](https://www.facebook.com/ABC7NY/videos/us-military-reaches-deals-with-7-tech-companies-to-use-their-ai-on-classified-sy/1848787366525825/) — 美国国防部与七家科技公司达成协议，允许军事部门在机密计算机网络中使用这些公司的AI技术，以增强作战决策能力。
+

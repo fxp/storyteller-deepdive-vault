@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-13
-url: "https://yro.slashdot.org/story/26/04/18/039221/us-government-now-wants-anthropics-mythos-preparing-for-ai-cybersecurity-threats"
-source_title: "US Government Now Wants Anthropic's 'Mythos', Preparing for AI Cybersecurity Threats - Slashdot"
+url: "https://www.nytimes.com/2026/05/12/technology/anthropic-claude-mythos.html"
+source_title: "Is Anthropic's Claude Mythos Really a Cybersecurity Risk?"
 relevance: RELEVANT
 ---
 
-# US Government Now Wants Anthropic's 'Mythos', Preparing for AI Cybersecurity Threats - Slashdot
+# Is Anthropic's Claude Mythos Really a Cybersecurity Risk?
 
-**来源**: [US Government Now Wants Anthropic's 'Mythos', Preparing for AI Cybersecurity Threats - Slashdot](https://yro.slashdot.org/story/26/04/18/039221/us-government-now-wants-anthropics-mythos-preparing-for-ai-cybersecurity-threats)
+**来源**: [Is Anthropic's Claude Mythos Really a Cybersecurity Risk?](https://www.nytimes.com/2026/05/12/technology/anthropic-claude-mythos.html)
 **发现时间**: 2026-05-13
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-美国政府希望获得Anthropic的Mythos模型，以准备应对AI网络安全威胁。
+文章探讨了Anthropic的Mythos模型是否真的构成网络安全风险。

@@ -4,12 +4,12 @@ title: Google Chrome 推出 Prompt API（浏览器内置 Gemini Nano）
 seed_url: https://developer.chrome.com/docs/ai/prompt-api
 published_date: 2024-11-12
 status: HOT
-last_check: 2026-05-13T01:06
-last_activity: '2026-05-12'
-next_check: 2026-05-13T04:06
+last_check: 2026-05-13T05:25
+last_activity: '2026-05-13'
+next_check: 2026-05-13T08:25
 interval_hours: 3
-consecutive_empty: 1
-findings_count: 47
+consecutive_empty: 0
+findings_count: 49
 tags:
 - tracker
 - HOT
@@ -143,3 +143,7 @@ search_queries:
 ### 2026-05-12
 - [Google's Gemini Nano in Chrome Raises Privacy and Performance Concerns | Welcome.AI](https://www.welcome.ai/content/googles-gemini-nano-in-chrome-raises-privacy-and-performance-concerns) — Google 的 Gemini Nano 在 Chrome 中的集成引发了用户隐私和性能的担忧，用户现在可以通过 Google 引入的切换功能禁用它。
 - [Chrome's Built-in AI in 3 min - The Prompt API - YouTube](https://www.youtube.com/watch?v=YkUcxX49Rqw) — 视频介绍了 Chrome 内置的 Prompt API 和 Gemini Nano，提供了新事实。
+### 2026-05-13
+- [Gemini Nano in Chrome: On-Device AI Is Here (No Cloud Required)](https://medium.com/@hamzamfarooqi/gemini-nano-in-chrome-on-device-ai-is-here-no-cloud-required-bba874f60697) — Gemini Nano 现已嵌入 Chrome 138，支持本地摘要、翻译和语言检测，提供了新事实。
+- [Why is Mozilla opposing the 'Prompt API,' an AI feature planned for Google Chrome? - GIGAZINE](https://gigazine.net/gsc_news/en/20260501-google-chrome-prompt-api/) — Mozilla 对 Prompt API 表示反对，提供了新的观点和事实。
+
