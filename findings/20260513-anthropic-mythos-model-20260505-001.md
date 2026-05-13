@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-13
-url: "https://www.theguardian.com/technology/2026/apr/22/anthropic-investigates-report-of-rogue-access-to-hack-enabling-mythos-ai"
-source_title: "Anthropic investigates report of rogue access to hack-enabling Mythos AI | AI (artificial intelligence) | The Guardian"
+url: "https://www.cnn.com/2026/04/03/tech/anthropic-mythos-ai-cybersecurity"
+source_title: "Anthropic's next model could be a 'watershed moment' for ... - CNN"
 relevance: RELEVANT
 ---
 
-# Anthropic investigates report of rogue access to hack-enabling Mythos AI | AI (artificial intelligence) | The Guardian
+# Anthropic's next model could be a 'watershed moment' for ... - CNN
 
-**来源**: [Anthropic investigates report of rogue access to hack-enabling Mythos AI | AI (artificial intelligence) | The Guardian](https://www.theguardian.com/technology/2026/apr/22/anthropic-investigates-report-of-rogue-access-to-hack-enabling-mythos-ai)
+**来源**: [Anthropic's next model could be a 'watershed moment' for ... - CNN](https://www.cnn.com/2026/04/03/tech/anthropic-mythos-ai-cybersecurity)
 **发现时间**: 2026-05-13
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-Anthropic正在调查未经授权的用户访问其Mythos模型，该模型被警告可能对网络安全构成风险。
+Anthropic的Mythos模型可能引发前所未有的网络安全攻击，公司限制其发布以给网络安全防御者更多时间加固系统。

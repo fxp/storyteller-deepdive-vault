@@ -4,12 +4,12 @@ title: 美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-13T16:56
+last_check: 2026-05-13T20:41
 last_activity: '2026-05-13'
-next_check: 2026-05-13T19:56
+next_check: 2026-05-13T23:41
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 70
+findings_count: 72
 tags:
 - tracker
 - HOT
@@ -162,4 +162,7 @@ Google, Microsoft, Amazon Web Services, Nvidia, OpenAI, Reflection and SpaceX wi
 - [Federal government to vet AI models before release - The Hill](https://thehill.com/homenews/5863937-google-microsoft-xai-ai-testing/) — 作为协议的一部分，Google DeepMind、Microsoft和xAI将向AI标准与创新中心（CAISI）提供他们的模型，以进行部署前的评估和定向研究，以更好地评估前沿AI能力并推进AI安全状态。
 ### 2026-05-13
 - [Commerce Department Expands AI Model Testing | Govly](https://app.govly.com/public/signals/95019) — 美国商务部扩大了对AI模型的测试，与Google DeepMind、Microsoft和xAI达成新协议。
+### 2026-05-13
+- [US Government Pushes Pre-Release AI Model Reviews - Cognativ](https://www.cognativ.com/blogs/post/us-government-pushes-pre-release-ai-model-reviews/753) — 美国政府推动在AI模型发布前进行审查，这是对AI监管的新要求，是一个新的事实。
+- [US government now has pre-release access to AI models from five major labs for national security testing](https://the-decoder.com/us-government-now-has-pre-release-access-to-ai-models-from-five-major-labs-for-national-security-testing/) — 美国政府现在有权提前访问五家主要实验室的AI模型进行国家安全测试，这是一个新的事实。
 
