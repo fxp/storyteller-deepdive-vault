@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-14T12:50
+last_check: 2026-05-14T15:57
 last_activity: '2026-05-14'
-next_check: 2026-05-14T15:50
+next_check: 2026-05-14T18:57
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 103
+findings_count: 105
 tags:
 - tracker
 - HOT
@@ -179,4 +179,7 @@ deepdive_article: '[[待填写]]'
 - [Anthropic sues Trump administration in AI dispute with Pentagon](https://www.yahoo.com/news/articles/anthropic-sues-trump-administration-amid-155712903.html) — Anthropic 因与五角大楼在 AI 争议中起诉特朗普政府。
 ### 2026-05-14
 - [Top Security Experts Alarmed by Power of Anthropic's New Hacker AI](https://futurism.com/artificial-intelligence/security-experts-alarmed-anthropic-mythos) — Anthropic的Mythos AI模型可能被黑客利用，突显了网络安全防护的不足。
+### 2026-05-14
+- [Anthropic Glasswing & Claude Mythos Explained for GovCon](https://www.executivegov.com/articles/anthropic-cybersecurity-ai-glasswing-claude-mythos) — Anthropic推出了Project Glasswing，利用Claude Mythos AI模型进行全球网络安全，这是一个新的安全倡议，与历史发现中未提及的新事实相关。
+- [Mythos Fallout, U.S. Government Weighs AI Model Regulation](https://www.lawfaremedia.org/article/mythos-fallout--u.s.-government-weighs-ai-model-regulation) — 文章讨论了Mythos模型对美国政府的潜在影响，以及政府正在考虑对AI模型进行监管，这是历史发现中未提及的新事实。
 

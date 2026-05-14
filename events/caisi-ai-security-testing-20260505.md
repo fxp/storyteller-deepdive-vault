@@ -4,12 +4,12 @@ title: 美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-14T12:50
+last_check: 2026-05-14T15:57
 last_activity: '2026-05-14'
-next_check: 2026-05-14T15:50
+next_check: 2026-05-14T18:57
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 77
+findings_count: 78
 tags:
 - tracker
 - HOT
@@ -173,4 +173,6 @@ Google, Microsoft, Amazon Web Services, Nvidia, OpenAI, Reflection and SpaceX wi
 ### 2026-05-14
 - [CAISI Evaluates AI Models for National Security Risks - LinkedIn](https://www.linkedin.com/posts/genai-spotlight_%3F%3F-%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F-%3F%3F%3F%3F%3F%3F%3F-activity-7457761808918003712-GZZp) — CAISI评估未发布AI模型的国家安全风险，涉及网络安全、生物安全和化学武器等领域的风险。
 - [Request for Information Regarding Security Considerations for ...](https://www.federalregister.gov/documents/2026/01/08/2026-00206/request-for-information-regarding-security-considerations-for-artificial-intelligence-agents?ref=blog.disclose.io) — 美国政府机构请求关于人工智能代理安全考虑的信息，可能为CAISI评估AI能力相关的安全风险提供信息。
+### 2026-05-14
+- [Pentagon Excludes Anthropic from Classified AI Deals Over Safety ...](https://www.linkedin.com/posts/vikasmalpani_pentagon-excludes-anthropic-safety-just-activity-7456211788649365504-b5Ee) — 五角大楼在签署机密AI协议时排除了Anthropic。
 
