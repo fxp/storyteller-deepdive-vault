@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-14T01:07
+last_check: 2026-05-14T05:25
 last_activity: '2026-05-14'
-next_check: 2026-05-14T04:07
+next_check: 2026-05-14T08:25
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 96
+findings_count: 100
 tags:
 - tracker
 - HOT
@@ -169,4 +169,9 @@ deepdive_article: '[[待填写]]'
 - [Anthropic's feud with the Pentagon reveals the limits of AI governance](https://www.chathamhouse.org/2026/03/anthropics-feud-pentagon-reveals-limits-ai-governance) — 文章讨论了AI治理的困境，提到了Anthropic与五角大楼的争议，这是历史发现中未提及的新事实。
 - [Why the Trump administration is clashing with AI firm Anthropic | PBS News](https://www.pbs.org/newshour/show/why-the-trump-administration-is-clashing-with-ai-firm-anthropic) — 文章报道了特朗普政府与Anthropic的冲突升级，包括总统下令停止使用Anthropic的产品，这是历史发现中未提及的新事实。
 - [The Arrival of Mythos: A Wake-Up Call for Government Cybersecurity - govtech.com](https://www.govtech.com/voices/the-arrival-of-mythos-a-wake-up-call-for-government-cybersecurity) — 文章讨论了Mythos模型对政府网络安全的影响，这是历史发现中未提及的新事实。
+### 2026-05-14
+- [Too Dangerous to Deploy: Anthropic's Mythos and What Comes Next](https://www.justsecurity.org/138011/too-dangerous-anthropic-mythos/) — Anthropic宣布Mythos Preview，这是一个具有强大黑客能力的AI模型，公司认为它对公共发布过于危险。
+- [US security agency is using Anthropic's Mythos despite ... - Reuters](https://www.reuters.com/business/us-security-agency-is-using-anthropics-mythos-despite-blacklist-axios-reports-2026-04-19/) — 美国国家安全局正在使用Anthropic的Mythos Preview AI工具，尽管五角大楼对该公司进行了黑名单处理。
+- [Anthropic sues to undo Trump administration's 'supply chain risk ...](https://www.yahoo.com/news/articles/anthropic-sues-undo-trump-administrations-152240336.html) — Anthropic起诉特朗普政府，要求撤销将其指定为供应链风险的措施。
+- [Trump and Anthropic clash over AI ethics](https://thefederal.com/category/international/ai-ethics-row-erupts-between-trump-and-anthropic-231997) — 特朗普政府与Anthropic在AI伦理问题上发生冲突，特朗普指示所有联邦机构停止使用Anthropic的技术。
 

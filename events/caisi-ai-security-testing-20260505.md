@@ -4,12 +4,12 @@ title: 美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-14T01:07
+last_check: 2026-05-14T05:25
 last_activity: '2026-05-14'
-next_check: 2026-05-14T04:07
+next_check: 2026-05-14T08:25
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 73
+findings_count: 75
 tags:
 - tracker
 - HOT
@@ -167,4 +167,7 @@ Google, Microsoft, Amazon Web Services, Nvidia, OpenAI, Reflection and SpaceX wi
 - [US government now has pre-release access to AI models from five major labs for national security testing](https://the-decoder.com/us-government-now-has-pre-release-access-to-ai-models-from-five-major-labs-for-national-security-testing/) — 美国政府现在有权提前访问五家主要实验室的AI模型进行国家安全测试，这是一个新的事实。
 ### 2026-05-14
 - [US Military Reaches Deals With 7 Tech Companies to Use Their AI ...](https://www.securityweek.com/us-military-reaches-deals-with-7-tech-companies-to-use-their-ai-on-classified-systems/) — 美国国防部与7家科技公司达成协议，使用它们的AI在机密系统中，包括Google、Microsoft、Amazon Web Services、Nvidia、OpenAI、Reflection和SpaceX，以帮助增强作战人员在复杂作战环境中的决策能力。
+### 2026-05-14
+- [AI in Warfare: Pentagon Signs Deals with Google, Microsoft, OpenAI, Nvidia |Vantage on Firstpost| 4K](https://www.youtube.com/watch?v=C5W2FYm6Z_4) — 美国国防部与七家主要科技公司签署协议，将人工智能整合到军事行动中，包括Google、OpenAI、Amazon Web Services、Microsoft、Nvidia、SpaceX和Reflection。
+- [U.S. Government Expands Pre-Release Safety Testing for Advanced ...](https://16.putty-p.it.com/a/14200.html) — 美国政府机构CAISI与Google DeepMind、Microsoft和xAI签署测试协议，以评估前沿AI模型在公开发布前的安全性。
 
