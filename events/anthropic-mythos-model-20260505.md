@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-13T20:41
-last_activity: '2026-05-13'
-next_check: 2026-05-13T23:41
+last_check: 2026-05-14T01:07
+last_activity: '2026-05-14'
+next_check: 2026-05-14T04:07
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 93
+findings_count: 96
 tags:
 - tracker
 - HOT
@@ -165,4 +165,8 @@ deepdive_article: '[[待填写]]'
 ### 2026-05-13
 - [Anthropic's next model could be a 'watershed moment' for ... - CNN](https://www.cnn.com/2026/04/03/tech/anthropic-mythos-ai-cybersecurity) — Anthropic的Mythos模型可能引发前所未有的网络安全攻击，公司限制其发布以给网络安全防御者更多时间加固系统。
 - [Anthropic’s Mythos is a wake-up call, but experts say the era of AI-driven hacking is already here | Fortune](https://fortune.com/2026/04/10/anthropic-mythos-ai-driven-cybersecurity-risks-already-here/) — Anthropic的Mythos模型被描述为对网络安全的一个警钟，专家表示AI驱动的黑客时代已经到来。
+### 2026-05-14
+- [Anthropic's feud with the Pentagon reveals the limits of AI governance](https://www.chathamhouse.org/2026/03/anthropics-feud-pentagon-reveals-limits-ai-governance) — 文章讨论了AI治理的困境，提到了Anthropic与五角大楼的争议，这是历史发现中未提及的新事实。
+- [Why the Trump administration is clashing with AI firm Anthropic | PBS News](https://www.pbs.org/newshour/show/why-the-trump-administration-is-clashing-with-ai-firm-anthropic) — 文章报道了特朗普政府与Anthropic的冲突升级，包括总统下令停止使用Anthropic的产品，这是历史发现中未提及的新事实。
+- [The Arrival of Mythos: A Wake-Up Call for Government Cybersecurity - govtech.com](https://www.govtech.com/voices/the-arrival-of-mythos-a-wake-up-call-for-government-cybersecurity) — 文章讨论了Mythos模型对政府网络安全的影响，这是历史发现中未提及的新事实。
 
