@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-14T19:38
+last_check: 2026-05-14T23:25
 last_activity: '2026-05-14'
-next_check: 2026-05-14T22:38
+next_check: 2026-05-15T02:25
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 106
+findings_count: 109
 tags:
 - tracker
 - HOT
@@ -184,4 +184,8 @@ deepdive_article: '[[待填写]]'
 - [Mythos Fallout, U.S. Government Weighs AI Model Regulation](https://www.lawfaremedia.org/article/mythos-fallout--u.s.-government-weighs-ai-model-regulation) — 文章讨论了Mythos模型对美国政府的潜在影响，以及政府正在考虑对AI模型进行监管，这是历史发现中未提及的新事实。
 ### 2026-05-14
 - [Japan Turns to Anthropic’s Mythos AI as Its Weapon Against Cyber Threats - TipRanks.com](https://www.tipranks.com/news/japan-turns-to-anthropics-mythos-ai-as-its-weapon-against-cyber-threats) — 日本政府正在准备部署Mythos AI模型以应对网络威胁，这是历史发现中未提及的新事实。
+### 2026-05-14
+- [Microsoft's multi-agent AI system tops Anthropic's Mythos ... - GeekWire](https://www.geekwire.com/2026/microsofts-multi-agent-ai-system-tops-anthropics-mythos-on-cybersecurity-benchmark/) — Microsoft的MDASH系统在网络安全基准测试中超越了Anthropic的Mythos模型，使用超过100个专业AI代理在多个AI模型中协同工作以发现现实世界威胁。
+- [Anthropic sues in federal court to reverse Trump administration's 'supply chain risk' designation | PBS News](https://www.pbs.org/newshour/nation/anthropic-sues-in-federal-court-to-reverse-trump-administrations-supply-chain-risk-designation) — Anthropic起诉特朗普政府，要求联邦法院撤销五角大楼将其指定为供应链风险的措施，因为其拒绝允许其技术不受限制地用于军事目的。
+- [White House presses tech companies for support on AI-driven cyberattacks - POLITICO](https://www.politico.com/news/2026/04/30/white-house-ai-cyber-threats-mythos-00902045) — 白宫要求科技公司支持应对由Anthropic的先进AI模型Mythos等超先进AI工具引发的网络安全威胁。
 

@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-14
-url: "https://www.tipranks.com/news/japan-turns-to-anthropics-mythos-ai-as-its-weapon-against-cyber-threats"
-source_title: "Japan Turns to Anthropic’s Mythos AI as Its Weapon Against Cyber Threats - TipRanks.com"
+url: "https://www.geekwire.com/2026/microsofts-multi-agent-ai-system-tops-anthropics-mythos-on-cybersecurity-benchmark/"
+source_title: "Microsoft's multi-agent AI system tops Anthropic's Mythos ... - GeekWire"
 relevance: RELEVANT
 ---
 
-# Japan Turns to Anthropic’s Mythos AI as Its Weapon Against Cyber Threats - TipRanks.com
+# Microsoft's multi-agent AI system tops Anthropic's Mythos ... - GeekWire
 
-**来源**: [Japan Turns to Anthropic’s Mythos AI as Its Weapon Against Cyber Threats - TipRanks.com](https://www.tipranks.com/news/japan-turns-to-anthropics-mythos-ai-as-its-weapon-against-cyber-threats)
+**来源**: [Microsoft's multi-agent AI system tops Anthropic's Mythos ... - GeekWire](https://www.geekwire.com/2026/microsofts-multi-agent-ai-system-tops-anthropics-mythos-on-cybersecurity-benchmark/)
 **发现时间**: 2026-05-14
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-日本政府正在准备部署Mythos AI模型以应对网络威胁，这是历史发现中未提及的新事实。
+Microsoft的MDASH系统在网络安全基准测试中超越了Anthropic的Mythos模型，使用超过100个专业AI代理在多个AI模型中协同工作以发现现实世界威胁。

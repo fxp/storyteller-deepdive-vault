@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-14
-url: "https://www.yahoo.com/news/articles/anthropic-sues-undo-trump-administrations-152240336.html"
-source_title: "Anthropic sues to undo Trump administration's 'supply chain risk ..."
+url: "https://www.politico.com/news/2026/04/30/white-house-ai-cyber-threats-mythos-00902045"
+source_title: "White House presses tech companies for support on AI-driven cyberattacks - POLITICO"
 relevance: RELEVANT
 ---
 
-# Anthropic sues to undo Trump administration's 'supply chain risk ...
+# White House presses tech companies for support on AI-driven cyberattacks - POLITICO
 
-**来源**: [Anthropic sues to undo Trump administration's 'supply chain risk ...](https://www.yahoo.com/news/articles/anthropic-sues-undo-trump-administrations-152240336.html)
+**来源**: [White House presses tech companies for support on AI-driven cyberattacks - POLITICO](https://www.politico.com/news/2026/04/30/white-house-ai-cyber-threats-mythos-00902045)
 **发现时间**: 2026-05-14
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-Anthropic起诉特朗普政府，要求撤销将其指定为供应链风险的措施。
+白宫要求科技公司支持应对由Anthropic的先进AI模型Mythos等超先进AI工具引发的网络安全威胁。

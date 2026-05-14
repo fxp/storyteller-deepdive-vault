@@ -1,17 +1,17 @@
 ---
 event: "[[caisi-ai-security-testing-20260505]]"
 date: 2026-05-14
-url: "https://www.csoonline.com/article/4168135/us-government-agency-to-safety-test-frontier-ai-models-before-release-2.html"
-source_title: "US government agency to safety test frontier AI models before release | CSO Online"
+url: "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/"
+source_title: "Pentagon inks deals with Nvidia, Microsoft, and AWS to deploy AI on ..."
 relevance: RELEVANT
 ---
 
-# US government agency to safety test frontier AI models before release | CSO Online
+# Pentagon inks deals with Nvidia, Microsoft, and AWS to deploy AI on ...
 
-**来源**: [US government agency to safety test frontier AI models before release | CSO Online](https://www.csoonline.com/article/4168135/us-government-agency-to-safety-test-frontier-ai-models-before-release-2.html)
+**来源**: [Pentagon inks deals with Nvidia, Microsoft, and AWS to deploy AI on ...](https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/)
 **发现时间**: 2026-05-14
 **所属事件**: [[caisi-ai-security-testing-20260505]]
 
 ## 摘要
 
-美国政府机构将在AI模型发布前进行安全测试，这是历史发现中未出现的新事实。
+美国国防部与Nvidia、Microsoft和AWS签署协议，允许在机密网络上部署AI技术。

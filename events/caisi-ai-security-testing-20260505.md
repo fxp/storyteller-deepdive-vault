@@ -4,12 +4,12 @@ title: 美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-14T19:38
+last_check: 2026-05-14T23:25
 last_activity: '2026-05-14'
-next_check: 2026-05-14T22:38
+next_check: 2026-05-15T02:25
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 79
+findings_count: 81
 tags:
 - tracker
 - HOT
@@ -177,4 +177,7 @@ Google, Microsoft, Amazon Web Services, Nvidia, OpenAI, Reflection and SpaceX wi
 - [Pentagon Excludes Anthropic from Classified AI Deals Over Safety ...](https://www.linkedin.com/posts/vikasmalpani_pentagon-excludes-anthropic-safety-just-activity-7456211788649365504-b5Ee) — 五角大楼在签署机密AI协议时排除了Anthropic。
 ### 2026-05-14
 - [US government agency to safety test frontier AI models before release | CSO Online](https://www.csoonline.com/article/4168135/us-government-agency-to-safety-test-frontier-ai-models-before-release-2.html) — 美国政府机构将在AI模型发布前进行安全测试，这是历史发现中未出现的新事实。
+### 2026-05-14
+- [Pentagon inks deals with Nvidia, Microsoft, and AWS to deploy AI on ...](https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/) — 美国国防部与Nvidia、Microsoft和AWS签署协议，允许在机密网络上部署AI技术。
+- [Trump administration orders military contractors and federal agencies to cease business with Anthropic | CNN Business](https://www.cnn.com/2026/02/27/tech/anthropic-pentagon-deadline) — 特朗普政府下令军事承包商和联邦机构停止与Anthropic的业务。
 
