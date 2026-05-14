@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-14
-url: "https://www.executivegov.com/articles/anthropic-cybersecurity-ai-glasswing-claude-mythos"
-source_title: "Anthropic Glasswing & Claude Mythos Explained for GovCon"
+url: "https://www.tipranks.com/news/japan-turns-to-anthropics-mythos-ai-as-its-weapon-against-cyber-threats"
+source_title: "Japan Turns to Anthropic’s Mythos AI as Its Weapon Against Cyber Threats - TipRanks.com"
 relevance: RELEVANT
 ---
 
-# Anthropic Glasswing & Claude Mythos Explained for GovCon
+# Japan Turns to Anthropic’s Mythos AI as Its Weapon Against Cyber Threats - TipRanks.com
 
-**来源**: [Anthropic Glasswing & Claude Mythos Explained for GovCon](https://www.executivegov.com/articles/anthropic-cybersecurity-ai-glasswing-claude-mythos)
+**来源**: [Japan Turns to Anthropic’s Mythos AI as Its Weapon Against Cyber Threats - TipRanks.com](https://www.tipranks.com/news/japan-turns-to-anthropics-mythos-ai-as-its-weapon-against-cyber-threats)
 **发现时间**: 2026-05-14
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-Anthropic推出了Project Glasswing，利用Claude Mythos AI模型进行全球网络安全，这是一个新的安全倡议，与历史发现中未提及的新事实相关。
+日本政府正在准备部署Mythos AI模型以应对网络威胁，这是历史发现中未提及的新事实。
