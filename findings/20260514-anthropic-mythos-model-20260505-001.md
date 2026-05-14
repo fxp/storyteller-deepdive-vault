@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-14
-url: "https://itxperts.co.in/post/claude-mythos-ai-anthropic-cybersecurity"
-source_title: "Claude Mythos AI: Anthropic's Powerful Model ... - Itxperts"
+url: "https://futurism.com/artificial-intelligence/security-experts-alarmed-anthropic-mythos"
+source_title: "Top Security Experts Alarmed by Power of Anthropic's New Hacker AI"
 relevance: RELEVANT
 ---
 
-# Claude Mythos AI: Anthropic's Powerful Model ... - Itxperts
+# Top Security Experts Alarmed by Power of Anthropic's New Hacker AI
 
-**来源**: [Claude Mythos AI: Anthropic's Powerful Model ... - Itxperts](https://itxperts.co.in/post/claude-mythos-ai-anthropic-cybersecurity)
+**来源**: [Top Security Experts Alarmed by Power of Anthropic's New Hacker AI](https://futurism.com/artificial-intelligence/security-experts-alarmed-anthropic-mythos)
 **发现时间**: 2026-05-14
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-Anthropic 发布了一个名为 Mythos 的新模型，这是一个前所未有的强大模型，需要全新的命名和层级。
+Anthropic的Mythos AI模型可能被黑客利用，突显了网络安全防护的不足。
