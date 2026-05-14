@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-14T05:25
+last_check: 2026-05-14T09:07
 last_activity: '2026-05-14'
-next_check: 2026-05-14T08:25
+next_check: 2026-05-14T12:07
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 100
+findings_count: 102
 tags:
 - tracker
 - HOT
@@ -174,4 +174,7 @@ deepdive_article: '[[待填写]]'
 - [US security agency is using Anthropic's Mythos despite ... - Reuters](https://www.reuters.com/business/us-security-agency-is-using-anthropics-mythos-despite-blacklist-axios-reports-2026-04-19/) — 美国国家安全局正在使用Anthropic的Mythos Preview AI工具，尽管五角大楼对该公司进行了黑名单处理。
 - [Anthropic sues to undo Trump administration's 'supply chain risk ...](https://www.yahoo.com/news/articles/anthropic-sues-undo-trump-administrations-152240336.html) — Anthropic起诉特朗普政府，要求撤销将其指定为供应链风险的措施。
 - [Trump and Anthropic clash over AI ethics](https://thefederal.com/category/international/ai-ethics-row-erupts-between-trump-and-anthropic-231997) — 特朗普政府与Anthropic在AI伦理问题上发生冲突，特朗普指示所有联邦机构停止使用Anthropic的技术。
+### 2026-05-14
+- [Claude Mythos AI: Anthropic's Powerful Model ... - Itxperts](https://itxperts.co.in/post/claude-mythos-ai-anthropic-cybersecurity) — Anthropic 发布了一个名为 Mythos 的新模型，这是一个前所未有的强大模型，需要全新的命名和层级。
+- [Anthropic sues Trump administration in AI dispute with Pentagon](https://www.yahoo.com/news/articles/anthropic-sues-trump-administration-amid-155712903.html) — Anthropic 因与五角大楼在 AI 争议中起诉特朗普政府。
 

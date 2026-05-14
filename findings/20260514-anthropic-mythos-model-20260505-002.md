@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-14
-url: "https://www.reuters.com/business/us-security-agency-is-using-anthropics-mythos-despite-blacklist-axios-reports-2026-04-19/"
-source_title: "US security agency is using Anthropic's Mythos despite ... - Reuters"
+url: "https://www.yahoo.com/news/articles/anthropic-sues-trump-administration-amid-155712903.html"
+source_title: "Anthropic sues Trump administration in AI dispute with Pentagon"
 relevance: RELEVANT
 ---
 
-# US security agency is using Anthropic's Mythos despite ... - Reuters
+# Anthropic sues Trump administration in AI dispute with Pentagon
 
-**来源**: [US security agency is using Anthropic's Mythos despite ... - Reuters](https://www.reuters.com/business/us-security-agency-is-using-anthropics-mythos-despite-blacklist-axios-reports-2026-04-19/)
+**来源**: [Anthropic sues Trump administration in AI dispute with Pentagon](https://www.yahoo.com/news/articles/anthropic-sues-trump-administration-amid-155712903.html)
 **发现时间**: 2026-05-14
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-美国国家安全局正在使用Anthropic的Mythos Preview AI工具，尽管五角大楼对该公司进行了黑名单处理。
+Anthropic 因与五角大楼在 AI 争议中起诉特朗普政府。
