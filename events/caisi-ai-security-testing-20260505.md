@@ -4,12 +4,12 @@ title: 美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-15T10:54
+last_check: 2026-05-15T14:56
 last_activity: '2026-05-15'
-next_check: 2026-05-15T13:54
+next_check: 2026-05-15T17:56
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 82
+findings_count: 83
 tags:
 - tracker
 - HOT
@@ -182,4 +182,6 @@ Google, Microsoft, Amazon Web Services, Nvidia, OpenAI, Reflection and SpaceX wi
 - [Trump administration orders military contractors and federal agencies to cease business with Anthropic | CNN Business](https://www.cnn.com/2026/02/27/tech/anthropic-pentagon-deadline) — 特朗普政府下令军事承包商和联邦机构停止与Anthropic的业务。
 ### 2026-05-15
 - [Google, Microsoft, xAI To Send Models To U.S. Government For Security Review 05/06/2026](https://www.mediapost.com/publications/article/414826/google-microsoft-xai-to-send-models-to-us-gove.html?edition=) — Google, Microsoft, xAI 将在发布新AI模型前将其提交给美国政府进行安全审查。
+### 2026-05-15
+- [Pentagon inks deals with eight AI companies for classified military work | Trump administration | The Guardian](https://www.theguardian.com/us-news/2026/may/01/pentagon-us-military-pairs-with-spacex-google-openai) — 美国国防部与八家领先的AI公司达成协议，其中包括SpaceX、OpenAI、Google、Nvidia、Reflection、Microsoft、Oracle和Amazon Web Services，以加速建立美国军事作为AI优先的战斗力量。
 

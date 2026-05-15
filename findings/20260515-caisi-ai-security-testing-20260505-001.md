@@ -1,17 +1,17 @@
 ---
 event: "[[caisi-ai-security-testing-20260505]]"
 date: 2026-05-15
-url: "https://www.mediapost.com/publications/article/414826/google-microsoft-xai-to-send-models-to-us-gove.html?edition="
-source_title: "Google, Microsoft, xAI To Send Models To U.S. Government For Security Review 05/06/2026"
+url: "https://www.theguardian.com/us-news/2026/may/01/pentagon-us-military-pairs-with-spacex-google-openai"
+source_title: "Pentagon inks deals with eight AI companies for classified military work | Trump administration | The Guardian"
 relevance: RELEVANT
 ---
 
-# Google, Microsoft, xAI To Send Models To U.S. Government For Security Review 05/06/2026
+# Pentagon inks deals with eight AI companies for classified military work | Trump administration | The Guardian
 
-**来源**: [Google, Microsoft, xAI To Send Models To U.S. Government For Security Review 05/06/2026](https://www.mediapost.com/publications/article/414826/google-microsoft-xai-to-send-models-to-us-gove.html?edition=)
+**来源**: [Pentagon inks deals with eight AI companies for classified military work | Trump administration | The Guardian](https://www.theguardian.com/us-news/2026/may/01/pentagon-us-military-pairs-with-spacex-google-openai)
 **发现时间**: 2026-05-15
 **所属事件**: [[caisi-ai-security-testing-20260505]]
 
 ## 摘要
 
-Google, Microsoft, xAI 将在发布新AI模型前将其提交给美国政府进行安全审查。
+美国国防部与八家领先的AI公司达成协议，其中包括SpaceX、OpenAI、Google、Nvidia、Reflection、Microsoft、Oracle和Amazon Web Services，以加速建立美国军事作为AI优先的战斗力量。
