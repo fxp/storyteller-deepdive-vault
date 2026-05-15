@@ -4,12 +4,12 @@ title: Google Chrome 推出 Prompt API（浏览器内置 Gemini Nano）
 seed_url: https://developer.chrome.com/docs/ai/prompt-api
 published_date: 2024-11-12
 status: HOT
-last_check: 2026-05-15T13:41
+last_check: 2026-05-15T16:43
 last_activity: '2026-05-15'
-next_check: 2026-05-15T16:41
+next_check: 2026-05-15T19:43
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 56
+findings_count: 57
 tags:
 - tracker
 - HOT
@@ -160,4 +160,6 @@ search_queries:
 - [3 things about Prompt API: Local deployment, Gemini Nano, and ...](https://www.linkedin.com/posts/chrome-for-developers_3-things-you-didnt-know-about-the-prompt-activity-7445105966796369920-ieMT) — 介绍 Prompt API 的本地部署和 Gemini Nano，提供了新事实。
 ### 2026-05-15
 - [The Prompt API | Hacker News](https://news.ycombinator.com/item?id=47917026) — Hacker News 上关于 Prompt API 的讨论，可能包含对 Gemini Nano 的新观点或事实。
+### 2026-05-15
+- [Google responds to Chrome's silent Gemini Nano install, stops short of addressing consent - Digital Trends](https://www.digitaltrends.com/computing/google-responds-to-chromes-silent-gemini-nano-install-stops-short-of-addressing-consent/) — Google 对 Chrome 的静默 Gemini Nano 安装做出回应，强调设备上 AI 对浏览器安全策略的重要性，但未解释为何删除它会导致自动重新下载。
 
