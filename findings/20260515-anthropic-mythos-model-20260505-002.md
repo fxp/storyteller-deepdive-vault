@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-15
-url: "https://www.youtube.com/watch?v=zSsDx7Y9YUc"
-source_title: "The new AI model that's alarming Washington | The Economist"
+url: "https://www.facebook.com/wesh2news/posts/a-public-showdown-between-the-trump-administration-and-anthropic-is-hitting-an-i/953355367206382/"
+source_title: "A public showdown between the Trump administration ... - Facebook"
 relevance: RELEVANT
 ---
 
-# The new AI model that's alarming Washington | The Economist
+# A public showdown between the Trump administration ... - Facebook
 
-**来源**: [The new AI model that's alarming Washington | The Economist](https://www.youtube.com/watch?v=zSsDx7Y9YUc)
+**来源**: [A public showdown between the Trump administration ... - Facebook](https://www.facebook.com/wesh2news/posts/a-public-showdown-between-the-trump-administration-and-anthropic-is-hitting-an-i/953355367206382/)
 **发现时间**: 2026-05-15
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-《经济学人》视频讨论了Mythos模型引发的关注和其背后的原因。
+特朗普总统在周五终止了与人工智能公司Anthropic的政府技术合同，这是在公开与五角大楼的争议之后。

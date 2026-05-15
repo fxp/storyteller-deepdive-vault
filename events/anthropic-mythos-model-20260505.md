@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-15T14:56
+last_check: 2026-05-15T18:43
 last_activity: '2026-05-15'
-next_check: 2026-05-15T17:56
+next_check: 2026-05-15T21:43
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 112
+findings_count: 114
 tags:
 - tracker
 - HOT
@@ -193,4 +193,7 @@ deepdive_article: '[[待填写]]'
 ### 2026-05-15
 - [Trump administration met with tech giants before Mythos release](https://www.cnbc.com/2026/04/10/trump-white-house-ai-cyber-threat-anthropic-mythos.html) — 特朗普政府在与Anthropic发布Mythos模型之前与科技巨头会面，讨论AI模型安全和应对网络攻击的策略。
 - [The new AI model that's alarming Washington | The Economist](https://www.youtube.com/watch?v=zSsDx7Y9YUc) — 《经济学人》视频讨论了Mythos模型引发的关注和其背后的原因。
+### 2026-05-15
+- [Appeals court decides against Anthropic in latest round of its AI battle with the Trump administration | PBS News](https://www.pbs.org/newshour/politics/appeals-court-decides-against-anthropic-in-latest-round-of-its-ai-battle-with-the-trump-administration) — 联邦上诉法院拒绝阻止五角大楼将人工智能实验室Anthropic列入黑名单，这是与特朗普政府AI争议的最新一轮裁决。
+- [A public showdown between the Trump administration ... - Facebook](https://www.facebook.com/wesh2news/posts/a-public-showdown-between-the-trump-administration-and-anthropic-is-hitting-an-i/953355367206382/) — 特朗普总统在周五终止了与人工智能公司Anthropic的政府技术合同，这是在公开与五角大楼的争议之后。
 
