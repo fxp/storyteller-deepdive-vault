@@ -1,0 +1,1087 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>StoryTeller · AI 事件情报追踪</title>
+<style>
+  :root {
+    --bg: #0d0d12;
+    --surface: #13131a;
+    --surface-2: #1a1a24;
+    --border: #1e1e2e;
+    --border-bright: #2a2a3e;
+    --text: #e2e2f0;
+    --text-muted: #7070a0;
+    --text-dim: #4a4a6a;
+    --hot: #ff3b3b;
+    --hot-glow: rgba(255,59,59,0.15);
+    --accent: #6366f1;
+    --accent-dim: rgba(99,102,241,0.12);
+    --green: #22c55e;
+    --orange: #f59e0b;
+    --blue: #3b82f6;
+    --purple: #a855f7;
+    --teal: #14b8a6;
+    --tag-person: rgba(168,85,247,0.15);
+    --tag-person-text: #c084fc;
+    --tag-org: rgba(59,130,246,0.15);
+    --tag-org-text: #60a5fa;
+    --tag-product: rgba(20,184,166,0.15);
+    --tag-product-text: #2dd4bf;
+    --tag-topic: rgba(245,158,11,0.15);
+    --tag-topic-text: #fbbf24;
+    --finding-line: #2a2a4a;
+    --font: -apple-system, "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --mono: "SF Mono", "Fira Code", Consolas, monospace;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { font-size: 15px; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font);
+    line-height: 1.6;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ── Header ── */
+  .site-header {
+    border-bottom: 1px solid var(--border);
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    position: sticky;
+    top: 0;
+    background: rgba(13,13,18,0.92);
+    backdrop-filter: blur(12px);
+    z-index: 100;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .logo-mark {
+    width: 28px;
+    height: 28px;
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: -0.5px;
+    flex-shrink: 0;
+  }
+
+  .logo-text {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--text);
+    letter-spacing: -0.3px;
+  }
+
+  .logo-sub {
+    font-size: 12px;
+    color: var(--text-muted);
+    letter-spacing: 0;
+    font-weight: 400;
+  }
+
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .header-stat {
+    text-align: right;
+  }
+
+  .header-stat .value {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text);
+    letter-spacing: -0.5px;
+    line-height: 1;
+  }
+
+  .header-stat .label {
+    font-size: 11px;
+    color: var(--text-muted);
+    margin-top: 2px;
+  }
+
+  .header-divider {
+    width: 1px;
+    height: 28px;
+    background: var(--border-bright);
+  }
+
+  .live-badge {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 11px;
+    color: var(--green);
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+  }
+
+  .live-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--green);
+    animation: pulse-green 2s ease-in-out infinite;
+  }
+
+  @keyframes pulse-green {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.5; transform: scale(0.85); }
+  }
+
+  /* ── Hero banner ── */
+  .hero {
+    border-bottom: 1px solid var(--border);
+    padding: 28px 32px 24px;
+    background: linear-gradient(180deg, rgba(99,102,241,0.04) 0%, transparent 100%);
+  }
+
+  .hero h1 {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--text);
+    letter-spacing: -0.5px;
+    margin-bottom: 6px;
+  }
+
+  .hero p {
+    font-size: 13px;
+    color: var(--text-muted);
+    max-width: 600px;
+  }
+
+  .hero-stats {
+    display: flex;
+    gap: 24px;
+    margin-top: 20px;
+  }
+
+  .hero-stat-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    color: var(--text-muted);
+  }
+
+  .hero-stat-item strong {
+    color: var(--text);
+    font-weight: 600;
+  }
+
+  .hero-stat-item .icon {
+    font-size: 14px;
+    opacity: 0.8;
+  }
+
+  /* ── Main layout ── */
+  .main {
+    padding: 28px 32px 60px;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  .section-label {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--text-dim);
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  /* Full-width card (last one if odd count) */
+  .card-full {
+    grid-column: 1 / -1;
+  }
+
+  /* ── Event Card ── */
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    transition: border-color 0.15s ease;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, var(--accent), transparent);
+    opacity: 0;
+    transition: opacity 0.15s ease;
+  }
+
+  .card:hover {
+    border-color: var(--border-bright);
+  }
+
+  .card:hover::before {
+    opacity: 1;
+  }
+
+  /* ── Card Header ── */
+  .card-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+  }
+
+  .card-title-group {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .card-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+  }
+
+  .hot-badge {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background: rgba(255,59,59,0.12);
+    border: 1px solid rgba(255,59,59,0.25);
+    border-radius: 20px;
+    padding: 2px 8px 2px 6px;
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--hot);
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    flex-shrink: 0;
+  }
+
+  .hot-dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: var(--hot);
+    animation: pulse-hot 1.5s ease-in-out infinite;
+  }
+
+  @keyframes pulse-hot {
+    0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(255,59,59,0.5); }
+    50% { opacity: 0.7; box-shadow: 0 0 0 3px rgba(255,59,59,0); }
+  }
+
+  .card-date {
+    font-size: 11px;
+    color: var(--text-dim);
+    font-family: var(--mono);
+  }
+
+  .card-title {
+    font-size: 14.5px;
+    font-weight: 600;
+    color: var(--text);
+    line-height: 1.45;
+    letter-spacing: -0.2px;
+  }
+
+  /* ── Card Stats ── */
+  .card-stats {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    padding: 10px 14px;
+    background: var(--surface-2);
+    border-radius: 8px;
+    border: 1px solid var(--border);
+  }
+
+  .stat-item {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+
+  .stat-value {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--text);
+    letter-spacing: -1px;
+    line-height: 1;
+  }
+
+  .stat-value.big { font-size: 26px; }
+
+  .stat-label {
+    font-size: 10px;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .stat-divider {
+    width: 1px;
+    height: 28px;
+    background: var(--border-bright);
+    flex-shrink: 0;
+  }
+
+  /* ── Summary ── */
+  .card-summary {
+    font-size: 13px;
+    color: var(--text-muted);
+    line-height: 1.65;
+  }
+
+  /* ── Findings ── */
+  .findings-section {}
+
+  .findings-label {
+    font-size: 10.5px;
+    font-weight: 600;
+    color: var(--text-dim);
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  .findings-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    border-left: 2px solid var(--finding-line);
+    padding-left: 14px;
+    margin-left: 2px;
+  }
+
+  .finding-item {
+    position: relative;
+    padding: 8px 0;
+  }
+
+  .finding-item + .finding-item {
+    border-top: 1px solid rgba(255,255,255,0.04);
+  }
+
+  .finding-item::before {
+    content: '';
+    position: absolute;
+    left: -18px;
+    top: 14px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--border-bright);
+    border: 1.5px solid var(--surface);
+  }
+
+  .finding-date {
+    font-size: 10px;
+    font-family: var(--mono);
+    color: var(--text-dim);
+    margin-bottom: 3px;
+  }
+
+  .finding-text {
+    font-size: 12.5px;
+    color: var(--text-muted);
+    line-height: 1.55;
+  }
+
+  .no-findings {
+    padding: 10px 0;
+    font-size: 12px;
+    color: var(--text-dim);
+    font-style: italic;
+  }
+
+  /* ── Entities ── */
+  .entities-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+
+  .entity-chip {
+    font-size: 11px;
+    padding: 3px 8px;
+    border-radius: 20px;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+    border: 1px solid transparent;
+  }
+
+  .chip-person {
+    background: var(--tag-person);
+    color: var(--tag-person-text);
+    border-color: rgba(168,85,247,0.2);
+  }
+
+  .chip-org {
+    background: var(--tag-org);
+    color: var(--tag-org-text);
+    border-color: rgba(59,130,246,0.2);
+  }
+
+  .chip-product {
+    background: var(--tag-product);
+    color: var(--tag-product-text);
+    border-color: rgba(20,184,166,0.2);
+  }
+
+  .chip-topic {
+    background: var(--tag-topic);
+    color: var(--tag-topic-text);
+    border-color: rgba(245,158,11,0.2);
+  }
+
+  /* ── Card Footer ── */
+  .card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 12px;
+    border-top: 1px solid var(--border);
+  }
+
+  .check-time {
+    font-size: 11px;
+    color: var(--text-dim);
+    font-family: var(--mono);
+  }
+
+  .source-link {
+    font-size: 11.5px;
+    color: var(--accent);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    opacity: 0.8;
+    transition: opacity 0.12s;
+  }
+
+  .source-link:hover { opacity: 1; text-decoration: underline; }
+
+  /* ── Footer ── */
+  .site-footer {
+    border-top: 1px solid var(--border);
+    padding: 20px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .footer-left {
+    font-size: 12px;
+    color: var(--text-dim);
+    line-height: 1.7;
+  }
+
+  .footer-left a {
+    color: var(--text-muted);
+    text-decoration: none;
+  }
+
+  .footer-left a:hover { color: var(--text); }
+
+  .footer-right {
+    font-size: 11px;
+    color: var(--text-dim);
+    text-align: right;
+  }
+
+  .footer-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 4px 10px;
+    font-size: 11px;
+    color: var(--text-muted);
+    margin-top: 8px;
+  }
+
+  /* ── Responsive ── */
+  @media (max-width: 768px) {
+    .site-header { padding: 0 16px; }
+    .header-stat { display: none; }
+    .hero { padding: 20px 16px; }
+    .hero-stats { flex-wrap: wrap; gap: 12px; }
+    .main { padding: 20px 16px 40px; }
+    .grid { grid-template-columns: 1fr; }
+    .card-full { grid-column: 1; }
+    .site-footer { flex-direction: column; gap: 12px; text-align: center; }
+    .footer-right { text-align: center; }
+    .card-full [style*="grid-template-columns"] {
+      display: flex !important;
+      flex-direction: column !important;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .hero h1 { font-size: 18px; }
+    .card-title { font-size: 13.5px; }
+  }
+
+  /* ── Pretext text containers ── */
+  [data-pretext] { display: block; }
+
+  /* Dark mode is default — no override needed */
+</style>
+</head>
+<body>
+
+<!-- Site Header -->
+<header class="site-header">
+  <div class="logo">
+    <div class="logo-mark">ST</div>
+    <div>
+      <div class="logo-text">StoryTeller</div>
+      <div class="logo-sub">AI 事件情报追踪</div>
+    </div>
+  </div>
+  <div class="header-right">
+    <div class="header-stat">
+      <div class="value">5</div>
+      <div class="label">追踪事件</div>
+    </div>
+    <div class="header-divider"></div>
+    <div class="header-stat">
+      <div class="value">265</div>
+      <div class="label">已收录发现</div>
+    </div>
+    <div class="header-divider"></div>
+    <div class="live-badge">
+      <div class="live-dot"></div>
+      每小时更新
+    </div>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+  <h1>今日情报简报</h1>
+  <p>持续追踪 AI 领域关键事件的后续发展，自动抓取新信息，去重后推送。</p>
+  <div class="hero-stats">
+    <div class="hero-stat-item">
+      <span class="icon">📅</span>
+      最后更新 <strong>2026-05-14 · 18:14 UTC</strong>
+    </div>
+    <div class="hero-stat-item">
+      <span class="icon">🔍</span>
+      搜索引擎 <strong>Tavily API</strong>
+    </div>
+    <div class="hero-stat-item">
+      <span class="icon">🤖</span>
+      相关性分析 <strong>BigModel GLM-4-Flash</strong>
+    </div>
+    <div class="hero-stat-item">
+      <span class="icon">💾</span>
+      数据存储 <strong>GitHub · fxp/storyteller-deepdive-vault</strong>
+    </div>
+  </div>
+</section>
+
+<!-- Main -->
+<main class="main">
+  <div class="section-label">🔥 热度追踪 · HOT</div>
+  <div class="grid">
+
+    <!-- Card 1: Anthropic Mythos -->
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title-group">
+          <div class="card-meta">
+            <div class="hot-badge"><div class="hot-dot"></div>HOT</div>
+            <span class="card-date">2026-05-05</span>
+          </div>
+          <div class="card-title" data-pretext>
+            Anthropic 发布 Mythos 前沿模型，引发全球安全震动
+          </div>
+        </div>
+      </div>
+
+      <div class="card-stats">
+        <div class="stat-item">
+          <div class="stat-value big">105</div>
+          <div class="stat-label">条发现</div>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <div class="stat-value">9</div>
+          <div class="stat-label">追踪天数</div>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <div class="stat-value">3h</div>
+          <div class="stat-label">检查间隔</div>
+        </div>
+      </div>
+
+      <div class="card-summary" data-pretext>
+        Anthropic 发布新前沿模型 Mythos，引发担忧其"大幅增强黑客攻击能力"。这直接推动了 CAISI 与微软/Google/xAI 签署安全测试协议。Anthropic 因与 Trump 政府法律纠纷被五角大楼 AI 协议排除，随后起诉政府，指控将其列为"供应链风险"违法。最新进展：Project Glasswing 启动，将 Claude Mythos 用于全球网络安全防御。
+      </div>
+
+      <div class="findings-section">
+        <div class="findings-label">最新发现</div>
+        <div class="findings-list">
+          <div class="finding-item">
+            <div class="finding-date">2026-05-14</div>
+            <div class="finding-text" data-pretext>Anthropic 起诉特朗普政府，要求撤销将其指定为"供应链风险"的措施，AI 伦理争端升级为法律战</div>
+          </div>
+          <div class="finding-item">
+            <div class="finding-date">2026-05-14</div>
+            <div class="finding-text" data-pretext>Project Glasswing 启动：Claude Mythos 用于全球网络安全，Anthropic 主动将争议模型转化为防御工具</div>
+          </div>
+          <div class="finding-item">
+            <div class="finding-date">2026-05-14</div>
+            <div class="finding-text" data-pretext>特朗普指示所有联邦机构停止使用 Anthropic 技术，政企对立关系进一步恶化</div>
+          </div>
+          <div class="finding-item">
+            <div class="finding-date">2026-05-13</div>
+            <div class="finding-text" data-pretext>Mythos 在 AI 编程基准测试中树立新标杆，Wired 分析其对网络安全生态的深远影响</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="entities-row">
+        <span class="entity-chip chip-org">Anthropic</span>
+        <span class="entity-chip chip-org">CAISI</span>
+        <span class="entity-chip chip-org">Pentagon</span>
+        <span class="entity-chip chip-product">Claude Mythos</span>
+        <span class="entity-chip chip-topic">AI 安全监管</span>
+        <span class="entity-chip chip-topic">网络安全</span>
+      </div>
+
+      <div class="card-footer">
+        <span class="check-time">下次检查 2026-05-14T18:57</span>
+        <a href="https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing" target="_blank" class="source-link">
+          种子来源 →
+        </a>
+      </div>
+    </div>
+
+    <!-- Card 2: CAISI AI Security -->
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title-group">
+          <div class="card-meta">
+            <div class="hot-badge"><div class="hot-dot"></div>HOT</div>
+            <span class="card-date">2026-05-05</span>
+          </div>
+          <div class="card-title" data-pretext>
+            美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic 被排除
+          </div>
+        </div>
+      </div>
+
+      <div class="card-stats">
+        <div class="stat-item">
+          <div class="stat-value big">78</div>
+          <div class="stat-label">条发现</div>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <div class="stat-value">9</div>
+          <div class="stat-label">追踪天数</div>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <div class="stat-value">3h</div>
+          <div class="stat-label">检查间隔</div>
+        </div>
+      </div>
+
+      <div class="card-summary" data-pretext>
+        美国商务部 CAISI 与微软、Google、xAI 签署协议，允许政府在发布前评估 AI 模型安全风险。同日五角大楼宣布与 Google/微软/AWS/Nvidia/OpenAI/SpaceX 签署机密 AI 协议。Anthropic 因与 Trump 政府法律纠纷，被两个协议同时排除。
+      </div>
+
+      <div class="findings-section">
+        <div class="findings-label">最新发现</div>
+        <div class="findings-list">
+          <div class="finding-item">
+            <div class="finding-date">2026-05-14</div>
+            <div class="finding-text" data-pretext>五角大楼明确排除 Anthropic，签署机密 AI 协议；LinkedIn 分析称此举具有重大战略意涵</div>
+          </div>
+          <div class="finding-item">
+            <div class="finding-date">2026-05-13</div>
+            <div class="finding-text" data-pretext>美国政府现已取得五家主要 AI 实验室模型的预发布访问权，用于国家安全测试</div>
+          </div>
+          <div class="finding-item">
+            <div class="finding-date">2026-05-13</div>
+            <div class="finding-text" data-pretext>美国政府推动 AI 模型发布前强制审查，CAISI 评估流程正在成为行业准入门槛</div>
+          </div>
+          <div class="finding-item">
+            <div class="finding-date">2026-05-14</div>
+            <div class="finding-text" data-pretext>联邦政府就 AI 代理安全风险征集意见，为后续立法铺路</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="entities-row">
+        <span class="entity-chip chip-org">CAISI</span>
+        <span class="entity-chip chip-org">Microsoft</span>
+        <span class="entity-chip chip-org">Google</span>
+        <span class="entity-chip chip-org">xAI</span>
+        <span class="entity-chip chip-org">Pentagon</span>
+        <span class="entity-chip chip-person">Chris Fall</span>
+        <span class="entity-chip chip-topic">AI 监管</span>
+      </div>
+
+      <div class="card-footer">
+        <span class="check-time">下次检查 2026-05-14T18:57</span>
+        <a href="https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing" target="_blank" class="source-link">
+          种子来源 →
+        </a>
+      </div>
+    </div>
+
+    <!-- Card 3: Anthropic + Blackstone -->
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title-group">
+          <div class="card-meta">
+            <div class="hot-badge"><div class="hot-dot"></div>HOT</div>
+            <span class="card-date">2026-05-04</span>
+          </div>
+          <div class="card-title" data-pretext>
+            Anthropic + Blackstone 联合组建企业 AI 交付公司（估值 15 亿美元）
+          </div>
+        </div>
+      </div>
+
+      <div class="card-stats">
+        <div class="stat-item">
+          <div class="stat-value big">27</div>
+          <div class="stat-label">条发现</div>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <div class="stat-value">10</div>
+          <div class="stat-label">追踪天数</div>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <div class="stat-value">3h</div>
+          <div class="stat-label">检查间隔</div>
+        </div>
+      </div>
+
+      <div class="card-summary" data-pretext>
+        Anthropic 联合 Blackstone、Hellman &amp; Friedman、Goldman Sachs 等组建新企业 AI 服务公司，估值约 15 亿美元。聚焦中型企业（社区银行、区域医疗、中型制造商），由 Anthropic Applied AI 工程师常驻配合落地 Claude。Apollo、General Atlantic、Sequoia Capital 等也参与投资。
+      </div>
+
+      <div class="findings-section">
+        <div class="findings-label">最新发现</div>
+        <div class="findings-list">
+          <div class="finding-item">
+            <div class="finding-date">2026-05-14</div>
+            <div class="finding-text" data-pretext>多家媒体确认新公司估值约 15 亿美元，Blackstone/H&amp;F/Goldman Sachs 各投入约 3 亿美元</div>
+          </div>
+          <div class="finding-item">
+            <div class="finding-date">2026-05-13</div>
+            <div class="finding-text" data-pretext>Yahoo Finance 报道：新公司旨在将 Claude AI 引入中型企业核心运营，面向社区银行等传统行业</div>
+          </div>
+          <div class="finding-item">
+            <div class="finding-date">2026-05-12</div>
+            <div class="finding-text" data-pretext>Apollo、General Atlantic、Sequoia Capital 也加入支持阵营，PE 驱动的 AI 落地模式引发广泛关注</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="entities-row">
+        <span class="entity-chip chip-org">Anthropic</span>
+        <span class="entity-chip chip-org">Blackstone</span>
+        <span class="entity-chip chip-org">Goldman Sachs</span>
+        <span class="entity-chip chip-org">Sequoia</span>
+        <span class="entity-chip chip-product">Claude</span>
+        <span class="entity-chip chip-person">Krishna Rao</span>
+        <span class="entity-chip chip-topic">企业 AI 服务</span>
+      </div>
+
+      <div class="card-footer">
+        <span class="check-time">下次检查 2026-05-14T17:59</span>
+        <a href="https://www.anthropic.com/news/enterprise-ai-services-company" target="_blank" class="source-link">
+          种子来源 →
+        </a>
+      </div>
+    </div>
+
+    <!-- Card 4: Chrome Prompt API -->
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title-group">
+          <div class="card-meta">
+            <div class="hot-badge"><div class="hot-dot"></div>HOT</div>
+            <span class="card-date">2024-11-12</span>
+          </div>
+          <div class="card-title" data-pretext>
+            Google Chrome 推出 Prompt API（浏览器内置 Gemini Nano）
+          </div>
+        </div>
+      </div>
+
+      <div class="card-stats">
+        <div class="stat-item">
+          <div class="stat-value big">55</div>
+          <div class="stat-label">条发现</div>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <div class="stat-value">5</div>
+          <div class="stat-label">追踪天数</div>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <div class="stat-value">3h</div>
+          <div class="stat-label">检查间隔</div>
+        </div>
+      </div>
+
+      <div class="card-summary" data-pretext>
+        Chrome 推出 Prompt API，允许开发者在浏览器中直接调用本地 Gemini Nano 模型，无需远程服务器。Chrome 138+ 可在网页使用。Gemini Nano 合格率 41%，6 倍运行速度，生产成本为零。Mozilla 已公开反对该 API 的标准化方向。
+      </div>
+
+      <div class="findings-section">
+        <div class="findings-label">最新发现</div>
+        <div class="findings-list">
+          <div class="finding-item">
+            <div class="finding-date">2026-05-14</div>
+            <div class="finding-text" data-pretext>Prompt API 支持多模态输入（图像标题生成、音频转录），超出初版能力范围</div>
+          </div>
+          <div class="finding-item">
+            <div class="finding-date">2026-05-13</div>
+            <div class="finding-text" data-pretext>Mozilla 正式发文反对 Google Prompt API 的标准化推进方式，担忧浏览器 AI 生态碎片化</div>
+          </div>
+          <div class="finding-item">
+            <div class="finding-date">2026-05-11</div>
+            <div class="finding-text" data-pretext>W3C/WICG GitHub 上 Prompt API Explainer 获大量讨论，标准化进程争议持续</div>
+          </div>
+          <div class="finding-item">
+            <div class="finding-date">2026-05-10</div>
+            <div class="finding-text" data-pretext>Google Chrome Built-in AI Challenge 2025 正式开放，邀请开发者基于内置 AI API 构建应用</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="entities-row">
+        <span class="entity-chip chip-org">Google</span>
+        <span class="entity-chip chip-org">Mozilla</span>
+        <span class="entity-chip chip-product">Gemini Nano</span>
+        <span class="entity-chip chip-product">Chrome Prompt API</span>
+        <span class="entity-chip chip-person">Thomas Steiner</span>
+        <span class="entity-chip chip-topic">Web AI</span>
+        <span class="entity-chip chip-topic">端侧推理</span>
+      </div>
+
+      <div class="card-footer">
+        <span class="check-time">下次检查 2026-05-14T18:57</span>
+        <a href="https://developer.chrome.com/docs/ai/prompt-api" target="_blank" class="source-link">
+          种子来源 →
+        </a>
+      </div>
+    </div>
+
+    <!-- Card 5: Trump China AI (full width) -->
+    <div class="card card-full">
+      <div class="card-header">
+        <div class="card-title-group">
+          <div class="card-meta">
+            <div class="hot-badge"><div class="hot-dot"></div>HOT · 最新</div>
+            <span class="card-date">2026-05-13</span>
+          </div>
+          <div class="card-title" data-pretext>
+            特朗普访华与中美 AI 科技博弈：H200 芯片解禁、黄仁勋随行北京
+          </div>
+        </div>
+      </div>
+
+      <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+        <div>
+          <div class="card-stats" style="margin-bottom:14px;">
+            <div class="stat-item">
+              <div class="stat-value big">0</div>
+              <div class="stat-label">条发现（刚加入）</div>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <div class="stat-value">1</div>
+              <div class="stat-label">追踪天数</div>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <div class="stat-value">3h</div>
+              <div class="stat-label">检查间隔</div>
+            </div>
+          </div>
+
+          <div class="card-summary" data-pretext>
+            特朗普 5 月 13–15 日访问北京，随行阵容包括黄仁勋（Nvidia，临时在阿拉斯加登机）、马斯克、库克、高通 CEO、美光 CEO。核心议题：H200 芯片对华解禁。美国已向阿里/腾讯/字节/京东等约 10 家企业发放出口许可，但因中方企业在北京指导下暂缓采购，实际交付量为零。习近平向 CEO 们表示中国将"进一步扩大开放"。Nvidia 中国市场份额已从 95% 跌至接近零。
+          </div>
+        </div>
+
+        <div class="findings-section">
+          <div class="findings-label">背景关键事实</div>
+          <div class="findings-list">
+            <div class="finding-item">
+              <div class="finding-date">现状</div>
+              <div class="finding-text" data-pretext>H200 已获许可，但实际交付为零——中国企业在等待北京政策信号</div>
+            </div>
+            <div class="finding-item">
+              <div class="finding-date">人员</div>
+              <div class="finding-text" data-pretext>黄仁勋未在白宫官方名单内，特朗普专机飞经阿拉斯加时临时邀请其登机</div>
+            </div>
+            <div class="finding-item">
+              <div class="finding-date">市场</div>
+              <div class="finding-text" data-pretext>Nvidia 中国 AI 芯片份额从 2017-2019 年的 95% 跌至近零；华为昇腾填补空缺</div>
+            </div>
+            <div class="finding-item">
+              <div class="finding-date">结果</div>
+              <div class="finding-text" data-pretext>双方首日联合声明：建立"战略稳定的建设性中美关系"，等待更多具体协议</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="entities-row">
+        <span class="entity-chip chip-person">特朗普</span>
+        <span class="entity-chip chip-person">习近平</span>
+        <span class="entity-chip chip-person">黄仁勋</span>
+        <span class="entity-chip chip-person">马斯克</span>
+        <span class="entity-chip chip-person">库克</span>
+        <span class="entity-chip chip-org">Nvidia</span>
+        <span class="entity-chip chip-org">华为</span>
+        <span class="entity-chip chip-org">Alibaba</span>
+        <span class="entity-chip chip-org">ByteDance</span>
+        <span class="entity-chip chip-product">H200 芯片</span>
+        <span class="entity-chip chip-topic">芯片出口管制</span>
+        <span class="entity-chip chip-topic">中美科技博弈</span>
+        <span class="entity-chip chip-topic">稀土反制</span>
+      </div>
+
+      <div class="card-footer">
+        <span class="check-time">下次检查 2026-05-14T21:14 · 首次自动扫描即将开始</span>
+        <a href="https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html" target="_blank" class="source-link">
+          种子来源 →
+        </a>
+      </div>
+    </div>
+
+  </div><!-- /grid -->
+</main>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="footer-left">
+    数据存储于 <a href="https://github.com/fxp/storyteller-deepdive-vault" target="_blank">GitHub · fxp/storyteller-deepdive-vault</a><br>
+    每小时由 <strong>GitHub Actions</strong> 自动触发 · <strong>Tavily API</strong> 搜索 · <strong>BigModel GLM-4-Flash</strong> 相关性分析
+  </div>
+  <div class="footer-right">
+    <div>生成于 2026-05-14</div>
+    <div class="footer-tag">
+      <span>⚙️</span> StoryTeller · Route A 云部署
+    </div>
+  </div>
+</footer>
+
+<script type="module">
+// Inline Pretext vendor
+var x0=["BN","BN","BN","BN","BN","BN","BN","BN","BN","S","B","S","WS","B","BN","BN","BN","BN","BN","BN","BN","BN","BN","BN","BN","BN","BN","BN","B","B","B","S","WS","ON","ON","ET","ET","ET","ON","ON","ON","ON","ON","ON","CS","ON","CS","ON","EN","EN","EN","EN","EN","EN","EN","EN","EN","EN","ON","ON","ON","ON","ON","ON","ON","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","ON","ON","ON","ON","ON","ON","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","ON","ON","ON","ON","BN","BN","BN","BN","BN","BN","B","BN","BN","BN","BN","BN","BN","BN","BN","BN","BN","BN","BN","BN","BN","BN","BN","BN","BN","BN","BN","BN","BN","BN","BN","BN","BN","CS","ON","ET","ET","ET","ET","ON","ON","ON","ON","L","ON","ON","ON","ON","ON","ET","ET","EN","EN","ON","L","ON","ON","ON","EN","L","ON","ON","ON","ON","ON","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","ON","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","ON","L","L","L","L","L","L","L","L"];
+
+// Pretext: Layout cards on resize for correct heights
+async function initPretext() {
+  try {
+    const { prepare, layout } = await import('https://esm.sh/@chenglou/pretext');
+
+    await document.fonts.ready;
+
+    const elements = document.querySelectorAll('[data-pretext]');
+    const prepared = new Map();
+
+    for (const el of elements) {
+      const text = el.textContent.trim();
+      if (!text) continue;
+      const font = getComputedStyle(el).font;
+      try {
+        prepared.set(el, prepare(text, font));
+      } catch(e) {}
+    }
+
+    function relayout() {
+      for (const [el, handle] of prepared) {
+        try {
+          const lh = parseFloat(getComputedStyle(el).lineHeight) || 22;
+          const { height } = layout(handle, el.clientWidth || 300, lh);
+          if (height > 0) el.style.minHeight = `${height}px`;
+        } catch(e) {}
+      }
+    }
+
+    new ResizeObserver(() => relayout()).observe(document.body);
+    relayout();
+  } catch(e) {
+    // Pretext unavailable — CSS handles layout gracefully
+    console.log('Pretext unavailable, using CSS layout');
+  }
+}
+
+initPretext();
+
+// Relative time: update "下次检查" display
+function updateCheckTimes() {
+  const now = new Date();
+  document.querySelectorAll('.check-time').forEach(el => {
+    const text = el.textContent;
+    const match = text.match(/(\d{4}-\d{2}-\d{2}T\d{2}:\d{2})/);
+    if (!match) return;
+    const checkTime = new Date(match[1] + ':00Z');
+    const diff = checkTime - now;
+    if (diff < 0) {
+      const mins = Math.round(Math.abs(diff) / 60000);
+      if (mins < 60) el.querySelector?.('span')?.remove?.();
+    }
+  });
+}
+updateCheckTimes();
+</script>
+
+</body>
+</html>
