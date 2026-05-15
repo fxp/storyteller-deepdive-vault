@@ -4,12 +4,12 @@ title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折�
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
 status: HOT
-last_check: 2026-05-15T12:49
+last_check: 2026-05-15T15:49
 last_activity: '2026-05-15'
-next_check: 2026-05-15T15:49
+next_check: 2026-05-15T18:49
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 11
+findings_count: 13
 tags:
 - tracker
 - HOT
@@ -113,4 +113,7 @@ search_queries:
 The U.S. Commerce Department has approved around 10 Chinese companies—including Alibaba, Tencent, ByteDance and JD. com—along with distributors such as Lenovo and Foxconn, to purchase Nvidia’s H200 AI chips" / X](https://x.com/Sino_Market/status/2054803005065896084) — 美国商务部批准了包括阿里巴巴、腾讯、字节跳动在内的约10家中国公司购买英伟达的H200 AI芯片。
 - [H200芯片对华出口有新进展！相关供应链已重启-国际电子商情](https://www.esmchina.com/news/13824.html) — 英伟达CEO黄仁勋透露H200芯片对华出口取得重要进展，公司已重启H200供应链，正与美国政府敲定出口许可的最后细节。
 - [英伟达寄望H200重返中国AI芯片市场|h200_网易订阅](https://www.163.com/dy/article/KSTOB18H0511BLFD.html) — 随着最新一轮针对中国的芯片出口审查中，面向特定参数和性能阈值设计的H200产品获得批准，英伟达被视为迎来了重新切入中国市场的关键窗口。
+### 2026-05-15
+- [The U.S. Commerce Department has approved around 10 Chinese ...](https://www.instagram.com/p/DYUgSIalpDy/) — 美国商务部批准了包括阿里巴巴、腾讯、字节跳动在内的约10家中国公司购买英伟达的H200 AI芯片，这是历史发现中未出现的新事实。
+- [Huang Joins Trump's China Trip in Bid to Break Deadlock](https://finance.biggo.com/news/pPGYJZ4BNl__-4_GHvjD) — 文章提到由于复杂的美国条件，包括芯片必须通过美国领土路由，以及美国政府获得25%的收入，这表明了新的细节。
 
