@@ -4,12 +4,12 @@ title: 美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-15T07:21
-last_activity: '2026-05-14'
-next_check: 2026-05-15T10:21
+last_check: 2026-05-15T10:54
+last_activity: '2026-05-15'
+next_check: 2026-05-15T13:54
 interval_hours: 3
-consecutive_empty: 2
-findings_count: 81
+consecutive_empty: 0
+findings_count: 82
 tags:
 - tracker
 - HOT
@@ -180,3 +180,6 @@ Google, Microsoft, Amazon Web Services, Nvidia, OpenAI, Reflection and SpaceX wi
 ### 2026-05-14
 - [Pentagon inks deals with Nvidia, Microsoft, and AWS to deploy AI on ...](https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/) — 美国国防部与Nvidia、Microsoft和AWS签署协议，允许在机密网络上部署AI技术。
 - [Trump administration orders military contractors and federal agencies to cease business with Anthropic | CNN Business](https://www.cnn.com/2026/02/27/tech/anthropic-pentagon-deadline) — 特朗普政府下令军事承包商和联邦机构停止与Anthropic的业务。
+### 2026-05-15
+- [Google, Microsoft, xAI To Send Models To U.S. Government For Security Review 05/06/2026](https://www.mediapost.com/publications/article/414826/google-microsoft-xai-to-send-models-to-us-gove.html?edition=) — Google, Microsoft, xAI 将在发布新AI模型前将其提交给美国政府进行安全审查。
+
