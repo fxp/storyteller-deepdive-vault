@@ -4,12 +4,12 @@ title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折�
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
 status: HOT
-last_check: 2026-05-15T09:16
+last_check: 2026-05-15T12:49
 last_activity: '2026-05-15'
-next_check: 2026-05-15T12:16
+next_check: 2026-05-15T15:49
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 7
+findings_count: 11
 tags:
 - tracker
 - HOT
@@ -107,4 +107,10 @@ search_queries:
 - [Ten Chinese firms including ByteDance reportedly get US clearance for AI chips they're not allowed to accept](https://the-decoder.com/ten-chinese-firms-including-bytedance-reportedly-get-us-clearance-for-ai-chips-theyre-not-allowed-to-accept/) — 美国正式放行英伟达H200芯片对华出口，但据报道没有芯片实际发货。
 - [美国正式放行英伟达H200对华出口-国际电子商情](https://www.esmchina.com/news/13843.html) — 美国总统特朗普通过社交媒体披露允许H200芯片对华销售的意向，并提出收取25%交易费用的附加条件。
 - [H200解禁“有条件”， 特朗普批准英伟达H200对华出口](https://diy.pconline.com.cn/2032/20322472.html) — 美国总统特朗普批准英伟达H200对华出口，但提出了收取25%交易费用的附加条件。
+### 2026-05-15
+- [US approves Nvidia's H200 AI chip exports to Alibaba, Tencent and ...](https://www.firstpost.com/business/us-nvidia-ai-chip-exports-china-alibaba-tencent-bytedance-trump-xi-meeting-14011073.html) — 美国商务部批准了包括阿里巴巴、腾讯、字节跳动在内的约10家中国公司购买英伟达的H200 AI芯片。
+- [CN Wire on X: "🇨🇳🇺🇸US Approves Nvidia H200 Sales to Chinese Firms Including Alibaba
+The U.S. Commerce Department has approved around 10 Chinese companies—including Alibaba, Tencent, ByteDance and JD. com—along with distributors such as Lenovo and Foxconn, to purchase Nvidia’s H200 AI chips" / X](https://x.com/Sino_Market/status/2054803005065896084) — 美国商务部批准了包括阿里巴巴、腾讯、字节跳动在内的约10家中国公司购买英伟达的H200 AI芯片。
+- [H200芯片对华出口有新进展！相关供应链已重启-国际电子商情](https://www.esmchina.com/news/13824.html) — 英伟达CEO黄仁勋透露H200芯片对华出口取得重要进展，公司已重启H200供应链，正与美国政府敲定出口许可的最后细节。
+- [英伟达寄望H200重返中国AI芯片市场|h200_网易订阅](https://www.163.com/dy/article/KSTOB18H0511BLFD.html) — 随着最新一轮针对中国的芯片出口审查中，面向特定参数和性能阈值设计的H200产品获得批准，英伟达被视为迎来了重新切入中国市场的关键窗口。
 
