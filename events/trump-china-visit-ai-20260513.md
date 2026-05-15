@@ -4,12 +4,12 @@ title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折�
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
 status: HOT
-last_check: 2026-05-15T05:26
-last_activity: 2026-05-14
-next_check: 2026-05-15T08:26
+last_check: 2026-05-15T09:16
+last_activity: '2026-05-15'
+next_check: 2026-05-15T12:16
 interval_hours: 3
-consecutive_empty: 3
-findings_count: 0
+consecutive_empty: 0
+findings_count: 7
 tags:
 - tracker
 - HOT
@@ -99,3 +99,12 @@ search_queries:
 - [PBS: Who was on Trump's plane to China](https://www.pbs.org/newshour/world/who-was-on-trumps-plane-to-china-elon-musk-nvidia-ceo-and-more)
 - [虎嗅：随特朗普访华的四家芯片巨头](https://www.huxiu.com/article/4858356.html)
 - [新浪财经：黄仁勋随特朗普访华](https://finance.sina.com.cn/stock/usstock/c/2026-05-13/doc-inhxtqxn9351459.shtml)
+### 2026-05-15
+- [The US Commerce Department has approved around 10 Chinese ...](https://www.facebook.com/yahoofinance/posts/the-us-commerce-department-has-approved-around-10-chinese-companies-including-al/1342722931055815/) — 美国商务部批准了包括阿里巴巴、腾讯、字节跳动在内的约10家中国公司购买英伟达的H200芯片。
+- [US clears Nvidia H200 sales to Alibaba, Tencent, ByteDance, and ...](https://seekingalpha.com/news/4592692-us-clears-nvidia-h200-sales-to-alibaba-tencent-bytedance-and-others-reuters-reports) — 美国正式放行英伟达H200芯片对华出口，但据报道没有芯片实际发货。
+- [[News] U.S. Reportedly Approves NVIDIA H200 Sales to 10 Chinese ...](https://www.trendforce.com/news/2026/05/14/news-u-s-reportedly-approves-nvidia-h200-sales-to-10-chinese-firms-including-alibaba-bytedance-but-deals-stall/) — 美国已批准约10家中国公司购买英伟达的H200芯片，但交易似乎遇到了障碍。
+- [US clears H200 sales to 10 Chinese firms, but not a single chip has ...](https://thenextweb.com/news/nvidia-h200-china-licences-huang-beijing-trip) — 据报道，美国已批准包括阿里巴巴、腾讯、字节跳动在内的约10家中国公司购买英伟达的H200芯片，但北京方面阻止了这些购买。
+- [Ten Chinese firms including ByteDance reportedly get US clearance for AI chips they're not allowed to accept](https://the-decoder.com/ten-chinese-firms-including-bytedance-reportedly-get-us-clearance-for-ai-chips-theyre-not-allowed-to-accept/) — 美国正式放行英伟达H200芯片对华出口，但据报道没有芯片实际发货。
+- [美国正式放行英伟达H200对华出口-国际电子商情](https://www.esmchina.com/news/13843.html) — 美国总统特朗普通过社交媒体披露允许H200芯片对华销售的意向，并提出收取25%交易费用的附加条件。
+- [H200解禁“有条件”， 特朗普批准英伟达H200对华出口](https://diy.pconline.com.cn/2032/20322472.html) — 美国总统特朗普批准英伟达H200对华出口，但提出了收取25%交易费用的附加条件。
+
