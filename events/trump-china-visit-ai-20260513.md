@@ -4,12 +4,12 @@ title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折�
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
 status: HOT
-last_check: 2026-05-15T15:49
+last_check: 2026-05-15T19:37
 last_activity: '2026-05-15'
-next_check: 2026-05-15T18:49
+next_check: 2026-05-15T22:37
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 13
+findings_count: 15
 tags:
 - tracker
 - HOT
@@ -116,4 +116,7 @@ The U.S. Commerce Department has approved around 10 Chinese companies—includin
 ### 2026-05-15
 - [The U.S. Commerce Department has approved around 10 Chinese ...](https://www.instagram.com/p/DYUgSIalpDy/) — 美国商务部批准了包括阿里巴巴、腾讯、字节跳动在内的约10家中国公司购买英伟达的H200 AI芯片，这是历史发现中未出现的新事实。
 - [Huang Joins Trump's China Trip in Bid to Break Deadlock](https://finance.biggo.com/news/pPGYJZ4BNl__-4_GHvjD) — 文章提到由于复杂的美国条件，包括芯片必须通过美国领土路由，以及美国政府获得25%的收入，这表明了新的细节。
+### 2026-05-15
+- [中美峰会成果落地：中国扩大采购美农、能源与波音客机，英伟达 ...](https://www.bihainews.com/bhn-info/ywzs/20260513351.html) — 中国扩大采购美国农产品、能源产品及波音客机，同时美国商务部批准约10家中国企业采购英伟达H200 AI芯片，利好消息提振美股科技与工业板块。
+- [美批准英伟达对华出口AI芯片“H200”](https://cnnews.chosun.com/client/news/viw.asp?cate=C01&mcate=M1003&nNewsNumb=20251263970&nidx=63971) — 美国总统特朗普宣布将批准英伟达向中国及其他国家承认的客户出口人工智能（AI）芯片“H200”，并提出收取25%交易收益的附加条件。
 
