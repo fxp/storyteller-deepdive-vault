@@ -3,16 +3,16 @@ id: chrome-prompt-api-20260509
 title: Google Chrome 推出 Prompt API（浏览器内置 Gemini Nano）
 seed_url: https://developer.chrome.com/docs/ai/prompt-api
 published_date: 2024-11-12
-status: ACTIVE
-last_check: 2026-05-15T07:21
-last_activity: '2026-05-14'
-next_check: 2026-05-15T13:21
-interval_hours: 6
-consecutive_empty: 4
-findings_count: 55
+status: HOT
+last_check: 2026-05-15T13:41
+last_activity: '2026-05-15'
+next_check: 2026-05-15T16:41
+interval_hours: 3
+consecutive_empty: 0
+findings_count: 56
 tags:
 - tracker
-- ACTIVE
+- HOT
 entities:
   orgs:
   - Google
@@ -158,3 +158,6 @@ search_queries:
 - [Join the Prompt API for Chrome Extensions origin trial  |  Blog  |  Chrome for Developers](https://developer.chrome.com/blog/prompt-api-origin-trial?hl=en) — 文章标题表明 Prompt API 正在 Chrome 扩展中进行原产地试验，这是新事实。
 ### 2026-05-14
 - [3 things about Prompt API: Local deployment, Gemini Nano, and ...](https://www.linkedin.com/posts/chrome-for-developers_3-things-you-didnt-know-about-the-prompt-activity-7445105966796369920-ieMT) — 介绍 Prompt API 的本地部署和 Gemini Nano，提供了新事实。
+### 2026-05-15
+- [The Prompt API | Hacker News](https://news.ycombinator.com/item?id=47917026) — Hacker News 上关于 Prompt API 的讨论，可能包含对 Gemini Nano 的新观点或事实。
+
