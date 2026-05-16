@@ -4,12 +4,12 @@ title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折�
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
 status: HOT
-last_check: 2026-05-16T10:33
+last_check: 2026-05-16T13:36
 last_activity: '2026-05-16'
-next_check: 2026-05-16T13:33
+next_check: 2026-05-16T16:36
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 22
+findings_count: 26
 tags:
 - tracker
 - HOT
@@ -130,4 +130,9 @@ The U.S. Commerce Department has approved around 10 Chinese companies—includin
 ### 2026-05-16
 - [H200芯片解禁出口 美国AI巨头Anthropic不满：必须领先中国AI两年_网络游戏新闻_17173.com中国游戏门户站](http://news.17173.com/content/05152026/140235509.shtml) — Anthropic公司对H200芯片解禁出口表示不满，认为中国AI公司拥有一流的人才优势，限制他们跟上（美国AI）速度的就是算力约束，即限制AI芯片是卡中国AI进步的关键一环。
 - [英伟达H200芯片尚未交付，美商务部长“甩锅”中方|美国政府_新浪财经_新浪网](https://finance.sina.com.cn/stock/t/2026-04-24/doc-inhvpyyh4490415.shtml) — 美商务部长表示英伟达H200芯片尚未向中国企业交付，并称交付受阻的原因非美国管制，而是中方主管部门未允许中国企业购买。
+### 2026-05-16
+- [The U.S. Clears Nvidia H200 Sales: 10 Chinese Companies ...](https://www.knightli.com/en/2026/05/16/nvidia-h200-china-export-license-approved/) — 美国批准了英伟达H200芯片对中国的销售，但截至2026年5月14日，这些芯片尚未交付中国市场。
+- [US Approves Nvidia H200 Sales to China, But Shipments Remain ...](https://www.techrepublic.com/article/news-nvidia-h200-ai-chip-sales-china-stalled/) — 美国商务部批准了包括阿里巴巴、腾讯、字节跳动和京东在内的10家中国公司购买英伟达H200芯片，每位买家的采购上限为75,000颗。
+- [一块H200芯片都没卖出去！黄仁勋不装了：中国不应获得最先进芯片](https://www.toutiao.com/article/7636594846706991668/) — 美国对向中国出口高性能AI芯片实施了一系列严格的管控措施，以避免中国在高端计算领域取得飞速进展。
+- [美商务部罕见批准10家中国巨头获英伟达H200芯片，限额7.5万颗，背后隐藏何种信号？|算力|etf|人工智能_网易订阅](https://www.163.com/dy/article/KSVL17AK05568W0A.html) — 尽管美国批准了H200芯片的出口，但北京的安全担忧和出口规则导致出货停滞。
 

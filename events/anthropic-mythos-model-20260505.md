@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-16T10:33
+last_check: 2026-05-16T13:36
 last_activity: '2026-05-16'
-next_check: 2026-05-16T13:33
+next_check: 2026-05-16T16:36
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 118
+findings_count: 120
 tags:
 - tracker
 - HOT
@@ -202,4 +202,7 @@ deepdive_article: '[[待填写]]'
 - [Anthropic fight with the Pentagon amid Iran war puts ethics of AI warfare in focus - OSV News](https://www.osvnews.com/anthropic-fight-with-the-pentagon-amid-iran-war-puts-ethics-of-ai-warfare-in-focus/) — Anthropic与五角大楼在伊朗战争期间发生争执，突出了AI战争伦理问题。
 - [When AI Ethics Collide with National Security: Anthropic Challenges Pentagon Blacklisting](https://lawreview.syr.edu/when-ai-ethics-collide-with-national-security-anthropic-challenges-pentagon-blacklisting/) — Anthropic挑战五角大楼的黑名单，当AI伦理与国家安全冲突时。
 - [The Pentagon-Anthropic dispute is a test of control - Financial Times](https://www.ft.com/content/35e58efe-8601-4c33-af91-007659b679cc) — 五角大楼与Anthropic的争议是对控制的考验，即使自称支持AI的政府也可能过度监管。
+### 2026-05-16
+- [Anthropic's Claude Mythos Dominates Benchmarks with 93.9% SWE ...](https://www.linkedin.com/posts/rubendominguezibar_anthropic-just-dropped-claude-mythos-activity-7447404370607939584-w7pn) — Anthropic的Claude Mythos模型在基准测试中取得了93.9%的SWE成绩，这是新的事实。
+- [Mythos Model Cybersecurity Risk and Government Regulation](https://www.linkedin.com/posts/emollick_mythos-seems-to-be-a-very-capable-model-based-activity-7455456849392496640-c7m_) — Claude Mythos模型展示了AI如何比组织决定和响应更快地暴露漏洞，这是新的事实。
 

@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-16
-url: "https://www.osvnews.com/anthropic-fight-with-the-pentagon-amid-iran-war-puts-ethics-of-ai-warfare-in-focus/"
-source_title: "Anthropic fight with the Pentagon amid Iran war puts ethics of AI warfare in focus - OSV News"
+url: "https://www.linkedin.com/posts/rubendominguezibar_anthropic-just-dropped-claude-mythos-activity-7447404370607939584-w7pn"
+source_title: "Anthropic's Claude Mythos Dominates Benchmarks with 93.9% SWE ..."
 relevance: RELEVANT
 ---
 
-# Anthropic fight with the Pentagon amid Iran war puts ethics of AI warfare in focus - OSV News
+# Anthropic's Claude Mythos Dominates Benchmarks with 93.9% SWE ...
 
-**来源**: [Anthropic fight with the Pentagon amid Iran war puts ethics of AI warfare in focus - OSV News](https://www.osvnews.com/anthropic-fight-with-the-pentagon-amid-iran-war-puts-ethics-of-ai-warfare-in-focus/)
+**来源**: [Anthropic's Claude Mythos Dominates Benchmarks with 93.9% SWE ...](https://www.linkedin.com/posts/rubendominguezibar_anthropic-just-dropped-claude-mythos-activity-7447404370607939584-w7pn)
 **发现时间**: 2026-05-16
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-Anthropic与五角大楼在伊朗战争期间发生争执，突出了AI战争伦理问题。
+Anthropic的Claude Mythos模型在基准测试中取得了93.9%的SWE成绩，这是新的事实。
