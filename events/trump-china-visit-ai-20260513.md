@@ -4,12 +4,12 @@ title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折�
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
 status: HOT
-last_check: 2026-05-15T23:25
-last_activity: '2026-05-15'
-next_check: 2026-05-16T02:25
+last_check: 2026-05-16T03:17
+last_activity: '2026-05-16'
+next_check: 2026-05-16T06:17
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 16
+findings_count: 19
 tags:
 - tracker
 - HOT
@@ -121,4 +121,8 @@ The U.S. Commerce Department has approved around 10 Chinese companies—includin
 - [美批准英伟达对华出口AI芯片“H200”](https://cnnews.chosun.com/client/news/viw.asp?cate=C01&mcate=M1003&nNewsNumb=20251263970&nidx=63971) — 美国总统特朗普宣布将批准英伟达向中国及其他国家承认的客户出口人工智能（AI）芯片“H200”，并提出收取25%交易收益的附加条件。
 ### 2026-05-15
 - [US approves Nvidia H200 AI chip sales to major ... | Pluang – Crypto, Stocks, Gold & Funds](https://pluang.com/en/news-feed/nvidia-dapat-persetujuan-as-jual-chip-h200-ke-raksasa-teknologi-china) — 美国总统特朗普宣布批准英伟达H200 AI芯片向中国主要科技公司的销售，并透露美国股票的大规模购买。
+### 2026-05-16
+- [[PDF] TMT [Table_Title] 英伟达H200 芯片或将迎来出口豁免](https://pdf.dfcfw.com/pdf/H3_AP202512191803590135_1.pdf?1766135791000.pdf) — 英伟达H200芯片或将迎来出口豁免，具体豁免情况尚不明确。
+- [美国设三个“硬杠杠”，中国企业不必踮起脚尖买H200芯片_中金在线财经号](http://mp.cnfol.com/36641/article/1777008546-142382025.html) — 美国设三个“硬杠杠”，中国企业不必踮起脚尖买H200芯片，指出美国对H200芯片销售的限制条件。
+- [美商务部长：英伟达H200芯片还没卖出去，中国想搞自己的](https://www.guancha.cn/internation/2026_04_23_814575.shtml) — 美商务部长表示英伟达H200芯片还没卖出去，中国想搞自己的，反映了中国在AI芯片领域的自主发展意愿。
 

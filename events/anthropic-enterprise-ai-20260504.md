@@ -4,12 +4,12 @@ title: Anthropic + Blackstone 联合组建企业 AI 交付公司
 seed_url: https://www.anthropic.com/news/enterprise-ai-services-company
 published_date: 2026-05-04
 status: HOT
-last_check: 2026-05-15T23:25
-last_activity: '2026-05-15'
-next_check: 2026-05-16T02:25
+last_check: 2026-05-16T03:17
+last_activity: '2026-05-16'
+next_check: 2026-05-16T06:17
 interval_hours: 3
-consecutive_empty: 1
-findings_count: 32
+consecutive_empty: 0
+findings_count: 34
 tags:
 - tracker
 - HOT
@@ -110,3 +110,7 @@ deepdive_article: '[[待填写]]'
 - [Anthropic, Blackstone, Goldman Sachs Building A New AI Enterprise ...](https://www.youtube.com/watch?v=nsPKz4sQfRo) — Anthropic、Blackstone 和 Hellman & Friedman 正在共同投资 15 亿美元建立一家新的 AI 原生企业服务公司。
 ### 2026-05-15
 - [Anthropic Partners with Blackstone, Hellman & Friedman, and Goldman Sachs to Launch Enterprise AI Services Firm](https://finance.yahoo.com/sectors/technology/articles/anthropic-partners-blackstone-hellman-friedman-130000897.html) — Anthropic 与 Blackstone、Hellman & Friedman 和 Goldman Sachs 合作成立了一家新的 AI 原生企业服务公司。
+### 2026-05-16
+- [Anthropic has officially announced a new enterprise AI services ...](https://www.instagram.com/p/DX68xcPku5C/) — Anthropic 官方宣布与 Blackstone、Goldman Sachs 和 Hellman & Friedman 合作成立一家价值 15 亿美元的 AI 企业。
+- [Anthropic's $1.5B Applied AI bet, and the mid-market it skips - LinkedIn](https://www.linkedin.com/pulse/anthropics-15b-applied-ai-bet-mid-market-skips-ravinder-karwal--oi8zc) — 讨论 Anthropic 与 Blackstone、Hellman & Friedman 和 Goldman Sachs 合作成立的新企业服务公司的 15 亿美元投资。
+
