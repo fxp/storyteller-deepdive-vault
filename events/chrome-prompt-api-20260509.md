@@ -4,12 +4,12 @@ title: Google Chrome 推出 Prompt API（浏览器内置 Gemini Nano）
 seed_url: https://developer.chrome.com/docs/ai/prompt-api
 published_date: 2024-11-12
 status: HOT
-last_check: 2026-05-16T08:43
+last_check: 2026-05-16T12:32
 last_activity: '2026-05-16'
-next_check: 2026-05-16T11:43
+next_check: 2026-05-16T15:32
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 59
+findings_count: 60
 tags:
 - tracker
 - HOT
@@ -166,4 +166,6 @@ search_queries:
 - [An experimental polyfill for the Prompt API  |  AI on Chrome  |  Chrome for Developers](https://developer.chrome.com/docs/ai/prompt-api-polyfill?hl=en) — 介绍了 Prompt API 的实验性 polyfill，提供了关于本地和云端后端提供者的新信息。
 ### 2026-05-16
 - [Mozilla's opposition to Chrome's Prompt API (which only supports ...](https://www.reddit.com/r/linux/comments/1t01wpv/mozillas_opposition_to_chromes_prompt_api_which/) — Mozilla 对 Chrome 的 Prompt API 表示反对，提供了新的观点和事实。
+### 2026-05-16
+- [Chrome is quietly installing a 4GB AI model on your device - Reddit](https://www.reddit.com/r/cybersecurity/comments/1t57mk5/chrome_is_quietly_installing_a_4gb_ai_model_on/) — Reddit 上讨论了 Chrome 安装 4GB AI 模型的事实，这是新事实。
 
