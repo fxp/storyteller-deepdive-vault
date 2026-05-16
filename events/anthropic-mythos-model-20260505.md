@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-16T06:57
+last_check: 2026-05-16T10:33
 last_activity: '2026-05-16'
-next_check: 2026-05-16T09:57
+next_check: 2026-05-16T13:33
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 115
+findings_count: 118
 tags:
 - tracker
 - HOT
@@ -198,4 +198,8 @@ deepdive_article: '[[待填写]]'
 - [A public showdown between the Trump administration ... - Facebook](https://www.facebook.com/wesh2news/posts/a-public-showdown-between-the-trump-administration-and-anthropic-is-hitting-an-i/953355367206382/) — 特朗普总统在周五终止了与人工智能公司Anthropic的政府技术合同，这是在公开与五角大楼的争议之后。
 ### 2026-05-16
 - [Mythos - Anthropic AI Model, Features, Benchmarks & Risks](https://www.youtube.com/watch?v=vwatcf6it_U) — Claude Mythos 是 Anthropic 在 2026 年推出的最先进的 AI 模型，具有在网络安全和编码方面的突破性能力。
+### 2026-05-16
+- [Anthropic fight with the Pentagon amid Iran war puts ethics of AI warfare in focus - OSV News](https://www.osvnews.com/anthropic-fight-with-the-pentagon-amid-iran-war-puts-ethics-of-ai-warfare-in-focus/) — Anthropic与五角大楼在伊朗战争期间发生争执，突出了AI战争伦理问题。
+- [When AI Ethics Collide with National Security: Anthropic Challenges Pentagon Blacklisting](https://lawreview.syr.edu/when-ai-ethics-collide-with-national-security-anthropic-challenges-pentagon-blacklisting/) — Anthropic挑战五角大楼的黑名单，当AI伦理与国家安全冲突时。
+- [The Pentagon-Anthropic dispute is a test of control - Financial Times](https://www.ft.com/content/35e58efe-8601-4c33-af91-007659b679cc) — 五角大楼与Anthropic的争议是对控制的考验，即使自称支持AI的政府也可能过度监管。
 

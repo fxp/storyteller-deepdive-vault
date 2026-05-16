@@ -4,12 +4,12 @@ title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折�
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
 status: HOT
-last_check: 2026-05-16T06:57
+last_check: 2026-05-16T10:33
 last_activity: '2026-05-16'
-next_check: 2026-05-16T09:57
+next_check: 2026-05-16T13:33
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 20
+findings_count: 22
 tags:
 - tracker
 - HOT
@@ -127,4 +127,7 @@ The U.S. Commerce Department has approved around 10 Chinese companies—includin
 - [美商务部长：英伟达H200芯片还没卖出去，中国想搞自己的](https://www.guancha.cn/internation/2026_04_23_814575.shtml) — 美商务部长表示英伟达H200芯片还没卖出去，中国想搞自己的，反映了中国在AI芯片领域的自主发展意愿。
 ### 2026-05-16
 - [US clears H200 chip sales to 10 China firms as Nvidia CEO looks for ...](https://www.reuters.com/business/retail-consumer/us-clears-h200-chip-sales-10-china-firms-nvidia-ceo-looks-breakthrough-2026-05-14/) — 美国批准向10家中国公司销售H200芯片，包括阿里巴巴、腾讯、字节跳动和京东，每家买家可购买最多75,000个单位。
+### 2026-05-16
+- [H200芯片解禁出口 美国AI巨头Anthropic不满：必须领先中国AI两年_网络游戏新闻_17173.com中国游戏门户站](http://news.17173.com/content/05152026/140235509.shtml) — Anthropic公司对H200芯片解禁出口表示不满，认为中国AI公司拥有一流的人才优势，限制他们跟上（美国AI）速度的就是算力约束，即限制AI芯片是卡中国AI进步的关键一环。
+- [英伟达H200芯片尚未交付，美商务部长“甩锅”中方|美国政府_新浪财经_新浪网](https://finance.sina.com.cn/stock/t/2026-04-24/doc-inhvpyyh4490415.shtml) — 美商务部长表示英伟达H200芯片尚未向中国企业交付，并称交付受阻的原因非美国管制，而是中方主管部门未允许中国企业购买。
 

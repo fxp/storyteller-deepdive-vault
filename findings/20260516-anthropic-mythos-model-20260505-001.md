@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-16
-url: "https://www.youtube.com/watch?v=vwatcf6it_U"
-source_title: "Mythos - Anthropic AI Model, Features, Benchmarks & Risks"
+url: "https://www.osvnews.com/anthropic-fight-with-the-pentagon-amid-iran-war-puts-ethics-of-ai-warfare-in-focus/"
+source_title: "Anthropic fight with the Pentagon amid Iran war puts ethics of AI warfare in focus - OSV News"
 relevance: RELEVANT
 ---
 
-# Mythos - Anthropic AI Model, Features, Benchmarks & Risks
+# Anthropic fight with the Pentagon amid Iran war puts ethics of AI warfare in focus - OSV News
 
-**来源**: [Mythos - Anthropic AI Model, Features, Benchmarks & Risks](https://www.youtube.com/watch?v=vwatcf6it_U)
+**来源**: [Anthropic fight with the Pentagon amid Iran war puts ethics of AI warfare in focus - OSV News](https://www.osvnews.com/anthropic-fight-with-the-pentagon-amid-iran-war-puts-ethics-of-ai-warfare-in-focus/)
 **发现时间**: 2026-05-16
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-Claude Mythos 是 Anthropic 在 2026 年推出的最先进的 AI 模型，具有在网络安全和编码方面的突破性能力。
+Anthropic与五角大楼在伊朗战争期间发生争执，突出了AI战争伦理问题。

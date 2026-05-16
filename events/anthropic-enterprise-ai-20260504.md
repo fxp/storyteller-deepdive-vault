@@ -4,12 +4,12 @@ title: Anthropic + Blackstone 联合组建企业 AI 交付公司
 seed_url: https://www.anthropic.com/news/enterprise-ai-services-company
 published_date: 2026-05-04
 status: HOT
-last_check: 2026-05-16T06:57
+last_check: 2026-05-16T10:33
 last_activity: '2026-05-16'
-next_check: 2026-05-16T09:57
+next_check: 2026-05-16T13:33
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 36
+findings_count: 37
 tags:
 - tracker
 - HOT
@@ -116,4 +116,6 @@ deepdive_article: '[[待填写]]'
 ### 2026-05-16
 - [Anthropic launches enterprise AI services for mid-sized companies](https://www.linkedin.com/posts/sandramackaymiley_building-a-new-enterprise-ai-services-company-activity-7458278551969116160-PRDN) — Anthropic 正式推出面向中型企业的 AI 服务公司，由 Blackstone、Hellman & Friedman、Goldman Sachs、General Atlantic 和 Sequoia Capital 等投资机构支持。
 - [Anthropic Rolls Out New Claude Financial Agents as OpenAI Rivalry ...](https://www.barrons.com/articles/claude-agents-anthropic-openai-jpm-goldman-stocks-e1b06d57) — Anthropic 推出新的 Claude 金融代理，作为 OpenAI 的竞争对手，旨在扩展 Claude 在中型企业的应用。
+### 2026-05-16
+- [Anthropic Launches $1.5B AI Services Company with Blackstone ...](https://www.linkedin.com/posts/demetripanici_anthropic-just-partnered-with-blackstone-activity-7457836977611108352-W8qy) — Anthropic 与 Blackstone 合作成立了一家价值 15 亿美元的 AI 服务公司，这是一个新的融资事实。
 
