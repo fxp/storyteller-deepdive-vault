@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-16
-url: "https://www.linkedin.com/posts/rubendominguezibar_anthropic-just-dropped-claude-mythos-activity-7447404370607939584-w7pn"
-source_title: "Anthropic's Claude Mythos Dominates Benchmarks with 93.9% SWE ..."
+url: "https://securityaffairs.com/191087/ai/the-us-nsa-is-using-anthropics-claude-mythos-despite-supply-chain-risk.html"
+source_title: "The US NSA is using Anthropic's Claude Mythos despite supply chain risk"
 relevance: RELEVANT
 ---
 
-# Anthropic's Claude Mythos Dominates Benchmarks with 93.9% SWE ...
+# The US NSA is using Anthropic's Claude Mythos despite supply chain risk
 
-**来源**: [Anthropic's Claude Mythos Dominates Benchmarks with 93.9% SWE ...](https://www.linkedin.com/posts/rubendominguezibar_anthropic-just-dropped-claude-mythos-activity-7447404370607939584-w7pn)
+**来源**: [The US NSA is using Anthropic's Claude Mythos despite supply chain risk](https://securityaffairs.com/191087/ai/the-us-nsa-is-using-anthropics-claude-mythos-despite-supply-chain-risk.html)
 **发现时间**: 2026-05-16
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-Anthropic的Claude Mythos模型在基准测试中取得了93.9%的SWE成绩，这是新的事实。
+美国国家安全局（NSA）正在使用Anthropic的Claude Mythos模型，尽管存在供应链风险。

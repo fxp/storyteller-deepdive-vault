@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-16T13:36
+last_check: 2026-05-16T17:26
 last_activity: '2026-05-16'
-next_check: 2026-05-16T16:36
+next_check: 2026-05-16T20:26
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 120
+findings_count: 122
 tags:
 - tracker
 - HOT
@@ -205,4 +205,7 @@ deepdive_article: '[[待填写]]'
 ### 2026-05-16
 - [Anthropic's Claude Mythos Dominates Benchmarks with 93.9% SWE ...](https://www.linkedin.com/posts/rubendominguezibar_anthropic-just-dropped-claude-mythos-activity-7447404370607939584-w7pn) — Anthropic的Claude Mythos模型在基准测试中取得了93.9%的SWE成绩，这是新的事实。
 - [Mythos Model Cybersecurity Risk and Government Regulation](https://www.linkedin.com/posts/emollick_mythos-seems-to-be-a-very-capable-model-based-activity-7455456849392496640-c7m_) — Claude Mythos模型展示了AI如何比组织决定和响应更快地暴露漏洞，这是新的事实。
+### 2026-05-16
+- [The US NSA is using Anthropic's Claude Mythos despite supply chain risk](https://securityaffairs.com/191087/ai/the-us-nsa-is-using-anthropics-claude-mythos-despite-supply-chain-risk.html) — 美国国家安全局（NSA）正在使用Anthropic的Claude Mythos模型，尽管存在供应链风险。
+- [Researchers say AI just broke every benchmark for autonomous cyber capability | CyberScoop](https://cyberscoop.com/ai-autonomous-cyber-capability-benchmarks-broken-gpt5-claude-mythos/) — 研究人员表示，AI刚刚打破了所有自主网络能力的基准，Claude Mythos模型在GPT-5之后打破了这些基准。
 
