@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-enterprise-ai-20260504]]"
 date: 2026-05-16
-url: "https://www.instagram.com/p/DX68xcPku5C/"
-source_title: "Anthropic has officially announced a new enterprise AI services ..."
+url: "https://www.linkedin.com/posts/sandramackaymiley_building-a-new-enterprise-ai-services-company-activity-7458278551969116160-PRDN"
+source_title: "Anthropic launches enterprise AI services for mid-sized companies"
 relevance: RELEVANT
 ---
 
-# Anthropic has officially announced a new enterprise AI services ...
+# Anthropic launches enterprise AI services for mid-sized companies
 
-**来源**: [Anthropic has officially announced a new enterprise AI services ...](https://www.instagram.com/p/DX68xcPku5C/)
+**来源**: [Anthropic launches enterprise AI services for mid-sized companies](https://www.linkedin.com/posts/sandramackaymiley_building-a-new-enterprise-ai-services-company-activity-7458278551969116160-PRDN)
 **发现时间**: 2026-05-16
 **所属事件**: [[anthropic-enterprise-ai-20260504]]
 
 ## 摘要
 
-Anthropic 官方宣布与 Blackstone、Goldman Sachs 和 Hellman & Friedman 合作成立一家价值 15 亿美元的 AI 企业。
+Anthropic 正式推出面向中型企业的 AI 服务公司，由 Blackstone、Hellman & Friedman、Goldman Sachs、General Atlantic 和 Sequoia Capital 等投资机构支持。

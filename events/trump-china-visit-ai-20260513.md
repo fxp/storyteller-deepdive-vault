@@ -4,12 +4,12 @@ title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折�
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
 status: HOT
-last_check: 2026-05-16T03:17
+last_check: 2026-05-16T06:57
 last_activity: '2026-05-16'
-next_check: 2026-05-16T06:17
+next_check: 2026-05-16T09:57
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 19
+findings_count: 20
 tags:
 - tracker
 - HOT
@@ -125,4 +125,6 @@ The U.S. Commerce Department has approved around 10 Chinese companies—includin
 - [[PDF] TMT [Table_Title] 英伟达H200 芯片或将迎来出口豁免](https://pdf.dfcfw.com/pdf/H3_AP202512191803590135_1.pdf?1766135791000.pdf) — 英伟达H200芯片或将迎来出口豁免，具体豁免情况尚不明确。
 - [美国设三个“硬杠杠”，中国企业不必踮起脚尖买H200芯片_中金在线财经号](http://mp.cnfol.com/36641/article/1777008546-142382025.html) — 美国设三个“硬杠杠”，中国企业不必踮起脚尖买H200芯片，指出美国对H200芯片销售的限制条件。
 - [美商务部长：英伟达H200芯片还没卖出去，中国想搞自己的](https://www.guancha.cn/internation/2026_04_23_814575.shtml) — 美商务部长表示英伟达H200芯片还没卖出去，中国想搞自己的，反映了中国在AI芯片领域的自主发展意愿。
+### 2026-05-16
+- [US clears H200 chip sales to 10 China firms as Nvidia CEO looks for ...](https://www.reuters.com/business/retail-consumer/us-clears-h200-chip-sales-10-china-firms-nvidia-ceo-looks-breakthrough-2026-05-14/) — 美国批准向10家中国公司销售H200芯片，包括阿里巴巴、腾讯、字节跳动和京东，每家买家可购买最多75,000个单位。
 
