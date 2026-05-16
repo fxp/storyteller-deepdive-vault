@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-16T17:26
+last_check: 2026-05-16T21:22
 last_activity: '2026-05-16'
-next_check: 2026-05-16T20:26
+next_check: 2026-05-17T00:22
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 122
+findings_count: 124
 tags:
 - tracker
 - HOT
@@ -208,4 +208,7 @@ deepdive_article: '[[待填写]]'
 ### 2026-05-16
 - [The US NSA is using Anthropic's Claude Mythos despite supply chain risk](https://securityaffairs.com/191087/ai/the-us-nsa-is-using-anthropics-claude-mythos-despite-supply-chain-risk.html) — 美国国家安全局（NSA）正在使用Anthropic的Claude Mythos模型，尽管存在供应链风险。
 - [Researchers say AI just broke every benchmark for autonomous cyber capability | CyberScoop](https://cyberscoop.com/ai-autonomous-cyber-capability-benchmarks-broken-gpt5-claude-mythos/) — 研究人员表示，AI刚刚打破了所有自主网络能力的基准，Claude Mythos模型在GPT-5之后打破了这些基准。
+### 2026-05-16
+- [Anthropic's Mythos: The Most Important AI Model Nobody Has Used Yet | InovaBeing | INovaBeing](https://www.inovabeing.com/blog/anthropic-mythos-ai-milestone-2026) — Anthropic决定不发布Mythos模型，这是AI领域的一个里程碑，表明AI已经跨越了一个阈值。
+- [Anthropic holds Mythos model due to hacking risks - Axios](https://www.axios.com/2026/04/07/anthropic-mythos-preview-cybersecurity-risks) — Anthropic因黑客风险而保留Mythos模型，表明公司对模型的安全性非常关注。
 
