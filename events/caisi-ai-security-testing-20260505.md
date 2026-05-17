@@ -3,16 +3,16 @@ id: caisi-ai-security-testing-20260505
 title: 美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic 被排除
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
-status: ACTIVE
-last_check: 2026-05-16T21:22
-last_activity: '2026-05-16'
-next_check: 2026-05-17T03:22
-interval_hours: 6
-consecutive_empty: 4
-findings_count: 84
+status: HOT
+last_check: 2026-05-17T05:25
+last_activity: '2026-05-17'
+next_check: 2026-05-17T08:25
+interval_hours: 3
+consecutive_empty: 0
+findings_count: 86
 tags:
 - tracker
-- ACTIVE
+- HOT
 entities:
   orgs:
   - Microsoft
@@ -186,3 +186,7 @@ Google, Microsoft, Amazon Web Services, Nvidia, OpenAI, Reflection and SpaceX wi
 - [Pentagon inks deals with eight AI companies for classified military work | Trump administration | The Guardian](https://www.theguardian.com/us-news/2026/may/01/pentagon-us-military-pairs-with-spacex-google-openai) — 美国国防部与八家领先的AI公司达成协议，其中包括SpaceX、OpenAI、Google、Nvidia、Reflection、Microsoft、Oracle和Amazon Web Services，以加速建立美国军事作为AI优先的战斗力量。
 ### 2026-05-16
 - [U.S. Government Will Test AI Models for National Security Risks ...](https://www.deeplearning.ai/the-batch/us-to-evaluate-upcoming-models) — 美国政府表示将在AI模型发布前对其进行国家安全风险评估，这是一个新的事实。
+### 2026-05-17
+- [Pentagon strikes deal with 8 AI firms including Google, Microsoft, OpenAI, Nvidia](https://americanbazaaronline.com/2026/05/04/pentagon-strikes-deal-with-8-ai-firms-including-google-microsoft-openai-nvidia-480074/) — 美国国防部与包括Google、Microsoft、OpenAI、Nvidia在内的八家AI公司达成协议，以在机密系统中部署其智能。
+- [US military reaches deals to use AI on classified systems](https://www.chicagotribune.com/2026/05/02/us-military-artificial-intelligence-deal/) — 美国国防部与七家科技公司达成协议，在机密计算机网络上使用其人工智能，以利用AI驱动的能力帮助其作战。
+
