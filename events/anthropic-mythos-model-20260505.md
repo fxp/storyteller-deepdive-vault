@@ -4,11 +4,11 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-17T19:31
+last_check: 2026-05-17T23:25
 last_activity: '2026-05-17'
-next_check: 2026-05-17T22:31
+next_check: 2026-05-18T02:25
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 130
 tags:
 - tracker
@@ -221,4 +221,3 @@ deepdive_article: '[[待填写]]'
 - [Trump's threats against Anthropic chill AI industry - POLITICO](https://www.politico.com/news/2026/02/27/ai-industry-fears-partial-nationalization-as-anthropic-fight-escalates-00805453) — 特朗普对Anthropic的威胁使AI行业感到寒意，引发了对AI可能使美国公民遭受大规模监控和计算机指导的杀戮的更广泛辩论。
 - [After Mythos - Government Executive](https://www.govexec.com/sponsors/2026/04/after-mythos/413109/) — 文章指出Mythos代表了AI能力的重大飞跃，并强调了需要超越当前自愿、开发者控制的监督，转向独立的、结构化的预部署保证。
 - [Government Pressure on Anthropic's Mythos AI Model](https://www.linkedin.com/posts/nicholasxthompson_the-most-interesting-thing-in-tech-the-rollout-activity-7457196465438830592-z03B) — 文章讨论了Anthropic宣布开发如此强大的AI模型是否负责任，并指出这不仅仅是公司的问题。
-
