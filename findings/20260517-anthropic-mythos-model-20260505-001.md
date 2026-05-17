@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-17
-url: "https://imfounder.com/science-tech/ai/anthropic-mythos/"
-source_title: "Anthropic Mythos Preview: Key Details on the New AI Model in 2026"
+url: "https://www.politico.com/news/2026/02/27/ai-industry-fears-partial-nationalization-as-anthropic-fight-escalates-00805453"
+source_title: "Trump's threats against Anthropic chill AI industry - POLITICO"
 relevance: RELEVANT
 ---
 
-# Anthropic Mythos Preview: Key Details on the New AI Model in 2026
+# Trump's threats against Anthropic chill AI industry - POLITICO
 
-**来源**: [Anthropic Mythos Preview: Key Details on the New AI Model in 2026](https://imfounder.com/science-tech/ai/anthropic-mythos/)
+**来源**: [Trump's threats against Anthropic chill AI industry - POLITICO](https://www.politico.com/news/2026/02/27/ai-industry-fears-partial-nationalization-as-anthropic-fight-escalates-00805453)
 **发现时间**: 2026-05-17
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-Anthropic Mythos Preview 是一个全新的 AI 模型，具有强大的复杂推理、高级编码和自主网络安全任务能力。
+特朗普对Anthropic的威胁使AI行业感到寒意，引发了对AI可能使美国公民遭受大规模监控和计算机指导的杀戮的更广泛辩论。
