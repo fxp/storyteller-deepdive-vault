@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-18T03:21
+last_check: 2026-05-18T07:41
 last_activity: '2026-05-18'
-next_check: 2026-05-18T06:21
+next_check: 2026-05-18T10:41
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 131
+findings_count: 132
 tags:
 - tracker
 - HOT
@@ -223,4 +223,6 @@ deepdive_article: '[[待填写]]'
 - [Government Pressure on Anthropic's Mythos AI Model](https://www.linkedin.com/posts/nicholasxthompson_the-most-interesting-thing-in-tech-the-rollout-activity-7457196465438830592-z03B) — 文章讨论了Anthropic宣布开发如此强大的AI模型是否负责任，并指出这不仅仅是公司的问题。
 ### 2026-05-18
 - [Is AI officially a national security threat?](https://www.readtangle.com/anthropic-claude-mythos-cybersecurity/) — Anthropic声称其最新模型对公共发布过于危险，引发了对AI是否构成国家安全威胁的讨论。
+### 2026-05-18
+- [Claude Mythos Just Crossed A Dangerous Line... AGAIN! - YouTube](https://www.youtube.com/watch?v=i-ioLtvb19o) — Claude Mythos 模型的新METR评估显示其自主任务范围达到十六小时，这引起了网络安全团队和政府的反应，这是历史发现中未提及的新事实。
 

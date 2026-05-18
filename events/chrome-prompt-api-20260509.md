@@ -4,11 +4,11 @@ title: Google Chrome 推出 Prompt API（浏览器内置 Gemini Nano）
 seed_url: https://developer.chrome.com/docs/ai/prompt-api
 published_date: 2024-11-12
 status: ACTIVE
-last_check: 2026-05-18T01:09
+last_check: 2026-05-18T07:41
 last_activity: '2026-05-16'
-next_check: 2026-05-18T07:09
+next_check: 2026-05-18T13:41
 interval_hours: 6
-consecutive_empty: 6
+consecutive_empty: 7
 findings_count: 61
 tags:
 - tracker
