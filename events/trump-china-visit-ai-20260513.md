@@ -4,11 +4,11 @@ title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折�
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
 status: HOT
-last_check: 2026-05-18T07:41
+last_check: 2026-05-18T11:29
 last_activity: '2026-05-18'
-next_check: 2026-05-18T10:41
+next_check: 2026-05-18T14:29
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 31
 tags:
 - tracker
@@ -142,4 +142,3 @@ The U.S. Commerce Department has approved around 10 Chinese companies—includin
 ### 2026-05-18
 - [中美元首会后初步经贸成果释出涵盖芯片金融农产品领域 - 南洋商报](https://www.enanyang.my/news/20260515/International/1251615) — 美国总统特朗普访华期间，中美在芯片领域取得合作进展，美国商务部已批准英伟达向10家中国企业出售H200芯片。
 - [美批准英伟达对华出口AI芯片“H200”](http://cnnews.chosun.com/client/news/viw.asp?cate=C01&mcate=&nNewsNumb=20251263970&nidx=) — 美国总统特朗普宣布将批准英伟达向中国及其他国家承认的客户出口人工智能（AI）芯片“H200”，并提出收取部分销售收益的条件。
-

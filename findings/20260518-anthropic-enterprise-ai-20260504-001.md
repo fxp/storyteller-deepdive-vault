@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-enterprise-ai-20260504]]"
 date: 2026-05-18
-url: "https://fortune.com/2026/05/04/anthropic-claude-consulting-industry-joint-venture-blackstone-goldman-sachs/"
-source_title: "Anthropic takes shot at consulting industry in joint venture with Wall ..."
+url: "https://www.pymnts.com/artificial-intelligence-2/2026/anthropic-launches-enterprise-ai-firm-with-wall-street-giants/"
+source_title: "PYMNTS | Anthropic Launches Enterprise AI Firm With Wall Street Giants"
 relevance: RELEVANT
 ---
 
-# Anthropic takes shot at consulting industry in joint venture with Wall ...
+# PYMNTS | Anthropic Launches Enterprise AI Firm With Wall Street Giants
 
-**来源**: [Anthropic takes shot at consulting industry in joint venture with Wall ...](https://fortune.com/2026/05/04/anthropic-claude-consulting-industry-joint-venture-blackstone-goldman-sachs/)
+**来源**: [PYMNTS | Anthropic Launches Enterprise AI Firm With Wall Street Giants](https://www.pymnts.com/artificial-intelligence-2/2026/anthropic-launches-enterprise-ai-firm-with-wall-street-giants/)
 **发现时间**: 2026-05-18
 **所属事件**: [[anthropic-enterprise-ai-20260504]]
 
 ## 摘要
 
-Anthropic 与华尔街巨头合作成立了一家新的 AI 服务公司，旨在将 Claude 引入企业核心业务运营，并获得了约 15 亿美元的承诺资本。
+Anthropic 正式宣布推出一家新的企业 AI 公司，专注于向企业公司销售 AI 工具，并与高盛等华尔街巨头合作。

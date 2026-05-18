@@ -4,11 +4,11 @@ title: 美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-18T07:41
+last_check: 2026-05-18T11:29
 last_activity: '2026-05-18'
-next_check: 2026-05-18T10:41
+next_check: 2026-05-18T14:29
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 88
 tags:
 - tracker
@@ -193,4 +193,3 @@ Google, Microsoft, Amazon Web Services, Nvidia, OpenAI, Reflection and SpaceX wi
 - [US Military Expands AI Contracts with Google, OpenAI, Amazon ...](https://www.linkedin.com/posts/rayzinn_pentagon-says-us-military-will-be-an-ai-first-activity-7458594121436344321-Xz17) — 美国国防部与7家科技公司达成协议，在机密计算机网络上使用其人工智能，以利用AI驱动的能力帮助其作战。
 ### 2026-05-18
 - [Microsoft, Google and xAI will let the government test their AI models before launch | CNN Business](https://edition.cnn.com/2026/05/05/tech/microsoft-google-xai-government-test-ai-models/) — 微软、Google和xAI将允许政府在AI模型发布前进行测试，这是一个新的事实。
-
