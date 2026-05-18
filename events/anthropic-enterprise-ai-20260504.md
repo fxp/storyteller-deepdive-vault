@@ -4,12 +4,12 @@ title: Anthropic + Blackstone 联合组建企业 AI 交付公司
 seed_url: https://www.anthropic.com/news/enterprise-ai-services-company
 published_date: 2026-05-04
 status: HOT
-last_check: 2026-05-18T18:47
+last_check: 2026-05-18T22:28
 last_activity: '2026-05-18'
-next_check: 2026-05-18T21:47
+next_check: 2026-05-19T01:28
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 43
+findings_count: 44
 tags:
 - tracker
 - HOT
@@ -129,4 +129,6 @@ deepdive_article: '[[待填写]]'
 - [Kirkland Advises Blackstone on Launch of Enterprise AI Services Firm with Anthropic and Consortium | News | Kirkland & Ellis LLP](https://www.kirkland.com/news/press-release/2026/05/kirkland-advises-blackstone-on-launch-of-enterprise-ai-services-firm-with-anthropic-and-consortium) — Kirkland & Ellis LLP 为 Blackstone 提供法律咨询服务，协助其与 Anthropic 和其他公司共同成立一家新的 AI 企业服务公司。
 ### 2026-05-18
 - [Anthropic Partners With Wall Street Giants To Push Claude Into Midsize Companies](https://finance.yahoo.com/sectors/technology/articles/anthropic-partners-wall-street-giants-174407869.html) — Anthropic 与华尔街巨头合作，旨在将 Claude 引入中型企业的核心业务运营。
+### 2026-05-18
+- [- Hellman & Friedman](https://hf.com/anthropic-partners-with-blackstone-hellman-friedman-and-goldman-sachs-to-launch-enterprise-ai-services-firm/) — Anthropic 与 Blackstone、Hellman & Friedman 和 Goldman Sachs 合作成立了一家新的 AI 原生企业服务公司，旨在快速将 Claude 引入企业核心业务运营。
 

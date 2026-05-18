@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-18
-url: "https://siliconangle.com/2026/03/27/anthropic-launch-new-claude-mythos-model-advanced-reasoning-features"
-source_title: "Anthropic to launch new ‘Claude Mythos’ model with advanced reasoning features - SiliconANGLE"
+url: "https://www.paubox.com/blog/anthropic-mythos-draws-white-house-attention-over-cybersecurity-risk"
+source_title: "Anthropic Mythos draws White House attention over cybersecurity risk"
 relevance: RELEVANT
 ---
 
-# Anthropic to launch new ‘Claude Mythos’ model with advanced reasoning features - SiliconANGLE
+# Anthropic Mythos draws White House attention over cybersecurity risk
 
-**来源**: [Anthropic to launch new ‘Claude Mythos’ model with advanced reasoning features - SiliconANGLE](https://siliconangle.com/2026/03/27/anthropic-launch-new-claude-mythos-model-advanced-reasoning-features)
+**来源**: [Anthropic Mythos draws White House attention over cybersecurity risk](https://www.paubox.com/blog/anthropic-mythos-draws-white-house-attention-over-cybersecurity-risk)
 **发现时间**: 2026-05-18
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-Anthropic 正在测试一个名为 Claude Mythos 的新大型语言模型，该模型具有高级推理功能。
+Anthropic CEO Dario Amodei 与白宫工作人员会面，讨论 Mythos 模型的潜在网络安全风险。

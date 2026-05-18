@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-18T18:47
+last_check: 2026-05-18T22:28
 last_activity: '2026-05-18'
-next_check: 2026-05-18T21:47
+next_check: 2026-05-19T01:28
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 136
+findings_count: 140
 tags:
 - tracker
 - HOT
@@ -230,4 +230,9 @@ deepdive_article: '[[待填写]]'
 - [Anthropic Mythos Preview: Cybersecurity Capabilities Explained | Duo Dev Technologies Blog](https://duodev.in/blog/anthropic-mythos-preview-cybersecurity-capabilities-explained) — Anthropic 的 Claude Mythos 模型可以自主发现和有时利用操作系统、浏览器和关键开源软件中的复杂漏洞。
 - [Anthropic Mythos: The AI Model Too Powerful to Ship](https://megaoneai.com/launches/anthropic-mythos-ai-model-launch) — Anthropic 的 Mythos AI 模型被认为过于强大而无法发布，因为它可以崩溃任何机器。
 - [Anthropic Mythos Preview: Key Details on the New AI Model in 2026](https://imfounder.com/science-tech/ai/anthropic-mythos) — Anthropic 的 Mythos 模型在预测试中已经发现了数千个严重程度高的漏洞。
+### 2026-05-18
+- [Anthropic Mythos draws White House attention over cybersecurity risk](https://www.paubox.com/blog/anthropic-mythos-draws-white-house-attention-over-cybersecurity-risk) — Anthropic CEO Dario Amodei 与白宫工作人员会面，讨论 Mythos 模型的潜在网络安全风险。
+- [Claude Mythos: Benchmark-Dominating AI with Real Risks](https://labellerr.com/blog/anthropic-claude-mythos-capabilities) — Claude Mythos 预览是 Anthropic 最强大的 AI，超越基准并揭示关键漏洞，但尚未发布以避免对全球基础设施造成严重损害。
+- [Claude Mythos: Benchmark-Dominating AI with Real Risks](https://www.labellerr.com/blog/anthropic-claude-mythos-capabilities) — Claude Mythos 预览在 Cybench 网络安全基准测试中取得了 100% 的成功率。
+- [Claude Mythos: Why Anthropic Locked Their Best AI | Sterlites](https://sterlites.com/blog/mythos-anthropic-most-capable-ai-security) — Anthropic 因 Mythos 模型的能力而将其锁定，该模型在 Cybench 网络安全基准测试中取得了 100% 的成功率。
 

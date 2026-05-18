@@ -4,12 +4,12 @@ title: Google Chrome 推出 Prompt API（浏览器内置 Gemini Nano）
 seed_url: https://developer.chrome.com/docs/ai/prompt-api
 published_date: 2024-11-12
 status: HOT
-last_check: 2026-05-18T18:47
+last_check: 2026-05-18T22:28
 last_activity: '2026-05-18'
-next_check: 2026-05-18T21:47
+next_check: 2026-05-19T01:28
 interval_hours: 3
-consecutive_empty: 1
-findings_count: 62
+consecutive_empty: 0
+findings_count: 65
 tags:
 - tracker
 - HOT
@@ -172,3 +172,11 @@ search_queries:
 - [How to use Chrome's Prompt API in Extensions - YouTube](https://www.youtube.com/watch?v=HjPQ3hyeXQI) — 视频介绍如何在 Chrome 扩展中使用 Prompt API，提供了新事实。
 ### 2026-05-18
 - [Google Ships Chrome Prompt API Over Objections From Mozilla, Apple, W3C, and Microsoft](https://www.techtimes.com/articles/316729/20260516/google-ships-chrome-prompt-api-over-objections-mozilla-apple-w3c-microsoft.htm) — Google 在 Chrome 148 中发布了 Prompt API，尽管 Mozilla、Apple、W3C、Microsoft 和一位 Chrome 工程师都提出了正式反对。
+### 2026-05-18
+- [Prompt API - Microsoft Edge Origin Trials](https://developer.microsoft.com/microsoft-edge/origin-trials/trials/b7d35247-b855-4b08-b237-89e7a5056117) — Microsoft Edge Origin Trials 中介绍了 Prompt API 的使用，这是新事实。
+- [On-device GenAI in Chrome, Chromebook Plus, and Pixel Watch with LiteRT-LM
+            
+            
+            - Google Developers Blog](https://developers.googleblog.com/on-device-genai-in-chrome-chromebook-plus-and-pixel-watch-with-litert-lm/) — Google Developers Blog 中介绍了 LiteRT-LM 引擎，这是新事实。
+- [Gemini Nano  |  AI  |  Android Developers](https://developer.android.com/ai/gemini-nano) — Android Developers 中介绍了 Gemini Nano 在 Android 上的使用，这是新事实。
+
