@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-18T15:13
+last_check: 2026-05-18T18:47
 last_activity: '2026-05-18'
-next_check: 2026-05-18T18:13
+next_check: 2026-05-18T21:47
 interval_hours: 3
-consecutive_empty: 2
-findings_count: 132
+consecutive_empty: 0
+findings_count: 136
 tags:
 - tracker
 - HOT
@@ -225,3 +225,9 @@ deepdive_article: '[[待填写]]'
 - [Is AI officially a national security threat?](https://www.readtangle.com/anthropic-claude-mythos-cybersecurity/) — Anthropic声称其最新模型对公共发布过于危险，引发了对AI是否构成国家安全威胁的讨论。
 ### 2026-05-18
 - [Claude Mythos Just Crossed A Dangerous Line... AGAIN! - YouTube](https://www.youtube.com/watch?v=i-ioLtvb19o) — Claude Mythos 模型的新METR评估显示其自主任务范围达到十六小时，这引起了网络安全团队和政府的反应，这是历史发现中未提及的新事实。
+### 2026-05-18
+- [Anthropic to launch new ‘Claude Mythos’ model with advanced reasoning features - SiliconANGLE](https://siliconangle.com/2026/03/27/anthropic-launch-new-claude-mythos-model-advanced-reasoning-features) — Anthropic 正在测试一个名为 Claude Mythos 的新大型语言模型，该模型具有高级推理功能。
+- [Anthropic Mythos Preview: Cybersecurity Capabilities Explained | Duo Dev Technologies Blog](https://duodev.in/blog/anthropic-mythos-preview-cybersecurity-capabilities-explained) — Anthropic 的 Claude Mythos 模型可以自主发现和有时利用操作系统、浏览器和关键开源软件中的复杂漏洞。
+- [Anthropic Mythos: The AI Model Too Powerful to Ship](https://megaoneai.com/launches/anthropic-mythos-ai-model-launch) — Anthropic 的 Mythos AI 模型被认为过于强大而无法发布，因为它可以崩溃任何机器。
+- [Anthropic Mythos Preview: Key Details on the New AI Model in 2026](https://imfounder.com/science-tech/ai/anthropic-mythos) — Anthropic 的 Mythos 模型在预测试中已经发现了数千个严重程度高的漏洞。
+

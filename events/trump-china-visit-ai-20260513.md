@@ -4,11 +4,11 @@ title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折�
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
 status: HOT
-last_check: 2026-05-18T15:13
+last_check: 2026-05-18T18:47
 last_activity: '2026-05-18'
-next_check: 2026-05-18T18:13
+next_check: 2026-05-18T21:47
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 34
 tags:
 - tracker
@@ -146,4 +146,3 @@ The U.S. Commerce Department has approved around 10 Chinese companies—includin
 - [US clears H200 sales to 10 Chinese firms but no deliveries yet](https://www.resultsense.com/news/2026-05-15-h200-china-export-clearance/) — 美国已批准英伟达H200芯片对10家中国公司的销售，但尚未发货，同时中国AI公司DeepSeek公开表示依赖国内芯片。
 - [中美元首会后初步经贸成果释出 涵盖芯片金融农产品领域 | e南洋](https://www.enanyang.my/?p=1251615) — 美国总统特朗普访华期间，中美在芯片领域取得合作进展，美国商务部已批准英伟达向10家中国企业出售H200芯片。
 - [H200 芯片解禁出口 美国 AI 巨头 Anthropic 不满：必须领先中国 AI 两年_ZAKER新闻](https://www.myzaker.com/article/6a06aa6a8e9f0912003da32d) — 美国宣布解禁H200之后，美国的AI巨头Anthropic表示不满，认为要继续封杀AI芯片出口。
-
