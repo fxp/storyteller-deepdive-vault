@@ -3,16 +3,16 @@ id: chrome-prompt-api-20260509
 title: Google Chrome 推出 Prompt API（浏览器内置 Gemini Nano）
 seed_url: https://developer.chrome.com/docs/ai/prompt-api
 published_date: 2024-11-12
-status: ACTIVE
-last_check: 2026-05-18T07:41
-last_activity: '2026-05-16'
-next_check: 2026-05-18T13:41
-interval_hours: 6
-consecutive_empty: 7
-findings_count: 61
+status: HOT
+last_check: 2026-05-18T15:13
+last_activity: '2026-05-18'
+next_check: 2026-05-18T18:13
+interval_hours: 3
+consecutive_empty: 0
+findings_count: 62
 tags:
 - tracker
-- ACTIVE
+- HOT
 entities:
   orgs:
   - Google
@@ -170,3 +170,6 @@ search_queries:
 - [Chrome is quietly installing a 4GB AI model on your device - Reddit](https://www.reddit.com/r/cybersecurity/comments/1t57mk5/chrome_is_quietly_installing_a_4gb_ai_model_on/) — Reddit 上讨论了 Chrome 安装 4GB AI 模型的事实，这是新事实。
 ### 2026-05-16
 - [How to use Chrome's Prompt API in Extensions - YouTube](https://www.youtube.com/watch?v=HjPQ3hyeXQI) — 视频介绍如何在 Chrome 扩展中使用 Prompt API，提供了新事实。
+### 2026-05-18
+- [Google Ships Chrome Prompt API Over Objections From Mozilla, Apple, W3C, and Microsoft](https://www.techtimes.com/articles/316729/20260516/google-ships-chrome-prompt-api-over-objections-mozilla-apple-w3c-microsoft.htm) — Google 在 Chrome 148 中发布了 Prompt API，尽管 Mozilla、Apple、W3C、Microsoft 和一位 Chrome 工程师都提出了正式反对。
+

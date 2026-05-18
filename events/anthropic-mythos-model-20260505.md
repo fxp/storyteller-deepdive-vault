@@ -4,11 +4,11 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-18T11:29
+last_check: 2026-05-18T15:13
 last_activity: '2026-05-18'
-next_check: 2026-05-18T14:29
+next_check: 2026-05-18T18:13
 interval_hours: 3
-consecutive_empty: 1
+consecutive_empty: 2
 findings_count: 132
 tags:
 - tracker
