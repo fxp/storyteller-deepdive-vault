@@ -4,12 +4,12 @@ title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折�
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
 status: HOT
-last_check: 2026-05-19T07:28
+last_check: 2026-05-19T11:12
 last_activity: '2026-05-19'
-next_check: 2026-05-19T10:28
+next_check: 2026-05-19T14:12
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 46
+findings_count: 47
 tags:
 - tracker
 - HOT
@@ -161,4 +161,6 @@ The U.S. Commerce Department has approved around 10 Chinese companies—includin
 - [昇腾销量飙升，华为成为大赢家](https://news.futunn.com/post/72466158) — 昇腾销量飙升，华为成为大赢家。
 - [华为昇腾市占率40%深度分析：国产AI芯片的拐点已至](https://zhuanlan.zhihu.com/p/2016785804001812691) — 华为昇腾市占率40%深度分析：国产AI芯片的拐点已至。
 - [2026中国AI计算芯片市场研究报告|英伟达_网易订阅](https://www.163.com/dy/article/KT4RR2M605568W0A.html) — 华为昇腾选择了最硬核的全栈自研之路，其达芬奇架构堪称国产通用GPU的巅峰之作。
+### 2026-05-19
+- [打破依赖！华为占据70%以上份额，2025AI芯片产量大增！-电子工程专辑](https://www.eet-china.com/mp/a384946.html) — 华为昇腾910B芯片的DeepSeek R1/V3推理服务上线，单卡算力达到英伟达A100的80%，市场竞争力得到证明。
 
