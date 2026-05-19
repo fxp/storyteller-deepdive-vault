@@ -4,11 +4,11 @@ title: 美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-18T22:28
+last_check: 2026-05-19T03:19
 last_activity: '2026-05-18'
-next_check: 2026-05-19T01:28
+next_check: 2026-05-19T06:19
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 90
 tags:
 - tracker
@@ -196,4 +196,3 @@ Google, Microsoft, Amazon Web Services, Nvidia, OpenAI, Reflection and SpaceX wi
 ### 2026-05-18
 - [CAISI signs AI security testing deals with Google ... - YouTube](https://www.youtube.com/watch?v=inx56iTaVCw) — CAISI与Google DeepMind、Microsoft和xAI签署AI安全测试协议，这是历史发现中未出现的新事实。
 - [Pentagon partners with major AI companies after Anthropic ban](https://www.ms.now/news/pentagon-partners-with-major-ai-companies-after-anthropic-ban) — 五角大楼在禁止Anthropic后与主要AI公司合作，这是历史发现中未出现的新事实。
-

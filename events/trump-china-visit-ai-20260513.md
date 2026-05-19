@@ -4,12 +4,12 @@ title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折�
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
 status: HOT
-last_check: 2026-05-18T22:28
-last_activity: '2026-05-18'
-next_check: 2026-05-19T01:28
+last_check: 2026-05-19T03:19
+last_activity: '2026-05-19'
+next_check: 2026-05-19T06:19
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 37
+findings_count: 42
 tags:
 - tracker
 - HOT
@@ -150,4 +150,10 @@ The U.S. Commerce Department has approved around 10 Chinese companies—includin
 - [Nvidia's H200 Approval Still Has a China Problem](https://hellochinatech.com/p/nvidia-h200-china-demand-control) — 中国可以阻止英伟达H200芯片的需求，北京表明出口批准不再保证中国需求。
 - [美国观察｜美国AI芯片出口管制政策的博弈：维护国家安全和维持技术栈主导的拉锯](https://fddi.fudan.edu.cn/98/ca/c21253a760010/page.htm) — 特朗普政府针对AI芯片出口的管制政策上频繁拉锯，背后凸显出了主张美国国家安全优先和主张技术栈主导地位优先的两派人的激烈博弈。
 - [美批准英伟达对华出口AI芯片“H200”](https://cnnews.chosun.com/client/news/viw.asp?nNewsNumb=20251263970&cate=C01&mcate=) — 美国总统特朗普宣布将批准英伟达向中国出口人工智能（AI）芯片“H200”，但同时开出条件要求向美国政府支付部分销售收益。
+### 2026-05-19
+- [报告：华为2026年将占据中国AI芯片市场50%份额 - 新浪财经](https://finance.sina.com.cn/tech/roll/2025-12-04/doc-infzrrca9218170.shtml) — 华为预计2026年将占据中国AI芯片市场50%份额，这是新的事实，与事件相关。
+- [中国AI芯片市场迎巨变：英伟达2026年将仅占8%_凤凰网](https://tech.ifeng.com/c/8oplCIwd0nv) — 英伟达在中国AI芯片市场的份额预计将显著萎缩至8%，这是新的事实，与事件相关。
+- [华为据悉计划将最先进人工智能芯片的产量提高一倍 - Yahoo 財經](https://hk.finance.yahoo.com/news/%E5%8D%8E%E4%B8%BA%E6%8D%AE%E6%82%89%E8%AE%A1%E5%88%92%E5%B0%86%E9%A1%B6%E7%BA%A7%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E8%8A%AF%E7%89%87%E4%BA%A7%E9%87%8F%E6%8F%90%E9%AB%98-%E5%80%8D-100140803.html) — 华为计划将最先进人工智能芯片的产量提高一倍，这是新的事实，与事件相关。
+- [Trump in Beijing: Can China and the US cooperate on AI governance?](https://www.youtube.com/watch?v=_c22wF0qzrg) — 特朗普在北京讨论了中美在AI治理上的合作，这是新的事实，与事件相关。
+- [How A.I. Was the Elephant in the Room at the Trump-Xi Summit - TIME](https://time.com/article/2026/05/15/trump-xi-us-china-summit-ai-semiconductor-chips/) — 特朗普与习近平在北京的会晤中，AI是重要议题，这是新的事实，与事件相关。
 
