@@ -4,11 +4,11 @@ title: Google Chrome 推出 Prompt API（浏览器内置 Gemini Nano）
 seed_url: https://developer.chrome.com/docs/ai/prompt-api
 published_date: 2024-11-12
 status: HOT
-last_check: 2026-05-19T03:19
+last_check: 2026-05-19T07:28
 last_activity: '2026-05-19'
-next_check: 2026-05-19T06:19
+next_check: 2026-05-19T10:28
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 68
 tags:
 - tracker
@@ -183,4 +183,3 @@ search_queries:
 - [How to run Chrome and Edge's built-in AI - YouTube](https://www.youtube.com/watch?v=sJtCIiXZxNc&vl=en) — 介绍了如何运行 Chrome 和 Edge 内置的 AI，提供了新的事实。
 - [Built-in AI | AI on Chrome - Chrome for Developers](https://developer.chrome.com/docs/ai/built-in) — 介绍了 Chrome 内置 AI API 的使用，提供了新的事实。
 - [Built-in AI APIs  |  AI on Chrome  |  Chrome for Developers](https://developer.chrome.com/docs/ai/built-in-apis) — 介绍了 Chrome 内置 AI API 的不同版本和可用性，提供了新的事实。
-

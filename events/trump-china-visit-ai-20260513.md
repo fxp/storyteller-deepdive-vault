@@ -4,12 +4,12 @@ title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折�
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
 status: HOT
-last_check: 2026-05-19T03:19
+last_check: 2026-05-19T07:28
 last_activity: '2026-05-19'
-next_check: 2026-05-19T06:19
+next_check: 2026-05-19T10:28
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 42
+findings_count: 46
 tags:
 - tracker
 - HOT
@@ -156,4 +156,9 @@ The U.S. Commerce Department has approved around 10 Chinese companies—includin
 - [华为据悉计划将最先进人工智能芯片的产量提高一倍 - Yahoo 財經](https://hk.finance.yahoo.com/news/%E5%8D%8E%E4%B8%BA%E6%8D%AE%E6%82%89%E8%AE%A1%E5%88%92%E5%B0%86%E9%A1%B6%E7%BA%A7%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E8%8A%AF%E7%89%87%E4%BA%A7%E9%87%8F%E6%8F%90%E9%AB%98-%E5%80%8D-100140803.html) — 华为计划将最先进人工智能芯片的产量提高一倍，这是新的事实，与事件相关。
 - [Trump in Beijing: Can China and the US cooperate on AI governance?](https://www.youtube.com/watch?v=_c22wF0qzrg) — 特朗普在北京讨论了中美在AI治理上的合作，这是新的事实，与事件相关。
 - [How A.I. Was the Elephant in the Room at the Trump-Xi Summit - TIME](https://time.com/article/2026/05/15/trump-xi-us-china-summit-ai-semiconductor-chips/) — 特朗普与习近平在北京的会晤中，AI是重要议题，这是新的事实，与事件相关。
+### 2026-05-19
+- [Ai / Artificial Intelligence (@artificialintelligence.co) on Threads](https://www.threads.com/@artificialintelligence.co/post/DYZXHk-ie6q/the-u-s-has-reportedly-approved-a-limited-number-of-chinese-companies-including) — 美国据报道批准了包括阿里巴巴、腾讯、字节跳动和京东在内的几家中国公司购买英伟达的H200 AI芯片。
+- [昇腾销量飙升，华为成为大赢家](https://news.futunn.com/post/72466158) — 昇腾销量飙升，华为成为大赢家。
+- [华为昇腾市占率40%深度分析：国产AI芯片的拐点已至](https://zhuanlan.zhihu.com/p/2016785804001812691) — 华为昇腾市占率40%深度分析：国产AI芯片的拐点已至。
+- [2026中国AI计算芯片市场研究报告|英伟达_网易订阅](https://www.163.com/dy/article/KT4RR2M605568W0A.html) — 华为昇腾选择了最硬核的全栈自研之路，其达芬奇架构堪称国产通用GPU的巅峰之作。
 
