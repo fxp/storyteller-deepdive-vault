@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-19T11:12
+last_check: 2026-05-19T15:15
 last_activity: '2026-05-19'
-next_check: 2026-05-19T14:12
+next_check: 2026-05-19T18:15
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 144
+findings_count: 145
 tags:
 - tracker
 - HOT
@@ -242,4 +242,6 @@ deepdive_article: '[[待填写]]'
 - [Claude Mythos Found a 27-Year-Old Vulnerability — Then the White House Stepped In: 4 Things You Need to Know | MindStudio](https://www.mindstudio.ai/blog/claude-mythos-27-year-openbsd-vulnerability-white-house/) — Mythos发现了一个27年的漏洞，白宫介入控制访问。
 ### 2026-05-19
 - [Let's talk about Mythos! Lot of scary hype about Anthropic's ...](https://www.instagram.com/reel/DXchcK8DuOU/?hl=en) — 未经授权的用户访问了Anthropic的PBC新Mythos AI模型，这是一个公司认为具有潜在风险的技术。
+### 2026-05-19
+- [Why the Trump administration is clashing with AI-firm Anthropic](https://www.youtube.com/watch?v=7DFiBE2GHhg) — 特朗普政府与AI公司Anthropic的冲突升级，特朗普总统下令所有联邦机构停止使用Anthropic的技术。
 

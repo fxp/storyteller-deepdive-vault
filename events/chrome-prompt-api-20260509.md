@@ -4,12 +4,12 @@ title: Google Chrome 推出 Prompt API（浏览器内置 Gemini Nano）
 seed_url: https://developer.chrome.com/docs/ai/prompt-api
 published_date: 2024-11-12
 status: HOT
-last_check: 2026-05-19T11:12
+last_check: 2026-05-19T15:15
 last_activity: '2026-05-19'
-next_check: 2026-05-19T14:12
+next_check: 2026-05-19T18:15
 interval_hours: 3
-consecutive_empty: 2
-findings_count: 68
+consecutive_empty: 0
+findings_count: 70
 tags:
 - tracker
 - HOT
@@ -183,3 +183,7 @@ search_queries:
 - [How to run Chrome and Edge's built-in AI - YouTube](https://www.youtube.com/watch?v=sJtCIiXZxNc&vl=en) — 介绍了如何运行 Chrome 和 Edge 内置的 AI，提供了新的事实。
 - [Built-in AI | AI on Chrome - Chrome for Developers](https://developer.chrome.com/docs/ai/built-in) — 介绍了 Chrome 内置 AI API 的使用，提供了新的事实。
 - [Built-in AI APIs  |  AI on Chrome  |  Chrome for Developers](https://developer.chrome.com/docs/ai/built-in-apis) — 介绍了 Chrome 内置 AI API 的不同版本和可用性，提供了新的事实。
+### 2026-05-19
+- [Where to point users (not developers) to enable Gemini Nano](https://groups.google.com/a/chromium.org/g/chrome-ai-dev-preview-discuss/c/McjAoEMKGnc) — 提供了如何启用 Gemini Nano 的具体步骤。
+- [Understand built-in model management in Chrome | AI on Chrome](https://developer.chrome.com/docs/ai/understand-built-in-model-management) — 介绍了 Chrome 内置 AI 模型的管理方式。
+
