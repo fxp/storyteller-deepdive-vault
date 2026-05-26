@@ -4,12 +4,12 @@ title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折�
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
 status: HOT
-last_check: 2026-05-26T13:16
+last_check: 2026-05-26T17:15
 last_activity: '2026-05-26'
-next_check: 2026-05-26T16:16
+next_check: 2026-05-26T20:15
 interval_hours: 3
-consecutive_empty: 2
-findings_count: 52
+consecutive_empty: 0
+findings_count: 54
 tags:
 - tracker
 - HOT
@@ -171,3 +171,7 @@ The U.S. Commerce Department has approved around 10 Chinese companies—includin
 - [The US cleared around 10 Chinese companies including Alibaba ...](https://www.instagram.com/reel/DYcbwlJy1SZ) — 包括阿里巴巴、腾讯、字节跳动和京东在内的约10家中国公司被批准购买英伟达的H200 AI芯片，但至今没有芯片交付。
 ### 2026-05-26
 - [US clears H200 chip sales to 10 China firms as Nvidia CEO looks for ...](https://www.reuters.com/business/retail-consumer/us-clears-h200-chip-sales-10-china-firms-nvidia-ceo-looks-breakthrough-2026-05-14) — 美国已批准约10家中国公司购买英伟达的H200芯片，但尚未有任何芯片交付。
+### 2026-05-26
+- [The US Commerce Department has approved around 10 Chinese ...](https://www.facebook.com/yahoofinance/posts/the-us-commerce-department-has-approved-around-10-chinese-companies-including-al/1342722931055815) — 美国商务部批准了包括阿里巴巴、腾讯、字节跳动和京东在内的约10家中国公司购买英伟达的H200芯片。
+- [美国计划批准向中国出口英伟达H200芯片-电子工程专辑](https://www.eet-china.com/news/202512092422.html) — 特朗普政府在做出这一决策前，进行了数周的内部讨论，允许出口性能稍逊的H200芯片，被视为对英伟达力推销售更先进的Blackwell芯片主张的折中方案。
+
