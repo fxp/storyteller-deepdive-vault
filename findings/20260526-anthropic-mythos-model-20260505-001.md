@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-26
-url: "https://www.facebook.com/groups/evolutionunleashedai/posts/26280566021564467"
-source_title: "Anthropic Released Mythos Benchmarks Today - Facebook"
+url: "https://medium.com/@tahirbalarabe2/assessing-anthropic-claude-mythos-previews-cybersecurity-capabilities-251a4e0a2137"
+source_title: "Assessing Anthropic Claude Mythos Preview's Cybersecurity ..."
 relevance: RELEVANT
 ---
 
-# Anthropic Released Mythos Benchmarks Today - Facebook
+# Assessing Anthropic Claude Mythos Preview's Cybersecurity ...
 
-**来源**: [Anthropic Released Mythos Benchmarks Today - Facebook](https://www.facebook.com/groups/evolutionunleashedai/posts/26280566021564467)
+**来源**: [Assessing Anthropic Claude Mythos Preview's Cybersecurity ...](https://medium.com/@tahirbalarabe2/assessing-anthropic-claude-mythos-previews-cybersecurity-capabilities-251a4e0a2137)
 **发现时间**: 2026-05-26
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-Facebook上发布Anthropic发布Mythos基准测试，这是新的事实。
+Bloomberg Business报道了Anthropic的Mythos模型对银行、科技巨头和政府的影响，以及它对网络安全和互联网未来的潜在改变。

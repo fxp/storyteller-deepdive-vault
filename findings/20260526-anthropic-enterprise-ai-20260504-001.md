@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-enterprise-ai-20260504]]"
 date: 2026-05-26
-url: "https://www.gic.com.sg/newsroom/all/anthropic-partners-with-blackstone-hellman-friedman-and-goldman-sachs-to-launch-enterprise-ai-services-firm"
-source_title: "Anthropic Partners with GIC to Launch Enterprise AI Services Firm"
+url: "https://www.instagram.com/p/DX92HR0kadq"
+source_title: "Anthropic is teaming up with Blackstone, Hellman & Friedman ..."
 relevance: RELEVANT
 ---
 
-# Anthropic Partners with GIC to Launch Enterprise AI Services Firm
+# Anthropic is teaming up with Blackstone, Hellman & Friedman ...
 
-**来源**: [Anthropic Partners with GIC to Launch Enterprise AI Services Firm](https://www.gic.com.sg/newsroom/all/anthropic-partners-with-blackstone-hellman-friedman-and-goldman-sachs-to-launch-enterprise-ai-services-firm)
+**来源**: [Anthropic is teaming up with Blackstone, Hellman & Friedman ...](https://www.instagram.com/p/DX92HR0kadq)
 **发现时间**: 2026-05-26
 **所属事件**: [[anthropic-enterprise-ai-20260504]]
 
 ## 摘要
 
-Anthropic 与 Blackstone 合作成立了一家新的企业 AI 服务公司，并宣布将 Claude AI 集成到全球企业运营中。
+Anthropic 与 Blackstone、Hellman & Friedman 和 Goldman Sachs 合作成立了一家新的 AI 服务公司，这是一个新的融资事实。

@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-26T17:15
+last_check: 2026-05-26T20:47
 last_activity: '2026-05-26'
-next_check: 2026-05-26T20:15
+next_check: 2026-05-26T23:47
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 158
+findings_count: 159
 tags:
 - tracker
 - HOT
@@ -262,4 +262,6 @@ deepdive_article: '[[待填写]]'
 - [Anthropic seeks to undo 'supply chain risk' designation from Trump administration | AP News](https://apnews.com/article/anthropic-trump-pentagon-hegseth-ai-104c6c39306f1adeea3b637d2c1c601b) — Anthropic寻求撤销特朗普政府对其技术的供应链风险指定，这是一个新的事实。
 ### 2026-05-26
 - [Anthropic Released Mythos Benchmarks Today - Facebook](https://www.facebook.com/groups/evolutionunleashedai/posts/26280566021564467) — Facebook上发布Anthropic发布Mythos基准测试，这是新的事实。
+### 2026-05-26
+- [Assessing Anthropic Claude Mythos Preview's Cybersecurity ...](https://medium.com/@tahirbalarabe2/assessing-anthropic-claude-mythos-previews-cybersecurity-capabilities-251a4e0a2137) — Bloomberg Business报道了Anthropic的Mythos模型对银行、科技巨头和政府的影响，以及它对网络安全和互联网未来的潜在改变。
 
