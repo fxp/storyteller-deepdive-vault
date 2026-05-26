@@ -4,12 +4,12 @@ title: 美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-26T09:24
+last_check: 2026-05-26T13:16
 last_activity: '2026-05-26'
-next_check: 2026-05-26T12:24
+next_check: 2026-05-26T16:16
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 105
+findings_count: 106
 tags:
 - tracker
 - HOT
@@ -215,4 +215,6 @@ Google, Microsoft, Amazon Web Services, Nvidia, OpenAI, Reflection and SpaceX wi
 - [Pentagon strikes deal with 8 AI firms including Google, Microsoft, OpenAI, Nvidia](https://americanbazaaronline.com/2026/05/04/pentagon-strikes-deal-with-8-ai-firms-including-google-microsoft-openai-nvidia-480074) — 美国国防部与包括Google、Microsoft、OpenAI、Nvidia在内的八家AI公司达成协议，以在机密系统上部署AI技术，这是历史发现中未出现的新事实。
 - [Top AI companies agree to work with Pentagon on secret data](https://www.washingtonpost.com/technology/2026/05/01/pentagon-ai-deals-microsoft-amazon-google-classified-military) — 美国国防部与包括Amazon、Google和Microsoft在内的公司签署了协议，以在机密军事数据上合作，这是历史发现中未出现的新事实。
 - [Advancing AI evaluation with the Center for AI Standards (US) and Innovation and the AI Security Institute (UK) - Microsoft On the Issues](https://blogs.microsoft.com/on-the-issues/2026/05/05/advancing-ai-evaluation-with-the-center-for-ai-standards-us-and-innovation-and-the-ai-security-institute-uk) — 微软宣布与美国的AI标准和创新中心（CAISI）以及英国的AI安全研究所（AISI）合作，以推进AI测试和评估的科学，这是历史发现中未出现的新事实。
+### 2026-05-26
+- [Google, Microsoft and xAI’s frontier AI to face national security testing | CIO Dive](https://www.ciodive.com/news/Google-Microsoft-xAI-to-face-security-testing/819375) — 美国政府与微软、Google和xAI签署AI安全测试协议，Anthropic被排除在外。
 

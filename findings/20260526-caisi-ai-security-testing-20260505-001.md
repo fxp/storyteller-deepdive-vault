@@ -1,17 +1,17 @@
 ---
 event: "[[caisi-ai-security-testing-20260505]]"
 date: 2026-05-26
-url: "https://americanbazaaronline.com/2026/05/04/pentagon-strikes-deal-with-8-ai-firms-including-google-microsoft-openai-nvidia-480074"
-source_title: "Pentagon strikes deal with 8 AI firms including Google, Microsoft, OpenAI, Nvidia"
+url: "https://www.ciodive.com/news/Google-Microsoft-xAI-to-face-security-testing/819375"
+source_title: "Google, Microsoft and xAI’s frontier AI to face national security testing | CIO Dive"
 relevance: RELEVANT
 ---
 
-# Pentagon strikes deal with 8 AI firms including Google, Microsoft, OpenAI, Nvidia
+# Google, Microsoft and xAI’s frontier AI to face national security testing | CIO Dive
 
-**来源**: [Pentagon strikes deal with 8 AI firms including Google, Microsoft, OpenAI, Nvidia](https://americanbazaaronline.com/2026/05/04/pentagon-strikes-deal-with-8-ai-firms-including-google-microsoft-openai-nvidia-480074)
+**来源**: [Google, Microsoft and xAI’s frontier AI to face national security testing | CIO Dive](https://www.ciodive.com/news/Google-Microsoft-xAI-to-face-security-testing/819375)
 **发现时间**: 2026-05-26
 **所属事件**: [[caisi-ai-security-testing-20260505]]
 
 ## 摘要
 
-美国国防部与包括Google、Microsoft、OpenAI、Nvidia在内的八家AI公司达成协议，以在机密系统上部署AI技术，这是历史发现中未出现的新事实。
+美国政府与微软、Google和xAI签署AI安全测试协议，Anthropic被排除在外。
