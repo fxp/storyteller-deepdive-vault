@@ -4,12 +4,12 @@ title: 美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-19T15:15
-last_activity: '2026-05-19'
-next_check: 2026-05-19T18:15
+last_check: 2026-05-26T01:07
+last_activity: '2026-05-26'
+next_check: 2026-05-26T04:07
 interval_hours: 3
-consecutive_empty: 2
-findings_count: 92
+consecutive_empty: 0
+findings_count: 94
 tags:
 - tracker
 - HOT
@@ -199,3 +199,7 @@ Google, Microsoft, Amazon Web Services, Nvidia, OpenAI, Reflection and SpaceX wi
 ### 2026-05-19
 - [Pentagon signs AI deals with OpenAI, Google, Microsoft and Amazon](https://www.proactiveinvestors.com/companies/news/1091605/pentagon-signs-ai-deals-with-openai-google-microsoft-and-amazon-1091605.html) — Pentagon signs agreements with seven technology groups to deploy artificial intelligence tools across its classified networks.
 - [OpenAI announces Pentagon deal after Trump bans Anthropic - WUSF](https://www.wusf.org/2026-02-27/openai-announces-pentagon-deal-after-trump-bans-anthropic) — OpenAI announces Pentagon deal after Trump bans Anthropic.
+### 2026-05-26
+- [DOC NIST's CAISI Signs Agreements Regarding Frontier ...](https://orangeslices.ai/doc-nists-caisi-signs-agreements-regarding-frontier-ai-national-security-testing-with-google-deepmind-microsoft-and-xai) — 美国政府与微软、Google和xAI签署AI安全测试协议，Anthropic被排除，这是历史发现中未出现的新事实。
+- [Microsoft, Google and xAI to Give Government Early Access to AI Models](https://www.insurancejournal.com/news/national/2026/05/06/868677.htm) — 微软、Google和xAI同意向美国政府提前提供新的AI模型进行国家安全测试，这是历史发现中未出现的新事实。
+

@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-19T15:15
-last_activity: '2026-05-19'
-next_check: 2026-05-19T18:15
+last_check: 2026-05-26T01:07
+last_activity: '2026-05-26'
+next_check: 2026-05-26T04:07
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 145
+findings_count: 152
 tags:
 - tracker
 - HOT
@@ -244,4 +244,12 @@ deepdive_article: '[[待填写]]'
 - [Let's talk about Mythos! Lot of scary hype about Anthropic's ...](https://www.instagram.com/reel/DXchcK8DuOU/?hl=en) — 未经授权的用户访问了Anthropic的PBC新Mythos AI模型，这是一个公司认为具有潜在风险的技术。
 ### 2026-05-19
 - [Why the Trump administration is clashing with AI-firm Anthropic](https://www.youtube.com/watch?v=7DFiBE2GHhg) — 特朗普政府与AI公司Anthropic的冲突升级，特朗普总统下令所有联邦机构停止使用Anthropic的技术。
+### 2026-05-26
+- [Anthropic debuts preview of powerful new AI model Mythos ...](https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security) — Anthropic发布Mythos模型预览，用于网络安全工作，这是新的事实。
+- [Anthropic's Mythos moment: how frontier AI is redefining ...](https://www.weforum.org/stories/2026/04/anthropic-mythos-ai-cybersecurity) — 文章讨论了前沿AI如何重新定义网络安全，这是新的事实。
+- [Scoop: NSA using Anthropic's Mythos despite blacklist](https://www.axios.com/2026/04/19/nsa-anthropic-mythos-pentagon) — 报道指出NSA在使用Anthropic的Mythos模型，尽管它被列入黑名单，这是新的事实。
+- [Claude Mythos leads 17 of 18 benchmarks Anthropic measured. Muse Spark put Meta back in the frontier club, and OpenAI's 'Spud' model is reportedly near launch](https://www.rdworldonline.com/claude-mythos-leads-17-of-18-benchmarks-anthropic-measured-muse-spark-put-meta-back-in-the-frontier-club-and-openais-spud-model-is-reportedly-near-launch) — Anthropic的Mythos模型在17项基准测试中领先，这是新的事实。
+- [Claude Mythos vs Claude Opus 4.6: How Big Is the Cybersecurity Capability Gap? | MindStudio](https://www.mindstudio.ai/blog/claude-mythos-vs-opus-4-6-cybersecurity-gap) — 文章比较了Claude Mythos和Claude Opus 4.6的网络安全能力，这是新的事实。
+- [Claude Mythos: Rethinking cybersecurity and AI governance  | IAPP](https://iapp.org/news/a/claude-mythos-rethinking-cybersecurity-and-ai-governance) — 文章讨论了Anthropic对Claude Mythos预览的限制，以及其对AI治理的影响，这是新的事实。
+- [What Anthropic's Mythos AI Model Actually Means for Defenders: And Why the Window Is Closing](https://blog.7ai.com/what-anthropics-mythos-ai-model-actually-means-for-defenders-and-why-the-window-is-closing) — 博客文章讨论了Mythos AI模型对防御者的意义，以及为什么窗口正在关闭，这是新的事实。
 
