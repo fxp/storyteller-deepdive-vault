@@ -4,12 +4,12 @@ title: Anthropic + Blackstone 联合组建企业 AI 交付公司
 seed_url: https://www.anthropic.com/news/enterprise-ai-services-company
 published_date: 2026-05-04
 status: HOT
-last_check: 2026-05-26T01:07
+last_check: 2026-05-26T05:30
 last_activity: '2026-05-26'
-next_check: 2026-05-26T04:07
+next_check: 2026-05-26T08:30
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 49
+findings_count: 50
 tags:
 - tracker
 - HOT
@@ -141,4 +141,6 @@ deepdive_article: '[[待填写]]'
 - [Anthropic Launches Enterprise AI Services with Blackstone and ...](https://www.linkedin.com/posts/zacharymenzer_anthropic-partners-with-blackstone-hellman-activity-7458700399605256192-y4Mj) — Anthropic 与 Blackstone 合作成立了一家新的企业AI服务公司。
 ### 2026-05-26
 - [Anthropic Partners with Blackstone, Hellman & Friedman, and ...](https://www.blackstone.com/news/press/anthropic-partners-with-blackstone-hellman-friedman-and-goldman-sachs-to-launch-enterprise-ai-services-firm) — Anthropic 与 Blackstone、Hellman & Friedman 和 Goldman Sachs 正式宣布成立一家新的 AI 原生企业服务公司，旨在快速将 Claude 引入企业核心业务运营。
+### 2026-05-26
+- [Claude, Open the Pod Bay Doors](https://peprofessional.com/2026/05/claude-open-the-pod-bay-doors) — Blackstone, Hellman & Friedman 和 Goldman Sachs 投资 15 亿美元支持 Anthropic 的 AI 平台 Claude 的部署。
 

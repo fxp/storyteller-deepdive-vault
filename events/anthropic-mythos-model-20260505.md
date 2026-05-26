@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-26T01:07
+last_check: 2026-05-26T05:30
 last_activity: '2026-05-26'
-next_check: 2026-05-26T04:07
+next_check: 2026-05-26T08:30
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 152
+findings_count: 154
 tags:
 - tracker
 - HOT
@@ -252,4 +252,7 @@ deepdive_article: '[[待填写]]'
 - [Claude Mythos vs Claude Opus 4.6: How Big Is the Cybersecurity Capability Gap? | MindStudio](https://www.mindstudio.ai/blog/claude-mythos-vs-opus-4-6-cybersecurity-gap) — 文章比较了Claude Mythos和Claude Opus 4.6的网络安全能力，这是新的事实。
 - [Claude Mythos: Rethinking cybersecurity and AI governance  | IAPP](https://iapp.org/news/a/claude-mythos-rethinking-cybersecurity-and-ai-governance) — 文章讨论了Anthropic对Claude Mythos预览的限制，以及其对AI治理的影响，这是新的事实。
 - [What Anthropic's Mythos AI Model Actually Means for Defenders: And Why the Window Is Closing](https://blog.7ai.com/what-anthropics-mythos-ai-model-actually-means-for-defenders-and-why-the-window-is-closing) — 博客文章讨论了Mythos AI模型对防御者的意义，以及为什么窗口正在关闭，这是新的事实。
+### 2026-05-26
+- [Anthropic’s Mythos is a wake-up call, but experts say the era of AI-driven hacking is already here | Fortune](https://fortune.com/2026/04/10/anthropic-mythos-ai-driven-cybersecurity-risks-already-here) — Anthropic限制对其最新AI模型Mythos的访问，称其具有前所未有的网络安全风险，并限制其发布以给网络安全防御者更多时间来加固他们的系统。
+- [When Mythos is eventually released to the public, Anthropic says its ...](https://www.facebook.com/TheEconomist/posts/when-mythos-is-eventually-released-to-the-public-anthropic-says-its-hacking-powe/1456892429802606) — 模型展示了自主发现和利用安全漏洞的能力，促使监管机构、银行和政府进行评估。
 

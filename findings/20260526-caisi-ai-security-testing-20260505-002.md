@@ -1,17 +1,17 @@
 ---
 event: "[[caisi-ai-security-testing-20260505]]"
 date: 2026-05-26
-url: "https://www.insurancejournal.com/news/national/2026/05/06/868677.htm"
-source_title: "Microsoft, Google and xAI to Give Government Early Access to AI Models"
+url: "https://www.youtube.com/watch?v=Bi7ckGkT6WE"
+source_title: "Pentagon Signs AI Deals With Microsoft, Amazon, Nvidia & Oracle ..."
 relevance: RELEVANT
 ---
 
-# Microsoft, Google and xAI to Give Government Early Access to AI Models
+# Pentagon Signs AI Deals With Microsoft, Amazon, Nvidia & Oracle ...
 
-**来源**: [Microsoft, Google and xAI to Give Government Early Access to AI Models](https://www.insurancejournal.com/news/national/2026/05/06/868677.htm)
+**来源**: [Pentagon Signs AI Deals With Microsoft, Amazon, Nvidia & Oracle ...](https://www.youtube.com/watch?v=Bi7ckGkT6WE)
 **发现时间**: 2026-05-26
 **所属事件**: [[caisi-ai-security-testing-20260505]]
 
 ## 摘要
 
-微软、Google和xAI同意向美国政府提前提供新的AI模型进行国家安全测试，这是历史发现中未出现的新事实。
+Pentagon 与包括Nvidia、Microsoft、Amazon Web Services和Oracle在内的公司签署AI协议，用于机密军事用途，这是历史发现中未出现的新事实。

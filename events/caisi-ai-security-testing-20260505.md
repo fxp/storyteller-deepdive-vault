@@ -4,12 +4,12 @@ title: 美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-26T01:07
+last_check: 2026-05-26T05:30
 last_activity: '2026-05-26'
-next_check: 2026-05-26T04:07
+next_check: 2026-05-26T08:30
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 94
+findings_count: 102
 tags:
 - tracker
 - HOT
@@ -202,4 +202,13 @@ Google, Microsoft, Amazon Web Services, Nvidia, OpenAI, Reflection and SpaceX wi
 ### 2026-05-26
 - [DOC NIST's CAISI Signs Agreements Regarding Frontier ...](https://orangeslices.ai/doc-nists-caisi-signs-agreements-regarding-frontier-ai-national-security-testing-with-google-deepmind-microsoft-and-xai) — 美国政府与微软、Google和xAI签署AI安全测试协议，Anthropic被排除，这是历史发现中未出现的新事实。
 - [Microsoft, Google and xAI to Give Government Early Access to AI Models](https://www.insurancejournal.com/news/national/2026/05/06/868677.htm) — 微软、Google和xAI同意向美国政府提前提供新的AI模型进行国家安全测试，这是历史发现中未出现的新事实。
+### 2026-05-26
+- [Pentagon reaches deal with leading AI companies for classified work](https://thehill.com/policy/technology/5858995-pentagon-ai-companies-classified-work-deal) — Pentagon 与多家AI公司签署协议，用于在机密军事网络上部署AI技术，这是历史发现中未出现的新事实。
+- [Pentagon Signs AI Deals With Microsoft, Amazon, Nvidia & Oracle ...](https://www.youtube.com/watch?v=Bi7ckGkT6WE) — Pentagon 与包括Nvidia、Microsoft、Amazon Web Services和Oracle在内的公司签署AI协议，用于机密军事用途，这是历史发现中未出现的新事实。
+- [Pentagon inks deals with Nvidia, Microsoft, and AWS to deploy AI on ...](https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks) — Pentagon 与Nvidia、Microsoft、Amazon Web Services签署协议，允许在机密网络上部署AI技术，这是历史发现中未出现的新事实。
+- [Pentagon reaches deals with 7 tech companies allowing US military to use their AI to help fight wars - ABC7 New York](https://abc7ny.com/post/pentagon-reaches-deals-7-tech-companies-allowing-us-military-use-ai-help-fight-wars/19016125) — Pentagon 与七家科技公司达成协议，允许在机密计算机网络上使用其人工智能，以利用AI驱动的能力帮助其作战，这是历史发现中未出现的新事实。
+- [Pentagon inks deals with AI giants, but not Anthropic](https://www.dw.com/en/pentagon-inks-deals-with-ai-giants-but-not-anthropic/a-77012715) — Pentagon 与AI巨头签署协议，但排除了Anthropic，这是历史发现中未出现的新事实。
+- [Federal government to vet AI models before release - The Hill](https://thehill.com/homenews/5863937-google-microsoft-xai-ai-testing) — 三大人工智能公司同意在部署前与联邦政府分享其模型进行测试，这是历史发现中未出现的新事实。
+- [The U.S. government is expanding its AI risk testing program ...](https://www.instagram.com/p/DYAGJSCjVKB) — Pentagon批准了来自OpenAI、Google、Microsoft、NVIDIA和xAI的AI模型在机密国防系统中运行，这是历史发现中未出现的新事实。
+- [White House May Create AI Vetting System - LinkedIn](https://www.linkedin.com/posts/jnitterauer_us-government-agency-to-safety-test-frontier-activity-7458515280814682113-q4CW) — Google DeepMind、Microsoft和xAI已同意让美国政府在新AI模型发布前对其进行审查，这是历史发现中未出现的新事实。
 
