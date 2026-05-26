@@ -4,12 +4,12 @@ title: Google Chrome 推出 Prompt API（浏览器内置 Gemini Nano）
 seed_url: https://developer.chrome.com/docs/ai/prompt-api
 published_date: 2024-11-12
 status: HOT
-last_check: 2026-05-26T05:30
+last_check: 2026-05-26T09:24
 last_activity: '2026-05-26'
-next_check: 2026-05-26T08:30
+next_check: 2026-05-26T12:24
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 73
+findings_count: 77
 tags:
 - tracker
 - HOT
@@ -191,4 +191,9 @@ search_queries:
 - [Mozilla's opposition to Chrome's Prompt API (which only supports ...](https://www.reddit.com/r/linux/comments/1t01wpv/mozillas_opposition_to_chromes_prompt_api_which) — Mozilla 对 Chrome 的 Prompt API 表示反对，提供了新的观点。
 ### 2026-05-26
 - [# Gemini Nano: Google's Most Powerful On-Device AI Model ...](https://www.facebook.com/groups/AIUGM/posts/3799327687014865) — Google 的 Gemini Nano 现已可在 Chrome Canary 版本中供开发者使用，用户可以通过启用一些 Chrome 标志来尝试它。
+### 2026-05-26
+- [Chrome's Local AI Model in production (Gemini Nano) 41 ... - Reddit](https://www.reddit.com/r/LocalLLaMA/comments/1qkph45/chromes_local_ai_model_in_production_gemini_nano) — Chrome's Local AI Model in production (Gemini Nano) 41 ... - Reddit
+- [Google Brings Gemini Nano to Chrome to Enable On-Device Generative AI - InfoQ](https://www.infoq.com/news/2024/05/chrome-gemini-nano) — Google Brings Gemini Nano to Chrome to Enable On-Device Generative AI - InfoQ
+- [Gemini Nano in Production: 41% Eligibility, 6x Slower, $0 Cost](https://sendcheckit.com/blog/ai-powered-subject-line-alternatives) — Gemini Nano in Production: 41% Eligibility, 6x Slower, $0 Cost
+- [When Chrome's Prompt API goes public — what are the first real use ...](https://www.reddit.com/r/chrome_extensions/comments/1r78n49/when_chromes_prompt_api_goes_public_what_are_the) — When Chrome's Prompt API goes public — what are the first real use ...
 

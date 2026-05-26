@@ -1,17 +1,17 @@
 ---
 event: "[[caisi-ai-security-testing-20260505]]"
 date: 2026-05-26
-url: "https://thehill.com/policy/technology/5858995-pentagon-ai-companies-classified-work-deal"
-source_title: "Pentagon reaches deal with leading AI companies for classified work"
+url: "https://americanbazaaronline.com/2026/05/04/pentagon-strikes-deal-with-8-ai-firms-including-google-microsoft-openai-nvidia-480074"
+source_title: "Pentagon strikes deal with 8 AI firms including Google, Microsoft, OpenAI, Nvidia"
 relevance: RELEVANT
 ---
 
-# Pentagon reaches deal with leading AI companies for classified work
+# Pentagon strikes deal with 8 AI firms including Google, Microsoft, OpenAI, Nvidia
 
-**来源**: [Pentagon reaches deal with leading AI companies for classified work](https://thehill.com/policy/technology/5858995-pentagon-ai-companies-classified-work-deal)
+**来源**: [Pentagon strikes deal with 8 AI firms including Google, Microsoft, OpenAI, Nvidia](https://americanbazaaronline.com/2026/05/04/pentagon-strikes-deal-with-8-ai-firms-including-google-microsoft-openai-nvidia-480074)
 **发现时间**: 2026-05-26
 **所属事件**: [[caisi-ai-security-testing-20260505]]
 
 ## 摘要
 
-Pentagon 与多家AI公司签署协议，用于在机密军事网络上部署AI技术，这是历史发现中未出现的新事实。
+美国国防部与包括Google、Microsoft、OpenAI、Nvidia在内的八家AI公司达成协议，以在机密系统上部署AI技术，这是历史发现中未出现的新事实。

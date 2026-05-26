@@ -4,11 +4,11 @@ title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折�
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
 status: HOT
-last_check: 2026-05-26T05:30
+last_check: 2026-05-26T09:24
 last_activity: '2026-05-26'
-next_check: 2026-05-26T08:30
+next_check: 2026-05-26T12:24
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 52
 tags:
 - tracker
@@ -171,4 +171,3 @@ The U.S. Commerce Department has approved around 10 Chinese companies—includin
 - [The US cleared around 10 Chinese companies including Alibaba ...](https://www.instagram.com/reel/DYcbwlJy1SZ) — 包括阿里巴巴、腾讯、字节跳动和京东在内的约10家中国公司被批准购买英伟达的H200 AI芯片，但至今没有芯片交付。
 ### 2026-05-26
 - [US clears H200 chip sales to 10 China firms as Nvidia CEO looks for ...](https://www.reuters.com/business/retail-consumer/us-clears-h200-chip-sales-10-china-firms-nvidia-ceo-looks-breakthrough-2026-05-14) — 美国已批准约10家中国公司购买英伟达的H200芯片，但尚未有任何芯片交付。
-

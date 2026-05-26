@@ -4,12 +4,12 @@ title: 美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-26T05:30
+last_check: 2026-05-26T09:24
 last_activity: '2026-05-26'
-next_check: 2026-05-26T08:30
+next_check: 2026-05-26T12:24
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 102
+findings_count: 105
 tags:
 - tracker
 - HOT
@@ -211,4 +211,8 @@ Google, Microsoft, Amazon Web Services, Nvidia, OpenAI, Reflection and SpaceX wi
 - [Federal government to vet AI models before release - The Hill](https://thehill.com/homenews/5863937-google-microsoft-xai-ai-testing) — 三大人工智能公司同意在部署前与联邦政府分享其模型进行测试，这是历史发现中未出现的新事实。
 - [The U.S. government is expanding its AI risk testing program ...](https://www.instagram.com/p/DYAGJSCjVKB) — Pentagon批准了来自OpenAI、Google、Microsoft、NVIDIA和xAI的AI模型在机密国防系统中运行，这是历史发现中未出现的新事实。
 - [White House May Create AI Vetting System - LinkedIn](https://www.linkedin.com/posts/jnitterauer_us-government-agency-to-safety-test-frontier-activity-7458515280814682113-q4CW) — Google DeepMind、Microsoft和xAI已同意让美国政府在新AI模型发布前对其进行审查，这是历史发现中未出现的新事实。
+### 2026-05-26
+- [Pentagon strikes deal with 8 AI firms including Google, Microsoft, OpenAI, Nvidia](https://americanbazaaronline.com/2026/05/04/pentagon-strikes-deal-with-8-ai-firms-including-google-microsoft-openai-nvidia-480074) — 美国国防部与包括Google、Microsoft、OpenAI、Nvidia在内的八家AI公司达成协议，以在机密系统上部署AI技术，这是历史发现中未出现的新事实。
+- [Top AI companies agree to work with Pentagon on secret data](https://www.washingtonpost.com/technology/2026/05/01/pentagon-ai-deals-microsoft-amazon-google-classified-military) — 美国国防部与包括Amazon、Google和Microsoft在内的公司签署了协议，以在机密军事数据上合作，这是历史发现中未出现的新事实。
+- [Advancing AI evaluation with the Center for AI Standards (US) and Innovation and the AI Security Institute (UK) - Microsoft On the Issues](https://blogs.microsoft.com/on-the-issues/2026/05/05/advancing-ai-evaluation-with-the-center-for-ai-standards-us-and-innovation-and-the-ai-security-institute-uk) — 微软宣布与美国的AI标准和创新中心（CAISI）以及英国的AI安全研究所（AISI）合作，以推进AI测试和评估的科学，这是历史发现中未出现的新事实。
 

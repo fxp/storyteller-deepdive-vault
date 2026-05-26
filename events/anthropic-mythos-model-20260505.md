@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-26T05:30
+last_check: 2026-05-26T09:24
 last_activity: '2026-05-26'
-next_check: 2026-05-26T08:30
+next_check: 2026-05-26T12:24
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 154
+findings_count: 156
 tags:
 - tracker
 - HOT
@@ -255,4 +255,7 @@ deepdive_article: '[[待填写]]'
 ### 2026-05-26
 - [Anthropic’s Mythos is a wake-up call, but experts say the era of AI-driven hacking is already here | Fortune](https://fortune.com/2026/04/10/anthropic-mythos-ai-driven-cybersecurity-risks-already-here) — Anthropic限制对其最新AI模型Mythos的访问，称其具有前所未有的网络安全风险，并限制其发布以给网络安全防御者更多时间来加固他们的系统。
 - [When Mythos is eventually released to the public, Anthropic says its ...](https://www.facebook.com/TheEconomist/posts/when-mythos-is-eventually-released-to-the-public-anthropic-says-its-hacking-powe/1456892429802606) — 模型展示了自主发现和利用安全漏洞的能力，促使监管机构、银行和政府进行评估。
+### 2026-05-26
+- [Anthropic is giving some firms access to Claude Mythos to ... - Fortune](https://fortune.com/2026/04/07/anthropic-claude-mythos-model-project-glasswing-cybersecurity) — Anthropic 正在向一些大科技和网络安全公司提供 Claude Mythos 预览版，以加强全球关键系统的网络安全防御。
+- [Former national cyber director: Anthropic's 'Mythos' AI can hack nearly anything and we aren't ready | Fortune](https://fortune.com/2026/04/23/anthropic-mythos-ai-cybersecurity-critical-infrastructure-kemba-walden) — 前国家网络安全总监表示，Anthropic 的 'Mythos' AI 模型几乎可以攻击任何系统，而我们还没有准备好。
 

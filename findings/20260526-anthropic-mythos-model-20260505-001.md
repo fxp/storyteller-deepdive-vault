@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-26
-url: "https://fortune.com/2026/04/10/anthropic-mythos-ai-driven-cybersecurity-risks-already-here"
-source_title: "Anthropic’s Mythos is a wake-up call, but experts say the era of AI-driven hacking is already here | Fortune"
+url: "https://fortune.com/2026/04/07/anthropic-claude-mythos-model-project-glasswing-cybersecurity"
+source_title: "Anthropic is giving some firms access to Claude Mythos to ... - Fortune"
 relevance: RELEVANT
 ---
 
-# Anthropic’s Mythos is a wake-up call, but experts say the era of AI-driven hacking is already here | Fortune
+# Anthropic is giving some firms access to Claude Mythos to ... - Fortune
 
-**来源**: [Anthropic’s Mythos is a wake-up call, but experts say the era of AI-driven hacking is already here | Fortune](https://fortune.com/2026/04/10/anthropic-mythos-ai-driven-cybersecurity-risks-already-here)
+**来源**: [Anthropic is giving some firms access to Claude Mythos to ... - Fortune](https://fortune.com/2026/04/07/anthropic-claude-mythos-model-project-glasswing-cybersecurity)
 **发现时间**: 2026-05-26
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-Anthropic限制对其最新AI模型Mythos的访问，称其具有前所未有的网络安全风险，并限制其发布以给网络安全防御者更多时间来加固他们的系统。
+Anthropic 正在向一些大科技和网络安全公司提供 Claude Mythos 预览版，以加强全球关键系统的网络安全防御。
