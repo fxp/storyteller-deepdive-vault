@@ -3,16 +3,16 @@ id: trump-china-visit-ai-20260513
 title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折）
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
-status: ACTIVE
-last_check: 2026-05-27T17:15
-last_activity: '2026-05-26'
-next_check: 2026-05-27T23:15
-interval_hours: 6
-consecutive_empty: 5
-findings_count: 54
+status: HOT
+last_check: 2026-05-27T23:33
+last_activity: '2026-05-27'
+next_check: 2026-05-28T02:33
+interval_hours: 3
+consecutive_empty: 0
+findings_count: 58
 tags:
 - tracker
-- ACTIVE
+- HOT
 entities:
   orgs:
   - 美国政府
@@ -174,3 +174,9 @@ The U.S. Commerce Department has approved around 10 Chinese companies—includin
 ### 2026-05-26
 - [The US Commerce Department has approved around 10 Chinese ...](https://www.facebook.com/yahoofinance/posts/the-us-commerce-department-has-approved-around-10-chinese-companies-including-al/1342722931055815) — 美国商务部批准了包括阿里巴巴、腾讯、字节跳动和京东在内的约10家中国公司购买英伟达的H200芯片。
 - [美国计划批准向中国出口英伟达H200芯片-电子工程专辑](https://www.eet-china.com/news/202512092422.html) — 特朗普政府在做出这一决策前，进行了数周的内部讨论，允许出口性能稍逊的H200芯片，被视为对英伟达力推销售更先进的Blackwell芯片主张的折中方案。
+### 2026-05-27
+- [美中峰会“芯片无交易”…中：将使用国产芯片取代英伟达](https://cnnews.chosun.com/client/news/viw.asp?nNewsNumb=20260564773&cate=C01&mcate=M1002) — 美国总统特朗普与中国国家主席习近平的会谈中，芯片出口管制问题并未被提及，但英伟达的中国专供人工智能（AI）H200将重启对华出口的预测落空。
+- [昇腾销量飙升，华为成为大赢家|英伟达|人工智能|知名企业|nvidia|ascend_网易订阅](https://www.163.com/dy/article/KRTOQEJA0511CPMT.html) — 美国政府已采取行动，禁止在中国销售所有尖端人工智能芯片，导致英伟达市场份额跌至零，中国更加依赖国产芯片。
+- [报告：华为2026年将占据中国AI芯片市场50%份额 - 财富号](https://caifuhao.eastmoney.com/news/20251204204911668741100) — 华为预计将在2026年底前占据中国人工智能市场60%的份额，成为该领域的绝对领导者。
+- [8只值得关注的中国人工智能股票，正值华为芯片激增之际 - NAI500](https://nai500.com/zh-hans/blog/2026/05/8-33) — 华为的AI芯片订单簿正在膨胀，中国的计算栈决定性地向本土硅片、软件和系统集成转向并实现规模化。
+
