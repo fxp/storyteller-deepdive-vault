@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-27
-url: "https://www.osvnews.com/anthropic-fight-with-the-pentagon-amid-iran-war-puts-ethics-of-ai-warfare-in-focus"
-source_title: "Anthropic fight with the Pentagon amid Iran war puts ethics of AI warfare in focus - OSV News"
+url: "https://red.anthropic.com/2026/mythos-preview"
+source_title: "Claude Mythos Preview \ red.anthropic.com"
 relevance: RELEVANT
 ---
 
-# Anthropic fight with the Pentagon amid Iran war puts ethics of AI warfare in focus - OSV News
+# Claude Mythos Preview \ red.anthropic.com
 
-**来源**: [Anthropic fight with the Pentagon amid Iran war puts ethics of AI warfare in focus - OSV News](https://www.osvnews.com/anthropic-fight-with-the-pentagon-amid-iran-war-puts-ethics-of-ai-warfare-in-focus)
+**来源**: [Claude Mythos Preview \ red.anthropic.com](https://red.anthropic.com/2026/mythos-preview)
 **发现时间**: 2026-05-27
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-Anthropic 与五角大楼在伊朗战争期间发生冲突，将人工智能战争的伦理问题置于焦点。
+Anthropic 发布 Mythos 前沿模型，并展示了其能够自主编写针对已修复漏洞的复杂攻击代码的新能力。

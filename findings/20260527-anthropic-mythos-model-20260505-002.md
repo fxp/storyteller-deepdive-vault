@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-27
-url: "https://lawreview.syr.edu/when-ai-ethics-collide-with-national-security-anthropic-challenges-pentagon-blacklisting"
-source_title: "When AI Ethics Collide with National Security: Anthropic Challenges Pentagon Blacklisting"
+url: "https://www.giskard.ai/knowledge/claude-mythos-analyzing-anthropics-new-frontier-model-for-ai-security"
+source_title: "Claude Mythos: Analyzing Anthropic’s new frontier model for AI security"
 relevance: RELEVANT
 ---
 
-# When AI Ethics Collide with National Security: Anthropic Challenges Pentagon Blacklisting
+# Claude Mythos: Analyzing Anthropic’s new frontier model for AI security
 
-**来源**: [When AI Ethics Collide with National Security: Anthropic Challenges Pentagon Blacklisting](https://lawreview.syr.edu/when-ai-ethics-collide-with-national-security-anthropic-challenges-pentagon-blacklisting)
+**来源**: [Claude Mythos: Analyzing Anthropic’s new frontier model for AI security](https://www.giskard.ai/knowledge/claude-mythos-analyzing-anthropics-new-frontier-model-for-ai-security)
 **发现时间**: 2026-05-27
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-当人工智能伦理与国家安全冲突时：Anthropic 挑战五角大楼的黑名单。
+文章分析了 Anthropic 的 Claude Mythos 模型及其在自动漏洞发现和利用生成方面的能力。

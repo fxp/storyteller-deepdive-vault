@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-27
-url: "https://www.adaptivesecurity.com/blog/claude-mythos-preview-what-the-most-capable-ai-model-anthropic-has-ever-built-means-for-security-teams"
-source_title: "Claude Mythos Preview: What It Means for Security Teams"
+url: "https://kenhuangus.substack.com/p/what-is-inside-claude-mythos-preview"
+source_title: "What Is Inside Claude Mythos Preview? Dissecting the System Card of the Model"
 relevance: RELEVANT
 ---
 
-# Claude Mythos Preview: What It Means for Security Teams
+# What Is Inside Claude Mythos Preview? Dissecting the System Card of the Model
 
-**来源**: [Claude Mythos Preview: What It Means for Security Teams](https://www.adaptivesecurity.com/blog/claude-mythos-preview-what-the-most-capable-ai-model-anthropic-has-ever-built-means-for-security-teams)
+**来源**: [What Is Inside Claude Mythos Preview? Dissecting the System Card of the Model](https://kenhuangus.substack.com/p/what-is-inside-claude-mythos-preview)
 **发现时间**: 2026-05-27
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-Anthropic 发布了其最强大的模型 Claude Mythos 预览，并立即决定不向公众发布，这引发了美国监管机构和华尔街顶级银行首席执行官之间的紧急会议。
+文章深入剖析了 Claude Mythos 预览的系统卡，包括从生物武器提升试验到临床精神科医生的模型心理动力学评估。
