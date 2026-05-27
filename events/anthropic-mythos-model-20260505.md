@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-27T05:38
+last_check: 2026-05-27T09:21
 last_activity: '2026-05-27'
-next_check: 2026-05-27T08:38
+next_check: 2026-05-27T12:21
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 165
+findings_count: 167
 tags:
 - tracker
 - HOT
@@ -272,4 +272,7 @@ deepdive_article: '[[待填写]]'
 - [Anthropic says newest AI model is too powerful to release to public](https://www.youtube.com/watch?v=AfdDYu43Cy0) — Anthropic 表示其最新 AI 模型 Mythos AI 过于强大，因此不会向公众发布，而是将授予一些科技公司访问 Mythos 预览的权限。
 - [NSA uses Anthropic's AI tool despite Pentagon risk designation](https://www.linkedin.com/posts/bruceburke_us-security-agency-is-using-anthropics-mythos-activity-7451952082863132672-tFvU) — 尽管五角大楼将其列为风险，但 NSA 仍在使用 Anthropic 的 AI 工具 Mythos。
 - [Claude Mythos Preview: What It Means for Security Teams](https://www.adaptivesecurity.com/blog/claude-mythos-preview-what-the-most-capable-ai-model-anthropic-has-ever-built-means-for-security-teams) — Anthropic 发布了其最强大的模型 Claude Mythos 预览，并立即决定不向公众发布，这引发了美国监管机构和华尔街顶级银行首席执行官之间的紧急会议。
+### 2026-05-27
+- [Anthropic fight with the Pentagon amid Iran war puts ethics of AI warfare in focus - OSV News](https://www.osvnews.com/anthropic-fight-with-the-pentagon-amid-iran-war-puts-ethics-of-ai-warfare-in-focus) — Anthropic 与五角大楼在伊朗战争期间发生冲突，将人工智能战争的伦理问题置于焦点。
+- [When AI Ethics Collide with National Security: Anthropic Challenges Pentagon Blacklisting](https://lawreview.syr.edu/when-ai-ethics-collide-with-national-security-anthropic-challenges-pentagon-blacklisting) — 当人工智能伦理与国家安全冲突时：Anthropic 挑战五角大楼的黑名单。
 

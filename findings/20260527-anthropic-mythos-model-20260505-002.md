@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-27
-url: "https://www.linkedin.com/posts/bruceburke_us-security-agency-is-using-anthropics-mythos-activity-7451952082863132672-tFvU"
-source_title: "NSA uses Anthropic's AI tool despite Pentagon risk designation"
+url: "https://lawreview.syr.edu/when-ai-ethics-collide-with-national-security-anthropic-challenges-pentagon-blacklisting"
+source_title: "When AI Ethics Collide with National Security: Anthropic Challenges Pentagon Blacklisting"
 relevance: RELEVANT
 ---
 
-# NSA uses Anthropic's AI tool despite Pentagon risk designation
+# When AI Ethics Collide with National Security: Anthropic Challenges Pentagon Blacklisting
 
-**来源**: [NSA uses Anthropic's AI tool despite Pentagon risk designation](https://www.linkedin.com/posts/bruceburke_us-security-agency-is-using-anthropics-mythos-activity-7451952082863132672-tFvU)
+**来源**: [When AI Ethics Collide with National Security: Anthropic Challenges Pentagon Blacklisting](https://lawreview.syr.edu/when-ai-ethics-collide-with-national-security-anthropic-challenges-pentagon-blacklisting)
 **发现时间**: 2026-05-27
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-尽管五角大楼将其列为风险，但 NSA 仍在使用 Anthropic 的 AI 工具 Mythos。
+当人工智能伦理与国家安全冲突时：Anthropic 挑战五角大楼的黑名单。

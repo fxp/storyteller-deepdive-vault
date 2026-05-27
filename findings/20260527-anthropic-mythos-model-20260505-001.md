@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-27
-url: "https://www.youtube.com/watch?v=AfdDYu43Cy0"
-source_title: "Anthropic says newest AI model is too powerful to release to public"
+url: "https://www.osvnews.com/anthropic-fight-with-the-pentagon-amid-iran-war-puts-ethics-of-ai-warfare-in-focus"
+source_title: "Anthropic fight with the Pentagon amid Iran war puts ethics of AI warfare in focus - OSV News"
 relevance: RELEVANT
 ---
 
-# Anthropic says newest AI model is too powerful to release to public
+# Anthropic fight with the Pentagon amid Iran war puts ethics of AI warfare in focus - OSV News
 
-**来源**: [Anthropic says newest AI model is too powerful to release to public](https://www.youtube.com/watch?v=AfdDYu43Cy0)
+**来源**: [Anthropic fight with the Pentagon amid Iran war puts ethics of AI warfare in focus - OSV News](https://www.osvnews.com/anthropic-fight-with-the-pentagon-amid-iran-war-puts-ethics-of-ai-warfare-in-focus)
 **发现时间**: 2026-05-27
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-Anthropic 表示其最新 AI 模型 Mythos AI 过于强大，因此不会向公众发布，而是将授予一些科技公司访问 Mythos 预览的权限。
+Anthropic 与五角大楼在伊朗战争期间发生冲突，将人工智能战争的伦理问题置于焦点。
