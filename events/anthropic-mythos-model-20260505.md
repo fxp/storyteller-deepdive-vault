@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-27T01:12
+last_check: 2026-05-27T05:38
 last_activity: '2026-05-27'
-next_check: 2026-05-27T04:12
+next_check: 2026-05-27T08:38
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 162
+findings_count: 165
 tags:
 - tracker
 - HOT
@@ -268,4 +268,8 @@ deepdive_article: '[[待填写]]'
 - [Anthropic Releases Claude Mythos Preview with Cybersecurity ...](https://www.infoq.com/news/2026/04/anthropic-claude-mythos) — Anthropic 发布 Claude Mythos 预览，并强调其网络安全特性。
 - [Anthropic's Mythos AI Has Triggered a Major Shift Inside White ...](https://www.linkedin.com/posts/keith-king-03a172128_anthropics-mythos-ai-has-triggered-a-major-activity-7458484924749357056-MuEr) — 文章提到白宫对 Mythos 的反应，暗示政府开始认识到高级 AI 能力可能发展得比预期快。
 - [CIA Official: Anthropic’s Mythos AI Should Be ‘Reflection Point’](https://www.govtech.com/artificial-intelligence/cia-official-anthropics-mythos-ai-should-be-reflection-point) — CIA 官员表示，像 Mythos 这样的先进 AI 模型应该成为联邦机构处理政府敏感信息的反思点。
+### 2026-05-27
+- [Anthropic says newest AI model is too powerful to release to public](https://www.youtube.com/watch?v=AfdDYu43Cy0) — Anthropic 表示其最新 AI 模型 Mythos AI 过于强大，因此不会向公众发布，而是将授予一些科技公司访问 Mythos 预览的权限。
+- [NSA uses Anthropic's AI tool despite Pentagon risk designation](https://www.linkedin.com/posts/bruceburke_us-security-agency-is-using-anthropics-mythos-activity-7451952082863132672-tFvU) — 尽管五角大楼将其列为风险，但 NSA 仍在使用 Anthropic 的 AI 工具 Mythos。
+- [Claude Mythos Preview: What It Means for Security Teams](https://www.adaptivesecurity.com/blog/claude-mythos-preview-what-the-most-capable-ai-model-anthropic-has-ever-built-means-for-security-teams) — Anthropic 发布了其最强大的模型 Claude Mythos 预览，并立即决定不向公众发布，这引发了美国监管机构和华尔街顶级银行首席执行官之间的紧急会议。
 

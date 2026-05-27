@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-27
-url: "https://www.govtech.com/artificial-intelligence/cia-official-anthropics-mythos-ai-should-be-reflection-point"
-source_title: "CIA Official: Anthropic’s Mythos AI Should Be ‘Reflection Point’"
+url: "https://www.adaptivesecurity.com/blog/claude-mythos-preview-what-the-most-capable-ai-model-anthropic-has-ever-built-means-for-security-teams"
+source_title: "Claude Mythos Preview: What It Means for Security Teams"
 relevance: RELEVANT
 ---
 
-# CIA Official: Anthropic’s Mythos AI Should Be ‘Reflection Point’
+# Claude Mythos Preview: What It Means for Security Teams
 
-**来源**: [CIA Official: Anthropic’s Mythos AI Should Be ‘Reflection Point’](https://www.govtech.com/artificial-intelligence/cia-official-anthropics-mythos-ai-should-be-reflection-point)
+**来源**: [Claude Mythos Preview: What It Means for Security Teams](https://www.adaptivesecurity.com/blog/claude-mythos-preview-what-the-most-capable-ai-model-anthropic-has-ever-built-means-for-security-teams)
 **发现时间**: 2026-05-27
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-CIA 官员表示，像 Mythos 这样的先进 AI 模型应该成为联邦机构处理政府敏感信息的反思点。
+Anthropic 发布了其最强大的模型 Claude Mythos 预览，并立即决定不向公众发布，这引发了美国监管机构和华尔街顶级银行首席执行官之间的紧急会议。

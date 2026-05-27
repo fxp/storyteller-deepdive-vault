@@ -1,17 +1,17 @@
 ---
 event: "[[caisi-ai-security-testing-20260505]]"
 date: 2026-05-27
-url: "https://www.reddit.com/r/NewMaxx/comments/1t0yp16/the_pentagon_announces_ai_deals_with_openai"
-source_title: "The Pentagon announces AI deals with OpenAI, Google, Microsoft ..."
+url: "https://www.geekwire.com/2026/microsoft-and-amazon-join-pentagons-push-to-build-ai-first-military-with-classified-network-deals"
+source_title: "Microsoft and Amazon join Pentagon's push to build AI-first military with classified network deals – GeekWire"
 relevance: RELEVANT
 ---
 
-# The Pentagon announces AI deals with OpenAI, Google, Microsoft ...
+# Microsoft and Amazon join Pentagon's push to build AI-first military with classified network deals – GeekWire
 
-**来源**: [The Pentagon announces AI deals with OpenAI, Google, Microsoft ...](https://www.reddit.com/r/NewMaxx/comments/1t0yp16/the_pentagon_announces_ai_deals_with_openai)
+**来源**: [Microsoft and Amazon join Pentagon's push to build AI-first military with classified network deals – GeekWire](https://www.geekwire.com/2026/microsoft-and-amazon-join-pentagons-push-to-build-ai-first-military-with-classified-network-deals)
 **发现时间**: 2026-05-27
 **所属事件**: [[caisi-ai-security-testing-20260505]]
 
 ## 摘要
 
-美国国防部宣布与OpenAI、Google、Microsoft、Amazon、Nvidia等公司达成AI协议，将在机密军事数据上部署大型语言模型。
+微软和亚马逊加入五角大楼推动建立以AI为主的军事力量，签署协议在机密网络中部署技术。

@@ -4,12 +4,12 @@ title: 美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-27T01:12
+last_check: 2026-05-27T05:38
 last_activity: '2026-05-27'
-next_check: 2026-05-27T04:12
+next_check: 2026-05-27T08:38
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 108
+findings_count: 110
 tags:
 - tracker
 - HOT
@@ -222,4 +222,7 @@ Google, Microsoft, Amazon Web Services, Nvidia, OpenAI, Reflection and SpaceX wi
 
 Google, Microsoft, Amazon Web Services, Nvidia, OpenAI, Reflection and SpaceX will provide their resources to help "augment warfighter decision-making in complex operational environments," the Defense Department said. | ABC7NY](https://www.facebook.com/ABC7NY/videos/us-military-reaches-deals-with-7-tech-companies-to-use-their-ai-on-classified-sy/1848787366525825) — 美国国防部与七家科技公司达成协议，允许在机密计算机网络上使用其人工智能，以利用AI驱动的能力帮助其作战。
 - [The Pentagon announces AI deals with OpenAI, Google, Microsoft ...](https://www.reddit.com/r/NewMaxx/comments/1t0yp16/the_pentagon_announces_ai_deals_with_openai) — 美国国防部宣布与OpenAI、Google、Microsoft、Amazon、Nvidia等公司达成AI协议，将在机密军事数据上部署大型语言模型。
+### 2026-05-27
+- [AI in Warfare: Pentagon Signs Deals with Google, Microsoft, OpenAI ...](https://www.instagram.com/reel/DX7iNnhlcyz) — 美国国防部与Google, OpenAI, Amazon Web Services, Microsoft, Nvidia, SpaceX和Reflection签署协议，在机密系统中部署AI工具，以增强作战决策能力。
+- [Microsoft and Amazon join Pentagon's push to build AI-first military with classified network deals – GeekWire](https://www.geekwire.com/2026/microsoft-and-amazon-join-pentagons-push-to-build-ai-first-military-with-classified-network-deals) — 微软和亚马逊加入五角大楼推动建立以AI为主的军事力量，签署协议在机密网络中部署技术。
 
