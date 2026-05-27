@@ -3,16 +3,16 @@ id: chrome-prompt-api-20260509
 title: Google Chrome 推出 Prompt API（浏览器内置 Gemini Nano）
 seed_url: https://developer.chrome.com/docs/ai/prompt-api
 published_date: 2024-11-12
-status: ACTIVE
-last_check: 2026-05-27T01:12
-last_activity: '2026-05-26'
-next_check: 2026-05-27T07:12
-interval_hours: 6
-consecutive_empty: 4
-findings_count: 77
+status: HOT
+last_check: 2026-05-27T07:41
+last_activity: '2026-05-27'
+next_check: 2026-05-27T10:41
+interval_hours: 3
+consecutive_empty: 0
+findings_count: 78
 tags:
 - tracker
-- ACTIVE
+- HOT
 entities:
   orgs:
   - Google
@@ -196,3 +196,9 @@ search_queries:
 - [Google Brings Gemini Nano to Chrome to Enable On-Device Generative AI - InfoQ](https://www.infoq.com/news/2024/05/chrome-gemini-nano) — Google Brings Gemini Nano to Chrome to Enable On-Device Generative AI - InfoQ
 - [Gemini Nano in Production: 41% Eligibility, 6x Slower, $0 Cost](https://sendcheckit.com/blog/ai-powered-subject-line-alternatives) — Gemini Nano in Production: 41% Eligibility, 6x Slower, $0 Cost
 - [When Chrome's Prompt API goes public — what are the first real use ...](https://www.reddit.com/r/chrome_extensions/comments/1r78n49/when_chromes_prompt_api_goes_public_what_are_the) — When Chrome's Prompt API goes public — what are the first real use ...
+### 2026-05-27
+- [On-device GenAI in Chrome, Chromebook Plus, and Pixel Watch with LiteRT-LM
+            
+            
+            - Google Developers Blog](https://developers.googleblog.com/on-device-genai-in-chrome-chromebook-plus-and-pixel-watch-with-litert-lm) — LiteRT-LM is a production-tested inference framework designed for running large language models, like Gemini Nano, Gemma, with high performance.
+
