@@ -4,12 +4,12 @@ title: 美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-26T20:47
-last_activity: '2026-05-26'
-next_check: 2026-05-26T23:47
+last_check: 2026-05-27T01:12
+last_activity: '2026-05-27'
+next_check: 2026-05-27T04:12
 interval_hours: 3
-consecutive_empty: 2
-findings_count: 106
+consecutive_empty: 0
+findings_count: 108
 tags:
 - tracker
 - HOT
@@ -217,3 +217,9 @@ Google, Microsoft, Amazon Web Services, Nvidia, OpenAI, Reflection and SpaceX wi
 - [Advancing AI evaluation with the Center for AI Standards (US) and Innovation and the AI Security Institute (UK) - Microsoft On the Issues](https://blogs.microsoft.com/on-the-issues/2026/05/05/advancing-ai-evaluation-with-the-center-for-ai-standards-us-and-innovation-and-the-ai-security-institute-uk) — 微软宣布与美国的AI标准和创新中心（CAISI）以及英国的AI安全研究所（AISI）合作，以推进AI测试和评估的科学，这是历史发现中未出现的新事实。
 ### 2026-05-26
 - [Google, Microsoft and xAI’s frontier AI to face national security testing | CIO Dive](https://www.ciodive.com/news/Google-Microsoft-xAI-to-face-security-testing/819375) — 美国政府与微软、Google和xAI签署AI安全测试协议，Anthropic被排除在外。
+### 2026-05-27
+- [6.3K views · 32 reactions | The Pentagon said Friday that it has reached deals with seven tech companies to use their artificial intelligence in its classified computer networks, allowing the military to tap into AI-powered capabilities to help it fight wars.
+
+Google, Microsoft, Amazon Web Services, Nvidia, OpenAI, Reflection and SpaceX will provide their resources to help "augment warfighter decision-making in complex operational environments," the Defense Department said. | ABC7NY](https://www.facebook.com/ABC7NY/videos/us-military-reaches-deals-with-7-tech-companies-to-use-their-ai-on-classified-sy/1848787366525825) — 美国国防部与七家科技公司达成协议，允许在机密计算机网络上使用其人工智能，以利用AI驱动的能力帮助其作战。
+- [The Pentagon announces AI deals with OpenAI, Google, Microsoft ...](https://www.reddit.com/r/NewMaxx/comments/1t0yp16/the_pentagon_announces_ai_deals_with_openai) — 美国国防部宣布与OpenAI、Google、Microsoft、Amazon、Nvidia等公司达成AI协议，将在机密军事数据上部署大型语言模型。
+

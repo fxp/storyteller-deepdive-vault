@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-26T20:47
-last_activity: '2026-05-26'
-next_check: 2026-05-26T23:47
+last_check: 2026-05-27T01:12
+last_activity: '2026-05-27'
+next_check: 2026-05-27T04:12
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 159
+findings_count: 162
 tags:
 - tracker
 - HOT
@@ -264,4 +264,8 @@ deepdive_article: '[[待填写]]'
 - [Anthropic Released Mythos Benchmarks Today - Facebook](https://www.facebook.com/groups/evolutionunleashedai/posts/26280566021564467) — Facebook上发布Anthropic发布Mythos基准测试，这是新的事实。
 ### 2026-05-26
 - [Assessing Anthropic Claude Mythos Preview's Cybersecurity ...](https://medium.com/@tahirbalarabe2/assessing-anthropic-claude-mythos-previews-cybersecurity-capabilities-251a4e0a2137) — Bloomberg Business报道了Anthropic的Mythos模型对银行、科技巨头和政府的影响，以及它对网络安全和互联网未来的潜在改变。
+### 2026-05-27
+- [Anthropic Releases Claude Mythos Preview with Cybersecurity ...](https://www.infoq.com/news/2026/04/anthropic-claude-mythos) — Anthropic 发布 Claude Mythos 预览，并强调其网络安全特性。
+- [Anthropic's Mythos AI Has Triggered a Major Shift Inside White ...](https://www.linkedin.com/posts/keith-king-03a172128_anthropics-mythos-ai-has-triggered-a-major-activity-7458484924749357056-MuEr) — 文章提到白宫对 Mythos 的反应，暗示政府开始认识到高级 AI 能力可能发展得比预期快。
+- [CIA Official: Anthropic’s Mythos AI Should Be ‘Reflection Point’](https://www.govtech.com/artificial-intelligence/cia-official-anthropics-mythos-ai-should-be-reflection-point) — CIA 官员表示，像 Mythos 这样的先进 AI 模型应该成为联邦机构处理政府敏感信息的反思点。
 
