@@ -4,11 +4,11 @@ title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折�
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
 status: ACTIVE
-last_check: 2026-05-27T09:21
+last_check: 2026-05-27T17:15
 last_activity: '2026-05-26'
-next_check: 2026-05-27T15:21
+next_check: 2026-05-27T23:15
 interval_hours: 6
-consecutive_empty: 4
+consecutive_empty: 5
 findings_count: 54
 tags:
 - tracker
