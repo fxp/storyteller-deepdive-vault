@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-27
-url: "https://red.anthropic.com/2026/mythos-preview"
-source_title: "Claude Mythos Preview \ red.anthropic.com"
+url: "https://www.securityweek.com/anthropic-mythos-detected-23000-potential-vulnerabilities-across-1000-oss-projects"
+source_title: "Anthropic: Mythos Detected 23,000 Potential Vulnerabilities Across 1,000 OSS Projects - SecurityWeek"
 relevance: RELEVANT
 ---
 
-# Claude Mythos Preview \ red.anthropic.com
+# Anthropic: Mythos Detected 23,000 Potential Vulnerabilities Across 1,000 OSS Projects - SecurityWeek
 
-**来源**: [Claude Mythos Preview \ red.anthropic.com](https://red.anthropic.com/2026/mythos-preview)
+**来源**: [Anthropic: Mythos Detected 23,000 Potential Vulnerabilities Across 1,000 OSS Projects - SecurityWeek](https://www.securityweek.com/anthropic-mythos-detected-23000-potential-vulnerabilities-across-1000-oss-projects)
 **发现时间**: 2026-05-27
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-Anthropic 发布 Mythos 前沿模型，并展示了其能够自主编写针对已修复漏洞的复杂攻击代码的新能力。
+Anthropic的Mythos模型在超过1000个开源软件项目中检测到23000个潜在漏洞，其中许多已被确认为关键或高严重性漏洞。
