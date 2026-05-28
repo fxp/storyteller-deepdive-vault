@@ -4,11 +4,11 @@ title: Anthropic + Blackstone 联合组建企业 AI 交付公司
 seed_url: https://www.anthropic.com/news/enterprise-ai-services-company
 published_date: 2026-05-04
 status: HOT
-last_check: 2026-05-28T15:20
+last_check: 2026-05-28T19:03
 last_activity: '2026-05-28'
-next_check: 2026-05-28T18:20
+next_check: 2026-05-28T22:03
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 59
 tags:
 - tracker
@@ -159,4 +159,3 @@ deepdive_article: '[[待填写]]'
 - [Anthropic, Wall St. to Launch Enterprise AI Services Firm - Markets Media](https://www.marketsmedia.com/anthropic-partners-with-wall-st-to-launch-enterprise-ai-services-firm) — Anthropic 与 Blackstone、Hellman & Friedman 和 Goldman Sachs 合作成立了一家新的 AI 原生企业服务公司，旨在快速将 Claude 引入企业核心业务运营，这是一个新的业务目标。
 ### 2026-05-28
 - [Anthropic is partnering with Blackstone, Hellman & Friedman and ...](https://www.facebook.com/bloombergbusiness/posts/anthropic-is-partnering-with-blackstone-hellman-friedman-and-goldman-sachs-to-fo/1389848916334531) — Anthropic 正在筹集 50-100 亿美元的新资金，这可能使该初创公司的估值达到 1700 亿美元。
-
