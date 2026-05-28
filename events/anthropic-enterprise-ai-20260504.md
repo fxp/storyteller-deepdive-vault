@@ -3,16 +3,16 @@ id: anthropic-enterprise-ai-20260504
 title: Anthropic + Blackstone 联合组建企业 AI 交付公司
 seed_url: https://www.anthropic.com/news/enterprise-ai-services-company
 published_date: 2026-05-04
-status: ACTIVE
-last_check: 2026-05-28T01:04
-last_activity: '2026-05-27'
-next_check: 2026-05-28T07:04
-interval_hours: 6
-consecutive_empty: 4
-findings_count: 55
+status: HOT
+last_check: 2026-05-28T07:36
+last_activity: '2026-05-28'
+next_check: 2026-05-28T10:36
+interval_hours: 3
+consecutive_empty: 0
+findings_count: 58
 tags:
 - tracker
-- ACTIVE
+- HOT
 entities:
   orgs:
   - Anthropic
@@ -153,3 +153,8 @@ deepdive_article: '[[待填写]]'
 - [- Hellman & Friedman](https://hf.com/anthropic-partners-with-blackstone-hellman-friedman-and-goldman-sachs-to-launch-enterprise-ai-services-firm) — Anthropic 与 Blackstone、Hellman & Friedman 和 Goldman Sachs 合作成立了一家新的 AI 原生企业服务公司，旨在快速将 Claude 引入企业核心业务运营。
 ### 2026-05-27
 - [Anthropic confirms deal to launch enterprise AI services ...](https://seekingalpha.com/news/4584679-anthropic-confirms-deal-to-launch-enterprise-ai-services-business) — Anthropic确认与Blackstone、Hellman & Friedman和Goldman Sachs达成合作，成立企业AI服务业务。
+### 2026-05-28
+- [Anthropic, Blackstone, Hellman & Friedman and Goldman Sachs Launch Enterprise AI Services Firm - CollisionWeek](https://collisionweek.com/2026/05/06/anthropic-blackstone-hellman-friedman-goldman-sachs-launch-enterprise-ai-services-firm) — Anthropic 与 Blackstone、Hellman & Friedman 和 Goldman Sachs 合作成立了一家新的 AI 原生企业服务公司，这是一个新的融资事实。
+- [Anthropic takes shot at consulting industry in joint venture with Wall Street giants | Fortune](https://fortune.com/2026/05/04/anthropic-claude-consulting-industry-joint-venture-blackstone-goldman-sachs) — Anthropic 与 Blackstone、Hellman & Friedman 和 Goldman Sachs 合作成立了一家新的 AI 原生企业服务公司，旨在将 Claude maker 在直接竞争中对阵全球最大的咨询公司，这是一个新的竞争策略。
+- [Anthropic, Wall St. to Launch Enterprise AI Services Firm - Markets Media](https://www.marketsmedia.com/anthropic-partners-with-wall-st-to-launch-enterprise-ai-services-firm) — Anthropic 与 Blackstone、Hellman & Friedman 和 Goldman Sachs 合作成立了一家新的 AI 原生企业服务公司，旨在快速将 Claude 引入企业核心业务运营，这是一个新的业务目标。
+
