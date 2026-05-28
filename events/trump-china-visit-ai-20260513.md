@@ -4,12 +4,12 @@ title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折�
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
 status: HOT
-last_check: 2026-05-28T07:36
+last_check: 2026-05-28T11:22
 last_activity: '2026-05-28'
-next_check: 2026-05-28T10:36
+next_check: 2026-05-28T14:22
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 62
+findings_count: 64
 tags:
 - tracker
 - HOT
@@ -185,4 +185,7 @@ The U.S. Commerce Department has approved around 10 Chinese companies—includin
 - [Trump and Xi Should Tackle a Previously Impossible AI Conversation | Carnegie Endowment for International Peace](https://carnegieendowment.org/emissary/2026/05/trump-xi-ai-safety-dialogue) — 特朗普和习近平应就AI安全问题进行对话，涉及AI安全对话的新事实。
 - [How China and the US Can Make AI Safer for Everyone](https://thediplomat.com/2026/01/how-china-and-the-us-can-make-ai-safer-for-everyone) — 特朗普和习近平同意进行AI对话，涉及AI安全对话的新事实。
 - [The US-China Summit Signals a Potential Shift in US AI Policy - The National Interest](https://nationalinterest.org/blog/techland/the-us-china-summit-signals-a-potential-shift-in-us-ai-policy) — 中美峰会可能标志着美国AI政策的潜在转变，涉及美国AI政策转变的新事实。
+### 2026-05-28
+- [Licensable picture: China Gives Nod To ByteDance, Alibaba And Tencent To Buy Nvidia's H200 Chips](https://www.reutersconnect.com/item/china-gives-nod-to-bytedance-alibaba-and-tencent-to-buy-nvidias-h200-chips/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMU5VUlBITzAwMDBMNjRCQw) — 中国批准字节跳动、阿里巴巴和腾讯购买英伟达的H200芯片，这是新的事实，与事件相关。
+- [英伟达中国份额暴跌至0翻身没戏：机构称明年华为拿下50%AI芯片份额](https://finance.sina.com.cn/tech/discovery/2025-12-05/doc-infztpua9901335.shtml) — 知名调研机构Bernstein Research的报告显示，华为将在2026年占据中国AI芯片市场50%份额，这是新的事实，与事件相关。
 

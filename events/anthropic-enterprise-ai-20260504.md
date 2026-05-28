@@ -4,11 +4,11 @@ title: Anthropic + Blackstone 联合组建企业 AI 交付公司
 seed_url: https://www.anthropic.com/news/enterprise-ai-services-company
 published_date: 2026-05-04
 status: HOT
-last_check: 2026-05-28T07:36
+last_check: 2026-05-28T11:22
 last_activity: '2026-05-28'
-next_check: 2026-05-28T10:36
+next_check: 2026-05-28T14:22
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 58
 tags:
 - tracker
@@ -157,4 +157,3 @@ deepdive_article: '[[待填写]]'
 - [Anthropic, Blackstone, Hellman & Friedman and Goldman Sachs Launch Enterprise AI Services Firm - CollisionWeek](https://collisionweek.com/2026/05/06/anthropic-blackstone-hellman-friedman-goldman-sachs-launch-enterprise-ai-services-firm) — Anthropic 与 Blackstone、Hellman & Friedman 和 Goldman Sachs 合作成立了一家新的 AI 原生企业服务公司，这是一个新的融资事实。
 - [Anthropic takes shot at consulting industry in joint venture with Wall Street giants | Fortune](https://fortune.com/2026/05/04/anthropic-claude-consulting-industry-joint-venture-blackstone-goldman-sachs) — Anthropic 与 Blackstone、Hellman & Friedman 和 Goldman Sachs 合作成立了一家新的 AI 原生企业服务公司，旨在将 Claude maker 在直接竞争中对阵全球最大的咨询公司，这是一个新的竞争策略。
 - [Anthropic, Wall St. to Launch Enterprise AI Services Firm - Markets Media](https://www.marketsmedia.com/anthropic-partners-with-wall-st-to-launch-enterprise-ai-services-firm) — Anthropic 与 Blackstone、Hellman & Friedman 和 Goldman Sachs 合作成立了一家新的 AI 原生企业服务公司，旨在快速将 Claude 引入企业核心业务运营，这是一个新的业务目标。
-
