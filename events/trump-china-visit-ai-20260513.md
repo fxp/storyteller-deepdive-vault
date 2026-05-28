@@ -4,12 +4,12 @@ title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折�
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
 status: HOT
-last_check: 2026-05-27T23:33
-last_activity: '2026-05-27'
-next_check: 2026-05-28T02:33
+last_check: 2026-05-28T03:22
+last_activity: '2026-05-28'
+next_check: 2026-05-28T06:22
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 58
+findings_count: 59
 tags:
 - tracker
 - HOT
@@ -179,4 +179,6 @@ The U.S. Commerce Department has approved around 10 Chinese companies—includin
 - [昇腾销量飙升，华为成为大赢家|英伟达|人工智能|知名企业|nvidia|ascend_网易订阅](https://www.163.com/dy/article/KRTOQEJA0511CPMT.html) — 美国政府已采取行动，禁止在中国销售所有尖端人工智能芯片，导致英伟达市场份额跌至零，中国更加依赖国产芯片。
 - [报告：华为2026年将占据中国AI芯片市场50%份额 - 财富号](https://caifuhao.eastmoney.com/news/20251204204911668741100) — 华为预计将在2026年底前占据中国人工智能市场60%的份额，成为该领域的绝对领导者。
 - [8只值得关注的中国人工智能股票，正值华为芯片激增之际 - NAI500](https://nai500.com/zh-hans/blog/2026/05/8-33) — 华为的AI芯片订单簿正在膨胀，中国的计算栈决定性地向本土硅片、软件和系统集成转向并实现规模化。
+### 2026-05-28
+- [US allows H200 sales to China, but no chips delivered - Cybernews](https://cybernews.com/ai-news/us-nvidia-h200-chip-alibaba-tencent-beijing-block-delivery) — 美国批准向阿里巴巴、腾讯等10家中国公司销售英伟达H200芯片，但北京阻止了芯片的交付。
 
