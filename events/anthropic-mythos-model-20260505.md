@@ -4,11 +4,11 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-28T13:31
+last_check: 2026-05-28T17:25
 last_activity: '2026-05-28'
-next_check: 2026-05-28T16:31
+next_check: 2026-05-28T20:25
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 179
 tags:
 - tracker
@@ -293,4 +293,3 @@ deepdive_article: '[[待填写]]'
 - [Claude Mythos: AI Vulnerability Discovery and Containment Failures](https://labs.cloudsecurityalliance.org/research/ai-vuln-discovery-containment-claude-mythos-v1-0-csa-styled) — Claude Mythos的发布标志着人工智能与软件安全之间关系的一个转折点，讨论了AI漏洞发现和遏制失败。
 ### 2026-05-28
 - [Pentagon CTO urges Anthropic to ‘cross the Rubicon’ on military AI use cases amid ethics dispute | DefenseScoop](https://defensescoop.com/2026/02/19/pentagon-anthropic-dispute-military-ai-hegseth-emil-michael) — Pentagon CTO敦促Anthropic在军事AI应用方面‘跨过卢比孔’，这表明存在关于军事AI使用的伦理争议，这是一个新的事实。
-
