@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-enterprise-ai-20260504]]"
 date: 2026-05-28
-url: "https://www.facebook.com/bloombergbusiness/posts/anthropic-is-partnering-with-blackstone-hellman-friedman-and-goldman-sachs-to-fo/1389848916334531"
-source_title: "Anthropic is partnering with Blackstone, Hellman & Friedman and ..."
+url: "https://pulse2.com/anthropic-100-million-invested-to-launch-claude-partner-network-for-enterprise-ai-adoption"
+source_title: "Anthropic: $100 Million Invested To Launch Claude Partner Network For Enterprise AI Adoption"
 relevance: RELEVANT
 ---
 
-# Anthropic is partnering with Blackstone, Hellman & Friedman and ...
+# Anthropic: $100 Million Invested To Launch Claude Partner Network For Enterprise AI Adoption
 
-**来源**: [Anthropic is partnering with Blackstone, Hellman & Friedman and ...](https://www.facebook.com/bloombergbusiness/posts/anthropic-is-partnering-with-blackstone-hellman-friedman-and-goldman-sachs-to-fo/1389848916334531)
+**来源**: [Anthropic: $100 Million Invested To Launch Claude Partner Network For Enterprise AI Adoption](https://pulse2.com/anthropic-100-million-invested-to-launch-claude-partner-network-for-enterprise-ai-adoption)
 **发现时间**: 2026-05-28
 **所属事件**: [[anthropic-enterprise-ai-20260504]]
 
 ## 摘要
 
-Anthropic 正在筹集 50-100 亿美元的新资金，这可能使该初创公司的估值达到 1700 亿美元。
+文章宣布 Anthropic 启动 Claude Partner Network，并投资 1 亿美元以支持合作伙伴。
