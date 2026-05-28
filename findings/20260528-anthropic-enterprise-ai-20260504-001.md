@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-enterprise-ai-20260504]]"
 date: 2026-05-28
-url: "https://collisionweek.com/2026/05/06/anthropic-blackstone-hellman-friedman-goldman-sachs-launch-enterprise-ai-services-firm"
-source_title: "Anthropic, Blackstone, Hellman & Friedman and Goldman Sachs Launch Enterprise AI Services Firm - CollisionWeek"
+url: "https://www.facebook.com/bloombergbusiness/posts/anthropic-is-partnering-with-blackstone-hellman-friedman-and-goldman-sachs-to-fo/1389848916334531"
+source_title: "Anthropic is partnering with Blackstone, Hellman & Friedman and ..."
 relevance: RELEVANT
 ---
 
-# Anthropic, Blackstone, Hellman & Friedman and Goldman Sachs Launch Enterprise AI Services Firm - CollisionWeek
+# Anthropic is partnering with Blackstone, Hellman & Friedman and ...
 
-**来源**: [Anthropic, Blackstone, Hellman & Friedman and Goldman Sachs Launch Enterprise AI Services Firm - CollisionWeek](https://collisionweek.com/2026/05/06/anthropic-blackstone-hellman-friedman-goldman-sachs-launch-enterprise-ai-services-firm)
+**来源**: [Anthropic is partnering with Blackstone, Hellman & Friedman and ...](https://www.facebook.com/bloombergbusiness/posts/anthropic-is-partnering-with-blackstone-hellman-friedman-and-goldman-sachs-to-fo/1389848916334531)
 **发现时间**: 2026-05-28
 **所属事件**: [[anthropic-enterprise-ai-20260504]]
 
 ## 摘要
 
-Anthropic 与 Blackstone、Hellman & Friedman 和 Goldman Sachs 合作成立了一家新的 AI 原生企业服务公司，这是一个新的融资事实。
+Anthropic 正在筹集 50-100 亿美元的新资金，这可能使该初创公司的估值达到 1700 亿美元。
