@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-28
-url: "https://www.radware.com/blog/anthropic-claude-mythos-and-the-2026-cybersecurity-landscape"
-source_title: "Anthropic Claude Mythos and the 2026 Cybersecurity Landscape"
+url: "https://www.reddit.com/r/ClaudeCode/comments/1sf4yvm/anthropic_just_dropped_benchmark_scores_for_their"
+source_title: "Anthropic just dropped benchmark scores for their unreleased ..."
 relevance: RELEVANT
 ---
 
-# Anthropic Claude Mythos and the 2026 Cybersecurity Landscape
+# Anthropic just dropped benchmark scores for their unreleased ...
 
-**来源**: [Anthropic Claude Mythos and the 2026 Cybersecurity Landscape](https://www.radware.com/blog/anthropic-claude-mythos-and-the-2026-cybersecurity-landscape)
+**来源**: [Anthropic just dropped benchmark scores for their unreleased ...](https://www.reddit.com/r/ClaudeCode/comments/1sf4yvm/anthropic_just_dropped_benchmark_scores_for_their)
 **发现时间**: 2026-05-28
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-文章讨论了 Anthropic Claude Mythos 对 2026 年网络安全格局的影响。
+Anthropic发布了Mythos AI模型的基准分数。

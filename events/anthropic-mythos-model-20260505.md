@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-28T01:04
+last_check: 2026-05-28T05:34
 last_activity: '2026-05-28'
-next_check: 2026-05-28T04:04
+next_check: 2026-05-28T08:34
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 174
+findings_count: 176
 tags:
 - tracker
 - HOT
@@ -285,4 +285,7 @@ deepdive_article: '[[待填写]]'
 - [Project Glasswing: Securing critical software for the AI era - Anthropic](https://www.anthropic.com/glasswing) — Anthropic 发布了 Project Glasswing 项目，旨在为人工智能时代的安全软件提供保障。
 - [Anthropic Claude Mythos and the 2026 Cybersecurity Landscape](https://www.radware.com/blog/anthropic-claude-mythos-and-the-2026-cybersecurity-landscape) — 文章讨论了 Anthropic Claude Mythos 对 2026 年网络安全格局的影响。
 - [Anthropic Claude Mythos Preview - CrowdStrike](https://www.crowdstrike.com/en-us/blog/crowdstrike-founding-member-anthropic-mythos-frontier-model-to-secure-ai) — CrowdStrike 宣布将 Anthropic Claude Mythos 集成到 Falcon 平台中，以加强 AI 安全。
+### 2026-05-28
+- [In-depth interpretation of Claude Mythos Preview: 5 core capabilities of Anthropic’s most powerful Large Language Model - Apiyi.com Blog](https://help.apiyi.com/en/claude-mythos-preview-anthropic-cybersecurity-model-introduction-en.html) — Anthropic发布了Mythos AI模型，并对其核心能力进行了深入解读。
+- [Anthropic just dropped benchmark scores for their unreleased ...](https://www.reddit.com/r/ClaudeCode/comments/1sf4yvm/anthropic_just_dropped_benchmark_scores_for_their) — Anthropic发布了Mythos AI模型的基准分数。
 
