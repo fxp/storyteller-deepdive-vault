@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-28T05:34
+last_check: 2026-05-28T09:29
 last_activity: '2026-05-28'
-next_check: 2026-05-28T08:34
+next_check: 2026-05-28T12:29
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 176
+findings_count: 178
 tags:
 - tracker
 - HOT
@@ -288,4 +288,7 @@ deepdive_article: '[[待填写]]'
 ### 2026-05-28
 - [In-depth interpretation of Claude Mythos Preview: 5 core capabilities of Anthropic’s most powerful Large Language Model - Apiyi.com Blog](https://help.apiyi.com/en/claude-mythos-preview-anthropic-cybersecurity-model-introduction-en.html) — Anthropic发布了Mythos AI模型，并对其核心能力进行了深入解读。
 - [Anthropic just dropped benchmark scores for their unreleased ...](https://www.reddit.com/r/ClaudeCode/comments/1sf4yvm/anthropic_just_dropped_benchmark_scores_for_their) — Anthropic发布了Mythos AI模型的基准分数。
+### 2026-05-28
+- [Anthropic to release Mythos-class models to the public](https://www.theregister.com/security/2026/05/25/anthropic-to-release-mythos-class-models-to-the-public/5245596) — Anthropic计划将与其Mythos AI模型性能相匹配的模型公开，前提是它们是安全的。
+- [Claude Mythos: AI Vulnerability Discovery and Containment Failures](https://labs.cloudsecurityalliance.org/research/ai-vuln-discovery-containment-claude-mythos-v1-0-csa-styled) — Claude Mythos的发布标志着人工智能与软件安全之间关系的一个转折点，讨论了AI漏洞发现和遏制失败。
 
