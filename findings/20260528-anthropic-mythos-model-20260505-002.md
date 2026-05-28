@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-28
-url: "https://labs.cloudsecurityalliance.org/research/ai-vuln-discovery-containment-claude-mythos-v1-0-csa-styled"
-source_title: "Claude Mythos: AI Vulnerability Discovery and Containment Failures"
+url: "https://red.anthropic.com/2026/exploit-evals"
+source_title: "Measuring LLMs' ability to develop exploits - Anthropic Red"
 relevance: RELEVANT
 ---
 
-# Claude Mythos: AI Vulnerability Discovery and Containment Failures
+# Measuring LLMs' ability to develop exploits - Anthropic Red
 
-**来源**: [Claude Mythos: AI Vulnerability Discovery and Containment Failures](https://labs.cloudsecurityalliance.org/research/ai-vuln-discovery-containment-claude-mythos-v1-0-csa-styled)
+**来源**: [Measuring LLMs' ability to develop exploits - Anthropic Red](https://red.anthropic.com/2026/exploit-evals)
 **发现时间**: 2026-05-28
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-Claude Mythos的发布标志着人工智能与软件安全之间关系的一个转折点，讨论了AI漏洞发现和遏制失败。
+Mythos Preview 能够发现复杂的漏洞，但在内部测试中最令人担忧的是 Mythos Preview 能够...

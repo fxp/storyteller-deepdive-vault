@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-28
-url: "https://defensescoop.com/2026/02/19/pentagon-anthropic-dispute-military-ai-hegseth-emil-michael"
-source_title: "Pentagon CTO urges Anthropic to ‘cross the Rubicon’ on military AI use cases amid ethics dispute | DefenseScoop"
+url: "https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities"
+source_title: "Exclusive: Anthropic ‘Mythos’ AI model representing ‘step change’ in power revealed in data leak | Fortune"
 relevance: RELEVANT
 ---
 
-# Pentagon CTO urges Anthropic to ‘cross the Rubicon’ on military AI use cases amid ethics dispute | DefenseScoop
+# Exclusive: Anthropic ‘Mythos’ AI model representing ‘step change’ in power revealed in data leak | Fortune
 
-**来源**: [Pentagon CTO urges Anthropic to ‘cross the Rubicon’ on military AI use cases amid ethics dispute | DefenseScoop](https://defensescoop.com/2026/02/19/pentagon-anthropic-dispute-military-ai-hegseth-emil-michael)
+**来源**: [Exclusive: Anthropic ‘Mythos’ AI model representing ‘step change’ in power revealed in data leak | Fortune](https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities)
 **发现时间**: 2026-05-28
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-Pentagon CTO敦促Anthropic在军事AI应用方面‘跨过卢比孔’，这表明存在关于军事AI使用的伦理争议，这是一个新的事实。
+Anthropic 正在开发并测试一款新的 AI 模型，该模型的能力比之前发布的任何模型都要强大，这是由于数据泄露而揭示的模型存在。
