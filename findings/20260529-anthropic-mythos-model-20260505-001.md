@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-29
-url: "https://www-cdn.anthropic.com/08ab9158070959f88f296514c21b7facce6f52bc.pdf"
-source_title: "[PDF] Claude Mythos Preview System Card - Anthropic"
+url: "https://www.platformer.news/anthropic-mythos-cybersecurity-risk-experts"
+source_title: "Why Anthropic's new model has cybersecurity experts rattled"
 relevance: RELEVANT
 ---
 
-# [PDF] Claude Mythos Preview System Card - Anthropic
+# Why Anthropic's new model has cybersecurity experts rattled
 
-**来源**: [[PDF] Claude Mythos Preview System Card - Anthropic](https://www-cdn.anthropic.com/08ab9158070959f88f296514c21b7facce6f52bc.pdf)
+**来源**: [Why Anthropic's new model has cybersecurity experts rattled](https://www.platformer.news/anthropic-mythos-cybersecurity-risk-experts)
 **发现时间**: 2026-05-29
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-提供了Anthropic Claude Mythos Preview的系统卡，可能包含模型的具体信息和新事实。
+Anthropic 新模型 Claude Mythos 引发安全专家担忧，该模型被认为是最危险的模型。

@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-29
-url: "https://labs.cloudsecurityalliance.org/research/csa-research-note-post-mythos-ai-model-regulation-policy-lan"
-source_title: "Post-Mythos AI Model Regulation: Licensing and Disclosure Frameworks – Lab Space"
+url: "https://www.facebook.com/groups/368542331574851/posts/1513628353732904"
+source_title: "Mythos AI model poses significant security risks - Facebook"
 relevance: RELEVANT
 ---
 
-# Post-Mythos AI Model Regulation: Licensing and Disclosure Frameworks – Lab Space
+# Mythos AI model poses significant security risks - Facebook
 
-**来源**: [Post-Mythos AI Model Regulation: Licensing and Disclosure Frameworks – Lab Space](https://labs.cloudsecurityalliance.org/research/csa-research-note-post-mythos-ai-model-regulation-policy-lan)
+**来源**: [Mythos AI model poses significant security risks - Facebook](https://www.facebook.com/groups/368542331574851/posts/1513628353732904)
 **发现时间**: 2026-05-29
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-文章讨论了Mythos AI模型监管的许可和披露框架，可能包含新的事实。
+Mythos AI 模型能够识别每个国家银行系统、电网和政府软件中的隐藏缺陷。
