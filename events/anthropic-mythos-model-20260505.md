@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-28T20:54
-last_activity: '2026-05-28'
-next_check: 2026-05-28T23:54
+last_check: 2026-05-29T01:14
+last_activity: '2026-05-29'
+next_check: 2026-05-29T04:14
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 182
+findings_count: 183
 tags:
 - tracker
 - HOT
@@ -297,4 +297,6 @@ deepdive_article: '[[待填写]]'
 - [Exclusive: Anthropic ‘Mythos’ AI model representing ‘step change’ in power revealed in data leak | Fortune](https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities) — Anthropic 正在开发并测试一款新的 AI 模型，该模型的能力比之前发布的任何模型都要强大，这是由于数据泄露而揭示的模型存在。
 - [Measuring LLMs' ability to develop exploits - Anthropic Red](https://red.anthropic.com/2026/exploit-evals) — Mythos Preview 能够发现复杂的漏洞，但在内部测试中最令人担忧的是 Mythos Preview 能够...
 - [A Timeline of the Anthropic-Pentagon Dispute | TechPolicy.Press](https://techpolicy.press/a-timeline-of-the-anthropic-pentagon-dispute) — 文章提供了 Anthropic 与国防部之间争议的时间线。
+### 2026-05-29
+- [Is Anthropic limiting the release of Mythos to protect the internet — or Anthropic? | TechCrunch](https://techcrunch.com/2026/04/09/is-anthropic-limiting-the-release-of-mythos-to-protect-the-internet-or-anthropic) — Anthropic限制了其最新模型Mythos的发布，因为该模型能够发现全球用户依赖的软件中的安全漏洞，这表明发布策略可能不仅仅是为了网络安全。
 
