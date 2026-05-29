@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-29T09:23
+last_check: 2026-05-29T13:22
 last_activity: '2026-05-29'
-next_check: 2026-05-29T12:23
+next_check: 2026-05-29T16:22
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 185
+findings_count: 187
 tags:
 - tracker
 - HOT
@@ -303,4 +303,7 @@ deepdive_article: '[[待填写]]'
 - [Why Anthropic’s Mythos Is Sparking Alarm](https://www.youtube.com/watch?v=JmFKaqJg5X4&vl=en) — 视频讨论了Anthropic的Mythos模型引发的关注，以及投资者对其估值达到8000亿美元的兴趣，这是新的事实。
 ### 2026-05-29
 - [The Department of Defense's Conflict With Anthropic and Deal With ...](https://www.americanprogress.org/article/the-department-of-defenses-conflict-with-anthropic-and-deal-with-openai-are-a-call-for-congress-to-act) — 美国国防部与Anthropic的冲突以及与OpenAI的交易呼吁国会采取行动，这是新的事实。
+### 2026-05-29
+- [Statement from Dario Amodei on our discussions with ... - Anthropic](https://www.anthropic.com/news/statement-department-of-war) — Anthropic CEO Dario Amodei关于与政府部门的讨论的声明，可能包含新的事实。
+- [Post-Mythos AI Model Regulation: Licensing and Disclosure Frameworks – Lab Space](https://labs.cloudsecurityalliance.org/research/csa-research-note-post-mythos-ai-model-regulation-policy-lan) — 文章讨论了Mythos AI模型监管的许可和披露框架，可能包含新的事实。
 
