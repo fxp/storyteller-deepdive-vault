@@ -4,12 +4,12 @@ title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折�
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
 status: HOT
-last_check: 2026-05-29T07:35
+last_check: 2026-05-29T11:14
 last_activity: '2026-05-29'
-next_check: 2026-05-29T10:35
+next_check: 2026-05-29T14:14
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 68
+findings_count: 70
 tags:
 - tracker
 - HOT
@@ -194,4 +194,7 @@ The U.S. Commerce Department has approved around 10 Chinese companies—includin
 ### 2026-05-29
 - [Why the US Just Allowed Nvidia to Sell H200 Chips to China (And What It Really Means)](https://explainthistech.com/big-tech/why-us-allowed-nvidia-h200-chips-china) — 美国商务部批准了约10家中国公司购买英伟达的H200 AI芯片，这是新的事实，与事件相关。
 - [AI出口管制：全球芯片限制政策导航指南| Introl Blog](https://introl.com/zh/blog/ai-export-controls-navigating-chip-restrictions-globally-2025) — 特朗普政府正在修改拜登时代的三级出口管制政策，在放宽中东限制的同时加强对中国的执法力度，这是新的事实，与事件相关。
+### 2026-05-29
+- [中美两国重启人工智能对话：元首会晤校准竞合路线](https://fddi.fudan.edu.cn/ea/f7/c18965a781047/page.htm) — 特朗普访华期间，中美两国重启人工智能对话，并校准了竞合路线，这是新的事实，与事件相关。
+- [华为Ascend 950PR量产成功，2026年AI芯片营收预计达120亿美元 ...](https://zhuanlan.zhihu.com/p/2033821357394366898) — 华为Ascend 950PR量产成功，2026年AI芯片营收预计达120亿美元，这是新的事实，与事件相关。
 
