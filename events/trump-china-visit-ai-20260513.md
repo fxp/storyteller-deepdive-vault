@@ -4,12 +4,12 @@ title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折�
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
 status: HOT
-last_check: 2026-05-28T22:38
-last_activity: '2026-05-28'
-next_check: 2026-05-29T01:38
+last_check: 2026-05-29T03:20
+last_activity: '2026-05-29'
+next_check: 2026-05-29T06:20
 interval_hours: 3
-consecutive_empty: 3
-findings_count: 64
+consecutive_empty: 0
+findings_count: 66
 tags:
 - tracker
 - HOT
@@ -188,3 +188,7 @@ The U.S. Commerce Department has approved around 10 Chinese companies—includin
 ### 2026-05-28
 - [Licensable picture: China Gives Nod To ByteDance, Alibaba And Tencent To Buy Nvidia's H200 Chips](https://www.reutersconnect.com/item/china-gives-nod-to-bytedance-alibaba-and-tencent-to-buy-nvidias-h200-chips/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMU5VUlBITzAwMDBMNjRCQw) — 中国批准字节跳动、阿里巴巴和腾讯购买英伟达的H200芯片，这是新的事实，与事件相关。
 - [英伟达中国份额暴跌至0翻身没戏：机构称明年华为拿下50%AI芯片份额](https://finance.sina.com.cn/tech/discovery/2025-12-05/doc-infztpua9901335.shtml) — 知名调研机构Bernstein Research的报告显示，华为将在2026年占据中国AI芯片市场50%份额，这是新的事实，与事件相关。
+### 2026-05-29
+- [The Silicon Surrender Of China To Nvidia - Forbes](https://www.forbes.com/sites/jonmarkman/2026/02/03/the-silicon-surrender-of-china-to-nvidia) — 中国有条件批准字节跳动、阿里巴巴、腾讯和DeepSeek购买英伟达H200芯片，这是新的事实，与事件相关。
+- [刚刚！中美，大消息！ - 证券时报](https://www.stcn.com/article/detail/3507012.html) — 美国政府正考虑允许英伟达向中国出售H200人工智能芯片，这一决定得益于中美双边关系缓和，为美国先进技术对华出口提供前景。
+
