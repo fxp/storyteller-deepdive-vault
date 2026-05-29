@@ -4,12 +4,12 @@ title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折�
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
 status: HOT
-last_check: 2026-05-29T03:20
+last_check: 2026-05-29T07:35
 last_activity: '2026-05-29'
-next_check: 2026-05-29T06:20
+next_check: 2026-05-29T10:35
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 66
+findings_count: 68
 tags:
 - tracker
 - HOT
@@ -191,4 +191,7 @@ The U.S. Commerce Department has approved around 10 Chinese companies—includin
 ### 2026-05-29
 - [The Silicon Surrender Of China To Nvidia - Forbes](https://www.forbes.com/sites/jonmarkman/2026/02/03/the-silicon-surrender-of-china-to-nvidia) — 中国有条件批准字节跳动、阿里巴巴、腾讯和DeepSeek购买英伟达H200芯片，这是新的事实，与事件相关。
 - [刚刚！中美，大消息！ - 证券时报](https://www.stcn.com/article/detail/3507012.html) — 美国政府正考虑允许英伟达向中国出售H200人工智能芯片，这一决定得益于中美双边关系缓和，为美国先进技术对华出口提供前景。
+### 2026-05-29
+- [Why the US Just Allowed Nvidia to Sell H200 Chips to China (And What It Really Means)](https://explainthistech.com/big-tech/why-us-allowed-nvidia-h200-chips-china) — 美国商务部批准了约10家中国公司购买英伟达的H200 AI芯片，这是新的事实，与事件相关。
+- [AI出口管制：全球芯片限制政策导航指南| Introl Blog](https://introl.com/zh/blog/ai-export-controls-navigating-chip-restrictions-globally-2025) — 特朗普政府正在修改拜登时代的三级出口管制政策，在放宽中东限制的同时加强对中国的执法力度，这是新的事实，与事件相关。
 
