@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-29
-url: "https://techcrunch.com/2026/04/09/is-anthropic-limiting-the-release-of-mythos-to-protect-the-internet-or-anthropic"
-source_title: "Is Anthropic limiting the release of Mythos to protect the internet — or Anthropic? | TechCrunch"
+url: "https://www.youtube.com/watch?v=JmFKaqJg5X4&vl=en"
+source_title: "Why Anthropic’s Mythos Is Sparking Alarm"
 relevance: RELEVANT
 ---
 
-# Is Anthropic limiting the release of Mythos to protect the internet — or Anthropic? | TechCrunch
+# Why Anthropic’s Mythos Is Sparking Alarm
 
-**来源**: [Is Anthropic limiting the release of Mythos to protect the internet — or Anthropic? | TechCrunch](https://techcrunch.com/2026/04/09/is-anthropic-limiting-the-release-of-mythos-to-protect-the-internet-or-anthropic)
+**来源**: [Why Anthropic’s Mythos Is Sparking Alarm](https://www.youtube.com/watch?v=JmFKaqJg5X4&vl=en)
 **发现时间**: 2026-05-29
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-Anthropic限制了其最新模型Mythos的发布，因为该模型能够发现全球用户依赖的软件中的安全漏洞，这表明发布策略可能不仅仅是为了网络安全。
+视频讨论了Anthropic的Mythos模型引发的关注，以及投资者对其估值达到8000亿美元的兴趣，这是新的事实。
