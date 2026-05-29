@@ -4,12 +4,12 @@ title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折�
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
 status: HOT
-last_check: 2026-05-29T15:18
+last_check: 2026-05-29T19:02
 last_activity: '2026-05-29'
-next_check: 2026-05-29T18:18
+next_check: 2026-05-29T22:02
 interval_hours: 3
-consecutive_empty: 1
-findings_count: 70
+consecutive_empty: 0
+findings_count: 71
 tags:
 - tracker
 - HOT
@@ -197,3 +197,6 @@ The U.S. Commerce Department has approved around 10 Chinese companies—includin
 ### 2026-05-29
 - [中美两国重启人工智能对话：元首会晤校准竞合路线](https://fddi.fudan.edu.cn/ea/f7/c18965a781047/page.htm) — 特朗普访华期间，中美两国重启人工智能对话，并校准了竞合路线，这是新的事实，与事件相关。
 - [华为Ascend 950PR量产成功，2026年AI芯片营收预计达120亿美元 ...](https://zhuanlan.zhihu.com/p/2033821357394366898) — 华为Ascend 950PR量产成功，2026年AI芯片营收预计达120亿美元，这是新的事实，与事件相关。
+### 2026-05-29
+- [2026年国产AI算力全面落地：华为昇腾950PR量产 - 什么值得买](https://post.smzdm.com/p/a95lqvdp) — 华为昇腾950PR芯片将于2026年Q1量产，FP8算力达1 PFLOPS，性能较前代提升近3倍。
+
