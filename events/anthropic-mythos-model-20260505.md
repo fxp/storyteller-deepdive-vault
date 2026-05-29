@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-29T13:22
+last_check: 2026-05-29T17:19
 last_activity: '2026-05-29'
-next_check: 2026-05-29T16:22
+next_check: 2026-05-29T20:19
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 187
+findings_count: 188
 tags:
 - tracker
 - HOT
@@ -306,4 +306,6 @@ deepdive_article: '[[待填写]]'
 ### 2026-05-29
 - [Statement from Dario Amodei on our discussions with ... - Anthropic](https://www.anthropic.com/news/statement-department-of-war) — Anthropic CEO Dario Amodei关于与政府部门的讨论的声明，可能包含新的事实。
 - [Post-Mythos AI Model Regulation: Licensing and Disclosure Frameworks – Lab Space](https://labs.cloudsecurityalliance.org/research/csa-research-note-post-mythos-ai-model-regulation-policy-lan) — 文章讨论了Mythos AI模型监管的许可和披露框架，可能包含新的事实。
+### 2026-05-29
+- [[PDF] Claude Mythos Preview System Card - Anthropic](https://www-cdn.anthropic.com/08ab9158070959f88f296514c21b7facce6f52bc.pdf) — 提供了Anthropic Claude Mythos Preview的系统卡，可能包含模型的具体信息和新事实。
 

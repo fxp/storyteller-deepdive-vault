@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-29
-url: "https://www.anthropic.com/news/statement-department-of-war"
-source_title: "Statement from Dario Amodei on our discussions with ... - Anthropic"
+url: "https://www-cdn.anthropic.com/08ab9158070959f88f296514c21b7facce6f52bc.pdf"
+source_title: "[PDF] Claude Mythos Preview System Card - Anthropic"
 relevance: RELEVANT
 ---
 
-# Statement from Dario Amodei on our discussions with ... - Anthropic
+# [PDF] Claude Mythos Preview System Card - Anthropic
 
-**来源**: [Statement from Dario Amodei on our discussions with ... - Anthropic](https://www.anthropic.com/news/statement-department-of-war)
+**来源**: [[PDF] Claude Mythos Preview System Card - Anthropic](https://www-cdn.anthropic.com/08ab9158070959f88f296514c21b7facce6f52bc.pdf)
 **发现时间**: 2026-05-29
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-Anthropic CEO Dario Amodei关于与政府部门的讨论的声明，可能包含新的事实。
+提供了Anthropic Claude Mythos Preview的系统卡，可能包含模型的具体信息和新事实。
