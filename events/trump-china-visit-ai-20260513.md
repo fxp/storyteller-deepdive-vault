@@ -4,12 +4,12 @@ title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折�
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
 status: HOT
-last_check: 2026-05-29T19:02
+last_check: 2026-05-29T22:36
 last_activity: '2026-05-29'
-next_check: 2026-05-29T22:02
+next_check: 2026-05-30T01:36
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 71
+findings_count: 73
 tags:
 - tracker
 - HOT
@@ -199,4 +199,7 @@ The U.S. Commerce Department has approved around 10 Chinese companies—includin
 - [华为Ascend 950PR量产成功，2026年AI芯片营收预计达120亿美元 ...](https://zhuanlan.zhihu.com/p/2033821357394366898) — 华为Ascend 950PR量产成功，2026年AI芯片营收预计达120亿美元，这是新的事实，与事件相关。
 ### 2026-05-29
 - [2026年国产AI算力全面落地：华为昇腾950PR量产 - 什么值得买](https://post.smzdm.com/p/a95lqvdp) — 华为昇腾950PR芯片将于2026年Q1量产，FP8算力达1 PFLOPS，性能较前代提升近3倍。
+### 2026-05-29
+- [美中峰会“芯片无交易”…中：将使用国产芯片取代英伟达 - 朝鲜日报](https://cnnews.chosun.com/client/news/viw.asp?nNewsNumb=20260564773&cate=c01&mcate=m1002) — 美国放宽了对英伟达H200芯片出口到中国的监管规定，将原先的推定拒绝改为逐案审查。
+- [H200芯片松绑与云管制下的算力“生死战”【走出去智库】 - 腾讯新闻](https://news.qq.com/rain/a/20260114A04JQ000) — 中国政府为鼓励本国芯片生产，限制了对H200的进口。
 
