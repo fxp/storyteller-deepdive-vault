@@ -3,16 +3,16 @@ id: chrome-prompt-api-20260509
 title: Google Chrome 推出 Prompt API（浏览器内置 Gemini Nano）
 seed_url: https://developer.chrome.com/docs/ai/prompt-api
 published_date: 2024-11-12
-status: ACTIVE
-last_check: 2026-05-29T03:20
-last_activity: '2026-05-27'
-next_check: 2026-05-29T09:20
-interval_hours: 6
-consecutive_empty: 8
-findings_count: 78
+status: HOT
+last_check: 2026-05-29T09:23
+last_activity: '2026-05-29'
+next_check: 2026-05-29T12:23
+interval_hours: 3
+consecutive_empty: 0
+findings_count: 80
 tags:
 - tracker
-- ACTIVE
+- HOT
 entities:
   orgs:
   - Google
@@ -201,3 +201,7 @@ search_queries:
             
             
             - Google Developers Blog](https://developers.googleblog.com/on-device-genai-in-chrome-chromebook-plus-and-pixel-watch-with-litert-lm) — LiteRT-LM is a production-tested inference framework designed for running large language models, like Gemini Nano, Gemma, with high performance.
+### 2026-05-29
+- [Google unveils the Chrome Prompt API: Run Gemma locally from ...](https://wandb.ai/byyoung3/ml-news/reports/Google-unveils-the-Chrome-Prompt-API-Run-Gemma-locally-from-the-browser---VmlldzoxNjY4Njk4Mg) — The Prompt API is part of Chrome's built-in AI initiative, allowing developers to send natural language prompts directly to a local model
+- [First-time Chrome Extension developer's journey setting up Gemini Nano and Prompt API](https://groups.google.com/a/chromium.org/g/chrome-ai-dev-preview-discuss/c/8M6mL5uOnBQ) — First-time Chrome Extension developer's journey setting up Gemini Nano and Prompt API
+
