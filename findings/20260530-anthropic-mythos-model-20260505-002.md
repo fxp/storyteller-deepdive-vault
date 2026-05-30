@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-30
-url: "https://www.bloomberg.com/news/articles/2026-05-28/anthropic-unveils-new-flagship-ai-model-that-s-better-at-coding"
-source_title: "Anthropic Plans Wide Release of Mythos-Level AI Models in Weeks"
+url: "https://thehill.com/policy/technology/5843290-anthropic-mythos-white-house"
+source_title: "Anthropic's Mythos AI model draws White House attention - The Hill"
 relevance: RELEVANT
 ---
 
-# Anthropic Plans Wide Release of Mythos-Level AI Models in Weeks
+# Anthropic's Mythos AI model draws White House attention - The Hill
 
-**来源**: [Anthropic Plans Wide Release of Mythos-Level AI Models in Weeks](https://www.bloomberg.com/news/articles/2026-05-28/anthropic-unveils-new-flagship-ai-model-that-s-better-at-coding)
+**来源**: [Anthropic's Mythos AI model draws White House attention - The Hill](https://thehill.com/policy/technology/5843290-anthropic-mythos-white-house)
 **发现时间**: 2026-05-30
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-Anthropic推出了一款新的旗舰AI模型，该模型在编码方面表现更好。
+白宫对 Anthropic 的 Mythos 模型表示关注，尽管之前将其列入黑名单。

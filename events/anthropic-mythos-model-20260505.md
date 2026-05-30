@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-30T12:37
+last_check: 2026-05-30T16:29
 last_activity: '2026-05-30'
-next_check: 2026-05-30T15:37
+next_check: 2026-05-30T19:29
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 197
+findings_count: 199
 tags:
 - tracker
 - HOT
@@ -320,4 +320,7 @@ deepdive_article: '[[待填写]]'
 ### 2026-05-30
 - [Anthropic Plans Wide Release of Mythos-Level AI Models in Weeks](https://www.insurancejournal.com/news/national/2026/05/29/871703.htm) — Anthropic计划在未来几周内广泛发布与Mythos级别的人工智能模型，这些模型具有与Mythos相当的网络安全能力。
 - [Anthropic Plans Wide Release of Mythos-Level AI Models in Weeks](https://www.bloomberg.com/news/articles/2026-05-28/anthropic-unveils-new-flagship-ai-model-that-s-better-at-coding) — Anthropic推出了一款新的旗舰AI模型，该模型在编码方面表现更好。
+### 2026-05-30
+- [NSA spies are reportedly using Anthropic’s Mythos, despite Pentagon feud | TechCrunch](https://techcrunch.com/2026/04/20/nsa-spies-are-reportedly-using-anthropics-mythos-despite-pentagon-feud) — NSA 使用 Anthropic 的 Mythos 模型，尽管存在与五角大楼的争执。
+- [Anthropic's Mythos AI model draws White House attention - The Hill](https://thehill.com/policy/technology/5843290-anthropic-mythos-white-house) — 白宫对 Anthropic 的 Mythos 模型表示关注，尽管之前将其列入黑名单。
 

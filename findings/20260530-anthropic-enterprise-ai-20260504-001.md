@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-enterprise-ai-20260504]]"
 date: 2026-05-30
-url: "https://www.tradingview.com/news/invezz:06b353eab094b:0-anthropic-forms-jv-with-wall-street-firms-to-expand-enterprise-ai"
-source_title: "Anthropic forms JV with Wall Street firms to expand enterprise AI — TradingView News"
+url: "https://www.linkedin.com/posts/shamahyder_the-headlines-says-anthropic-is-going-enterprise-activity-7447387195490865152-Bn5P"
+source_title: "Blackstone Invests in Anthropic, Pushing Claude into Enterprises"
 relevance: RELEVANT
 ---
 
-# Anthropic forms JV with Wall Street firms to expand enterprise AI — TradingView News
+# Blackstone Invests in Anthropic, Pushing Claude into Enterprises
 
-**来源**: [Anthropic forms JV with Wall Street firms to expand enterprise AI — TradingView News](https://www.tradingview.com/news/invezz:06b353eab094b:0-anthropic-forms-jv-with-wall-street-firms-to-expand-enterprise-ai)
+**来源**: [Blackstone Invests in Anthropic, Pushing Claude into Enterprises](https://www.linkedin.com/posts/shamahyder_the-headlines-says-anthropic-is-going-enterprise-activity-7447387195490865152-Bn5P)
 **发现时间**: 2026-05-30
 **所属事件**: [[anthropic-enterprise-ai-20260504]]
 
 ## 摘要
 
-文章报道 Anthropic 与华尔街公司合作成立新的合资企业，旨在加速企业中人工智能工具的采用，并嵌入 Anthropic 的 AI 助手 Claude。
+Anthropic 与 Blackstone、Hellman & Friedman、Goldman Sachs 和 General Atlantic 宣布了一项 15 亿美元的合资企业，旨在部署 Claude。
