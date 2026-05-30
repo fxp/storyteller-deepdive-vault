@@ -4,12 +4,12 @@ title: Google Chrome 推出 Prompt API（浏览器内置 Gemini Nano）
 seed_url: https://developer.chrome.com/docs/ai/prompt-api
 published_date: 2024-11-12
 status: HOT
-last_check: 2026-05-29T20:56
-last_activity: '2026-05-29'
-next_check: 2026-05-29T23:56
+last_check: 2026-05-30T01:08
+last_activity: '2026-05-30'
+next_check: 2026-05-30T04:08
 interval_hours: 3
-consecutive_empty: 3
-findings_count: 80
+consecutive_empty: 0
+findings_count: 81
 tags:
 - tracker
 - HOT
@@ -204,3 +204,6 @@ search_queries:
 ### 2026-05-29
 - [Google unveils the Chrome Prompt API: Run Gemma locally from ...](https://wandb.ai/byyoung3/ml-news/reports/Google-unveils-the-Chrome-Prompt-API-Run-Gemma-locally-from-the-browser---VmlldzoxNjY4Njk4Mg) — The Prompt API is part of Chrome's built-in AI initiative, allowing developers to send natural language prompts directly to a local model
 - [First-time Chrome Extension developer's journey setting up Gemini Nano and Prompt API](https://groups.google.com/a/chromium.org/g/chrome-ai-dev-preview-discuss/c/8M6mL5uOnBQ) — First-time Chrome Extension developer's journey setting up Gemini Nano and Prompt API
+### 2026-05-30
+- [Build new features using built-in AI in Chrome](https://www.youtube.com/watch?v=ddBxvuH35tI) — Chrome for Developers video showcasing built-in AI features and Gemini Nano integration
+

@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-29T20:56
-last_activity: '2026-05-29'
-next_check: 2026-05-29T23:56
+last_check: 2026-05-30T01:08
+last_activity: '2026-05-30'
+next_check: 2026-05-30T04:08
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 190
+findings_count: 195
 tags:
 - tracker
 - HOT
@@ -311,4 +311,10 @@ deepdive_article: '[[待填写]]'
 ### 2026-05-29
 - [Why Anthropic's new model has cybersecurity experts rattled](https://www.platformer.news/anthropic-mythos-cybersecurity-risk-experts) — Anthropic 新模型 Claude Mythos 引发安全专家担忧，该模型被认为是最危险的模型。
 - [Mythos AI model poses significant security risks - Facebook](https://www.facebook.com/groups/368542331574851/posts/1513628353732904) — Mythos AI 模型能够识别每个国家银行系统、电网和政府软件中的隐藏缺陷。
+### 2026-05-30
+- [Anthropic Mythos: Complete Guide (2026)](https://codersera.com/blog/anthropic-mythos-complete-guide-2026) — Anthropic Mythos 是一个前沿预览模型，于 2026 年 4 月 7 日发布，比 Opus 4.7 在数学和安全方面更强，仅通过 Project Glasswing 发送给大约 50 个防御安全合作伙伴。
+- [US security agency is using Anthropic's Mythos despite blacklist ...](https://www.reuters.com/business/us-security-agency-is-using-anthropics-mythos-despite-blacklist-axios-reports-2026-04-19) — 美国国家安全局正在使用 Anthropic 的 Mythos 预览 AI 工具，尽管五角大楼将该公司列入黑名单。
+- [Claude Mythos Benchmarks: 93.9% SWE-Bench and 59% Multimodal Score | MindStudio](https://www.mindstudio.ai/blog/claude-mythos-benchmark-results-swe-bench) — Claude Mythos 在 SWE-bench 上获得了 93.9% 的分数，在多模态基准测试中获得了 59% 的分数。
+- [Claude Mythos Preview Benchmarks 2026 - BenchLM.ai](https://benchlm.ai/models/claude-mythos-preview) — Claude Mythos 预览在 BenchLM 的临时排行榜上获得了 99/100 的分数，共有 15 个基准测试分数。
+- [Too Dangerous to Deploy: Anthropic's Mythos and What Comes Next](https://www.justsecurity.org/138011/too-dangerous-anthropic-mythos) — Anthropic 宣布 Mythos 预览，这是一个具有如此强大的黑客能力的前沿 AI 模型，以至于公司认为它对公众发布过于危险。
 
