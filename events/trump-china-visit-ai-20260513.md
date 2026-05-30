@@ -4,12 +4,12 @@ title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折�
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
 status: HOT
-last_check: 2026-05-29T22:36
-last_activity: '2026-05-29'
-next_check: 2026-05-30T01:36
+last_check: 2026-05-30T03:17
+last_activity: '2026-05-30'
+next_check: 2026-05-30T06:17
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 73
+findings_count: 75
 tags:
 - tracker
 - HOT
@@ -202,4 +202,7 @@ The U.S. Commerce Department has approved around 10 Chinese companies—includin
 ### 2026-05-29
 - [美中峰会“芯片无交易”…中：将使用国产芯片取代英伟达 - 朝鲜日报](https://cnnews.chosun.com/client/news/viw.asp?nNewsNumb=20260564773&cate=c01&mcate=m1002) — 美国放宽了对英伟达H200芯片出口到中国的监管规定，将原先的推定拒绝改为逐案审查。
 - [H200芯片松绑与云管制下的算力“生死战”【走出去智库】 - 腾讯新闻](https://news.qq.com/rain/a/20260114A04JQ000) — 中国政府为鼓励本国芯片生产，限制了对H200的进口。
+### 2026-05-30
+- [U.S. Approves Sale of Nvidia H200 Chips to 10 Chinese Firms](https://www.binance.com/en/square/post/323272946319394) — 美国批准向10家中国公司出售英伟达H200芯片，包括阿里巴巴、腾讯、字节跳动和京东等。
+- [Huawei Targets AI Chip Revenue Up 60% in 2026, Challenging Nvidia in China](https://www.heygotrade.com/en/news/huawei-targets-ai-chip-revenue-up-60-percent-2026-vs-nvidia) — 华为预计到2026年AI芯片收入将增长60%，达到约120亿美元，挑战英伟达在中国市场。
 
