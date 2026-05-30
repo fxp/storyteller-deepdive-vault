@@ -3,16 +3,16 @@ id: caisi-ai-security-testing-20260505
 title: 美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic 被排除
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
-status: ACTIVE
-last_check: 2026-05-29T21:41
-last_activity: '2026-05-28'
-next_check: 2026-05-30T03:41
-interval_hours: 6
-consecutive_empty: 7
-findings_count: 115
+status: HOT
+last_check: 2026-05-30T05:25
+last_activity: '2026-05-30'
+next_check: 2026-05-30T08:25
+interval_hours: 3
+consecutive_empty: 0
+findings_count: 117
 tags:
 - tracker
-- ACTIVE
+- HOT
 entities:
   orgs:
   - Microsoft
@@ -235,3 +235,7 @@ Google, Microsoft, Amazon Web Services, Nvidia, OpenAI, Reflection and SpaceX wi
 - [U.S. government to test AI models, expand oversight - UPI.com](https://www.upi.com/Top_News/US/2026/05/05/govt-to-vet-AI-models/2521778004357) — 美国政府对AI模型进行测试，并扩大监管，这是历史发现中未出现的新事实。
 ### 2026-05-28
 - [Pentagon clears 8 tech firms to deploy their AI on its classified ...](https://breakingdefense.com/2026/05/pentagon-clears-7-tech-firms-to-deploy-their-ai-on-its-classified-networks) — Pentagon 与八家科技公司达成协议，允许在机密网络上部署AI技术，其中包括Amazon Web Services, Google, Microsoft, NVIDIA, OpenAI, SpaceX, Reflection和Oracle。
+### 2026-05-30
+- [HPCwire - Since 1987 – Covering the Fastest Computers in the World and the People Who Run Them](https://www.hpcwire.com/off-the-wire/nists-caisi-announces-new-frontier-ai-testing-agreements-with-google-deepmind-microsoft-xai) — NIST的CAISI宣布与Google DeepMind、Microsoft和xAI签署新的前沿AI测试协议。
+- [Commerce AI center will evaluate Google Deepmind, Microsoft and xAI models - Nextgov/FCW](https://www.nextgov.com/artificial-intelligence/2026/05/commerce-ai-center-will-evaluate-google-deepmind-microsoft-and-xai-models/413349) — 美国国防部与AI公司达成协议，以扩大机密系统中的AI使用。
+

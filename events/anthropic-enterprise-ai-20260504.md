@@ -3,16 +3,16 @@ id: anthropic-enterprise-ai-20260504
 title: Anthropic + Blackstone 联合组建企业 AI 交付公司
 seed_url: https://www.anthropic.com/news/enterprise-ai-services-company
 published_date: 2026-05-04
-status: ACTIVE
-last_check: 2026-05-29T21:41
-last_activity: '2026-05-28'
-next_check: 2026-05-30T03:41
-interval_hours: 6
-consecutive_empty: 5
-findings_count: 60
+status: HOT
+last_check: 2026-05-30T05:25
+last_activity: '2026-05-30'
+next_check: 2026-05-30T08:25
+interval_hours: 3
+consecutive_empty: 0
+findings_count: 61
 tags:
 - tracker
-- ACTIVE
+- HOT
 entities:
   orgs:
   - Anthropic
@@ -161,3 +161,6 @@ deepdive_article: '[[待填写]]'
 - [Anthropic is partnering with Blackstone, Hellman & Friedman and ...](https://www.facebook.com/bloombergbusiness/posts/anthropic-is-partnering-with-blackstone-hellman-friedman-and-goldman-sachs-to-fo/1389848916334531) — Anthropic 正在筹集 50-100 亿美元的新资金，这可能使该初创公司的估值达到 1700 亿美元。
 ### 2026-05-28
 - [Anthropic: $100 Million Invested To Launch Claude Partner Network For Enterprise AI Adoption](https://pulse2.com/anthropic-100-million-invested-to-launch-claude-partner-network-for-enterprise-ai-adoption) — 文章宣布 Anthropic 启动 Claude Partner Network，并投资 1 亿美元以支持合作伙伴。
+### 2026-05-30
+- [The AI-Native Enterprise Services Firm Backed by Anthropic, Blackstone, and Hellman & Friedman Announces Acquisition of Fractional AI](https://www.businesswire.com/news/home/20260520809828/en/The-AI-Native-Enterprise-Services-Firm-Backed-by-Anthropic-Blackstone-and-Hellman-Friedman-Announces-Acquisition-of-Fractional-AI) — Anthropic、Blackstone 和 Hellman & Friedman 支持的 AI 原生企业服务公司宣布收购 Fractional AI。
+

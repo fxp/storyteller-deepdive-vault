@@ -4,12 +4,12 @@ title: Google Chrome 推出 Prompt API（浏览器内置 Gemini Nano）
 seed_url: https://developer.chrome.com/docs/ai/prompt-api
 published_date: 2024-11-12
 status: HOT
-last_check: 2026-05-30T01:08
+last_check: 2026-05-30T05:25
 last_activity: '2026-05-30'
-next_check: 2026-05-30T04:08
+next_check: 2026-05-30T08:25
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 81
+findings_count: 82
 tags:
 - tracker
 - HOT
@@ -206,4 +206,6 @@ search_queries:
 - [First-time Chrome Extension developer's journey setting up Gemini Nano and Prompt API](https://groups.google.com/a/chromium.org/g/chrome-ai-dev-preview-discuss/c/8M6mL5uOnBQ) — First-time Chrome Extension developer's journey setting up Gemini Nano and Prompt API
 ### 2026-05-30
 - [Build new features using built-in AI in Chrome](https://www.youtube.com/watch?v=ddBxvuH35tI) — Chrome for Developers video showcasing built-in AI features and Gemini Nano integration
+### 2026-05-30
+- [The Quiet AI War Inside Your Browser - DEV Community](https://dev.to/obetomuniz/the-quiet-ai-war-inside-your-browser-22hd) — Google shipped the Prompt API in Chrome 148 on May 5, 2026. Chrome 148 quietly gave every website on earth the ability to run AI inference locally (text generation, summarization, classification, image captioning) by talking to Gemini Nano, a 4GB model that Chrome now ships to users' devices without asking.
 
