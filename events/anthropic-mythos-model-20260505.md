@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-30T16:29
+last_check: 2026-05-30T19:35
 last_activity: '2026-05-30'
-next_check: 2026-05-30T19:29
+next_check: 2026-05-30T22:35
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 199
+findings_count: 201
 tags:
 - tracker
 - HOT
@@ -323,4 +323,7 @@ deepdive_article: '[[待填写]]'
 ### 2026-05-30
 - [NSA spies are reportedly using Anthropic’s Mythos, despite Pentagon feud | TechCrunch](https://techcrunch.com/2026/04/20/nsa-spies-are-reportedly-using-anthropics-mythos-despite-pentagon-feud) — NSA 使用 Anthropic 的 Mythos 模型，尽管存在与五角大楼的争执。
 - [Anthropic's Mythos AI model draws White House attention - The Hill](https://thehill.com/policy/technology/5843290-anthropic-mythos-white-house) — 白宫对 Anthropic 的 Mythos 模型表示关注，尽管之前将其列入黑名单。
+### 2026-05-30
+- [Project Glasswing: Securing critical software for the AI era - Anthropic](https://anthropic.com/glasswing) — Anthropic 发布了 Project Glasswing 项目，旨在为人工智能时代的关键软件提供安全保障，并使用 Claude Mythos Preview 来识别漏洞和利用。
+- [Fact Check Team: Anthropic’s Mythos AI raises cybersecurity promise, but poses risk](https://thenationaldesk.com/news/fact-check-team/fact-check-team-anthropics-mythos-ai-raises-cybersecurity-promise-but-poses-risk-tools-cautious-google-amazon-apple) — Fact Check Team 报道了 Mythos AI 在网络安全方面的承诺，但也指出了其潜在风险，并提及了国防部门使用 Anthropic 的 Claude AI 的报道。
 
