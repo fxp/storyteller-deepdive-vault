@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-30T08:57
+last_check: 2026-05-30T12:37
 last_activity: '2026-05-30'
-next_check: 2026-05-30T11:57
+next_check: 2026-05-30T15:37
 interval_hours: 3
-consecutive_empty: 2
-findings_count: 195
+consecutive_empty: 0
+findings_count: 197
 tags:
 - tracker
 - HOT
@@ -317,3 +317,7 @@ deepdive_article: '[[待填写]]'
 - [Claude Mythos Benchmarks: 93.9% SWE-Bench and 59% Multimodal Score | MindStudio](https://www.mindstudio.ai/blog/claude-mythos-benchmark-results-swe-bench) — Claude Mythos 在 SWE-bench 上获得了 93.9% 的分数，在多模态基准测试中获得了 59% 的分数。
 - [Claude Mythos Preview Benchmarks 2026 - BenchLM.ai](https://benchlm.ai/models/claude-mythos-preview) — Claude Mythos 预览在 BenchLM 的临时排行榜上获得了 99/100 的分数，共有 15 个基准测试分数。
 - [Too Dangerous to Deploy: Anthropic's Mythos and What Comes Next](https://www.justsecurity.org/138011/too-dangerous-anthropic-mythos) — Anthropic 宣布 Mythos 预览，这是一个具有如此强大的黑客能力的前沿 AI 模型，以至于公司认为它对公众发布过于危险。
+### 2026-05-30
+- [Anthropic Plans Wide Release of Mythos-Level AI Models in Weeks](https://www.insurancejournal.com/news/national/2026/05/29/871703.htm) — Anthropic计划在未来几周内广泛发布与Mythos级别的人工智能模型，这些模型具有与Mythos相当的网络安全能力。
+- [Anthropic Plans Wide Release of Mythos-Level AI Models in Weeks](https://www.bloomberg.com/news/articles/2026-05-28/anthropic-unveils-new-flagship-ai-model-that-s-better-at-coding) — Anthropic推出了一款新的旗舰AI模型，该模型在编码方面表现更好。
+

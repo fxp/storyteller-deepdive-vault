@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-05-30
-url: "https://codersera.com/blog/anthropic-mythos-complete-guide-2026"
-source_title: "Anthropic Mythos: Complete Guide (2026)"
+url: "https://www.insurancejournal.com/news/national/2026/05/29/871703.htm"
+source_title: "Anthropic Plans Wide Release of Mythos-Level AI Models in Weeks"
 relevance: RELEVANT
 ---
 
-# Anthropic Mythos: Complete Guide (2026)
+# Anthropic Plans Wide Release of Mythos-Level AI Models in Weeks
 
-**来源**: [Anthropic Mythos: Complete Guide (2026)](https://codersera.com/blog/anthropic-mythos-complete-guide-2026)
+**来源**: [Anthropic Plans Wide Release of Mythos-Level AI Models in Weeks](https://www.insurancejournal.com/news/national/2026/05/29/871703.htm)
 **发现时间**: 2026-05-30
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-Anthropic Mythos 是一个前沿预览模型，于 2026 年 4 月 7 日发布，比 Opus 4.7 在数学和安全方面更强，仅通过 Project Glasswing 发送给大约 50 个防御安全合作伙伴。
+Anthropic计划在未来几周内广泛发布与Mythos级别的人工智能模型，这些模型具有与Mythos相当的网络安全能力。
