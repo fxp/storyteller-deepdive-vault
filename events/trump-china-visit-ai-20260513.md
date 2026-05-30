@@ -4,12 +4,12 @@ title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折�
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
 status: HOT
-last_check: 2026-05-30T03:17
+last_check: 2026-05-30T07:13
 last_activity: '2026-05-30'
-next_check: 2026-05-30T06:17
+next_check: 2026-05-30T10:13
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 75
+findings_count: 81
 tags:
 - tracker
 - HOT
@@ -205,4 +205,11 @@ The U.S. Commerce Department has approved around 10 Chinese companies—includin
 ### 2026-05-30
 - [U.S. Approves Sale of Nvidia H200 Chips to 10 Chinese Firms](https://www.binance.com/en/square/post/323272946319394) — 美国批准向10家中国公司出售英伟达H200芯片，包括阿里巴巴、腾讯、字节跳动和京东等。
 - [Huawei Targets AI Chip Revenue Up 60% in 2026, Challenging Nvidia in China](https://www.heygotrade.com/en/news/huawei-targets-ai-chip-revenue-up-60-percent-2026-vs-nvidia) — 华为预计到2026年AI芯片收入将增长60%，达到约120亿美元，挑战英伟达在中国市场。
+### 2026-05-30
+- [中美两国重启人工智能对话：元首会晤校准竞合路线](https://fddi.fudan.edu.cn/_t2515/ea/f7/c18965a781047/page.htm) — 中美两国重启人工智能对话，元首会晤校准竞合路线，涉及高端芯片出口管制的对话谈判。
+- [美中峰会“芯片无交易”…中：将使用国产芯片取代英伟达](https://cnnews.chosun.com/client/news/viw.asp?nNewsNumb=20260564773&cate=c01&mcate=m1003) — 美中峰会中，芯片出口管制问题未被提及，但英伟达的中国专供人工智能（AI）H200将重启对华出口的预测落空。
+- [黃仁勳口中價值500 億美元的中國AI 市場， 目前Nvidia 的H200 晶片 ...](https://www.instagram.com/p/DYg7FatASnM) — 黄仁勋提到价值500亿美元的中国AI市场，目前Nvidia的H200晶片出口与交付进展，华为AI晶片替代速度，美中关系。
+- [美商务部长：英伟达H200芯片还没卖出去，中国想搞自己的 - 腾讯新闻](https://news.qq.com/rain/a/20260423A01Y0O00?adChannelId=news) — 美商务部长表示英伟达H200芯片还没卖出去，中国想搞自己的，涉及特朗普政府批准英伟达对华出口H200人工智能（AI）芯片的条件。
+- [Huawei could seize China's AI chip crown in 2026 as Nvidia's H200 ...](https://finance.yahoo.com/sectors/technology/articles/huawei-could-seize-china-ai-130144673.html) — 华为可能将在2026年占据中国AI芯片市场50%份额，挑战英伟达在中国市场。
+- [Trump-Xi Beijing Summit: AI Guardrails Discussed, Nothing Signed](https://www.briefs.co/news/trump-says-he-and-xi-talked-ai-guardrails-nothing-got-signed) — 特朗普-习近平北京峰会讨论了AI治理，但没有签署任何协议。
 
