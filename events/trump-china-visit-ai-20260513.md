@@ -4,11 +4,11 @@ title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折�
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
 status: HOT
-last_check: 2026-05-31T07:30
+last_check: 2026-05-31T10:46
 last_activity: '2026-05-31'
-next_check: 2026-05-31T10:30
+next_check: 2026-05-31T13:46
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 88
 tags:
 - tracker
@@ -222,4 +222,3 @@ The U.S. Commerce Department has approved around 10 Chinese companies—includin
 ### 2026-05-31
 - [黄仁勋：中国终将开放AI芯片市场](https://www.dw.com/zh/%E9%BB%84%E4%BB%81%E5%8B%8B%E4%B8%AD%E5%9B%BD%E7%BB%88%E5%B0%86%E5%BC%80%E6%94%BEai%E8%8A%AF%E7%89%87%E5%B8%82%E5%9C%BA/a-77207319) — 黄仁勋表示，H200芯片已获得对中国销售许可，但中国政府必须决定要保护本地市场到什么程度，以及他们希望透过更大的AI产能扩张本地市场到什么程度。
 - [Huawei Is The Biggest Winner In China's AI Market After NVIDIA Pullout, AI Share To Reach 60% This Year](https://wccftech.com/huawei-biggest-winner-in-china-ai-market-after-nvidia-pullout-60-percent-ai-share-2026) — 华为在英伟达退出中国市场后成为最大赢家，预计今年将占据中国AI芯片市场60%的份额。
-

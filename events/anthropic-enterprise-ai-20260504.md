@@ -4,12 +4,12 @@ title: Anthropic + Blackstone 联合组建企业 AI 交付公司
 seed_url: https://www.anthropic.com/news/enterprise-ai-services-company
 published_date: 2026-05-04
 status: HOT
-last_check: 2026-05-31T07:30
+last_check: 2026-05-31T10:46
 last_activity: '2026-05-31'
-next_check: 2026-05-31T10:30
+next_check: 2026-05-31T13:46
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 65
+findings_count: 70
 tags:
 - tracker
 - HOT
@@ -171,4 +171,10 @@ deepdive_article: '[[待填写]]'
 - [Anthropic and OpenAI are both launching joint ventures for enterprise AI services | TechCrunch](https://techcrunch.com/2026/05/04/anthropic-and-openai-are-both-launching-joint-ventures-for-enterprise-ai-services) — TechCrunch 文章报道 Anthropic 和 OpenAI 都在推出面向企业服务的合资企业，这是一个新的事实。
 ### 2026-05-31
 - [Anthropic Launches Claude Partner Network - ChannelVision Magazine](https://channelvisionmag.com/anthropic-launches-claude-partner-network) — 文章报道 Anthropic 宣布 Claude Partner Network，并提及公司对合作伙伴的100百万美元投资，这是新的事实。
+### 2026-05-31
+- [Claude Partner Network 2026: Eligibility, Application, Certification & Learning Path](https://claudeimplementation.com/blog/join-claude-partner-network) — Anthropic 投资了 1 亿美元启动 Claude Partner Network，以支持企业 AI 的采用。
+- [Anthropic Claude Partner Network: 2026 Funding & Support for AI Adoption - News and Statistics - IndexBox](https://www.indexbox.io/blog/anthropic-launches-claude-partner-network-with-100m-2026-funding) — Anthropic 启动了 Claude Partner Network，并承诺在 2026 年投资 1 亿美元以支持 AI 的采用。
+- [Anthropic Launches Claude Partner Network with $100M Commitment](https://www.linkedin.com/posts/aiblmedia_anthropic-has-launched-the-claude-partner-activity-7438239834026086402-DVLN) — Anthropic 通过 Claude Partner Network 正式化其企业渠道战略，并承诺在 2026 年投资 1 亿美元。
+- [Anthropic Wants Claude To Become A New Interface For Work](https://www.forbes.com/sites/geruiwang/2026/03/13/anthropic-wants-claude-to-become-a-new-interface-for-work) — Anthropic 通过 Claude Partner Network 将 Claude 转变为企业基础设施，并承诺在 2026 年投资 1 亿美元。
+- [Claude Partner Network 2026 | Claude Implementation](https://claudeimplementation.com/blog/claude-partner-network) — Anthropic 投资了 1 亿美元在 Claude Partner Network，旨在支持企业 AI 的规模化采用。
 
