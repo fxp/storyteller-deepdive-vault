@@ -4,11 +4,11 @@ title: Anthropic + Blackstone 联合组建企业 AI 交付公司
 seed_url: https://www.anthropic.com/news/enterprise-ai-services-company
 published_date: 2026-05-04
 status: HOT
-last_check: 2026-05-30T23:28
+last_check: 2026-05-31T03:20
 last_activity: '2026-05-30'
-next_check: 2026-05-31T02:28
+next_check: 2026-05-31T06:20
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 64
 tags:
 - tracker
@@ -169,4 +169,3 @@ deepdive_article: '[[待填写]]'
 - [Blackstone Invests in Anthropic, Pushing Claude into Enterprises](https://www.linkedin.com/posts/shamahyder_the-headlines-says-anthropic-is-going-enterprise-activity-7447387195490865152-Bn5P) — Anthropic 与 Blackstone、Hellman & Friedman、Goldman Sachs 和 General Atlantic 宣布了一项 15 亿美元的合资企业，旨在部署 Claude。
 ### 2026-05-30
 - [Anthropic and OpenAI are both launching joint ventures for enterprise AI services | TechCrunch](https://techcrunch.com/2026/05/04/anthropic-and-openai-are-both-launching-joint-ventures-for-enterprise-ai-services) — TechCrunch 文章报道 Anthropic 和 OpenAI 都在推出面向企业服务的合资企业，这是一个新的事实。
-

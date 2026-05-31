@@ -4,12 +4,12 @@ title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折�
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
 status: HOT
-last_check: 2026-05-30T22:27
-last_activity: '2026-05-30'
-next_check: 2026-05-31T01:27
+last_check: 2026-05-31T03:20
+last_activity: '2026-05-31'
+next_check: 2026-05-31T06:20
 interval_hours: 3
-consecutive_empty: 2
-findings_count: 84
+consecutive_empty: 0
+findings_count: 86
 tags:
 - tracker
 - HOT
@@ -216,3 +216,7 @@ The U.S. Commerce Department has approved around 10 Chinese companies—includin
 - [美国放宽对英伟达H200芯片出口中国的管制 - 新浪财经](https://finance.sina.com.cn/stock/usstock/c/2026-01-14/doc-inhhfmkx5299054.shtml) — 美国联邦公报显示，美国放宽英伟达H200芯片对华出口监管规定，特朗普通过社交媒体称，美政府允许英伟达向中国出售H200人工智能芯片。
 - [China, U.S. agree on intergovernmental dialogue on AI](https://english.www.gov.cn/news/202605/19/content_WS6a0c2a5ec6d00ca5f9a0b169.html) — 文章报道中美同意就人工智能进行政府间对话。
 - [China Announces New U.S.-China AI Dialogue After Trump Visit](https://www.geopolitechs.org/p/china-announces-new-us-china-ai-dialogue) — 文章报道中国宣布在特朗普访问后举行新的中美人工智能对话。
+### 2026-05-31
+- [5.14 中美北京会谈:A 股、美股、港股影响深度分析 | AgentPit | AgentPit](https://www.agentpit.io/insights/us-china-summit-may-2026) — 特朗普访华期间，中美双方就AI治理达成合作共识，标志着中美从‘打打谈谈’转向‘边竞争边合作’的新阶段。
+- [美批准英伟达对华出口AI芯片“H200”](http://cnnews.chosun.com/client/news/viw.asp?nNewsNumb=20251263970&cate=&mcate=m1003) — 美国总统特朗普宣布批准英伟达向中国出口高性能AI芯片H200，并要求向美国政府支付部分销售收益。
+
