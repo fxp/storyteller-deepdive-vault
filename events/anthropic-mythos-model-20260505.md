@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-31T03:20
-last_activity: '2026-05-30'
-next_check: 2026-05-31T06:20
+last_check: 2026-05-31T07:30
+last_activity: '2026-05-31'
+next_check: 2026-05-31T10:30
 interval_hours: 3
-consecutive_empty: 2
-findings_count: 201
+consecutive_empty: 0
+findings_count: 202
 tags:
 - tracker
 - HOT
@@ -326,3 +326,6 @@ deepdive_article: '[[待填写]]'
 ### 2026-05-30
 - [Project Glasswing: Securing critical software for the AI era - Anthropic](https://anthropic.com/glasswing) — Anthropic 发布了 Project Glasswing 项目，旨在为人工智能时代的关键软件提供安全保障，并使用 Claude Mythos Preview 来识别漏洞和利用。
 - [Fact Check Team: Anthropic’s Mythos AI raises cybersecurity promise, but poses risk](https://thenationaldesk.com/news/fact-check-team/fact-check-team-anthropics-mythos-ai-raises-cybersecurity-promise-but-poses-risk-tools-cautious-google-amazon-apple) — Fact Check Team 报道了 Mythos AI 在网络安全方面的承诺，但也指出了其潜在风险，并提及了国防部门使用 Anthropic 的 Claude AI 的报道。
+### 2026-05-31
+- [Claude Mythos Anthropic (2026): The Leak That Changed Everything](https://www.reddit.com/r/AISEOInsider/comments/1tppp6b/claude_mythos_anthropic_2026_the_leak_that) — Claude Mythos Anthropic 模型被认为比正常 Claude 模型系列更高级，能够跨大型代码进行推理，这是一个新的事实。
+
