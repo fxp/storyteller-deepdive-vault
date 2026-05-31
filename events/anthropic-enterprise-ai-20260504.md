@@ -4,12 +4,12 @@ title: Anthropic + Blackstone 联合组建企业 AI 交付公司
 seed_url: https://www.anthropic.com/news/enterprise-ai-services-company
 published_date: 2026-05-04
 status: HOT
-last_check: 2026-05-31T10:46
+last_check: 2026-05-31T14:39
 last_activity: '2026-05-31'
-next_check: 2026-05-31T13:46
+next_check: 2026-05-31T17:39
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 70
+findings_count: 72
 tags:
 - tracker
 - HOT
@@ -177,4 +177,7 @@ deepdive_article: '[[待填写]]'
 - [Anthropic Launches Claude Partner Network with $100M Commitment](https://www.linkedin.com/posts/aiblmedia_anthropic-has-launched-the-claude-partner-activity-7438239834026086402-DVLN) — Anthropic 通过 Claude Partner Network 正式化其企业渠道战略，并承诺在 2026 年投资 1 亿美元。
 - [Anthropic Wants Claude To Become A New Interface For Work](https://www.forbes.com/sites/geruiwang/2026/03/13/anthropic-wants-claude-to-become-a-new-interface-for-work) — Anthropic 通过 Claude Partner Network 将 Claude 转变为企业基础设施，并承诺在 2026 年投资 1 亿美元。
 - [Claude Partner Network 2026 | Claude Implementation](https://claudeimplementation.com/blog/claude-partner-network) — Anthropic 投资了 1 亿美元在 Claude Partner Network，旨在支持企业 AI 的规模化采用。
+### 2026-05-31
+- [Anthropic, Blackstone & Goldman Sachs Launch AI Services Firm to Scale Claude Adoption in Middle Market Enterprises](https://www.swfinstitute.org/news/109135/anthropic-blackstone-goldman-sachs-launch-ai-services-firm-to-scale-claude-adoption-in-middle-market-enterprises) — 新公司正式命名，名为 Anthropic, Blackstone & Goldman Sachs Launch AI Services Firm，旨在在中型市场中推广 Claude 的采用。
+- [Anthropic Forms AI Services Firm With $300M Backing](https://quantumzeitgeist.com/anthropic-alliance-services-firm-300m) — 新融资事实，提及了 300M 的支持。
 

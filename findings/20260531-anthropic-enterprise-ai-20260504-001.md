@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-enterprise-ai-20260504]]"
 date: 2026-05-31
-url: "https://claudeimplementation.com/blog/join-claude-partner-network"
-source_title: "Claude Partner Network 2026: Eligibility, Application, Certification & Learning Path"
+url: "https://www.swfinstitute.org/news/109135/anthropic-blackstone-goldman-sachs-launch-ai-services-firm-to-scale-claude-adoption-in-middle-market-enterprises"
+source_title: "Anthropic, Blackstone & Goldman Sachs Launch AI Services Firm to Scale Claude Adoption in Middle Market Enterprises"
 relevance: RELEVANT
 ---
 
-# Claude Partner Network 2026: Eligibility, Application, Certification & Learning Path
+# Anthropic, Blackstone & Goldman Sachs Launch AI Services Firm to Scale Claude Adoption in Middle Market Enterprises
 
-**来源**: [Claude Partner Network 2026: Eligibility, Application, Certification & Learning Path](https://claudeimplementation.com/blog/join-claude-partner-network)
+**来源**: [Anthropic, Blackstone & Goldman Sachs Launch AI Services Firm to Scale Claude Adoption in Middle Market Enterprises](https://www.swfinstitute.org/news/109135/anthropic-blackstone-goldman-sachs-launch-ai-services-firm-to-scale-claude-adoption-in-middle-market-enterprises)
 **发现时间**: 2026-05-31
 **所属事件**: [[anthropic-enterprise-ai-20260504]]
 
 ## 摘要
 
-Anthropic 投资了 1 亿美元启动 Claude Partner Network，以支持企业 AI 的采用。
+新公司正式命名，名为 Anthropic, Blackstone & Goldman Sachs Launch AI Services Firm，旨在在中型市场中推广 Claude 的采用。

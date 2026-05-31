@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-enterprise-ai-20260504]]"
 date: 2026-05-31
-url: "https://www.indexbox.io/blog/anthropic-launches-claude-partner-network-with-100m-2026-funding"
-source_title: "Anthropic Claude Partner Network: 2026 Funding & Support for AI Adoption - News and Statistics - IndexBox"
+url: "https://quantumzeitgeist.com/anthropic-alliance-services-firm-300m"
+source_title: "Anthropic Forms AI Services Firm With $300M Backing"
 relevance: RELEVANT
 ---
 
-# Anthropic Claude Partner Network: 2026 Funding & Support for AI Adoption - News and Statistics - IndexBox
+# Anthropic Forms AI Services Firm With $300M Backing
 
-**来源**: [Anthropic Claude Partner Network: 2026 Funding & Support for AI Adoption - News and Statistics - IndexBox](https://www.indexbox.io/blog/anthropic-launches-claude-partner-network-with-100m-2026-funding)
+**来源**: [Anthropic Forms AI Services Firm With $300M Backing](https://quantumzeitgeist.com/anthropic-alliance-services-firm-300m)
 **发现时间**: 2026-05-31
 **所属事件**: [[anthropic-enterprise-ai-20260504]]
 
 ## 摘要
 
-Anthropic 启动了 Claude Partner Network，并承诺在 2026 年投资 1 亿美元以支持 AI 的采用。
+新融资事实，提及了 300M 的支持。
