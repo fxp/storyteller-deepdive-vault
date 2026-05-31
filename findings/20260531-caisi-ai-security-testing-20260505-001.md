@@ -1,17 +1,17 @@
 ---
 event: "[[caisi-ai-security-testing-20260505]]"
 date: 2026-05-31
-url: "https://www.forbes.com/sites/paulocarvao/2026/05/06/pre-deployment-ai-evaluation-moves-from-chinas-model-to-washington"
-source_title: "Pre-Deployment AI Evaluation Moves From China’s Model To Washington"
+url: "https://www.nytimes.com/2026/05/01/us/politics/pentagon-ai-companies-deals.html"
+source_title: "Pentagon Makes Deals With A.I. Companies to Expand Classified Work - The New York Times"
 relevance: RELEVANT
 ---
 
-# Pre-Deployment AI Evaluation Moves From China’s Model To Washington
+# Pentagon Makes Deals With A.I. Companies to Expand Classified Work - The New York Times
 
-**来源**: [Pre-Deployment AI Evaluation Moves From China’s Model To Washington](https://www.forbes.com/sites/paulocarvao/2026/05/06/pre-deployment-ai-evaluation-moves-from-chinas-model-to-washington)
+**来源**: [Pentagon Makes Deals With A.I. Companies to Expand Classified Work - The New York Times](https://www.nytimes.com/2026/05/01/us/politics/pentagon-ai-companies-deals.html)
 **发现时间**: 2026-05-31
 **所属事件**: [[caisi-ai-security-testing-20260505]]
 
 ## 摘要
 
-这篇文章讨论了中国AI治理模式对华盛顿的影响，提到了美国政府对前沿AI模型的部署前评估，这是一个新的事实。
+文章报道了五角大楼与AI公司签订的协议，这是历史发现中未出现的新事实。

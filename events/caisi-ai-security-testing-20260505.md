@@ -4,12 +4,12 @@ title: 美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-05-31T12:42
+last_check: 2026-05-31T16:33
 last_activity: '2026-05-31'
-next_check: 2026-05-31T15:42
+next_check: 2026-05-31T19:33
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 119
+findings_count: 120
 tags:
 - tracker
 - HOT
@@ -242,4 +242,6 @@ Google, Microsoft, Amazon Web Services, Nvidia, OpenAI, Reflection and SpaceX wi
 - [Pentagon Signs AI Deals With OpenAI, Nvidia And More](https://www.forbes.com/sites/tylerroush/2026/05/01/openai-nvidia-alphabet-and-more-sign-ai-deal-with-pentagon-for-classified-military-use) — 美国国防部与包括OpenAI、Nvidia和Alphabet在内的七家科技公司签署协议，在机密军事网络上使用其人工智能工具，这是历史发现中未出现的新事实。
 ### 2026-05-31
 - [Pre-Deployment AI Evaluation Moves From China’s Model To Washington](https://www.forbes.com/sites/paulocarvao/2026/05/06/pre-deployment-ai-evaluation-moves-from-chinas-model-to-washington) — 这篇文章讨论了中国AI治理模式对华盛顿的影响，提到了美国政府对前沿AI模型的部署前评估，这是一个新的事实。
+### 2026-05-31
+- [Pentagon Makes Deals With A.I. Companies to Expand Classified Work - The New York Times](https://www.nytimes.com/2026/05/01/us/politics/pentagon-ai-companies-deals.html) — 文章报道了五角大楼与AI公司签订的协议，这是历史发现中未出现的新事实。
 
