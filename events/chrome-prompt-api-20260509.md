@@ -4,12 +4,12 @@ title: Google Chrome 推出 Prompt API（浏览器内置 Gemini Nano）
 seed_url: https://developer.chrome.com/docs/ai/prompt-api
 published_date: 2024-11-12
 status: HOT
-last_check: 2026-06-01T20:32
+last_check: 2026-06-01T23:36
 last_activity: '2026-06-01'
-next_check: 2026-06-01T23:32
+next_check: 2026-06-02T02:36
 interval_hours: 3
-consecutive_empty: 2
-findings_count: 87
+consecutive_empty: 0
+findings_count: 88
 tags:
 - tracker
 - HOT
@@ -218,3 +218,6 @@ search_queries:
 - [Mozilla opposes the implementation of Chrome's Prompt API in the ...](https://www.reddit.com/r/firefox/comments/1ta8uz0/mozilla_opposes_the_implementation_of_chromes) — Mozilla opposes the implementation of Chrome's Prompt API in the standard, which allows web developers to directly access an AI-based
 ### 2026-06-01
 - [Build new features using built-in AI in Chrome  |  Blog  |  Chrome for Developers](https://developer.chrome.com/blog/build-new-features-using-built-in-ai-in-chrome-io2026) — Build new features using built-in AI in Chrome. This article discusses the use of built-in AI in Chrome, which could be related to the Prompt API and Gemini Nano, providing new information on how to utilize these features.
+### 2026-06-01
+- [Designing the Built-in AI Web APIs | Domenic Denicola](https://domenic.me/builtin-ai-api-design) — Designing the Built-in AI Web APIs. For the last year, I’ve been working as part of the Chrome built-in AI team on a set of APIs to bring various AI models to the web browser. As with all APIs we ship, our goal is to make these APIs compelling enough that other browsers adopt them, and they become part of the web’s standard library. Working in such a fast-moving space brings tension with the us
+
