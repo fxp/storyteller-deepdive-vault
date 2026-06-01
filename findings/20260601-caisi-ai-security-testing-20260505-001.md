@@ -1,17 +1,17 @@
 ---
 event: "[[caisi-ai-security-testing-20260505]]"
 date: 2026-06-01
-url: "https://www.militarytimes.com/news/pentagon-congress/2026/05/01/pentagon-freezes-out-anthropic-as-it-signs-deals-with-ai-rivals"
-source_title: "Pentagon freezes out Anthropic as it signs deals with AI rivals"
+url: "https://www.facebook.com/6abcActionNews/posts/openai-strikes-deal-with-pentagon-hours-after-trump-administration-bans-anthropi/1464600275032343"
+source_title: "OpenAI strikes deal with Pentagon hours after Trump administration"
 relevance: RELEVANT
 ---
 
-# Pentagon freezes out Anthropic as it signs deals with AI rivals
+# OpenAI strikes deal with Pentagon hours after Trump administration
 
-**来源**: [Pentagon freezes out Anthropic as it signs deals with AI rivals](https://www.militarytimes.com/news/pentagon-congress/2026/05/01/pentagon-freezes-out-anthropic-as-it-signs-deals-with-ai-rivals)
+**来源**: [OpenAI strikes deal with Pentagon hours after Trump administration](https://www.facebook.com/6abcActionNews/posts/openai-strikes-deal-with-pentagon-hours-after-trump-administration-bans-anthropi/1464600275032343)
 **发现时间**: 2026-06-01
 **所属事件**: [[caisi-ai-security-testing-20260505]]
 
 ## 摘要
 
-五角大楼在签署与AI竞争对手的协议时排除了Anthropic。
+OpenAI 与五角大楼签署协议，这是历史发现中未出现的新事实。

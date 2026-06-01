@@ -4,12 +4,12 @@ title: 美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-06-01T12:58
+last_check: 2026-06-01T18:11
 last_activity: '2026-06-01'
-next_check: 2026-06-01T15:58
+next_check: 2026-06-01T21:11
 interval_hours: 3
-consecutive_empty: 1
-findings_count: 121
+consecutive_empty: 0
+findings_count: 124
 tags:
 - tracker
 - HOT
@@ -246,3 +246,8 @@ Google, Microsoft, Amazon Web Services, Nvidia, OpenAI, Reflection and SpaceX wi
 - [Pentagon Makes Deals With A.I. Companies to Expand Classified Work - The New York Times](https://www.nytimes.com/2026/05/01/us/politics/pentagon-ai-companies-deals.html) — 文章报道了五角大楼与AI公司签订的协议，这是历史发现中未出现的新事实。
 ### 2026-06-01
 - [Pentagon freezes out Anthropic as it signs deals with AI rivals](https://www.militarytimes.com/news/pentagon-congress/2026/05/01/pentagon-freezes-out-anthropic-as-it-signs-deals-with-ai-rivals) — 五角大楼在签署与AI竞争对手的协议时排除了Anthropic。
+### 2026-06-01
+- [OpenAI strikes deal with Pentagon hours after Trump administration](https://www.facebook.com/6abcActionNews/posts/openai-strikes-deal-with-pentagon-hours-after-trump-administration-bans-anthropi/1464600275032343) — OpenAI 与五角大楼签署协议，这是历史发现中未出现的新事实。
+- [Trump says Anthropic is 'shaping up,' open to deal with Pentagon](https://www.reuters.com/legal/government/trump-says-anthropic-is-shaping-up-open-deal-with-pentagon-2026-04-21) — 特朗普表示对Anthropic持开放态度，并考虑与五角大楼达成协议，这是历史发现中未出现的新事实。
+- [Pentagon Designates Anthropic a Supply Chain Risk — What Government Contractors Need to Know | Insights | Mayer Brown](https://www.mayerbrown.com/en/insights/publications/2026/03/pentagon-designates-anthropic-a-supply-chain-risk-what-government-contractors-need-to-know) — 五角大楼将Anthropic列为供应链风险，这是历史发现中未出现的新事实。
+

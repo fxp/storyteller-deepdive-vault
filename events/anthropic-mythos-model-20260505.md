@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-06-01T12:58
+last_check: 2026-06-01T18:11
 last_activity: '2026-06-01'
-next_check: 2026-06-01T15:58
+next_check: 2026-06-01T21:11
 interval_hours: 3
-consecutive_empty: 1
-findings_count: 205
+consecutive_empty: 0
+findings_count: 206
 tags:
 - tracker
 - HOT
@@ -334,3 +334,6 @@ deepdive_article: '[[待填写]]'
 - [Anthropic’s stance against military use of AI underscores growing skepticism | The Independent](https://www.independent.co.uk/news/world/americas/us-politics/anthropic-pentagon-military-ai-claude-b2931365.html) — Anthropic 对军事使用 AI 的立场加剧了对五角大楼的怀疑，这表明了消费者对其与五角大楼争议的支持增加。
 ### 2026-06-01
 - [Anthropic plans wide release of Mythos-level AI models in weeks](https://www.thestar.com.my/tech/tech-news/2026/05/29/anthropic-plans-wide-release-of-mythos-level-ai-models-in-weeks) — Anthropic计划在未来几周内广泛发布具有网络安全功能的Mythos级AI模型。
+### 2026-06-01
+- [Anthropic's Triple Reveal: Mythos Turns Claude's 2026 Race Into a Security Test](https://www.youtube.com/watch?v=RgVrfZwfALE) — Anthropic 发布 Mythos 前沿模型，引发全球安全震动，这是新的事实。
+
