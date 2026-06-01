@@ -4,12 +4,12 @@ title: 美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-06-01T03:23
-last_activity: '2026-05-31'
-next_check: 2026-06-01T06:23
+last_check: 2026-06-01T08:06
+last_activity: '2026-06-01'
+next_check: 2026-06-01T11:06
 interval_hours: 3
-consecutive_empty: 3
-findings_count: 120
+consecutive_empty: 0
+findings_count: 121
 tags:
 - tracker
 - HOT
@@ -244,3 +244,6 @@ Google, Microsoft, Amazon Web Services, Nvidia, OpenAI, Reflection and SpaceX wi
 - [Pre-Deployment AI Evaluation Moves From China’s Model To Washington](https://www.forbes.com/sites/paulocarvao/2026/05/06/pre-deployment-ai-evaluation-moves-from-chinas-model-to-washington) — 这篇文章讨论了中国AI治理模式对华盛顿的影响，提到了美国政府对前沿AI模型的部署前评估，这是一个新的事实。
 ### 2026-05-31
 - [Pentagon Makes Deals With A.I. Companies to Expand Classified Work - The New York Times](https://www.nytimes.com/2026/05/01/us/politics/pentagon-ai-companies-deals.html) — 文章报道了五角大楼与AI公司签订的协议，这是历史发现中未出现的新事实。
+### 2026-06-01
+- [Pentagon freezes out Anthropic as it signs deals with AI rivals](https://www.militarytimes.com/news/pentagon-congress/2026/05/01/pentagon-freezes-out-anthropic-as-it-signs-deals-with-ai-rivals) — 五角大楼在签署与AI竞争对手的协议时排除了Anthropic。
+

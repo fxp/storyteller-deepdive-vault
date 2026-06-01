@@ -4,11 +4,11 @@ title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折�
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
 status: HOT
-last_check: 2026-06-01T03:23
+last_check: 2026-06-01T08:06
 last_activity: '2026-06-01'
-next_check: 2026-06-01T06:23
+next_check: 2026-06-01T11:06
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 90
 tags:
 - tracker
@@ -226,4 +226,3 @@ The U.S. Commerce Department has approved around 10 Chinese companies—includin
 - [President Donald J. Trump Unveils National AI Legislative Framework](https://www.whitehouse.gov/releases/2026/03/president-donald-j-trump-unveils-national-ai-legislative-framework) — 特朗普总统公布了国家AI立法框架。
 ### 2026-06-01
 - [US China Agree on AI Governance Framework | DRM News posted ...](https://www.linkedin.com/posts/drm-news_uschinasummit-aigovernance-trumpxi2026-activity-7462436733159395329-2JaG) — 中美同意就人工智能进行政府间对话，这是新的事实，与事件相关。
-
