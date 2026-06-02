@@ -4,11 +4,11 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-06-02T01:18
+last_check: 2026-06-02T05:44
 last_activity: '2026-06-02'
-next_check: 2026-06-02T04:18
+next_check: 2026-06-02T08:44
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 207
 tags:
 - tracker
@@ -338,4 +338,3 @@ deepdive_article: '[[待填写]]'
 - [Anthropic's Triple Reveal: Mythos Turns Claude's 2026 Race Into a Security Test](https://www.youtube.com/watch?v=RgVrfZwfALE) — Anthropic 发布 Mythos 前沿模型，引发全球安全震动，这是新的事实。
 ### 2026-06-02
 - [Warning Anthropic's Mythos could pose cyber risk to banks and ...](https://www.youtube.com/watch?v=RSi5GKCx-T4) — Anthropic的Mythos可能对银行构成网络安全风险，这是新的事实。
-
