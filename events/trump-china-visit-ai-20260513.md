@@ -4,12 +4,12 @@ title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折�
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
 status: HOT
-last_check: 2026-06-02T17:42
+last_check: 2026-06-02T21:14
 last_activity: '2026-06-02'
-next_check: 2026-06-02T20:42
+next_check: 2026-06-03T00:14
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 98
+findings_count: 99
 tags:
 - tracker
 - HOT
@@ -244,4 +244,6 @@ Guo Jiakun briefing 2026, Trump Xi AI agreement, US China artificial intelligenc
 - [英伟达H200对华出口前需先经过美国特殊国家安全审查 - 安全内参 | 决策者的网络安全知识库](https://www.secrss.com/articles/85907) — 美国总统特朗普宣布将允许英伟达向中国出口其H200人工智能芯片，但需先经过美国特殊国家安全审查。
 - [美商务部：特朗普考虑放宽对华AI芯片出口 - 2025年11月25日, 俄罗斯卫星通讯社](https://sputniknews.cn/20251125/1068545784.html) — 美国商务部长霍华德·拉特尼克表示，特朗普正考虑批准英伟达公司向中国出口其尖端人工智能芯片H200。
 - [美国正式批准英伟达H200芯片对华出口 - 电子工程专辑](https://www.eet-china.com/news/202601149385.html) — 美国政府正式批准英伟达向中国出口H200芯片，预计将重启H200芯片对中国客户的出货。
+### 2026-06-02
+- [BIS H200出口政策转变：个案审查引发国会强烈反对 | Introl Blog](https://introl.com/zh/blog/bis-h200-export-policy-china-case-by-case-controversy-2026) — 美国商务部门修订了高级计算商品许可证审查政策，引发国会强烈反对。
 
