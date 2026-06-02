@@ -3,16 +3,16 @@ id: caisi-ai-security-testing-20260505
 title: 美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic 被排除
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
-status: HOT
-last_check: 2026-06-02T13:33
+status: ACTIVE
+last_check: 2026-06-02T17:42
 last_activity: '2026-06-02'
-next_check: 2026-06-02T16:33
-interval_hours: 3
-consecutive_empty: 3
+next_check: 2026-06-02T23:42
+interval_hours: 6
+consecutive_empty: 4
 findings_count: 126
 tags:
 - tracker
-- HOT
+- ACTIVE
 entities:
   orgs:
   - Microsoft

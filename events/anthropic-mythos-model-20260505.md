@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-06-02T13:33
+last_check: 2026-06-02T17:42
 last_activity: '2026-06-02'
-next_check: 2026-06-02T16:33
+next_check: 2026-06-02T20:42
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 208
+findings_count: 209
 tags:
 - tracker
 - HOT
@@ -340,4 +340,6 @@ deepdive_article: '[[待填写]]'
 - [Warning Anthropic's Mythos could pose cyber risk to banks and ...](https://www.youtube.com/watch?v=RSi5GKCx-T4) — Anthropic的Mythos可能对银行构成网络安全风险，这是新的事实。
 ### 2026-06-02
 - [Anthropic to offer EU access to its advanced Mythos model - CNBC](https://www.cnbc.com/2026/06/01/anthropic-eu-ai-mythos-access-advanced-model.html) — Anthropic 将其最先进的 Mythos 模型提供给欧盟，这是新的事实，且与网络安全相关。
+### 2026-06-02
+- [Claude Mythos vs Claude Opus 4.6: How Big Is the Capability Jump?](https://www.mindstudio.ai/blog/claude-mythos-vs-opus-4-6-capability-comparison) — Claude Mythos 与 Claude Opus 4.6 在编码、推理和网络安全方面的能力进行了直接比较，揭示了两者之间的能力差距。
 

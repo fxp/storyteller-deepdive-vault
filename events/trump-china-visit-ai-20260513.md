@@ -4,12 +4,12 @@ title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折�
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
 status: HOT
-last_check: 2026-06-02T13:33
+last_check: 2026-06-02T17:42
 last_activity: '2026-06-02'
-next_check: 2026-06-02T16:33
+next_check: 2026-06-02T20:42
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 95
+findings_count: 98
 tags:
 - tracker
 - HOT
@@ -240,4 +240,8 @@ Guo Jiakun briefing 2026, Trump Xi AI agreement, US China artificial intelligenc
 #USChinaSummit #AIGovernance #TrumpXi2026 #TechWar #GuoJiakun #ArtificialIntelligence #GlobalDiplomacy #BeijingTalks #TechRegulation #BreakingNews2026 #May19 | DRM News](https://www.facebook.com/drmnewslive/videos/china-on-trump-ai-drmmp4/900175833093895) — "A rare deal in a tech war." China's Foreign Ministry confirms President Xi Jinping and Donald Trump held constructive talks to launch an intergovernmental dialogue on Artificial Intelligence. On Tuesday, May 19, 2026, Chinese Foreign Ministry Spokesperson Guo Jiakun revealed a major outcome from last week's US-China summit. Despite thin commercial deals compared to Trump's $250B visit in 2017,
 ### 2026-06-02
 - [U.S.-China AI Cooperation Under Trump 2.0 - Perry World House](https://perryworldhouse.upenn.edu/news-and-insight/u-s-china-ai-cooperation-under-trump-2-0) — 讨论了在特朗普领导下美国和中国在AI领域的合作，这是一个新的事实，与特朗普访华和中美AI科技博弈的主题相关。
+### 2026-06-02
+- [英伟达H200对华出口前需先经过美国特殊国家安全审查 - 安全内参 | 决策者的网络安全知识库](https://www.secrss.com/articles/85907) — 美国总统特朗普宣布将允许英伟达向中国出口其H200人工智能芯片，但需先经过美国特殊国家安全审查。
+- [美商务部：特朗普考虑放宽对华AI芯片出口 - 2025年11月25日, 俄罗斯卫星通讯社](https://sputniknews.cn/20251125/1068545784.html) — 美国商务部长霍华德·拉特尼克表示，特朗普正考虑批准英伟达公司向中国出口其尖端人工智能芯片H200。
+- [美国正式批准英伟达H200芯片对华出口 - 电子工程专辑](https://www.eet-china.com/news/202601149385.html) — 美国政府正式批准英伟达向中国出口H200芯片，预计将重启H200芯片对中国客户的出货。
 
