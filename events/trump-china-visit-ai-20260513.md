@@ -4,12 +4,12 @@ title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折�
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
 status: HOT
-last_check: 2026-06-02T09:39
+last_check: 2026-06-02T13:33
 last_activity: '2026-06-02'
-next_check: 2026-06-02T12:39
+next_check: 2026-06-02T16:33
 interval_hours: 3
-consecutive_empty: 2
-findings_count: 94
+consecutive_empty: 0
+findings_count: 95
 tags:
 - tracker
 - HOT
@@ -238,3 +238,6 @@ The U.S. Commerce Department has approved around 10 Chinese companies—includin
 Guo Jiakun briefing 2026, Trump Xi AI agreement, US China artificial intelligence dialogue, Beijing summit outcomes 2026, AI governance tech war, Donald Trump China visit results, Chinese foreign ministry news conference, Xi Jinping Trump tech pact, global AI regulation, breaking news economics May 19
 
 #USChinaSummit #AIGovernance #TrumpXi2026 #TechWar #GuoJiakun #ArtificialIntelligence #GlobalDiplomacy #BeijingTalks #TechRegulation #BreakingNews2026 #May19 | DRM News](https://www.facebook.com/drmnewslive/videos/china-on-trump-ai-drmmp4/900175833093895) — "A rare deal in a tech war." China's Foreign Ministry confirms President Xi Jinping and Donald Trump held constructive talks to launch an intergovernmental dialogue on Artificial Intelligence. On Tuesday, May 19, 2026, Chinese Foreign Ministry Spokesperson Guo Jiakun revealed a major outcome from last week's US-China summit. Despite thin commercial deals compared to Trump's $250B visit in 2017,
+### 2026-06-02
+- [U.S.-China AI Cooperation Under Trump 2.0 - Perry World House](https://perryworldhouse.upenn.edu/news-and-insight/u-s-china-ai-cooperation-under-trump-2-0) — 讨论了在特朗普领导下美国和中国在AI领域的合作，这是一个新的事实，与特朗普访华和中美AI科技博弈的主题相关。
+
