@@ -4,11 +4,11 @@ title: Google Chrome 推出 Prompt API（浏览器内置 Gemini Nano）
 seed_url: https://developer.chrome.com/docs/ai/prompt-api
 published_date: 2024-11-12
 status: HOT
-last_check: 2026-06-02T07:54
+last_check: 2026-06-02T11:38
 last_activity: '2026-06-02'
-next_check: 2026-06-02T10:54
+next_check: 2026-06-02T14:38
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 89
 tags:
 - tracker
@@ -222,4 +222,3 @@ search_queries:
 - [Designing the Built-in AI Web APIs | Domenic Denicola](https://domenic.me/builtin-ai-api-design) — Designing the Built-in AI Web APIs. For the last year, I’ve been working as part of the Chrome built-in AI team on a set of APIs to bring various AI models to the web browser. As with all APIs we ship, our goal is to make these APIs compelling enough that other browsers adopt them, and they become part of the web’s standard library. Working in such a fast-moving space brings tension with the us
 ### 2026-06-02
 - [Google launches Gemini Nano for Chrome desktop client | Okoone](https://www.okoone.com/spark/technology-innovation/google-launches-gemini-nano-for-chrome-desktop-client) — Google launches Gemini Nano for Chrome desktop client, enhancing AI integration and offline functionality.
-
