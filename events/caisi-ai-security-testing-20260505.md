@@ -4,11 +4,11 @@ title: 美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-06-02T05:44
+last_check: 2026-06-02T09:39
 last_activity: '2026-06-02'
-next_check: 2026-06-02T08:44
+next_check: 2026-06-02T12:39
 interval_hours: 3
-consecutive_empty: 1
+consecutive_empty: 2
 findings_count: 126
 tags:
 - tracker
