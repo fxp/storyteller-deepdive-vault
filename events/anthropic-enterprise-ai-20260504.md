@@ -4,12 +4,12 @@ title: Anthropic + Blackstone 联合组建企业 AI 交付公司
 seed_url: https://www.anthropic.com/news/enterprise-ai-services-company
 published_date: 2026-05-04
 status: HOT
-last_check: 2026-06-03T13:55
+last_check: 2026-06-03T17:50
 last_activity: '2026-06-03'
-next_check: 2026-06-03T16:55
+next_check: 2026-06-03T20:50
 interval_hours: 3
-consecutive_empty: 1
-findings_count: 73
+consecutive_empty: 0
+findings_count: 75
 tags:
 - tracker
 - HOT
@@ -182,3 +182,7 @@ deepdive_article: '[[待填写]]'
 - [Anthropic Forms AI Services Firm With $300M Backing](https://quantumzeitgeist.com/anthropic-alliance-services-firm-300m) — 新融资事实，提及了 300M 的支持。
 ### 2026-06-03
 - [Anthropic is building a new enterprise AI services company with ...](https://www.instagram.com/p/DYMEfnFjBd2) — Anthropic 与 Blackstone 和 Goldman Sachs 合作成立了一家新的 AI 服务公司，旨在将 Anthropic 的工程师嵌入其中，以将 Claude AI 引入中型企业。
+### 2026-06-03
+- [Tiger Tyagarajan's Post - LinkedIn](https://www.linkedin.com/posts/tigertyagarajan_building-a-new-enterprise-ai-services-company-activity-7457089195245920256-eV5a) — Anthropic 宣布成立了一家新的 AI 企业服务公司，旨在扩大 AI 在企业中的应用。
+- [OpenAI Debuts $4B AI Services Company As Rival Anthropic Builds Its Own](https://www.crn.com/news/ai/2026/openai-launches-services-business-on-heels-of-similar-anthropic-announcement) — OpenAI 发布了价值 40 亿美元的 AI 服务公司，作为 Anthropic 的竞争对手。
+

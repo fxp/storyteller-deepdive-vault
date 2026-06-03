@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-06-03T13:55
+last_check: 2026-06-03T17:50
 last_activity: '2026-06-03'
-next_check: 2026-06-03T16:55
+next_check: 2026-06-03T20:50
 interval_hours: 3
-consecutive_empty: 1
-findings_count: 211
+consecutive_empty: 0
+findings_count: 212
 tags:
 - tracker
 - HOT
@@ -350,3 +350,6 @@ For now, Anthropic is giving more than 40 tech companies, including some rivals,
 Watch Geoff Bennett's conversation with Gerrit De Vynck, who covers AI for The Washington Post. | PBS NewsHour](https://www.facebook.com/newshour/posts/anthropics-newest-ai-model-called-mythos-is-so-powerful-the-company-says-that-it/1416964750298767) — Anthropic 的最新 AI 模型 Mythos 被认为非常强大，如果公开发布可能会造成广泛破坏。Anthropic 正在向超过 40 家科技公司，包括一些竞争对手，提供 Mythos 的访问权限，以测试并识别系统中的漏洞。
 ### 2026-06-03
 - [AI Security Institute Findings on Claude Mythos Preview - Reddit](https://www.reddit.com/r/singularity/comments/1skc04d/ai_security_institute_findings_on_claude_mythos) — Reddit上关于AI安全研究所对Claude Mythos预览的发现，提供了新的事实和观点。
+### 2026-06-03
+- [AI giant Anthropic says its new model, Claude Mythos Preview, is so ...](https://www.facebook.com/CBSNews/videos/ai-giant-anthropic-says-its-new-model-claude-mythos-preview-is-so-good-at-coding/1431414284955693) — Anthropic宣布其新模型Claude Mythos Preview在编码方面表现出色，这是新的事实。
+

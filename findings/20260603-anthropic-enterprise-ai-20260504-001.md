@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-enterprise-ai-20260504]]"
 date: 2026-06-03
-url: "https://www.instagram.com/p/DYMEfnFjBd2"
-source_title: "Anthropic is building a new enterprise AI services company with ..."
+url: "https://www.linkedin.com/posts/tigertyagarajan_building-a-new-enterprise-ai-services-company-activity-7457089195245920256-eV5a"
+source_title: "Tiger Tyagarajan's Post - LinkedIn"
 relevance: RELEVANT
 ---
 
-# Anthropic is building a new enterprise AI services company with ...
+# Tiger Tyagarajan's Post - LinkedIn
 
-**来源**: [Anthropic is building a new enterprise AI services company with ...](https://www.instagram.com/p/DYMEfnFjBd2)
+**来源**: [Tiger Tyagarajan's Post - LinkedIn](https://www.linkedin.com/posts/tigertyagarajan_building-a-new-enterprise-ai-services-company-activity-7457089195245920256-eV5a)
 **发现时间**: 2026-06-03
 **所属事件**: [[anthropic-enterprise-ai-20260504]]
 
 ## 摘要
 
-Anthropic 与 Blackstone 和 Goldman Sachs 合作成立了一家新的 AI 服务公司，旨在将 Anthropic 的工程师嵌入其中，以将 Claude AI 引入中型企业。
+Anthropic 宣布成立了一家新的 AI 企业服务公司，旨在扩大 AI 在企业中的应用。
