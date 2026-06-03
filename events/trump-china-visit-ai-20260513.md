@@ -4,11 +4,11 @@ title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折�
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
 status: HOT
-last_check: 2026-06-03T09:50
+last_check: 2026-06-03T13:55
 last_activity: '2026-06-03'
-next_check: 2026-06-03T12:50
+next_check: 2026-06-03T16:55
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 100
 tags:
 - tracker
@@ -248,4 +248,3 @@ Guo Jiakun briefing 2026, Trump Xi AI agreement, US China artificial intelligenc
 - [BIS H200出口政策转变：个案审查引发国会强烈反对 | Introl Blog](https://introl.com/zh/blog/bis-h200-export-policy-china-case-by-case-controversy-2026) — 美国商务部门修订了高级计算商品许可证审查政策，引发国会强烈反对。
 ### 2026-06-03
 - [Approved buyers include Alibaba, Tencent, ByteDance, and JD.com ...](https://www.instagram.com/p/DYV7z3klKnv) — 美国正式批准英伟达H200人工智能芯片对华出口，包括阿里巴巴、腾讯、字节跳动和京东等中国科技巨头获准购买。
-
