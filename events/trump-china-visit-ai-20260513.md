@@ -4,11 +4,11 @@ title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折�
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
 status: HOT
-last_check: 2026-06-04T09:30
+last_check: 2026-06-04T13:22
 last_activity: '2026-06-04'
-next_check: 2026-06-04T12:30
+next_check: 2026-06-04T16:22
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 109
 tags:
 - tracker
@@ -260,4 +260,3 @@ Guo Jiakun briefing 2026, Trump Xi AI agreement, US China artificial intelligenc
 - [Trump says he discussed AI guardrails with Xi - The Hill](https://thehill.com/homenews/administration/5880013-donald-trump-xi-jinping-china-summit-ai-guardrails) — 报道特朗普表示与习近平讨论了人工智能治理，这是新的事实，与事件相关。
 ### 2026-06-04
 - [Promoting Advanced Artificial Intelligence Innovation and Security](https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security) — 报道了白宫关于促进高级人工智能创新和安全的行动，可能涉及特朗普访华期间讨论的AI议题。
-
