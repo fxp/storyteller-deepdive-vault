@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-06-04T05:45
+last_check: 2026-06-04T09:30
 last_activity: '2026-06-04'
-next_check: 2026-06-04T08:45
+next_check: 2026-06-04T12:30
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 215
+findings_count: 217
 tags:
 - tracker
 - HOT
@@ -356,4 +356,7 @@ Watch Geoff Bennett's conversation with Gerrit De Vynck, who covers AI for The W
 - [What is Mythos and why are experts worried about Anthropic's AI ...](https://www.scientificamerican.com/article/what-is-mythos-and-why-are-experts-worried-about-anthropics-ai-model) — 专家对 Anthropic 的 Mythos AI 模型表示担忧，认为其可能对网络安全构成威胁。
 - [Fears of unfettered hacking spurred by Anthropic's Mythos AI model ...](https://www.reuters.com/business/fears-unfettered-hacking-spurred-by-anthropics-mythos-ai-model-overstated-2026-05-20) — 网络安全专家认为 Mythos 的黑客威胁被夸大，但模型在漏洞发现方面的改进值得关注。
 - [Anthropic's new Mythos AI model is raising concern among ...](https://www.facebook.com/financialtimes/posts/anthropics-new-mythos-ai-model-is-raising-concern-among-governments-and-companie/1363050669201640) — Financial Times 报道称，Anthropic 的 Mythos AI 模型引起政府和公司对其可能超越当前网络安全防御能力的担忧。
+### 2026-06-04
+- [Anthropic Releases AI Model With Weaker Cyber Skills Than Mythos](https://www.youtube.com/watch?v=Jv1O9SfkT9I) — Anthropic 发布了更新版本的 AI 模型 Opus，增强了其软件工程和计算机视觉能力，这是新的事实。
+- [What should we take from Anthropic’s (possibly) terrifying new report on Mythos?](https://garymarcus.substack.com/p/what-should-we-take-from-anthropics) — Gary Marcus 讨论了 Anthropic 的新报告，其中包含关于 Mythos 的讨论，这是新的事实。
 

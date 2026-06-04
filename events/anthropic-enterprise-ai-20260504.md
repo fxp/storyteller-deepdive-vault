@@ -3,16 +3,16 @@ id: anthropic-enterprise-ai-20260504
 title: Anthropic + Blackstone 联合组建企业 AI 交付公司
 seed_url: https://www.anthropic.com/news/enterprise-ai-services-company
 published_date: 2026-05-04
-status: HOT
-last_check: 2026-06-04T05:45
+status: ACTIVE
+last_check: 2026-06-04T09:30
 last_activity: '2026-06-03'
-next_check: 2026-06-04T08:45
-interval_hours: 3
-consecutive_empty: 3
+next_check: 2026-06-04T15:30
+interval_hours: 6
+consecutive_empty: 4
 findings_count: 75
 tags:
 - tracker
-- HOT
+- ACTIVE
 entities:
   orgs:
   - Anthropic

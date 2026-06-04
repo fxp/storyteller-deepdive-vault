@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-mythos-model-20260505]]"
 date: 2026-06-04
-url: "https://www.scientificamerican.com/article/what-is-mythos-and-why-are-experts-worried-about-anthropics-ai-model"
-source_title: "What is Mythos and why are experts worried about Anthropic's AI ..."
+url: "https://www.youtube.com/watch?v=Jv1O9SfkT9I"
+source_title: "Anthropic Releases AI Model With Weaker Cyber Skills Than Mythos"
 relevance: RELEVANT
 ---
 
-# What is Mythos and why are experts worried about Anthropic's AI ...
+# Anthropic Releases AI Model With Weaker Cyber Skills Than Mythos
 
-**来源**: [What is Mythos and why are experts worried about Anthropic's AI ...](https://www.scientificamerican.com/article/what-is-mythos-and-why-are-experts-worried-about-anthropics-ai-model)
+**来源**: [Anthropic Releases AI Model With Weaker Cyber Skills Than Mythos](https://www.youtube.com/watch?v=Jv1O9SfkT9I)
 **发现时间**: 2026-06-04
 **所属事件**: [[anthropic-mythos-model-20260505]]
 
 ## 摘要
 
-专家对 Anthropic 的 Mythos AI 模型表示担忧，认为其可能对网络安全构成威胁。
+Anthropic 发布了更新版本的 AI 模型 Opus，增强了其软件工程和计算机视觉能力，这是新的事实。
