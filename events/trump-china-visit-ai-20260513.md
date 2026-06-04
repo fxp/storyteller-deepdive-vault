@@ -4,12 +4,12 @@ title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折�
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
 status: HOT
-last_check: 2026-06-04T01:23
-last_activity: '2026-06-03'
-next_check: 2026-06-04T04:23
+last_check: 2026-06-04T05:45
+last_activity: '2026-06-04'
+next_check: 2026-06-04T08:45
 interval_hours: 3
-consecutive_empty: 2
-findings_count: 104
+consecutive_empty: 0
+findings_count: 108
 tags:
 - tracker
 - HOT
@@ -253,3 +253,9 @@ Guo Jiakun briefing 2026, Trump Xi AI agreement, US China artificial intelligenc
 - [The US Commerce Department has approved around 10 Chinese ...](https://www.facebook.com/tbsnews.net/posts/the-us-commerce-department-has-approved-around-10-chinese-companies-including-al/1415863133921750) — 美国商务部批准了包括阿里巴巴、腾讯、字节跳动和京东在内的约10家中国科技公司购买英伟达的H200人工智能芯片。
 - [从巅峰时期95%的市场份额降至2026年的0%，部分预测显 - 东方财富](https://emcreative.eastmoney.com/app_fortune/article/index.html?artCode=20260508090212441431370&postId=1704296694) — 部分预测显示英伟达在中国AI芯片市场的份额可能降至0%，而华为预计将在2026年占据中国AI芯片市场50%的份额。
 - [英伟达中国市场份额"归零"的那一天，国产AI芯片三大门派谁能填上这个坑？-36氪](https://m.36kr.com/p/3800162684695296) — 文章讨论了英伟达在中国AI芯片市场的份额从95%降至0%的原因，并介绍了华为昇腾等国产AI芯片的发展情况。
+### 2026-06-04
+- [US Licences NVIDIA AI Chip Exports to China Amid Trade ...](https://em360tech.com/tech-articles/us-licences-nvidia-ai-chip-exports-china-trade-rivalry) — 美国批准了包括阿里巴巴和腾讯在内的10家中国公司购买英伟达H200 AI芯片，这是新的事实，与事件相关。
+- [Trump-Xi 2026 Summit - CSIS](https://www.csis.org/programs/trump-xi-2026-summit) — 报道特朗普-习近平2026年峰会，讨论了AI治理，但没有签署任何协议，这是新的事实，与事件相关。
+- [How A.I. Was the Elephant in the Room at the Trump-Xi Summit](https://time.com/article/2026/05/15/trump-xi-us-china-summit-ai-semiconductor-chips) — 报道特朗普在峰会上与习近平讨论了AI治理，这是新的事实，与事件相关。
+- [Trump says he discussed AI guardrails with Xi - The Hill](https://thehill.com/homenews/administration/5880013-donald-trump-xi-jinping-china-summit-ai-guardrails) — 报道特朗普表示与习近平讨论了人工智能治理，这是新的事实，与事件相关。
+

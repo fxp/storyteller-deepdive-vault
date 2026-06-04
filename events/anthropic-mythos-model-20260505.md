@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-06-04T01:23
-last_activity: '2026-06-03'
-next_check: 2026-06-04T04:23
+last_check: 2026-06-04T05:45
+last_activity: '2026-06-04'
+next_check: 2026-06-04T08:45
 interval_hours: 3
-consecutive_empty: 2
-findings_count: 212
+consecutive_empty: 0
+findings_count: 215
 tags:
 - tracker
 - HOT
@@ -352,3 +352,8 @@ Watch Geoff Bennett's conversation with Gerrit De Vynck, who covers AI for The W
 - [AI Security Institute Findings on Claude Mythos Preview - Reddit](https://www.reddit.com/r/singularity/comments/1skc04d/ai_security_institute_findings_on_claude_mythos) — Reddit上关于AI安全研究所对Claude Mythos预览的发现，提供了新的事实和观点。
 ### 2026-06-03
 - [AI giant Anthropic says its new model, Claude Mythos Preview, is so ...](https://www.facebook.com/CBSNews/videos/ai-giant-anthropic-says-its-new-model-claude-mythos-preview-is-so-good-at-coding/1431414284955693) — Anthropic宣布其新模型Claude Mythos Preview在编码方面表现出色，这是新的事实。
+### 2026-06-04
+- [What is Mythos and why are experts worried about Anthropic's AI ...](https://www.scientificamerican.com/article/what-is-mythos-and-why-are-experts-worried-about-anthropics-ai-model) — 专家对 Anthropic 的 Mythos AI 模型表示担忧，认为其可能对网络安全构成威胁。
+- [Fears of unfettered hacking spurred by Anthropic's Mythos AI model ...](https://www.reuters.com/business/fears-unfettered-hacking-spurred-by-anthropics-mythos-ai-model-overstated-2026-05-20) — 网络安全专家认为 Mythos 的黑客威胁被夸大，但模型在漏洞发现方面的改进值得关注。
+- [Anthropic's new Mythos AI model is raising concern among ...](https://www.facebook.com/financialtimes/posts/anthropics-new-mythos-ai-model-is-raising-concern-among-governments-and-companie/1363050669201640) — Financial Times 报道称，Anthropic 的 Mythos AI 模型引起政府和公司对其可能超越当前网络安全防御能力的担忧。
+
