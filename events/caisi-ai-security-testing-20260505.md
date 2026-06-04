@@ -4,12 +4,12 @@ title: 美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-06-04T19:47
+last_check: 2026-06-04T23:33
 last_activity: '2026-06-04'
-next_check: 2026-06-04T22:47
+next_check: 2026-06-05T02:33
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 128
+findings_count: 130
 tags:
 - tracker
 - HOT
@@ -257,4 +257,7 @@ Google, Microsoft, Amazon Web Services, Nvidia, OpenAI, Reflection and SpaceX wi
 ### 2026-06-04
 - [2.4K views · 52 reactions | The United States Pentagon has signed agreements with seven major technology companies to integrate artificial intelligence into military operations. These include Google, OpenAI, Amazon Web Services, Microsoft, Nvidia, SpaceX and Reflection. AI tools are being deployed across classified systems to support mission planning, intelligence analysis, logistics and targeting. More than 1.3 million personnel are already using these platforms. Anthropic was excluded following a dispute over military usage conditions and has taken legal action. Integration timelines have accelerated significantly, while the Pentagon has requested 54 billion dollars for autonomous weapons programmes. The development signals a major shift in how modern warfare is conducted. | #VantageOnFirstpost | Firstpost](https://www.facebook.com/firstpostin/videos/ai-in-warfare-pentagon-signs-deals-with-google-microsoft-openai-nvidia-vantage-o/1971160687619286) — 美国国防部与七家科技公司签署协议，将人工智能整合到军事行动中，包括Google、OpenAI、Amazon Web Services、Microsoft、Nvidia、SpaceX和Reflection，这是历史发现中未出现的新事实。
 - [U.S. military reaches deals with 7 companies to use AI on classified ...](https://thewatch-journal.com/2026/06/02/u-s-military-reaches-deals-with-7-companies-to-use-ai-on-classified-systems) — 美国国防部与七家公司达成协议，在机密系统中使用人工智能，以现代化其目标和后勤系统，这是历史发现中未出现的新事实。
+### 2026-06-04
+- [Trump says Anthropic deal is 'possible' for Department of Defense use](https://www.cnbc.com/2026/04/21/trump-anthropic-department-defense-deal.html) — 特朗普表示，与Anthropic的国防部门使用AI的协议是可能的。
+- [NIST will test three major tech firms’ frontier AI models for cybersecurity risks](https://www.cybersecuritydive.com/news/nist-ai-model-testing-caisi-google-microsoft/819452) — NIST将测试三家主要技术公司的前沿AI模型以评估网络安全风险。
 

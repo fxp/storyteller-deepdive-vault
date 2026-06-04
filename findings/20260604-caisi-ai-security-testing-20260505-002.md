@@ -1,17 +1,17 @@
 ---
 event: "[[caisi-ai-security-testing-20260505]]"
 date: 2026-06-04
-url: "https://thewatch-journal.com/2026/06/02/u-s-military-reaches-deals-with-7-companies-to-use-ai-on-classified-systems"
-source_title: "U.S. military reaches deals with 7 companies to use AI on classified ..."
+url: "https://www.cybersecuritydive.com/news/nist-ai-model-testing-caisi-google-microsoft/819452"
+source_title: "NIST will test three major tech firms’ frontier AI models for cybersecurity risks"
 relevance: RELEVANT
 ---
 
-# U.S. military reaches deals with 7 companies to use AI on classified ...
+# NIST will test three major tech firms’ frontier AI models for cybersecurity risks
 
-**来源**: [U.S. military reaches deals with 7 companies to use AI on classified ...](https://thewatch-journal.com/2026/06/02/u-s-military-reaches-deals-with-7-companies-to-use-ai-on-classified-systems)
+**来源**: [NIST will test three major tech firms’ frontier AI models for cybersecurity risks](https://www.cybersecuritydive.com/news/nist-ai-model-testing-caisi-google-microsoft/819452)
 **发现时间**: 2026-06-04
 **所属事件**: [[caisi-ai-security-testing-20260505]]
 
 ## 摘要
 
-美国国防部与七家公司达成协议，在机密系统中使用人工智能，以现代化其目标和后勤系统，这是历史发现中未出现的新事实。
+NIST将测试三家主要技术公司的前沿AI模型以评估网络安全风险。
