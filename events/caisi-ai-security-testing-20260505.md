@@ -3,16 +3,16 @@ id: caisi-ai-security-testing-20260505
 title: 美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic 被排除
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
-status: ACTIVE
-last_check: 2026-06-04T13:22
-last_activity: '2026-06-02'
-next_check: 2026-06-04T19:22
-interval_hours: 6
-consecutive_empty: 10
-findings_count: 126
+status: HOT
+last_check: 2026-06-04T19:47
+last_activity: '2026-06-04'
+next_check: 2026-06-04T22:47
+interval_hours: 3
+consecutive_empty: 0
+findings_count: 128
 tags:
 - tracker
-- ACTIVE
+- HOT
 entities:
   orgs:
   - Microsoft
@@ -254,3 +254,7 @@ Google, Microsoft, Amazon Web Services, Nvidia, OpenAI, Reflection and SpaceX wi
 - [US to safety test new AI models from Google, Microsoft, xAI - Devtalk](https://forum.devtalk.com/t/us-to-safety-test-new-ai-models-from-google-microsoft-xai/245121) — 美国政府将测试来自Google、Microsoft和xAI的新AI模型，这是历史发现中未出现的新事实。
 ### 2026-06-02
 - [Pentagon Signs Classified AI Deals With Tech Giants, Snubs ...](https://thedefensepost.com/2026/05/04/pentagon-snubs-anthropic-ai) — 五角大楼宣布与七家领先的AI公司签署协议，在机密军事网络上部署其技术，明确排除了Anthropic。
+### 2026-06-04
+- [2.4K views · 52 reactions | The United States Pentagon has signed agreements with seven major technology companies to integrate artificial intelligence into military operations. These include Google, OpenAI, Amazon Web Services, Microsoft, Nvidia, SpaceX and Reflection. AI tools are being deployed across classified systems to support mission planning, intelligence analysis, logistics and targeting. More than 1.3 million personnel are already using these platforms. Anthropic was excluded following a dispute over military usage conditions and has taken legal action. Integration timelines have accelerated significantly, while the Pentagon has requested 54 billion dollars for autonomous weapons programmes. The development signals a major shift in how modern warfare is conducted. | #VantageOnFirstpost | Firstpost](https://www.facebook.com/firstpostin/videos/ai-in-warfare-pentagon-signs-deals-with-google-microsoft-openai-nvidia-vantage-o/1971160687619286) — 美国国防部与七家科技公司签署协议，将人工智能整合到军事行动中，包括Google、OpenAI、Amazon Web Services、Microsoft、Nvidia、SpaceX和Reflection，这是历史发现中未出现的新事实。
+- [U.S. military reaches deals with 7 companies to use AI on classified ...](https://thewatch-journal.com/2026/06/02/u-s-military-reaches-deals-with-7-companies-to-use-ai-on-classified-systems) — 美国国防部与七家公司达成协议，在机密系统中使用人工智能，以现代化其目标和后勤系统，这是历史发现中未出现的新事实。
+
