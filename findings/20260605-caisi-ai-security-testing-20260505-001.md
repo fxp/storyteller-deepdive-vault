@@ -1,17 +1,17 @@
 ---
 event: "[[caisi-ai-security-testing-20260505]]"
 date: 2026-06-05
-url: "https://app.govly.com/public/signals/95740"
-source_title: "NIST CAISI Secures AI Model Testing Partnerships | Govly"
+url: "https://defensescoop.com/2026/05/01/dod-expands-classified-ai-work-with-8-companies-excluding-anthropic"
+source_title: "DOD expands its classified AI work with 8 companies — excluding Anthropic — amid ongoing dispute"
 relevance: RELEVANT
 ---
 
-# NIST CAISI Secures AI Model Testing Partnerships | Govly
+# DOD expands its classified AI work with 8 companies — excluding Anthropic — amid ongoing dispute
 
-**来源**: [NIST CAISI Secures AI Model Testing Partnerships | Govly](https://app.govly.com/public/signals/95740)
+**来源**: [DOD expands its classified AI work with 8 companies — excluding Anthropic — amid ongoing dispute](https://defensescoop.com/2026/05/01/dod-expands-classified-ai-work-with-8-companies-excluding-anthropic)
 **发现时间**: 2026-06-05
 **所属事件**: [[caisi-ai-security-testing-20260505]]
 
 ## 摘要
 
-NIST的CAISI与Google DeepMind、Microsoft和xAI达成协议，为政府评估提供未发布的高级AI模型。
+DOD扩大其机密AI工作，排除Anthropic，这是历史发现中未出现的新事实。
