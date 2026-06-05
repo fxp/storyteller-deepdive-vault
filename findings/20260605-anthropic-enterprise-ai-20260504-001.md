@@ -1,17 +1,17 @@
 ---
 event: "[[anthropic-enterprise-ai-20260504]]"
 date: 2026-06-05
-url: "https://www.linkedin.com/posts/pfersht_anthropics-has-announced-a-15-billion-activity-7458918098851557376-1zSb"
-source_title: "Anthropic Launches AI-Native Enterprise Services with Blackstone and Goldman Sachs | Phil Fersht posted on the topic | LinkedIn"
+url: "https://briefglance.com/companies/blackstone-inc/pulses/10123"
+source_title: "Anthropic, Blackstone, and Goldman Sachs Launch AI Enterp... — Blackstone Inc. | BriefGlance"
 relevance: RELEVANT
 ---
 
-# Anthropic Launches AI-Native Enterprise Services with Blackstone and Goldman Sachs | Phil Fersht posted on the topic | LinkedIn
+# Anthropic, Blackstone, and Goldman Sachs Launch AI Enterp... — Blackstone Inc. | BriefGlance
 
-**来源**: [Anthropic Launches AI-Native Enterprise Services with Blackstone and Goldman Sachs | Phil Fersht posted on the topic | LinkedIn](https://www.linkedin.com/posts/pfersht_anthropics-has-announced-a-15-billion-activity-7458918098851557376-1zSb)
+**来源**: [Anthropic, Blackstone, and Goldman Sachs Launch AI Enterp... — Blackstone Inc. | BriefGlance](https://briefglance.com/companies/blackstone-inc/pulses/10123)
 **发现时间**: 2026-06-05
 **所属事件**: [[anthropic-enterprise-ai-20260504]]
 
 ## 摘要
 
-Anthropic 与 Blackstone 和 Goldman Sachs 合作推出 AI-Native 企业服务，这是一个新的合作事实。
+Anthropic, Blackstone, and Goldman Sachs have formed a new AI-native enterprise services firm to accelerate Claude's adoption in core business operations.
