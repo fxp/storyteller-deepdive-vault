@@ -4,12 +4,12 @@ title: 美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-06-04T23:33
-last_activity: '2026-06-04'
-next_check: 2026-06-05T02:33
+last_check: 2026-06-05T03:20
+last_activity: '2026-06-05'
+next_check: 2026-06-05T06:20
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 130
+findings_count: 131
 tags:
 - tracker
 - HOT
@@ -260,4 +260,6 @@ Google, Microsoft, Amazon Web Services, Nvidia, OpenAI, Reflection and SpaceX wi
 ### 2026-06-04
 - [Trump says Anthropic deal is 'possible' for Department of Defense use](https://www.cnbc.com/2026/04/21/trump-anthropic-department-defense-deal.html) — 特朗普表示，与Anthropic的国防部门使用AI的协议是可能的。
 - [NIST will test three major tech firms’ frontier AI models for cybersecurity risks](https://www.cybersecuritydive.com/news/nist-ai-model-testing-caisi-google-microsoft/819452) — NIST将测试三家主要技术公司的前沿AI模型以评估网络安全风险。
+### 2026-06-05
+- [NIST CAISI Secures AI Model Testing Partnerships | Govly](https://app.govly.com/public/signals/95740) — NIST的CAISI与Google DeepMind、Microsoft和xAI达成协议，为政府评估提供未发布的高级AI模型。
 
