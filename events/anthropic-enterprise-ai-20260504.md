@@ -4,12 +4,12 @@ title: Anthropic + Blackstone 联合组建企业 AI 交付公司
 seed_url: https://www.anthropic.com/news/enterprise-ai-services-company
 published_date: 2026-05-04
 status: HOT
-last_check: 2026-06-05T05:41
-last_activity: '2026-06-04'
-next_check: 2026-06-05T08:41
+last_check: 2026-06-05T09:21
+last_activity: '2026-06-05'
+next_check: 2026-06-05T12:21
 interval_hours: 3
-consecutive_empty: 3
-findings_count: 76
+consecutive_empty: 0
+findings_count: 77
 tags:
 - tracker
 - HOT
@@ -187,3 +187,6 @@ deepdive_article: '[[待填写]]'
 - [OpenAI Debuts $4B AI Services Company As Rival Anthropic Builds Its Own](https://www.crn.com/news/ai/2026/openai-launches-services-business-on-heels-of-similar-anthropic-announcement) — OpenAI 发布了价值 40 亿美元的 AI 服务公司，作为 Anthropic 的竞争对手。
 ### 2026-06-04
 - [Anthropic has partnered with Blackstone, Hellman & Friedman, and ...](https://www.instagram.com/p/DX8uWzrjTdj) — Anthropic 与 Blackstone、Hellman & Friedman 和 Goldman Sachs 合作成立了一家新的 AI 服务公司，部署其 Claude 模型。
+### 2026-06-05
+- [Anthropic Launches AI-Native Enterprise Services with Blackstone and Goldman Sachs | Phil Fersht posted on the topic | LinkedIn](https://www.linkedin.com/posts/pfersht_anthropics-has-announced-a-15-billion-activity-7458918098851557376-1zSb) — Anthropic 与 Blackstone 和 Goldman Sachs 合作推出 AI-Native 企业服务，这是一个新的合作事实。
+
