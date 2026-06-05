@@ -3,16 +3,16 @@ id: anthropic-mythos-model-20260505
 title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
-status: ACTIVE
-last_check: 2026-06-05T09:21
-last_activity: '2026-06-04'
-next_check: 2026-06-05T15:21
-interval_hours: 6
-consecutive_empty: 4
-findings_count: 219
+status: HOT
+last_check: 2026-06-05T16:56
+last_activity: '2026-06-05'
+next_check: 2026-06-05T19:56
+interval_hours: 3
+consecutive_empty: 0
+findings_count: 220
 tags:
 - tracker
-- ACTIVE
+- HOT
 entities:
   orgs:
   - Anthropic
@@ -363,3 +363,6 @@ Watch Geoff Bennett's conversation with Gerrit De Vynck, who covers AI for The W
 - [An AI So Powerful Anthropic Kept It From the Public | Big Take](https://www.youtube.com/watch?v=yIiw7girbhs) — Anthropic 的新模型 Claude Mythos 预览被认为过于强大，以至于公司认为它对公众发布过于危险，并进行了网络安全压力测试。
 ### 2026-06-04
 - [Anthropic's Guarded Mythos Model Is Headed For Wider Release](https://www.forbes.com/sites/ronschmelzer/2026/05/29/anthropics-guarded-mythos-model-is-headed-for-wider-release) — Anthropic 的 Claude Mythos AI 模型即将向所有客户更广泛发布，这是新的事实。
+### 2026-06-05
+- [Claude Mythos: How Leaks and Early Benchmarks Surfaced a New ...](https://www.mindstudio.ai/blog/what-is-claude-mythos-anthropic-most-powerful-model) — Claude Mythos 模型通过 API 泄露和基准测试首次被发现，揭示了模型的能力和发现方式。
+

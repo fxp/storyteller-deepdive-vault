@@ -4,11 +4,11 @@ title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折�
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
 status: HOT
-last_check: 2026-06-05T13:16
+last_check: 2026-06-05T16:56
 last_activity: '2026-06-05'
-next_check: 2026-06-05T16:16
+next_check: 2026-06-05T19:56
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 112
 tags:
 - tracker
@@ -266,4 +266,3 @@ Guo Jiakun briefing 2026, Trump Xi AI agreement, US China artificial intelligenc
 - [The Trump-Xi Summit in China: Trade, Taiwan, AI and More](https://www.youtube.com/watch?v=ejmf2joJEPg) — 视频标题提及了特朗普与习近平的峰会，讨论了贸易、台湾、AI等多个议题，包含新事实。
 ### 2026-06-05
 - [Trump's New AI Order Raises the Stakes in China-US Tech Competition](https://thediplomat.com/2026/06/trumps-new-ai-order-raises-the-stakes-in-china-us-tech-competition) — 特朗普的新AI命令提高了中美科技竞争的赌注，这是历史发现中未出现的新事实。
-
