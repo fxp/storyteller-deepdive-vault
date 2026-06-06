@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-06-06T12:39
+last_check: 2026-06-06T16:27
 last_activity: '2026-06-06'
-next_check: 2026-06-06T15:39
+next_check: 2026-06-06T19:27
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 226
+findings_count: 228
 tags:
 - tracker
 - HOT
@@ -374,4 +374,7 @@ Watch Geoff Bennett's conversation with Gerrit De Vynck, who covers AI for The W
 ### 2026-06-06
 - [Anthropic's new Mythos AI model has become a flashpoint in the ...](https://www.facebook.com/ForbesIndia/videos/is-anthropics-new-ai-tool-too-dangerous/1462737675328109) — Anthropic 宣布 Mythos AI 模型成为焦点，但未明确指出为何该模型被认为过于危险，这可能是新的事实。
 - [Claude Mythos and the AI Cybersecurity Wake-Up Call](https://www.bain.com/insights/claude-mythos-and-ai-cybersecurity-wake-up-call) — 文章讨论了 Claude Mythos 对网络安全的影响，并提出了组织需要量子准备的观点，这是新的事实。
+### 2026-06-06
+- [NSA said to be readying Anthropic’s Mythos for use in cyber operations - TechCrunch](https://techcrunch.com/2026/06/05/nsa-said-to-be-readying-anthropics-mythos-for-use-in-cyber-operations) — NSA 正在准备使用 Anthropic 的 Mythos 模型进行网络行动。
+- [UK gov’s Mythos AI tests help separate cybersecurity threat from hype | Ars OpenForum](https://arstechnica.com/civis/threads/uk-gov%E2%80%99s-mythos-ai-tests-help-separate-cybersecurity-threat-from-hype.1512560) — 英国政府使用 Mythos AI 测试帮助区分网络安全威胁和炒作。
 
