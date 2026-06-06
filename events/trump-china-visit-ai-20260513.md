@@ -4,11 +4,11 @@ title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折�
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
 status: HOT
-last_check: 2026-06-06T01:09
+last_check: 2026-06-06T05:26
 last_activity: '2026-06-06'
-next_check: 2026-06-06T04:09
+next_check: 2026-06-06T08:26
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 113
 tags:
 - tracker
@@ -268,4 +268,3 @@ Guo Jiakun briefing 2026, Trump Xi AI agreement, US China artificial intelligenc
 - [Trump's New AI Order Raises the Stakes in China-US Tech Competition](https://thediplomat.com/2026/06/trumps-new-ai-order-raises-the-stakes-in-china-us-tech-competition) — 特朗普的新AI命令提高了中美科技竞争的赌注，这是历史发现中未出现的新事实。
 ### 2026-06-06
 - [[News] U.S. Reportedly Approves NVIDIA H200 Sales to 10 Chinese Firms Including Alibaba, ByteDance, but Deals Stall](https://www.trendforce.com/news/2026/05/14/news-u-s-reportedly-approves-nvidia-h200-sales-to-10-chinese-firms-including-alibaba-bytedance-but-deals-stall) — 美国批准了包括阿里巴巴、字节跳动在内的约10家中国公司购买英伟达的H200芯片，但据报道没有发货。
-

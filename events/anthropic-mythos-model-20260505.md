@@ -4,11 +4,11 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-06-06T01:09
+last_check: 2026-06-06T05:26
 last_activity: '2026-06-06'
-next_check: 2026-06-06T04:09
+next_check: 2026-06-06T08:26
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 222
 tags:
 - tracker
@@ -368,4 +368,3 @@ Watch Geoff Bennett's conversation with Gerrit De Vynck, who covers AI for The W
 ### 2026-06-06
 - [What are the cybersecurity risks of Anthropic's new AI model 'Claude ...](https://www.quora.com/What-are-the-cybersecurity-risks-of-Anthropics-new-AI-model-Claude-Mythos) — NSA 据称正在使用 Anthropic 的受限 Mythos AI 模型。
 - [NSA is said to be using Anthropic's restricted Mythos AI model.](https://www.facebook.com/techcrunch/posts/nsa-is-said-to-be-using-anthropics-restricted-mythos-ai-model/1310245304302667) — 使用 Mythos 模型的风险是它能够增强网络攻击。
-
