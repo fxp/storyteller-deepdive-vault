@@ -193,32 +193,35 @@ def synthesize_update(
         url     = str(f.get("url", ""))
         name    = source_name(url, str(f.get("source_title", "")))
         summary = f.get("_summary", "")
-        # 格式：[来源名](url) 摘要
-        ref = f"[{name}]({url})" if url else name
-        return f"{ref} — {summary}"
+        ref     = f"[{name}]({url})" if url else name
+        return f"事实：{summary} | 来源：{ref}"
 
     recent_block  = "\n".join(f"- {fmt_finding(f)}" for f in recent[:15])
     history_block = "\n".join(f"- {f.get('_summary','')}" for f in history[:HISTORY_CTX])
 
-    prompt = f"""你是一名 AI 行业资深分析师。请根据「近期新发现」，为追踪课题「{event_title}」写一段话题进展更新。
+    prompt = f"""你是一名 AI 行业资深分析师，正在追踪课题「{event_title}」（当前热度：{status}）。
 
-【写作风格要求】
-1. 以**话题本身**为主语，描述这个话题近期发生了什么变化，而不是"某文章报道了什么"
-2. 将信源以 [来源名](url) 格式内联嵌入句中，例如：
-   "[Bloomberg](https://...) 确认，英伟达已向阿里巴巴交付首批 H200。"
-   "网络安全预算压力持续上升，[Bain&Company](https://...) 指出许多组织需要大幅增加支出。"
-3. 150～250 字，流畅中文叙述段落，不要 bullet list，不要标题
-4. 只写近期新变化，不重复历史已知事实
-5. 可在结尾用「——」引出 1～2 个值得继续关注的问题
-6. 只输出正文，不要任何 markdown 标记（** # 等），但保留 [name](url) 引用格式
+下方「近期新事实」是最新抓取的信息。你的任务：
+**第一步（内部推理，不要输出）**：对每条事实，判断它对这个话题贡献了什么新的观点或洞察——
+  - 是否改变了之前的判断？
+  - 是否揭示了新的行为者、新的因果关系、新的数量级？
+  - 是否与历史背景形成对比或反转？
+  - 如果只是重复已知事实、无新观点，则忽略这条。
 
-【近期新发现（每条格式：[来源](url) — 摘要）】
+**第二步（输出）**：将有价值的新观点合成为一段话题进展叙述：
+  - 以话题为主语，写观点和洞察，不是转述新闻标题
+  - 在句中内联引用信源，格式：[来源名](url)，例如 "[Bloomberg](https://...) 确认，..."
+  - 150～250 字，流畅中文段落，不要 bullet list
+  - 结尾可用「——」提出 1～2 个值得持续关注的问题
+  - 只输出正文，保留 [name](url) 格式，其余不要任何 markdown 符号
+
+【近期新事实】
 {recent_block}
 
-【历史已知背景（勿重复）】
+【历史已知背景（勿重复旧事实）】
 {history_block if history_block else "（无）"}
 
-话题进展更新："""
+话题新观点更新："""
 
     try:
         resp = requests.post(
