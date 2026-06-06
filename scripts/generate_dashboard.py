@@ -176,6 +176,82 @@ def split_recent_vs_history(findings: list[dict], days: int) -> tuple[list, list
 # BigModel 合成
 # ══════════════════════════════════════════════════════════════════
 
+SYNTH_MODEL = "glm-5.1"
+
+
+def _call_glm(prompt: str, max_tokens: int = 800, temperature: float = 0.4) -> str:
+    """统一 GLM API 调用，返回原始文本，失败抛异常"""
+    resp = requests.post(
+        "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+        headers={
+            "Authorization": f"Bearer {BIGMODEL_API_KEY}",
+            "Content-Type": "application/json",
+        },
+        json={
+            "model": SYNTH_MODEL,
+            "messages": [{"role": "user", "content": prompt}],
+            "temperature": temperature,
+            "max_tokens": max_tokens,
+        },
+        timeout=60,
+    )
+    resp.raise_for_status()
+    return resp.json()["choices"][0]["message"]["content"].strip()
+
+
+def filter_valuable(
+    event_title: str,
+    findings: list[dict],
+    history: list[dict],
+) -> list[dict]:
+    """
+    用 GLM-5.1 对近期发现做价值评估，返回真正有新信息的子集。
+    评估标准：是否包含历史背景中没有的新事实、新数据、新行为者、新因果关系。
+    """
+    if not findings or not BIGMODEL_API_KEY:
+        return findings
+
+    def fmt(i, f):
+        name    = source_name(str(f.get("url","")), str(f.get("source_title","")))
+        summary = f.get("_summary", "")
+        return f"{i}. [{name}]：{summary}"
+
+    items_block   = "\n".join(fmt(i, f) for i, f in enumerate(findings))
+    history_block = "\n".join(f"- {f.get('_summary','')}" for f in history[:HISTORY_CTX])
+
+    prompt = f"""你是信息质量评审员，正在为课题「{event_title}」筛选近期发现。
+
+判断标准：一条发现"有价值"，当且仅当它包含以下至少一项：
+- 历史背景中未出现的新事实或新数据
+- 新的行为者、机构、决策
+- 事态的实质性进展或反转
+- 具体数字、时间节点、合同/协议细节
+
+"无价值"的情形：重复已知事实、仅转载旧新闻、泛泛评论、无具体信息。
+
+【待评估发现（编号 0 开始）】
+{items_block}
+
+【已知历史背景（用于比对是否重复）】
+{history_block if history_block else "（无）"}
+
+请只输出有价值的发现编号，用逗号分隔，例如：0,2,4
+不要输出任何解释，只输出编号列表："""
+
+    try:
+        raw = _call_glm(prompt, max_tokens=100, temperature=0.1)
+        # 解析编号
+        indices = [int(x.strip()) for x in re.findall(r"\d+", raw)]
+        valuable = [findings[i] for i in indices if 0 <= i < len(findings)]
+        dropped  = len(findings) - len(valuable)
+        if dropped:
+            print(f"    Value filter: {len(findings)} → {len(valuable)} (dropped {dropped})")
+        return valuable if valuable else findings  # 全被过滤时兜底保留原列表
+    except Exception as e:
+        print(f"  [WARN] value filter failed: {e}, using all findings")
+        return findings
+
+
 def synthesize_update(
     event_title: str,
     status: str,
@@ -183,33 +259,36 @@ def synthesize_update(
     history: list[dict],
 ) -> str:
     """
-    调用 GLM-4-Flash 将近期发现合成为叙述性进展摘要。
-    返回 HTML 字符串（段落+内联来源标注）。
+    用 GLM-5.1 将近期高价值发现合成为叙述性进展摘要。
+    返回 HTML 字符串（内联来源链接）。
     """
     if not BIGMODEL_API_KEY:
         return _fallback_list(recent)
 
-    def fmt_finding(f):
-        url     = str(f.get("url", ""))
-        name    = source_name(url, str(f.get("source_title", "")))
-        summary = f.get("_summary", "")
-        ref     = f"[{name}]({url})" if url else name
-        return f"{ref}：{summary}"
+    # 先做价值筛选
+    valuable = filter_valuable(event_title, recent, history)
 
-    recent_block  = "\n".join(f"- {fmt_finding(f)}" for f in recent[:15])
+    def fmt_finding(f):
+        url  = str(f.get("url", ""))
+        name = source_name(url, str(f.get("source_title", "")))
+        summ = f.get("_summary", "")
+        ref  = f"[{name}]({url})" if url else name
+        return f"{ref}：{summ}"
+
+    recent_block  = "\n".join(f"- {fmt_finding(f)}" for f in valuable[:12])
     history_block = "\n".join(f"- {f.get('_summary','')}" for f in history[:HISTORY_CTX])
 
     prompt = f"""你是 AI 行业分析师，追踪课题「{event_title}」。
 
-请根据近期新发现，写一段 150～220 字的中文话题进展，要求：
-1. 聚焦新观点和变化，不要转述新闻标题
-2. 每引用一个信源，必须用 [媒体名](URL) 格式内联在句子里，例如：
-   [TechCrunch](https://techcrunch.com/...) 报道，NSA 正准备将 Mythos 用于网络行动。
-3. 不要 bullet list，不要标题，只输出流畅叙述段落
+请根据下方已筛选的高价值发现，写一段 150～220 字的中文话题进展：
+1. 以话题为主语，写观点和实质变化，不转述新闻标题
+2. 每引用信源，必须将链接内联在句子里，格式：[媒体名](URL)
+   示例：[TechCrunch](https://...) 确认，NSA 已将 Mythos 纳入网络行动规划。
+3. 不要 bullet list 或标题，只输出流畅中文段落
 4. 不重复历史已知事实
 5. 结尾可用「——」提出 1～2 个值得关注的问题
 
-【近期新发现】（每条格式：[媒体名](url)：摘要，请直接复用这些链接）
+【高价值发现】（直接复用括号内链接）
 {recent_block}
 
 【历史背景（勿重复）】
@@ -218,27 +297,11 @@ def synthesize_update(
 话题进展："""
 
     try:
-        resp = requests.post(
-            "https://open.bigmodel.cn/api/paas/v4/chat/completions",
-            headers={
-                "Authorization": f"Bearer {BIGMODEL_API_KEY}",
-                "Content-Type": "application/json",
-            },
-            json={
-                "model": "glm-4-flash",
-                "messages": [{"role": "user", "content": prompt}],
-                "temperature": 0.5,
-                "max_tokens": 700,
-            },
-            timeout=45,
-        )
-        resp.raise_for_status()
-        text = resp.json()["choices"][0]["message"]["content"].strip()
-        # 清理 markdown 标题/加粗，但保留 [name](url)
+        text = _call_glm(prompt, max_tokens=700, temperature=0.5)
+        # 清理多余 markdown，但保留 [name](url)
         text = re.sub(r"^#+\s+", "", text, flags=re.MULTILINE)
         text = re.sub(r"\*\*([^*]+)\*\*", r"\1", text)
-        text = re.sub(r"\*([^*]+)\*", r"\1", text)
-        # 把 [name](url) 转为 HTML <a>，其余部分 HTML 转义
+        text = re.sub(r"\*([^*]+)\*",     r"\1", text)
         return md_links_to_html(text)
     except Exception as e:
         print(f"  [WARN] synthesis failed: {e}")
