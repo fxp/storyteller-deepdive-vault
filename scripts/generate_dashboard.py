@@ -274,6 +274,27 @@ def esc(s: str) -> str:
             .replace(">", "&gt;").replace('"', "&quot;"))
 
 
+def _render_sources(findings: list[dict], max_n: int = 8) -> str:
+    """始终在摘要下方显示的来源链接列表"""
+    items = []
+    seen  = set()
+    for f in findings[:max_n]:
+        url  = str(f.get("url", ""))
+        name = source_name(url, str(f.get("source_title", url)))
+        date = str(f.get("date", ""))
+        if not url or url in seen:
+            continue
+        seen.add(url)
+        items.append(
+            f'<a class="src-pill" href="{esc(url)}" target="_blank" rel="noopener">'
+            f'<span class="src-date">{esc(date)}</span>{esc(name)}'
+            f'</a>'
+        )
+    if not items:
+        return ""
+    return '<div class="src-row">' + "".join(items) + "</div>"
+
+
 def md_links_to_html(text: str) -> str:
     """
     把 LLM 输出中的 [Name](url) 转成 HTML <a>，
@@ -337,7 +358,8 @@ def render_card(ev: dict) -> str:
             link = f'<a href="{esc(url)}" target="_blank" rel="noopener" class="inline-src">{esc(nm)}</a>' if url else esc(nm)
             synopsis = f"{link} 报道，{summ}" if summ else link
 
-        content_html = f'<div class="synopsis">{synopsis}</div>'
+        sources_html = _render_sources(recent)
+        content_html = f'<div class="synopsis">{synopsis}</div>{sources_html}'
     else:
         window_label = f"{days} 天内" if days else "—"
         content_html = f'<div class="no-update">近 {window_label} 暂无新发现</div>'
@@ -505,6 +527,41 @@ def generate(events: list[dict]) -> str:
   .inline-src:hover {{
     color: var(--text);
     border-color: var(--accent);
+  }}
+
+  /* 来源链接行（始终显示） */
+  .src-row {{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding-top: 10px;
+    border-top: 1px solid var(--border);
+    margin-top: 4px;
+  }}
+  .src-pill {{
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 11px;
+    color: var(--text-muted);
+    background: rgba(255,255,255,.03);
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    padding: 2px 8px;
+    text-decoration: none;
+    transition: color 0.12s, border-color 0.12s;
+    max-width: 260px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }}
+  .src-pill:hover {{ color: var(--text-dim); border-color: var(--border-hi); }}
+  .src-date {{
+    font-family: var(--font-mono);
+    font-size: 10px;
+    color: var(--text-muted);
+    opacity: 0.7;
+    flex-shrink: 0;
   }}
 
   .no-update {{
