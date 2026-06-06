@@ -4,11 +4,11 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-06-06T16:27
+last_check: 2026-06-06T19:33
 last_activity: '2026-06-06'
-next_check: 2026-06-06T19:27
+next_check: 2026-06-06T22:33
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 228
 tags:
 - tracker
@@ -377,4 +377,3 @@ Watch Geoff Bennett's conversation with Gerrit De Vynck, who covers AI for The W
 ### 2026-06-06
 - [NSA said to be readying Anthropic’s Mythos for use in cyber operations - TechCrunch](https://techcrunch.com/2026/06/05/nsa-said-to-be-readying-anthropics-mythos-for-use-in-cyber-operations) — NSA 正在准备使用 Anthropic 的 Mythos 模型进行网络行动。
 - [UK gov’s Mythos AI tests help separate cybersecurity threat from hype | Ars OpenForum](https://arstechnica.com/civis/threads/uk-gov%E2%80%99s-mythos-ai-tests-help-separate-cybersecurity-threat-from-hype.1512560) — 英国政府使用 Mythos AI 测试帮助区分网络安全威胁和炒作。
-
