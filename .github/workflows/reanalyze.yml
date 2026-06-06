@@ -1,0 +1,44 @@
+name: Reanalyze Findings (GLM-5.1)
+
+on:
+  workflow_dispatch:   # 只手动触发
+
+jobs:
+  reanalyze:
+    name: Re-score all findings with GLM-5.1
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout vault
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run reanalysis
+        env:
+          BIGMODEL_API_KEY: ${{ secrets.BIGMODEL_API_KEY }}
+        run: python3 scripts/reanalyze.py
+
+      - name: Regenerate dashboard
+        env:
+          BIGMODEL_API_KEY: ${{ secrets.BIGMODEL_API_KEY }}
+        run: python3 scripts/generate_dashboard.py
+
+      - name: Commit & push
+        run: |
+          git config user.email "storyteller-bot@users.noreply.github.com"
+          git config user.name  "StoryTeller Bot"
+          git add findings/ dashboard.html
+          git diff --staged --quiet \
+            && echo "No changes." \
+            || (git commit -m "reanalyze: GLM-5.1 quality scoring $(date -u '+%Y-%m-%dT%H:%M')" && git push)

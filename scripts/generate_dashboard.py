@@ -152,7 +152,10 @@ def load_events() -> list[dict]:
 
 
 def load_relevant_findings(event_id: str) -> list[dict]:
-    """加载该事件所有 RELEVANT 发现，按日期倒序"""
+    """
+    加载该事件所有 RELEVANT 发现，按日期倒序。
+    若已有 quality 字段，LOW 排到后面（不丢弃，但降优先级）。
+    """
     all_f = []
     for f in FINDINGS_DIR.glob(f"*-{event_id}-*.md"):
         fm, body = parse_md(f)
@@ -160,7 +163,17 @@ def load_relevant_findings(event_id: str) -> list[dict]:
             fm["_body"]    = body
             fm["_summary"] = extract_summary(body)
             all_f.append(fm)
-    all_f.sort(key=lambda x: str(x.get("date", "2000-01-01")), reverse=True)
+
+    quality_order = {"HIGH": 0, "OK": 1, "LOW": 2, "": 1}
+    all_f.sort(key=lambda x: (
+        quality_order.get(str(x.get("quality", "")), 1),
+        str(x.get("date", "2000-01-01"))
+    ), reverse=True)
+    # 同一日期内，HIGH 排前；跨日期，最新排前 → 二级排序取反
+    all_f.sort(key=lambda x: (
+        str(x.get("date", "2000-01-01")),
+        -quality_order.get(str(x.get("quality", "")), 1)
+    ), reverse=True)
     return all_f
 
 
