@@ -33,11 +33,14 @@ jobs:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         run: python3 scripts/monitor.py
 
+      - name: Generate dashboard
+        run: python3 scripts/generate_dashboard.py
+
       - name: Commit & push findings
         run: |
           git config user.email "storyteller-bot@users.noreply.github.com"
           git config user.name  "StoryTeller Bot"
-          git add events/ findings/
+          git add events/ findings/ dashboard.html
           git diff --staged --quiet \
             && echo "No changes." \
             || (git commit -m "track: $(date -u '+%Y-%m-%dT%H:%M') [bigmodel]" && git push)

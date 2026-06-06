@@ -1,1099 +1,648 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-Hans">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>StoryTeller · AI 事件情报追踪</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>StoryTeller — AI 事件追踪</title>
 <style>
   :root {
-    --bg: #0d0d12;
-    --surface: #13131a;
-    --surface-2: #1a1a24;
-    --border: #1e1e2e;
-    --border-bright: #2a2a3e;
-    --text: #e2e2f0;
-    --text-muted: #7070a0;
-    --text-dim: #4a4a6a;
-    --hot: #ff3b3b;
-    --hot-glow: rgba(255,59,59,0.15);
-    --accent: #6366f1;
-    --accent-dim: rgba(99,102,241,0.12);
-    --green: #22c55e;
-    --orange: #f59e0b;
-    --blue: #3b82f6;
-    --purple: #a855f7;
-    --teal: #14b8a6;
-    --tag-person: rgba(168,85,247,0.15);
-    --tag-person-text: #c084fc;
-    --tag-org: rgba(59,130,246,0.15);
-    --tag-org-text: #60a5fa;
-    --tag-product: rgba(20,184,166,0.15);
-    --tag-product-text: #2dd4bf;
-    --tag-topic: rgba(245,158,11,0.15);
-    --tag-topic-text: #fbbf24;
-    --finding-line: #2a2a4a;
-    --font: -apple-system, "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", BlinkMacSystemFont, "Segoe UI", sans-serif;
-    --mono: "SF Mono", "Fira Code", Consolas, monospace;
+    --bg:          #0d0d12;
+    --surface:     #13131a;
+    --card:        #17171f;
+    --border:      #1e1e2e;
+    --border-bright: #2e2e42;
+    --text:        #e2e8f0;
+    --text-dim:    #94a3b8;
+    --text-muted:  #64748b;
+    --accent:      #6366f1;
+    --hot:         #ef4444;
+    --font-mono:   'JetBrains Mono', 'Fira Code', monospace;
   }
-
   * { box-sizing: border-box; margin: 0; padding: 0; }
-
-  html { font-size: 15px; }
-
   body {
     background: var(--bg);
     color: var(--text);
-    font-family: var(--font);
+    font-family: -apple-system, 'PingFang SC', 'Noto Sans SC', sans-serif;
+    font-size: 14px;
     line-height: 1.6;
     min-height: 100vh;
-    -webkit-font-smoothing: antialiased;
   }
 
   /* ── Header ── */
-  .site-header {
-    border-bottom: 1px solid var(--border);
-    padding: 0 32px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 60px;
-    position: sticky;
-    top: 0;
-    background: rgba(13,13,18,0.92);
-    backdrop-filter: blur(12px);
-    z-index: 100;
-  }
-
-  .logo {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-
-  .logo-mark {
-    width: 28px;
-    height: 28px;
-    background: linear-gradient(135deg, #6366f1, #8b5cf6);
-    border-radius: 7px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 14px;
-    font-weight: 700;
-    color: #fff;
-    letter-spacing: -0.5px;
-    flex-shrink: 0;
-  }
-
-  .logo-text {
-    font-size: 15px;
-    font-weight: 600;
-    color: var(--text);
-    letter-spacing: -0.3px;
-  }
-
-  .logo-sub {
-    font-size: 12px;
-    color: var(--text-muted);
-    letter-spacing: 0;
-    font-weight: 400;
-  }
-
-  .header-right {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-  }
-
-  .header-stat {
-    text-align: right;
-  }
-
-  .header-stat .value {
-    font-size: 18px;
-    font-weight: 700;
-    color: var(--text);
-    letter-spacing: -0.5px;
-    line-height: 1;
-  }
-
-  .header-stat .label {
-    font-size: 11px;
-    color: var(--text-muted);
-    margin-top: 2px;
-  }
-
-  .header-divider {
-    width: 1px;
-    height: 28px;
-    background: var(--border-bright);
-  }
-
-  .live-badge {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    font-size: 11px;
-    color: var(--green);
-    font-weight: 500;
-    letter-spacing: 0.3px;
-    text-transform: uppercase;
-  }
-
-  .live-dot {
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background: var(--green);
-    animation: pulse-green 2s ease-in-out infinite;
-  }
-
-  @keyframes pulse-green {
-    0%, 100% { opacity: 1; transform: scale(1); }
-    50% { opacity: 0.5; transform: scale(0.85); }
-  }
-
-  /* ── Hero banner ── */
-  .hero {
-    border-bottom: 1px solid var(--border);
-    padding: 28px 32px 24px;
-    background: linear-gradient(180deg, rgba(99,102,241,0.04) 0%, transparent 100%);
-  }
-
-  .hero h1 {
-    font-size: 22px;
-    font-weight: 700;
-    color: var(--text);
-    letter-spacing: -0.5px;
-    margin-bottom: 6px;
-  }
-
-  .hero p {
-    font-size: 13px;
-    color: var(--text-muted);
-    max-width: 600px;
-  }
-
-  .hero-stats {
-    display: flex;
-    gap: 24px;
-    margin-top: 20px;
-  }
-
-  .hero-stat-item {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-size: 13px;
-    color: var(--text-muted);
-  }
-
-  .hero-stat-item strong {
-    color: var(--text);
-    font-weight: 600;
-  }
-
-  .hero-stat-item .icon {
-    font-size: 14px;
-    opacity: 0.8;
-  }
-
-  /* ── Main layout ── */
-  .main {
-    padding: 28px 32px 60px;
-    max-width: 1280px;
-    margin: 0 auto;
-  }
-
-  .section-label {
-    font-size: 11px;
-    font-weight: 600;
-    color: var(--text-dim);
-    letter-spacing: 1.2px;
-    text-transform: uppercase;
-    margin-bottom: 16px;
-  }
-
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 16px;
-  }
-
-  /* Full-width card (last one if odd count) */
-  .card-full {
-    grid-column: 1 / -1;
-  }
-
-  /* ── Event Card ── */
-  .card {
+  .header {
     background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    transition: border-color 0.15s ease;
-    position: relative;
-    overflow: hidden;
-  }
-
-  .card::before {
-    content: '';
-    position: absolute;
-    top: 0; left: 0; right: 0;
-    height: 2px;
-    background: linear-gradient(90deg, var(--accent), transparent);
-    opacity: 0;
-    transition: opacity 0.15s ease;
-  }
-
-  .card:hover {
-    border-color: var(--border-bright);
-  }
-
-  .card:hover::before {
-    opacity: 1;
-  }
-
-  /* ── Card Header ── */
-  .card-header {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 12px;
-  }
-
-  .card-title-group {
-    flex: 1;
-    min-width: 0;
-  }
-
-  .card-meta {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    margin-bottom: 6px;
-  }
-
-  .hot-badge {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    background: rgba(255,59,59,0.12);
-    border: 1px solid rgba(255,59,59,0.25);
-    border-radius: 20px;
-    padding: 2px 8px 2px 6px;
-    font-size: 10px;
-    font-weight: 700;
-    color: var(--hot);
-    letter-spacing: 0.8px;
-    text-transform: uppercase;
-    flex-shrink: 0;
-  }
-
-  .hot-dot {
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    background: var(--hot);
-    animation: pulse-hot 1.5s ease-in-out infinite;
-  }
-
-  @keyframes pulse-hot {
-    0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(255,59,59,0.5); }
-    50% { opacity: 0.7; box-shadow: 0 0 0 3px rgba(255,59,59,0); }
-  }
-
-  .card-date {
-    font-size: 11px;
-    color: var(--text-dim);
-    font-family: var(--mono);
-  }
-
-  .card-title {
-    font-size: 14.5px;
-    font-weight: 600;
-    color: var(--text);
-    line-height: 1.45;
-    letter-spacing: -0.2px;
-  }
-
-  /* ── Card Stats ── */
-  .card-stats {
-    display: flex;
-    gap: 16px;
-    align-items: center;
-    padding: 10px 14px;
-    background: var(--surface-2);
-    border-radius: 8px;
-    border: 1px solid var(--border);
-  }
-
-  .stat-item {
-    display: flex;
-    flex-direction: column;
-    gap: 1px;
-  }
-
-  .stat-value {
-    font-size: 20px;
-    font-weight: 700;
-    color: var(--text);
-    letter-spacing: -1px;
-    line-height: 1;
-  }
-
-  .stat-value.big { font-size: 26px; }
-
-  .stat-label {
-    font-size: 10px;
-    color: var(--text-dim);
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-  }
-
-  .stat-divider {
-    width: 1px;
-    height: 28px;
-    background: var(--border-bright);
-    flex-shrink: 0;
-  }
-
-  /* ── Summary ── */
-  .card-summary {
-    font-size: 13px;
-    color: var(--text-muted);
-    line-height: 1.65;
-  }
-
-  /* ── Findings ── */
-  .findings-section {}
-
-  .findings-label {
-    font-size: 10.5px;
-    font-weight: 600;
-    color: var(--text-dim);
-    letter-spacing: 0.8px;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-  }
-
-  .findings-list {
-    display: flex;
-    flex-direction: column;
-    gap: 0;
-    border-left: 2px solid var(--finding-line);
-    padding-left: 14px;
-    margin-left: 2px;
-  }
-
-  .finding-item {
-    position: relative;
-    padding: 8px 0;
-  }
-
-  .finding-item + .finding-item {
-    border-top: 1px solid rgba(255,255,255,0.04);
-  }
-
-  .finding-item::before {
-    content: '';
-    position: absolute;
-    left: -18px;
-    top: 14px;
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background: var(--border-bright);
-    border: 1.5px solid var(--surface);
-  }
-
-  .finding-date {
-    font-size: 10px;
-    font-family: var(--mono);
-    color: var(--text-dim);
-    margin-bottom: 3px;
-  }
-
-  .finding-text {
-    font-size: 12.5px;
-    color: var(--text-muted);
-    line-height: 1.55;
-  }
-
-  .finding-text a {
-    color: var(--text-muted);
-    text-decoration: none;
-    border-bottom: 1px solid var(--border-bright);
-    transition: color 0.12s, border-color 0.12s;
-  }
-
-  .finding-text a:hover {
-    color: var(--text);
-    border-color: var(--text-dim);
-  }
-
-  .no-findings {
-    padding: 10px 0;
-    font-size: 12px;
-    color: var(--text-dim);
-    font-style: italic;
-  }
-
-  /* ── Entities ── */
-  .entities-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5px;
-  }
-
-  .entity-chip {
-    font-size: 11px;
-    padding: 3px 8px;
-    border-radius: 20px;
-    font-weight: 500;
-    letter-spacing: 0.1px;
-    border: 1px solid transparent;
-  }
-
-  .chip-person {
-    background: var(--tag-person);
-    color: var(--tag-person-text);
-    border-color: rgba(168,85,247,0.2);
-  }
-
-  .chip-org {
-    background: var(--tag-org);
-    color: var(--tag-org-text);
-    border-color: rgba(59,130,246,0.2);
-  }
-
-  .chip-product {
-    background: var(--tag-product);
-    color: var(--tag-product-text);
-    border-color: rgba(20,184,166,0.2);
-  }
-
-  .chip-topic {
-    background: var(--tag-topic);
-    color: var(--tag-topic-text);
-    border-color: rgba(245,158,11,0.2);
-  }
-
-  /* ── Card Footer ── */
-  .card-footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 12px;
-    border-top: 1px solid var(--border);
-  }
-
-  .check-time {
-    font-size: 11px;
-    color: var(--text-dim);
-    font-family: var(--mono);
-  }
-
-  .source-link {
-    font-size: 11.5px;
-    color: var(--accent);
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    gap: 4px;
-    opacity: 0.8;
-    transition: opacity 0.12s;
-  }
-
-  .source-link:hover { opacity: 1; text-decoration: underline; }
-
-  /* ── Footer ── */
-  .site-footer {
-    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
     padding: 20px 32px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
   }
-
-  .footer-left {
-    font-size: 12px;
-    color: var(--text-dim);
-    line-height: 1.7;
+  .header-left h1 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.3px;
   }
-
-  .footer-left a {
+  .header-left p {
     color: var(--text-muted);
-    text-decoration: none;
+    font-size: 12px;
+    margin-top: 2px;
   }
-
-  .footer-left a:hover { color: var(--text); }
-
-  .footer-right {
+  .stats {
+    display: flex;
+    gap: 24px;
+  }
+  .stat {
+    text-align: center;
+  }
+  .stat-value {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: var(--font-mono);
+    color: var(--text);
+  }
+  .stat-label {
     font-size: 11px;
-    color: var(--text-dim);
-    text-align: right;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .live-badge {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(239,68,68,.12);
+    border: 1px solid rgba(239,68,68,.3);
+    border-radius: 999px;
+    padding: 4px 12px;
+    font-size: 12px;
+    color: var(--hot);
+    font-weight: 600;
   }
 
-  .footer-tag {
-    display: inline-flex;
+  /* ── Grid ── */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
+    gap: 20px;
+    padding: 24px 32px;
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+
+  /* ── Card ── */
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: border-color 0.2s;
+  }
+  .card:hover { border-color: var(--border-bright); }
+  .card[data-status="HOT"] { border-color: rgba(239,68,68,.25); }
+
+  .card-header {
+    padding: 18px 20px 14px;
+    border-bottom: 1px solid var(--border);
+  }
+  .card-title-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  .card-title {
+    font-size: 15px;
+    font-weight: 600;
+    flex: 1;
+    line-height: 1.4;
+  }
+  .badge {
+    display: flex;
     align-items: center;
     gap: 5px;
-    background: var(--surface-2);
-    border: 1px solid var(--border);
+    font-size: 11px;
+    font-weight: 700;
+    padding: 3px 9px;
     border-radius: 6px;
-    padding: 4px 10px;
+    white-space: nowrap;
+    flex-shrink: 0;
+    font-family: var(--font-mono);
+    letter-spacing: 0.5px;
+  }
+
+  /* ── Pulse animation ── */
+  .pulse-dot {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #ef4444;
+    animation: pulse 1.8s ease-in-out infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50%       { opacity: 0.4; transform: scale(0.7); }
+  }
+
+  /* ── Chips ── */
+  .chips { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 10px; }
+  .chip {
+    font-size: 11px;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-weight: 500;
+  }
+  .chip-person { background: rgba(139,92,246,.15); color: #a78bfa; }
+  .chip-org    { background: rgba(59,130,246,.15);  color: #60a5fa; }
+
+  .card-meta {
+    display: flex;
+    gap: 16px;
+    font-size: 12px;
+    color: var(--text-muted);
+  }
+
+  /* ── Findings ── */
+  .findings-list {
+    flex: 1;
+    padding: 12px 20px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .finding {
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--border);
+  }
+  .finding:last-child { border-bottom: none; padding-bottom: 0; }
+  .finding-meta {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .finding-date {
     font-size: 11px;
     color: var(--text-muted);
-    margin-top: 8px;
+    font-family: var(--font-mono);
+    flex-shrink: 0;
+  }
+  .finding-title {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text-dim);
+    line-height: 1.3;
+  }
+  .finding-meta a {
+    text-decoration: none;
+    border-bottom: 1px solid var(--border-bright);
+    transition: color 0.12s, border-color 0.12s;
+  }
+  .finding-meta a:hover .finding-title {
+    color: var(--text);
+    border-color: var(--text-dim);
+  }
+  .finding-meta a:hover { border-color: var(--text-dim); }
+  .finding-summary {
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-top: 4px;
+    line-height: 1.5;
+  }
+  .no-findings {
+    font-size: 13px;
+    color: var(--text-muted);
+    font-style: italic;
+    padding: 8px 0;
   }
 
-  /* ── Responsive ── */
-  @media (max-width: 768px) {
-    .site-header { padding: 0 16px; }
-    .header-stat { display: none; }
-    .hero { padding: 20px 16px; }
-    .hero-stats { flex-wrap: wrap; gap: 12px; }
-    .main { padding: 20px 16px 40px; }
-    .grid { grid-template-columns: 1fr; }
-    .card-full { grid-column: 1; }
-    .site-footer { flex-direction: column; gap: 12px; text-align: center; }
-    .footer-right { text-align: center; }
-    .card-full [style*="grid-template-columns"] {
-      display: flex !important;
-      flex-direction: column !important;
-    }
+  /* ── Footer ── */
+  .footer {
+    text-align: center;
+    padding: 24px;
+    color: var(--text-muted);
+    font-size: 12px;
+    border-top: 1px solid var(--border);
   }
+  .footer a { color: var(--text-muted); }
 
-  @media (max-width: 480px) {
-    .hero h1 { font-size: 18px; }
-    .card-title { font-size: 13.5px; }
+  @media (max-width: 600px) {
+    .header { padding: 16px; }
+    .grid   { padding: 16px; grid-template-columns: 1fr; }
+    .stats  { gap: 16px; }
   }
-
-  /* ── Pretext text containers ── */
-  [data-pretext] { display: block; }
-
-  /* Dark mode is default — no override needed */
 </style>
 </head>
 <body>
 
-<!-- Site Header -->
-<header class="site-header">
-  <div class="logo">
-    <div class="logo-mark">ST</div>
-    <div>
-      <div class="logo-text">StoryTeller</div>
-      <div class="logo-sub">AI 事件情报追踪</div>
+<header class="header">
+  <div class="header-left">
+    <h1>🔭 StoryTeller</h1>
+    <p>AI 事件持续追踪 · 更新于 2026-06-06 15:51 UTC</p>
+  </div>
+  <div class="stats">
+    <div class="stat">
+      <div class="stat-value">5</div>
+      <div class="stat-label">追踪事件</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value">640</div>
+      <div class="stat-label">总发现数</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value">2</div>
+      <div class="stat-label">HOT</div>
     </div>
   </div>
-  <div class="header-right">
-    <div class="header-stat">
-      <div class="value">5</div>
-      <div class="label">追踪事件</div>
-    </div>
-    <div class="header-divider"></div>
-    <div class="header-stat">
-      <div class="value">265</div>
-      <div class="label">已收录发现</div>
-    </div>
-    <div class="header-divider"></div>
-    <div class="live-badge">
-      <div class="live-dot"></div>
-      每小时更新
-    </div>
+  <div class="live-badge">
+    <span class="pulse-dot"></span>
+    每小时自动更新
   </div>
 </header>
 
-<!-- Hero -->
-<section class="hero">
-  <h1>今日情报简报</h1>
-  <p>持续追踪 AI 领域关键事件的后续发展，自动抓取新信息，去重后推送。</p>
-  <div class="hero-stats">
-    <div class="hero-stat-item">
-      <span class="icon">📅</span>
-      最后更新 <strong>2026-05-14 · 18:14 UTC</strong>
-    </div>
-    <div class="hero-stat-item">
-      <span class="icon">🔍</span>
-      搜索引擎 <strong>Tavily API</strong>
-    </div>
-    <div class="hero-stat-item">
-      <span class="icon">🤖</span>
-      相关性分析 <strong>BigModel GLM-4-Flash</strong>
-    </div>
-    <div class="hero-stat-item">
-      <span class="icon">💾</span>
-      数据存储 <strong>GitHub · fxp/storyteller-deepdive-vault</strong>
-    </div>
-  </div>
-</section>
+<main class="grid">
 
-<!-- Main -->
-<main class="main">
-  <div class="section-label">🔥 热度追踪 · HOT</div>
-  <div class="grid">
-
-    <!-- Card 1: Anthropic Mythos -->
-    <div class="card">
+    <div class="card" data-status="HOT">
       <div class="card-header">
-        <div class="card-title-group">
-          <div class="card-meta">
-            <div class="hot-badge"><div class="hot-dot"></div>HOT</div>
-            <span class="card-date">2026-05-05</span>
-          </div>
-          <div class="card-title" data-pretext>
-            Anthropic 发布 Mythos 前沿模型，引发全球安全震动
-          </div>
+        <div class="card-title-row">
+          <h2 class="card-title">Anthropic 发布 Mythos 前沿模型，引发全球安全震动</h2>
+          <span class="badge" style="color:#ff4d4d;background:#3a1010"><span class="pulse-dot"></span>HOT</span>
+        </div>
+        <div class="chips"><span class="chip chip-person">Elizabeth Kelly（前 CAISI 负责人，已加入 Anthropic）</span><span class="chip chip-org">Anthropic</span><span class="chip chip-org">US Department of Commerce</span><span class="chip chip-org">CAISI</span></div>
+        <div class="card-meta">
+          <span>📄 226 条发现</span>
+          <span>🕐 2026-06-06</span>
+          <span>🔄 每 3h 检查</span>
         </div>
       </div>
-
-      <div class="card-stats">
-        <div class="stat-item">
-          <div class="stat-value big">105</div>
-          <div class="stat-label">条发现</div>
+      <div class="findings-list">
+        
+      <div class="finding">
+        <div class="finding-meta">
+          <span class="finding-date">2026-06-06</span>
+          <a href="https://www.facebook.com/ForbesIndia/videos/is-anthropics-new-ai-tool-too-dangerous/1462737675328109" target="_blank" rel="noopener"><span class="finding-title">Anthropic's new Mythos AI model has become a flashpoint in the ...</span></a>
         </div>
-        <div class="stat-divider"></div>
-        <div class="stat-item">
-          <div class="stat-value">9</div>
-          <div class="stat-label">追踪天数</div>
+        <div class="finding-summary">Anthropic 宣布 Mythos AI 模型成为焦点，但未明确指出为何该模型被认为过于危险，这可能是新的事实。</div>
+      </div>
+      <div class="finding">
+        <div class="finding-meta">
+          <span class="finding-date">2026-06-06</span>
+          <a href="https://www.bain.com/insights/claude-mythos-and-ai-cybersecurity-wake-up-call" target="_blank" rel="noopener"><span class="finding-title">Claude Mythos and the AI Cybersecurity Wake-Up Call</span></a>
         </div>
-        <div class="stat-divider"></div>
-        <div class="stat-item">
-          <div class="stat-value">3h</div>
-          <div class="stat-label">检查间隔</div>
+        <div class="finding-summary">文章讨论了 Claude Mythos 对网络安全的影响，并提出了组织需要量子准备的观点，这是新的事实。</div>
+      </div>
+      <div class="finding">
+        <div class="finding-meta">
+          <span class="finding-date">2026-06-05</span>
+          <a href="https://www.mindstudio.ai/blog/what-is-claude-mythos-anthropic-most-powerful-model" target="_blank" rel="noopener"><span class="finding-title">Claude Mythos: How Leaks and Early Benchmarks Surfaced a New ...</span></a>
         </div>
+        <div class="finding-summary">Claude Mythos 模型通过 API 泄露和基准测试首次被发现，揭示了模型的能力和发现方式。</div>
       </div>
-
-      <div class="card-summary" data-pretext>
-        Anthropic 发布新前沿模型 Mythos，引发担忧其"大幅增强黑客攻击能力"。这直接推动了 CAISI 与微软/Google/xAI 签署安全测试协议。Anthropic 因与 Trump 政府法律纠纷被五角大楼 AI 协议排除，随后起诉政府，指控将其列为"供应链风险"违法。最新进展：Project Glasswing 启动，将 Claude Mythos 用于全球网络安全防御。
-      </div>
-
-      <div class="findings-section">
-        <div class="findings-label">最新发现</div>
-        <div class="findings-list">
-          <div class="finding-item">
-            <div class="finding-date">2026-05-15</div>
-            <div class="finding-text"><a href="https://www.cnbc.com/2026/04/10/trump-white-house-ai-cyber-threat-anthropic-mythos.html" target="_blank">特朗普政府在 Mythos 发布前与科技巨头会面，讨论 AI 安全威胁应对机制</a></div>
-          </div>
-          <div class="finding-item">
-            <div class="finding-date">2026-05-14</div>
-            <div class="finding-text"><a href="https://thefederal.com/category/international/ai-ethics-row-erupts-between-trump-and-anthropic-231997" target="_blank">特朗普指示所有联邦机构停止使用 Anthropic 技术，政企对立关系进一步恶化</a></div>
-          </div>
-          <div class="finding-item">
-            <div class="finding-date">2026-05-14</div>
-            <div class="finding-text"><a href="https://www.politico.com/news/2026/04/30/white-house-ai-cyber-threats-mythos-00902045" target="_blank">白宫要求科技公司支持应对 Mythos 等超先进 AI 工具引发的网络安全威胁</a></div>
-          </div>
-          <div class="finding-item">
-            <div class="finding-date">2026-05-13</div>
-            <div class="finding-text"><a href="https://www.wired.com/story/anthropics-mythos-will-force-a-cybersecurity-reckoning-just-not-the-one-you-think/" target="_blank">Mythos 在 AI 编程基准测试中树立新标杆，Wired 分析其对网络安全生态的深远影响</a></div>
-          </div>
+      <div class="finding">
+        <div class="finding-meta">
+          <span class="finding-date">2026-06-04</span>
+          <a href="https://www.facebook.com/financialtimes/posts/anthropics-new-mythos-ai-model-is-raising-concern-among-governments-and-companie/1363050669201640" target="_blank" rel="noopener"><span class="finding-title">Anthropic's new Mythos AI model is raising concern among ...</span></a>
         </div>
+        <div class="finding-summary">Financial Times 报道称，Anthropic 的 Mythos AI 模型引起政府和公司对其可能超越当前网络安全防御能力的担忧。</div>
       </div>
-
-      <div class="entities-row">
-        <span class="entity-chip chip-org">Anthropic</span>
-        <span class="entity-chip chip-org">CAISI</span>
-        <span class="entity-chip chip-org">Pentagon</span>
-        <span class="entity-chip chip-product">Claude Mythos</span>
-        <span class="entity-chip chip-topic">AI 安全监管</span>
-        <span class="entity-chip chip-topic">网络安全</span>
+      <div class="finding">
+        <div class="finding-meta">
+          <span class="finding-date">2026-06-04</span>
+          <a href="https://garymarcus.substack.com/p/what-should-we-take-from-anthropics" target="_blank" rel="noopener"><span class="finding-title">What should we take from Anthropic’s (possibly) terrifying new report on Mythos?</span></a>
+        </div>
+        <div class="finding-summary">Gary Marcus 讨论了 Anthropic 的新报告，其中包含关于 Mythos 的讨论，这是新的事实。</div>
       </div>
-
-      <div class="card-footer">
-        <span class="check-time">下次检查 2026-05-14T18:57</span>
-        <a href="https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing" target="_blank" class="source-link">
-          种子来源 →
-        </a>
+      <div class="finding">
+        <div class="finding-meta">
+          <span class="finding-date">2026-06-04</span>
+          <a href="https://www.forbes.com/sites/ronschmelzer/2026/05/29/anthropics-guarded-mythos-model-is-headed-for-wider-release" target="_blank" rel="noopener"><span class="finding-title">Anthropic's Guarded Mythos Model Is Headed For Wider Release</span></a>
+        </div>
+        <div class="finding-summary">Anthropic 的 Claude Mythos AI 模型即将向所有客户更广泛发布，这是新的事实。</div>
+      </div>
+      <div class="finding">
+        <div class="finding-meta">
+          <span class="finding-date">2026-06-03</span>
+          <a href="https://www.facebook.com/CBSNews/videos/ai-giant-anthropic-says-its-new-model-claude-mythos-preview-is-so-good-at-coding/1431414284955693" target="_blank" rel="noopener"><span class="finding-title">AI giant Anthropic says its new model, Claude Mythos Preview, is so ...</span></a>
+        </div>
+        <div class="finding-summary">Anthropic宣布其新模型Claude Mythos Preview在编码方面表现出色，这是新的事实。</div>
+      </div>
+      <div class="finding">
+        <div class="finding-meta">
+          <span class="finding-date">2026-06-02</span>
+          <a href="https://www.mindstudio.ai/blog/claude-mythos-vs-opus-4-6-capability-comparison" target="_blank" rel="noopener"><span class="finding-title">Claude Mythos vs Claude Opus 4.6: How Big Is the Capability Jump?</span></a>
+        </div>
+        <div class="finding-summary">Claude Mythos 与 Claude Opus 4.6 在编码、推理和网络安全方面的能力进行了直接比较，揭示了两者之间的能力差距。</div>
+      </div>
       </div>
     </div>
 
-    <!-- Card 2: CAISI AI Security -->
-    <div class="card">
+    <div class="card" data-status="HOT">
       <div class="card-header">
-        <div class="card-title-group">
-          <div class="card-meta">
-            <div class="hot-badge"><div class="hot-dot"></div>HOT</div>
-            <span class="card-date">2026-05-05</span>
-          </div>
-          <div class="card-title" data-pretext>
-            美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic 被排除
-          </div>
+        <div class="card-title-row">
+          <h2 class="card-title">特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折）</h2>
+          <span class="badge" style="color:#ff4d4d;background:#3a1010"><span class="pulse-dot"></span>HOT</span>
+        </div>
+        <div class="chips"><span class="chip chip-person">特朗普（Donald Trump）</span><span class="chip chip-person">习近平</span><span class="chip chip-person">黄仁勋（Jensen Huang）</span><span class="chip chip-org">美国政府</span><span class="chip chip-org">中国政府</span></div>
+        <div class="card-meta">
+          <span>📄 115 条发现</span>
+          <span>🕐 2026-06-06</span>
+          <span>🔄 每 3h 检查</span>
         </div>
       </div>
-
-      <div class="card-stats">
-        <div class="stat-item">
-          <div class="stat-value big">78</div>
-          <div class="stat-label">条发现</div>
+      <div class="findings-list">
+        
+      <div class="finding">
+        <div class="finding-meta">
+          <span class="finding-date">2026-06-06</span>
+          <a href="https://www.bnnbloomberg.ca/business/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough" target="_blank" rel="noopener"><span class="finding-title">Nvidia chips cleared by U.S. to Chinese firms</span></a>
         </div>
-        <div class="stat-divider"></div>
-        <div class="stat-item">
-          <div class="stat-value">9</div>
-          <div class="stat-label">追踪天数</div>
+        <div class="finding-summary">美国批准了约10家中国公司购买英伟达的H200芯片，但尚未有任何交付，这是历史发现中未出现的新事实。</div>
+      </div>
+      <div class="finding">
+        <div class="finding-meta">
+          <span class="finding-date">2026-06-05</span>
+          <a href="https://thediplomat.com/2026/06/trumps-new-ai-order-raises-the-stakes-in-china-us-tech-competition" target="_blank" rel="noopener"><span class="finding-title">Trump's New AI Order Raises the Stakes in China-US Tech Competition</span></a>
         </div>
-        <div class="stat-divider"></div>
-        <div class="stat-item">
-          <div class="stat-value">3h</div>
-          <div class="stat-label">检查间隔</div>
+        <div class="finding-summary">特朗普的新AI命令提高了中美科技竞争的赌注，这是历史发现中未出现的新事实。</div>
+      </div>
+      <div class="finding">
+        <div class="finding-meta">
+          <span class="finding-date">2026-06-04</span>
+          <a href="https://www.csis.org/programs/trump-xi-2026-summit" target="_blank" rel="noopener"><span class="finding-title">Trump-Xi 2026 Summit - CSIS</span></a>
         </div>
+        <div class="finding-summary">报道特朗普-习近平2026年峰会，讨论了AI治理，但没有签署任何协议，这是新的事实，与事件相关。</div>
       </div>
-
-      <div class="card-summary" data-pretext>
-        美国商务部 CAISI 与微软、Google、xAI 签署协议，允许政府在发布前评估 AI 模型安全风险。同日五角大楼宣布与 Google/微软/AWS/Nvidia/OpenAI/SpaceX 签署机密 AI 协议。Anthropic 因与 Trump 政府法律纠纷，被两个协议同时排除。
-      </div>
-
-      <div class="findings-section">
-        <div class="findings-label">最新发现</div>
-        <div class="findings-list">
-          <div class="finding-item">
-            <div class="finding-date">2026-05-15</div>
-            <div class="finding-text"><a href="https://www.theguardian.com/us-news/2026/may/01/pentagon-us-military-pairs-with-spacex-google-openai" target="_blank">五角大楼与 SpaceX、Google、OpenAI、Nvidia 等八家公司达成协议，Anthropic 明确缺席</a></div>
-          </div>
-          <div class="finding-item">
-            <div class="finding-date">2026-05-14</div>
-            <div class="finding-text"><a href="https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/" target="_blank">国防部与 Nvidia、Microsoft、AWS 签署协议，在机密网络上部署 AI 技术</a></div>
-          </div>
-          <div class="finding-item">
-            <div class="finding-date">2026-05-14</div>
-            <div class="finding-text"><a href="https://www.cnn.com/2026/02/27/tech/anthropic-pentagon-deadline" target="_blank">特朗普政府下令军事承包商和联邦机构停止与 Anthropic 的业务往来</a></div>
-          </div>
-          <div class="finding-item">
-            <div class="finding-date">2026-05-13</div>
-            <div class="finding-text"><a href="https://thehill.com/homenews/5863937-google-microsoft-xai-ai-testing/" target="_blank">Google DeepMind、Microsoft、xAI 向 CAISI 提供模型，用于部署前安全评估</a></div>
-          </div>
+      <div class="finding">
+        <div class="finding-meta">
+          <span class="finding-date">2026-06-04</span>
+          <a href="https://time.com/article/2026/05/15/trump-xi-us-china-summit-ai-semiconductor-chips" target="_blank" rel="noopener"><span class="finding-title">How A.I. Was the Elephant in the Room at the Trump-Xi Summit</span></a>
         </div>
+        <div class="finding-summary">报道特朗普在峰会上与习近平讨论了AI治理，这是新的事实，与事件相关。</div>
       </div>
-
-      <div class="entities-row">
-        <span class="entity-chip chip-org">CAISI</span>
-        <span class="entity-chip chip-org">Microsoft</span>
-        <span class="entity-chip chip-org">Google</span>
-        <span class="entity-chip chip-org">xAI</span>
-        <span class="entity-chip chip-org">Pentagon</span>
-        <span class="entity-chip chip-person">Chris Fall</span>
-        <span class="entity-chip chip-topic">AI 监管</span>
+      <div class="finding">
+        <div class="finding-meta">
+          <span class="finding-date">2026-06-04</span>
+          <a href="https://thehill.com/homenews/administration/5880013-donald-trump-xi-jinping-china-summit-ai-guardrails" target="_blank" rel="noopener"><span class="finding-title">Trump says he discussed AI guardrails with Xi - The Hill</span></a>
+        </div>
+        <div class="finding-summary">报道特朗普表示与习近平讨论了人工智能治理，这是新的事实，与事件相关。</div>
       </div>
-
-      <div class="card-footer">
-        <span class="check-time">下次检查 2026-05-14T18:57</span>
-        <a href="https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing" target="_blank" class="source-link">
-          种子来源 →
-        </a>
+      <div class="finding">
+        <div class="finding-meta">
+          <span class="finding-date">2026-06-04</span>
+          <a href="https://www.youtube.com/watch?v=ejmf2joJEPg" target="_blank" rel="noopener"><span class="finding-title">The Trump-Xi Summit in China: Trade, Taiwan, AI and More</span></a>
+        </div>
+        <div class="finding-summary">视频标题提及了特朗普与习近平的峰会，讨论了贸易、台湾、AI等多个议题，包含新事实。</div>
+      </div>
+      <div class="finding">
+        <div class="finding-meta">
+          <span class="finding-date">2026-06-03</span>
+          <a href="https://www.facebook.com/tbsnews.net/posts/the-us-commerce-department-has-approved-around-10-chinese-companies-including-al/1415863133921750" target="_blank" rel="noopener"><span class="finding-title">The US Commerce Department has approved around 10 Chinese ...</span></a>
+        </div>
+        <div class="finding-summary">美国商务部批准了包括阿里巴巴、腾讯、字节跳动和京东在内的约10家中国科技公司购买英伟达的H200人工智能芯片。</div>
+      </div>
+      <div class="finding">
+        <div class="finding-meta">
+          <span class="finding-date">2026-06-03</span>
+          <a href="https://emcreative.eastmoney.com/app_fortune/article/index.html?artCode=20260508090212441431370&amp;postId=1704296694" target="_blank" rel="noopener"><span class="finding-title">从巅峰时期95%的市场份额降至2026年的0%，部分预测显 - 东方财富</span></a>
+        </div>
+        <div class="finding-summary">部分预测显示英伟达在中国AI芯片市场的份额可能降至0%，而华为预计将在2026年占据中国AI芯片市场50%的份额。</div>
+      </div>
       </div>
     </div>
 
-    <!-- Card 3: Anthropic + Blackstone -->
-    <div class="card">
+    <div class="card" data-status="ACTIVE">
       <div class="card-header">
-        <div class="card-title-group">
-          <div class="card-meta">
-            <div class="hot-badge"><div class="hot-dot"></div>HOT</div>
-            <span class="card-date">2026-05-04</span>
-          </div>
-          <div class="card-title" data-pretext>
-            Anthropic + Blackstone 联合组建企业 AI 交付公司（估值 15 亿美元）
-          </div>
+        <div class="card-title-row">
+          <h2 class="card-title">Anthropic + Blackstone 联合组建企业 AI 交付公司</h2>
+          <span class="badge" style="color:#f59e0b;background:#2a1f08">ACTIVE</span>
+        </div>
+        <div class="chips"><span class="chip chip-person">Krishna Rao（Anthropic CFO）</span><span class="chip chip-org">Anthropic</span><span class="chip chip-org">Blackstone</span><span class="chip chip-org">Hellman &amp; Friedman</span></div>
+        <div class="card-meta">
+          <span>📄 78 条发现</span>
+          <span>🕐 2026-06-05</span>
+          <span>🔄 每 6h 检查</span>
         </div>
       </div>
-
-      <div class="card-stats">
-        <div class="stat-item">
-          <div class="stat-value big">27</div>
-          <div class="stat-label">条发现</div>
+      <div class="findings-list">
+        
+      <div class="finding">
+        <div class="finding-meta">
+          <span class="finding-date">2026-06-05</span>
+          <a href="https://briefglance.com/companies/blackstone-inc/pulses/10123" target="_blank" rel="noopener"><span class="finding-title">Anthropic, Blackstone, and Goldman Sachs Launch AI Enterp... — Blackstone Inc. | BriefGlance</span></a>
         </div>
-        <div class="stat-divider"></div>
-        <div class="stat-item">
-          <div class="stat-value">10</div>
-          <div class="stat-label">追踪天数</div>
+        <div class="finding-summary">Anthropic, Blackstone, and Goldman Sachs have formed a new AI-native enterprise services firm to accelerate Claude's adoption in core business operations.</div>
+      </div>
+      <div class="finding">
+        <div class="finding-meta">
+          <span class="finding-date">2026-06-04</span>
+          <a href="https://www.instagram.com/p/DX8uWzrjTdj" target="_blank" rel="noopener"><span class="finding-title">Anthropic has partnered with Blackstone, Hellman &amp; Friedman, and ...</span></a>
         </div>
-        <div class="stat-divider"></div>
-        <div class="stat-item">
-          <div class="stat-value">3h</div>
-          <div class="stat-label">检查间隔</div>
+        <div class="finding-summary">Anthropic 与 Blackstone、Hellman &amp; Friedman 和 Goldman Sachs 合作成立了一家新的 AI 服务公司，部署其 Claude 模型。</div>
+      </div>
+      <div class="finding">
+        <div class="finding-meta">
+          <span class="finding-date">2026-06-03</span>
+          <a href="https://www.crn.com/news/ai/2026/openai-launches-services-business-on-heels-of-similar-anthropic-announcement" target="_blank" rel="noopener"><span class="finding-title">OpenAI Debuts $4B AI Services Company As Rival Anthropic Builds Its Own</span></a>
         </div>
+        <div class="finding-summary">OpenAI 发布了价值 40 亿美元的 AI 服务公司，作为 Anthropic 的竞争对手。</div>
       </div>
-
-      <div class="card-summary" data-pretext>
-        Anthropic 联合 Blackstone、Hellman &amp; Friedman、Goldman Sachs 等组建新企业 AI 服务公司，估值约 15 亿美元。聚焦中型企业（社区银行、区域医疗、中型制造商），由 Anthropic Applied AI 工程师常驻配合落地 Claude。Apollo、General Atlantic、Sequoia Capital 等也参与投资。
-      </div>
-
-      <div class="findings-section">
-        <div class="findings-label">最新发现</div>
-        <div class="findings-list">
-          <div class="finding-item">
-            <div class="finding-date">2026-05-15</div>
-            <div class="finding-text"><a href="https://www.youtube.com/watch?v=nsPKz4sQfRo" target="_blank">Anthropic、Blackstone 和 Hellman &amp; Friedman 联合投资 15 亿美元组建新企业 AI 服务公司</a></div>
-          </div>
-          <div class="finding-item">
-            <div class="finding-date">2026-05-14</div>
-            <div class="finding-text"><a href="https://www.storyboard18.com/brand-makers/anthropic-partners-wall-street-firms-to-launch-1-5-billion-claude-ai-services-firm-97129.htm" target="_blank">Anthropic 与华尔街公司合作推出 15 亿美元 Claude AI 服务公司，深入中型企业核心运营</a></div>
-          </div>
-          <div class="finding-item">
-            <div class="finding-date">2026-05-13</div>
-            <div class="finding-text"><a href="https://finance.yahoo.com/sectors/technology/articles/anthropic-launches-enterprise-ai-firm-140605794.html" target="_blank">Yahoo Finance：新公司旨在将 Claude AI 引入社区银行、区域医疗等中型企业核心系统</a></div>
-          </div>
+      <div class="finding">
+        <div class="finding-meta">
+          <span class="finding-date">2026-06-03</span>
+          <a href="https://www.linkedin.com/posts/tigertyagarajan_building-a-new-enterprise-ai-services-company-activity-7457089195245920256-eV5a" target="_blank" rel="noopener"><span class="finding-title">Tiger Tyagarajan's Post - LinkedIn</span></a>
         </div>
+        <div class="finding-summary">Anthropic 宣布成立了一家新的 AI 企业服务公司，旨在扩大 AI 在企业中的应用。</div>
       </div>
-
-      <div class="entities-row">
-        <span class="entity-chip chip-org">Anthropic</span>
-        <span class="entity-chip chip-org">Blackstone</span>
-        <span class="entity-chip chip-org">Goldman Sachs</span>
-        <span class="entity-chip chip-org">Sequoia</span>
-        <span class="entity-chip chip-product">Claude</span>
-        <span class="entity-chip chip-person">Krishna Rao</span>
-        <span class="entity-chip chip-topic">企业 AI 服务</span>
+      <div class="finding">
+        <div class="finding-meta">
+          <span class="finding-date">2026-05-31</span>
+          <a href="https://www.forbes.com/sites/geruiwang/2026/03/13/anthropic-wants-claude-to-become-a-new-interface-for-work" target="_blank" rel="noopener"><span class="finding-title">Anthropic Wants Claude To Become A New Interface For Work</span></a>
+        </div>
+        <div class="finding-summary">Anthropic 通过 Claude Partner Network 将 Claude 转变为企业基础设施，并承诺在 2026 年投资 1 亿美元。</div>
       </div>
-
-      <div class="card-footer">
-        <span class="check-time">下次检查 2026-05-14T17:59</span>
-        <a href="https://www.anthropic.com/news/enterprise-ai-services-company" target="_blank" class="source-link">
-          种子来源 →
-        </a>
+      <div class="finding">
+        <div class="finding-meta">
+          <span class="finding-date">2026-05-31</span>
+          <a href="https://claudeimplementation.com/blog/claude-partner-network" target="_blank" rel="noopener"><span class="finding-title">Claude Partner Network 2026 | Claude Implementation</span></a>
+        </div>
+        <div class="finding-summary">Anthropic 投资了 1 亿美元在 Claude Partner Network，旨在支持企业 AI 的规模化采用。</div>
+      </div>
+      <div class="finding">
+        <div class="finding-meta">
+          <span class="finding-date">2026-05-31</span>
+          <a href="https://www.swfinstitute.org/news/109135/anthropic-blackstone-goldman-sachs-launch-ai-services-firm-to-scale-claude-adoption-in-middle-market-enterprises" target="_blank" rel="noopener"><span class="finding-title">Anthropic, Blackstone &amp; Goldman Sachs Launch AI Services Firm to Scale Claude Adoption in Middle Market Enterprises</span></a>
+        </div>
+        <div class="finding-summary">新公司正式命名，名为 Anthropic, Blackstone &amp; Goldman Sachs Launch AI Services Firm，旨在在中型市场中推广 Claude 的采用。</div>
+      </div>
+      <div class="finding">
+        <div class="finding-meta">
+          <span class="finding-date">2026-05-31</span>
+          <a href="https://quantumzeitgeist.com/anthropic-alliance-services-firm-300m" target="_blank" rel="noopener"><span class="finding-title">Anthropic Forms AI Services Firm With $300M Backing</span></a>
+        </div>
+        <div class="finding-summary">新融资事实，提及了 300M 的支持。</div>
+      </div>
       </div>
     </div>
 
-    <!-- Card 4: Chrome Prompt API -->
-    <div class="card">
+    <div class="card" data-status="ACTIVE">
       <div class="card-header">
-        <div class="card-title-group">
-          <div class="card-meta">
-            <div class="hot-badge"><div class="hot-dot"></div>HOT</div>
-            <span class="card-date">2024-11-12</span>
-          </div>
-          <div class="card-title" data-pretext>
-            Google Chrome 推出 Prompt API（浏览器内置 Gemini Nano）
-          </div>
+        <div class="card-title-row">
+          <h2 class="card-title">美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic 被排除</h2>
+          <span class="badge" style="color:#f59e0b;background:#2a1f08">ACTIVE</span>
+        </div>
+        <div class="chips"><span class="chip chip-person">Chris Fall（CAISI 主任）</span><span class="chip chip-org">Microsoft</span><span class="chip chip-org">Google</span><span class="chip chip-org">xAI</span></div>
+        <div class="card-meta">
+          <span>📄 132 条发现</span>
+          <span>🕐 2026-06-05</span>
+          <span>🔄 每 6h 检查</span>
         </div>
       </div>
-
-      <div class="card-stats">
-        <div class="stat-item">
-          <div class="stat-value big">55</div>
-          <div class="stat-label">条发现</div>
+      <div class="findings-list">
+        
+      <div class="finding">
+        <div class="finding-meta">
+          <span class="finding-date">2026-06-05</span>
+          <a href="https://defensescoop.com/2026/05/01/dod-expands-classified-ai-work-with-8-companies-excluding-anthropic" target="_blank" rel="noopener"><span class="finding-title">DOD expands its classified AI work with 8 companies — excluding Anthropic — amid ongoing dispute</span></a>
         </div>
-        <div class="stat-divider"></div>
-        <div class="stat-item">
-          <div class="stat-value">5</div>
-          <div class="stat-label">追踪天数</div>
+        <div class="finding-summary">DOD扩大其机密AI工作，排除Anthropic，这是历史发现中未出现的新事实。</div>
+      </div>
+      <div class="finding">
+        <div class="finding-meta">
+          <span class="finding-date">2026-06-04</span>
+          <a href="https://www.cnbc.com/2026/04/21/trump-anthropic-department-defense-deal.html" target="_blank" rel="noopener"><span class="finding-title">Trump says Anthropic deal is 'possible' for Department of Defense use</span></a>
         </div>
-        <div class="stat-divider"></div>
-        <div class="stat-item">
-          <div class="stat-value">3h</div>
-          <div class="stat-label">检查间隔</div>
+        <div class="finding-summary">特朗普表示，与Anthropic的国防部门使用AI的协议是可能的。</div>
+      </div>
+      <div class="finding">
+        <div class="finding-meta">
+          <span class="finding-date">2026-06-04</span>
+          <a href="https://www.cybersecuritydive.com/news/nist-ai-model-testing-caisi-google-microsoft/819452" target="_blank" rel="noopener"><span class="finding-title">NIST will test three major tech firms’ frontier AI models for cybersecurity risks</span></a>
         </div>
+        <div class="finding-summary">NIST将测试三家主要技术公司的前沿AI模型以评估网络安全风险。</div>
       </div>
-
-      <div class="card-summary" data-pretext>
-        Chrome 推出 Prompt API，允许开发者在浏览器中直接调用本地 Gemini Nano 模型，无需远程服务器。Chrome 138+ 可在网页使用。Gemini Nano 合格率 41%，6 倍运行速度，生产成本为零。Mozilla 已公开反对该 API 的标准化方向。
-      </div>
-
-      <div class="findings-section">
-        <div class="findings-label">最新发现</div>
-        <div class="findings-list">
-          <div class="finding-item">
-            <div class="finding-date">2026-05-15</div>
-            <div class="finding-text"><a href="https://www.digitaltrends.com/computing/google-responds-to-chromes-silent-gemini-nano-install-stops-short-of-addressing-consent/" target="_blank">Google 回应 Chrome 静默安装 Gemini Nano 争议，但未正面回应用户知情同意问题</a></div>
-          </div>
-          <div class="finding-item">
-            <div class="finding-date">2026-05-14</div>
-            <div class="finding-text"><a href="https://www.linkedin.com/posts/chrome-for-developers_3-things-you-didnt-know-about-the-prompt-activity-7445105966796369920-ieMT" target="_blank">Chrome 官方介绍 Prompt API 三大冷知识：本地推理、零成本、离线可用</a></div>
-          </div>
-          <div class="finding-item">
-            <div class="finding-date">2026-05-13</div>
-            <div class="finding-text"><a href="https://gigazine.net/gsc_news/en/20260501-google-chrome-prompt-api/" target="_blank">Mozilla 正式反对 Google Prompt API 标准化方向，担忧浏览器 AI 生态碎片化</a></div>
-          </div>
-          <div class="finding-item">
-            <div class="finding-date">2026-05-13</div>
-            <div class="finding-text"><a href="https://www.youtube.com/watch?v=seKv8ZyTiOU" target="_blank">视频分析 Chrome 内置 AI 模型限制与 Mozilla 反对立场，涵盖端侧推理边界</a></div>
-          </div>
+      <div class="finding">
+        <div class="finding-meta">
+          <span class="finding-date">2026-06-02</span>
+          <a href="https://thedefensepost.com/2026/05/04/pentagon-snubs-anthropic-ai" target="_blank" rel="noopener"><span class="finding-title">Pentagon Signs Classified AI Deals With Tech Giants, Snubs ...</span></a>
         </div>
+        <div class="finding-summary">五角大楼宣布与七家领先的AI公司签署协议，在机密军事网络上部署其技术，明确排除了Anthropic。</div>
       </div>
-
-      <div class="entities-row">
-        <span class="entity-chip chip-org">Google</span>
-        <span class="entity-chip chip-org">Mozilla</span>
-        <span class="entity-chip chip-product">Gemini Nano</span>
-        <span class="entity-chip chip-product">Chrome Prompt API</span>
-        <span class="entity-chip chip-person">Thomas Steiner</span>
-        <span class="entity-chip chip-topic">Web AI</span>
-        <span class="entity-chip chip-topic">端侧推理</span>
+      <div class="finding">
+        <div class="finding-meta">
+          <span class="finding-date">2026-06-01</span>
+          <a href="https://www.reuters.com/legal/government/trump-says-anthropic-is-shaping-up-open-deal-with-pentagon-2026-04-21" target="_blank" rel="noopener"><span class="finding-title">Trump says Anthropic is 'shaping up,' open to deal with Pentagon</span></a>
+        </div>
+        <div class="finding-summary">特朗普表示对Anthropic持开放态度，并考虑与五角大楼达成协议，这是历史发现中未出现的新事实。</div>
       </div>
-
-      <div class="card-footer">
-        <span class="check-time">下次检查 2026-05-14T18:57</span>
-        <a href="https://developer.chrome.com/docs/ai/prompt-api" target="_blank" class="source-link">
-          种子来源 →
-        </a>
+      <div class="finding">
+        <div class="finding-meta">
+          <span class="finding-date">2026-06-01</span>
+          <a href="https://www.mayerbrown.com/en/insights/publications/2026/03/pentagon-designates-anthropic-a-supply-chain-risk-what-government-contractors-need-to-know" target="_blank" rel="noopener"><span class="finding-title">Pentagon Designates Anthropic a Supply Chain Risk — What Government Contractors Need to Know | Insights | Mayer Brown</span></a>
+        </div>
+        <div class="finding-summary">五角大楼将Anthropic列为供应链风险，这是历史发现中未出现的新事实。</div>
+      </div>
+      <div class="finding">
+        <div class="finding-meta">
+          <span class="finding-date">2026-06-01</span>
+          <a href="https://forum.devtalk.com/t/us-to-safety-test-new-ai-models-from-google-microsoft-xai/245121" target="_blank" rel="noopener"><span class="finding-title">US to safety test new AI models from Google, Microsoft, xAI - Devtalk</span></a>
+        </div>
+        <div class="finding-summary">美国政府将测试来自Google、Microsoft和xAI的新AI模型，这是历史发现中未出现的新事实。</div>
+      </div>
+      <div class="finding">
+        <div class="finding-meta">
+          <span class="finding-date">2026-05-31</span>
+          <a href="https://www.nytimes.com/2026/05/01/us/politics/pentagon-ai-companies-deals.html" target="_blank" rel="noopener"><span class="finding-title">Pentagon Makes Deals With A.I. Companies to Expand Classified Work - The New York Times</span></a>
+        </div>
+        <div class="finding-summary">文章报道了五角大楼与AI公司签订的协议，这是历史发现中未出现的新事实。</div>
+      </div>
       </div>
     </div>
 
-    <!-- Card 5: Trump China AI (full width) -->
-    <div class="card card-full">
+    <div class="card" data-status="TRACKING">
       <div class="card-header">
-        <div class="card-title-group">
-          <div class="card-meta">
-            <div class="hot-badge"><div class="hot-dot"></div>HOT · 最新</div>
-            <span class="card-date">2026-05-13</span>
-          </div>
-          <div class="card-title" data-pretext>
-            特朗普访华与中美 AI 科技博弈：H200 芯片解禁、黄仁勋随行北京
-          </div>
+        <div class="card-title-row">
+          <h2 class="card-title">Google Chrome 推出 Prompt API（浏览器内置 Gemini Nano）</h2>
+          <span class="badge" style="color:#60a5fa;background:#0d1f3a">TRACKING</span>
+        </div>
+        <div class="chips"><span class="chip chip-person">Thomas Steiner</span><span class="chip chip-person">Alexandra Klepper</span><span class="chip chip-org">Google</span><span class="chip chip-org">Chrome 团队</span><span class="chip chip-org">Mozilla</span></div>
+        <div class="card-meta">
+          <span>📄 89 条发现</span>
+          <span>🕐 2026-06-02</span>
+          <span>🔄 每 24h 检查</span>
         </div>
       </div>
-
-      <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 16px;">
-        <div>
-          <div class="card-stats" style="margin-bottom:14px;">
-            <div class="stat-item">
-              <div class="stat-value big">0</div>
-              <div class="stat-label">条发现（刚加入）</div>
-            </div>
-            <div class="stat-divider"></div>
-            <div class="stat-item">
-              <div class="stat-value">1</div>
-              <div class="stat-label">追踪天数</div>
-            </div>
-            <div class="stat-divider"></div>
-            <div class="stat-item">
-              <div class="stat-value">3h</div>
-              <div class="stat-label">检查间隔</div>
-            </div>
-          </div>
-
-          <div class="card-summary" data-pretext>
-            特朗普 5 月 13–15 日访问北京，随行阵容包括黄仁勋（Nvidia，临时在阿拉斯加登机）、马斯克、库克、高通 CEO、美光 CEO。核心议题：H200 芯片对华解禁。美国已向阿里/腾讯/字节/京东等约 10 家企业发放出口许可，但因中方企业在北京指导下暂缓采购，实际交付量为零。习近平向 CEO 们表示中国将"进一步扩大开放"。Nvidia 中国市场份额已从 95% 跌至接近零。
-          </div>
+      <div class="findings-list">
+        
+      <div class="finding">
+        <div class="finding-meta">
+          <span class="finding-date">2026-06-02</span>
+          <a href="https://www.okoone.com/spark/technology-innovation/google-launches-gemini-nano-for-chrome-desktop-client" target="_blank" rel="noopener"><span class="finding-title">Google launches Gemini Nano for Chrome desktop client | Okoone</span></a>
         </div>
-
-        <div class="findings-section">
-          <div class="findings-label">背景关键事实</div>
-          <div class="findings-list">
-            <div class="finding-item">
-              <div class="finding-date">现状</div>
-              <div class="finding-text" data-pretext>H200 已获许可，但实际交付为零——中国企业在等待北京政策信号</div>
-            </div>
-            <div class="finding-item">
-              <div class="finding-date">人员</div>
-              <div class="finding-text" data-pretext>黄仁勋未在白宫官方名单内，特朗普专机飞经阿拉斯加时临时邀请其登机</div>
-            </div>
-            <div class="finding-item">
-              <div class="finding-date">市场</div>
-              <div class="finding-text" data-pretext>Nvidia 中国 AI 芯片份额从 2017-2019 年的 95% 跌至近零；华为昇腾填补空缺</div>
-            </div>
-            <div class="finding-item">
-              <div class="finding-date">结果</div>
-              <div class="finding-text" data-pretext>双方首日联合声明：建立"战略稳定的建设性中美关系"，等待更多具体协议</div>
-            </div>
-          </div>
+        <div class="finding-summary">Google launches Gemini Nano for Chrome desktop client, enhancing AI integration and offline functionality.</div>
+      </div>
+      <div class="finding">
+        <div class="finding-meta">
+          <span class="finding-date">2026-06-01</span>
+          <a href="https://domenic.me/builtin-ai-api-design" target="_blank" rel="noopener"><span class="finding-title">Designing the Built-in AI Web APIs | Domenic Denicola</span></a>
         </div>
+        <div class="finding-summary">Designing the Built-in AI Web APIs. For the last year, I’ve been working as part of the Chrome built-in AI team on a set of APIs to bring various AI models to the web browser. As with all APIs we ship</div>
       </div>
-
-      <div class="entities-row">
-        <span class="entity-chip chip-person">特朗普</span>
-        <span class="entity-chip chip-person">习近平</span>
-        <span class="entity-chip chip-person">黄仁勋</span>
-        <span class="entity-chip chip-person">马斯克</span>
-        <span class="entity-chip chip-person">库克</span>
-        <span class="entity-chip chip-org">Nvidia</span>
-        <span class="entity-chip chip-org">华为</span>
-        <span class="entity-chip chip-org">Alibaba</span>
-        <span class="entity-chip chip-org">ByteDance</span>
-        <span class="entity-chip chip-product">H200 芯片</span>
-        <span class="entity-chip chip-topic">芯片出口管制</span>
-        <span class="entity-chip chip-topic">中美科技博弈</span>
-        <span class="entity-chip chip-topic">稀土反制</span>
+      <div class="finding">
+        <div class="finding-meta">
+          <span class="finding-date">2026-05-31</span>
+          <a href="https://www.reddit.com/r/firefox/comments/1ta8uz0/mozilla_opposes_the_implementation_of_chromes" target="_blank" rel="noopener"><span class="finding-title">Mozilla opposes the implementation of Chrome's Prompt API in the ...</span></a>
+        </div>
+        <div class="finding-summary">Mozilla opposes the implementation of Chrome's Prompt API in the standard, which allows web developers to directly access an AI-based</div>
       </div>
+      <div class="finding">
+        <div class="finding-meta">
+          <span class="finding-date">2026-05-30</span>
+          <a href="https://pasqualepillitteri.it/en/news/3145/gemini-nano-chrome-built-in-ai-client-side-en" target="_blank" rel="noopener"><span class="finding-title">Gemini Nano in the Browser: Client-Side AI for Web Apps with Chrome 148 (2026)</span></a>
+        </div>
+        <div class="finding-summary">Chrome 148 stabilizes Gemini Nano on-device: Prompt API, Summarizer, Translator without tokens</div>
+      </div>
+      <div class="finding">
+        <div class="finding-meta">
+          <span class="finding-date">2026-05-29</span>
+          <a href="https://groups.google.com/a/chromium.org/g/chrome-ai-dev-preview-discuss/c/8M6mL5uOnBQ" target="_blank" rel="noopener"><span class="finding-title">First-time Chrome Extension developer's journey setting up Gemini Nano and Prompt API</span></a>
+        </div>
+        <div class="finding-summary">First-time Chrome Extension developer's journey setting up Gemini Nano and Prompt API</div>
+      </div>
+      <div class="finding">
+        <div class="finding-meta">
+          <span class="finding-date">2026-05-27</span>
+          <a href="https://developers.googleblog.com/on-device-genai-in-chrome-chromebook-plus-and-pixel-watch-with-litert-lm" target="_blank" rel="noopener"><span class="finding-title">On-device GenAI in Chrome, Chromebook Plus, and Pixel Watch with LiteRT-LM
 
-      <div class="card-footer">
-        <span class="check-time">下次检查 2026-05-14T21:14 · 首次自动扫描即将开始</span>
-        <a href="https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html" target="_blank" class="source-link">
-          种子来源 →
-        </a>
+- Google Developers Blog</span></a>
+        </div>
+        <div class="finding-summary">LiteRT-LM is a production-tested inference framework designed for running large language models, like Gemini Nano, Gemma, with high performance.</div>
+      </div>
+      <div class="finding">
+        <div class="finding-meta">
+          <span class="finding-date">2026-05-26</span>
+          <a href="https://www.reddit.com/r/LocalLLaMA/comments/1qkph45/chromes_local_ai_model_in_production_gemini_nano" target="_blank" rel="noopener"><span class="finding-title">Chrome's Local AI Model in production (Gemini Nano) 41 ... - Reddit</span></a>
+        </div>
+        <div class="finding-summary">Chrome's Local AI Model in production (Gemini Nano) 41 ... - Reddit</div>
+      </div>
+      <div class="finding">
+        <div class="finding-meta">
+          <span class="finding-date">2026-05-26</span>
+          <a href="https://www.reddit.com/r/chrome_extensions/comments/1r78n49/when_chromes_prompt_api_goes_public_what_are_the" target="_blank" rel="noopener"><span class="finding-title">When Chrome's Prompt API goes public — what are the first real use ...</span></a>
+        </div>
+        <div class="finding-summary">When Chrome's Prompt API goes public — what are the first real use ...</div>
+      </div>
       </div>
     </div>
-
-  </div><!-- /grid -->
 </main>
 
-<!-- Footer -->
-<footer class="site-footer">
-  <div class="footer-left">
-    数据存储于 <a href="https://github.com/fxp/storyteller-deepdive-vault" target="_blank">GitHub · fxp/storyteller-deepdive-vault</a><br>
-    每小时由 <strong>GitHub Actions</strong> 自动触发 · <strong>Tavily API</strong> 搜索 · <strong>BigModel GLM-4-Flash</strong> 相关性分析
-  </div>
-  <div class="footer-right">
-    <div>生成于 2026-05-14</div>
-    <div class="footer-tag">
-      <span>⚙️</span> StoryTeller · Route A 云部署
-    </div>
-  </div>
+<footer class="footer">
+  <a href="https://github.com/fxp/storyteller-deepdive-vault" target="_blank">GitHub</a>
+  &nbsp;·&nbsp; 数据由 BigModel GLM-4-Flash + Tavily 驱动
 </footer>
-
-<script type="module">
-// Inline Pretext vendor
-var x0=["BN","BN","BN","BN","BN","BN","BN","BN","BN","S","B","S","WS","B","BN","BN","BN","BN","BN","BN","BN","BN","BN","BN","BN","BN","BN","BN","B","B","B","S","WS","ON","ON","ET","ET","ET","ON","ON","ON","ON","ON","ON","CS","ON","CS","ON","EN","EN","EN","EN","EN","EN","EN","EN","EN","EN","ON","ON","ON","ON","ON","ON","ON","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","ON","ON","ON","ON","ON","ON","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","ON","ON","ON","ON","BN","BN","BN","BN","BN","BN","B","BN","BN","BN","BN","BN","BN","BN","BN","BN","BN","BN","BN","BN","BN","BN","BN","BN","BN","BN","BN","BN","BN","BN","BN","BN","BN","CS","ON","ET","ET","ET","ET","ON","ON","ON","ON","L","ON","ON","ON","ON","ON","ET","ET","EN","EN","ON","L","ON","ON","ON","EN","L","ON","ON","ON","ON","ON","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","ON","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L","ON","L","L","L","L","L","L","L","L"];
-
-// Pretext: Layout cards on resize for correct heights
-async function initPretext() {
-  try {
-    const { prepare, layout } = await import('https://esm.sh/@chenglou/pretext');
-
-    await document.fonts.ready;
-
-    const elements = document.querySelectorAll('[data-pretext]');
-    const prepared = new Map();
-
-    for (const el of elements) {
-      const text = el.textContent.trim();
-      if (!text) continue;
-      const font = getComputedStyle(el).font;
-      try {
-        prepared.set(el, prepare(text, font));
-      } catch(e) {}
-    }
-
-    function relayout() {
-      for (const [el, handle] of prepared) {
-        try {
-          const lh = parseFloat(getComputedStyle(el).lineHeight) || 22;
-          const { height } = layout(handle, el.clientWidth || 300, lh);
-          if (height > 0) el.style.minHeight = `${height}px`;
-        } catch(e) {}
-      }
-    }
-
-    new ResizeObserver(() => relayout()).observe(document.body);
-    relayout();
-  } catch(e) {
-    // Pretext unavailable — CSS handles layout gracefully
-    console.log('Pretext unavailable, using CSS layout');
-  }
-}
-
-initPretext();
-
-// Relative time: update "下次检查" display
-function updateCheckTimes() {
-  const now = new Date();
-  document.querySelectorAll('.check-time').forEach(el => {
-    const text = el.textContent;
-    const match = text.match(/(\d{4}-\d{2}-\d{2}T\d{2}:\d{2})/);
-    if (!match) return;
-    const checkTime = new Date(match[1] + ':00Z');
-    const diff = checkTime - now;
-    if (diff < 0) {
-      const mins = Math.round(Math.abs(diff) / 60000);
-      if (mins < 60) el.querySelector?.('span')?.remove?.();
-    }
-  });
-}
-updateCheckTimes();
-</script>
 
 </body>
 </html>
