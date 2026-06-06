@@ -75,6 +75,62 @@ def extract_summary(body: str) -> str:
     return ""
 
 
+def source_name(url: str, fallback: str = "") -> str:
+    """从 URL 提取可读的来源名称，用于内联引用"""
+    try:
+        from urllib.parse import urlparse
+        host = urlparse(url).netloc.lower()
+        host = re.sub(r"^www\.", "", host)
+        # 常见媒体映射
+        KNOWN = {
+            "thenextweb.com": "The Next Web",
+            "the-decoder.com": "The Decoder",
+            "seekingalpha.com": "Seeking Alpha",
+            "trendforce.com": "TrendForce",
+            "esmchina.com": "国际电子商情",
+            "pconline.com.cn": "太平洋电脑网",
+            "163.com": "网易",
+            "huxiu.com": "虎嗅",
+            "cnbc.com": "CNBC",
+            "bnnbloomberg.ca": "BNN Bloomberg",
+            "firstpost.com": "Firstpost",
+            "storyboard18.com": "Storyboard18",
+            "alphaspread.com": "Alpha Spread",
+            "siliconrepublic.com": "Silicon Republic",
+            "qz.com": "Quartz",
+            "hrtechedge.com": "HR Tech Edge",
+            "blackstone.com": "Blackstone",
+            "marketsmedia.com": "Markets Media",
+            "chromestatus.com": "Chrome Platform Status",
+            "developer.chrome.com": "Chrome Developers",
+            "web.dev": "web.dev",
+            "linkedin.com": "LinkedIn",
+            "reddit.com": "Reddit",
+            "youtube.com": "YouTube",
+            "facebook.com": "Facebook",
+            "instagram.com": "Instagram",
+            "x.com": "X",
+            "twitter.com": "X",
+            "github.com": "GitHub",
+            "fortune.com": "Fortune",
+            "techcrunch.com": "TechCrunch",
+            "bloomberg.com": "Bloomberg",
+            "reuters.com": "Reuters",
+            "wsj.com": "WSJ",
+            "ft.com": "FT",
+            "anthropic.com": "Anthropic",
+            "openai.com": "OpenAI",
+            "finance.yahoo.com": "Yahoo Finance",
+        }
+        if host in KNOWN:
+            return KNOWN[host]
+        # 自动美化：去掉 .com 等后缀，首字母大写
+        base = host.split(".")[0]
+        return base.replace("-", " ").title()
+    except Exception:
+        return fallback or url
+
+
 def load_events() -> list[dict]:
     events = []
     for f in sorted(EVENTS_DIR.glob("*.md")):
@@ -134,30 +190,35 @@ def synthesize_update(
         return _fallback_list(recent)
 
     def fmt_finding(f):
-        date    = str(f.get("date", ""))
-        title   = str(f.get("source_title", ""))
+        url     = str(f.get("url", ""))
+        name    = source_name(url, str(f.get("source_title", "")))
         summary = f.get("_summary", "")
-        return f"[{date}] {title}：{summary}"
+        # 格式：[来源名](url) 摘要
+        ref = f"[{name}]({url})" if url else name
+        return f"{ref} — {summary}"
 
-    recent_block = "\n".join(f"- {fmt_finding(f)}" for f in recent[:15])
-    history_block = "\n".join(f"- {fmt_finding(f)}" for f in history[:HISTORY_CTX])
+    recent_block  = "\n".join(f"- {fmt_finding(f)}" for f in recent[:15])
+    history_block = "\n".join(f"- {f.get('_summary','')}" for f in history[:HISTORY_CTX])
 
-    prompt = f"""你是一名 AI 行业资深分析师。请根据下方「近期新发现」，为追踪课题「{event_title}」（当前状态：{status}）撰写一段中文进展叙述。
+    prompt = f"""你是一名 AI 行业资深分析师。请根据「近期新发现」，为追踪课题「{event_title}」写一段话题进展更新。
 
-【要求】
-1. 150～250 字，流畅叙述段落，不要用 bullet list
-2. 聚焦近期新发现的核心事实，优先突出变化、趋势、数字、关键人物
-3. 历史背景仅作参照，不要重复已知旧事实
-4. 结尾可以提出 1～2 个下一步值得关注的问题（用破折号 —— 引出）
-5. 只输出正文，不要标题、不要 markdown 符号
+【写作风格要求】
+1. 以**话题本身**为主语，描述这个话题近期发生了什么变化，而不是"某文章报道了什么"
+2. 将信源以 [来源名](url) 格式内联嵌入句中，例如：
+   "[Bloomberg](https://...) 确认，英伟达已向阿里巴巴交付首批 H200。"
+   "网络安全预算压力持续上升，[Bain&Company](https://...) 指出许多组织需要大幅增加支出。"
+3. 150～250 字，流畅中文叙述段落，不要 bullet list，不要标题
+4. 只写近期新变化，不重复历史已知事实
+5. 可在结尾用「——」引出 1～2 个值得继续关注的问题
+6. 只输出正文，不要任何 markdown 标记（** # 等），但保留 [name](url) 引用格式
 
-【近期新发现（重点参考）】
+【近期新发现（每条格式：[来源](url) — 摘要）】
 {recent_block}
 
-【历史背景（勿重复）】
+【历史已知背景（勿重复）】
 {history_block if history_block else "（无）"}
 
-进展叙述："""
+话题进展更新："""
 
     try:
         resp = requests.post(
@@ -169,16 +230,19 @@ def synthesize_update(
             json={
                 "model": "glm-4-flash",
                 "messages": [{"role": "user", "content": prompt}],
-                "temperature": 0.4,
-                "max_tokens": 600,
+                "temperature": 0.5,
+                "max_tokens": 700,
             },
             timeout=45,
         )
         resp.raise_for_status()
         text = resp.json()["choices"][0]["message"]["content"].strip()
-        # 清理可能的 markdown 残余
+        # 清理 markdown 标题/加粗，但保留 [name](url)
         text = re.sub(r"^#+\s+", "", text, flags=re.MULTILINE)
-        return esc(text)
+        text = re.sub(r"\*\*([^*]+)\*\*", r"\1", text)
+        text = re.sub(r"\*([^*]+)\*", r"\1", text)
+        # 把 [name](url) 转为 HTML <a>，其余部分 HTML 转义
+        return md_links_to_html(text)
     except Exception as e:
         print(f"  [WARN] synthesis failed: {e}")
         return _fallback_list(recent)
@@ -207,25 +271,24 @@ def esc(s: str) -> str:
             .replace(">", "&gt;").replace('"', "&quot;"))
 
 
-def render_source_links(findings: list[dict], max_n: int = 8) -> str:
-    """渲染来源链接列表"""
-    links = []
-    seen  = set()
-    for f in findings[:max_n]:
-        url   = str(f.get("url", ""))
-        title = str(f.get("source_title", url))
-        date  = str(f.get("date", ""))
-        if url in seen or not url:
-            continue
-        seen.add(url)
-        links.append(
-            f'<a class="src-link" href="{esc(url)}" target="_blank" rel="noopener">'
-            f'<span class="src-date">{esc(date)}</span> {esc(title)}'
-            f'</a>'
-        )
-    if not links:
-        return ""
-    return '<div class="sources"><div class="sources-label">来源</div>' + "".join(links) + "</div>"
+def md_links_to_html(text: str) -> str:
+    """
+    把 LLM 输出中的 [Name](url) 转成 HTML <a>，
+    其余文本做 HTML 转义（防 XSS）。
+    """
+    # 先切分：普通文本段 vs [name](url) 段
+    pattern = re.compile(r'\[([^\]]+)\]\((https?://[^\)]+)\)')
+    parts   = []
+    last    = 0
+    for m in pattern.finditer(text):
+        # 转义普通文本
+        parts.append(esc(text[last:m.start()]))
+        name = esc(m.group(1))
+        url  = esc(m.group(2))
+        parts.append(f'<a href="{url}" target="_blank" rel="noopener" class="inline-src">{name}</a>')
+        last = m.end()
+    parts.append(esc(text[last:]))
+    return "".join(parts)
 
 
 def render_card(ev: dict) -> str:
@@ -263,11 +326,15 @@ def render_card(ev: dict) -> str:
             print(f"  Synthesizing update for {event_id} ({len(recent)} recent, {len(history)} history)...")
             synopsis = synthesize_update(ev.get("title",""), status, recent, history)
         else:
-            # 只有 1 条，直接展示摘要
-            f = recent[0]
-            synopsis = esc(f.get("_summary", str(f.get("source_title",""))))
+            # 只有 1 条，直接展示摘要（内联来源链接）
+            f0  = recent[0]
+            url = str(f0.get("url",""))
+            nm  = source_name(url, str(f0.get("source_title","")))
+            summ = esc(f0.get("_summary",""))
+            link = f'<a href="{esc(url)}" target="_blank" rel="noopener" class="inline-src">{esc(nm)}</a>' if url else esc(nm)
+            synopsis = f"{link} 报道，{summ}" if summ else link
 
-        content_html = f'<div class="synopsis">{synopsis}</div>' + render_source_links(recent)
+        content_html = f'<div class="synopsis">{synopsis}</div>'
     else:
         window_label = f"{days} 天内" if days else "—"
         content_html = f'<div class="no-update">近 {window_label} 暂无新发现</div>'
@@ -422,29 +489,19 @@ def generate(events: list[dict]) -> str:
   .synopsis {{
     font-size: 14px;
     color: var(--text-dim);
-    line-height: 1.8;
-    white-space: pre-wrap;
+    line-height: 1.9;
   }}
 
-  /* 来源链接 */
-  .sources {{ display: flex; flex-direction: column; gap: 5px; }}
-  .sources-label {{
-    font-size: 11px; text-transform: uppercase; letter-spacing: 0.8px;
-    color: var(--text-muted); margin-bottom: 2px;
-  }}
-  .src-link {{
-    display: flex; align-items: baseline; gap: 8px;
-    font-size: 12px; color: var(--text-muted);
+  /* 内联来源引用链接 */
+  .inline-src {{
+    color: var(--text-dim);
     text-decoration: none;
-    border-bottom: 1px solid transparent;
-    padding: 2px 0;
-    transition: color 0.12s;
-    line-height: 1.4;
+    border-bottom: 1px solid var(--border-hi);
+    transition: color 0.12s, border-color 0.12s;
   }}
-  .src-link:hover {{ color: var(--text-dim); }}
-  .src-date {{
-    font-family: var(--font-mono); font-size: 11px;
-    color: var(--text-muted); flex-shrink: 0;
+  .inline-src:hover {{
+    color: var(--text);
+    border-color: var(--accent);
   }}
 
   .no-update {{
