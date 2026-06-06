@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-06-06T09:01
+last_check: 2026-06-06T12:39
 last_activity: '2026-06-06'
-next_check: 2026-06-06T12:01
+next_check: 2026-06-06T15:39
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 224
+findings_count: 226
 tags:
 - tracker
 - HOT
@@ -371,4 +371,7 @@ Watch Geoff Bennett's conversation with Gerrit De Vynck, who covers AI for The W
 ### 2026-06-06
 - [Dave Schroeder, PhD's Post - LinkedIn](https://www.linkedin.com/posts/daveaschroeder_us-national-security-agency-using-anthropic-activity-7468439620557393920-fjvJ) — Anthropic 正在帮助美国国家安全局部署 Mythos AI 模型进行网络攻击操作，并嵌入工程师。
 - [Anthropic has said that Mythos, its powerful new A.I. model, is ...](https://www.facebook.com/nytimes/posts/anthropic-has-said-that-mythos-its-powerful-new-ai-model-is-capable-of-finding-a/1352185826763877) — Anthropic 的 Mythos AI 模型被认为对银行构成威胁，因为它可以识别和利用关键金融系统中的漏洞。
+### 2026-06-06
+- [Anthropic's new Mythos AI model has become a flashpoint in the ...](https://www.facebook.com/ForbesIndia/videos/is-anthropics-new-ai-tool-too-dangerous/1462737675328109) — Anthropic 宣布 Mythos AI 模型成为焦点，但未明确指出为何该模型被认为过于危险，这可能是新的事实。
+- [Claude Mythos and the AI Cybersecurity Wake-Up Call](https://www.bain.com/insights/claude-mythos-and-ai-cybersecurity-wake-up-call) — 文章讨论了 Claude Mythos 对网络安全的影响，并提出了组织需要量子准备的观点，这是新的事实。
 
