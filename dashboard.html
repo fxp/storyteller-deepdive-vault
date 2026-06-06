@@ -10,13 +10,13 @@
     --surface:     #13131a;
     --card:        #17171f;
     --border:      #1e1e2e;
-    --border-bright: #2e2e42;
+    --border-hi:   #2e2e42;
     --text:        #e2e8f0;
     --text-dim:    #94a3b8;
     --text-muted:  #64748b;
     --accent:      #6366f1;
     --hot:         #ef4444;
-    --font-mono:   'JetBrains Mono', 'Fira Code', monospace;
+    --font-mono:   'JetBrains Mono', 'Fira Code', ui-monospace, monospace;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body {
@@ -24,7 +24,7 @@
     color: var(--text);
     font-family: -apple-system, 'PingFang SC', 'Noto Sans SC', sans-serif;
     font-size: 14px;
-    line-height: 1.6;
+    line-height: 1.7;
     min-height: 100vh;
   }
 
@@ -39,52 +39,23 @@
     gap: 16px;
     flex-wrap: wrap;
   }
-  .header-left h1 {
-    font-size: 20px;
-    font-weight: 700;
-    letter-spacing: -0.3px;
-  }
-  .header-left p {
-    color: var(--text-muted);
-    font-size: 12px;
-    margin-top: 2px;
-  }
-  .stats {
-    display: flex;
-    gap: 24px;
-  }
-  .stat {
-    text-align: center;
-  }
-  .stat-value {
-    font-size: 22px;
-    font-weight: 700;
-    font-family: var(--font-mono);
-    color: var(--text);
-  }
-  .stat-label {
-    font-size: 11px;
-    color: var(--text-muted);
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-  }
+  .header-left h1 { font-size: 20px; font-weight: 700; letter-spacing: -0.3px; }
+  .header-left p  { color: var(--text-muted); font-size: 12px; margin-top: 2px; }
+  .stats { display: flex; gap: 24px; }
+  .stat { text-align: center; }
+  .stat-value { font-size: 22px; font-weight: 700; font-family: var(--font-mono); }
+  .stat-label { font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }
   .live-badge {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    background: rgba(239,68,68,.12);
-    border: 1px solid rgba(239,68,68,.3);
-    border-radius: 999px;
-    padding: 4px 12px;
-    font-size: 12px;
-    color: var(--hot);
-    font-weight: 600;
+    display: flex; align-items: center; gap: 6px;
+    background: rgba(239,68,68,.1); border: 1px solid rgba(239,68,68,.25);
+    border-radius: 999px; padding: 4px 12px;
+    font-size: 12px; color: var(--hot); font-weight: 600;
   }
 
   /* ── Grid ── */
   .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(520px, 1fr));
     gap: 20px;
     padding: 24px 32px;
     max-width: 1600px;
@@ -101,46 +72,30 @@
     flex-direction: column;
     transition: border-color 0.2s;
   }
-  .card:hover { border-color: var(--border-bright); }
-  .card[data-status="HOT"] { border-color: rgba(239,68,68,.25); }
+  .card:hover { border-color: var(--border-hi); }
+  .card[data-status="HOT"]    { border-color: rgba(239,68,68,.22); }
+  .card[data-status="ACTIVE"] { border-color: rgba(245,158,11,.15); }
 
   .card-header {
     padding: 18px 20px 14px;
     border-bottom: 1px solid var(--border);
   }
   .card-title-row {
-    display: flex;
-    align-items: flex-start;
-    gap: 10px;
-    margin-bottom: 10px;
+    display: flex; align-items: flex-start; gap: 10px; margin-bottom: 8px;
   }
   .card-title {
-    font-size: 15px;
-    font-weight: 600;
-    flex: 1;
-    line-height: 1.4;
+    font-size: 15px; font-weight: 600; flex: 1; line-height: 1.4;
   }
   .badge {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    font-size: 11px;
-    font-weight: 700;
-    padding: 3px 9px;
-    border-radius: 6px;
-    white-space: nowrap;
-    flex-shrink: 0;
-    font-family: var(--font-mono);
-    letter-spacing: 0.5px;
+    display: flex; align-items: center; gap: 5px;
+    font-size: 11px; font-weight: 700;
+    padding: 3px 9px; border-radius: 6px;
+    white-space: nowrap; flex-shrink: 0;
+    font-family: var(--font-mono); letter-spacing: 0.5px;
   }
-
-  /* ── Pulse animation ── */
   .pulse-dot {
-    display: inline-block;
-    width: 7px;
-    height: 7px;
-    border-radius: 50%;
-    background: #ef4444;
+    display: inline-block; width: 7px; height: 7px;
+    border-radius: 50%; background: #ef4444;
     animation: pulse 1.8s ease-in-out infinite;
   }
   @keyframes pulse {
@@ -148,85 +103,60 @@
     50%       { opacity: 0.4; transform: scale(0.7); }
   }
 
-  /* ── Chips ── */
   .chips { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 10px; }
-  .chip {
-    font-size: 11px;
-    padding: 2px 8px;
-    border-radius: 4px;
-    font-weight: 500;
-  }
+  .chip { font-size: 11px; padding: 2px 8px; border-radius: 4px; font-weight: 500; }
   .chip-person { background: rgba(139,92,246,.15); color: #a78bfa; }
   .chip-org    { background: rgba(59,130,246,.15);  color: #60a5fa; }
 
-  .card-meta {
-    display: flex;
-    gap: 16px;
-    font-size: 12px;
-    color: var(--text-muted);
+  .card-meta { display: flex; flex-wrap: wrap; gap: 12px; font-size: 12px; color: var(--text-muted); }
+
+  /* ── Card body ── */
+  .card-body { padding: 18px 20px 20px; flex: 1; display: flex; flex-direction: column; gap: 14px; }
+
+  /* 合成摘要 */
+  .synopsis {
+    font-size: 14px;
+    color: var(--text-dim);
+    line-height: 1.8;
+    white-space: pre-wrap;
   }
 
-  /* ── Findings ── */
-  .findings-list {
-    flex: 1;
-    padding: 12px 20px 16px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  /* 来源链接 */
+  .sources { display: flex; flex-direction: column; gap: 5px; }
+  .sources-label {
+    font-size: 11px; text-transform: uppercase; letter-spacing: 0.8px;
+    color: var(--text-muted); margin-bottom: 2px;
   }
-  .finding {
-    padding-bottom: 10px;
-    border-bottom: 1px solid var(--border);
-  }
-  .finding:last-child { border-bottom: none; padding-bottom: 0; }
-  .finding-meta {
-    display: flex;
-    align-items: baseline;
-    gap: 8px;
-    flex-wrap: wrap;
-  }
-  .finding-date {
-    font-size: 11px;
-    color: var(--text-muted);
-    font-family: var(--font-mono);
-    flex-shrink: 0;
-  }
-  .finding-title {
-    font-size: 13px;
-    font-weight: 500;
-    color: var(--text-dim);
-    line-height: 1.3;
-  }
-  .finding-meta a {
+  .src-link {
+    display: flex; align-items: baseline; gap: 8px;
+    font-size: 12px; color: var(--text-muted);
     text-decoration: none;
-    border-bottom: 1px solid var(--border-bright);
-    transition: color 0.12s, border-color 0.12s;
+    border-bottom: 1px solid transparent;
+    padding: 2px 0;
+    transition: color 0.12s;
+    line-height: 1.4;
   }
-  .finding-meta a:hover .finding-title {
-    color: var(--text);
-    border-color: var(--text-dim);
+  .src-link:hover { color: var(--text-dim); }
+  .src-date {
+    font-family: var(--font-mono); font-size: 11px;
+    color: var(--text-muted); flex-shrink: 0;
   }
-  .finding-meta a:hover { border-color: var(--text-dim); }
-  .finding-summary {
-    font-size: 12px;
-    color: var(--text-muted);
-    margin-top: 4px;
-    line-height: 1.5;
+
+  .no-update {
+    font-size: 13px; color: var(--text-muted); font-style: italic; padding: 8px 0;
   }
-  .no-findings {
-    font-size: 13px;
-    color: var(--text-muted);
-    font-style: italic;
-    padding: 8px 0;
-  }
+
+  /* fallback list */
+  .fallback-list { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+  .fb-item { font-size: 13px; color: var(--text-dim); }
+  .fb-item a { color: var(--text-dim); text-decoration: none; border-bottom: 1px solid var(--border-hi); }
+  .fb-item a:hover { color: var(--text); }
+  .fb-date { font-family: var(--font-mono); font-size: 11px; color: var(--text-muted); margin-right: 4px; }
 
   /* ── Footer ── */
   .footer {
-    text-align: center;
-    padding: 24px;
-    color: var(--text-muted);
-    font-size: 12px;
-    border-top: 1px solid var(--border);
+    text-align: center; padding: 24px; color: var(--text-muted);
+    font-size: 12px; border-top: 1px solid var(--border);
   }
   .footer a { color: var(--text-muted); }
 
@@ -242,7 +172,7 @@
 <header class="header">
   <div class="header-left">
     <h1>🔭 StoryTeller</h1>
-    <p>AI 事件持续追踪 · 更新于 2026-06-06 15:51 UTC</p>
+    <p>AI 事件持续追踪 · 更新于 2026-06-06 16:07 UTC</p>
   </div>
   <div class="stats">
     <div class="stat">
@@ -275,68 +205,13 @@
         <div class="chips"><span class="chip chip-person">Elizabeth Kelly（前 CAISI 负责人，已加入 Anthropic）</span><span class="chip chip-org">Anthropic</span><span class="chip chip-org">US Department of Commerce</span><span class="chip chip-org">CAISI</span></div>
         <div class="card-meta">
           <span>📄 226 条发现</span>
+          <span>🆕 近期 9 条</span>
           <span>🕐 2026-06-06</span>
-          <span>🔄 每 3h 检查</span>
+          <span>🔄 每 3h</span>
         </div>
       </div>
-      <div class="findings-list">
-        
-      <div class="finding">
-        <div class="finding-meta">
-          <span class="finding-date">2026-06-06</span>
-          <a href="https://www.facebook.com/ForbesIndia/videos/is-anthropics-new-ai-tool-too-dangerous/1462737675328109" target="_blank" rel="noopener"><span class="finding-title">Anthropic's new Mythos AI model has become a flashpoint in the ...</span></a>
-        </div>
-        <div class="finding-summary">Anthropic 宣布 Mythos AI 模型成为焦点，但未明确指出为何该模型被认为过于危险，这可能是新的事实。</div>
-      </div>
-      <div class="finding">
-        <div class="finding-meta">
-          <span class="finding-date">2026-06-06</span>
-          <a href="https://www.bain.com/insights/claude-mythos-and-ai-cybersecurity-wake-up-call" target="_blank" rel="noopener"><span class="finding-title">Claude Mythos and the AI Cybersecurity Wake-Up Call</span></a>
-        </div>
-        <div class="finding-summary">文章讨论了 Claude Mythos 对网络安全的影响，并提出了组织需要量子准备的观点，这是新的事实。</div>
-      </div>
-      <div class="finding">
-        <div class="finding-meta">
-          <span class="finding-date">2026-06-05</span>
-          <a href="https://www.mindstudio.ai/blog/what-is-claude-mythos-anthropic-most-powerful-model" target="_blank" rel="noopener"><span class="finding-title">Claude Mythos: How Leaks and Early Benchmarks Surfaced a New ...</span></a>
-        </div>
-        <div class="finding-summary">Claude Mythos 模型通过 API 泄露和基准测试首次被发现，揭示了模型的能力和发现方式。</div>
-      </div>
-      <div class="finding">
-        <div class="finding-meta">
-          <span class="finding-date">2026-06-04</span>
-          <a href="https://www.facebook.com/financialtimes/posts/anthropics-new-mythos-ai-model-is-raising-concern-among-governments-and-companie/1363050669201640" target="_blank" rel="noopener"><span class="finding-title">Anthropic's new Mythos AI model is raising concern among ...</span></a>
-        </div>
-        <div class="finding-summary">Financial Times 报道称，Anthropic 的 Mythos AI 模型引起政府和公司对其可能超越当前网络安全防御能力的担忧。</div>
-      </div>
-      <div class="finding">
-        <div class="finding-meta">
-          <span class="finding-date">2026-06-04</span>
-          <a href="https://garymarcus.substack.com/p/what-should-we-take-from-anthropics" target="_blank" rel="noopener"><span class="finding-title">What should we take from Anthropic’s (possibly) terrifying new report on Mythos?</span></a>
-        </div>
-        <div class="finding-summary">Gary Marcus 讨论了 Anthropic 的新报告，其中包含关于 Mythos 的讨论，这是新的事实。</div>
-      </div>
-      <div class="finding">
-        <div class="finding-meta">
-          <span class="finding-date">2026-06-04</span>
-          <a href="https://www.forbes.com/sites/ronschmelzer/2026/05/29/anthropics-guarded-mythos-model-is-headed-for-wider-release" target="_blank" rel="noopener"><span class="finding-title">Anthropic's Guarded Mythos Model Is Headed For Wider Release</span></a>
-        </div>
-        <div class="finding-summary">Anthropic 的 Claude Mythos AI 模型即将向所有客户更广泛发布，这是新的事实。</div>
-      </div>
-      <div class="finding">
-        <div class="finding-meta">
-          <span class="finding-date">2026-06-03</span>
-          <a href="https://www.facebook.com/CBSNews/videos/ai-giant-anthropic-says-its-new-model-claude-mythos-preview-is-so-good-at-coding/1431414284955693" target="_blank" rel="noopener"><span class="finding-title">AI giant Anthropic says its new model, Claude Mythos Preview, is so ...</span></a>
-        </div>
-        <div class="finding-summary">Anthropic宣布其新模型Claude Mythos Preview在编码方面表现出色，这是新的事实。</div>
-      </div>
-      <div class="finding">
-        <div class="finding-meta">
-          <span class="finding-date">2026-06-02</span>
-          <a href="https://www.mindstudio.ai/blog/claude-mythos-vs-opus-4-6-capability-comparison" target="_blank" rel="noopener"><span class="finding-title">Claude Mythos vs Claude Opus 4.6: How Big Is the Capability Jump?</span></a>
-        </div>
-        <div class="finding-summary">Claude Mythos 与 Claude Opus 4.6 在编码、推理和网络安全方面的能力进行了直接比较，揭示了两者之间的能力差距。</div>
-      </div>
+      <div class="card-body">
+        <div class="synopsis"><ul class="fallback-list"><li class="fb-item"><span class="fb-date">2026-06-06</span> <a href="https://www.facebook.com/ForbesIndia/videos/is-anthropics-new-ai-tool-too-dangerous/1462737675328109" target="_blank" rel="noopener">Anthropic's new Mythos AI model has become a flashpoint in the ...</a>：Anthropic 宣布 Mythos AI 模型成为焦点，但未明确指出为何该模型被认为过于危险，这可能是新的事实。</li><li class="fb-item"><span class="fb-date">2026-06-06</span> <a href="https://www.bain.com/insights/claude-mythos-and-ai-cybersecurity-wake-up-call" target="_blank" rel="noopener">Claude Mythos and the AI Cybersecurity Wake-Up Call</a>：文章讨论了 Claude Mythos 对网络安全的影响，并提出了组织需要量子准备的观点，这是新的事实。</li><li class="fb-item"><span class="fb-date">2026-06-05</span> <a href="https://www.mindstudio.ai/blog/what-is-claude-mythos-anthropic-most-powerful-model" target="_blank" rel="noopener">Claude Mythos: How Leaks and Early Benchmarks Surfaced a New ...</a>：Claude Mythos 模型通过 API 泄露和基准测试首次被发现，揭示了模型的能力和发现方式。</li><li class="fb-item"><span class="fb-date">2026-06-04</span> <a href="https://www.facebook.com/financialtimes/posts/anthropics-new-mythos-ai-model-is-raising-concern-among-governments-and-companie/1363050669201640" target="_blank" rel="noopener">Anthropic's new Mythos AI model is raising concern among ...</a>：Financial Times 报道称，Anthropic 的 Mythos AI 模型引起政府和公司对其可能超越当前网络安全防御能力的担忧。</li><li class="fb-item"><span class="fb-date">2026-06-04</span> <a href="https://garymarcus.substack.com/p/what-should-we-take-from-anthropics" target="_blank" rel="noopener">What should we take from Anthropic’s (possibly) terrifying new report on Mythos?</a>：Gary Marcus 讨论了 Anthropic 的新报告，其中包含关于 Mythos 的讨论，这是新的事实。</li><li class="fb-item"><span class="fb-date">2026-06-04</span> <a href="https://www.forbes.com/sites/ronschmelzer/2026/05/29/anthropics-guarded-mythos-model-is-headed-for-wider-release" target="_blank" rel="noopener">Anthropic's Guarded Mythos Model Is Headed For Wider Release</a>：Anthropic 的 Claude Mythos AI 模型即将向所有客户更广泛发布，这是新的事实。</li></ul></div><div class="sources"><div class="sources-label">来源</div><a class="src-link" href="https://www.facebook.com/ForbesIndia/videos/is-anthropics-new-ai-tool-too-dangerous/1462737675328109" target="_blank" rel="noopener"><span class="src-date">2026-06-06</span> Anthropic's new Mythos AI model has become a flashpoint in the ...</a><a class="src-link" href="https://www.bain.com/insights/claude-mythos-and-ai-cybersecurity-wake-up-call" target="_blank" rel="noopener"><span class="src-date">2026-06-06</span> Claude Mythos and the AI Cybersecurity Wake-Up Call</a><a class="src-link" href="https://www.mindstudio.ai/blog/what-is-claude-mythos-anthropic-most-powerful-model" target="_blank" rel="noopener"><span class="src-date">2026-06-05</span> Claude Mythos: How Leaks and Early Benchmarks Surfaced a New ...</a><a class="src-link" href="https://www.facebook.com/financialtimes/posts/anthropics-new-mythos-ai-model-is-raising-concern-among-governments-and-companie/1363050669201640" target="_blank" rel="noopener"><span class="src-date">2026-06-04</span> Anthropic's new Mythos AI model is raising concern among ...</a><a class="src-link" href="https://garymarcus.substack.com/p/what-should-we-take-from-anthropics" target="_blank" rel="noopener"><span class="src-date">2026-06-04</span> What should we take from Anthropic’s (possibly) terrifying new report on Mythos?</a><a class="src-link" href="https://www.forbes.com/sites/ronschmelzer/2026/05/29/anthropics-guarded-mythos-model-is-headed-for-wider-release" target="_blank" rel="noopener"><span class="src-date">2026-06-04</span> Anthropic's Guarded Mythos Model Is Headed For Wider Release</a><a class="src-link" href="https://www.facebook.com/CBSNews/videos/ai-giant-anthropic-says-its-new-model-claude-mythos-preview-is-so-good-at-coding/1431414284955693" target="_blank" rel="noopener"><span class="src-date">2026-06-03</span> AI giant Anthropic says its new model, Claude Mythos Preview, is so ...</a><a class="src-link" href="https://www.mindstudio.ai/blog/claude-mythos-vs-opus-4-6-capability-comparison" target="_blank" rel="noopener"><span class="src-date">2026-06-02</span> Claude Mythos vs Claude Opus 4.6: How Big Is the Capability Jump?</a></div>
       </div>
     </div>
 
@@ -349,68 +224,13 @@
         <div class="chips"><span class="chip chip-person">特朗普（Donald Trump）</span><span class="chip chip-person">习近平</span><span class="chip chip-person">黄仁勋（Jensen Huang）</span><span class="chip chip-org">美国政府</span><span class="chip chip-org">中国政府</span></div>
         <div class="card-meta">
           <span>📄 115 条发现</span>
+          <span>🆕 近期 14 条</span>
           <span>🕐 2026-06-06</span>
-          <span>🔄 每 3h 检查</span>
+          <span>🔄 每 3h</span>
         </div>
       </div>
-      <div class="findings-list">
-        
-      <div class="finding">
-        <div class="finding-meta">
-          <span class="finding-date">2026-06-06</span>
-          <a href="https://www.bnnbloomberg.ca/business/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough" target="_blank" rel="noopener"><span class="finding-title">Nvidia chips cleared by U.S. to Chinese firms</span></a>
-        </div>
-        <div class="finding-summary">美国批准了约10家中国公司购买英伟达的H200芯片，但尚未有任何交付，这是历史发现中未出现的新事实。</div>
-      </div>
-      <div class="finding">
-        <div class="finding-meta">
-          <span class="finding-date">2026-06-05</span>
-          <a href="https://thediplomat.com/2026/06/trumps-new-ai-order-raises-the-stakes-in-china-us-tech-competition" target="_blank" rel="noopener"><span class="finding-title">Trump's New AI Order Raises the Stakes in China-US Tech Competition</span></a>
-        </div>
-        <div class="finding-summary">特朗普的新AI命令提高了中美科技竞争的赌注，这是历史发现中未出现的新事实。</div>
-      </div>
-      <div class="finding">
-        <div class="finding-meta">
-          <span class="finding-date">2026-06-04</span>
-          <a href="https://www.csis.org/programs/trump-xi-2026-summit" target="_blank" rel="noopener"><span class="finding-title">Trump-Xi 2026 Summit - CSIS</span></a>
-        </div>
-        <div class="finding-summary">报道特朗普-习近平2026年峰会，讨论了AI治理，但没有签署任何协议，这是新的事实，与事件相关。</div>
-      </div>
-      <div class="finding">
-        <div class="finding-meta">
-          <span class="finding-date">2026-06-04</span>
-          <a href="https://time.com/article/2026/05/15/trump-xi-us-china-summit-ai-semiconductor-chips" target="_blank" rel="noopener"><span class="finding-title">How A.I. Was the Elephant in the Room at the Trump-Xi Summit</span></a>
-        </div>
-        <div class="finding-summary">报道特朗普在峰会上与习近平讨论了AI治理，这是新的事实，与事件相关。</div>
-      </div>
-      <div class="finding">
-        <div class="finding-meta">
-          <span class="finding-date">2026-06-04</span>
-          <a href="https://thehill.com/homenews/administration/5880013-donald-trump-xi-jinping-china-summit-ai-guardrails" target="_blank" rel="noopener"><span class="finding-title">Trump says he discussed AI guardrails with Xi - The Hill</span></a>
-        </div>
-        <div class="finding-summary">报道特朗普表示与习近平讨论了人工智能治理，这是新的事实，与事件相关。</div>
-      </div>
-      <div class="finding">
-        <div class="finding-meta">
-          <span class="finding-date">2026-06-04</span>
-          <a href="https://www.youtube.com/watch?v=ejmf2joJEPg" target="_blank" rel="noopener"><span class="finding-title">The Trump-Xi Summit in China: Trade, Taiwan, AI and More</span></a>
-        </div>
-        <div class="finding-summary">视频标题提及了特朗普与习近平的峰会，讨论了贸易、台湾、AI等多个议题，包含新事实。</div>
-      </div>
-      <div class="finding">
-        <div class="finding-meta">
-          <span class="finding-date">2026-06-03</span>
-          <a href="https://www.facebook.com/tbsnews.net/posts/the-us-commerce-department-has-approved-around-10-chinese-companies-including-al/1415863133921750" target="_blank" rel="noopener"><span class="finding-title">The US Commerce Department has approved around 10 Chinese ...</span></a>
-        </div>
-        <div class="finding-summary">美国商务部批准了包括阿里巴巴、腾讯、字节跳动和京东在内的约10家中国科技公司购买英伟达的H200人工智能芯片。</div>
-      </div>
-      <div class="finding">
-        <div class="finding-meta">
-          <span class="finding-date">2026-06-03</span>
-          <a href="https://emcreative.eastmoney.com/app_fortune/article/index.html?artCode=20260508090212441431370&amp;postId=1704296694" target="_blank" rel="noopener"><span class="finding-title">从巅峰时期95%的市场份额降至2026年的0%，部分预测显 - 东方财富</span></a>
-        </div>
-        <div class="finding-summary">部分预测显示英伟达在中国AI芯片市场的份额可能降至0%，而华为预计将在2026年占据中国AI芯片市场50%的份额。</div>
-      </div>
+      <div class="card-body">
+        <div class="synopsis"><ul class="fallback-list"><li class="fb-item"><span class="fb-date">2026-06-06</span> <a href="https://www.bnnbloomberg.ca/business/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough" target="_blank" rel="noopener">Nvidia chips cleared by U.S. to Chinese firms</a>：美国批准了约10家中国公司购买英伟达的H200芯片，但尚未有任何交付，这是历史发现中未出现的新事实。</li><li class="fb-item"><span class="fb-date">2026-06-05</span> <a href="https://thediplomat.com/2026/06/trumps-new-ai-order-raises-the-stakes-in-china-us-tech-competition" target="_blank" rel="noopener">Trump's New AI Order Raises the Stakes in China-US Tech Competition</a>：特朗普的新AI命令提高了中美科技竞争的赌注，这是历史发现中未出现的新事实。</li><li class="fb-item"><span class="fb-date">2026-06-04</span> <a href="https://www.csis.org/programs/trump-xi-2026-summit" target="_blank" rel="noopener">Trump-Xi 2026 Summit - CSIS</a>：报道特朗普-习近平2026年峰会，讨论了AI治理，但没有签署任何协议，这是新的事实，与事件相关。</li><li class="fb-item"><span class="fb-date">2026-06-04</span> <a href="https://time.com/article/2026/05/15/trump-xi-us-china-summit-ai-semiconductor-chips" target="_blank" rel="noopener">How A.I. Was the Elephant in the Room at the Trump-Xi Summit</a>：报道特朗普在峰会上与习近平讨论了AI治理，这是新的事实，与事件相关。</li><li class="fb-item"><span class="fb-date">2026-06-04</span> <a href="https://thehill.com/homenews/administration/5880013-donald-trump-xi-jinping-china-summit-ai-guardrails" target="_blank" rel="noopener">Trump says he discussed AI guardrails with Xi - The Hill</a>：报道特朗普表示与习近平讨论了人工智能治理，这是新的事实，与事件相关。</li><li class="fb-item"><span class="fb-date">2026-06-04</span> <a href="https://www.youtube.com/watch?v=ejmf2joJEPg" target="_blank" rel="noopener">The Trump-Xi Summit in China: Trade, Taiwan, AI and More</a>：视频标题提及了特朗普与习近平的峰会，讨论了贸易、台湾、AI等多个议题，包含新事实。</li></ul></div><div class="sources"><div class="sources-label">来源</div><a class="src-link" href="https://www.bnnbloomberg.ca/business/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough" target="_blank" rel="noopener"><span class="src-date">2026-06-06</span> Nvidia chips cleared by U.S. to Chinese firms</a><a class="src-link" href="https://thediplomat.com/2026/06/trumps-new-ai-order-raises-the-stakes-in-china-us-tech-competition" target="_blank" rel="noopener"><span class="src-date">2026-06-05</span> Trump's New AI Order Raises the Stakes in China-US Tech Competition</a><a class="src-link" href="https://www.csis.org/programs/trump-xi-2026-summit" target="_blank" rel="noopener"><span class="src-date">2026-06-04</span> Trump-Xi 2026 Summit - CSIS</a><a class="src-link" href="https://time.com/article/2026/05/15/trump-xi-us-china-summit-ai-semiconductor-chips" target="_blank" rel="noopener"><span class="src-date">2026-06-04</span> How A.I. Was the Elephant in the Room at the Trump-Xi Summit</a><a class="src-link" href="https://thehill.com/homenews/administration/5880013-donald-trump-xi-jinping-china-summit-ai-guardrails" target="_blank" rel="noopener"><span class="src-date">2026-06-04</span> Trump says he discussed AI guardrails with Xi - The Hill</a><a class="src-link" href="https://www.youtube.com/watch?v=ejmf2joJEPg" target="_blank" rel="noopener"><span class="src-date">2026-06-04</span> The Trump-Xi Summit in China: Trade, Taiwan, AI and More</a><a class="src-link" href="https://www.facebook.com/tbsnews.net/posts/the-us-commerce-department-has-approved-around-10-chinese-companies-including-al/1415863133921750" target="_blank" rel="noopener"><span class="src-date">2026-06-03</span> The US Commerce Department has approved around 10 Chinese ...</a><a class="src-link" href="https://emcreative.eastmoney.com/app_fortune/article/index.html?artCode=20260508090212441431370&amp;postId=1704296694" target="_blank" rel="noopener"><span class="src-date">2026-06-03</span> 从巅峰时期95%的市场份额降至2026年的0%，部分预测显 - 东方财富</a></div>
       </div>
     </div>
 
@@ -423,68 +243,13 @@
         <div class="chips"><span class="chip chip-person">Krishna Rao（Anthropic CFO）</span><span class="chip chip-org">Anthropic</span><span class="chip chip-org">Blackstone</span><span class="chip chip-org">Hellman &amp; Friedman</span></div>
         <div class="card-meta">
           <span>📄 78 条发现</span>
+          <span>🆕 近期 14 条</span>
           <span>🕐 2026-06-05</span>
-          <span>🔄 每 6h 检查</span>
+          <span>🔄 每 6h</span>
         </div>
       </div>
-      <div class="findings-list">
-        
-      <div class="finding">
-        <div class="finding-meta">
-          <span class="finding-date">2026-06-05</span>
-          <a href="https://briefglance.com/companies/blackstone-inc/pulses/10123" target="_blank" rel="noopener"><span class="finding-title">Anthropic, Blackstone, and Goldman Sachs Launch AI Enterp... — Blackstone Inc. | BriefGlance</span></a>
-        </div>
-        <div class="finding-summary">Anthropic, Blackstone, and Goldman Sachs have formed a new AI-native enterprise services firm to accelerate Claude's adoption in core business operations.</div>
-      </div>
-      <div class="finding">
-        <div class="finding-meta">
-          <span class="finding-date">2026-06-04</span>
-          <a href="https://www.instagram.com/p/DX8uWzrjTdj" target="_blank" rel="noopener"><span class="finding-title">Anthropic has partnered with Blackstone, Hellman &amp; Friedman, and ...</span></a>
-        </div>
-        <div class="finding-summary">Anthropic 与 Blackstone、Hellman &amp; Friedman 和 Goldman Sachs 合作成立了一家新的 AI 服务公司，部署其 Claude 模型。</div>
-      </div>
-      <div class="finding">
-        <div class="finding-meta">
-          <span class="finding-date">2026-06-03</span>
-          <a href="https://www.crn.com/news/ai/2026/openai-launches-services-business-on-heels-of-similar-anthropic-announcement" target="_blank" rel="noopener"><span class="finding-title">OpenAI Debuts $4B AI Services Company As Rival Anthropic Builds Its Own</span></a>
-        </div>
-        <div class="finding-summary">OpenAI 发布了价值 40 亿美元的 AI 服务公司，作为 Anthropic 的竞争对手。</div>
-      </div>
-      <div class="finding">
-        <div class="finding-meta">
-          <span class="finding-date">2026-06-03</span>
-          <a href="https://www.linkedin.com/posts/tigertyagarajan_building-a-new-enterprise-ai-services-company-activity-7457089195245920256-eV5a" target="_blank" rel="noopener"><span class="finding-title">Tiger Tyagarajan's Post - LinkedIn</span></a>
-        </div>
-        <div class="finding-summary">Anthropic 宣布成立了一家新的 AI 企业服务公司，旨在扩大 AI 在企业中的应用。</div>
-      </div>
-      <div class="finding">
-        <div class="finding-meta">
-          <span class="finding-date">2026-05-31</span>
-          <a href="https://www.forbes.com/sites/geruiwang/2026/03/13/anthropic-wants-claude-to-become-a-new-interface-for-work" target="_blank" rel="noopener"><span class="finding-title">Anthropic Wants Claude To Become A New Interface For Work</span></a>
-        </div>
-        <div class="finding-summary">Anthropic 通过 Claude Partner Network 将 Claude 转变为企业基础设施，并承诺在 2026 年投资 1 亿美元。</div>
-      </div>
-      <div class="finding">
-        <div class="finding-meta">
-          <span class="finding-date">2026-05-31</span>
-          <a href="https://claudeimplementation.com/blog/claude-partner-network" target="_blank" rel="noopener"><span class="finding-title">Claude Partner Network 2026 | Claude Implementation</span></a>
-        </div>
-        <div class="finding-summary">Anthropic 投资了 1 亿美元在 Claude Partner Network，旨在支持企业 AI 的规模化采用。</div>
-      </div>
-      <div class="finding">
-        <div class="finding-meta">
-          <span class="finding-date">2026-05-31</span>
-          <a href="https://www.swfinstitute.org/news/109135/anthropic-blackstone-goldman-sachs-launch-ai-services-firm-to-scale-claude-adoption-in-middle-market-enterprises" target="_blank" rel="noopener"><span class="finding-title">Anthropic, Blackstone &amp; Goldman Sachs Launch AI Services Firm to Scale Claude Adoption in Middle Market Enterprises</span></a>
-        </div>
-        <div class="finding-summary">新公司正式命名，名为 Anthropic, Blackstone &amp; Goldman Sachs Launch AI Services Firm，旨在在中型市场中推广 Claude 的采用。</div>
-      </div>
-      <div class="finding">
-        <div class="finding-meta">
-          <span class="finding-date">2026-05-31</span>
-          <a href="https://quantumzeitgeist.com/anthropic-alliance-services-firm-300m" target="_blank" rel="noopener"><span class="finding-title">Anthropic Forms AI Services Firm With $300M Backing</span></a>
-        </div>
-        <div class="finding-summary">新融资事实，提及了 300M 的支持。</div>
-      </div>
+      <div class="card-body">
+        <div class="synopsis"><ul class="fallback-list"><li class="fb-item"><span class="fb-date">2026-06-05</span> <a href="https://briefglance.com/companies/blackstone-inc/pulses/10123" target="_blank" rel="noopener">Anthropic, Blackstone, and Goldman Sachs Launch AI Enterp... — Blackstone Inc. | BriefGlance</a>：Anthropic, Blackstone, and Goldman Sachs have formed a new AI-native enterprise services firm to accelerate Claude's adoption in core business operations.</li><li class="fb-item"><span class="fb-date">2026-06-04</span> <a href="https://www.instagram.com/p/DX8uWzrjTdj" target="_blank" rel="noopener">Anthropic has partnered with Blackstone, Hellman &amp; Friedman, and ...</a>：Anthropic 与 Blackstone、Hellman &amp; Friedman 和 Goldman Sachs 合作成立了一家新的 AI 服务公司，部署其 Claude 模型。</li><li class="fb-item"><span class="fb-date">2026-06-03</span> <a href="https://www.crn.com/news/ai/2026/openai-launches-services-business-on-heels-of-similar-anthropic-announcement" target="_blank" rel="noopener">OpenAI Debuts $4B AI Services Company As Rival Anthropic Builds Its Own</a>：OpenAI 发布了价值 40 亿美元的 AI 服务公司，作为 Anthropic 的竞争对手。</li><li class="fb-item"><span class="fb-date">2026-06-03</span> <a href="https://www.linkedin.com/posts/tigertyagarajan_building-a-new-enterprise-ai-services-company-activity-7457089195245920256-eV5a" target="_blank" rel="noopener">Tiger Tyagarajan's Post - LinkedIn</a>：Anthropic 宣布成立了一家新的 AI 企业服务公司，旨在扩大 AI 在企业中的应用。</li><li class="fb-item"><span class="fb-date">2026-05-31</span> <a href="https://www.forbes.com/sites/geruiwang/2026/03/13/anthropic-wants-claude-to-become-a-new-interface-for-work" target="_blank" rel="noopener">Anthropic Wants Claude To Become A New Interface For Work</a>：Anthropic 通过 Claude Partner Network 将 Claude 转变为企业基础设施，并承诺在 2026 年投资 1 亿美元。</li><li class="fb-item"><span class="fb-date">2026-05-31</span> <a href="https://claudeimplementation.com/blog/claude-partner-network" target="_blank" rel="noopener">Claude Partner Network 2026 | Claude Implementation</a>：Anthropic 投资了 1 亿美元在 Claude Partner Network，旨在支持企业 AI 的规模化采用。</li></ul></div><div class="sources"><div class="sources-label">来源</div><a class="src-link" href="https://briefglance.com/companies/blackstone-inc/pulses/10123" target="_blank" rel="noopener"><span class="src-date">2026-06-05</span> Anthropic, Blackstone, and Goldman Sachs Launch AI Enterp... — Blackstone Inc. | BriefGlance</a><a class="src-link" href="https://www.instagram.com/p/DX8uWzrjTdj" target="_blank" rel="noopener"><span class="src-date">2026-06-04</span> Anthropic has partnered with Blackstone, Hellman &amp; Friedman, and ...</a><a class="src-link" href="https://www.crn.com/news/ai/2026/openai-launches-services-business-on-heels-of-similar-anthropic-announcement" target="_blank" rel="noopener"><span class="src-date">2026-06-03</span> OpenAI Debuts $4B AI Services Company As Rival Anthropic Builds Its Own</a><a class="src-link" href="https://www.linkedin.com/posts/tigertyagarajan_building-a-new-enterprise-ai-services-company-activity-7457089195245920256-eV5a" target="_blank" rel="noopener"><span class="src-date">2026-06-03</span> Tiger Tyagarajan's Post - LinkedIn</a><a class="src-link" href="https://www.forbes.com/sites/geruiwang/2026/03/13/anthropic-wants-claude-to-become-a-new-interface-for-work" target="_blank" rel="noopener"><span class="src-date">2026-05-31</span> Anthropic Wants Claude To Become A New Interface For Work</a><a class="src-link" href="https://claudeimplementation.com/blog/claude-partner-network" target="_blank" rel="noopener"><span class="src-date">2026-05-31</span> Claude Partner Network 2026 | Claude Implementation</a><a class="src-link" href="https://www.swfinstitute.org/news/109135/anthropic-blackstone-goldman-sachs-launch-ai-services-firm-to-scale-claude-adoption-in-middle-market-enterprises" target="_blank" rel="noopener"><span class="src-date">2026-05-31</span> Anthropic, Blackstone &amp; Goldman Sachs Launch AI Services Firm to Scale Claude Adoption in Middle Market Enterprises</a><a class="src-link" href="https://quantumzeitgeist.com/anthropic-alliance-services-firm-300m" target="_blank" rel="noopener"><span class="src-date">2026-05-31</span> Anthropic Forms AI Services Firm With $300M Backing</a></div>
       </div>
     </div>
 
@@ -497,68 +262,13 @@
         <div class="chips"><span class="chip chip-person">Chris Fall（CAISI 主任）</span><span class="chip chip-org">Microsoft</span><span class="chip chip-org">Google</span><span class="chip chip-org">xAI</span></div>
         <div class="card-meta">
           <span>📄 132 条发现</span>
+          <span>🆕 近期 13 条</span>
           <span>🕐 2026-06-05</span>
-          <span>🔄 每 6h 检查</span>
+          <span>🔄 每 6h</span>
         </div>
       </div>
-      <div class="findings-list">
-        
-      <div class="finding">
-        <div class="finding-meta">
-          <span class="finding-date">2026-06-05</span>
-          <a href="https://defensescoop.com/2026/05/01/dod-expands-classified-ai-work-with-8-companies-excluding-anthropic" target="_blank" rel="noopener"><span class="finding-title">DOD expands its classified AI work with 8 companies — excluding Anthropic — amid ongoing dispute</span></a>
-        </div>
-        <div class="finding-summary">DOD扩大其机密AI工作，排除Anthropic，这是历史发现中未出现的新事实。</div>
-      </div>
-      <div class="finding">
-        <div class="finding-meta">
-          <span class="finding-date">2026-06-04</span>
-          <a href="https://www.cnbc.com/2026/04/21/trump-anthropic-department-defense-deal.html" target="_blank" rel="noopener"><span class="finding-title">Trump says Anthropic deal is 'possible' for Department of Defense use</span></a>
-        </div>
-        <div class="finding-summary">特朗普表示，与Anthropic的国防部门使用AI的协议是可能的。</div>
-      </div>
-      <div class="finding">
-        <div class="finding-meta">
-          <span class="finding-date">2026-06-04</span>
-          <a href="https://www.cybersecuritydive.com/news/nist-ai-model-testing-caisi-google-microsoft/819452" target="_blank" rel="noopener"><span class="finding-title">NIST will test three major tech firms’ frontier AI models for cybersecurity risks</span></a>
-        </div>
-        <div class="finding-summary">NIST将测试三家主要技术公司的前沿AI模型以评估网络安全风险。</div>
-      </div>
-      <div class="finding">
-        <div class="finding-meta">
-          <span class="finding-date">2026-06-02</span>
-          <a href="https://thedefensepost.com/2026/05/04/pentagon-snubs-anthropic-ai" target="_blank" rel="noopener"><span class="finding-title">Pentagon Signs Classified AI Deals With Tech Giants, Snubs ...</span></a>
-        </div>
-        <div class="finding-summary">五角大楼宣布与七家领先的AI公司签署协议，在机密军事网络上部署其技术，明确排除了Anthropic。</div>
-      </div>
-      <div class="finding">
-        <div class="finding-meta">
-          <span class="finding-date">2026-06-01</span>
-          <a href="https://www.reuters.com/legal/government/trump-says-anthropic-is-shaping-up-open-deal-with-pentagon-2026-04-21" target="_blank" rel="noopener"><span class="finding-title">Trump says Anthropic is 'shaping up,' open to deal with Pentagon</span></a>
-        </div>
-        <div class="finding-summary">特朗普表示对Anthropic持开放态度，并考虑与五角大楼达成协议，这是历史发现中未出现的新事实。</div>
-      </div>
-      <div class="finding">
-        <div class="finding-meta">
-          <span class="finding-date">2026-06-01</span>
-          <a href="https://www.mayerbrown.com/en/insights/publications/2026/03/pentagon-designates-anthropic-a-supply-chain-risk-what-government-contractors-need-to-know" target="_blank" rel="noopener"><span class="finding-title">Pentagon Designates Anthropic a Supply Chain Risk — What Government Contractors Need to Know | Insights | Mayer Brown</span></a>
-        </div>
-        <div class="finding-summary">五角大楼将Anthropic列为供应链风险，这是历史发现中未出现的新事实。</div>
-      </div>
-      <div class="finding">
-        <div class="finding-meta">
-          <span class="finding-date">2026-06-01</span>
-          <a href="https://forum.devtalk.com/t/us-to-safety-test-new-ai-models-from-google-microsoft-xai/245121" target="_blank" rel="noopener"><span class="finding-title">US to safety test new AI models from Google, Microsoft, xAI - Devtalk</span></a>
-        </div>
-        <div class="finding-summary">美国政府将测试来自Google、Microsoft和xAI的新AI模型，这是历史发现中未出现的新事实。</div>
-      </div>
-      <div class="finding">
-        <div class="finding-meta">
-          <span class="finding-date">2026-05-31</span>
-          <a href="https://www.nytimes.com/2026/05/01/us/politics/pentagon-ai-companies-deals.html" target="_blank" rel="noopener"><span class="finding-title">Pentagon Makes Deals With A.I. Companies to Expand Classified Work - The New York Times</span></a>
-        </div>
-        <div class="finding-summary">文章报道了五角大楼与AI公司签订的协议，这是历史发现中未出现的新事实。</div>
-      </div>
+      <div class="card-body">
+        <div class="synopsis"><ul class="fallback-list"><li class="fb-item"><span class="fb-date">2026-06-05</span> <a href="https://defensescoop.com/2026/05/01/dod-expands-classified-ai-work-with-8-companies-excluding-anthropic" target="_blank" rel="noopener">DOD expands its classified AI work with 8 companies — excluding Anthropic — amid ongoing dispute</a>：DOD扩大其机密AI工作，排除Anthropic，这是历史发现中未出现的新事实。</li><li class="fb-item"><span class="fb-date">2026-06-04</span> <a href="https://www.cnbc.com/2026/04/21/trump-anthropic-department-defense-deal.html" target="_blank" rel="noopener">Trump says Anthropic deal is 'possible' for Department of Defense use</a>：特朗普表示，与Anthropic的国防部门使用AI的协议是可能的。</li><li class="fb-item"><span class="fb-date">2026-06-04</span> <a href="https://www.cybersecuritydive.com/news/nist-ai-model-testing-caisi-google-microsoft/819452" target="_blank" rel="noopener">NIST will test three major tech firms’ frontier AI models for cybersecurity risks</a>：NIST将测试三家主要技术公司的前沿AI模型以评估网络安全风险。</li><li class="fb-item"><span class="fb-date">2026-06-02</span> <a href="https://thedefensepost.com/2026/05/04/pentagon-snubs-anthropic-ai" target="_blank" rel="noopener">Pentagon Signs Classified AI Deals With Tech Giants, Snubs ...</a>：五角大楼宣布与七家领先的AI公司签署协议，在机密军事网络上部署其技术，明确排除了Anthropic。</li><li class="fb-item"><span class="fb-date">2026-06-01</span> <a href="https://www.reuters.com/legal/government/trump-says-anthropic-is-shaping-up-open-deal-with-pentagon-2026-04-21" target="_blank" rel="noopener">Trump says Anthropic is 'shaping up,' open to deal with Pentagon</a>：特朗普表示对Anthropic持开放态度，并考虑与五角大楼达成协议，这是历史发现中未出现的新事实。</li><li class="fb-item"><span class="fb-date">2026-06-01</span> <a href="https://www.mayerbrown.com/en/insights/publications/2026/03/pentagon-designates-anthropic-a-supply-chain-risk-what-government-contractors-need-to-know" target="_blank" rel="noopener">Pentagon Designates Anthropic a Supply Chain Risk — What Government Contractors Need to Know | Insights | Mayer Brown</a>：五角大楼将Anthropic列为供应链风险，这是历史发现中未出现的新事实。</li></ul></div><div class="sources"><div class="sources-label">来源</div><a class="src-link" href="https://defensescoop.com/2026/05/01/dod-expands-classified-ai-work-with-8-companies-excluding-anthropic" target="_blank" rel="noopener"><span class="src-date">2026-06-05</span> DOD expands its classified AI work with 8 companies — excluding Anthropic — amid ongoing dispute</a><a class="src-link" href="https://www.cnbc.com/2026/04/21/trump-anthropic-department-defense-deal.html" target="_blank" rel="noopener"><span class="src-date">2026-06-04</span> Trump says Anthropic deal is 'possible' for Department of Defense use</a><a class="src-link" href="https://www.cybersecuritydive.com/news/nist-ai-model-testing-caisi-google-microsoft/819452" target="_blank" rel="noopener"><span class="src-date">2026-06-04</span> NIST will test three major tech firms’ frontier AI models for cybersecurity risks</a><a class="src-link" href="https://thedefensepost.com/2026/05/04/pentagon-snubs-anthropic-ai" target="_blank" rel="noopener"><span class="src-date">2026-06-02</span> Pentagon Signs Classified AI Deals With Tech Giants, Snubs ...</a><a class="src-link" href="https://www.reuters.com/legal/government/trump-says-anthropic-is-shaping-up-open-deal-with-pentagon-2026-04-21" target="_blank" rel="noopener"><span class="src-date">2026-06-01</span> Trump says Anthropic is 'shaping up,' open to deal with Pentagon</a><a class="src-link" href="https://www.mayerbrown.com/en/insights/publications/2026/03/pentagon-designates-anthropic-a-supply-chain-risk-what-government-contractors-need-to-know" target="_blank" rel="noopener"><span class="src-date">2026-06-01</span> Pentagon Designates Anthropic a Supply Chain Risk — What Government Contractors Need to Know | Insights | Mayer Brown</a><a class="src-link" href="https://forum.devtalk.com/t/us-to-safety-test-new-ai-models-from-google-microsoft-xai/245121" target="_blank" rel="noopener"><span class="src-date">2026-06-01</span> US to safety test new AI models from Google, Microsoft, xAI - Devtalk</a><a class="src-link" href="https://www.nytimes.com/2026/05/01/us/politics/pentagon-ai-companies-deals.html" target="_blank" rel="noopener"><span class="src-date">2026-05-31</span> Pentagon Makes Deals With A.I. Companies to Expand Classified Work - The New York Times</a></div>
       </div>
     </div>
 
@@ -571,77 +281,24 @@
         <div class="chips"><span class="chip chip-person">Thomas Steiner</span><span class="chip chip-person">Alexandra Klepper</span><span class="chip chip-org">Google</span><span class="chip chip-org">Chrome 团队</span><span class="chip chip-org">Mozilla</span></div>
         <div class="card-meta">
           <span>📄 89 条发现</span>
+          <span>🆕 近期 17 条</span>
           <span>🕐 2026-06-02</span>
-          <span>🔄 每 24h 检查</span>
+          <span>🔄 每 24h</span>
         </div>
       </div>
-      <div class="findings-list">
-        
-      <div class="finding">
-        <div class="finding-meta">
-          <span class="finding-date">2026-06-02</span>
-          <a href="https://www.okoone.com/spark/technology-innovation/google-launches-gemini-nano-for-chrome-desktop-client" target="_blank" rel="noopener"><span class="finding-title">Google launches Gemini Nano for Chrome desktop client | Okoone</span></a>
-        </div>
-        <div class="finding-summary">Google launches Gemini Nano for Chrome desktop client, enhancing AI integration and offline functionality.</div>
-      </div>
-      <div class="finding">
-        <div class="finding-meta">
-          <span class="finding-date">2026-06-01</span>
-          <a href="https://domenic.me/builtin-ai-api-design" target="_blank" rel="noopener"><span class="finding-title">Designing the Built-in AI Web APIs | Domenic Denicola</span></a>
-        </div>
-        <div class="finding-summary">Designing the Built-in AI Web APIs. For the last year, I’ve been working as part of the Chrome built-in AI team on a set of APIs to bring various AI models to the web browser. As with all APIs we ship</div>
-      </div>
-      <div class="finding">
-        <div class="finding-meta">
-          <span class="finding-date">2026-05-31</span>
-          <a href="https://www.reddit.com/r/firefox/comments/1ta8uz0/mozilla_opposes_the_implementation_of_chromes" target="_blank" rel="noopener"><span class="finding-title">Mozilla opposes the implementation of Chrome's Prompt API in the ...</span></a>
-        </div>
-        <div class="finding-summary">Mozilla opposes the implementation of Chrome's Prompt API in the standard, which allows web developers to directly access an AI-based</div>
-      </div>
-      <div class="finding">
-        <div class="finding-meta">
-          <span class="finding-date">2026-05-30</span>
-          <a href="https://pasqualepillitteri.it/en/news/3145/gemini-nano-chrome-built-in-ai-client-side-en" target="_blank" rel="noopener"><span class="finding-title">Gemini Nano in the Browser: Client-Side AI for Web Apps with Chrome 148 (2026)</span></a>
-        </div>
-        <div class="finding-summary">Chrome 148 stabilizes Gemini Nano on-device: Prompt API, Summarizer, Translator without tokens</div>
-      </div>
-      <div class="finding">
-        <div class="finding-meta">
-          <span class="finding-date">2026-05-29</span>
-          <a href="https://groups.google.com/a/chromium.org/g/chrome-ai-dev-preview-discuss/c/8M6mL5uOnBQ" target="_blank" rel="noopener"><span class="finding-title">First-time Chrome Extension developer's journey setting up Gemini Nano and Prompt API</span></a>
-        </div>
-        <div class="finding-summary">First-time Chrome Extension developer's journey setting up Gemini Nano and Prompt API</div>
-      </div>
-      <div class="finding">
-        <div class="finding-meta">
-          <span class="finding-date">2026-05-27</span>
-          <a href="https://developers.googleblog.com/on-device-genai-in-chrome-chromebook-plus-and-pixel-watch-with-litert-lm" target="_blank" rel="noopener"><span class="finding-title">On-device GenAI in Chrome, Chromebook Plus, and Pixel Watch with LiteRT-LM
+      <div class="card-body">
+        <div class="synopsis"><ul class="fallback-list"><li class="fb-item"><span class="fb-date">2026-06-02</span> <a href="https://www.okoone.com/spark/technology-innovation/google-launches-gemini-nano-for-chrome-desktop-client" target="_blank" rel="noopener">Google launches Gemini Nano for Chrome desktop client | Okoone</a>：Google launches Gemini Nano for Chrome desktop client, enhancing AI integration and offline functionality.</li><li class="fb-item"><span class="fb-date">2026-06-01</span> <a href="https://domenic.me/builtin-ai-api-design" target="_blank" rel="noopener">Designing the Built-in AI Web APIs | Domenic Denicola</a>：Designing the Built-in AI Web APIs. For the last year, I’ve been working as part of the Chrome built-in AI team on a set of APIs to bring various AI models to the web browser. As with all APIs we ship, our goal is to make these APIs compelling enough that other browsers adopt them, and they become part of the web’s standard library. Working in such a fast-moving space brings tension with the us</li><li class="fb-item"><span class="fb-date">2026-05-31</span> <a href="https://www.reddit.com/r/firefox/comments/1ta8uz0/mozilla_opposes_the_implementation_of_chromes" target="_blank" rel="noopener">Mozilla opposes the implementation of Chrome's Prompt API in the ...</a>：Mozilla opposes the implementation of Chrome's Prompt API in the standard, which allows web developers to directly access an AI-based</li><li class="fb-item"><span class="fb-date">2026-05-30</span> <a href="https://pasqualepillitteri.it/en/news/3145/gemini-nano-chrome-built-in-ai-client-side-en" target="_blank" rel="noopener">Gemini Nano in the Browser: Client-Side AI for Web Apps with Chrome 148 (2026)</a>：Chrome 148 stabilizes Gemini Nano on-device: Prompt API, Summarizer, Translator without tokens</li><li class="fb-item"><span class="fb-date">2026-05-29</span> <a href="https://groups.google.com/a/chromium.org/g/chrome-ai-dev-preview-discuss/c/8M6mL5uOnBQ" target="_blank" rel="noopener">First-time Chrome Extension developer's journey setting up Gemini Nano and Prompt API</a>：First-time Chrome Extension developer's journey setting up Gemini Nano and Prompt API</li><li class="fb-item"><span class="fb-date">2026-05-27</span> <a href="https://developers.googleblog.com/on-device-genai-in-chrome-chromebook-plus-and-pixel-watch-with-litert-lm" target="_blank" rel="noopener">On-device GenAI in Chrome, Chromebook Plus, and Pixel Watch with LiteRT-LM
 
-- Google Developers Blog</span></a>
-        </div>
-        <div class="finding-summary">LiteRT-LM is a production-tested inference framework designed for running large language models, like Gemini Nano, Gemma, with high performance.</div>
-      </div>
-      <div class="finding">
-        <div class="finding-meta">
-          <span class="finding-date">2026-05-26</span>
-          <a href="https://www.reddit.com/r/LocalLLaMA/comments/1qkph45/chromes_local_ai_model_in_production_gemini_nano" target="_blank" rel="noopener"><span class="finding-title">Chrome's Local AI Model in production (Gemini Nano) 41 ... - Reddit</span></a>
-        </div>
-        <div class="finding-summary">Chrome's Local AI Model in production (Gemini Nano) 41 ... - Reddit</div>
-      </div>
-      <div class="finding">
-        <div class="finding-meta">
-          <span class="finding-date">2026-05-26</span>
-          <a href="https://www.reddit.com/r/chrome_extensions/comments/1r78n49/when_chromes_prompt_api_goes_public_what_are_the" target="_blank" rel="noopener"><span class="finding-title">When Chrome's Prompt API goes public — what are the first real use ...</span></a>
-        </div>
-        <div class="finding-summary">When Chrome's Prompt API goes public — what are the first real use ...</div>
-      </div>
+- Google Developers Blog</a>：LiteRT-LM is a production-tested inference framework designed for running large language models, like Gemini Nano, Gemma, with high performance.</li></ul></div><div class="sources"><div class="sources-label">来源</div><a class="src-link" href="https://www.okoone.com/spark/technology-innovation/google-launches-gemini-nano-for-chrome-desktop-client" target="_blank" rel="noopener"><span class="src-date">2026-06-02</span> Google launches Gemini Nano for Chrome desktop client | Okoone</a><a class="src-link" href="https://domenic.me/builtin-ai-api-design" target="_blank" rel="noopener"><span class="src-date">2026-06-01</span> Designing the Built-in AI Web APIs | Domenic Denicola</a><a class="src-link" href="https://www.reddit.com/r/firefox/comments/1ta8uz0/mozilla_opposes_the_implementation_of_chromes" target="_blank" rel="noopener"><span class="src-date">2026-05-31</span> Mozilla opposes the implementation of Chrome's Prompt API in the ...</a><a class="src-link" href="https://pasqualepillitteri.it/en/news/3145/gemini-nano-chrome-built-in-ai-client-side-en" target="_blank" rel="noopener"><span class="src-date">2026-05-30</span> Gemini Nano in the Browser: Client-Side AI for Web Apps with Chrome 148 (2026)</a><a class="src-link" href="https://groups.google.com/a/chromium.org/g/chrome-ai-dev-preview-discuss/c/8M6mL5uOnBQ" target="_blank" rel="noopener"><span class="src-date">2026-05-29</span> First-time Chrome Extension developer's journey setting up Gemini Nano and Prompt API</a><a class="src-link" href="https://developers.googleblog.com/on-device-genai-in-chrome-chromebook-plus-and-pixel-watch-with-litert-lm" target="_blank" rel="noopener"><span class="src-date">2026-05-27</span> On-device GenAI in Chrome, Chromebook Plus, and Pixel Watch with LiteRT-LM
+
+- Google Developers Blog</a><a class="src-link" href="https://www.reddit.com/r/LocalLLaMA/comments/1qkph45/chromes_local_ai_model_in_production_gemini_nano" target="_blank" rel="noopener"><span class="src-date">2026-05-26</span> Chrome's Local AI Model in production (Gemini Nano) 41 ... - Reddit</a><a class="src-link" href="https://www.reddit.com/r/chrome_extensions/comments/1r78n49/when_chromes_prompt_api_goes_public_what_are_the" target="_blank" rel="noopener"><span class="src-date">2026-05-26</span> When Chrome's Prompt API goes public — what are the first real use ...</a></div>
       </div>
     </div>
 </main>
 
 <footer class="footer">
   <a href="https://github.com/fxp/storyteller-deepdive-vault" target="_blank">GitHub</a>
-  &nbsp;·&nbsp; 数据由 BigModel GLM-4-Flash + Tavily 驱动
+  &nbsp;·&nbsp; 情报合成由 BigModel GLM-4-Flash 驱动 · 搜索由 Tavily 提供
 </footer>
 
 </body>

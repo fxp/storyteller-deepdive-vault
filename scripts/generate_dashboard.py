@@ -1,25 +1,42 @@
 #!/usr/bin/env python3
 """
-StoryTeller Dashboard Generator
-从 events/ 和 findings/ 目录读取数据，生成 dashboard.html
+StoryTeller Dashboard Generator  v2
+- 只展示 RELEVANT 新发现
+- 用 BigModel GLM 将近期发现合成叙述性进展摘要（而非 brief 列表）
+- 每次监控跑完自动调用
 """
 
 import os
 import re
 import sys
 from pathlib import Path
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
+import requests
 import yaml
 
-VAULT = Path(os.environ.get("VAULT", Path(__file__).parent.parent))
+VAULT        = Path(os.environ.get("VAULT", Path(__file__).parent.parent))
 EVENTS_DIR   = VAULT / "events"
 FINDINGS_DIR = VAULT / "findings"
 OUTPUT       = VAULT / "dashboard.html"
 
-# ── 状态配置 ─────────────────────────────────────────────────────
+BIGMODEL_API_KEY = os.environ.get("BIGMODEL_API_KEY", "")
 
-STATUS_ORDER  = ["HOT", "ACTIVE", "TRACKING", "WATCHING", "COOLING", "DORMANT", "CLOSED"]
+STATUS_ORDER = ["HOT", "ACTIVE", "TRACKING", "WATCHING", "COOLING", "DORMANT", "CLOSED"]
+
+# 按状态决定"近期"窗口（天）和历史上下文条数
+RECENCY_DAYS = {
+    "HOT":      5,
+    "ACTIVE":   10,
+    "TRACKING": 21,
+    "WATCHING": 30,
+    "COOLING":  45,
+    "DORMANT":  90,
+    "CLOSED":   0,
+}
+HISTORY_CTX = 10   # 传给 LLM 的历史背景条数（用于避免重复）
+MIN_RECENT_FOR_UPDATE = 2   # 至少这么多近期发现才合成摘要
+
 STATUS_COLORS = {
     "HOT":      ("#ff4d4d", "#3a1010"),
     "ACTIVE":   ("#f59e0b", "#2a1f08"),
@@ -30,7 +47,10 @@ STATUS_COLORS = {
     "CLOSED":   ("#64748b", "#181d25"),
 }
 
-# ── 解析 ─────────────────────────────────────────────────────────
+
+# ══════════════════════════════════════════════════════════════════
+# 数据读取
+# ══════════════════════════════════════════════════════════════════
 
 def parse_md(path: Path) -> tuple[dict, str]:
     text = path.read_text(encoding="utf-8")
@@ -45,108 +65,214 @@ def parse_md(path: Path) -> tuple[dict, str]:
     return {}, text
 
 
+def extract_summary(body: str) -> str:
+    """从 finding body 提取摘要段落"""
+    m = re.search(r"## 摘要\s*\n+([\s\S]+?)(?=\n##|\Z)", body)
+    if m:
+        text = m.group(1).strip()
+        text = re.sub(r"\[([^\]]+)\]\([^\)]+\)", r"\1", text)
+        return text.strip()
+    return ""
+
+
 def load_events() -> list[dict]:
     events = []
     for f in sorted(EVENTS_DIR.glob("*.md")):
-        fm, _ = parse_md(f)
+        fm, body = parse_md(f)
         if not fm:
             continue
         fm["_path"] = f
         fm["_id"]   = str(fm.get("id") or f.stem)
+        fm["_body"] = body
         events.append(fm)
 
     def sort_key(e):
         status = str(e.get("status", "DORMANT"))
         order  = STATUS_ORDER.index(status) if status in STATUS_ORDER else 99
-        activity = str(e.get("last_activity", "2000-01-01"))
-        return (order, activity)
+        return (order, str(e.get("last_activity", "2000-01-01")))
 
     events.sort(key=sort_key)
     return events
 
 
-def load_findings_for(event_id: str, limit: int = 8) -> list[dict]:
-    prefix = FINDINGS_DIR
-    all_findings = []
-    for f in prefix.glob(f"*-{event_id}-*.md"):
+def load_relevant_findings(event_id: str) -> list[dict]:
+    """加载该事件所有 RELEVANT 发现，按日期倒序"""
+    all_f = []
+    for f in FINDINGS_DIR.glob(f"*-{event_id}-*.md"):
         fm, body = parse_md(f)
-        if fm:
-            fm["_body"] = body
-            all_findings.append(fm)
-    # 按日期倒序
-    all_findings.sort(key=lambda x: str(x.get("date", "2000-01-01")), reverse=True)
-    return all_findings[:limit]
+        if fm and str(fm.get("relevance", "")) == "RELEVANT":
+            fm["_body"]    = body
+            fm["_summary"] = extract_summary(body)
+            all_f.append(fm)
+    all_f.sort(key=lambda x: str(x.get("date", "2000-01-01")), reverse=True)
+    return all_f
 
 
-# ── HTML 生成 ─────────────────────────────────────────────────────
+def split_recent_vs_history(findings: list[dict], days: int) -> tuple[list, list]:
+    """按天数切分近期 / 历史"""
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=days)).strftime("%Y-%m-%d")
+    recent  = [f for f in findings if str(f.get("date", "")) >= cutoff]
+    history = [f for f in findings if str(f.get("date", "")) < cutoff]
+    return recent, history
+
+
+# ══════════════════════════════════════════════════════════════════
+# BigModel 合成
+# ══════════════════════════════════════════════════════════════════
+
+def synthesize_update(
+    event_title: str,
+    status: str,
+    recent: list[dict],
+    history: list[dict],
+) -> str:
+    """
+    调用 GLM-4-Flash 将近期发现合成为叙述性进展摘要。
+    返回 HTML 字符串（段落+内联来源标注）。
+    """
+    if not BIGMODEL_API_KEY:
+        return _fallback_list(recent)
+
+    def fmt_finding(f):
+        date    = str(f.get("date", ""))
+        title   = str(f.get("source_title", ""))
+        summary = f.get("_summary", "")
+        return f"[{date}] {title}：{summary}"
+
+    recent_block = "\n".join(f"- {fmt_finding(f)}" for f in recent[:15])
+    history_block = "\n".join(f"- {fmt_finding(f)}" for f in history[:HISTORY_CTX])
+
+    prompt = f"""你是一名 AI 行业资深分析师。请根据下方「近期新发现」，为追踪课题「{event_title}」（当前状态：{status}）撰写一段中文进展叙述。
+
+【要求】
+1. 150～250 字，流畅叙述段落，不要用 bullet list
+2. 聚焦近期新发现的核心事实，优先突出变化、趋势、数字、关键人物
+3. 历史背景仅作参照，不要重复已知旧事实
+4. 结尾可以提出 1～2 个下一步值得关注的问题（用破折号 —— 引出）
+5. 只输出正文，不要标题、不要 markdown 符号
+
+【近期新发现（重点参考）】
+{recent_block}
+
+【历史背景（勿重复）】
+{history_block if history_block else "（无）"}
+
+进展叙述："""
+
+    try:
+        resp = requests.post(
+            "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+            headers={
+                "Authorization": f"Bearer {BIGMODEL_API_KEY}",
+                "Content-Type": "application/json",
+            },
+            json={
+                "model": "glm-4-flash",
+                "messages": [{"role": "user", "content": prompt}],
+                "temperature": 0.4,
+                "max_tokens": 600,
+            },
+            timeout=45,
+        )
+        resp.raise_for_status()
+        text = resp.json()["choices"][0]["message"]["content"].strip()
+        # 清理可能的 markdown 残余
+        text = re.sub(r"^#+\s+", "", text, flags=re.MULTILINE)
+        return esc(text)
+    except Exception as e:
+        print(f"  [WARN] synthesis failed: {e}")
+        return _fallback_list(recent)
+
+
+def _fallback_list(findings: list[dict]) -> str:
+    """API 失败时退化为简单列表"""
+    items = []
+    for f in findings[:6]:
+        url   = str(f.get("url", ""))
+        title = esc(str(f.get("source_title", url)))
+        summ  = esc(f.get("_summary", ""))
+        date  = esc(str(f.get("date", "")))
+        link  = f'<a href="{esc(url)}" target="_blank" rel="noopener">{title}</a>' if url else title
+        items.append(f'<li class="fb-item"><span class="fb-date">{date}</span> {link}{"：" + summ if summ else ""}</li>')
+    return f'<ul class="fallback-list">{"".join(items)}</ul>'
+
+
+# ══════════════════════════════════════════════════════════════════
+# HTML 渲染
+# ══════════════════════════════════════════════════════════════════
 
 def esc(s: str) -> str:
     return (str(s)
-            .replace("&", "&amp;")
-            .replace("<", "&lt;")
-            .replace(">", "&gt;")
-            .replace('"', "&quot;"))
+            .replace("&", "&amp;").replace("<", "&lt;")
+            .replace(">", "&gt;").replace('"', "&quot;"))
 
 
-def render_finding(f: dict) -> str:
-    url   = str(f.get("url", ""))
-    title = esc(str(f.get("source_title", url or "未知来源")))
-    date  = str(f.get("date", ""))
-
-    # 摘要：从 body 里取 ## 摘要 段落
-    body  = f.get("_body", "")
-    summary = ""
-    m = re.search(r"## 摘要\s*\n+([\s\S]+?)(?=\n##|\Z)", body)
-    if m:
-        summary = m.group(1).strip()
-        # 去掉 markdown 链接
-        summary = re.sub(r"\[([^\]]+)\]\([^\)]+\)", r"\1", summary)
-        summary = esc(summary[:200])
-
-    link_open  = f'<a href="{esc(url)}" target="_blank" rel="noopener">' if url else "<span>"
-    link_close = "</a>" if url else "</span>"
-
-    return f"""
-      <div class="finding">
-        <div class="finding-meta">
-          <span class="finding-date">{esc(date)}</span>
-          {link_open}<span class="finding-title">{title}</span>{link_close}
-        </div>
-        {f'<div class="finding-summary">{summary}</div>' if summary else ""}
-      </div>"""
+def render_source_links(findings: list[dict], max_n: int = 8) -> str:
+    """渲染来源链接列表"""
+    links = []
+    seen  = set()
+    for f in findings[:max_n]:
+        url   = str(f.get("url", ""))
+        title = str(f.get("source_title", url))
+        date  = str(f.get("date", ""))
+        if url in seen or not url:
+            continue
+        seen.add(url)
+        links.append(
+            f'<a class="src-link" href="{esc(url)}" target="_blank" rel="noopener">'
+            f'<span class="src-date">{esc(date)}</span> {esc(title)}'
+            f'</a>'
+        )
+    if not links:
+        return ""
+    return '<div class="sources"><div class="sources-label">来源</div>' + "".join(links) + "</div>"
 
 
-def render_event_card(ev: dict) -> str:
-    event_id  = ev["_id"]
-    title     = esc(str(ev.get("title", event_id)))
-    status    = str(ev.get("status", "DORMANT"))
+def render_card(ev: dict) -> str:
+    event_id = ev["_id"]
+    title    = esc(str(ev.get("title", event_id)))
+    status   = str(ev.get("status", "DORMANT"))
     findings_count = int(ev.get("findings_count", 0))
-    last_activity  = str(ev.get("last_activity", ""))
-    last_check     = str(ev.get("last_check", ""))
+    last_activity  = str(ev.get("last_activity", ev.get("last_check", "")[:10]))
+    interval_hours = int(ev.get("interval_hours", 6))
 
     color_fg, color_bg = STATUS_COLORS.get(status, ("#94a3b8", "#1e2530"))
-    is_hot = status == "HOT"
-    pulse  = '<span class="pulse-dot"></span>' if is_hot else ""
+    is_hot  = status == "HOT"
+    pulse   = '<span class="pulse-dot"></span>' if is_hot else ""
 
-    findings = load_findings_for(event_id, limit=8)
-    findings_html = "".join(render_finding(f) for f in findings) if findings else \
-        '<div class="no-findings">暂无最新发现</div>'
+    # 加载发现并分层
+    days        = RECENCY_DAYS.get(status, 14)
+    all_relevant = load_relevant_findings(event_id)
+    recent, history = split_recent_vs_history(all_relevant, days)
 
-    interval = int(ev.get("interval_hours", 6))
-    interval_label = f"每 {interval}h 检查"
-
+    # 实体 chips
     entities = ev.get("entities") or {}
-    tags_html = ""
+    chips_html = ""
     if isinstance(entities, dict):
-        people  = entities.get("people") or []
-        orgs    = entities.get("orgs") or []
-        tags = [(p, "person") for p in people[:3]] + [(o, "org") for o in orgs[:3]]
-        chips = "".join(
-            f'<span class="chip chip-{kind}">{esc(str(name))}</span>'
-            for name, kind in tags[:5]
-        )
+        chips = []
+        for p in (entities.get("people") or [])[:3]:
+            chips.append(f'<span class="chip chip-person">{esc(str(p))}</span>')
+        for o in (entities.get("orgs") or [])[:3]:
+            chips.append(f'<span class="chip chip-org">{esc(str(o))}</span>')
         if chips:
-            tags_html = f'<div class="chips">{chips}</div>'
+            chips_html = f'<div class="chips">{"".join(chips[:5])}</div>'
+
+    # ── 核心内容区 ──
+    if recent:
+        if len(recent) >= MIN_RECENT_FOR_UPDATE:
+            print(f"  Synthesizing update for {event_id} ({len(recent)} recent, {len(history)} history)...")
+            synopsis = synthesize_update(ev.get("title",""), status, recent, history)
+        else:
+            # 只有 1 条，直接展示摘要
+            f = recent[0]
+            synopsis = esc(f.get("_summary", str(f.get("source_title",""))))
+
+        content_html = f'<div class="synopsis">{synopsis}</div>' + render_source_links(recent)
+    else:
+        window_label = f"{days} 天内" if days else "—"
+        content_html = f'<div class="no-update">近 {window_label} 暂无新发现</div>'
+
+    recent_count = len(recent)
 
     return f"""
     <div class="card" data-status="{esc(status)}">
@@ -155,15 +281,16 @@ def render_event_card(ev: dict) -> str:
           <h2 class="card-title">{title}</h2>
           <span class="badge" style="color:{color_fg};background:{color_bg}">{pulse}{esc(status)}</span>
         </div>
-        {tags_html}
+        {chips_html}
         <div class="card-meta">
           <span>📄 {findings_count} 条发现</span>
-          <span>🕐 {esc(last_activity) or esc(last_check[:10])}</span>
-          <span>🔄 {interval_label}</span>
+          <span>🆕 近期 {recent_count} 条</span>
+          <span>🕐 {esc(last_activity)}</span>
+          <span>🔄 每 {interval_hours}h</span>
         </div>
       </div>
-      <div class="findings-list">
-        {findings_html}
+      <div class="card-body">
+        {content_html}
       </div>
     </div>"""
 
@@ -172,9 +299,9 @@ def generate(events: list[dict]) -> str:
     now_utc = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     total_findings = sum(int(e.get("findings_count", 0)) for e in events)
     hot_count = sum(1 for e in events if str(e.get("status")) == "HOT")
-    active_count = sum(1 for e in events if str(e.get("status")) in ("HOT","ACTIVE"))
 
-    cards_html = "\n".join(render_event_card(e) for e in events)
+    print(f"\nGenerating dashboard for {len(events)} events...")
+    cards_html = "\n".join(render_card(e) for e in events)
 
     return f"""<!DOCTYPE html>
 <html lang="zh-Hans">
@@ -188,13 +315,13 @@ def generate(events: list[dict]) -> str:
     --surface:     #13131a;
     --card:        #17171f;
     --border:      #1e1e2e;
-    --border-bright: #2e2e42;
+    --border-hi:   #2e2e42;
     --text:        #e2e8f0;
     --text-dim:    #94a3b8;
     --text-muted:  #64748b;
     --accent:      #6366f1;
     --hot:         #ef4444;
-    --font-mono:   'JetBrains Mono', 'Fira Code', monospace;
+    --font-mono:   'JetBrains Mono', 'Fira Code', ui-monospace, monospace;
   }}
   * {{ box-sizing: border-box; margin: 0; padding: 0; }}
   body {{
@@ -202,7 +329,7 @@ def generate(events: list[dict]) -> str:
     color: var(--text);
     font-family: -apple-system, 'PingFang SC', 'Noto Sans SC', sans-serif;
     font-size: 14px;
-    line-height: 1.6;
+    line-height: 1.7;
     min-height: 100vh;
   }}
 
@@ -217,52 +344,23 @@ def generate(events: list[dict]) -> str:
     gap: 16px;
     flex-wrap: wrap;
   }}
-  .header-left h1 {{
-    font-size: 20px;
-    font-weight: 700;
-    letter-spacing: -0.3px;
-  }}
-  .header-left p {{
-    color: var(--text-muted);
-    font-size: 12px;
-    margin-top: 2px;
-  }}
-  .stats {{
-    display: flex;
-    gap: 24px;
-  }}
-  .stat {{
-    text-align: center;
-  }}
-  .stat-value {{
-    font-size: 22px;
-    font-weight: 700;
-    font-family: var(--font-mono);
-    color: var(--text);
-  }}
-  .stat-label {{
-    font-size: 11px;
-    color: var(--text-muted);
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-  }}
+  .header-left h1 {{ font-size: 20px; font-weight: 700; letter-spacing: -0.3px; }}
+  .header-left p  {{ color: var(--text-muted); font-size: 12px; margin-top: 2px; }}
+  .stats {{ display: flex; gap: 24px; }}
+  .stat {{ text-align: center; }}
+  .stat-value {{ font-size: 22px; font-weight: 700; font-family: var(--font-mono); }}
+  .stat-label {{ font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }}
   .live-badge {{
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    background: rgba(239,68,68,.12);
-    border: 1px solid rgba(239,68,68,.3);
-    border-radius: 999px;
-    padding: 4px 12px;
-    font-size: 12px;
-    color: var(--hot);
-    font-weight: 600;
+    display: flex; align-items: center; gap: 6px;
+    background: rgba(239,68,68,.1); border: 1px solid rgba(239,68,68,.25);
+    border-radius: 999px; padding: 4px 12px;
+    font-size: 12px; color: var(--hot); font-weight: 600;
   }}
 
   /* ── Grid ── */
   .grid {{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(520px, 1fr));
     gap: 20px;
     padding: 24px 32px;
     max-width: 1600px;
@@ -279,46 +377,30 @@ def generate(events: list[dict]) -> str:
     flex-direction: column;
     transition: border-color 0.2s;
   }}
-  .card:hover {{ border-color: var(--border-bright); }}
-  .card[data-status="HOT"] {{ border-color: rgba(239,68,68,.25); }}
+  .card:hover {{ border-color: var(--border-hi); }}
+  .card[data-status="HOT"]    {{ border-color: rgba(239,68,68,.22); }}
+  .card[data-status="ACTIVE"] {{ border-color: rgba(245,158,11,.15); }}
 
   .card-header {{
     padding: 18px 20px 14px;
     border-bottom: 1px solid var(--border);
   }}
   .card-title-row {{
-    display: flex;
-    align-items: flex-start;
-    gap: 10px;
-    margin-bottom: 10px;
+    display: flex; align-items: flex-start; gap: 10px; margin-bottom: 8px;
   }}
   .card-title {{
-    font-size: 15px;
-    font-weight: 600;
-    flex: 1;
-    line-height: 1.4;
+    font-size: 15px; font-weight: 600; flex: 1; line-height: 1.4;
   }}
   .badge {{
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    font-size: 11px;
-    font-weight: 700;
-    padding: 3px 9px;
-    border-radius: 6px;
-    white-space: nowrap;
-    flex-shrink: 0;
-    font-family: var(--font-mono);
-    letter-spacing: 0.5px;
+    display: flex; align-items: center; gap: 5px;
+    font-size: 11px; font-weight: 700;
+    padding: 3px 9px; border-radius: 6px;
+    white-space: nowrap; flex-shrink: 0;
+    font-family: var(--font-mono); letter-spacing: 0.5px;
   }}
-
-  /* ── Pulse animation ── */
   .pulse-dot {{
-    display: inline-block;
-    width: 7px;
-    height: 7px;
-    border-radius: 50%;
-    background: #ef4444;
+    display: inline-block; width: 7px; height: 7px;
+    border-radius: 50%; background: #ef4444;
     animation: pulse 1.8s ease-in-out infinite;
   }}
   @keyframes pulse {{
@@ -326,85 +408,60 @@ def generate(events: list[dict]) -> str:
     50%       {{ opacity: 0.4; transform: scale(0.7); }}
   }}
 
-  /* ── Chips ── */
   .chips {{ display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 10px; }}
-  .chip {{
-    font-size: 11px;
-    padding: 2px 8px;
-    border-radius: 4px;
-    font-weight: 500;
-  }}
+  .chip {{ font-size: 11px; padding: 2px 8px; border-radius: 4px; font-weight: 500; }}
   .chip-person {{ background: rgba(139,92,246,.15); color: #a78bfa; }}
   .chip-org    {{ background: rgba(59,130,246,.15);  color: #60a5fa; }}
 
-  .card-meta {{
-    display: flex;
-    gap: 16px;
-    font-size: 12px;
-    color: var(--text-muted);
+  .card-meta {{ display: flex; flex-wrap: wrap; gap: 12px; font-size: 12px; color: var(--text-muted); }}
+
+  /* ── Card body ── */
+  .card-body {{ padding: 18px 20px 20px; flex: 1; display: flex; flex-direction: column; gap: 14px; }}
+
+  /* 合成摘要 */
+  .synopsis {{
+    font-size: 14px;
+    color: var(--text-dim);
+    line-height: 1.8;
+    white-space: pre-wrap;
   }}
 
-  /* ── Findings ── */
-  .findings-list {{
-    flex: 1;
-    padding: 12px 20px 16px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  /* 来源链接 */
+  .sources {{ display: flex; flex-direction: column; gap: 5px; }}
+  .sources-label {{
+    font-size: 11px; text-transform: uppercase; letter-spacing: 0.8px;
+    color: var(--text-muted); margin-bottom: 2px;
   }}
-  .finding {{
-    padding-bottom: 10px;
-    border-bottom: 1px solid var(--border);
-  }}
-  .finding:last-child {{ border-bottom: none; padding-bottom: 0; }}
-  .finding-meta {{
-    display: flex;
-    align-items: baseline;
-    gap: 8px;
-    flex-wrap: wrap;
-  }}
-  .finding-date {{
-    font-size: 11px;
-    color: var(--text-muted);
-    font-family: var(--font-mono);
-    flex-shrink: 0;
-  }}
-  .finding-title {{
-    font-size: 13px;
-    font-weight: 500;
-    color: var(--text-dim);
-    line-height: 1.3;
-  }}
-  .finding-meta a {{
+  .src-link {{
+    display: flex; align-items: baseline; gap: 8px;
+    font-size: 12px; color: var(--text-muted);
     text-decoration: none;
-    border-bottom: 1px solid var(--border-bright);
-    transition: color 0.12s, border-color 0.12s;
+    border-bottom: 1px solid transparent;
+    padding: 2px 0;
+    transition: color 0.12s;
+    line-height: 1.4;
   }}
-  .finding-meta a:hover .finding-title {{
-    color: var(--text);
-    border-color: var(--text-dim);
+  .src-link:hover {{ color: var(--text-dim); }}
+  .src-date {{
+    font-family: var(--font-mono); font-size: 11px;
+    color: var(--text-muted); flex-shrink: 0;
   }}
-  .finding-meta a:hover {{ border-color: var(--text-dim); }}
-  .finding-summary {{
-    font-size: 12px;
-    color: var(--text-muted);
-    margin-top: 4px;
-    line-height: 1.5;
+
+  .no-update {{
+    font-size: 13px; color: var(--text-muted); font-style: italic; padding: 8px 0;
   }}
-  .no-findings {{
-    font-size: 13px;
-    color: var(--text-muted);
-    font-style: italic;
-    padding: 8px 0;
-  }}
+
+  /* fallback list */
+  .fallback-list {{ list-style: none; display: flex; flex-direction: column; gap: 8px; }}
+  .fb-item {{ font-size: 13px; color: var(--text-dim); }}
+  .fb-item a {{ color: var(--text-dim); text-decoration: none; border-bottom: 1px solid var(--border-hi); }}
+  .fb-item a:hover {{ color: var(--text); }}
+  .fb-date {{ font-family: var(--font-mono); font-size: 11px; color: var(--text-muted); margin-right: 4px; }}
 
   /* ── Footer ── */
   .footer {{
-    text-align: center;
-    padding: 24px;
-    color: var(--text-muted);
-    font-size: 12px;
-    border-top: 1px solid var(--border);
+    text-align: center; padding: 24px; color: var(--text-muted);
+    font-size: 12px; border-top: 1px solid var(--border);
   }}
   .footer a {{ color: var(--text-muted); }}
 
@@ -448,7 +505,7 @@ def generate(events: list[dict]) -> str:
 
 <footer class="footer">
   <a href="https://github.com/fxp/storyteller-deepdive-vault" target="_blank">GitHub</a>
-  &nbsp;·&nbsp; 数据由 BigModel GLM-4-Flash + Tavily 驱动
+  &nbsp;·&nbsp; 情报合成由 BigModel GLM-4-Flash 驱动 · 搜索由 Tavily 提供
 </footer>
 
 </body>
@@ -460,4 +517,4 @@ if __name__ == "__main__":
     html   = generate(events)
     OUTPUT.write_text(html, encoding="utf-8")
     total = sum(int(e.get("findings_count", 0)) for e in events)
-    print(f"Dashboard generated: {len(events)} events, {total} findings → {OUTPUT}")
+    print(f"\nDashboard → {OUTPUT}  ({len(events)} events, {total} findings)")
