@@ -1,9 +1,11 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-11
-url: "https://edition.cnn.com/2026/05/05/tech/microsoft-google-xai-government-test-ai-models"
-source_title: "Microsoft, Google and xAI will let the government test their AI models before launch"
+url: https://edition.cnn.com/2026/05/05/tech/microsoft-google-xai-government-test-ai-models
+source_title: Microsoft, Google and xAI will let the government test their AI models
+  before launch
 relevance: RELEVANT
+quality: OK
 ---
 
 # Microsoft, Google and xAI will let the government test their AI models before launch

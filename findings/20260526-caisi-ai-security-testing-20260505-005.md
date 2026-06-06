@@ -1,9 +1,10 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-26
-url: "https://www.dw.com/en/pentagon-inks-deals-with-ai-giants-but-not-anthropic/a-77012715"
-source_title: "Pentagon inks deals with AI giants, but not Anthropic"
+url: https://www.dw.com/en/pentagon-inks-deals-with-ai-giants-but-not-anthropic/a-77012715
+source_title: Pentagon inks deals with AI giants, but not Anthropic
 relevance: RELEVANT
+quality: OK
 ---
 
 # Pentagon inks deals with AI giants, but not Anthropic

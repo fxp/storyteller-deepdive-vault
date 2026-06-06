@@ -1,9 +1,10 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-06-01
-url: "https://forum.devtalk.com/t/us-to-safety-test-new-ai-models-from-google-microsoft-xai/245121"
-source_title: "US to safety test new AI models from Google, Microsoft, xAI - Devtalk"
+url: https://forum.devtalk.com/t/us-to-safety-test-new-ai-models-from-google-microsoft-xai/245121
+source_title: US to safety test new AI models from Google, Microsoft, xAI - Devtalk
 relevance: RELEVANT
+quality: OK
 ---
 
 # US to safety test new AI models from Google, Microsoft, xAI - Devtalk

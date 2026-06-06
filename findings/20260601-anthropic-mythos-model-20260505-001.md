@@ -1,9 +1,11 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-06-01
-url: "https://www.youtube.com/watch?v=RgVrfZwfALE"
-source_title: "Anthropic's Triple Reveal: Mythos Turns Claude's 2026 Race Into a Security Test"
+url: https://www.youtube.com/watch?v=RgVrfZwfALE
+source_title: 'Anthropic''s Triple Reveal: Mythos Turns Claude''s 2026 Race Into a
+  Security Test'
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic's Triple Reveal: Mythos Turns Claude's 2026 Race Into a Security Test

@@ -1,9 +1,11 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-30
-url: "https://www.nextgov.com/artificial-intelligence/2026/05/commerce-ai-center-will-evaluate-google-deepmind-microsoft-and-xai-models/413349"
-source_title: "Commerce AI center will evaluate Google Deepmind, Microsoft and xAI models - Nextgov/FCW"
+url: https://www.nextgov.com/artificial-intelligence/2026/05/commerce-ai-center-will-evaluate-google-deepmind-microsoft-and-xai-models/413349
+source_title: Commerce AI center will evaluate Google Deepmind, Microsoft and xAI
+  models - Nextgov/FCW
 relevance: RELEVANT
+quality: OK
 ---
 
 # Commerce AI center will evaluate Google Deepmind, Microsoft and xAI models - Nextgov/FCW

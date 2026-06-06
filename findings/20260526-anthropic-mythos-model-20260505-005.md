@@ -1,9 +1,11 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-26
-url: "https://www.mindstudio.ai/blog/claude-mythos-vs-opus-4-6-cybersecurity-gap"
-source_title: "Claude Mythos vs Claude Opus 4.6: How Big Is the Cybersecurity Capability Gap? | MindStudio"
+url: https://www.mindstudio.ai/blog/claude-mythos-vs-opus-4-6-cybersecurity-gap
+source_title: 'Claude Mythos vs Claude Opus 4.6: How Big Is the Cybersecurity Capability
+  Gap? | MindStudio'
 relevance: RELEVANT
+quality: OK
 ---
 
 # Claude Mythos vs Claude Opus 4.6: How Big Is the Cybersecurity Capability Gap? | MindStudio

@@ -1,9 +1,11 @@
 ---
-event: "[[anthropic-enterprise-ai-20260504]]"
+event: '[[anthropic-enterprise-ai-20260504]]'
 date: 2026-05-12
-url: "https://www.alphaspread.com/market-news/corporate-moves/anthropic-launches-enterprise-ai-venture-with-blackstone-goldman-sachs-and-hellman-friedman"
-source_title: "Anthropic Launches Enterprise AI Venture With Blackstone, Goldman Sachs and Hellman & Friedman - Alpha Spread"
+url: https://www.alphaspread.com/market-news/corporate-moves/anthropic-launches-enterprise-ai-venture-with-blackstone-goldman-sachs-and-hellman-friedman
+source_title: Anthropic Launches Enterprise AI Venture With Blackstone, Goldman Sachs
+  and Hellman & Friedman - Alpha Spread
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic Launches Enterprise AI Venture With Blackstone, Goldman Sachs and Hellman & Friedman - Alpha Spread

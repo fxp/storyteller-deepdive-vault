@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-13
-url: "https://www.cnn.com/2026/04/03/tech/anthropic-mythos-ai-cybersecurity"
-source_title: "Anthropic's next model could be a 'watershed moment' for ... - CNN"
+url: https://www.cnn.com/2026/04/03/tech/anthropic-mythos-ai-cybersecurity
+source_title: Anthropic's next model could be a 'watershed moment' for ... - CNN
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic's next model could be a 'watershed moment' for ... - CNN

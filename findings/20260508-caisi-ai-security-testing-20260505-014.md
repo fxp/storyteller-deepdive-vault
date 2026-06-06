@@ -1,9 +1,10 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-08
-url: "https://www.deeplearning.ai/the-batch/us-government-to-vet-new-models/"
-source_title: "Data Points: US government to vet new models - DeepLearning.AI"
+url: https://www.deeplearning.ai/the-batch/us-government-to-vet-new-models/
+source_title: 'Data Points: US government to vet new models - DeepLearning.AI'
 relevance: RELEVANT
+quality: OK
 ---
 
 # Data Points: US government to vet new models - DeepLearning.AI

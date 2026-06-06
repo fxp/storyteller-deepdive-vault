@@ -1,9 +1,11 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-14
-url: "https://www.politico.com/news/2026/04/30/white-house-ai-cyber-threats-mythos-00902045"
-source_title: "White House presses tech companies for support on AI-driven cyberattacks - POLITICO"
+url: https://www.politico.com/news/2026/04/30/white-house-ai-cyber-threats-mythos-00902045
+source_title: White House presses tech companies for support on AI-driven cyberattacks
+  - POLITICO
 relevance: RELEVANT
+quality: OK
 ---
 
 # White House presses tech companies for support on AI-driven cyberattacks - POLITICO

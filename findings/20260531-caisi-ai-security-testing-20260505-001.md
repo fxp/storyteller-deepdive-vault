@@ -1,9 +1,11 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-31
-url: "https://www.nytimes.com/2026/05/01/us/politics/pentagon-ai-companies-deals.html"
-source_title: "Pentagon Makes Deals With A.I. Companies to Expand Classified Work - The New York Times"
+url: https://www.nytimes.com/2026/05/01/us/politics/pentagon-ai-companies-deals.html
+source_title: Pentagon Makes Deals With A.I. Companies to Expand Classified Work -
+  The New York Times
 relevance: RELEVANT
+quality: OK
 ---
 
 # Pentagon Makes Deals With A.I. Companies to Expand Classified Work - The New York Times

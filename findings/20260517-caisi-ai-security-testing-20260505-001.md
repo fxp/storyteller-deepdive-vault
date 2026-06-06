@@ -1,9 +1,10 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-17
-url: "https://www.linkedin.com/posts/rayzinn_pentagon-says-us-military-will-be-an-ai-first-activity-7458594121436344321-Xz17"
-source_title: "US Military Expands AI Contracts with Google, OpenAI, Amazon ..."
+url: https://www.linkedin.com/posts/rayzinn_pentagon-says-us-military-will-be-an-ai-first-activity-7458594121436344321-Xz17
+source_title: US Military Expands AI Contracts with Google, OpenAI, Amazon ...
 relevance: RELEVANT
+quality: OK
 ---
 
 # US Military Expands AI Contracts with Google, OpenAI, Amazon ...

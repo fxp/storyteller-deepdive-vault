@@ -1,9 +1,10 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-26
-url: "https://www.linkedin.com/posts/jnitterauer_us-government-agency-to-safety-test-frontier-activity-7458515280814682113-q4CW"
-source_title: "White House May Create AI Vetting System - LinkedIn"
+url: https://www.linkedin.com/posts/jnitterauer_us-government-agency-to-safety-test-frontier-activity-7458515280814682113-q4CW
+source_title: White House May Create AI Vetting System - LinkedIn
 relevance: RELEVANT
+quality: OK
 ---
 
 # White House May Create AI Vetting System - LinkedIn

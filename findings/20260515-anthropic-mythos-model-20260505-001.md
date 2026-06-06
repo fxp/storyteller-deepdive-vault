@@ -1,9 +1,11 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-15
-url: "https://www.pbs.org/newshour/politics/appeals-court-decides-against-anthropic-in-latest-round-of-its-ai-battle-with-the-trump-administration"
-source_title: "Appeals court decides against Anthropic in latest round of its AI battle with the Trump administration | PBS News"
+url: https://www.pbs.org/newshour/politics/appeals-court-decides-against-anthropic-in-latest-round-of-its-ai-battle-with-the-trump-administration
+source_title: Appeals court decides against Anthropic in latest round of its AI battle
+  with the Trump administration | PBS News
 relevance: RELEVANT
+quality: OK
 ---
 
 # Appeals court decides against Anthropic in latest round of its AI battle with the Trump administration | PBS News

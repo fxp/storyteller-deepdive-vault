@@ -1,9 +1,11 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-12
-url: "https://www.nbcnews.com/tech/tech-news/trump-bans-anthropic-government-use-rcna261055"
-source_title: "OpenAI strikes deal with Pentagon after Trump orders government to stop using Anthropic"
+url: https://www.nbcnews.com/tech/tech-news/trump-bans-anthropic-government-use-rcna261055
+source_title: OpenAI strikes deal with Pentagon after Trump orders government to stop
+  using Anthropic
 relevance: RELEVANT
+quality: OK
 ---
 
 # OpenAI strikes deal with Pentagon after Trump orders government to stop using Anthropic

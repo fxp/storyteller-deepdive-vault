@@ -1,9 +1,11 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-27
-url: "https://kenhuangus.substack.com/p/what-is-inside-claude-mythos-preview"
-source_title: "What Is Inside Claude Mythos Preview? Dissecting the System Card of the Model"
+url: https://kenhuangus.substack.com/p/what-is-inside-claude-mythos-preview
+source_title: What Is Inside Claude Mythos Preview? Dissecting the System Card of
+  the Model
 relevance: RELEVANT
+quality: OK
 ---
 
 # What Is Inside Claude Mythos Preview? Dissecting the System Card of the Model

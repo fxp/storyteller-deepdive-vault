@@ -1,9 +1,11 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-19
-url: "https://www.mindstudio.ai/blog/claude-mythos-27-year-openbsd-vulnerability-white-house/"
-source_title: "Claude Mythos Found a 27-Year-Old Vulnerability — Then the White House Stepped In: 4 Things You Need to Know | MindStudio"
+url: https://www.mindstudio.ai/blog/claude-mythos-27-year-openbsd-vulnerability-white-house/
+source_title: 'Claude Mythos Found a 27-Year-Old Vulnerability — Then the White House
+  Stepped In: 4 Things You Need to Know | MindStudio'
 relevance: RELEVANT
+quality: OK
 ---
 
 # Claude Mythos Found a 27-Year-Old Vulnerability — Then the White House Stepped In: 4 Things You Need to Know | MindStudio

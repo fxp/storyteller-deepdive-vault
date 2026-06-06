@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-08
-url: "https://www.linkedin.com/posts/sadiakhalil_assessing-claude-mythos-previews-cybersecurity-activity-7448148271002189824-ZCdk"
-source_title: "Anthropic's Claude Mythos Preview Launched with Advanced ..."
+url: https://www.linkedin.com/posts/sadiakhalil_assessing-claude-mythos-previews-cybersecurity-activity-7448148271002189824-ZCdk
+source_title: Anthropic's Claude Mythos Preview Launched with Advanced ...
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic's Claude Mythos Preview Launched with Advanced ...

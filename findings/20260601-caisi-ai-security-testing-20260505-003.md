@@ -1,9 +1,11 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-06-01
-url: "https://www.mayerbrown.com/en/insights/publications/2026/03/pentagon-designates-anthropic-a-supply-chain-risk-what-government-contractors-need-to-know"
-source_title: "Pentagon Designates Anthropic a Supply Chain Risk — What Government Contractors Need to Know | Insights | Mayer Brown"
+url: https://www.mayerbrown.com/en/insights/publications/2026/03/pentagon-designates-anthropic-a-supply-chain-risk-what-government-contractors-need-to-know
+source_title: Pentagon Designates Anthropic a Supply Chain Risk — What Government
+  Contractors Need to Know | Insights | Mayer Brown
 relevance: RELEVANT
+quality: OK
 ---
 
 # Pentagon Designates Anthropic a Supply Chain Risk — What Government Contractors Need to Know | Insights | Mayer Brown

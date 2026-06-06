@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-09
-url: "https://llm-stats.com/models/claude-mythos-preview"
-source_title: "Claude Mythos Preview Benchmarks, Pricing & Context Window"
+url: https://llm-stats.com/models/claude-mythos-preview
+source_title: Claude Mythos Preview Benchmarks, Pricing & Context Window
 relevance: RELEVANT
+quality: OK
 ---
 
 # Claude Mythos Preview Benchmarks, Pricing & Context Window

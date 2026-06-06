@@ -1,9 +1,11 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-13
-url: "https://fortune.com/2026/04/10/anthropic-mythos-ai-driven-cybersecurity-risks-already-here/"
-source_title: "Anthropic’s Mythos is a wake-up call, but experts say the era of AI-driven hacking is already here | Fortune"
+url: https://fortune.com/2026/04/10/anthropic-mythos-ai-driven-cybersecurity-risks-already-here/
+source_title: Anthropic’s Mythos is a wake-up call, but experts say the era of AI-driven
+  hacking is already here | Fortune
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic’s Mythos is a wake-up call, but experts say the era of AI-driven hacking is already here | Fortune

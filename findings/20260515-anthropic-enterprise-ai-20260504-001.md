@@ -1,9 +1,11 @@
 ---
-event: "[[anthropic-enterprise-ai-20260504]]"
+event: '[[anthropic-enterprise-ai-20260504]]'
 date: 2026-05-15
-url: "https://finance.yahoo.com/sectors/technology/articles/anthropic-partners-blackstone-hellman-friedman-130000897.html"
-source_title: "Anthropic Partners with Blackstone, Hellman & Friedman, and Goldman Sachs to Launch Enterprise AI Services Firm"
+url: https://finance.yahoo.com/sectors/technology/articles/anthropic-partners-blackstone-hellman-friedman-130000897.html
+source_title: Anthropic Partners with Blackstone, Hellman & Friedman, and Goldman
+  Sachs to Launch Enterprise AI Services Firm
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic Partners with Blackstone, Hellman & Friedman, and Goldman Sachs to Launch Enterprise AI Services Firm

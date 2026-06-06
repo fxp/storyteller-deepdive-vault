@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-17
-url: "https://www.linkedin.com/posts/nicholasxthompson_the-most-interesting-thing-in-tech-the-rollout-activity-7457196465438830592-z03B"
-source_title: "Government Pressure on Anthropic's Mythos AI Model"
+url: https://www.linkedin.com/posts/nicholasxthompson_the-most-interesting-thing-in-tech-the-rollout-activity-7457196465438830592-z03B
+source_title: Government Pressure on Anthropic's Mythos AI Model
 relevance: RELEVANT
+quality: OK
 ---
 
 # Government Pressure on Anthropic's Mythos AI Model

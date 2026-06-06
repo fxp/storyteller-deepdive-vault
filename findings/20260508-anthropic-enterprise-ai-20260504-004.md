@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-enterprise-ai-20260504]]"
+event: '[[anthropic-enterprise-ai-20260504]]'
 date: 2026-05-08
-url: "https://www.inc.com/lucia-auerbach/anthropic-announces-new-joint-venture-for-businesses/91339979"
-source_title: "Claude Is Coming to Your Office: Anthropic Announces $1.5 Billion ..."
+url: https://www.inc.com/lucia-auerbach/anthropic-announces-new-joint-venture-for-businesses/91339979
+source_title: 'Claude Is Coming to Your Office: Anthropic Announces $1.5 Billion ...'
 relevance: RELEVANT
+quality: OK
 ---
 
 # Claude Is Coming to Your Office: Anthropic Announces $1.5 Billion ...

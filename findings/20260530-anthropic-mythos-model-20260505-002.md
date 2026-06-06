@@ -1,9 +1,11 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-30
-url: "https://thenationaldesk.com/news/fact-check-team/fact-check-team-anthropics-mythos-ai-raises-cybersecurity-promise-but-poses-risk-tools-cautious-google-amazon-apple"
-source_title: "Fact Check Team: Anthropic’s Mythos AI raises cybersecurity promise, but poses risk"
+url: https://thenationaldesk.com/news/fact-check-team/fact-check-team-anthropics-mythos-ai-raises-cybersecurity-promise-but-poses-risk-tools-cautious-google-amazon-apple
+source_title: 'Fact Check Team: Anthropic’s Mythos AI raises cybersecurity promise,
+  but poses risk'
 relevance: RELEVANT
+quality: OK
 ---
 
 # Fact Check Team: Anthropic’s Mythos AI raises cybersecurity promise, but poses risk

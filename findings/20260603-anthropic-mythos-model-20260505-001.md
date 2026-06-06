@@ -1,9 +1,11 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-06-03
-url: "https://www.facebook.com/CBSNews/videos/ai-giant-anthropic-says-its-new-model-claude-mythos-preview-is-so-good-at-coding/1431414284955693"
-source_title: "AI giant Anthropic says its new model, Claude Mythos Preview, is so ..."
+url: https://www.facebook.com/CBSNews/videos/ai-giant-anthropic-says-its-new-model-claude-mythos-preview-is-so-good-at-coding/1431414284955693
+source_title: AI giant Anthropic says its new model, Claude Mythos Preview, is so
+  ...
 relevance: RELEVANT
+quality: OK
 ---
 
 # AI giant Anthropic says its new model, Claude Mythos Preview, is so ...

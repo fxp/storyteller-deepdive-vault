@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-14
-url: "https://www.geekwire.com/2026/microsofts-multi-agent-ai-system-tops-anthropics-mythos-on-cybersecurity-benchmark/"
-source_title: "Microsoft's multi-agent AI system tops Anthropic's Mythos ... - GeekWire"
+url: https://www.geekwire.com/2026/microsofts-multi-agent-ai-system-tops-anthropics-mythos-on-cybersecurity-benchmark/
+source_title: Microsoft's multi-agent AI system tops Anthropic's Mythos ... - GeekWire
 relevance: RELEVANT
+quality: OK
 ---
 
 # Microsoft's multi-agent AI system tops Anthropic's Mythos ... - GeekWire

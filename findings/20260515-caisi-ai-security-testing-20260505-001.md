@@ -1,9 +1,11 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-15
-url: "https://www.theguardian.com/us-news/2026/may/01/pentagon-us-military-pairs-with-spacex-google-openai"
-source_title: "Pentagon inks deals with eight AI companies for classified military work | Trump administration | The Guardian"
+url: https://www.theguardian.com/us-news/2026/may/01/pentagon-us-military-pairs-with-spacex-google-openai
+source_title: Pentagon inks deals with eight AI companies for classified military
+  work | Trump administration | The Guardian
 relevance: RELEVANT
+quality: OK
 ---
 
 # Pentagon inks deals with eight AI companies for classified military work | Trump administration | The Guardian

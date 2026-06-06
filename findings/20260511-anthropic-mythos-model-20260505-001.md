@@ -1,9 +1,11 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-11
-url: "https://apnews.com/article/anthropic-pentagon-openai-claude-chatgpt-military-ai-b2bbcf5fda3f27353eae1e0eb7ab07b6"
-source_title: "Anthropic's moral stand against Pentagon raises questions about AI's readiness for military use | AP News"
+url: https://apnews.com/article/anthropic-pentagon-openai-claude-chatgpt-military-ai-b2bbcf5fda3f27353eae1e0eb7ab07b6
+source_title: Anthropic's moral stand against Pentagon raises questions about AI's
+  readiness for military use | AP News
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic's moral stand against Pentagon raises questions about AI's readiness for military use | AP News

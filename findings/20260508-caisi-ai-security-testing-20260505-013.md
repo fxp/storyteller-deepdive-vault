@@ -1,9 +1,10 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-08
-url: "https://www.msn.com/en-us/money/other/us-government-to-test-ai-models-expand-oversight/ar-AA22rBYv"
-source_title: "US government to test AI models, expand oversight - MSN"
+url: https://www.msn.com/en-us/money/other/us-government-to-test-ai-models-expand-oversight/ar-AA22rBYv
+source_title: US government to test AI models, expand oversight - MSN
 relevance: RELEVANT
+quality: OK
 ---
 
 # US government to test AI models, expand oversight - MSN

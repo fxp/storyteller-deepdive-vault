@@ -1,9 +1,10 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-26
-url: "https://thehill.com/homenews/5863937-google-microsoft-xai-ai-testing"
-source_title: "Federal government to vet AI models before release - The Hill"
+url: https://thehill.com/homenews/5863937-google-microsoft-xai-ai-testing
+source_title: Federal government to vet AI models before release - The Hill
 relevance: RELEVANT
+quality: OK
 ---
 
 # Federal government to vet AI models before release - The Hill

@@ -1,9 +1,11 @@
 ---
-event: "[[anthropic-enterprise-ai-20260504]]"
+event: '[[anthropic-enterprise-ai-20260504]]'
 date: 2026-05-08
-url: "https://www.tekedia.com/anthropic-teams-up-with-goldman-sachs-to-launch-new-ai-services-company-bringing-claude-to-mid-sized-businesses/?srsltid=AfmBOops5u6HbfalWFcV9En25266m0YMReDS6DSbAWoDIaW3Lr8uWPXG"
-source_title: "Anthropic Teams up With Goldman Sachs to Launch New AI Services Company, Bringing Claude to Mid-Sized Businesses - Tekedia"
+url: https://www.tekedia.com/anthropic-teams-up-with-goldman-sachs-to-launch-new-ai-services-company-bringing-claude-to-mid-sized-businesses/?srsltid=AfmBOops5u6HbfalWFcV9En25266m0YMReDS6DSbAWoDIaW3Lr8uWPXG
+source_title: Anthropic Teams up With Goldman Sachs to Launch New AI Services Company,
+  Bringing Claude to Mid-Sized Businesses - Tekedia
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic Teams up With Goldman Sachs to Launch New AI Services Company, Bringing Claude to Mid-Sized Businesses - Tekedia

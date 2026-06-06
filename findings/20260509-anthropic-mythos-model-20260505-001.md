@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-09
-url: "https://www.befreed.ai/blog/claude-mythos-anthropic-ai-model-2026"
-source_title: "Claude Mythos: Anthropic's New AI Model Beyond Opus"
+url: https://www.befreed.ai/blog/claude-mythos-anthropic-ai-model-2026
+source_title: 'Claude Mythos: Anthropic''s New AI Model Beyond Opus'
 relevance: RELEVANT
+quality: OK
 ---
 
 # Claude Mythos: Anthropic's New AI Model Beyond Opus

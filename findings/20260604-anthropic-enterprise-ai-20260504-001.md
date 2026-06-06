@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-enterprise-ai-20260504]]"
+event: '[[anthropic-enterprise-ai-20260504]]'
 date: 2026-06-04
-url: "https://www.instagram.com/p/DX8uWzrjTdj"
-source_title: "Anthropic has partnered with Blackstone, Hellman & Friedman, and ..."
+url: https://www.instagram.com/p/DX8uWzrjTdj
+source_title: Anthropic has partnered with Blackstone, Hellman & Friedman, and ...
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic has partnered with Blackstone, Hellman & Friedman, and ...

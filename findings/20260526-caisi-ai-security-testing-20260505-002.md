@@ -1,9 +1,10 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-26
-url: "https://www.washingtonpost.com/technology/2026/05/01/pentagon-ai-deals-microsoft-amazon-google-classified-military"
-source_title: "Top AI companies agree to work with Pentagon on secret data"
+url: https://www.washingtonpost.com/technology/2026/05/01/pentagon-ai-deals-microsoft-amazon-google-classified-military
+source_title: Top AI companies agree to work with Pentagon on secret data
 relevance: RELEVANT
+quality: OK
 ---
 
 # Top AI companies agree to work with Pentagon on secret data

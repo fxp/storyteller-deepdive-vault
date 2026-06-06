@@ -1,9 +1,11 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-09
-url: "https://www.reddit.com/r/ClaudeCode/comments/1sf4yvm/anthropic_just_dropped_benchmark_scores_for_their/"
-source_title: "Anthropic just dropped benchmark scores for their unreleased model. The gap is embarrassing for everyone else. : r/ClaudeCode"
+url: https://www.reddit.com/r/ClaudeCode/comments/1sf4yvm/anthropic_just_dropped_benchmark_scores_for_their/
+source_title: 'Anthropic just dropped benchmark scores for their unreleased model.
+  The gap is embarrassing for everyone else. : r/ClaudeCode'
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic just dropped benchmark scores for their unreleased model. The gap is embarrassing for everyone else. : r/ClaudeCode

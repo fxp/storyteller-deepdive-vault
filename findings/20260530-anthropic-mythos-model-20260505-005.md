@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-30
-url: "https://www.justsecurity.org/138011/too-dangerous-anthropic-mythos"
-source_title: "Too Dangerous to Deploy: Anthropic's Mythos and What Comes Next"
+url: https://www.justsecurity.org/138011/too-dangerous-anthropic-mythos
+source_title: 'Too Dangerous to Deploy: Anthropic''s Mythos and What Comes Next'
 relevance: RELEVANT
+quality: OK
 ---
 
 # Too Dangerous to Deploy: Anthropic's Mythos and What Comes Next

@@ -1,9 +1,10 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-28
-url: "https://breakingdefense.com/2026/05/pentagon-clears-7-tech-firms-to-deploy-their-ai-on-its-classified-networks"
-source_title: "Pentagon clears 8 tech firms to deploy their AI on its classified ..."
+url: https://breakingdefense.com/2026/05/pentagon-clears-7-tech-firms-to-deploy-their-ai-on-its-classified-networks
+source_title: Pentagon clears 8 tech firms to deploy their AI on its classified ...
 relevance: RELEVANT
+quality: OK
 ---
 
 # Pentagon clears 8 tech firms to deploy their AI on its classified ...

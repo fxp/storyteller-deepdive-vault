@@ -1,9 +1,10 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-09
-url: "https://www.cnbc.com/2026/02/27/trump-anthropic-ai-pentagon.html"
-source_title: "Trump admin blacklists Anthropic; AI firm refuses Pentagon demands"
+url: https://www.cnbc.com/2026/02/27/trump-anthropic-ai-pentagon.html
+source_title: Trump admin blacklists Anthropic; AI firm refuses Pentagon demands
 relevance: RELEVANT
+quality: OK
 ---
 
 # Trump admin blacklists Anthropic; AI firm refuses Pentagon demands

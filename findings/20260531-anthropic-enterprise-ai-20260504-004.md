@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-enterprise-ai-20260504]]"
+event: '[[anthropic-enterprise-ai-20260504]]'
 date: 2026-05-31
-url: "https://www.forbes.com/sites/geruiwang/2026/03/13/anthropic-wants-claude-to-become-a-new-interface-for-work"
-source_title: "Anthropic Wants Claude To Become A New Interface For Work"
+url: https://www.forbes.com/sites/geruiwang/2026/03/13/anthropic-wants-claude-to-become-a-new-interface-for-work
+source_title: Anthropic Wants Claude To Become A New Interface For Work
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic Wants Claude To Become A New Interface For Work

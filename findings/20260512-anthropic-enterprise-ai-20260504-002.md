@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-enterprise-ai-20260504]]"
+event: '[[anthropic-enterprise-ai-20260504]]'
 date: 2026-05-12
-url: "https://qz.com/anthropic-blackstone-goldman-sachs-enterprise-ai-firm-050426"
-source_title: "Anthropic launches enterprise AI firm with Blackstone, Goldman Sachs"
+url: https://qz.com/anthropic-blackstone-goldman-sachs-enterprise-ai-firm-050426
+source_title: Anthropic launches enterprise AI firm with Blackstone, Goldman Sachs
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic launches enterprise AI firm with Blackstone, Goldman Sachs

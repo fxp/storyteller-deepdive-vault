@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-08
-url: "https://www.chinatalk.media/p/chinese-reactions-to-claude-mythos"
-source_title: "Claude Mythos: China Reacts - by Irene Zhang - ChinaTalk"
+url: https://www.chinatalk.media/p/chinese-reactions-to-claude-mythos
+source_title: 'Claude Mythos: China Reacts - by Irene Zhang - ChinaTalk'
 relevance: RELEVANT
+quality: OK
 ---
 
 # Claude Mythos: China Reacts - by Irene Zhang - ChinaTalk

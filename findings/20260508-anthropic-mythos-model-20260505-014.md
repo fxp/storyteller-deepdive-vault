@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-08
-url: "https://www.nytimes.com/2026/04/22/technology/anthropics-mythos-ai.html"
-source_title: "Anthropic's New Mythos A.I. Model Sets Off Global Alarms"
+url: https://www.nytimes.com/2026/04/22/technology/anthropics-mythos-ai.html
+source_title: Anthropic's New Mythos A.I. Model Sets Off Global Alarms
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic's New Mythos A.I. Model Sets Off Global Alarms

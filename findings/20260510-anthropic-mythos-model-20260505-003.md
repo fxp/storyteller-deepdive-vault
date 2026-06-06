@@ -1,9 +1,11 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-10
-url: "https://www.washingtonpost.com/technology/2026/04/24/anthropic-mythos-ai-washington-cybersecurity-hacking-risk/"
-source_title: "AI hacking fears jolt Washington as Anthropic unveils Mythos - The Washington Post"
+url: https://www.washingtonpost.com/technology/2026/04/24/anthropic-mythos-ai-washington-cybersecurity-hacking-risk/
+source_title: AI hacking fears jolt Washington as Anthropic unveils Mythos - The Washington
+  Post
 relevance: RELEVANT
+quality: OK
 ---
 
 # AI hacking fears jolt Washington as Anthropic unveils Mythos - The Washington Post

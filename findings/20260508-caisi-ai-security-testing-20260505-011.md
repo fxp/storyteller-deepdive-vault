@@ -1,9 +1,10 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-08
-url: "https://almcorp.com/blog/anthropic-rejects-pentagon-deal-claude-number-one-app-store-military-ai-2026/"
-source_title: "Anthropic Rejects Pentagon AI Deal: Claude Hits #1 ... - ALM Corp"
+url: https://almcorp.com/blog/anthropic-rejects-pentagon-deal-claude-number-one-app-store-military-ai-2026/
+source_title: 'Anthropic Rejects Pentagon AI Deal: Claude Hits #1 ... - ALM Corp'
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic Rejects Pentagon AI Deal: Claude Hits #1 ... - ALM Corp

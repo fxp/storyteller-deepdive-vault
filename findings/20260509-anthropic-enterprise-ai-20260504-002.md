@@ -1,9 +1,11 @@
 ---
-event: "[[anthropic-enterprise-ai-20260504]]"
+event: '[[anthropic-enterprise-ai-20260504]]'
 date: 2026-05-09
-url: "https://www.gic.com.sg/newsroom/all/anthropic-partners-with-blackstone-hellman-friedman-and-goldman-sachs-to-launch-enterprise-ai-services-firm/"
-source_title: "Anthropic Partners with GIC to Launch Enterprise AI Services Firm | GIC Newsroom"
+url: https://www.gic.com.sg/newsroom/all/anthropic-partners-with-blackstone-hellman-friedman-and-goldman-sachs-to-launch-enterprise-ai-services-firm/
+source_title: Anthropic Partners with GIC to Launch Enterprise AI Services Firm |
+  GIC Newsroom
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic Partners with GIC to Launch Enterprise AI Services Firm | GIC Newsroom

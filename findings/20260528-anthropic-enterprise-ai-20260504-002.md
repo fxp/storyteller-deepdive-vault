@@ -1,9 +1,11 @@
 ---
-event: "[[anthropic-enterprise-ai-20260504]]"
+event: '[[anthropic-enterprise-ai-20260504]]'
 date: 2026-05-28
-url: "https://fortune.com/2026/05/04/anthropic-claude-consulting-industry-joint-venture-blackstone-goldman-sachs"
-source_title: "Anthropic takes shot at consulting industry in joint venture with Wall Street giants | Fortune"
+url: https://fortune.com/2026/05/04/anthropic-claude-consulting-industry-joint-venture-blackstone-goldman-sachs
+source_title: Anthropic takes shot at consulting industry in joint venture with Wall
+  Street giants | Fortune
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic takes shot at consulting industry in joint venture with Wall Street giants | Fortune

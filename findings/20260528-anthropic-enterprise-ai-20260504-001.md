@@ -1,9 +1,11 @@
 ---
-event: "[[anthropic-enterprise-ai-20260504]]"
+event: '[[anthropic-enterprise-ai-20260504]]'
 date: 2026-05-28
-url: "https://pulse2.com/anthropic-100-million-invested-to-launch-claude-partner-network-for-enterprise-ai-adoption"
-source_title: "Anthropic: $100 Million Invested To Launch Claude Partner Network For Enterprise AI Adoption"
+url: https://pulse2.com/anthropic-100-million-invested-to-launch-claude-partner-network-for-enterprise-ai-adoption
+source_title: 'Anthropic: $100 Million Invested To Launch Claude Partner Network For
+  Enterprise AI Adoption'
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic: $100 Million Invested To Launch Claude Partner Network For Enterprise AI Adoption

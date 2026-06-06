@@ -1,9 +1,11 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-12
-url: "https://keyt.com/news/money-and-business/cnn-business-consumer/2026/05/05/microsoft-google-and-xai-will-let-the-government-test-their-ai-models-before-launch/"
-source_title: "Microsoft, Google and xAI will let the government test their AI models before launch | News Channel 3-12"
+url: https://keyt.com/news/money-and-business/cnn-business-consumer/2026/05/05/microsoft-google-and-xai-will-let-the-government-test-their-ai-models-before-launch/
+source_title: Microsoft, Google and xAI will let the government test their AI models
+  before launch | News Channel 3-12
 relevance: RELEVANT
+quality: OK
 ---
 
 # Microsoft, Google and xAI will let the government test their AI models before launch | News Channel 3-12

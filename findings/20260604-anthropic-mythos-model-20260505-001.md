@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-06-04
-url: "https://www.forbes.com/sites/ronschmelzer/2026/05/29/anthropics-guarded-mythos-model-is-headed-for-wider-release"
-source_title: "Anthropic's Guarded Mythos Model Is Headed For Wider Release"
+url: https://www.forbes.com/sites/ronschmelzer/2026/05/29/anthropics-guarded-mythos-model-is-headed-for-wider-release
+source_title: Anthropic's Guarded Mythos Model Is Headed For Wider Release
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic's Guarded Mythos Model Is Headed For Wider Release

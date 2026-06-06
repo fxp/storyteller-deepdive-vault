@@ -1,9 +1,10 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-08
-url: "https://www.facebook.com/weareticker/posts/the-pentagon-signed-eight-ai-giants-for-classified-network-accessin-microsoft-am/1679904673493223/"
-source_title: "The Pentagon signed eight AI giants for classified network access. IN"
+url: https://www.facebook.com/weareticker/posts/the-pentagon-signed-eight-ai-giants-for-classified-network-accessin-microsoft-am/1679904673493223/
+source_title: The Pentagon signed eight AI giants for classified network access. IN
 relevance: RELEVANT
+quality: OK
 ---
 
 # The Pentagon signed eight AI giants for classified network access. IN

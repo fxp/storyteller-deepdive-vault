@@ -1,9 +1,11 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-10
-url: "https://mashable.com/article/anthropic-supply-chain-risk-ceo-statement"
-source_title: "Anthropic fights designation from Department of War as AI dispute escalates | Mashable"
+url: https://mashable.com/article/anthropic-supply-chain-risk-ceo-statement
+source_title: Anthropic fights designation from Department of War as AI dispute escalates
+  | Mashable
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic fights designation from Department of War as AI dispute escalates | Mashable

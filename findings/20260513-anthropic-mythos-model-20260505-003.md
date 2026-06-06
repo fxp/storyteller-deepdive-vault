@@ -1,9 +1,11 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-13
-url: "https://www.wired.com/story/anthropics-mythos-will-force-a-cybersecurity-reckoning-just-not-the-one-you-think/"
-source_title: "Anthropic’s Mythos Will Force a Cybersecurity Reckoning—Just Not the One You Think | WIRED"
+url: https://www.wired.com/story/anthropics-mythos-will-force-a-cybersecurity-reckoning-just-not-the-one-you-think/
+source_title: Anthropic’s Mythos Will Force a Cybersecurity Reckoning—Just Not the
+  One You Think | WIRED
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic’s Mythos Will Force a Cybersecurity Reckoning—Just Not the One You Think | WIRED

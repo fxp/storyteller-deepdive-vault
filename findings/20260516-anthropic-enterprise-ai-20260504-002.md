@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-enterprise-ai-20260504]]"
+event: '[[anthropic-enterprise-ai-20260504]]'
 date: 2026-05-16
-url: "https://www.barrons.com/articles/claude-agents-anthropic-openai-jpm-goldman-stocks-e1b06d57"
-source_title: "Anthropic Rolls Out New Claude Financial Agents as OpenAI Rivalry ..."
+url: https://www.barrons.com/articles/claude-agents-anthropic-openai-jpm-goldman-stocks-e1b06d57
+source_title: Anthropic Rolls Out New Claude Financial Agents as OpenAI Rivalry ...
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic Rolls Out New Claude Financial Agents as OpenAI Rivalry ...

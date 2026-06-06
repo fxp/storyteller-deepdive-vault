@@ -1,9 +1,10 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-09
-url: "https://www.nbcnews.com/tech/tech-news/anthropic-sues-trump-administration-ai-dispute-pentagon-rcna262444"
-source_title: "Anthropic sues Trump administration in AI dispute with Pentagon"
+url: https://www.nbcnews.com/tech/tech-news/anthropic-sues-trump-administration-ai-dispute-pentagon-rcna262444
+source_title: Anthropic sues Trump administration in AI dispute with Pentagon
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic sues Trump administration in AI dispute with Pentagon

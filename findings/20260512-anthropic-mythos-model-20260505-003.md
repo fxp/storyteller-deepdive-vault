@@ -1,9 +1,11 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-12
-url: "https://www.theguardian.com/technology/2026/mar/13/anthropic-pentagon-artificial-intelligence"
-source_title: "Anthropic-Pentagon battle shows how big tech has reversed course on AI and war | AI (artificial intelligence) | The Guardian"
+url: https://www.theguardian.com/technology/2026/mar/13/anthropic-pentagon-artificial-intelligence
+source_title: Anthropic-Pentagon battle shows how big tech has reversed course on
+  AI and war | AI (artificial intelligence) | The Guardian
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic-Pentagon battle shows how big tech has reversed course on AI and war | AI (artificial intelligence) | The Guardian

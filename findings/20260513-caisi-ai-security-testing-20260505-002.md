@@ -1,9 +1,11 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-13
-url: "https://the-decoder.com/us-government-now-has-pre-release-access-to-ai-models-from-five-major-labs-for-national-security-testing/"
-source_title: "US government now has pre-release access to AI models from five major labs for national security testing"
+url: https://the-decoder.com/us-government-now-has-pre-release-access-to-ai-models-from-five-major-labs-for-national-security-testing/
+source_title: US government now has pre-release access to AI models from five major
+  labs for national security testing
 relevance: RELEVANT
+quality: OK
 ---
 
 # US government now has pre-release access to AI models from five major labs for national security testing

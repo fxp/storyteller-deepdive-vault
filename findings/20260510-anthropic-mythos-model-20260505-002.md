@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-10
-url: "https://www.theguardian.com/technology/2026/apr/10/anthropic-new-ai-model-claude-mythos-implications"
-source_title: "Anthropic's new AI tool has implications for us all - The Guardian"
+url: https://www.theguardian.com/technology/2026/apr/10/anthropic-new-ai-model-claude-mythos-implications
+source_title: Anthropic's new AI tool has implications for us all - The Guardian
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic's new AI tool has implications for us all - The Guardian

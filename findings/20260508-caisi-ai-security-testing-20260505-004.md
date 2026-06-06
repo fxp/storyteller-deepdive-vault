@@ -1,9 +1,10 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-08
-url: "https://www.reuters.com/world/white-house-considers-vetting-ai-models-before-they-are-released-nyt-reports-2026-05-04/"
-source_title: "White House considers government reviews for AI models, NYT reports"
+url: https://www.reuters.com/world/white-house-considers-vetting-ai-models-before-they-are-released-nyt-reports-2026-05-04/
+source_title: White House considers government reviews for AI models, NYT reports
 relevance: RELEVANT
+quality: OK
 ---
 
 # White House considers government reviews for AI models, NYT reports

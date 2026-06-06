@@ -1,9 +1,11 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-14
-url: "https://www.pbs.org/newshour/nation/anthropic-sues-in-federal-court-to-reverse-trump-administrations-supply-chain-risk-designation"
-source_title: "Anthropic sues in federal court to reverse Trump administration's 'supply chain risk' designation | PBS News"
+url: https://www.pbs.org/newshour/nation/anthropic-sues-in-federal-court-to-reverse-trump-administrations-supply-chain-risk-designation
+source_title: Anthropic sues in federal court to reverse Trump administration's 'supply
+  chain risk' designation | PBS News
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic sues in federal court to reverse Trump administration's 'supply chain risk' designation | PBS News

@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-16
-url: "https://www.ft.com/content/35e58efe-8601-4c33-af91-007659b679cc"
-source_title: "The Pentagon-Anthropic dispute is a test of control - Financial Times"
+url: https://www.ft.com/content/35e58efe-8601-4c33-af91-007659b679cc
+source_title: The Pentagon-Anthropic dispute is a test of control - Financial Times
 relevance: RELEVANT
+quality: OK
 ---
 
 # The Pentagon-Anthropic dispute is a test of control - Financial Times

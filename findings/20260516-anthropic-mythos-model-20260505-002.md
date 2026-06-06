@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-16
-url: "https://www.axios.com/2026/04/07/anthropic-mythos-preview-cybersecurity-risks"
-source_title: "Anthropic holds Mythos model due to hacking risks - Axios"
+url: https://www.axios.com/2026/04/07/anthropic-mythos-preview-cybersecurity-risks
+source_title: Anthropic holds Mythos model due to hacking risks - Axios
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic holds Mythos model due to hacking risks - Axios

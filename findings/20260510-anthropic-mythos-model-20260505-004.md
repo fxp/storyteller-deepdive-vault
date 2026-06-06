@@ -1,9 +1,11 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-10
-url: "https://apnews.com/article/anthropic-pentagon-ai-dario-amodei-hegseth-0c464a054359b9fdc80cf18b0d4f690c"
-source_title: "Defense Secretary halts Anthropic's AI work over military use dispute | AP News"
+url: https://apnews.com/article/anthropic-pentagon-ai-dario-amodei-hegseth-0c464a054359b9fdc80cf18b0d4f690c
+source_title: Defense Secretary halts Anthropic's AI work over military use dispute
+  | AP News
 relevance: RELEVANT
+quality: OK
 ---
 
 # Defense Secretary halts Anthropic's AI work over military use dispute | AP News

@@ -1,9 +1,10 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-08
-url: "https://www.youtube.com/watch?v=5U5n0k3nLHw"
-source_title: "Pentagon taps 7 tech companies for classified AI, shuns Anthropic"
+url: https://www.youtube.com/watch?v=5U5n0k3nLHw
+source_title: Pentagon taps 7 tech companies for classified AI, shuns Anthropic
 relevance: RELEVANT
+quality: OK
 ---
 
 # Pentagon taps 7 tech companies for classified AI, shuns Anthropic

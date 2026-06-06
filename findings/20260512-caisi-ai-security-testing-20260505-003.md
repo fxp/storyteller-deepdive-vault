@@ -1,9 +1,11 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-12
-url: "https://www.washingtonpost.com/technology/2026/05/01/pentagon-ai-deals-microsoft-amazon-google-classified-military/"
-source_title: "Pentagon strikes AI deals for classified military use - The Washington Post"
+url: https://www.washingtonpost.com/technology/2026/05/01/pentagon-ai-deals-microsoft-amazon-google-classified-military/
+source_title: Pentagon strikes AI deals for classified military use - The Washington
+  Post
 relevance: RELEVANT
+quality: OK
 ---
 
 # Pentagon strikes AI deals for classified military use - The Washington Post

@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-enterprise-ai-20260504]]"
+event: '[[anthropic-enterprise-ai-20260504]]'
 date: 2026-05-08
-url: "https://www.msn.com/en-us/money/smallbusiness/anthropic-confirms-deal-to-launch-enterprise-ai-services-business/ar-AA22mqkd?gemSnapshotKey=GM0DFF7A3B-snapshot-2&uxmode=ruby&apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1"
-source_title: "Anthropic confirms deal to launch enterprise AI services business"
+url: https://www.msn.com/en-us/money/smallbusiness/anthropic-confirms-deal-to-launch-enterprise-ai-services-business/ar-AA22mqkd?gemSnapshotKey=GM0DFF7A3B-snapshot-2&uxmode=ruby&apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1
+source_title: Anthropic confirms deal to launch enterprise AI services business
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic confirms deal to launch enterprise AI services business

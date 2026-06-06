@@ -1,9 +1,10 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-17
-url: "https://www.chicagotribune.com/2026/05/02/us-military-artificial-intelligence-deal/"
-source_title: "US military reaches deals to use AI on classified systems"
+url: https://www.chicagotribune.com/2026/05/02/us-military-artificial-intelligence-deal/
+source_title: US military reaches deals to use AI on classified systems
 relevance: RELEVANT
+quality: OK
 ---
 
 # US military reaches deals to use AI on classified systems

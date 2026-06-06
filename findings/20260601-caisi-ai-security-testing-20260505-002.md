@@ -1,9 +1,10 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-06-01
-url: "https://www.reuters.com/legal/government/trump-says-anthropic-is-shaping-up-open-deal-with-pentagon-2026-04-21"
-source_title: "Trump says Anthropic is 'shaping up,' open to deal with Pentagon"
+url: https://www.reuters.com/legal/government/trump-says-anthropic-is-shaping-up-open-deal-with-pentagon-2026-04-21
+source_title: Trump says Anthropic is 'shaping up,' open to deal with Pentagon
 relevance: RELEVANT
+quality: OK
 ---
 
 # Trump says Anthropic is 'shaping up,' open to deal with Pentagon

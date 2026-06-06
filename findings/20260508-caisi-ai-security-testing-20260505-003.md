@@ -1,9 +1,10 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-08
-url: "https://www.upi.com/Top_News/US/2026/05/05/govt-to-vet-AI-models/2521778004357/"
-source_title: "U.S. government to test AI models, expand oversight - UPI.com"
+url: https://www.upi.com/Top_News/US/2026/05/05/govt-to-vet-AI-models/2521778004357/
+source_title: U.S. government to test AI models, expand oversight - UPI.com
 relevance: RELEVANT
+quality: OK
 ---
 
 # U.S. government to test AI models, expand oversight - UPI.com

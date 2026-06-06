@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-17
-url: "https://www.politico.com/news/2026/02/27/ai-industry-fears-partial-nationalization-as-anthropic-fight-escalates-00805453"
-source_title: "Trump's threats against Anthropic chill AI industry - POLITICO"
+url: https://www.politico.com/news/2026/02/27/ai-industry-fears-partial-nationalization-as-anthropic-fight-escalates-00805453
+source_title: Trump's threats against Anthropic chill AI industry - POLITICO
 relevance: RELEVANT
+quality: OK
 ---
 
 # Trump's threats against Anthropic chill AI industry - POLITICO

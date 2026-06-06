@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-08
-url: "https://www.facebook.com/thinkdigit/posts/us-govt-sounds-alarm-on-mythos-ai-even-as-anthropic-closes-in-on-openais-valuati/1307977594762818/"
-source_title: "US Govt sounds alarm on Mythos AI, even as Anthropic closes in on ..."
+url: https://www.facebook.com/thinkdigit/posts/us-govt-sounds-alarm-on-mythos-ai-even-as-anthropic-closes-in-on-openais-valuati/1307977594762818/
+source_title: US Govt sounds alarm on Mythos AI, even as Anthropic closes in on ...
 relevance: RELEVANT
+quality: OK
 ---
 
 # US Govt sounds alarm on Mythos AI, even as Anthropic closes in on ...

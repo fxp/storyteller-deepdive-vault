@@ -1,9 +1,11 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-26
-url: "https://www.ciodive.com/news/Google-Microsoft-xAI-to-face-security-testing/819375"
-source_title: "Google, Microsoft and xAI’s frontier AI to face national security testing | CIO Dive"
+url: https://www.ciodive.com/news/Google-Microsoft-xAI-to-face-security-testing/819375
+source_title: Google, Microsoft and xAI’s frontier AI to face national security testing
+  | CIO Dive
 relevance: RELEVANT
+quality: OK
 ---
 
 # Google, Microsoft and xAI’s frontier AI to face national security testing | CIO Dive

@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-14
-url: "https://thefederal.com/category/international/ai-ethics-row-erupts-between-trump-and-anthropic-231997"
-source_title: "Trump and Anthropic clash over AI ethics"
+url: https://thefederal.com/category/international/ai-ethics-row-erupts-between-trump-and-anthropic-231997
+source_title: Trump and Anthropic clash over AI ethics
 relevance: RELEVANT
+quality: OK
 ---
 
 # Trump and Anthropic clash over AI ethics

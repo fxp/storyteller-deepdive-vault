@@ -1,9 +1,11 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-12
-url: "https://www.scmp.com/tech/article/3351485/scepticism-concern-mythos-panic-slowly-starting-reach-china"
-source_title: "From scepticism to concern: Mythos panic is slowly starting to reach ..."
+url: https://www.scmp.com/tech/article/3351485/scepticism-concern-mythos-panic-slowly-starting-reach-china
+source_title: 'From scepticism to concern: Mythos panic is slowly starting to reach
+  ...'
 relevance: RELEVANT
+quality: OK
 ---
 
 # From scepticism to concern: Mythos panic is slowly starting to reach ...

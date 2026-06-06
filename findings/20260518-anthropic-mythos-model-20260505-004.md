@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-18
-url: "https://sterlites.com/blog/mythos-anthropic-most-capable-ai-security"
-source_title: "Claude Mythos: Why Anthropic Locked Their Best AI | Sterlites"
+url: https://sterlites.com/blog/mythos-anthropic-most-capable-ai-security
+source_title: 'Claude Mythos: Why Anthropic Locked Their Best AI | Sterlites'
 relevance: RELEVANT
+quality: OK
 ---
 
 # Claude Mythos: Why Anthropic Locked Their Best AI | Sterlites

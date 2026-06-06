@@ -1,9 +1,10 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-08
-url: "https://uk.finance.yahoo.com/news/pentagon-signs-ai-deals-openai-145000657.html"
-source_title: "Pentagon signs AI deals with OpenAI, Google, Microsoft and Amazon"
+url: https://uk.finance.yahoo.com/news/pentagon-signs-ai-deals-openai-145000657.html
+source_title: Pentagon signs AI deals with OpenAI, Google, Microsoft and Amazon
 relevance: RELEVANT
+quality: OK
 ---
 
 # Pentagon signs AI deals with OpenAI, Google, Microsoft and Amazon

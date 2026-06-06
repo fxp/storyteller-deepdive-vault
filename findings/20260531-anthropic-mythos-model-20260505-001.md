@@ -1,9 +1,11 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-31
-url: "https://www.youtube.com/watch?v=aLFzfm8q-4s"
-source_title: "Is Anthropic Mythos The Next Big Cybersecurity Threat? | WION World News"
+url: https://www.youtube.com/watch?v=aLFzfm8q-4s
+source_title: Is Anthropic Mythos The Next Big Cybersecurity Threat? | WION World
+  News
 relevance: RELEVANT
+quality: OK
 ---
 
 # Is Anthropic Mythos The Next Big Cybersecurity Threat? | WION World News

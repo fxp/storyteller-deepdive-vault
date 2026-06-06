@@ -1,9 +1,11 @@
 ---
-event: "[[anthropic-enterprise-ai-20260504]]"
+event: '[[anthropic-enterprise-ai-20260504]]'
 date: 2026-05-08
-url: "https://www.nasdaq.com/press-release/anthropic-partners-blackstone-hellman-friedman-and-goldman-sachs-launch-enterprise-ai"
-source_title: "Anthropic Partners with Blackstone, Hellman & Friedman, and Goldman Sachs to Launch Enterprise AI Services Firm | Nasdaq"
+url: https://www.nasdaq.com/press-release/anthropic-partners-blackstone-hellman-friedman-and-goldman-sachs-launch-enterprise-ai
+source_title: Anthropic Partners with Blackstone, Hellman & Friedman, and Goldman
+  Sachs to Launch Enterprise AI Services Firm | Nasdaq
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic Partners with Blackstone, Hellman & Friedman, and Goldman Sachs to Launch Enterprise AI Services Firm | Nasdaq

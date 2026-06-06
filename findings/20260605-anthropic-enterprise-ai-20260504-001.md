@@ -1,9 +1,11 @@
 ---
-event: "[[anthropic-enterprise-ai-20260504]]"
+event: '[[anthropic-enterprise-ai-20260504]]'
 date: 2026-06-05
-url: "https://briefglance.com/companies/blackstone-inc/pulses/10123"
-source_title: "Anthropic, Blackstone, and Goldman Sachs Launch AI Enterp... — Blackstone Inc. | BriefGlance"
+url: https://briefglance.com/companies/blackstone-inc/pulses/10123
+source_title: Anthropic, Blackstone, and Goldman Sachs Launch AI Enterp... — Blackstone
+  Inc. | BriefGlance
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic, Blackstone, and Goldman Sachs Launch AI Enterp... — Blackstone Inc. | BriefGlance

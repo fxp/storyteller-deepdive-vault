@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-08
-url: "https://www.bbc.com/news/articles/crk1py1jgzko"
-source_title: "What is Anthopic's Claude Mythos and what risks does it pose? - BBC"
+url: https://www.bbc.com/news/articles/crk1py1jgzko
+source_title: What is Anthopic's Claude Mythos and what risks does it pose? - BBC
 relevance: RELEVANT
+quality: OK
 ---
 
 # What is Anthopic's Claude Mythos and what risks does it pose? - BBC

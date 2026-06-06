@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-enterprise-ai-20260504]]"
+event: '[[anthropic-enterprise-ai-20260504]]'
 date: 2026-05-13
-url: "https://finance.yahoo.com/sectors/technology/articles/anthropic-launches-enterprise-ai-firm-140605794.html"
-source_title: "Anthropic launches enterprise AI firm with Blackstone, Goldman Sachs"
+url: https://finance.yahoo.com/sectors/technology/articles/anthropic-launches-enterprise-ai-firm-140605794.html
+source_title: Anthropic launches enterprise AI firm with Blackstone, Goldman Sachs
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic launches enterprise AI firm with Blackstone, Goldman Sachs

@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-enterprise-ai-20260504]]"
+event: '[[anthropic-enterprise-ai-20260504]]'
 date: 2026-05-08
-url: "https://www.linkedin.com/posts/christiansanford_the-read-anthropic-blackstone-hellman-activity-7457104170441940992-5Gg_"
-source_title: "Christian Sanford's Post - LinkedIn"
+url: https://www.linkedin.com/posts/christiansanford_the-read-anthropic-blackstone-hellman-activity-7457104170441940992-5Gg_
+source_title: Christian Sanford's Post - LinkedIn
 relevance: RELEVANT
+quality: OK
 ---
 
 # Christian Sanford's Post - LinkedIn

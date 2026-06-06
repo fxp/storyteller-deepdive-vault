@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-08
-url: "https://www.linkedin.com/pulse/claude-mythos-review-anthropics-most-powerful-ai-model-motasem-hamdan-ifuvf"
-source_title: "Claude Mythos Review: Anthropic's Most Powerful AI Model That ..."
+url: https://www.linkedin.com/pulse/claude-mythos-review-anthropics-most-powerful-ai-model-motasem-hamdan-ifuvf
+source_title: 'Claude Mythos Review: Anthropic''s Most Powerful AI Model That ...'
 relevance: RELEVANT
+quality: OK
 ---
 
 # Claude Mythos Review: Anthropic's Most Powerful AI Model That ...

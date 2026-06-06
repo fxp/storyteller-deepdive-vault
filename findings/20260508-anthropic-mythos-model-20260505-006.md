@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-08
-url: "https://www.facebook.com/groups/evolutionunleashedai/posts/26280566021564467/"
-source_title: "Anthropic Released Mythos Benchmarks Today - Facebook"
+url: https://www.facebook.com/groups/evolutionunleashedai/posts/26280566021564467/
+source_title: Anthropic Released Mythos Benchmarks Today - Facebook
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic Released Mythos Benchmarks Today - Facebook

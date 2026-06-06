@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-08
-url: "https://www.vellum.ai/blog/everything-you-need-to-know-about-claude-mythos"
-source_title: "Everything You Need to Know About Claude Mythos"
+url: https://www.vellum.ai/blog/everything-you-need-to-know-about-claude-mythos
+source_title: Everything You Need to Know About Claude Mythos
 relevance: RELEVANT
+quality: OK
 ---
 
 # Everything You Need to Know About Claude Mythos

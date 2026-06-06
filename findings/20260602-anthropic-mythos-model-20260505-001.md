@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-06-02
-url: "https://www.mindstudio.ai/blog/claude-mythos-vs-opus-4-6-capability-comparison"
-source_title: "Claude Mythos vs Claude Opus 4.6: How Big Is the Capability Jump?"
+url: https://www.mindstudio.ai/blog/claude-mythos-vs-opus-4-6-capability-comparison
+source_title: 'Claude Mythos vs Claude Opus 4.6: How Big Is the Capability Jump?'
 relevance: RELEVANT
+quality: OK
 ---
 
 # Claude Mythos vs Claude Opus 4.6: How Big Is the Capability Jump?

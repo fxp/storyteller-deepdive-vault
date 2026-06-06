@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-08
-url: "https://www.verdent.ai/it/guides/claude-mythos-preview"
-source_title: "Claude Mythos Preview: What Developers Need to Know - Verdent ..."
+url: https://www.verdent.ai/it/guides/claude-mythos-preview
+source_title: 'Claude Mythos Preview: What Developers Need to Know - Verdent ...'
 relevance: RELEVANT
+quality: OK
 ---
 
 # Claude Mythos Preview: What Developers Need to Know - Verdent ...

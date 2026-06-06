@@ -1,9 +1,11 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-10
-url: "https://www.wsj.com/tech/ai/trump-ai-anthropic-mythos-regulation-2378971f"
-source_title: "How Anthropic’s Mythos AI Model Threw the Trump White House’s Tech Strategy Into Chaos"
+url: https://www.wsj.com/tech/ai/trump-ai-anthropic-mythos-regulation-2378971f
+source_title: How Anthropic’s Mythos AI Model Threw the Trump White House’s Tech Strategy
+  Into Chaos
 relevance: RELEVANT
+quality: OK
 ---
 
 # How Anthropic’s Mythos AI Model Threw the Trump White House’s Tech Strategy Into Chaos

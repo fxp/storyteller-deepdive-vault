@@ -1,9 +1,10 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-11
-url: "https://www.axios.com/2026/05/05/us-frontier-ai-testing-white-house-pivots-safety"
-source_title: "U.S. ramps up frontier AI testing as White House pivots toward safety"
+url: https://www.axios.com/2026/05/05/us-frontier-ai-testing-white-house-pivots-safety
+source_title: U.S. ramps up frontier AI testing as White House pivots toward safety
 relevance: RELEVANT
+quality: OK
 ---
 
 # U.S. ramps up frontier AI testing as White House pivots toward safety

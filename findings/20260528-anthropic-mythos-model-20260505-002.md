@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-28
-url: "https://red.anthropic.com/2026/exploit-evals"
-source_title: "Measuring LLMs' ability to develop exploits - Anthropic Red"
+url: https://red.anthropic.com/2026/exploit-evals
+source_title: Measuring LLMs' ability to develop exploits - Anthropic Red
 relevance: RELEVANT
+quality: OK
 ---
 
 # Measuring LLMs' ability to develop exploits - Anthropic Red

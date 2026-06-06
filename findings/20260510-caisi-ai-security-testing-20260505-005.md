@@ -1,9 +1,11 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-10
-url: "https://www.komu.com/news/nationworld/pentagon-strikes-deals-with-8-big-tech-companies-after-shunning-anthropic/article_6e501058-a62d-54d3-9078-6a432b33bb08.html"
-source_title: "Pentagon strikes deals with 8 Big Tech companies  | Nation & World News | komu.com"
+url: https://www.komu.com/news/nationworld/pentagon-strikes-deals-with-8-big-tech-companies-after-shunning-anthropic/article_6e501058-a62d-54d3-9078-6a432b33bb08.html
+source_title: Pentagon strikes deals with 8 Big Tech companies  | Nation & World News
+  | komu.com
 relevance: RELEVANT
+quality: OK
 ---
 
 # Pentagon strikes deals with 8 Big Tech companies  | Nation & World News | komu.com

@@ -1,9 +1,11 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-26
-url: "https://blog.7ai.com/what-anthropics-mythos-ai-model-actually-means-for-defenders-and-why-the-window-is-closing"
-source_title: "What Anthropic's Mythos AI Model Actually Means for Defenders: And Why the Window Is Closing"
+url: https://blog.7ai.com/what-anthropics-mythos-ai-model-actually-means-for-defenders-and-why-the-window-is-closing
+source_title: 'What Anthropic''s Mythos AI Model Actually Means for Defenders: And
+  Why the Window Is Closing'
 relevance: RELEVANT
+quality: OK
 ---
 
 # What Anthropic's Mythos AI Model Actually Means for Defenders: And Why the Window Is Closing

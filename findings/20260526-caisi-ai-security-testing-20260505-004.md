@@ -1,9 +1,11 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-26
-url: "https://abc7ny.com/post/pentagon-reaches-deals-7-tech-companies-allowing-us-military-use-ai-help-fight-wars/19016125"
-source_title: "Pentagon reaches deals with 7 tech companies allowing US military to use their AI to help fight wars - ABC7 New York"
+url: https://abc7ny.com/post/pentagon-reaches-deals-7-tech-companies-allowing-us-military-use-ai-help-fight-wars/19016125
+source_title: Pentagon reaches deals with 7 tech companies allowing US military to
+  use their AI to help fight wars - ABC7 New York
 relevance: RELEVANT
+quality: OK
 ---
 
 # Pentagon reaches deals with 7 tech companies allowing US military to use their AI to help fight wars - ABC7 New York

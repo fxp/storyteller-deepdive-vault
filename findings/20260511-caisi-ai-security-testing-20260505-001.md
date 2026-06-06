@@ -1,9 +1,10 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-11
-url: "https://thedailyrecord.com/2026/05/01/pentagon-agreements-ai-companies-excluding-anthropic-security/"
-source_title: "Pentagon reaches agreements with top AI companies,"
+url: https://thedailyrecord.com/2026/05/01/pentagon-agreements-ai-companies-excluding-anthropic-security/
+source_title: Pentagon reaches agreements with top AI companies,
 relevance: RELEVANT
+quality: OK
 ---
 
 # Pentagon reaches agreements with top AI companies,

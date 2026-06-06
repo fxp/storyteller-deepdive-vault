@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-06-04
-url: "https://www.facebook.com/financialtimes/posts/anthropics-new-mythos-ai-model-is-raising-concern-among-governments-and-companie/1363050669201640"
-source_title: "Anthropic's new Mythos AI model is raising concern among ..."
+url: https://www.facebook.com/financialtimes/posts/anthropics-new-mythos-ai-model-is-raising-concern-among-governments-and-companie/1363050669201640
+source_title: Anthropic's new Mythos AI model is raising concern among ...
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic's new Mythos AI model is raising concern among ...

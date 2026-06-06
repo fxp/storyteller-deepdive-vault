@@ -1,9 +1,11 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-12
-url: "https://www.aisi.gov.uk/blog/our-evaluation-of-claude-mythos-previews-cyber-capabilities"
-source_title: "Our evaluation of Claude Mythos Preview's cyber capabilities | AISI ..."
+url: https://www.aisi.gov.uk/blog/our-evaluation-of-claude-mythos-previews-cyber-capabilities
+source_title: Our evaluation of Claude Mythos Preview's cyber capabilities | AISI
+  ...
 relevance: RELEVANT
+quality: OK
 ---
 
 # Our evaluation of Claude Mythos Preview's cyber capabilities | AISI ...

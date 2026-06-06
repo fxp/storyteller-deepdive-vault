@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-18
-url: "https://www.labellerr.com/blog/anthropic-claude-mythos-capabilities"
-source_title: "Claude Mythos: Benchmark-Dominating AI with Real Risks"
+url: https://www.labellerr.com/blog/anthropic-claude-mythos-capabilities
+source_title: 'Claude Mythos: Benchmark-Dominating AI with Real Risks'
 relevance: RELEVANT
+quality: OK
 ---
 
 # Claude Mythos: Benchmark-Dominating AI with Real Risks

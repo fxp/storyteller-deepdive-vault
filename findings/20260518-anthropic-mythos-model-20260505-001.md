@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-18
-url: "https://www.paubox.com/blog/anthropic-mythos-draws-white-house-attention-over-cybersecurity-risk"
-source_title: "Anthropic Mythos draws White House attention over cybersecurity risk"
+url: https://www.paubox.com/blog/anthropic-mythos-draws-white-house-attention-over-cybersecurity-risk
+source_title: Anthropic Mythos draws White House attention over cybersecurity risk
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic Mythos draws White House attention over cybersecurity risk

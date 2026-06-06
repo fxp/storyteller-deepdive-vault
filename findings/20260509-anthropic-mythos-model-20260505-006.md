@@ -1,9 +1,11 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-09
-url: "https://www.cbsnews.com/news/pentagon-anthropic-dario-amodei-cbs-news-interview-exclusive/"
-source_title: "Anthropic CEO says he's sticking to AI 'red lines' despite clash with Pentagon - CBS News"
+url: https://www.cbsnews.com/news/pentagon-anthropic-dario-amodei-cbs-news-interview-exclusive/
+source_title: Anthropic CEO says he's sticking to AI 'red lines' despite clash with
+  Pentagon - CBS News
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic CEO says he's sticking to AI "red lines" despite clash with Pentagon - CBS News

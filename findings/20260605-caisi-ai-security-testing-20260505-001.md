@@ -1,9 +1,11 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-06-05
-url: "https://defensescoop.com/2026/05/01/dod-expands-classified-ai-work-with-8-companies-excluding-anthropic"
-source_title: "DOD expands its classified AI work with 8 companies — excluding Anthropic — amid ongoing dispute"
+url: https://defensescoop.com/2026/05/01/dod-expands-classified-ai-work-with-8-companies-excluding-anthropic
+source_title: DOD expands its classified AI work with 8 companies — excluding Anthropic
+  — amid ongoing dispute
 relevance: RELEVANT
+quality: OK
 ---
 
 # DOD expands its classified AI work with 8 companies — excluding Anthropic — amid ongoing dispute

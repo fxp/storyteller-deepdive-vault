@@ -1,9 +1,11 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-12
-url: "https://www.geekwire.com/2026/microsoft-and-amazon-join-pentagons-push-to-build-ai-first-military-with-classified-network-deals/"
-source_title: "Microsoft and Amazon join Pentagon’s push to build AI-first military with classified network deals"
+url: https://www.geekwire.com/2026/microsoft-and-amazon-join-pentagons-push-to-build-ai-first-military-with-classified-network-deals/
+source_title: Microsoft and Amazon join Pentagon’s push to build AI-first military
+  with classified network deals
 relevance: RELEVANT
+quality: OK
 ---
 
 # Microsoft and Amazon join Pentagon’s push to build AI-first military with classified network deals

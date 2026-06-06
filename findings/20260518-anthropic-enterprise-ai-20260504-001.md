@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-enterprise-ai-20260504]]"
+event: '[[anthropic-enterprise-ai-20260504]]'
 date: 2026-05-18
-url: "https://hf.com/anthropic-partners-with-blackstone-hellman-friedman-and-goldman-sachs-to-launch-enterprise-ai-services-firm/"
-source_title: "- Hellman & Friedman"
+url: https://hf.com/anthropic-partners-with-blackstone-hellman-friedman-and-goldman-sachs-to-launch-enterprise-ai-services-firm/
+source_title: '- Hellman & Friedman'
 relevance: RELEVANT
+quality: OK
 ---
 
 # - Hellman & Friedman

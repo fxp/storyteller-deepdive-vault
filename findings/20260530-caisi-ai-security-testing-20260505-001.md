@@ -1,9 +1,10 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-30
-url: "https://www.forbes.com/sites/tylerroush/2026/05/01/openai-nvidia-alphabet-and-more-sign-ai-deal-with-pentagon-for-classified-military-use"
-source_title: "Pentagon Signs AI Deals With OpenAI, Nvidia And More"
+url: https://www.forbes.com/sites/tylerroush/2026/05/01/openai-nvidia-alphabet-and-more-sign-ai-deal-with-pentagon-for-classified-military-use
+source_title: Pentagon Signs AI Deals With OpenAI, Nvidia And More
 relevance: RELEVANT
+quality: OK
 ---
 
 # Pentagon Signs AI Deals With OpenAI, Nvidia And More

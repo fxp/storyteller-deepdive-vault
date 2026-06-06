@@ -1,9 +1,10 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-19
-url: "https://www.proactiveinvestors.com/companies/news/1091605/pentagon-signs-ai-deals-with-openai-google-microsoft-and-amazon-1091605.html"
-source_title: "Pentagon signs AI deals with OpenAI, Google, Microsoft and Amazon"
+url: https://www.proactiveinvestors.com/companies/news/1091605/pentagon-signs-ai-deals-with-openai-google-microsoft-and-amazon-1091605.html
+source_title: Pentagon signs AI deals with OpenAI, Google, Microsoft and Amazon
 relevance: RELEVANT
+quality: OK
 ---
 
 # Pentagon signs AI deals with OpenAI, Google, Microsoft and Amazon

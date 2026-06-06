@@ -1,9 +1,11 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-06-04
-url: "https://garymarcus.substack.com/p/what-should-we-take-from-anthropics"
-source_title: "What should we take from Anthropic’s (possibly) terrifying new report on Mythos?"
+url: https://garymarcus.substack.com/p/what-should-we-take-from-anthropics
+source_title: What should we take from Anthropic’s (possibly) terrifying new report
+  on Mythos?
 relevance: RELEVANT
+quality: OK
 ---
 
 # What should we take from Anthropic’s (possibly) terrifying new report on Mythos?

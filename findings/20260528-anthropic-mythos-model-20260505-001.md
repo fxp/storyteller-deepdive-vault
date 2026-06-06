@@ -1,9 +1,11 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-28
-url: "https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities"
-source_title: "Exclusive: Anthropic ‘Mythos’ AI model representing ‘step change’ in power revealed in data leak | Fortune"
+url: https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities
+source_title: 'Exclusive: Anthropic ‘Mythos’ AI model representing ‘step change’ in
+  power revealed in data leak | Fortune'
 relevance: RELEVANT
+quality: OK
 ---
 
 # Exclusive: Anthropic ‘Mythos’ AI model representing ‘step change’ in power revealed in data leak | Fortune

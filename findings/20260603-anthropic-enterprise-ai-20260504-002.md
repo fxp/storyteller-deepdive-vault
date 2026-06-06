@@ -1,9 +1,11 @@
 ---
-event: "[[anthropic-enterprise-ai-20260504]]"
+event: '[[anthropic-enterprise-ai-20260504]]'
 date: 2026-06-03
-url: "https://www.crn.com/news/ai/2026/openai-launches-services-business-on-heels-of-similar-anthropic-announcement"
-source_title: "OpenAI Debuts $4B AI Services Company As Rival Anthropic Builds Its Own"
+url: https://www.crn.com/news/ai/2026/openai-launches-services-business-on-heels-of-similar-anthropic-announcement
+source_title: OpenAI Debuts $4B AI Services Company As Rival Anthropic Builds Its
+  Own
 relevance: RELEVANT
+quality: OK
 ---
 
 # OpenAI Debuts $4B AI Services Company As Rival Anthropic Builds Its Own

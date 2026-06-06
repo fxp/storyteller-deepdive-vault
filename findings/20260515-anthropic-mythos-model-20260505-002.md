@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-15
-url: "https://www.facebook.com/wesh2news/posts/a-public-showdown-between-the-trump-administration-and-anthropic-is-hitting-an-i/953355367206382/"
-source_title: "A public showdown between the Trump administration ... - Facebook"
+url: https://www.facebook.com/wesh2news/posts/a-public-showdown-between-the-trump-administration-and-anthropic-is-hitting-an-i/953355367206382/
+source_title: A public showdown between the Trump administration ... - Facebook
 relevance: RELEVANT
+quality: OK
 ---
 
 # A public showdown between the Trump administration ... - Facebook

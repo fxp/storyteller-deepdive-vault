@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-08
-url: "https://www.bbc.com/news/articles/c2ev24yx4rmo"
-source_title: "Finance ministers and bankers raise serious concerns about Mythos ..."
+url: https://www.bbc.com/news/articles/c2ev24yx4rmo
+source_title: Finance ministers and bankers raise serious concerns about Mythos ...
 relevance: RELEVANT
+quality: OK
 ---
 
 # Finance ministers and bankers raise serious concerns about Mythos ...

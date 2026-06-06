@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-27
-url: "https://www.giskard.ai/knowledge/claude-mythos-analyzing-anthropics-new-frontier-model-for-ai-security"
-source_title: "Claude Mythos: Analyzing Anthropic’s new frontier model for AI security"
+url: https://www.giskard.ai/knowledge/claude-mythos-analyzing-anthropics-new-frontier-model-for-ai-security
+source_title: 'Claude Mythos: Analyzing Anthropic’s new frontier model for AI security'
 relevance: RELEVANT
+quality: OK
 ---
 
 # Claude Mythos: Analyzing Anthropic’s new frontier model for AI security

@@ -1,9 +1,10 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-18
-url: "https://www.youtube.com/watch?v=inx56iTaVCw"
-source_title: "CAISI signs AI security testing deals with Google ... - YouTube"
+url: https://www.youtube.com/watch?v=inx56iTaVCw
+source_title: CAISI signs AI security testing deals with Google ... - YouTube
 relevance: RELEVANT
+quality: OK
 ---
 
 # CAISI signs AI security testing deals with Google ... - YouTube

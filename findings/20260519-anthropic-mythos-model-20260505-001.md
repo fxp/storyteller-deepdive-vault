@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-19
-url: "https://www.youtube.com/watch?v=7DFiBE2GHhg"
-source_title: "Why the Trump administration is clashing with AI-firm Anthropic"
+url: https://www.youtube.com/watch?v=7DFiBE2GHhg
+source_title: Why the Trump administration is clashing with AI-firm Anthropic
 relevance: RELEVANT
+quality: OK
 ---
 
 # Why the Trump administration is clashing with AI-firm Anthropic

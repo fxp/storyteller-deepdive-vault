@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-08
-url: "https://www.rdworldonline.com/claude-mythos-leads-17-of-18-benchmarks-anthropic-measured-muse-spark-put-meta-back-in-the-frontier-club-and-openais-spud-model-is-reportedly-near-launch/"
-source_title: "Claude Mythos leads 17 of 18 benchmarks Anthropic ... - R&D World"
+url: https://www.rdworldonline.com/claude-mythos-leads-17-of-18-benchmarks-anthropic-measured-muse-spark-put-meta-back-in-the-frontier-club-and-openais-spud-model-is-reportedly-near-launch/
+source_title: Claude Mythos leads 17 of 18 benchmarks Anthropic ... - R&D World
 relevance: RELEVANT
+quality: OK
 ---
 
 # Claude Mythos leads 17 of 18 benchmarks Anthropic ... - R&D World

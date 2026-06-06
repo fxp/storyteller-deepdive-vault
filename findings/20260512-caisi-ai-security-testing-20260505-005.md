@@ -1,9 +1,11 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-12
-url: "https://abcnews.com/Politics/anthropic-latest-pentagon-contract-bar-ai-autonomous-weapons/story?id=130558898"
-source_title: "Trump orders US government to cut ties with Anthropic; Hegseth declares supply chain 'risk' - ABC News"
+url: https://abcnews.com/Politics/anthropic-latest-pentagon-contract-bar-ai-autonomous-weapons/story?id=130558898
+source_title: Trump orders US government to cut ties with Anthropic; Hegseth declares
+  supply chain 'risk' - ABC News
 relevance: RELEVANT
+quality: OK
 ---
 
 # Trump orders US government to cut ties with Anthropic; Hegseth declares supply chain 'risk' - ABC News

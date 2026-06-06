@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-08
-url: "https://medium.com/@davidroliver/anthropic-mythos-real-threat-or-marketing-drama-21b2f5e49d19"
-source_title: "Anthropic Mythos: Real Threat or Marketing Drama? - Medium"
+url: https://medium.com/@davidroliver/anthropic-mythos-real-threat-or-marketing-drama-21b2f5e49d19
+source_title: 'Anthropic Mythos: Real Threat or Marketing Drama? - Medium'
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic Mythos: Real Threat or Marketing Drama? - Medium

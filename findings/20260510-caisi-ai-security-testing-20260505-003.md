@@ -1,9 +1,10 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-10
-url: "https://www.theverge.com/ai-artificial-intelligence/922113/pentagon-ai-classified-openai-google-nvidia"
-source_title: "Pentagon strikes classified AI deals with OpenAI, Google, and Nvidia"
+url: https://www.theverge.com/ai-artificial-intelligence/922113/pentagon-ai-classified-openai-google-nvidia
+source_title: Pentagon strikes classified AI deals with OpenAI, Google, and Nvidia
 relevance: RELEVANT
+quality: OK
 ---
 
 # Pentagon strikes classified AI deals with OpenAI, Google, and Nvidia

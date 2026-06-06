@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-enterprise-ai-20260504]]"
+event: '[[anthropic-enterprise-ai-20260504]]'
 date: 2026-05-18
-url: "https://www.reddit.com/r/AIGuild/comments/1t3yfdh/anthropic_is_building_its_own_enterprise_ai/"
-source_title: "Anthropic Is Building Its Own Enterprise AI Deployment Company"
+url: https://www.reddit.com/r/AIGuild/comments/1t3yfdh/anthropic_is_building_its_own_enterprise_ai/
+source_title: Anthropic Is Building Its Own Enterprise AI Deployment Company
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic Is Building Its Own Enterprise AI Deployment Company

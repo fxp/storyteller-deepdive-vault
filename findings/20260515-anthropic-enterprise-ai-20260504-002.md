@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-enterprise-ai-20260504]]"
+event: '[[anthropic-enterprise-ai-20260504]]'
 date: 2026-05-15
-url: "https://www.youtube.com/watch?v=nsPKz4sQfRo"
-source_title: "Anthropic, Blackstone, Goldman Sachs Building A New AI Enterprise ..."
+url: https://www.youtube.com/watch?v=nsPKz4sQfRo
+source_title: Anthropic, Blackstone, Goldman Sachs Building A New AI Enterprise ...
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic, Blackstone, Goldman Sachs Building A New AI Enterprise ...

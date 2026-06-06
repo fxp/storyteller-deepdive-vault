@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-enterprise-ai-20260504]]"
+event: '[[anthropic-enterprise-ai-20260504]]'
 date: 2026-05-31
-url: "https://quantumzeitgeist.com/anthropic-alliance-services-firm-300m"
-source_title: "Anthropic Forms AI Services Firm With $300M Backing"
+url: https://quantumzeitgeist.com/anthropic-alliance-services-firm-300m
+source_title: Anthropic Forms AI Services Firm With $300M Backing
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic Forms AI Services Firm With $300M Backing

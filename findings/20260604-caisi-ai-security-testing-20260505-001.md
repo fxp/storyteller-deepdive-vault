@@ -1,9 +1,10 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-06-04
-url: "https://www.cnbc.com/2026/04/21/trump-anthropic-department-defense-deal.html"
-source_title: "Trump says Anthropic deal is 'possible' for Department of Defense use"
+url: https://www.cnbc.com/2026/04/21/trump-anthropic-department-defense-deal.html
+source_title: Trump says Anthropic deal is 'possible' for Department of Defense use
 relevance: RELEVANT
+quality: OK
 ---
 
 # Trump says Anthropic deal is 'possible' for Department of Defense use

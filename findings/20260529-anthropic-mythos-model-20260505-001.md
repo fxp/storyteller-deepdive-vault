@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-29
-url: "https://www.platformer.news/anthropic-mythos-cybersecurity-risk-experts"
-source_title: "Why Anthropic's new model has cybersecurity experts rattled"
+url: https://www.platformer.news/anthropic-mythos-cybersecurity-risk-experts
+source_title: Why Anthropic's new model has cybersecurity experts rattled
 relevance: RELEVANT
+quality: OK
 ---
 
 # Why Anthropic's new model has cybersecurity experts rattled

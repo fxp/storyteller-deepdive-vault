@@ -1,9 +1,11 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-06-06
-url: "https://arstechnica.com/civis/threads/uk-gov%E2%80%99s-mythos-ai-tests-help-separate-cybersecurity-threat-from-hype.1512560"
-source_title: "UK gov’s Mythos AI tests help separate cybersecurity threat from hype | Ars OpenForum"
+url: https://arstechnica.com/civis/threads/uk-gov%E2%80%99s-mythos-ai-tests-help-separate-cybersecurity-threat-from-hype.1512560
+source_title: UK gov’s Mythos AI tests help separate cybersecurity threat from hype
+  | Ars OpenForum
 relevance: RELEVANT
+quality: OK
 ---
 
 # UK gov’s Mythos AI tests help separate cybersecurity threat from hype | Ars OpenForum

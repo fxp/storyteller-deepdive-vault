@@ -1,9 +1,11 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-14
-url: "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/"
-source_title: "Pentagon inks deals with Nvidia, Microsoft, and AWS to deploy AI on ..."
+url: https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/
+source_title: Pentagon inks deals with Nvidia, Microsoft, and AWS to deploy AI on
+  ...
 relevance: RELEVANT
+quality: OK
 ---
 
 # Pentagon inks deals with Nvidia, Microsoft, and AWS to deploy AI on ...

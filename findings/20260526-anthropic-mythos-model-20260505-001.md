@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-26
-url: "https://medium.com/@tahirbalarabe2/assessing-anthropic-claude-mythos-previews-cybersecurity-capabilities-251a4e0a2137"
-source_title: "Assessing Anthropic Claude Mythos Preview's Cybersecurity ..."
+url: https://medium.com/@tahirbalarabe2/assessing-anthropic-claude-mythos-previews-cybersecurity-capabilities-251a4e0a2137
+source_title: Assessing Anthropic Claude Mythos Preview's Cybersecurity ...
 relevance: RELEVANT
+quality: OK
 ---
 
 # Assessing Anthropic Claude Mythos Preview's Cybersecurity ...

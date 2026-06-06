@@ -1,9 +1,11 @@
 ---
-event: "[[anthropic-enterprise-ai-20260504]]"
+event: '[[anthropic-enterprise-ai-20260504]]'
 date: 2026-05-17
-url: "https://am.gs.com/en-us/advisors/news/press-release/2026/anthropic-partners-with-blackstone-hf-and-goldman-sachs-ai-services"
-source_title: "Anthropic Partners with Blackstone, H&F and Goldman Sachs - Goldman Sachs Asset Management"
+url: https://am.gs.com/en-us/advisors/news/press-release/2026/anthropic-partners-with-blackstone-hf-and-goldman-sachs-ai-services
+source_title: Anthropic Partners with Blackstone, H&F and Goldman Sachs - Goldman
+  Sachs Asset Management
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic Partners with Blackstone, H&F and Goldman Sachs - Goldman Sachs Asset Management

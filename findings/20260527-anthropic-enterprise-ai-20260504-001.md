@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-enterprise-ai-20260504]]"
+event: '[[anthropic-enterprise-ai-20260504]]'
 date: 2026-05-27
-url: "https://seekingalpha.com/news/4584679-anthropic-confirms-deal-to-launch-enterprise-ai-services-business"
-source_title: "Anthropic confirms deal to launch enterprise AI services ..."
+url: https://seekingalpha.com/news/4584679-anthropic-confirms-deal-to-launch-enterprise-ai-services-business
+source_title: Anthropic confirms deal to launch enterprise AI services ...
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic confirms deal to launch enterprise AI services ...

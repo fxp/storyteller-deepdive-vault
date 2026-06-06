@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-29
-url: "https://www.facebook.com/groups/368542331574851/posts/1513628353732904"
-source_title: "Mythos AI model poses significant security risks - Facebook"
+url: https://www.facebook.com/groups/368542331574851/posts/1513628353732904
+source_title: Mythos AI model poses significant security risks - Facebook
 relevance: RELEVANT
+quality: OK
 ---
 
 # Mythos AI model poses significant security risks - Facebook

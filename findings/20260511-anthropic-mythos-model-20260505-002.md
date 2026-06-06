@@ -1,9 +1,11 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-11
-url: "https://www.seattletimes.com/business/anthropic-sues-trump-administration-seeking-to-undo-supply-chain-risk-designation/"
-source_title: "AI company Anthropic sues Trump administration seeking to undo ‘supply chain risk’ designation | The Seattle Times"
+url: https://www.seattletimes.com/business/anthropic-sues-trump-administration-seeking-to-undo-supply-chain-risk-designation/
+source_title: AI company Anthropic sues Trump administration seeking to undo ‘supply
+  chain risk’ designation | The Seattle Times
 relevance: RELEVANT
+quality: OK
 ---
 
 # AI company Anthropic sues Trump administration seeking to undo ‘supply chain risk’ designation | The Seattle Times

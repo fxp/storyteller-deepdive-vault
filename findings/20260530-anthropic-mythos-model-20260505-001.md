@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-30
-url: "https://anthropic.com/glasswing"
-source_title: "Project Glasswing: Securing critical software for the AI era - Anthropic"
+url: https://anthropic.com/glasswing
+source_title: 'Project Glasswing: Securing critical software for the AI era - Anthropic'
 relevance: RELEVANT
+quality: OK
 ---
 
 # Project Glasswing: Securing critical software for the AI era - Anthropic

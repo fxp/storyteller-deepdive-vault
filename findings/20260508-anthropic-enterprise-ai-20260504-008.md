@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-enterprise-ai-20260504]]"
+event: '[[anthropic-enterprise-ai-20260504]]'
 date: 2026-05-08
-url: "https://www.themiddlemarket.com/latest-news/blackstone-hf-goldman-sachs-back-new-ai-services-platform-with-anthropic"
-source_title: "Blackstone, H&F, Goldman Sachs Back New AI Services Platform with Anthropic"
+url: https://www.themiddlemarket.com/latest-news/blackstone-hf-goldman-sachs-back-new-ai-services-platform-with-anthropic
+source_title: Blackstone, H&F, Goldman Sachs Back New AI Services Platform with Anthropic
 relevance: RELEVANT
+quality: OK
 ---
 
 # Blackstone, H&F, Goldman Sachs Back New AI Services Platform with Anthropic

@@ -1,9 +1,11 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-14
-url: "https://www.cnn.com/2026/02/27/tech/anthropic-pentagon-deadline"
-source_title: "Trump administration orders military contractors and federal agencies to cease business with Anthropic | CNN Business"
+url: https://www.cnn.com/2026/02/27/tech/anthropic-pentagon-deadline
+source_title: Trump administration orders military contractors and federal agencies
+  to cease business with Anthropic | CNN Business
 relevance: RELEVANT
+quality: OK
 ---
 
 # Trump administration orders military contractors and federal agencies to cease business with Anthropic | CNN Business

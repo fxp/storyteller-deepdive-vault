@@ -1,9 +1,10 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-08
-url: "https://www.msn.com/en-us/news/other/pentagon-inks-ai-deals-with-major-firms-leaves-out-anthropic/gm-GMEFB5BFCD?ocid=TobArticle"
-source_title: "Pentagon signs AI deals with tech giants, excludes Anthropic - MSN"
+url: https://www.msn.com/en-us/news/other/pentagon-inks-ai-deals-with-major-firms-leaves-out-anthropic/gm-GMEFB5BFCD?ocid=TobArticle
+source_title: Pentagon signs AI deals with tech giants, excludes Anthropic - MSN
 relevance: RELEVANT
+quality: OK
 ---
 
 # Pentagon signs AI deals with tech giants, excludes Anthropic - MSN

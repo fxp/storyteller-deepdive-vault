@@ -1,9 +1,10 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-10
-url: "https://insideaipolicy.com/ai-daily-news/caisi-reaches-agreement-security-testing-three-major-frontier-ai-developers"
-source_title: "CAISI reaches agreement on security testing with three major ..."
+url: https://insideaipolicy.com/ai-daily-news/caisi-reaches-agreement-security-testing-three-major-frontier-ai-developers
+source_title: CAISI reaches agreement on security testing with three major ...
 relevance: RELEVANT
+quality: OK
 ---
 
 # CAISI reaches agreement on security testing with three major ...

@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-11
-url: "https://www.armorcode.com/blog/anthropics-claude-mythos-and-what-it-means-for-security"
-source_title: "Anthropic’s Claude Mythos and What it Means for Security"
+url: https://www.armorcode.com/blog/anthropics-claude-mythos-and-what-it-means-for-security
+source_title: Anthropic’s Claude Mythos and What it Means for Security
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic’s Claude Mythos and What it Means for Security

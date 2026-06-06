@@ -1,9 +1,10 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-16
-url: "https://www.deeplearning.ai/the-batch/us-to-evaluate-upcoming-models"
-source_title: "U.S. Government Will Test AI Models for National Security Risks ..."
+url: https://www.deeplearning.ai/the-batch/us-to-evaluate-upcoming-models
+source_title: U.S. Government Will Test AI Models for National Security Risks ...
 relevance: RELEVANT
+quality: OK
 ---
 
 # U.S. Government Will Test AI Models for National Security Risks ...

@@ -1,9 +1,10 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-08
-url: "https://apnews.com/article/pentagon-artificial-intelligence-military-classified-systems-war-060cecf836c4cebcf012a3ceb5333f2c"
-source_title: "US military and 7 companies make deals to use AI ..."
+url: https://apnews.com/article/pentagon-artificial-intelligence-military-classified-systems-war-060cecf836c4cebcf012a3ceb5333f2c
+source_title: US military and 7 companies make deals to use AI ...
 relevance: RELEVANT
+quality: OK
 ---
 
 # US military and 7 companies make deals to use AI ...

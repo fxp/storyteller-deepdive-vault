@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-08
-url: "https://entro.security/blog/anthropics-claude-mythos-and-the-ai-cybersecurity-reckoning/"
-source_title: "Anthropic’s Claude Mythos and the AI Cybersecurity Reckoning"
+url: https://entro.security/blog/anthropics-claude-mythos-and-the-ai-cybersecurity-reckoning/
+source_title: Anthropic’s Claude Mythos and the AI Cybersecurity Reckoning
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic’s Claude Mythos and the AI Cybersecurity Reckoning

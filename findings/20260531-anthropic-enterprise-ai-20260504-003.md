@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-enterprise-ai-20260504]]"
+event: '[[anthropic-enterprise-ai-20260504]]'
 date: 2026-05-31
-url: "https://www.linkedin.com/posts/aiblmedia_anthropic-has-launched-the-claude-partner-activity-7438239834026086402-DVLN"
-source_title: "Anthropic Launches Claude Partner Network with $100M Commitment"
+url: https://www.linkedin.com/posts/aiblmedia_anthropic-has-launched-the-claude-partner-activity-7438239834026086402-DVLN
+source_title: Anthropic Launches Claude Partner Network with $100M Commitment
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic Launches Claude Partner Network with $100M Commitment

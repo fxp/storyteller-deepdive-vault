@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-28
-url: "https://techpolicy.press/a-timeline-of-the-anthropic-pentagon-dispute"
-source_title: "A Timeline of the Anthropic-Pentagon Dispute | TechPolicy.Press"
+url: https://techpolicy.press/a-timeline-of-the-anthropic-pentagon-dispute
+source_title: A Timeline of the Anthropic-Pentagon Dispute | TechPolicy.Press
 relevance: RELEVANT
+quality: OK
 ---
 
 # A Timeline of the Anthropic-Pentagon Dispute | TechPolicy.Press

@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-17
-url: "https://www.govexec.com/sponsors/2026/04/after-mythos/413109/"
-source_title: "After Mythos - Government Executive"
+url: https://www.govexec.com/sponsors/2026/04/after-mythos/413109/
+source_title: After Mythos - Government Executive
 relevance: RELEVANT
+quality: OK
 ---
 
 # After Mythos - Government Executive

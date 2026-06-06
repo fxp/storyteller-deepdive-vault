@@ -1,9 +1,10 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-10
-url: "https://www.cio.com/article/4168122/us-government-agency-to-safety-test-frontier-ai-models-before-release.html"
-source_title: "US government agency to safety test frontier AI models before release"
+url: https://www.cio.com/article/4168122/us-government-agency-to-safety-test-frontier-ai-models-before-release.html
+source_title: US government agency to safety test frontier AI models before release
 relevance: RELEVANT
+quality: OK
 ---
 
 # US government agency to safety test frontier AI models before release

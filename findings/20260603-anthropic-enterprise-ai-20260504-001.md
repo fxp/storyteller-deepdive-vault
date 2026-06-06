@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-enterprise-ai-20260504]]"
+event: '[[anthropic-enterprise-ai-20260504]]'
 date: 2026-06-03
-url: "https://www.linkedin.com/posts/tigertyagarajan_building-a-new-enterprise-ai-services-company-activity-7457089195245920256-eV5a"
-source_title: "Tiger Tyagarajan's Post - LinkedIn"
+url: https://www.linkedin.com/posts/tigertyagarajan_building-a-new-enterprise-ai-services-company-activity-7457089195245920256-eV5a
+source_title: Tiger Tyagarajan's Post - LinkedIn
 relevance: RELEVANT
+quality: OK
 ---
 
 # Tiger Tyagarajan's Post - LinkedIn

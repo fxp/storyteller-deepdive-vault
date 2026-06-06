@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-30
-url: "https://benchlm.ai/models/claude-mythos-preview"
-source_title: "Claude Mythos Preview Benchmarks 2026 - BenchLM.ai"
+url: https://benchlm.ai/models/claude-mythos-preview
+source_title: Claude Mythos Preview Benchmarks 2026 - BenchLM.ai
 relevance: RELEVANT
+quality: OK
 ---
 
 # Claude Mythos Preview Benchmarks 2026 - BenchLM.ai

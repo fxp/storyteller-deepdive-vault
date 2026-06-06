@@ -1,9 +1,11 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-27
-url: "https://www.securityweek.com/anthropic-mythos-detected-23000-potential-vulnerabilities-across-1000-oss-projects"
-source_title: "Anthropic: Mythos Detected 23,000 Potential Vulnerabilities Across 1,000 OSS Projects - SecurityWeek"
+url: https://www.securityweek.com/anthropic-mythos-detected-23000-potential-vulnerabilities-across-1000-oss-projects
+source_title: 'Anthropic: Mythos Detected 23,000 Potential Vulnerabilities Across
+  1,000 OSS Projects - SecurityWeek'
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic: Mythos Detected 23,000 Potential Vulnerabilities Across 1,000 OSS Projects - SecurityWeek

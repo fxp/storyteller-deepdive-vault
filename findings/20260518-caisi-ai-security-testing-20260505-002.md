@@ -1,9 +1,10 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-18
-url: "https://www.ms.now/news/pentagon-partners-with-major-ai-companies-after-anthropic-ban"
-source_title: "Pentagon partners with major AI companies after Anthropic ban"
+url: https://www.ms.now/news/pentagon-partners-with-major-ai-companies-after-anthropic-ban
+source_title: Pentagon partners with major AI companies after Anthropic ban
 relevance: RELEVANT
+quality: OK
 ---
 
 # Pentagon partners with major AI companies after Anthropic ban

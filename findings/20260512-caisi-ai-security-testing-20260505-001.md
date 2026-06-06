@@ -1,9 +1,10 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-12
-url: "https://www.reuters.com/legal/litigation/microsoft-xai-google-will-share-ai-models-with-us-govt-security-reviews-2026-05-05/"
-source_title: "Microsoft, Google and xAI to give US government early access to AI ..."
+url: https://www.reuters.com/legal/litigation/microsoft-xai-google-will-share-ai-models-with-us-govt-security-reviews-2026-05-05/
+source_title: Microsoft, Google and xAI to give US government early access to AI ...
 relevance: RELEVANT
+quality: OK
 ---
 
 # Microsoft, Google and xAI to give US government early access to AI ...

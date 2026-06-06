@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-08
-url: "https://thehill.com/policy/technology/5829315-anthropic-mythos-ai-cybersecurity-risks/"
-source_title: "Anthropic's Mythos puts DC, Wall Street on high alert"
+url: https://thehill.com/policy/technology/5829315-anthropic-mythos-ai-cybersecurity-risks/
+source_title: Anthropic's Mythos puts DC, Wall Street on high alert
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic's Mythos puts DC, Wall Street on high alert

@@ -1,9 +1,11 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-16
-url: "https://www.inovabeing.com/blog/anthropic-mythos-ai-milestone-2026"
-source_title: "Anthropic's Mythos: The Most Important AI Model Nobody Has Used Yet | InovaBeing | INovaBeing"
+url: https://www.inovabeing.com/blog/anthropic-mythos-ai-milestone-2026
+source_title: 'Anthropic''s Mythos: The Most Important AI Model Nobody Has Used Yet
+  | InovaBeing | INovaBeing'
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic's Mythos: The Most Important AI Model Nobody Has Used Yet | InovaBeing | INovaBeing

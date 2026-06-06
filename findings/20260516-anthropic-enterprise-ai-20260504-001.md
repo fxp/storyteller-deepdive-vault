@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-enterprise-ai-20260504]]"
+event: '[[anthropic-enterprise-ai-20260504]]'
 date: 2026-05-16
-url: "https://www.linkedin.com/posts/demetripanici_anthropic-just-partnered-with-blackstone-activity-7457836977611108352-W8qy"
-source_title: "Anthropic Launches $1.5B AI Services Company with Blackstone ..."
+url: https://www.linkedin.com/posts/demetripanici_anthropic-just-partnered-with-blackstone-activity-7457836977611108352-W8qy
+source_title: Anthropic Launches $1.5B AI Services Company with Blackstone ...
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic Launches $1.5B AI Services Company with Blackstone ...

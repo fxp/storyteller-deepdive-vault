@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-enterprise-ai-20260504]]"
+event: '[[anthropic-enterprise-ai-20260504]]'
 date: 2026-05-31
-url: "https://claudeimplementation.com/blog/claude-partner-network"
-source_title: "Claude Partner Network 2026 | Claude Implementation"
+url: https://claudeimplementation.com/blog/claude-partner-network
+source_title: Claude Partner Network 2026 | Claude Implementation
 relevance: RELEVANT
+quality: OK
 ---
 
 # Claude Partner Network 2026 | Claude Implementation

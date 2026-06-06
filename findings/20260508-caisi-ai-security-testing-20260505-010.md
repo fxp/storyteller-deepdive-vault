@@ -1,9 +1,10 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-08
-url: "https://www.cnn.com/2026/05/01/tech/pentagon-ai-anthropic"
-source_title: "Pentagon strikes deals with 8 Big Tech companies after shunning ..."
+url: https://www.cnn.com/2026/05/01/tech/pentagon-ai-anthropic
+source_title: Pentagon strikes deals with 8 Big Tech companies after shunning ...
 relevance: RELEVANT
+quality: OK
 ---
 
 # Pentagon strikes deals with 8 Big Tech companies after shunning ...

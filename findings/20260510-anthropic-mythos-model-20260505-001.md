@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-10
-url: "https://www.axios.com/2026/04/09/openai-new-model-cyber-mythos-anthopic"
-source_title: "Scoop: OpenAI plans new product for cybersecurity use"
+url: https://www.axios.com/2026/04/09/openai-new-model-cyber-mythos-anthopic
+source_title: 'Scoop: OpenAI plans new product for cybersecurity use'
 relevance: RELEVANT
+quality: OK
 ---
 
 # Scoop: OpenAI plans new product for cybersecurity use

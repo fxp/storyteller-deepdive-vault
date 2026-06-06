@@ -1,9 +1,11 @@
 ---
-event: "[[anthropic-enterprise-ai-20260504]]"
+event: '[[anthropic-enterprise-ai-20260504]]'
 date: 2026-05-30
-url: "https://techcrunch.com/2026/05/04/anthropic-and-openai-are-both-launching-joint-ventures-for-enterprise-ai-services"
-source_title: "Anthropic and OpenAI are both launching joint ventures for enterprise AI services | TechCrunch"
+url: https://techcrunch.com/2026/05/04/anthropic-and-openai-are-both-launching-joint-ventures-for-enterprise-ai-services
+source_title: Anthropic and OpenAI are both launching joint ventures for enterprise
+  AI services | TechCrunch
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic and OpenAI are both launching joint ventures for enterprise AI services | TechCrunch

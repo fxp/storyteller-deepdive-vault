@@ -1,9 +1,11 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-12
-url: "https://www.macobserver.com/news/anthropics-mythos-ai-sparks-cybersecurity-panic-but-experts-say-the-threat-already-exists/"
-source_title: "Anthropic’s Mythos AI Sparks Cybersecurity Panic, but Experts Say the Threat Already Exists"
+url: https://www.macobserver.com/news/anthropics-mythos-ai-sparks-cybersecurity-panic-but-experts-say-the-threat-already-exists/
+source_title: Anthropic’s Mythos AI Sparks Cybersecurity Panic, but Experts Say the
+  Threat Already Exists
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic’s Mythos AI Sparks Cybersecurity Panic, but Experts Say the Threat Already Exists

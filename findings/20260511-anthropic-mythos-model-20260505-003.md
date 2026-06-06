@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-11
-url: "https://www.politico.com/news/2026/04/23/trump-picked-a-fight-with-anthropic-now-the-administration-is-backing-off-00889241"
-source_title: "Trump picked a fight with Anthropic. Now the administration ... - Politico"
+url: https://www.politico.com/news/2026/04/23/trump-picked-a-fight-with-anthropic-now-the-administration-is-backing-off-00889241
+source_title: Trump picked a fight with Anthropic. Now the administration ... - Politico
 relevance: RELEVANT
+quality: OK
 ---
 
 # Trump picked a fight with Anthropic. Now the administration ... - Politico

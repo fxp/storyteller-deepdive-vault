@@ -1,9 +1,11 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-12
-url: "https://www.theglobeandmail.com/business/economy/article-anthropic-mythos-ai-defence/"
-source_title: "Anthropic's AI model sparks rush from industry, government to batten ..."
+url: https://www.theglobeandmail.com/business/economy/article-anthropic-mythos-ai-defence/
+source_title: Anthropic's AI model sparks rush from industry, government to batten
+  ...
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic's AI model sparks rush from industry, government to batten ...

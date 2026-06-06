@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-26
-url: "https://iapp.org/news/a/claude-mythos-rethinking-cybersecurity-and-ai-governance"
-source_title: "Claude Mythos: Rethinking cybersecurity and AI governance  | IAPP"
+url: https://iapp.org/news/a/claude-mythos-rethinking-cybersecurity-and-ai-governance
+source_title: 'Claude Mythos: Rethinking cybersecurity and AI governance  | IAPP'
 relevance: RELEVANT
+quality: OK
 ---
 
 # Claude Mythos: Rethinking cybersecurity and AI governance  | IAPP

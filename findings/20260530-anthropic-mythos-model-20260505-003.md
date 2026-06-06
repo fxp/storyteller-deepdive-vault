@@ -1,9 +1,11 @@
 ---
-event: "[[anthropic-mythos-model-20260505]]"
+event: '[[anthropic-mythos-model-20260505]]'
 date: 2026-05-30
-url: "https://www.mindstudio.ai/blog/claude-mythos-benchmark-results-swe-bench"
-source_title: "Claude Mythos Benchmarks: 93.9% SWE-Bench and 59% Multimodal Score | MindStudio"
+url: https://www.mindstudio.ai/blog/claude-mythos-benchmark-results-swe-bench
+source_title: 'Claude Mythos Benchmarks: 93.9% SWE-Bench and 59% Multimodal Score
+  | MindStudio'
 relevance: RELEVANT
+quality: OK
 ---
 
 # Claude Mythos Benchmarks: 93.9% SWE-Bench and 59% Multimodal Score | MindStudio

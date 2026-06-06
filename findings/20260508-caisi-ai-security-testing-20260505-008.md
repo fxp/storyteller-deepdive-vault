@@ -1,9 +1,11 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-08
-url: "https://www.military.com/us-military-reaches-deals-with-7-tech-companies-to-use-their-ai-on-classified-systems"
-source_title: "US Military Reaches Deals with 7 Tech Companies to Use Their AI on Classified Systems"
+url: https://www.military.com/us-military-reaches-deals-with-7-tech-companies-to-use-their-ai-on-classified-systems
+source_title: US Military Reaches Deals with 7 Tech Companies to Use Their AI on Classified
+  Systems
 relevance: RELEVANT
+quality: OK
 ---
 
 # US Military Reaches Deals with 7 Tech Companies to Use Their AI on Classified Systems

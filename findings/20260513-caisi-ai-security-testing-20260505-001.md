@@ -1,9 +1,10 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-13
-url: "https://www.cognativ.com/blogs/post/us-government-pushes-pre-release-ai-model-reviews/753"
-source_title: "US Government Pushes Pre-Release AI Model Reviews - Cognativ"
+url: https://www.cognativ.com/blogs/post/us-government-pushes-pre-release-ai-model-reviews/753
+source_title: US Government Pushes Pre-Release AI Model Reviews - Cognativ
 relevance: RELEVANT
+quality: OK
 ---
 
 # US Government Pushes Pre-Release AI Model Reviews - Cognativ

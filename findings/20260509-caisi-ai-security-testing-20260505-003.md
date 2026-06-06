@@ -1,9 +1,10 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-09
-url: "https://www.nytimes.com/2026/05/04/technology/trump-ai-models.html"
-source_title: "White House Considers Vetting A.I. Models Before They Are Released"
+url: https://www.nytimes.com/2026/05/04/technology/trump-ai-models.html
+source_title: White House Considers Vetting A.I. Models Before They Are Released
 relevance: RELEVANT
+quality: OK
 ---
 
 # White House Considers Vetting A.I. Models Before They Are Released

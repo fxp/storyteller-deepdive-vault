@@ -1,9 +1,10 @@
 ---
-event: "[[anthropic-enterprise-ai-20260504]]"
+event: '[[anthropic-enterprise-ai-20260504]]'
 date: 2026-05-09
-url: "https://peprofessional.com/2026/05/claude-open-the-pod-bay-doors/"
-source_title: "Claude, Open the Pod Bay Doors"
+url: https://peprofessional.com/2026/05/claude-open-the-pod-bay-doors/
+source_title: Claude, Open the Pod Bay Doors
 relevance: RELEVANT
+quality: OK
 ---
 
 # Claude, Open the Pod Bay Doors

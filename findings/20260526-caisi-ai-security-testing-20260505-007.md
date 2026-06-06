@@ -1,9 +1,10 @@
 ---
-event: "[[caisi-ai-security-testing-20260505]]"
+event: '[[caisi-ai-security-testing-20260505]]'
 date: 2026-05-26
-url: "https://www.instagram.com/p/DYAGJSCjVKB"
-source_title: "The U.S. government is expanding its AI risk testing program ..."
+url: https://www.instagram.com/p/DYAGJSCjVKB
+source_title: The U.S. government is expanding its AI risk testing program ...
 relevance: RELEVANT
+quality: OK
 ---
 
 # The U.S. government is expanding its AI risk testing program ...

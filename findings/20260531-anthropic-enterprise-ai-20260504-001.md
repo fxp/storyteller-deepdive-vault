@@ -1,9 +1,11 @@
 ---
-event: "[[anthropic-enterprise-ai-20260504]]"
+event: '[[anthropic-enterprise-ai-20260504]]'
 date: 2026-05-31
-url: "https://www.swfinstitute.org/news/109135/anthropic-blackstone-goldman-sachs-launch-ai-services-firm-to-scale-claude-adoption-in-middle-market-enterprises"
-source_title: "Anthropic, Blackstone & Goldman Sachs Launch AI Services Firm to Scale Claude Adoption in Middle Market Enterprises"
+url: https://www.swfinstitute.org/news/109135/anthropic-blackstone-goldman-sachs-launch-ai-services-firm-to-scale-claude-adoption-in-middle-market-enterprises
+source_title: Anthropic, Blackstone & Goldman Sachs Launch AI Services Firm to Scale
+  Claude Adoption in Middle Market Enterprises
 relevance: RELEVANT
+quality: OK
 ---
 
 # Anthropic, Blackstone & Goldman Sachs Launch AI Services Firm to Scale Claude Adoption in Middle Market Enterprises
