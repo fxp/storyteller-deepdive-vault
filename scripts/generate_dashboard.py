@@ -194,34 +194,28 @@ def synthesize_update(
         name    = source_name(url, str(f.get("source_title", "")))
         summary = f.get("_summary", "")
         ref     = f"[{name}]({url})" if url else name
-        return f"事实：{summary} | 来源：{ref}"
+        return f"{ref}：{summary}"
 
     recent_block  = "\n".join(f"- {fmt_finding(f)}" for f in recent[:15])
     history_block = "\n".join(f"- {f.get('_summary','')}" for f in history[:HISTORY_CTX])
 
-    prompt = f"""你是一名 AI 行业资深分析师，正在追踪课题「{event_title}」（当前热度：{status}）。
+    prompt = f"""你是 AI 行业分析师，追踪课题「{event_title}」。
 
-下方「近期新事实」是最新抓取的信息。你的任务：
-**第一步（内部推理，不要输出）**：对每条事实，判断它对这个话题贡献了什么新的观点或洞察——
-  - 是否改变了之前的判断？
-  - 是否揭示了新的行为者、新的因果关系、新的数量级？
-  - 是否与历史背景形成对比或反转？
-  - 如果只是重复已知事实、无新观点，则忽略这条。
+请根据近期新发现，写一段 150～220 字的中文话题进展，要求：
+1. 聚焦新观点和变化，不要转述新闻标题
+2. 每引用一个信源，必须用 [媒体名](URL) 格式内联在句子里，例如：
+   [TechCrunch](https://techcrunch.com/...) 报道，NSA 正准备将 Mythos 用于网络行动。
+3. 不要 bullet list，不要标题，只输出流畅叙述段落
+4. 不重复历史已知事实
+5. 结尾可用「——」提出 1～2 个值得关注的问题
 
-**第二步（输出）**：将有价值的新观点合成为一段话题进展叙述：
-  - 以话题为主语，写观点和洞察，不是转述新闻标题
-  - 在句中内联引用信源，格式：[来源名](url)，例如 "[Bloomberg](https://...) 确认，..."
-  - 150～250 字，流畅中文段落，不要 bullet list
-  - 结尾可用「——」提出 1～2 个值得持续关注的问题
-  - 只输出正文，保留 [name](url) 格式，其余不要任何 markdown 符号
-
-【近期新事实】
+【近期新发现】（每条格式：[媒体名](url)：摘要，请直接复用这些链接）
 {recent_block}
 
-【历史已知背景（勿重复旧事实）】
+【历史背景（勿重复）】
 {history_block if history_block else "（无）"}
 
-话题新观点更新："""
+话题进展："""
 
     try:
         resp = requests.post(
