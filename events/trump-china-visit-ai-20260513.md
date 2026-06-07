@@ -4,11 +4,11 @@ title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折�
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
 status: HOT
-last_check: 2026-06-07T10:48
+last_check: 2026-06-07T14:39
 last_activity: '2026-06-07'
-next_check: 2026-06-07T13:48
+next_check: 2026-06-07T17:39
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 119
 tags:
 - tracker
@@ -280,4 +280,3 @@ Guo Jiakun briefing 2026, Trump Xi AI agreement, US China artificial intelligenc
 - [国产AI芯片加速替代进口，2026年英伟达在华份额或降至8%_CPU](https://post.smzdm.com/p/a7g5e5rg) — 华为昇腾910C、阿里平头哥真武810E、寒武纪思元590等国产芯片加速部署，英伟达在中国AI芯片市场份额从2023年的66%降至2025年的54%，并预计2026年进一步萎缩至8%。
 ### 2026-06-07
 - [国产昇腾系列出货量突破千万颗，华为领跑人工智能算力赛道-公司新闻](http://www.godecap.com/company-news-show-10.html) — 华为昇腾系列AI芯片累计出货量已突破1000万颗，标志着国产AI算力芯片正式迈入规模化商用新阶段。
-

@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-06-07T10:48
+last_check: 2026-06-07T14:39
 last_activity: '2026-06-07'
-next_check: 2026-06-07T13:48
+next_check: 2026-06-07T17:39
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 233
+findings_count: 234
 tags:
 - tracker
 - HOT
@@ -385,4 +385,6 @@ Watch Geoff Bennett's conversation with Gerrit De Vynck, who covers AI for The W
 ### 2026-06-07
 - [86K views · 563 reactions | Anthropic’s new AI model, Mythos, can identify—and exploit—security holes in everything from operating systems to cryptographic software. We explain how the time between a vulnerability being identified and being weaponised has shrunk from a number of years to just a few hours https://econ.st/3QpzKSF | The Economist](https://www.facebook.com/TheEconomist/videos/how-much-better-is-ai-getting-at-hacking/27296986153252588) — Anthropic的新AI模型Mythos能够识别并利用操作系统到加密软件中的安全漏洞，且漏洞被识别到被武器化的时间缩短至几小时。
 - [Anthropic's Mythos Claims Questioned by Cybersecurity Insider](https://www.youtube.com/watch?v=cWgD9QUztL0) — 网络安全专家对Anthropic的Mythos AI模型的能力表示担忧，认为其可能发现并利用网络漏洞。
+### 2026-06-07
+- [Anthropic's new model, Claude Mythos, is so powerful that it ... - Reddit](https://www.reddit.com/r/singularity/comments/1sf3uhp/anthropics_new_model_claude_mythos_is_so_powerful) — Reddit上的讨论指出，Anthropic的新模型Claude Mythos非常强大，这是历史发现中未出现的新事实。
 
