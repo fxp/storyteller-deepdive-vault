@@ -4,11 +4,11 @@ title: Google Chrome 推出 Prompt API（浏览器内置 Gemini Nano）
 seed_url: https://developer.chrome.com/docs/ai/prompt-api
 published_date: 2024-11-12
 status: HOT
-last_check: 2026-06-07T18:31
+last_check: 2026-06-07T22:26
 last_activity: '2026-06-07'
-next_check: 2026-06-07T21:31
+next_check: 2026-06-08T01:26
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 94
 tags:
 - tracker
@@ -230,4 +230,3 @@ search_queries:
 - [Ejb503/chrome-ai-prompt-api: Chrome built in AI implementation](https://github.com/Ejb503/chrome-ai-prompt-api) — Ejb503/chrome-ai-prompt-api: Chrome built in AI implementation。新闻提到了Chrome内置AI的实现，可能包含Prompt API的具体实现细节。
 ### 2026-06-07
 - [AI APIs are in stable and origin trials, with new Early Preview Program APIs](https://app.daily.dev/posts/ai-apis-are-in-stable-and-origin-trials-with-new-early-preview-program-apis-nxmyktiuu) — 摘要中提到了AI API的稳定和试验版本，以及新的早期预览程序API，这是新事实。
-

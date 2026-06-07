@@ -197,7 +197,7 @@
 <header class="header">
   <div class="header-left">
     <h1>🔭 StoryTeller</h1>
-    <p>AI 事件持续追踪 · 更新于 2026-06-07 21:29 UTC</p>
+    <p>AI 事件持续追踪 · 更新于 2026-06-07 22:27 UTC</p>
   </div>
   <div class="stats">
     <div class="stat">
@@ -205,7 +205,7 @@
       <div class="stat-label">追踪事件</div>
     </div>
     <div class="stat">
-      <div class="stat-value">660</div>
+      <div class="stat-value">661</div>
       <div class="stat-label">总发现数</div>
     </div>
     <div class="stat">
@@ -229,7 +229,7 @@
         </div>
         <div class="chips"><span class="chip chip-person">Elizabeth Kelly（前 CAISI 负责人，已加入 Anthropic）</span><span class="chip chip-org">Anthropic</span><span class="chip chip-org">US Department of Commerce</span><span class="chip chip-org">CAISI</span></div>
         <div class="card-meta">
-          <span>📄 234 条发现</span>
+          <span>📄 235 条发现</span>
           <span>🆕 近期 10 条</span>
           <span>🕐 2026-06-07</span>
           <span>🔄 每 3h</span>
@@ -237,24 +237,30 @@
       </div>
       <div class="card-body">
         <div class="synopsis">1.  分析请求：
-       角色：AI 行业分析师
-       课题：Anthropic 发布 Mythos 前沿模型，引发全球安全震动
-       任务：根据提供的高价值发现，写一段 150～220 字的中文话题进展。
-       规则1：以话题为主语，写观点和实质变化，不转述新闻标题。
-       规则2：引用信源必须内联，格式：[媒体名](URL)。
-       规则3：不要 bullet list 或标题，只输出流畅中文段落。
-       规则4：不重复历史已知事实（如：Mythos很危险、引发安全担忧、BenchLM 99分、SWE-bench 93.9%、Project Glasswing、能识别基础设施缺陷、因危险未公开发布、数据泄露等均不能重复）。
-       规则5：结尾用「——」提出 1～2 个值得关注的问题。
+       角色： AI 行业分析师。
+       课题： Anthropic 发布 Mythos 前沿模型，引发全球安全震动。
+       任务： 根据提供的高价值发现，写一段 150～220 字的中文话题进展。
+       规则：
+        1.  以话题为主语，写观点和实质变化，不转述新闻标题。
+        2.  每引用信源，必须将链接内联在句子里，格式：`[媒体名](URL)`。
+        3.  不要 bullet list 或标题，只输出流畅中文段落。
+        4.  不重复历史已知事实（Mythos 的发布、基准测试分数、网络安全风险、Project Glasswing、对关键基础设施的黑客能力、数据泄露等均为历史事实）。
+        5.  结尾可用「——」提出 1～2 个值得关注的问题。
+       输入数据：
+           高价值发现：<a href="https://www.cnbc.com/2026/02/27/defense-anthropic-ai-war-risks-hegseth-amodei.html" target="_blank" rel="noopener" class="inline-src">CNBC</a> 讨论了五角大楼与 Anthropic 的 AI 冲突，这是未来战争的关键前沿。
 
-2.  筛选高价值发现（排除历史已知）：
-       <a href="https://www.youtube.com/watch?v=cWgD9QUztL0" target="_blank" rel="noopener" class="inline-src">YouTube</a>：网络安全专家对Mythos发现并利用网络漏洞的能力表示担忧。（历史已知有“专家担忧用于攻击/自动化风险”，但“发现并利用网络漏洞”可以算作具体能力的新表述，不过为避免重复，尽量精简或结合其他点）。
-       <a href="https://www.mindstudio.ai/blog/claude-mythos-vs-opus-4-6-capability-comparison" target="_blank" rel="noopener" class="inline-src">Mindstudio</a>：Claude Mythos 与 Claude Opus 4.6 在编码、推理和网络安全方面的能力进行了直接比较，揭示了两者之间的能力差距。（新事实：与Opus 4.6的对比及能力差距）。
-       <a href="https://www.reddit.com/r/singularity/comments/1sf3uhp/anthropics_new_model_claude_mythos_is_so_powerful" target="_blank" rel="noopener" class="inline-src">Reddit</a>：Reddit讨论指出Claude Mythos非常强大。（太泛，且历史已知其强大，可忽略或仅作辅助）。
-       <a href="https://arstechnica.com/civis/threads/uk-gov%E2%80%99s-mythos-ai-tests-help-separate-cybersecurity-threat-from-hype.1512560" target="_blank" rel="noopener" class="inline-src">Arstechnica</a>：英国政府使用 Mythos AI 测试帮助区分网络安全威胁和炒作。（新事实：英国政府介入测试以区分威胁与炒作）。
-       <a href="https://techcrunch.com/2026/06/05/nsa-said-to-be-readying-anthropics-mythos-for-use-in-cyber-operations" target="_blank" rel="noopener" class="inline-src">TechCrunch</a>：NSA 正在准备使用 Anthropic 的 Mythos 模型进行网络行动。（新事实：NSA准备将其用于网络行动）。
-       <a href="https://www.mindstudio.ai/blog/what-is-claude-mythos-anthropic-most-powerful-model" target="_blank" rel="noopener" class="inline-src">Mindstudio</a>：Claude Mythos 模型通过 API 泄露和基准测试首次被发现，揭示了模型的能力和发现方式。（历史已知“数据泄露揭示”，此条重复，不用）。
+2.  解构输入并识别“新”信息：
+       历史背景涵盖了：Mythos 的发布、基准测试（BenchLM、SWE-bench）、网络安全风险/自动化攻击、Project Glasswing、对银行/电网/政府软件的黑客能力、被认为对公众发布过于危险、数据泄露。
+       新发现：五角大楼与 Anthropic 的 AI 冲突，代表了未来战争的关键前沿（五角大楼- Anthropic 冲突）。
 
-    可用的新事实：</div><div class="src-row"><a class="src-pill" href="https://www.youtube.com/watch?v=cWgD9QUztL0" target="_blank" rel="noopener"><span class="src-date">2026-06-07</span>YouTube</a><a class="src-pill" href="https://www.reddit.com/r/singularity/comments/1sf3uhp/anthropics_new_model_claude_mythos_is_so_powerful" target="_blank" rel="noopener"><span class="src-date">2026-06-07</span>Reddit</a><a class="src-pill" href="https://arstechnica.com/civis/threads/uk-gov%E2%80%99s-mythos-ai-tests-help-separate-cybersecurity-threat-from-hype.1512560" target="_blank" rel="noopener"><span class="src-date">2026-06-06</span>Arstechnica</a><a class="src-pill" href="https://techcrunch.com/2026/06/05/nsa-said-to-be-readying-anthropics-mythos-for-use-in-cyber-operations" target="_blank" rel="noopener"><span class="src-date">2026-06-06</span>TechCrunch</a><a class="src-pill" href="https://www.mindstudio.ai/blog/what-is-claude-mythos-anthropic-most-powerful-model" target="_blank" rel="noopener"><span class="src-date">2026-06-05</span>Mindstudio</a><a class="src-pill" href="https://www.facebook.com/financialtimes/posts/anthropics-new-mythos-ai-model-is-raising-concern-among-governments-and-companie/1363050669201640" target="_blank" rel="noopener"><span class="src-date">2026-06-04</span>Facebook</a><a class="src-pill" href="https://www.forbes.com/sites/ronschmelzer/2026/05/29/anthropics-guarded-mythos-model-is-headed-for-wider-release" target="_blank" rel="noopener"><span class="src-date">2026-06-04</span>Forbes</a><a class="src-pill" href="https://garymarcus.substack.com/p/what-should-we-take-from-anthropics" target="_blank" rel="noopener"><span class="src-date">2026-06-04</span>Garymarcus</a></div>
+3.  起草叙述：
+       主语： 话题/Mythos 模型的影响。
+       观点/实质变化： 焦点已从纯粹的技术风险/基准测试转向地缘政治和军事冲突。Mythos 的能力正迫使 AI 开发者与国防机构之间产生直接摩擦。
+       整合信源： <a href="https://www.cnbc.com/2026/02/27/defense-anthropic-ai-war-risks-hegseth-amodei.html" target="_blank" rel="noopener" class="inline-src">CNBC</a> 指出，五角大楼与 Anthropic 之间的冲突正成为未来战争的关键前沿。
+       结尾问题： 这种军事化冲突将如何影响 AI 安全对齐？Anthropic 能否抵挡国防部的压力？
+
+4.  起草 - 尝试 1（侧重于字数和规则）：
+    Mythos引发的安全震动正从技术风险预警演变为实质性的地缘政治与军事博弈。随着该模型展现出的颠覆性网络攻防能力，AI企业与军方势力的直接冲突已不可避免，<a href="https://www.cnbc.com/2026/02/27/defense-anthropic-ai-war-risks-hegseth-amodei.html" target="_blank" rel="noopener" class="inline-src">CNBC</a>指出，五角大楼与Anthropic之间的AI冲突正成为未来战争的关键前沿，这标志着前沿模型的安全争议已跨越商业边界，触及国家军事机器的底线</div><div class="src-row"><a class="src-pill" href="https://www.youtube.com/watch?v=cWgD9QUztL0" target="_blank" rel="noopener"><span class="src-date">2026-06-07</span>YouTube</a><a class="src-pill" href="https://www.cnbc.com/2026/02/27/defense-anthropic-ai-war-risks-hegseth-amodei.html" target="_blank" rel="noopener"><span class="src-date">2026-06-07</span>CNBC</a><a class="src-pill" href="https://arstechnica.com/civis/threads/uk-gov%E2%80%99s-mythos-ai-tests-help-separate-cybersecurity-threat-from-hype.1512560" target="_blank" rel="noopener"><span class="src-date">2026-06-06</span>Arstechnica</a><a class="src-pill" href="https://techcrunch.com/2026/06/05/nsa-said-to-be-readying-anthropics-mythos-for-use-in-cyber-operations" target="_blank" rel="noopener"><span class="src-date">2026-06-06</span>TechCrunch</a><a class="src-pill" href="https://www.mindstudio.ai/blog/what-is-claude-mythos-anthropic-most-powerful-model" target="_blank" rel="noopener"><span class="src-date">2026-06-05</span>Mindstudio</a><a class="src-pill" href="https://www.facebook.com/financialtimes/posts/anthropics-new-mythos-ai-model-is-raising-concern-among-governments-and-companie/1363050669201640" target="_blank" rel="noopener"><span class="src-date">2026-06-04</span>Facebook</a><a class="src-pill" href="https://www.forbes.com/sites/ronschmelzer/2026/05/29/anthropics-guarded-mythos-model-is-headed-for-wider-release" target="_blank" rel="noopener"><span class="src-date">2026-06-04</span>Forbes</a><a class="src-pill" href="https://garymarcus.substack.com/p/what-should-we-take-from-anthropics" target="_blank" rel="noopener"><span class="src-date">2026-06-04</span>Garymarcus</a></div>
       </div>
     </div>
 
@@ -274,30 +280,22 @@
       </div>
       <div class="card-body">
         <div class="synopsis">1. 分析请求：
-     角色： AI 行业分析师。
-     课题： “美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic 被排除”。
-     任务： 根据提供的高价值发现，写一段 150～220 字的中文话题进展。
-     规则：
-        1. 以话题为主语，写观点和实质变化，不转述新闻标题。
-        2. 每引用信源，必须将链接内联在句子里，格式：`[媒体名](URL)`。
-        3. 不要 bullet list 或标题，只输出流畅中文段落。
-        4. 不重复历史已知事实（例如，五角大楼将Anthropic列为供应链风险，Google/Microsoft/xAI测试模型，特朗普的立场，与OpenAI/Nvidia/Alphabet/Amazon/SpaceX/Reflection/Oracle的8家公司协议，模型分享等）。
-        5. 结尾可用“——”提出 1～2 个值得关注的问题。
-     高价值发现：
-         <a href="https://defensescoop.com/2026/05/01/dod-expands-classified-ai-work-with-8-companies-excluding-anthropic" target="_blank" rel="noopener" class="inline-src">Defensescoop</a>：DOD扩大其机密AI工作，排除Anthropic。（这是历史发现中未出现的新事实）。
+       角色： AI行业分析师。
+       课题： “美国政府与微软/Google/xAI签署AI安全测试协议，Anthropic被排除”。
+       字数： 150 - 220个中文字符。
+       规则1： 以话题为主语，写观点和实质变化，不转述新闻标题。
+       规则2： 内联引用格式：`[媒体名](URL)`。示例：<a href="https://..." target="_blank" rel="noopener" class="inline-src">TechCrunch</a> 确认...
+       规则3： 不要bullet list或标题，只输出流畅中文段落。
+       规则4： 不重复历史已知事实（五角大楼将Anthropic列为供应链风险，政府测试Google/Microsoft/xAI模型，特朗普对Anthropic持开放态度，五角大楼与7/8家公司签署协议，包括OpenAI/Nvidia/Alphabet/Amazon/Microsoft/SpaceX/Reflection/Oracle在内的机密网络部署，三大AI公司同意分享模型）。
+       规则5： 结尾可用“——”提出1～2个值得关注的问题。
+       输入： 高价值发现：<a href="https://defensescoop.com/2026/05/01/dod-expands-classified-ai-work-with-8-companies-excluding-anthropic" target="_blank" rel="noopener" class="inline-src">Defensescoop</a>：DOD扩大其机密AI工作，排除Anthropic，这是历史发现中未出现的新事实。
 
-2. 筛选信息：
-     新事实： 美国国防部（DOD）扩大其机密AI工作，明确排除Anthropic。
-     历史事实（避免）： 五角大楼将Anthropic列为供应链风险；Google/Microsoft/xAI测试；特朗普持开放态度；8家公司协议细节（OpenAI、Nvidia、AWS、SpaceX、Reflection、Oracle）；模型分享协议。
+2. 分析输入与历史背景：
+       新事实： DOD扩大其机密AI工作，明确排除Anthropic。（等等，提示词说“DOD扩大其机密AI工作，排除Anthropic，这是历史发现中未出现的新事实。”但历史背景说“五角大楼将Anthropic列为供应链风险... 美国国防部与包括OpenAI、Nvidia和Alphabet在内的七家科技公司签署协议... Pentagon 与八家科技公司达成协议...”。所以新的角度是，在DOD机密AI工作的扩大中，Anthropic被明确排除，而其他公司则被纳入。实际上，历史背景说“Pentagon 与八家科技公司达成协议... 其中包括Amazon Web Services, Google, Microsoft, NVIDIA, OpenAI, SpaceX, Reflection和Oracle”。新发现是DOD扩大了这项机密工作，并再次确认/强调了Anthropic的排除。等等，历史背景说“五角大楼将Anthropic列为供应链风险”是历史。那么什么是新的？新的是DOD在机密AI工作上的扩大，再次确认了排除。让我仔细看看提示词：“DOD扩大其机密AI工作，排除Anthropic，这是历史发现中未出现的新事实。”好吧，我必须把重点放在DOD扩大机密AI工作上，同时保持Anthropic被排除在外。）
 
-3. 起草叙述：
-     主语： 话题（美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic 被排除）。
-     焦点： DOD机密AI工作的扩大以及Anthropic被持续排除在外，表明了战略分歧或特定的合规/安全摩擦。
-     起草文本：
-        美国政府与微软、Google及xAI的AI安全测试协议正推动国防机密系统部署的实质性深化，而Anthropic的缺席凸显了军方与特定AI厂商间的战略错位。美国国防部已正式扩大其机密AI工作范围，并在此次扩容中明确将Anthropic排除在外 <a href="https://defensescoop.com/2026/05/01/dod-expands-classified-ai-work-with-8-companies-excluding-anthropic" target="_blank" rel="noopener" class="inline-src">Defensescoop</a>。这一进展表明，尽管头部AI企业正加速融入国家安全体系，但Anthropic因供应链风险或合规考量，仍被挡在五角大楼的核心机密网络之外，其与政府的安全合作路径正出现显著分化。——Anthropic被持续排除是源于其内部安全红线的抵触，还是技术审查未达军方标准？这种分化将如何重塑AI国防承包市场的竞争格局？
-
-4. 润色与字数检查：
-     文本：美国政府与微软、Google及xAI的AI安全测试协议正推动国防机密系统部署的实质性深化，而Anth</div><div class="src-row"><a class="src-pill" href="https://thedailyrecord.com/2026/05/01/pentagon-agreements-ai-companies-excluding-anthropic-security" target="_blank" rel="noopener"><span class="src-date">2026-06-07</span>Thedailyrecord</a><a class="src-pill" href="https://defensescoop.com/2026/05/01/dod-expands-classified-ai-work-with-8-companies-excluding-anthropic" target="_blank" rel="noopener"><span class="src-date">2026-06-05</span>Defensescoop</a><a class="src-pill" href="https://www.cnbc.com/2026/04/21/trump-anthropic-department-defense-deal.html" target="_blank" rel="noopener"><span class="src-date">2026-06-04</span>CNBC</a><a class="src-pill" href="https://www.cybersecuritydive.com/news/nist-ai-model-testing-caisi-google-microsoft/819452" target="_blank" rel="noopener"><span class="src-date">2026-06-04</span>Cybersecuritydive</a><a class="src-pill" href="https://thedefensepost.com/2026/05/04/pentagon-snubs-anthropic-ai" target="_blank" rel="noopener"><span class="src-date">2026-06-02</span>Thedefensepost</a></div>
+3. 起草 - 逐步进行：
+       主语： 话题（美国政府与微软/Google/xAI签署AI安全测试协议，Anthropic被排除）。
+       观点/实质变化： 话题的焦点从初步的协议签署转移到了机密AI工作的实质性扩大，在此过程中，Anthropic的缺席变得更加根深蒂固。尽管主流科技巨头巩固了</div><div class="src-row"><a class="src-pill" href="https://thedailyrecord.com/2026/05/01/pentagon-agreements-ai-companies-excluding-anthropic-security" target="_blank" rel="noopener"><span class="src-date">2026-06-07</span>Thedailyrecord</a><a class="src-pill" href="https://defensescoop.com/2026/05/01/dod-expands-classified-ai-work-with-8-companies-excluding-anthropic" target="_blank" rel="noopener"><span class="src-date">2026-06-05</span>Defensescoop</a><a class="src-pill" href="https://www.cnbc.com/2026/04/21/trump-anthropic-department-defense-deal.html" target="_blank" rel="noopener"><span class="src-date">2026-06-04</span>CNBC</a><a class="src-pill" href="https://www.cybersecuritydive.com/news/nist-ai-model-testing-caisi-google-microsoft/819452" target="_blank" rel="noopener"><span class="src-date">2026-06-04</span>Cybersecuritydive</a><a class="src-pill" href="https://thedefensepost.com/2026/05/04/pentagon-snubs-anthropic-ai" target="_blank" rel="noopener"><span class="src-date">2026-06-02</span>Thedefensepost</a></div>
       </div>
     </div>
 
@@ -316,28 +314,31 @@
         </div>
       </div>
       <div class="card-body">
-        <div class="synopsis">1. 分析请求：
-     角色： AI 行业分析师。
-     课题： “Google Chrome 推出 Prompt API（浏览器内置 Gemini Nano）”。
-     任务： 根据提供的高价值发现，写一段 150～220 字的中文话题进展。
-     规则：
-        1. 以话题为主语，写观点和实质变化，不转述新闻标题。
-        2. 每引用信源，必须将链接内联在句子里，格式：`[媒体名](URL)`。
-        3. 不要 bullet list 或标题，只输出流畅中文段落。
-        4. 不重复历史已知事实（例如：API 设计、Mozilla 反对、Chrome 148 稳定性、首次开发者体验、LiteRT 框架、生产数据如 41% 可用性/6倍延迟/0成本、InfoQ 报道、Reddit 讨论）。
-        5. 结尾可用“——”提出 1～2 个值得关注的问题。
-     输入数据：
-         <a href="https://www.facebook.com/FintechAssociationOfKenya/posts/chrome-gemini-nano-your-new-in-built-ai-powered-browsingat-the-google-io-2024-de/455790843484764" target="_blank" rel="noopener" class="inline-src">Facebook</a>：Chrome + Gemini Nano = 你的新型内置 AI 驱动浏览……提到了集成，可能包含新的应用场景或功能。
-         <a href="https://www.okoone.com/spark/technology-innovation/google-launches-gemini-nano-for-chrome-desktop-client" target="_blank" rel="noopener" class="inline-src">Okoone</a>：Google 为 Chrome 桌面客户端推出 Gemini Nano，增强 AI 集成和离线功能。
+        <div class="synopsis">1.  分析请求：
+       角色： AI 行业分析师。
+       课题： Google Chrome 推出 Prompt API（浏览器内置 Gemini Nano）。
+       任务： 根据提供的高价值发现，写一段 150～220 字的中文话题进展。
+       规则：
+        1.  以话题为主语，写观点和实质变化，不转述新闻标题。
+        2.  每引用信源，必须将链接内联在句子里，格式：`[媒体名](URL)`。
+        3.  不要 bullet list 或标题，只输出流畅中文段落。
+        4.  不重复历史已知事实（如：API设计、Mozilla反对、Chrome 148稳定版、扩展开发者历程、LiteRT-LM、生产数据41%/6x、InfoQ报道、Reddit讨论等）。
+        5.  结尾可用「——」提出 1～2 个值得关注的问题。
+       输入数据：
+           <a href="https://www.facebook.com/FintechAssociationOfKenya/posts/chrome-gemini-nano-your-new-in-built-ai-powered-browsingat-the-google-io-2024-de/455790843484764" target="_blank" rel="noopener" class="inline-src">Facebook</a>：Chrome + Gemini Nano = AI驱动浏览的新内置... 提及集成、新应用场景或功能。
+           <a href="https://www.okoone.com/spark/technology-innovation/google-launches-gemini-nano-for-chrome-desktop-client" target="_blank" rel="noopener" class="inline-src">Okoone</a>：Google为Chrome桌面客户端推出Gemini Nano，增强AI集成和离线功能。
 
-2. 过滤与综合新信息：
-     新点 1： Chrome + Gemini Nano 正被定位/探索为“新型 AI 驱动浏览”，暗示了超越基础 API 的更广泛的应用场景 <a href="https://www.facebook.com/FintechAssociationOfKenya/posts/chrome-gemini-nano-your-new-in-built-ai-powered-browsingat-the-google-io-2024-de/455790843484764" target="_blank" rel="noopener" class="inline-src">Facebook</a>。
-     新点 2： Google 已正式将 Gemini Nano 推向 Chrome 桌面客户端，特别强调了 AI 集成的深化和离线功能的增强 <a href="https://www.okoone.com/spark/technology-innovation/google-launches-gemini-nano-for-chrome-desktop-client" target="_blank" rel="noopener" class="inline-src">Okoone</a>。
-     背景约束： 不要提及 Chrome 148 稳定性、41% 可用性、Mozilla 反对等。
+2.  提取新信息（排除历史）：
+       历史背景已涵盖：API设计初衷、Mozilla反对、Chrome 148稳定版及零Token翻译/摘要、扩展开发体验、底层框架LiteRT-LM、生产环境数据（41%可用性，6倍延迟，零成本）、InfoQ/Reddit的早期讨论。
+       新信息： 重点在于Chrome桌面客户端的进一步集成，特别是强调离线功能的增强以及AI驱动浏览的新应用场景/体验的拓展。这表明内置AI正从底层API可用性向具体桌面端离线体验和场景落地演进。
 
-3. 起草段落：
-     主语： 话题（Chrome 的 Prompt API / 内置 Gemini Nano）。
-     起草： Google Chrome 内置 Gemini Nano 的进程正从底层 API 供给向具体场景落地与桌面端深化演进。该内置 AI 能力正被拓展为“新型 AI 驱动浏览”的核心体验，预示着更丰富的原生 AI 应用场景即将浮现 [Facebook](https://www.facebook.com/FintechAssociationOfKenya/posts/chrome-gemini-nano-your-new-in-built-ai-powered-browsingat-the-google-io-2024-de/455790</div><div class="src-row"><a class="src-pill" href="https://www.facebook.com/FintechAssociationOfKenya/posts/chrome-gemini-nano-your-new-in-built-ai-powered-browsingat-the-google-io-2024-de/455790843484764" target="_blank" rel="noopener"><span class="src-date">2026-06-07</span>Facebook</a><a class="src-pill" href="https://github.com/Ejb503/chrome-ai-prompt-api" target="_blank" rel="noopener"><span class="src-date">2026-06-07</span>GitHub</a><a class="src-pill" href="https://app.daily.dev/posts/ai-apis-are-in-stable-and-origin-trials-with-new-early-preview-program-apis-nxmyktiuu" target="_blank" rel="noopener"><span class="src-date">2026-06-07</span>App</a><a class="src-pill" href="https://www.okoone.com/spark/technology-innovation/google-launches-gemini-nano-for-chrome-desktop-client" target="_blank" rel="noopener"><span class="src-date">2026-06-02</span>Okoone</a></div>
+3.  起草内容：
+       主语： 话题（Chrome内置Gemini Nano及Prompt API）。
+       观点/实质变化： 从API稳定走向桌面端离线场景的实质性落地。Google正式将Gemini Nano推向Chrome桌面客户端，显著增强了浏览器的离线AI处理能力，使得无网络环境下的智能浏览成为可能 [Okoone](URL)。同时，这种深度集成正在催生全新的AI驱动浏览场景，将本地大模型能力直接转化为用户侧的原生体验 [Facebook](URL)。
+       结尾问题： ——当离线AI能力成为桌面浏览器标配，Web应用生态将如何重构？离线场景的隐私与性能平衡能否打破现有云端AI的垄断？
+
+4.  精炼与字数控制（150-220字）：
+    *   草稿：Chrome内置Gemini Nano及Prompt API正从底层能力走向桌面端离线场景的实质性</div><div class="src-row"><a class="src-pill" href="https://www.facebook.com/FintechAssociationOfKenya/posts/chrome-gemini-nano-your-new-in-built-ai-powered-browsingat-the-google-io-2024-de/455790843484764" target="_blank" rel="noopener"><span class="src-date">2026-06-07</span>Facebook</a><a class="src-pill" href="https://github.com/Ejb503/chrome-ai-prompt-api" target="_blank" rel="noopener"><span class="src-date">2026-06-07</span>GitHub</a><a class="src-pill" href="https://app.daily.dev/posts/ai-apis-are-in-stable-and-origin-trials-with-new-early-preview-program-apis-nxmyktiuu" target="_blank" rel="noopener"><span class="src-date">2026-06-07</span>App</a><a class="src-pill" href="https://www.okoone.com/spark/technology-innovation/google-launches-gemini-nano-for-chrome-desktop-client" target="_blank" rel="noopener"><span class="src-date">2026-06-02</span>Okoone</a></div>
       </div>
     </div>
 
@@ -360,29 +361,25 @@
        角色： AI行业分析师。
        课题： 特朗普访华与中美AI科技博弈（H200解禁、芯片战转折）。
        字数： 150～220个中文字符。
-       结构/风格：
-           以话题为主语，写观点和实质变化，不转述新闻标题。
-           内联引用格式：`[媒体名](URL)`。
-           不要bullet list或标题，只输出流畅中文段落。
-           不重复历史已知事实（避免重复：10家公司获批、华为占据60%份额、特朗普AI框架、政府间对话、商务部长言论、峰会讨论、推定拒绝改为逐案审查等）。
-           结尾：使用“——”提出1～2个值得关注的问题。
+       规则：
+        1.  以话题为主语，写观点和实质变化，不转述新闻标题。
+        2.  每引用信源，必须将链接内联在句子里，格式：`[媒体名](URL)`。
+        3.  不要bullet list或标题，只输出流畅中文段落。
+        4.  不重复历史已知事实（例如，特朗普宣布解禁、华为占据60%份额、约10家公司获批、推定拒绝改为逐案审查等）。
+        5.  结尾可用“——”提出1～2个值得关注的问题。
        提供的高价值发现：
-        1.  美国政府正式批准英伟达向中国出口H200芯片，预计将重启出货。<a href="https://www.eet-china.com/news/202601149385.html" target="_blank" rel="noopener" class="inline-src">Eet China</a>
-        2.  华为在2025年占据中国AI芯片市场20%的份额，英伟达为55%（新事实，与历史中60%的预测不同）。<a href="https://news.qq.com/rain/a/20260403A0229V00" target="_blank" rel="noopener" class="inline-src">News</a>
-        3.  美国商务部修订了高级计算商品许可证审查政策，引发国会强烈反对。<a href="https://introl.com/zh/blog/bis-h200-export-policy-china-case-by-case-controversy-2026" target="_blank" rel="noopener" class="inline-src">Introl</a>
-        4.  峰会后美国批准向约10家中国科技公司（阿里、腾讯、字节跳动、京东）出口H200，为英伟达重新打开此前基本关闭的对华出口。<a href="https://www.me.news/contents/279561" target="_blank" rel="noopener" class="inline-src">Me</a>
-        5.  美国商务部批准了包括阿里、腾讯、字节跳动和京东在内的约10家公司购买H200。<a href="https://www.instagram.com/p/DYUgSIalpDy" target="_blank" rel="noopener" class="inline-src">Instagram</a>
+           <a href="https://www.eet-china.com/news/202601149385.html" target="_blank" rel="noopener" class="inline-src">Eet China</a>：美国政府正式批准英伟达向中国出口H200芯片，预计将重启出货。
+           <a href="https://news.qq.com/rain/a/20260403A0229V00" target="_blank" rel="noopener" class="inline-src">News</a>：华为在2025年占据中国AI芯片市场20%的份额，英伟达占55%。（注：历史背景称华为预计占据60%，但新事实是2025年华为占20%，英伟达占55%——这显示了与预期/历史叙述的巨大反差）。
+           <a href="https://introl.com/zh/blog/bis-h200-export-policy-china-case-by-case-controversy-2026" target="_blank" rel="noopener" class="inline-src">Introl</a>：美国商务部修订了高级计算商品许可证审查政策，引发国会强烈反对。
+           <a href="https://news.qq.com/rain/a/20260403A0229V00" target="_blank" rel="noopener" class="inline-src">News</a>：重复了2025年市场份额事实。
 
-2.  过滤与综合（避免历史重复）：
-       历史： 10家公司获批（阿里、腾讯、字节跳动、京东），推定拒绝改为逐案审查，华为预计占据60%，峰会讨论，政府间对话。
-       新事实：
-           美国政府正式批准H200出口，重启出货（来自Eet China）。
-           美国商务部修订许可证审查政策，引发国会强烈反对（来自Introl）。
-           实际市场份额新数据：华为在2025年占据20%，英伟达占据55%（来自News）——这直接反驳/修正了历史中“华为占据60%”的预测。
-           峰会后H200获批为英伟达重新打开此前基本关闭的市场（来自Me/Instagram——但需谨慎，因为历史中提到了10家公司获批。我将重点关注“重新打开此前基本关闭的出口”这一方面，或者将批准与国会反对及实际市场份额影响结合起来）。
+2.  起草 - 第1步：综合新事实与观点：
+       话题： 中美AI科技博弈 / H200解禁。
+       新事实1： 美国政府正式批准H200出口，重启出货 <a href="https://www.eet-china.com/news/202601149385.html" target="_blank" rel="noopener" class="inline-src">Eet China</a>。商务部许可证审查政策的修订引发了国会强烈反对 <a href="https://introl.com/zh/blog/bis-h200-export-policy-china-case-by-case-controversy-2026" target="_blank" rel="noopener" class="inline-src">Introl</a>。
+       新事实2： 市场格局与早先预期不同：2025年，英伟达占据中国AI芯片市场55%的份额，而华为占据20% <a href="https://news.qq.com/rain/a/20260403A0229V00" target="_blank" rel="noopener" class="inline-src">News</a>。这表明，尽管有出口管制，英伟达依然维持了主导地位，而华为的增长慢于此前“占据60%”的预期。
+       观点/实质变化： H200的正式批准标志着芯片战从绝对封锁转向受控渗透，尽管面临国内政治反弹。同时，真实的市场数据揭示了英伟达的韧性，打破了国产替代将迅速占据主导的叙事。
 
-3.  起草叙述：
-       话题主</div><div class="src-row"><a class="src-pill" href="https://news.qq.com/rain/a/20260403A0229V00" target="_blank" rel="noopener"><span class="src-date">2026-06-07</span>News</a><a class="src-pill" href="https://www.me.news/contents/279561" target="_blank" rel="noopener"><span class="src-date">2026-06-06</span>Me</a><a class="src-pill" href="https://thediplomat.com/2026/06/trumps-new-ai-order-raises-the-stakes-in-china-us-tech-competition" target="_blank" rel="noopener"><span class="src-date">2026-06-05</span>Thediplomat</a><a class="src-pill" href="https://thehill.com/homenews/administration/5880013-donald-trump-xi-jinping-china-summit-ai-guardrails" target="_blank" rel="noopener"><span class="src-date">2026-06-04</span>Thehill</a><a class="src-pill" href="https://www.youtube.com/watch?v=ejmf2joJEPg" target="_blank" rel="noopener"><span class="src-date">2026-06-04</span>YouTube</a><a class="src-pill" href="https://www.csis.org/programs/trump-xi-2026-summit" target="_blank" rel="noopener"><span class="src-date">2026-06-04</span>Csis</a><a class="src-pill" href="https://time.com/article/2026/05/15/trump-xi-us-china-summit-ai-semiconductor-chips" target="_blank" rel="noopener"><span class="src-date">2026-06-04</span>Time</a><a class="src-pill" href="https://emcreative.eastmoney.com/app_fortune/article/index.html?artCode=20260508090212441431370&amp;postId=1704296694" target="_blank" rel="noopener"><span class="src-date">2026-06-03</span>Emcreative</a></div>
+3.  *</div><div class="src-row"><a class="src-pill" href="https://news.qq.com/rain/a/20260403A0229V00" target="_blank" rel="noopener"><span class="src-date">2026-06-07</span>News</a><a class="src-pill" href="https://www.me.news/contents/279561" target="_blank" rel="noopener"><span class="src-date">2026-06-06</span>Me</a><a class="src-pill" href="https://thediplomat.com/2026/06/trumps-new-ai-order-raises-the-stakes-in-china-us-tech-competition" target="_blank" rel="noopener"><span class="src-date">2026-06-05</span>Thediplomat</a><a class="src-pill" href="https://thehill.com/homenews/administration/5880013-donald-trump-xi-jinping-china-summit-ai-guardrails" target="_blank" rel="noopener"><span class="src-date">2026-06-04</span>Thehill</a><a class="src-pill" href="https://www.youtube.com/watch?v=ejmf2joJEPg" target="_blank" rel="noopener"><span class="src-date">2026-06-04</span>YouTube</a><a class="src-pill" href="https://www.csis.org/programs/trump-xi-2026-summit" target="_blank" rel="noopener"><span class="src-date">2026-06-04</span>Csis</a><a class="src-pill" href="https://time.com/article/2026/05/15/trump-xi-us-china-summit-ai-semiconductor-chips" target="_blank" rel="noopener"><span class="src-date">2026-06-04</span>Time</a><a class="src-pill" href="https://emcreative.eastmoney.com/app_fortune/article/index.html?artCode=20260508090212441431370&amp;postId=1704296694" target="_blank" rel="noopener"><span class="src-date">2026-06-03</span>Emcreative</a></div>
       </div>
     </div>
 
@@ -401,27 +398,23 @@
         </div>
       </div>
       <div class="card-body">
-        <div class="synopsis">1. 分析请求：
-     角色： AI 行业分析师。
-     课题： “Anthropic + Blackstone 联合组建企业 AI 交付公司”。
-     任务： 根据提供的高价值发现，写一段 150～220 字的中文话题进展。
-     规则：
-        1. 以话题为主语，写观点和实质变化，不转述新闻标题。
-        2. 每引用信源，必须将链接内联在句子里，格式：`[媒体名](URL)`。示例：`<a href="https://..." target="_blank" rel="noopener" class="inline-src">TechCrunch</a> 确认...`
-        3. 不要 bullet list 或标题，只输出流畅中文段落。
-        4. 不重复历史已知事实（历史背景：Anthropic与Blackstone、H&amp;F、高盛合作成立15亿美元AI原生企业服务公司，将Claude引入中型企业核心业务，推出金融代理等）。
-        5. 结尾可用「——」提出 1～2 个值得关注的问题。
-     输入数据：
-         发现：<a href="https://www.instagram.com/p/DX8uWzrjTdj" target="_blank" rel="noopener" class="inline-src">Instagram</a>：Anthropic 与 Blackstone、Hellman &amp; Friedman 和 Goldman Sachs 合作成立了一家新的 AI 服务公司，部署其 Claude 模型。
-     约束检查： 输入的发现与历史背景高度重合。历史背景已经确认了与Blackstone、H&amp;F、高盛的合作，15亿美元估值，以及部署Claude。我需要找到一个新的角度或实质变化，而不重复完全相同的事实，或者专注于影响或战略转变，而不是仅仅重复“他们成立了一家公司”。
+        <div class="synopsis">1.  分析请求：
+       角色： AI 行业分析师，追踪课题「Anthropic + Blackstone 联合组建企业 AI 交付公司」。
+       任务： 根据提供的高价值发现，写一段 150～220 字的中文话题进展。
+       规则 1： 以话题为主语，写观点和实质变化，不转述新闻标题。
+       规则 2： 每引用信源，必须将链接内联在句子里，格式：[媒体名](URL)。示例：<a href="https://..." target="_blank" rel="noopener" class="inline-src">TechCrunch</a> 确认...
+       规则 3： 不要 bullet list 或标题，只输出流畅中文段落。
+       规则 4： 不重复历史已知事实（历史背景包括：Anthropic + Blackstone + H&amp;F + Goldman Sachs 合作，15亿美元估值，AI原生企业服务公司，将Claude引入企业核心业务/中型企业，Claude金融代理等）。
+       规则 5： 结尾可用「——」提出 1～2 个值得关注的问题。
+       输入数据： <a href="https://www.instagram.com/p/DX8uWzrjTdj" target="_blank" rel="noopener" class="inline-src">Instagram</a>：Anthropic 与 Blackstone、Hellman &amp; Friedman 和 Goldman Sachs 合作成立了一家新的 AI 服务公司，部署其 Claude 模型。
 
-2. 起草 - 寻找新角度：
-     既然核心事实（成立公司、合作伙伴、15亿美元、Claude部署）已经是历史，那么新的进展或观点是什么？提示词说“写观点和实质变化”。Instagram的帖子可能只是一个确认或视觉上的公告，但分析师需要提取意义。
-     意义：顶级AI实验室（Anthropic）与华尔街巨头（Blackstone、高盛、H&amp;F）之间的结盟，标志着AI交付从“API自助服务”向“资本支持的深度企业整合”转变。这实质上是AI领域的“GSI（全球系统集成商）”模式，但由模型制造商和资本方共同拥有。
-     让我们综合一下：Anthropic与Blackstone等资本巨头的联合交付实体正重塑企业AI落地路径，标志着大模型公司从提供API向深度介入企业核心运营的“原生交付”模式跃迁。此举借助华尔街资本与行业资源，将Claude直接嵌入中型企业业务流，实质上构建了由模型厂商主导的新型系统集成商（GSI）生态，加速了AI从工具向核心生产力的转化<a href="https://www.instagram.com/p/DX8uWzrjTdj" target="_blank" rel="noopener" class="inline-src">Instagram</a>。
-
-3. 润色与字数检查：
-    * 草稿1：Anthropic与Blackstone等资本巨头的联合交付实体正重塑企业AI落地路径，标志着大模型公司从提供API向深度介入企业核心运营的“原生交付”模式跃迁。该合资公司借助华尔街顶级资本与行业资源，将</div><div class="src-row"><a class="src-pill" href="https://briefglance.com/companies/blackstone-inc/pulses/10123" target="_blank" rel="noopener"><span class="src-date">2026-06-05</span>Briefglance</a><a class="src-pill" href="https://www.instagram.com/p/DX8uWzrjTdj" target="_blank" rel="noopener"><span class="src-date">2026-06-04</span>Instagram</a><a class="src-pill" href="https://www.crn.com/news/ai/2026/openai-launches-services-business-on-heels-of-similar-anthropic-announcement" target="_blank" rel="noopener"><span class="src-date">2026-06-03</span>Crn</a><a class="src-pill" href="https://www.linkedin.com/posts/tigertyagarajan_building-a-new-enterprise-ai-services-company-activity-7457089195245920256-eV5a" target="_blank" rel="noopener"><span class="src-date">2026-06-03</span>LinkedIn</a><a class="src-pill" href="https://www.linkedin.com/posts/aiblmedia_anthropic-has-launched-the-claude-partner-activity-7438239834026086402-DVLN" target="_blank" rel="noopener"><span class="src-date">2026-05-31</span>LinkedIn</a><a class="src-pill" href="https://www.swfinstitute.org/news/109135/anthropic-blackstone-goldman-sachs-launch-ai-services-firm-to-scale-claude-adoption-in-middle-market-enterprises" target="_blank" rel="noopener"><span class="src-date">2026-05-31</span>Swfinstitute</a><a class="src-pill" href="https://www.forbes.com/sites/geruiwang/2026/03/13/anthropic-wants-claude-to-become-a-new-interface-for-work" target="_blank" rel="noopener"><span class="src-date">2026-05-31</span>Forbes</a><a class="src-pill" href="https://quantumzeitgeist.com/anthropic-alliance-services-firm-300m" target="_blank" rel="noopener"><span class="src-date">2026-05-31</span>Quantumzeitgeist</a></div>
+2.  分析输入与历史背景：
+       历史背景： 已经知道了合作方、15亿估值、AI原生企业服务、目标客户（中型企业/核心业务）、Claude金融代理。
+       新发现： Instagram 上的帖子确认了 Anthropic 与 Blackstone、H&amp;F 和 Goldman Sachs 合作成立一家新的 AI 服务公司，以部署其 Claude 模型。
+       等等，仔细看： 新发现实际上只是重申了合作和部署 Claude 的目的。但既然我不能重复历史事实，我需要找到一个新的角度或实质变化。然而，输入非常有限。Instagram 的帖子本质上是一个官方确认/公告渠道。让我们将其构建为该合资企业的正式公开亮相或官方确认，强调其核心机制：将 Claude 直接部署到企业中，作为 AI 交付模式的战略升级。
+       实际上，让我仔细重读： 历史背景说“Anthropic确认...”、“Anthropic与...合作成立...”、“Anthropic宣布...”。Instagram 帖子是“Anthropic 与 Blackstone、Hellman &amp; Friedman 和 Goldman Sachs 合作成立了一家新的 AI 服务公司，部署其 Claude 模型。”
+       既然我不能重复“他们合作成立了一家公司”，我必须关注进展或观点。进展是，这一举措标志着 AI 交付从纯 API/模型提供转向由资本驱动的垂直化交付模式。Blackstone、H&amp;F 和 GS 的参与不仅仅是融资；它打通了通往企业客户的渠道。Instagram 帖子作为这种部署策略的公开确认。
+       让我们综合一下：该合资企业正从资本整合转向运营部署。通过利用顶级私募股权和银行网络，Anthropic 正在绕过传统的企业软件销售周期，直接将 Claude 嵌入核心业务运营中。正如 [Instagram](https://www.instagram</div><div class="src-row"><a class="src-pill" href="https://briefglance.com/companies/blackstone-inc/pulses/10123" target="_blank" rel="noopener"><span class="src-date">2026-06-05</span>Briefglance</a><a class="src-pill" href="https://www.instagram.com/p/DX8uWzrjTdj" target="_blank" rel="noopener"><span class="src-date">2026-06-04</span>Instagram</a><a class="src-pill" href="https://www.crn.com/news/ai/2026/openai-launches-services-business-on-heels-of-similar-anthropic-announcement" target="_blank" rel="noopener"><span class="src-date">2026-06-03</span>Crn</a><a class="src-pill" href="https://www.linkedin.com/posts/tigertyagarajan_building-a-new-enterprise-ai-services-company-activity-7457089195245920256-eV5a" target="_blank" rel="noopener"><span class="src-date">2026-06-03</span>LinkedIn</a><a class="src-pill" href="https://www.linkedin.com/posts/aiblmedia_anthropic-has-launched-the-claude-partner-activity-7438239834026086402-DVLN" target="_blank" rel="noopener"><span class="src-date">2026-05-31</span>LinkedIn</a><a class="src-pill" href="https://www.swfinstitute.org/news/109135/anthropic-blackstone-goldman-sachs-launch-ai-services-firm-to-scale-claude-adoption-in-middle-market-enterprises" target="_blank" rel="noopener"><span class="src-date">2026-05-31</span>Swfinstitute</a><a class="src-pill" href="https://www.forbes.com/sites/geruiwang/2026/03/13/anthropic-wants-claude-to-become-a-new-interface-for-work" target="_blank" rel="noopener"><span class="src-date">2026-05-31</span>Forbes</a><a class="src-pill" href="https://quantumzeitgeist.com/anthropic-alliance-services-firm-300m" target="_blank" rel="noopener"><span class="src-date">2026-05-31</span>Quantumzeitgeist</a></div>
       </div>
     </div>
 </main>
