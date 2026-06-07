@@ -209,7 +209,13 @@ def _call_glm(prompt: str, max_tokens: int = 800, temperature: float = 0.4) -> s
         timeout=60,
     )
     resp.raise_for_status()
-    return resp.json()["choices"][0]["message"]["content"].strip()
+    msg  = resp.json()["choices"][0]["message"]
+    # glm-5.1 等推理模型的最终答案在 content，思考过程在 reasoning_content
+    # 部分场景 content 为空，fallback 到 reasoning_content
+    text = (msg.get("content") or "").strip()
+    if not text:
+        text = (msg.get("reasoning_content") or "").strip()
+    return text
 
 
 def filter_valuable(

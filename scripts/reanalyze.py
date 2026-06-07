@@ -78,7 +78,11 @@ def call_glm(prompt: str, max_tokens: int = 500) -> str:
         timeout=60,
     )
     resp.raise_for_status()
-    return resp.json()["choices"][0]["message"]["content"].strip()
+    msg  = resp.json()["choices"][0]["message"]
+    text = (msg.get("content") or "").strip()
+    if not text:
+        text = (msg.get("reasoning_content") or "").strip()
+    return text
 
 
 # ── 批量评估 ──────────────────────────────────────────────────────
