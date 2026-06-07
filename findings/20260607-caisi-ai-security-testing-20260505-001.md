@@ -1,17 +1,17 @@
 ---
 event: "[[caisi-ai-security-testing-20260505]]"
 date: 2026-06-07
-url: "https://www.claimsjournal.com/news/national/2026/05/06/337400.htm"
-source_title: "White House Prepares Order to Boost AI Security, Hassett Says"
+url: "https://thedailyrecord.com/2026/05/01/pentagon-agreements-ai-companies-excluding-anthropic-security"
+source_title: "Pentagon agrees with seven AI firms over security concerns"
 relevance: RELEVANT
 ---
 
-# White House Prepares Order to Boost AI Security, Hassett Says
+# Pentagon agrees with seven AI firms over security concerns
 
-**来源**: [White House Prepares Order to Boost AI Security, Hassett Says](https://www.claimsjournal.com/news/national/2026/05/06/337400.htm)
+**来源**: [Pentagon agrees with seven AI firms over security concerns](https://thedailyrecord.com/2026/05/01/pentagon-agreements-ai-companies-excluding-anthropic-security)
 **发现时间**: 2026-06-07
 **所属事件**: [[caisi-ai-security-testing-20260505]]
 
 ## 摘要
 
-白宫准备发布一项行政命令，以增强人工智能模型的安全审查，以保护商业和政府网络免受AI相关的网络风险。
+Pentagon 与七家AI公司达成协议，排除Anthropic，这是历史发现中未出现的新事实。
