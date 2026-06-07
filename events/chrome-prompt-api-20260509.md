@@ -3,16 +3,16 @@ id: chrome-prompt-api-20260509
 title: Google Chrome 推出 Prompt API（浏览器内置 Gemini Nano）
 seed_url: https://developer.chrome.com/docs/ai/prompt-api
 published_date: 2024-11-12
-status: TRACKING
-last_check: 2026-06-06T07:16
-last_activity: '2026-06-02'
-next_check: 2026-06-07T07:16
-interval_hours: 24
-consecutive_empty: 13
-findings_count: 89
+status: HOT
+last_check: 2026-06-07T07:29
+last_activity: '2026-06-07'
+next_check: 2026-06-07T10:29
+interval_hours: 3
+consecutive_empty: 0
+findings_count: 90
 tags:
 - tracker
-- TRACKING
+- HOT
 entities:
   orgs:
   - Google
@@ -222,3 +222,6 @@ search_queries:
 - [Designing the Built-in AI Web APIs | Domenic Denicola](https://domenic.me/builtin-ai-api-design) — Designing the Built-in AI Web APIs. For the last year, I’ve been working as part of the Chrome built-in AI team on a set of APIs to bring various AI models to the web browser. As with all APIs we ship, our goal is to make these APIs compelling enough that other browsers adopt them, and they become part of the web’s standard library. Working in such a fast-moving space brings tension with the us
 ### 2026-06-02
 - [Google launches Gemini Nano for Chrome desktop client | Okoone](https://www.okoone.com/spark/technology-innovation/google-launches-gemini-nano-for-chrome-desktop-client) — Google launches Gemini Nano for Chrome desktop client, enhancing AI integration and offline functionality.
+### 2026-06-07
+- [AI right in the browser with Chrome's built-in AI APIs - YouTube](https://www.youtube.com/watch?v=34zD5s_U68U) — YouTube 视频介绍了 Chrome 内置 AI API 的使用，提供了新事实，如 API 的具体应用和功能。
+

@@ -4,11 +4,11 @@ title: 美国政府与微软/Google/xAI 签署 AI 安全测试协议，Anthropic
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-06-07T03:14
+last_check: 2026-06-07T07:29
 last_activity: '2026-06-07'
-next_check: 2026-06-07T06:14
+next_check: 2026-06-07T10:29
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 133
 tags:
 - tracker
@@ -266,4 +266,3 @@ Google, Microsoft, Amazon Web Services, Nvidia, OpenAI, Reflection and SpaceX wi
 - [DOD expands its classified AI work with 8 companies — excluding Anthropic — amid ongoing dispute](https://defensescoop.com/2026/05/01/dod-expands-classified-ai-work-with-8-companies-excluding-anthropic) — DOD扩大其机密AI工作，排除Anthropic，这是历史发现中未出现的新事实。
 ### 2026-06-07
 - [White House Prepares Order to Boost AI Security, Hassett Says](https://www.claimsjournal.com/news/national/2026/05/06/337400.htm) — 白宫准备发布一项行政命令，以增强人工智能模型的安全审查，以保护商业和政府网络免受AI相关的网络风险。
-

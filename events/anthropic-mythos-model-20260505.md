@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-06-07T03:14
+last_check: 2026-06-07T07:29
 last_activity: '2026-06-07'
-next_check: 2026-06-07T06:14
+next_check: 2026-06-07T10:29
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 229
+findings_count: 231
 tags:
 - tracker
 - HOT
@@ -379,4 +379,7 @@ Watch Geoff Bennett's conversation with Gerrit De Vynck, who covers AI for The W
 - [UK gov’s Mythos AI tests help separate cybersecurity threat from hype | Ars OpenForum](https://arstechnica.com/civis/threads/uk-gov%E2%80%99s-mythos-ai-tests-help-separate-cybersecurity-threat-from-hype.1512560) — 英国政府使用 Mythos AI 测试帮助区分网络安全威胁和炒作。
 ### 2026-06-07
 - [NSA using Claude Mythos for 'offensive cyber operations,' report claims &mdash; says 'half-a-dozen' Anthropic engineers embedded inside the agency](https://www.tomshardware.com/tech-industry/artificial-intelligence/nsa-using-clause-mythos-for-offensive-cyber-operations-report-claims-says-half-a-dozen-anthropic-engineers-embedded-inside-the-agency) — NSA 正在准备使用 Anthropic 的 Mythos 模型进行网络行动，并声称有几位 Anthropic 工程师被嵌入到该机构内部。
+### 2026-06-07
+- [White House integrating Anthropic's Mythos AI into federal ... - Reddit](https://www.reddit.com/r/cybersecurity/comments/1srp248/white_house_integrating_anthropics_mythos_ai_into) — White House integrating Anthropic's Mythos AI into federal cybersecurity strategy.
+- [Pentagon vs Anthropic: NSA Uses Claude Mythos Despite Ban](https://www.youtube.com/watch?v=74NvUuolEmA) — NSA Uses Claude Mythos Despite Ban for offensive cyber operations.
 

@@ -4,12 +4,12 @@ title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折�
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
 status: HOT
-last_check: 2026-06-07T03:14
+last_check: 2026-06-07T07:29
 last_activity: '2026-06-07'
-next_check: 2026-06-07T06:14
+next_check: 2026-06-07T10:29
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 117
+findings_count: 118
 tags:
 - tracker
 - HOT
@@ -276,4 +276,6 @@ Guo Jiakun briefing 2026, Trump Xi AI agreement, US China artificial intelligenc
 - [中美峰会定调稳定化，Crypto 监管破局与行情回调并行 - MetaEra](https://www.me.news/contents/279561) — 峰会后美国批准向约10家中国科技公司出口英伟达H200 AI芯片，包括阿里、腾讯、字节跳动、京东等，为英伟达重新打开此前基本关闭的对华出口。
 ### 2026-06-07
 - [国产AI芯片三国杀：从算力竞争到生态战争_腾讯新闻](https://news.qq.com/rain/a/20260529A03LTN00) — 华为单家出货逼近百万张，寒武纪首次扭亏，海光营收破百亿，NVIDIA 三年间被切走 35-40 个百分点，国产 AI 芯片在 2024–2025 年完成了一轮实质性追赶。
+### 2026-06-07
+- [国产AI芯片加速替代进口，2026年英伟达在华份额或降至8%_CPU](https://post.smzdm.com/p/a7g5e5rg) — 华为昇腾910C、阿里平头哥真武810E、寒武纪思元590等国产芯片加速部署，英伟达在中国AI芯片市场份额从2023年的66%降至2025年的54%，并预计2026年进一步萎缩至8%。
 
