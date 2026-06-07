@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-06-07T07:29
+last_check: 2026-06-07T10:48
 last_activity: '2026-06-07'
-next_check: 2026-06-07T10:29
+next_check: 2026-06-07T13:48
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 231
+findings_count: 233
 tags:
 - tracker
 - HOT
@@ -382,4 +382,7 @@ Watch Geoff Bennett's conversation with Gerrit De Vynck, who covers AI for The W
 ### 2026-06-07
 - [White House integrating Anthropic's Mythos AI into federal ... - Reddit](https://www.reddit.com/r/cybersecurity/comments/1srp248/white_house_integrating_anthropics_mythos_ai_into) — White House integrating Anthropic's Mythos AI into federal cybersecurity strategy.
 - [Pentagon vs Anthropic: NSA Uses Claude Mythos Despite Ban](https://www.youtube.com/watch?v=74NvUuolEmA) — NSA Uses Claude Mythos Despite Ban for offensive cyber operations.
+### 2026-06-07
+- [86K views · 563 reactions | Anthropic’s new AI model, Mythos, can identify—and exploit—security holes in everything from operating systems to cryptographic software. We explain how the time between a vulnerability being identified and being weaponised has shrunk from a number of years to just a few hours https://econ.st/3QpzKSF | The Economist](https://www.facebook.com/TheEconomist/videos/how-much-better-is-ai-getting-at-hacking/27296986153252588) — Anthropic的新AI模型Mythos能够识别并利用操作系统到加密软件中的安全漏洞，且漏洞被识别到被武器化的时间缩短至几小时。
+- [Anthropic's Mythos Claims Questioned by Cybersecurity Insider](https://www.youtube.com/watch?v=cWgD9QUztL0) — 网络安全专家对Anthropic的Mythos AI模型的能力表示担忧，认为其可能发现并利用网络漏洞。
 
