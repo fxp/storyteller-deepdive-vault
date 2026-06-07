@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-06-06T23:25
-last_activity: '2026-06-06'
-next_check: 2026-06-07T02:25
+last_check: 2026-06-07T03:14
+last_activity: '2026-06-07'
+next_check: 2026-06-07T06:14
 interval_hours: 3
-consecutive_empty: 2
-findings_count: 228
+consecutive_empty: 0
+findings_count: 229
 tags:
 - tracker
 - HOT
@@ -377,3 +377,6 @@ Watch Geoff Bennett's conversation with Gerrit De Vynck, who covers AI for The W
 ### 2026-06-06
 - [NSA said to be readying Anthropic’s Mythos for use in cyber operations - TechCrunch](https://techcrunch.com/2026/06/05/nsa-said-to-be-readying-anthropics-mythos-for-use-in-cyber-operations) — NSA 正在准备使用 Anthropic 的 Mythos 模型进行网络行动。
 - [UK gov’s Mythos AI tests help separate cybersecurity threat from hype | Ars OpenForum](https://arstechnica.com/civis/threads/uk-gov%E2%80%99s-mythos-ai-tests-help-separate-cybersecurity-threat-from-hype.1512560) — 英国政府使用 Mythos AI 测试帮助区分网络安全威胁和炒作。
+### 2026-06-07
+- [NSA using Claude Mythos for 'offensive cyber operations,' report claims &mdash; says 'half-a-dozen' Anthropic engineers embedded inside the agency](https://www.tomshardware.com/tech-industry/artificial-intelligence/nsa-using-clause-mythos-for-offensive-cyber-operations-report-claims-says-half-a-dozen-anthropic-engineers-embedded-inside-the-agency) — NSA 正在准备使用 Anthropic 的 Mythos 模型进行网络行动，并声称有几位 Anthropic 工程师被嵌入到该机构内部。
+
