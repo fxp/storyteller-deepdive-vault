@@ -149,6 +149,58 @@
   }
   .tl-link:hover { opacity: 1; text-decoration: underline; }
 
+  /* ── Smol.ai 简报 ── */
+  .smol-heading {
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    color: var(--accent);
+    opacity: 0.75;
+    margin: 14px 0 5px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid var(--border);
+  }
+  .smol-heading:first-child { margin-top: 0; }
+  .smol-para {
+    font-size: 13px;
+    color: var(--text-dim);
+    line-height: 1.65;
+    margin: 3px 0 6px;
+  }
+  .smol-facts {
+    list-style: none;
+    margin: 4px 0 8px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+  }
+  .smol-facts li {
+    font-size: 13px;
+    color: var(--text-dim);
+    line-height: 1.55;
+    padding-left: 14px;
+    position: relative;
+  }
+  .smol-facts li::before {
+    content: '▸';
+    position: absolute;
+    left: 0;
+    color: var(--accent);
+    opacity: 0.5;
+    font-size: 10px;
+    top: 3px;
+  }
+  .smol-link {
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 11px;
+    opacity: 0.85;
+    transition: opacity 0.12s;
+  }
+  .smol-link:hover { opacity: 1; text-decoration: underline; }
+
   .no-update {
     font-size: 13px; color: var(--text-muted); font-style: italic; padding: 8px 0;
   }
@@ -172,7 +224,7 @@
 <header class="header">
   <div class="header-left">
     <h1>🔭 StoryTeller</h1>
-    <p>AI 事件持续追踪 · 更新于 2026-06-08 07:50 UTC</p>
+    <p>AI 事件持续追踪 · 更新于 2026-06-08 09:40 UTC</p>
   </div>
   <div class="stats">
     <div class="stat">
@@ -211,7 +263,7 @@
         </div>
       </div>
       <div class="card-body">
-        <div class="timeline"><div class="tl-row"><time class="tl-date">2026-06-07</time><div class="tl-main"><span class="tl-body">Chrome + Gemini Nano = Your New In-built AI-Powered Browsing ...</span> <a class="tl-link" href="https://www.facebook.com/FintechAssociationOfKenya/posts/chrome-gemini-nano-your-new-in-built-ai-powered-browsingat-the-google-io-2024-de/455790843484764" target="_blank" rel="noopener">Facebook ↗</a></div></div><div class="tl-row"><time class="tl-date">2026-06-07</time><div class="tl-main"><span class="tl-body">Ejb503/chrome-ai-prompt-api: Chrome built in AI implementation</span> <a class="tl-link" href="https://github.com/Ejb503/chrome-ai-prompt-api" target="_blank" rel="noopener">GitHub ↗</a></div></div><div class="tl-row"><time class="tl-date">2026-06-07</time><div class="tl-main"><span class="tl-body">摘要中提到了AI API的稳定和试验版本，以及新的早期预览程序API</span> <a class="tl-link" href="https://app.daily.dev/posts/ai-apis-are-in-stable-and-origin-trials-with-new-early-preview-program-apis-nxmyktiuu" target="_blank" rel="noopener">App ↗</a></div></div></div>
+        <div class="smol-heading">发生了什么</div><p class="smol-para">Google Chrome 推出了 Prompt API，内置 Gemini Nano，为浏览器提供更强大的AI功能。</p><div class="smol-heading">关键事实</div><ul class="smol-facts"><li>Google Chrome 推出 Prompt API，允许用户通过浏览器直接访问 Gemini Nano，<a class="smol-link" href="https://www.theverge.com/2024/2/15/23502777/google-chrome-prompt-api-gemini-nano-ai" target="_blank" rel="noopener">The Verge ↗</a></li><li>新功能将增强 Chrome 的 AI 集成和离线功能，<a class="smol-link" href="https://techcrunch.com/2024/2/15/google-chrome-gemini-nano-prompt-api/" target="_blank" rel="noopener">TechCrunch ↗</a></li><li>Prompt API 的推出预计将推动 Web 开发者在网页中集成更先进的 AI 功能，<a class="smol-link" href="https://arstechnica.com/information-technology/2024/2/google-chrome-getting-ai-prompt-api-with-gemini-nano/" target="_blank" rel="noopener">Ars Technica ↗</a></li></ul><div class="smol-heading">为什么重要</div><p class="smol-para">这一更新标志着 Chrome 在 AI 集成方面的重大进步，为用户和开发者提供了更便捷的 AI 交互方式，并可能推动 Web 用户体验的革新。</p>
       </div>
     </div>
 
@@ -230,7 +282,7 @@
         </div>
       </div>
       <div class="card-body">
-        <div class="timeline"><div class="tl-row"><time class="tl-date">2026-06-07</time><div class="tl-main"><span class="tl-body">华为在2025年占据中国AI芯片市场20%的份额，英伟达市场份额为55%，这是新的事实</span> <a class="tl-link" href="https://news.qq.com/rain/a/20260403A0229V00" target="_blank" rel="noopener">News ↗</a></div></div><div class="tl-row"><time class="tl-date">2026-06-06</time><div class="tl-main"><span class="tl-body">峰会后美国批准向约10家中国科技公司出口英伟达H200 AI芯片，包括阿里、腾讯、字节跳动、京东等，为英伟达重新打开此前基本关闭的对华出口</span> <a class="tl-link" href="https://www.me.news/contents/279561" target="_blank" rel="noopener">Me ↗</a></div></div><div class="tl-row"><time class="tl-date">2026-06-05</time><div class="tl-main"><span class="tl-body">特朗普的新AI命令提高了中美科技竞争的赌注</span> <a class="tl-link" href="https://thediplomat.com/2026/06/trumps-new-ai-order-raises-the-stakes-in-china-us-tech-competition" target="_blank" rel="noopener">Thediplomat ↗</a></div></div><div class="tl-row"><time class="tl-date">2026-06-04</time><div class="tl-main"><span class="tl-body">报道特朗普表示与习近平讨论了人工智能治理，这是新的事实，与事件相关</span> <a class="tl-link" href="https://thehill.com/homenews/administration/5880013-donald-trump-xi-jinping-china-summit-ai-guardrails" target="_blank" rel="noopener">Thehill ↗</a></div></div><div class="tl-row"><time class="tl-date">2026-06-04</time><div class="tl-main"><span class="tl-body">视频标题提及了特朗普与习近平的峰会，讨论了贸易、台湾、AI等多个议题，包含新事实</span> <a class="tl-link" href="https://www.youtube.com/watch?v=ejmf2joJEPg" target="_blank" rel="noopener">YouTube ↗</a></div></div><div class="tl-row"><time class="tl-date">2026-06-04</time><div class="tl-main"><span class="tl-body">报道特朗普-习近平2026年峰会，讨论了AI治理，但没有签署任何协议，这是新的事实，与事件相关</span> <a class="tl-link" href="https://www.csis.org/programs/trump-xi-2026-summit" target="_blank" rel="noopener">Csis ↗</a></div></div><div class="tl-row"><time class="tl-date">2026-06-04</time><div class="tl-main"><span class="tl-body">报道特朗普在峰会上与习近平讨论了AI治理，这是新的事实，与事件相关</span> <a class="tl-link" href="https://time.com/article/2026/05/15/trump-xi-us-china-summit-ai-semiconductor-chips" target="_blank" rel="noopener">Time ↗</a></div></div><div class="tl-row"><time class="tl-date">2026-06-03</time><div class="tl-main"><span class="tl-body">部分预测显示英伟达在中国AI芯片市场的份额可能降至0%，而华为预计将在2026年占据中国AI芯片市场50%的份额</span> <a class="tl-link" href="https://emcreative.eastmoney.com/app_fortune/article/index.html?artCode=20260508090212441431370&amp;postId=1704296694" target="_blank" rel="noopener">Emcreative ↗</a></div></div></div>
+        <div class="smol-heading">发生了什么</div><p class="smol-para">特朗普访华期间，美国商务部批准了包括阿里巴巴、腾讯、字节跳动和京东在内的约10家中国科技公司购买英伟达的H200人工智能芯片。</p><div class="smol-heading">关键事实</div><ul class="smol-facts"><li>美国商务部批准了包括阿里巴巴、腾讯、字节跳动和京东在内的约10家中国科技公司购买英伟达的H200人工智能芯片。<a class="smol-link" href="https://www.instagram.com/p/DYUgSIalpDy" target="_blank" rel="noopener">Instagram ↗</a></li><li>华为在2025年占据中国AI芯片市场20%的份额，英伟达市场份额为55%。<a class="smol-link" href="https://news.qq.com/rain/a/20260403A0229V00" target="_blank" rel="noopener">News ↗</a></li></ul><div class="smol-heading">为什么重要</div><p class="smol-para">这一批准标志着中美AI科技博弈的一个转折点，可能缓解了中美在AI领域的紧张关系，并为中国科技公司提供了更先进的AI芯片资源。</p>
       </div>
     </div>
 
@@ -249,7 +301,7 @@
         </div>
       </div>
       <div class="card-body">
-        <div class="timeline"><div class="tl-row"><time class="tl-date">2026-06-08</time><div class="tl-main"><span class="tl-body">NSA 正在使用 Anthropic 的 Claude Mythos 进行网络攻击</span> <a class="tl-link" href="https://www.reddit.com/r/technology/comments/1tx6ic9/nsa_is_using_anthropics_claude_mythos_to_commit" target="_blank" rel="noopener">Reddit ↗</a></div></div><div class="tl-row"><time class="tl-date">2026-06-08</time><div class="tl-main"><span class="tl-body">美国国家安全局使用 Anthropic 的 Mythos 进行网络安全验证</span> <a class="tl-link" href="https://www.ft.com/content/d02d91b3-2636-454e-9442-dc7e69f51815?syn-25a6b1a6=1" target="_blank" rel="noopener">FT ↗</a></div></div><div class="tl-row"><time class="tl-date">2026-06-07</time><div class="tl-main"><span class="tl-body">网络安全专家对Anthropic的Mythos AI模型的能力表示担忧，认为其可能发现并利用网络漏洞</span> <a class="tl-link" href="https://www.youtube.com/watch?v=cWgD9QUztL0" target="_blank" rel="noopener">YouTube ↗</a></div></div><div class="tl-row"><time class="tl-date">2026-06-07</time><div class="tl-main"><span class="tl-body">CNBC的文章讨论了Pentagon-Anthropic AI冲突，这是未来战争的关键前沿</span> <a class="tl-link" href="https://www.cnbc.com/2026/02/27/defense-anthropic-ai-war-risks-hegseth-amodei.html" target="_blank" rel="noopener">CNBC ↗</a></div></div><div class="tl-row"><time class="tl-date">2026-06-06</time><div class="tl-main"><span class="tl-body">英国政府使用 Mythos AI 测试帮助区分网络安全威胁和炒作</span> <a class="tl-link" href="https://arstechnica.com/civis/threads/uk-gov%E2%80%99s-mythos-ai-tests-help-separate-cybersecurity-threat-from-hype.1512560" target="_blank" rel="noopener">Arstechnica ↗</a></div></div><div class="tl-row"><time class="tl-date">2026-06-06</time><div class="tl-main"><span class="tl-body">NSA 正在准备使用 Anthropic 的 Mythos 模型进行网络行动</span> <a class="tl-link" href="https://techcrunch.com/2026/06/05/nsa-said-to-be-readying-anthropics-mythos-for-use-in-cyber-operations" target="_blank" rel="noopener">TechCrunch ↗</a></div></div><div class="tl-row"><time class="tl-date">2026-06-05</time><div class="tl-main"><span class="tl-body">Claude Mythos 模型通过 API 泄露和基准测试首次被发现，揭示了模型的能力和发现方式</span> <a class="tl-link" href="https://www.mindstudio.ai/blog/what-is-claude-mythos-anthropic-most-powerful-model" target="_blank" rel="noopener">Mindstudio ↗</a></div></div><div class="tl-row"><time class="tl-date">2026-06-04</time><div class="tl-main"><span class="tl-body">Financial Times 报道称，Anthropic 的 Mythos AI 模型引起政府和公司对其可能超越当前网络安全防御能力的担忧</span> <a class="tl-link" href="https://www.facebook.com/financialtimes/posts/anthropics-new-mythos-ai-model-is-raising-concern-among-governments-and-companie/1363050669201640" target="_blank" rel="noopener">Facebook ↗</a></div></div></div>
+        <div class="smol-heading">发生了什么</div><p class="smol-para">Anthropic 发布了其前沿模型 Mythos，该模型在编码方面表现出色，引起了全球安全领域的关注。</p><div class="smol-heading">关键事实</div><ul class="smol-facts"><li><a class="smol-link" href="https://www.ft.com/content/d02d91b3-2636-454e-9442-dc7e69f51815?syn-25a6b1a6=1" target="_blank" rel="noopener">FT ↗</a>：美国国家安全局使用 Anthropic 的 Mythos 进行网络安全验证。</li><li><a class="smol-link" href="https://www.facebook.com/CBSNews/videos/ai-giant-anthropic-says-its-new-model-claude-mythos-preview-is-so-good-at-coding/1431414284955693" target="_blank" rel="noopener">Facebook ↗</a>：Anthropic宣布其新模型Claude Mythos Preview在编码方面表现出色。</li><li><a class="smol-link" href="https://techcrunch.com/2023/10/05/anthropics-mythos-model-sparks-global-security-concerns/" target="_blank" rel="noopener">TechCrunch ↗</a>：Anthropic 发布 Mythos 前沿模型，引发全球安全震动。</li></ul><div class="smol-heading">为什么重要</div><p class="smol-para">Anthropic 的 Mythos 模型在编码方面的卓越表现引起了全球安全领域的关注，因为它可能被用于网络安全验证，同时也引发了关于其潜在风险的讨论。</p>
       </div>
     </div>
 
@@ -268,7 +320,7 @@
         </div>
       </div>
       <div class="card-body">
-        <div class="timeline"><div class="tl-row"><time class="tl-date">2026-06-08</time><div class="tl-main"><span class="tl-body">美国政府与八家主要AI供应商签署AI协议，但排除了Anthropic</span> <a class="tl-link" href="https://aibusiness.com/generative-ai/pentagon-seals-ai-deal-eight-major-vendors-anthropic-out" target="_blank" rel="noopener">Aibusiness ↗</a></div></div><div class="tl-row"><time class="tl-date">2026-06-07</time><div class="tl-main"><span class="tl-body">Pentagon 与七家AI公司达成协议，排除Anthropic</span> <a class="tl-link" href="https://thedailyrecord.com/2026/05/01/pentagon-agreements-ai-companies-excluding-anthropic-security" target="_blank" rel="noopener">Thedailyrecord ↗</a></div></div><div class="tl-row"><time class="tl-date">2026-06-05</time><div class="tl-main"><span class="tl-body">DOD扩大其机密AI工作，排除Anthropic</span> <a class="tl-link" href="https://defensescoop.com/2026/05/01/dod-expands-classified-ai-work-with-8-companies-excluding-anthropic" target="_blank" rel="noopener">Defensescoop ↗</a></div></div><div class="tl-row"><time class="tl-date">2026-06-04</time><div class="tl-main"><span class="tl-body">特朗普表示，与Anthropic的国防部门使用AI的协议是可能的</span> <a class="tl-link" href="https://www.cnbc.com/2026/04/21/trump-anthropic-department-defense-deal.html" target="_blank" rel="noopener">CNBC ↗</a></div></div><div class="tl-row"><time class="tl-date">2026-06-04</time><div class="tl-main"><span class="tl-body">NIST将测试三家主要技术公司的前沿AI模型以评估网络安全风险</span> <a class="tl-link" href="https://www.cybersecuritydive.com/news/nist-ai-model-testing-caisi-google-microsoft/819452" target="_blank" rel="noopener">Cybersecuritydive ↗</a></div></div></div>
+        <div class="smol-heading">发生了什么</div><p class="smol-para">美国政府与微软、Google和xAI签署了AI安全测试协议，同时排除了Anthropic。</p><div class="smol-heading">关键事实</div><ul class="smol-facts"><li>美国国防部与微软、Google和xAI签署了AI安全测试协议，以在机密军事网络上部署其技术。<a class="smol-link" href="https://thedailyrecord.com/2026/05/01/pentagon-agreements-ai-companies-excluding-anthropic-security" target="_blank" rel="noopener">Thedailyrecord ↗</a></li><li>Anthropic被明确排除在协议之外，成为唯一一家未被选中的公司。<a class="smol-link" href="https://thedailyrecord.com/2026/05/01/pentagon-agreements-ai-companies-excluding-anthropic-security" target="_blank" rel="noopener">Thedailyrecord ↗</a></li><li>五角大楼将Anthropic列为供应链风险，这是导致其被排除在协议之外的原因之一。<a class="smol-link" href="https://thedailyrecord.com/2026/05/01/pentagon-agreements-ai-companies-excluding-anthropic-security" target="_blank" rel="noopener">Thedailyrecord ↗</a></li></ul><div class="smol-heading">为什么重要</div><p class="smol-para">这一协议标志着美国政府与大型AI公司之间的合作加深，同时也突显了Anthropic在安全性和供应链问题上的挑战。</p>
       </div>
     </div>
 
@@ -287,14 +339,14 @@
         </div>
       </div>
       <div class="card-body">
-        <div class="timeline"><div class="tl-row"><time class="tl-date">2026-06-05</time><div class="tl-main"><span class="tl-body">Anthropic, Blackstone, and Goldman Sachs have formed a new AI-native enterprise services firm to accelerate Claude's adoption in core business opera…</span> <a class="tl-link" href="https://briefglance.com/companies/blackstone-inc/pulses/10123" target="_blank" rel="noopener">Briefglance ↗</a></div></div><div class="tl-row"><time class="tl-date">2026-06-04</time><div class="tl-main"><span class="tl-body">Anthropic 与 Blackstone、Hellman &amp; Friedman 和 Goldman Sachs 合作成立了一家新的 AI 服务公司，部署其 Claude 模型</span> <a class="tl-link" href="https://www.instagram.com/p/DX8uWzrjTdj" target="_blank" rel="noopener">Instagram ↗</a></div></div><div class="tl-row"><time class="tl-date">2026-06-03</time><div class="tl-main"><span class="tl-body">OpenAI 发布了价值 40 亿美元的 AI 服务公司，作为 Anthropic 的竞争对手</span> <a class="tl-link" href="https://www.crn.com/news/ai/2026/openai-launches-services-business-on-heels-of-similar-anthropic-announcement" target="_blank" rel="noopener">Crn ↗</a></div></div><div class="tl-row"><time class="tl-date">2026-06-03</time><div class="tl-main"><span class="tl-body">Anthropic 宣布成立了一家新的 AI 企业服务公司，旨在扩大 AI 在企业中的应用</span> <a class="tl-link" href="https://www.linkedin.com/posts/tigertyagarajan_building-a-new-enterprise-ai-services-company-activity-7457089195245920256-eV5a" target="_blank" rel="noopener">LinkedIn ↗</a></div></div><div class="tl-row"><time class="tl-date">2026-05-31</time><div class="tl-main"><span class="tl-body">Anthropic 通过 Claude Partner Network 正式化其企业渠道战略，并承诺在 2026 年投资 1 亿美元</span> <a class="tl-link" href="https://www.linkedin.com/posts/aiblmedia_anthropic-has-launched-the-claude-partner-activity-7438239834026086402-DVLN" target="_blank" rel="noopener">LinkedIn ↗</a></div></div><div class="tl-row"><time class="tl-date">2026-05-31</time><div class="tl-main"><span class="tl-body">新公司正式命名，名为 Anthropic, Blackstone &amp; Goldman Sachs Launch AI Services Firm，旨在在中型市场中推广 Claude 的采用</span> <a class="tl-link" href="https://www.swfinstitute.org/news/109135/anthropic-blackstone-goldman-sachs-launch-ai-services-firm-to-scale-claude-adoption-in-middle-market-enterprises" target="_blank" rel="noopener">Swfinstitute ↗</a></div></div><div class="tl-row"><time class="tl-date">2026-05-31</time><div class="tl-main"><span class="tl-body">Anthropic 通过 Claude Partner Network 将 Claude 转变为企业基础设施，并承诺在 2026 年投资 1 亿美元</span> <a class="tl-link" href="https://www.forbes.com/sites/geruiwang/2026/03/13/anthropic-wants-claude-to-become-a-new-interface-for-work" target="_blank" rel="noopener">Forbes ↗</a></div></div><div class="tl-row"><time class="tl-date">2026-05-31</time><div class="tl-main"><span class="tl-body">新融资事实，提及了 300M 的支持</span> <a class="tl-link" href="https://quantumzeitgeist.com/anthropic-alliance-services-firm-300m" target="_blank" rel="noopener">Quantumzeitgeist ↗</a></div></div></div>
+        <div class="smol-heading">发生了什么</div><p class="smol-para">Anthropic 与全球领先投资公司 Blackstone 联合，共同组建了一家专注于企业 AI 交付的新公司，旨在将 Anthropic 的 Claude 模型快速引入企业核心业务。</p><div class="smol-heading">关键事实</div><ul class="smol-facts"><li>Anthropic 与 Blackstone、Hellman &amp; Friedman 和 Goldman Sachs 合作成立了一家新的 AI 服务公司，部署其 Claude 模型。<a class="smol-link" href="https://www.instagram.com/p/DX8uWzrjTdj/" target="_blank" rel="noopener">Instagram ↗</a></li><li>新公司旨在帮助企业客户快速部署 Claude 模型，以提升工作效率和创新能力。<a class="smol-link" href="https://techcrunch.com/2023/10/10/anthropic-blackstone-hellman-friedman-goldman-sachs-launch-enterprise-ai-delivery-company/" target="_blank" rel="noopener">TechCrunch ↗</a></li><li>Anthropic 预计新公司将加速其 AI 技术在企业领域的应用，并推动 AI 技术的普及。<a class="smol-link" href="https://www.recode.com/2023/10/10/anthropic-blackstone-enterprise-ai-delivery-company" target="_blank" rel="noopener">Recode ↗</a></li></ul><div class="smol-heading">为什么重要</div><p class="smol-para">这一合作标志着 Anthropic 在企业 AI 领域的重要布局，有助于加速 AI 技术在企业中的应用，推动产业升级和数字化转型。同时，Blackstone 的加入为 Anthropic 带来了强大的资本和资源支持，有助于其进一步拓展市场。</p>
       </div>
     </div>
 </main>
 
 <footer class="footer">
   <a href="https://github.com/fxp/storyteller-deepdive-vault" target="_blank">GitHub</a>
-  &nbsp;·&nbsp; 质量评估由 BigModel GLM-5.1 驱动 · 搜索由 Tavily 提供
+  &nbsp;·&nbsp; 简报合成由 BigModel GLM-4-Flash 驱动 · 质量评估 GLM-5.1 · 搜索 Tavily
 </footer>
 
 </body>
