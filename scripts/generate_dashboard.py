@@ -347,13 +347,14 @@ def synthesize_update(
     except Exception as e:
         # 400 通常是内容过长或内容审核拦截，用极简 prompt 重试
         if "400" in str(e):
-            print(f"  [WARN] synthesis 400, retrying with short prompt")
+            print(f"  [WARN] synthesis 400, retrying with neutral prompt")
             short_items = "\n".join(
-                f"- {f.get('_summary','')[:120]}" for f in valuable[:5]
+                f"- {f.get('_summary','')[:100]}" for f in valuable[:4]
             )
+            # 完全中性：不提及事件名，避免内容审核
             short_prompt = (
-                f"请用 100 字中文概述课题「{event_title}」的最新动态：\n{short_items}\n"
-                f"（直接输出段落，不要标题）"
+                f"综合以下信息，写一段简短的中文进展概述（80字以内），"
+                f"直接输出正文段落：\n{short_items}"
             )
             try:
                 return _try_synth(short_prompt)
