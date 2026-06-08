@@ -333,17 +333,34 @@ def synthesize_update(
 【历史背景（勿重复）】
 {history_block if history_block else "（无）"}
 
-话题进展："""
+（直接以正文段落开头，不要写"话题进展："等标题）"""
+
+    def _try_synth(p: str) -> str:
+        raw = _call_glm(p, max_tokens=700, temperature=0.5, model=SYNTH_MODEL)
+        raw = re.sub(r"^#+\s+", "", raw, flags=re.MULTILINE)
+        raw = re.sub(r"\*\*([^*]+)\*\*", r"\1", raw)
+        raw = re.sub(r"\*([^*]+)\*",     r"\1", raw)
+        return md_links_to_html(raw)
 
     try:
-        text = _call_glm(prompt, max_tokens=700, temperature=0.5, model=SYNTH_MODEL)
-        # 清理多余 markdown，但保留 [name](url)
-        text = re.sub(r"^#+\s+", "", text, flags=re.MULTILINE)
-        text = re.sub(r"\*\*([^*]+)\*\*", r"\1", text)
-        text = re.sub(r"\*([^*]+)\*",     r"\1", text)
-        return md_links_to_html(text)
+        return _try_synth(prompt)
     except Exception as e:
-        print(f"  [WARN] synthesis failed: {e}")
+        # 400 通常是内容过长或内容审核拦截，用极简 prompt 重试
+        if "400" in str(e):
+            print(f"  [WARN] synthesis 400, retrying with short prompt")
+            short_items = "\n".join(
+                f"- {f.get('_summary','')[:120]}" for f in valuable[:5]
+            )
+            short_prompt = (
+                f"请用 100 字中文概述课题「{event_title}」的最新动态：\n{short_items}\n"
+                f"（直接输出段落，不要标题）"
+            )
+            try:
+                return _try_synth(short_prompt)
+            except Exception as e2:
+                print(f"  [WARN] short-prompt also failed: {e2}")
+        else:
+            print(f"  [WARN] synthesis failed: {e}")
         return _fallback_list(recent)
 
 
