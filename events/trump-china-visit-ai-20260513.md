@@ -4,12 +4,12 @@ title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折�
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
 status: HOT
-last_check: 2026-06-08T05:39
-last_activity: '2026-06-07'
-next_check: 2026-06-08T08:39
+last_check: 2026-06-08T11:40
+last_activity: '2026-06-08'
+next_check: 2026-06-08T14:40
 interval_hours: 3
-consecutive_empty: 3
-findings_count: 120
+consecutive_empty: 0
+findings_count: 121
 tags:
 - tracker
 - HOT
@@ -282,3 +282,6 @@ Guo Jiakun briefing 2026, Trump Xi AI agreement, US China artificial intelligenc
 - [国产昇腾系列出货量突破千万颗，华为领跑人工智能算力赛道-公司新闻](http://www.godecap.com/company-news-show-10.html) — 华为昇腾系列AI芯片累计出货量已突破1000万颗，标志着国产AI算力芯片正式迈入规模化商用新阶段。
 ### 2026-06-07
 - [2025年中国AI芯片市场：华为20%、海光2%_腾讯新闻](https://news.qq.com/rain/a/20260403A0229V00) — 华为在2025年占据中国AI芯片市场20%的份额，英伟达市场份额为55%，这是新的事实。
+### 2026-06-08
+- [US China Chip War 2026: Export Impact on Semiconductors](https://oplexa.com/us-china-chip-war-2026-semiconductor) — NVIDIA H200芯片的出口影响半导体市场，包含中国7nm工艺进展和供应链风险的新事实。
+
