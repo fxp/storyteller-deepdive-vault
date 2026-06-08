@@ -388,45 +388,65 @@ def esc(s: str) -> str:
             .replace(">", "&gt;").replace('"', "&quot;"))
 
 
-def _render_sources(findings: list[dict], max_n: int = 8) -> str:
-    """始终在摘要下方显示的来源链接列表"""
-    items = []
-    seen  = set()
-    for f in findings[:max_n]:
+def render_timeline(findings: list[dict], max_n: int = 8) -> str:
+    """
+    将 finding 列表渲染为时间线：日期 · 核心摘要 · 来源链接
+    优先展示 HIGH 质量，其次 OK，跳过 LOW（无其他时兜底）。
+    """
+    quality_rank = {"HIGH": 0, "OK": 1, "": 1}  # 未评分同 OK
+
+    # 分层
+    good = [f for f in findings if str(f.get("quality", "")) != "LOW"]
+    show = sorted(good, key=lambda x: (
+        quality_rank.get(str(x.get("quality", "")), 1),
+        str(x.get("date", ""))
+    ), reverse=False)  # HIGH 先，同质量按日期倒序
+    # 同优先级内按日期最新优先
+    show = sorted(
+        sorted(good, key=lambda x: str(x.get("date", "")), reverse=True),
+        key=lambda x: quality_rank.get(str(x.get("quality", "")), 1)
+    )
+    if not show:
+        show = sorted(findings, key=lambda x: str(x.get("date", "")), reverse=True)
+
+    entries = []
+    seen_url: set = set()
+    for f in show:
+        if len(entries) >= max_n:
+            break
         url  = str(f.get("url", ""))
-        name = source_name(url, str(f.get("source_title", url)))
-        date = str(f.get("date", ""))
-        if not url or url in seen:
+        if url and url in seen_url:
             continue
-        seen.add(url)
-        items.append(
-            f'<a class="src-pill" href="{esc(url)}" target="_blank" rel="noopener">'
-            f'<span class="src-date">{esc(date)}</span>{esc(name)}'
-            f'</a>'
+        if url:
+            seen_url.add(url)
+
+        date    = str(f.get("date", ""))
+        name    = source_name(url, str(f.get("source_title", "")))
+        summary = f.get("_summary", "").strip()
+
+        # 取第一句，最长 150 字
+        first = re.split(r"[。！？]", summary)
+        core  = first[0].strip() if first else summary
+        if len(core) > 150:
+            core = core[:148] + "…"
+
+        date_html = f'<time class="tl-date">{esc(date)}</time>'
+        body_html = f'<span class="tl-body">{esc(core)}</span> ' if core else ""
+        link_html = (
+            f'<a class="tl-link" href="{esc(url)}" target="_blank" rel="noopener">'
+            f'{esc(name)} ↗</a>'
+        ) if url else f'<span class="tl-link">{esc(name)}</span>'
+
+        entries.append(
+            f'<div class="tl-row">'
+            f'{date_html}'
+            f'<div class="tl-main">{body_html}{link_html}</div>'
+            f'</div>'
         )
-    if not items:
-        return ""
-    return '<div class="src-row">' + "".join(items) + "</div>"
 
-
-def md_links_to_html(text: str) -> str:
-    """
-    把 LLM 输出中的 [Name](url) 转成 HTML <a>，
-    其余文本做 HTML 转义（防 XSS）。
-    """
-    # 先切分：普通文本段 vs [name](url) 段
-    pattern = re.compile(r'\[([^\]]+)\]\((https?://[^\)]+)\)')
-    parts   = []
-    last    = 0
-    for m in pattern.finditer(text):
-        # 转义普通文本
-        parts.append(esc(text[last:m.start()]))
-        name = esc(m.group(1))
-        url  = esc(m.group(2))
-        parts.append(f'<a href="{url}" target="_blank" rel="noopener" class="inline-src">{name}</a>')
-        last = m.end()
-    parts.append(esc(text[last:]))
-    return "".join(parts)
+    if not entries:
+        return '<div class="no-update">暂无发现</div>'
+    return '<div class="timeline">' + "".join(entries) + '</div>'
 
 
 def render_card(ev: dict) -> str:
@@ -458,22 +478,9 @@ def render_card(ev: dict) -> str:
         if chips:
             chips_html = f'<div class="chips">{"".join(chips[:5])}</div>'
 
-    # ── 核心内容区 ──
+    # ── 核心内容区：时间线 ──
     if recent:
-        if len(recent) >= MIN_RECENT_FOR_UPDATE:
-            print(f"  Synthesizing update for {event_id} ({len(recent)} recent, {len(history)} history)...")
-            synopsis = synthesize_update(ev.get("title",""), status, recent, history)
-        else:
-            # 只有 1 条，直接展示摘要（内联来源链接）
-            f0  = recent[0]
-            url = str(f0.get("url",""))
-            nm  = source_name(url, str(f0.get("source_title","")))
-            summ = esc(f0.get("_summary",""))
-            link = f'<a href="{esc(url)}" target="_blank" rel="noopener" class="inline-src">{esc(nm)}</a>' if url else esc(nm)
-            synopsis = f"{link} 报道，{summ}" if summ else link
-
-        sources_html = _render_sources(recent)
-        content_html = f'<div class="synopsis">{synopsis}</div>{sources_html}'
+        content_html = render_timeline(recent)
     else:
         window_label = f"{days} 天内" if days else "—"
         content_html = f'<div class="no-update">近 {window_label} 暂无新发现</div>'
@@ -622,72 +629,47 @@ def generate(events: list[dict]) -> str:
   .card-meta {{ display: flex; flex-wrap: wrap; gap: 12px; font-size: 12px; color: var(--text-muted); }}
 
   /* ── Card body ── */
-  .card-body {{ padding: 18px 20px 20px; flex: 1; display: flex; flex-direction: column; gap: 14px; }}
+  .card-body {{ padding: 14px 20px 18px; flex: 1; }}
 
-  /* 合成摘要 */
-  .synopsis {{
-    font-size: 14px;
-    color: var(--text-dim);
-    line-height: 1.9;
+  /* ── Timeline ── */
+  .timeline {{ display: flex; flex-direction: column; }}
+  .tl-row {{
+    display: grid;
+    grid-template-columns: 76px 1fr;
+    gap: 12px;
+    padding: 9px 0;
+    border-bottom: 1px solid var(--border);
+    align-items: baseline;
   }}
-
-  /* 内联来源引用链接 */
-  .inline-src {{
-    color: var(--text-dim);
-    text-decoration: none;
-    border-bottom: 1px solid var(--border-hi);
-    transition: color 0.12s, border-color 0.12s;
-  }}
-  .inline-src:hover {{
-    color: var(--text);
-    border-color: var(--accent);
-  }}
-
-  /* 来源链接行（始终显示） */
-  .src-row {{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-    padding-top: 10px;
-    border-top: 1px solid var(--border);
-    margin-top: 4px;
-  }}
-  .src-pill {{
-    display: inline-flex;
-    align-items: center;
-    gap: 5px;
+  .tl-row:last-child {{ border-bottom: none; padding-bottom: 2px; }}
+  .tl-date {{
+    font-family: var(--font-mono);
     font-size: 11px;
     color: var(--text-muted);
-    background: rgba(255,255,255,.03);
-    border: 1px solid var(--border);
-    border-radius: 5px;
-    padding: 2px 8px;
-    text-decoration: none;
-    transition: color 0.12s, border-color 0.12s;
-    max-width: 260px;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    letter-spacing: 0.2px;
     white-space: nowrap;
+    padding-top: 1px;
   }}
-  .src-pill:hover {{ color: var(--text-dim); border-color: var(--border-hi); }}
-  .src-date {{
-    font-family: var(--font-mono);
-    font-size: 10px;
-    color: var(--text-muted);
+  .tl-main {{ display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px; }}
+  .tl-body {{
+    font-size: 13px;
+    color: var(--text-dim);
+    line-height: 1.55;
+  }}
+  .tl-link {{
+    font-size: 11px;
+    color: var(--accent);
+    text-decoration: none;
     opacity: 0.7;
+    white-space: nowrap;
     flex-shrink: 0;
+    transition: opacity 0.12s;
   }}
+  .tl-link:hover {{ opacity: 1; text-decoration: underline; }}
 
   .no-update {{
     font-size: 13px; color: var(--text-muted); font-style: italic; padding: 8px 0;
   }}
-
-  /* fallback list */
-  .fallback-list {{ list-style: none; display: flex; flex-direction: column; gap: 8px; }}
-  .fb-item {{ font-size: 13px; color: var(--text-dim); }}
-  .fb-item a {{ color: var(--text-dim); text-decoration: none; border-bottom: 1px solid var(--border-hi); }}
-  .fb-item a:hover {{ color: var(--text); }}
-  .fb-date {{ font-family: var(--font-mono); font-size: 11px; color: var(--text-muted); margin-right: 4px; }}
 
   /* ── Footer ── */
   .footer {{
@@ -736,7 +718,7 @@ def generate(events: list[dict]) -> str:
 
 <footer class="footer">
   <a href="https://github.com/fxp/storyteller-deepdive-vault" target="_blank">GitHub</a>
-  &nbsp;·&nbsp; 情报合成由 BigModel GLM-5.1 × GLM-4-Flash 驱动 · 搜索由 Tavily 提供
+  &nbsp;·&nbsp; 质量评估由 BigModel GLM-5.1 驱动 · 搜索由 Tavily 提供
 </footer>
 
 </body>
