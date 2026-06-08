@@ -4,12 +4,12 @@ title: OpenAI × Anthropic 双 IPO 竞赛（AI 行业最大资本事件）
 seed_url: https://fortune.com/2026/06/01/anthropic-confidentially-files-ipo-965-billion-valuation/
 published_date: 2026-06-01
 status: HOT
-last_check: 2026-06-08T15:06
+last_check: 2026-06-08T18:46
 last_activity: '2026-06-08'
-next_check: 2026-06-08T18:06
+next_check: 2026-06-08T21:46
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 9
+findings_count: 12
 tags:
 - tracker
 - HOT
@@ -83,4 +83,10 @@ search_queries:
 - [Anthropic IPO Picks Goldman Sachs, Morgan Stanley, JPMorgan: Revenue Accounting Question Looms](https://www.techtimes.com/articles/317845/20260605/anthropic-ipo-picks-goldman-sachs-morgan-stanley-jpmorgan-revenue-accounting-question-looms.htm) — Anthropic选择了摩根士丹利、高盛和摩根大通作为其首次公开募股的主承销商，并面临收入会计问题。
 - [Anthropic Picks Morgan Stanley, Goldman Sachs to Lead IPO](https://www.advisorhub.com/anthropic-picks-morgan-stanley-goldman-sachs-to-lead-ipo) — Anthropic选择了摩根士丹利和高盛作为其IPO的主承销商，以领先其竞争对手OpenAI上市。
 - [Anthropic said to pick Morgan Stanley and Goldman to lead IPO](https://finance.yahoo.com/markets/stocks/articles/anthropic-said-pick-morgan-stanley-175802678.html) — Anthropic据说选择了摩根士丹利和高盛作为其IPO的主承销商。
+### 2026-06-08
+- [Anthropic IPO: The $965 Billion AI Giant That Just Overtook OpenAI ...](https://www.linkedin.com/pulse/anthropic-ipo-965-billion-ai-giant-just-overtook-openai-heading-rqzrf) — Anthropic的最新估值达到9650亿美元，超过了OpenAI，这是首次超过其竞争对手的估值。
+- [Anthropic, perusahaan AI di balik Claude baru saja ... - Instagram](https://www.instagram.com/reel/DZKX3VczYKz) — Anthropic选择了摩根士丹利和高盛作为其IPO的主承销商，并计划在2026年10月上市，估值达到9650亿美元。
+- [The Kobeissi Letter on X: "BREAKING: Anthropic has picked Morgan Stanley and Goldman Sachs to lead its upcoming IPO, per Bloomberg.
+
+Anthropic was valued at $965 billion in its latest funding round, officially surpassing OpenAI’s valuation for the first time." / X](https://x.com/KobeissiLetter/status/2062296014879383922) — Anthropic选择了摩根士丹利和高盛作为其IPO的主承销商，并计划在2026年10月上市，估值达到9650亿美元。
 

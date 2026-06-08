@@ -1,17 +1,17 @@
 ---
 event: "[[openai-anthropic-ipo-race-20260608]]"
 date: 2026-06-08
-url: "https://yellow.com/news/anthropic-confidential-s1-october-ipo-valuation"
-source_title: "Anthropic Submits Secret S-1, Eyes October IPO At Near-Trillion Valuation | Yellow.com"
+url: "https://www.linkedin.com/pulse/anthropic-ipo-965-billion-ai-giant-just-overtook-openai-heading-rqzrf"
+source_title: "Anthropic IPO: The $965 Billion AI Giant That Just Overtook OpenAI ..."
 relevance: RELEVANT
 ---
 
-# Anthropic Submits Secret S-1, Eyes October IPO At Near-Trillion Valuation | Yellow.com
+# Anthropic IPO: The $965 Billion AI Giant That Just Overtook OpenAI ...
 
-**来源**: [Anthropic Submits Secret S-1, Eyes October IPO At Near-Trillion Valuation | Yellow.com](https://yellow.com/news/anthropic-confidential-s1-october-ipo-valuation)
+**来源**: [Anthropic IPO: The $965 Billion AI Giant That Just Overtook OpenAI ...](https://www.linkedin.com/pulse/anthropic-ipo-965-billion-ai-giant-just-overtook-openai-heading-rqzrf)
 **发现时间**: 2026-06-08
 **所属事件**: [[openai-anthropic-ipo-race-20260608]]
 
 ## 摘要
 
-Anthropic向美国证券交易委员会提交了保密的S-1注册文件，目标是近万亿美元的估值，并计划在2026年10月进行IPO。
+Anthropic的最新估值达到9650亿美元，超过了OpenAI，这是首次超过其竞争对手的估值。

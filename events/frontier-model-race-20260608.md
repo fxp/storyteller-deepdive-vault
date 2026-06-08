@@ -4,12 +4,12 @@ title: 前沿模型月更竞速（Claude vs GPT vs Gemini vs Grok vs Kimi）
 seed_url: https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html
 published_date: 2026-06-01
 status: HOT
-last_check: 2026-06-08T15:06
+last_check: 2026-06-08T18:46
 last_activity: '2026-06-08'
-next_check: 2026-06-08T18:06
+next_check: 2026-06-08T21:46
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 16
+findings_count: 19
 tags:
 - tracker
 - HOT
@@ -97,4 +97,8 @@ search_queries:
 - [Top 5 LLMs for March 2026: Benchmarks & Picks - AlphaCorp AI](https://alphacorp.ai/blog/top-5-llms-for-march-2026-benchmarks-pricing-picks) — 列出了2026年3月最佳LLMs。
 - [SWE-Bench Pro Leaderboard (2026): Why 46% Beats 81% - Morph](https://www.morphllm.com/swe-bench-pro) — 讨论了SWE-Bench Pro的排名。
 - [SWE-bench Verified - Vals AI](https://vals.ai/benchmarks/swebench) — 介绍了SWE-bench Verified基准测试。
+### 2026-06-08
+- [Trump's June 2026 AI Executive Order: 30-Day Frontier Model ...](https://letsdatascience.com/blog/trump-ai-executive-order-30-day-frontier-model-access) — 特朗普发布了一项AI行政命令，旨在让政府领先于最强大的模型。
+- [Announcing ARC-AGI-3 | ARC Prize](https://arcprize.org/blog/arc-agi-3-launch) — 宣布ARC-AGI-3，一个全新的互动环境基准测试，用于衡量智能的前沿。
+- [ARC-AGI-3](https://arcprize.org/arc-agi/3) — ARC-AGI-3是一个互动推理基准，旨在衡量AI代理的人类智能。
 

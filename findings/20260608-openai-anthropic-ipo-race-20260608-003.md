@@ -1,17 +1,23 @@
 ---
 event: "[[openai-anthropic-ipo-race-20260608]]"
 date: 2026-06-08
-url: "https://fortune.com/2026/06/01/anthropic-confidentially-files-ipo-965-billion-valuation"
-source_title: "Anthropic confidentially files for IPO after a $965 billion valuation"
+url: "https://x.com/KobeissiLetter/status/2062296014879383922"
+source_title: "The Kobeissi Letter on X: 'BREAKING: Anthropic has picked Morgan Stanley and Goldman Sachs to lead its upcoming IPO, per Bloomberg.
+
+Anthropic was valued at $965 billion in its latest funding round, officially surpassing OpenAI’s valuation for the first time.' / X"
 relevance: RELEVANT
 ---
 
-# Anthropic confidentially files for IPO after a $965 billion valuation
+# The Kobeissi Letter on X: "BREAKING: Anthropic has picked Morgan Stanley and Goldman Sachs to lead its upcoming IPO, per Bloomberg.
 
-**来源**: [Anthropic confidentially files for IPO after a $965 billion valuation](https://fortune.com/2026/06/01/anthropic-confidentially-files-ipo-965-billion-valuation)
+Anthropic was valued at $965 billion in its latest funding round, officially surpassing OpenAI’s valuation for the first time." / X
+
+**来源**: [The Kobeissi Letter on X: "BREAKING: Anthropic has picked Morgan Stanley and Goldman Sachs to lead its upcoming IPO, per Bloomberg.
+
+Anthropic was valued at $965 billion in its latest funding round, officially surpassing OpenAI’s valuation for the first time." / X](https://x.com/KobeissiLetter/status/2062296014879383922)
 **发现时间**: 2026-06-08
 **所属事件**: [[openai-anthropic-ipo-race-20260608]]
 
 ## 摘要
 
-Anthropic秘密向美国证券交易委员会提交了S-1文件，目标是近万亿美元的估值，并计划在华尔街上市。
+Anthropic选择了摩根士丹利和高盛作为其IPO的主承销商，并计划在2026年10月上市，估值达到9650亿美元。
