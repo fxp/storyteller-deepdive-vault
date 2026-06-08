@@ -189,11 +189,19 @@ def split_recent_vs_history(findings: list[dict], days: int) -> tuple[list, list
 # BigModel 合成
 # ══════════════════════════════════════════════════════════════════
 
-SYNTH_MODEL = "glm-5.1"
+FILTER_MODEL = "glm-5.1"      # 推理模型：价值筛选（需要判断力）
+SYNTH_MODEL  = "glm-4-flash"  # 高效模型：文本合成（需要干净输出）
 
 
-def _call_glm(prompt: str, max_tokens: int = 800, temperature: float = 0.4) -> str:
-    """统一 GLM API 调用，返回原始文本，失败抛异常"""
+def _call_glm(prompt: str, max_tokens: int = 800, temperature: float = 0.4,
+              model: str = None) -> str:
+    """统一 GLM API 调用，返回原始文本，失败抛异常。
+
+    reasoning_content fallback 只对推理模型（glm-5.x）生效：
+    这类模型 content 字段为空，答案在 reasoning_content 的最后段落里。
+    合成模型（glm-4-flash 等）直接使用 content。
+    """
+    used_model = model or SYNTH_MODEL
     resp = requests.post(
         "https://open.bigmodel.cn/api/paas/v4/chat/completions",
         headers={
@@ -201,7 +209,7 @@ def _call_glm(prompt: str, max_tokens: int = 800, temperature: float = 0.4) -> s
             "Content-Type": "application/json",
         },
         json={
-            "model": SYNTH_MODEL,
+            "model": used_model,
             "messages": [{"role": "user", "content": prompt}],
             "temperature": temperature,
             "max_tokens": max_tokens,
@@ -210,10 +218,9 @@ def _call_glm(prompt: str, max_tokens: int = 800, temperature: float = 0.4) -> s
     )
     resp.raise_for_status()
     msg  = resp.json()["choices"][0]["message"]
-    # glm-5.1 等推理模型的最终答案在 content，思考过程在 reasoning_content
-    # 部分场景 content 为空，fallback 到 reasoning_content
     text = (msg.get("content") or "").strip()
-    if not text:
+    # 推理模型（glm-5.x）：content 通常为空，答案在 reasoning_content
+    if not text and used_model.startswith("glm-5"):
         text = (msg.get("reasoning_content") or "").strip()
     return text
 
@@ -258,10 +265,23 @@ def filter_valuable(
 不要输出任何解释，只输出编号列表："""
 
     try:
-        raw = _call_glm(prompt, max_tokens=100, temperature=0.1)
-        # 解析编号
-        indices = [int(x.strip()) for x in re.findall(r"\d+", raw)]
-        valuable = [findings[i] for i in indices if 0 <= i < len(findings)]
+        raw = _call_glm(prompt, max_tokens=100, temperature=0.1, model=FILTER_MODEL)
+        # 解析编号：推理模型可能在末尾输出 "0,2,4" 或 "有价值：0, 2, 4"
+        # 优先取最后一行含数字的行（推理链末行最可信）
+        lines = [ln.strip() for ln in raw.splitlines() if ln.strip()]
+        target = raw  # 默认全文搜索
+        for ln in reversed(lines):
+            if re.search(r"\d", ln):
+                target = ln
+                break
+        indices = [int(x) for x in re.findall(r"\d+", target)]
+        # 去重并过滤越界
+        seen_idx = set()
+        valuable = []
+        for i in indices:
+            if 0 <= i < len(findings) and i not in seen_idx:
+                seen_idx.add(i)
+                valuable.append(findings[i])
         dropped  = len(findings) - len(valuable)
         if dropped:
             print(f"    Value filter: {len(findings)} → {len(valuable)} (dropped {dropped})")
@@ -278,7 +298,7 @@ def synthesize_update(
     history: list[dict],
 ) -> str:
     """
-    用 GLM-5.1 将近期高价值发现合成为叙述性进展摘要。
+    用 GLM-4-Flash 将近期高价值发现合成为叙述性进展摘要。
     返回 HTML 字符串（内联来源链接）。
     """
     if not BIGMODEL_API_KEY:
@@ -316,7 +336,7 @@ def synthesize_update(
 话题进展："""
 
     try:
-        text = _call_glm(prompt, max_tokens=700, temperature=0.5)
+        text = _call_glm(prompt, max_tokens=700, temperature=0.5, model=SYNTH_MODEL)
         # 清理多余 markdown，但保留 [name](url)
         text = re.sub(r"^#+\s+", "", text, flags=re.MULTILINE)
         text = re.sub(r"\*\*([^*]+)\*\*", r"\1", text)
@@ -698,7 +718,7 @@ def generate(events: list[dict]) -> str:
 
 <footer class="footer">
   <a href="https://github.com/fxp/storyteller-deepdive-vault" target="_blank">GitHub</a>
-  &nbsp;·&nbsp; 情报合成由 BigModel GLM-4-Flash 驱动 · 搜索由 Tavily 提供
+  &nbsp;·&nbsp; 情报合成由 BigModel GLM-5.1 × GLM-4-Flash 驱动 · 搜索由 Tavily 提供
 </footer>
 
 </body>
