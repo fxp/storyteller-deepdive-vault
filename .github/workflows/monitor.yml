@@ -2,7 +2,7 @@ name: StoryTeller Monitor
 
 on:
   schedule:
-    - cron: '0 * * * *'   # 每小时整点（UTC）
+    - cron: '0 */2 * * *'   # 每 2 小时（UTC）
   workflow_dispatch:        # 支持手动触发
 
 jobs:
