@@ -424,6 +424,9 @@ def render_timeline(findings: list[dict], max_n: int = 8) -> str:
         name    = source_name(url, str(f.get("source_title", "")))
         summary = f.get("_summary", "").strip()
 
+        # 清理质量评估遗留的评语片段
+        summary = re.sub(r"[，,]?\s*这是(历史发现中未出现的)?新事实[^。]*", "", summary)
+        summary = re.sub(r"[，,]?\s*与事件相关$", "", summary.strip())
         # 取第一句，最长 150 字
         first = re.split(r"[。！？]", summary)
         core  = first[0].strip() if first else summary
