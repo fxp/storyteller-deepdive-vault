@@ -4,12 +4,12 @@ title: Anthropic 发布 Mythos 前沿模型，引发全球安全震动
 seed_url: https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing
 published_date: 2026-05-05
 status: HOT
-last_check: 2026-06-08T01:55
+last_check: 2026-06-08T05:39
 last_activity: '2026-06-08'
-next_check: 2026-06-08T04:55
+next_check: 2026-06-08T08:39
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 236
+findings_count: 238
 tags:
 - tracker
 - HOT
@@ -391,4 +391,7 @@ Watch Geoff Bennett's conversation with Gerrit De Vynck, who covers AI for The W
 - [Why Pentagon-Anthropic AI clash is pivotal front in future of warfare](https://www.cnbc.com/2026/02/27/defense-anthropic-ai-war-risks-hegseth-amodei.html) — CNBC的文章讨论了Pentagon-Anthropic AI冲突，这是未来战争的关键前沿。
 ### 2026-06-08
 - [Semafor](https://www.facebook.com/semaformedia/posts/the-us-national-security-agency-is-reportedly-using-anthropics-cutting-edge-myth/1005434758942252) — 美国国家安全局据报道正在使用Anthropic的尖端Mythos AI模型进行黑客攻击。
+### 2026-06-08
+- [NSA is using Anthropic's Claude Mythos to commit Cyber Attacks](https://www.reddit.com/r/technology/comments/1tx6ic9/nsa_is_using_anthropics_claude_mythos_to_commit) — NSA 正在使用 Anthropic 的 Claude Mythos 进行网络攻击。
+- [US National Security Agency using Anthropic's Mythos for cyber ...](https://www.ft.com/content/d02d91b3-2636-454e-9442-dc7e69f51815?syn-25a6b1a6=1) — 美国国家安全局使用 Anthropic 的 Mythos 进行网络安全验证。
 
