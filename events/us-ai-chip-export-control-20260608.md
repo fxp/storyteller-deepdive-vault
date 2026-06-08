@@ -4,41 +4,43 @@ title: 美国 AI 芯片出口管制执法升级（追踪技术 / 走私执法 / 
 seed_url: https://www.morganlewis.com/pubs/2026/01/bis-revises-export-review-policy-for-advanced-ai-chips-destined-for-china-and-macau
 published_date: 2026-01-15
 status: HOT
-last_check: "2026-06-08T12:00"
-last_activity: "2026-06-08"
-next_check: "2026-06-08T15:00"
+last_check: 2026-06-08T15:06
+last_activity: '2026-06-08'
+next_check: 2026-06-08T18:06
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 0
-tags: [tracker, HOT]
+tags:
+- tracker
+- HOT
 entities:
   orgs:
-    - BIS（商务部工业与安全局）
-    - NVIDIA
-    - AMD
-    - Super Micro Computer
-    - 美国国会
-    - 美国司法部
+  - BIS（商务部工业与安全局）
+  - NVIDIA
+  - AMD
+  - Super Micro Computer
+  - 美国国会
+  - 美国司法部
   people:
-    - 吉娜·雷蒙多（前商务部长）
-    - Howard Lutnick（现商务部长）
+  - 吉娜·雷蒙多（前商务部长）
+  - Howard Lutnick（现商务部长）
   products:
-    - NVIDIA H200
-    - NVIDIA B200（Blackwell）
-    - AMD MI325X
-    - NVIDIA H100
+  - NVIDIA H200
+  - NVIDIA B200（Blackwell）
+  - AMD MI325X
+  - NVIDIA H100
   topics:
-    - 芯片出口管制
-    - 《芯片安全法》
-    - 走私执法
-    - 逐案审查
-    - 中美科技脱钩
+  - 芯片出口管制
+  - 《芯片安全法》
+  - 走私执法
+  - 逐案审查
+  - 中美科技脱钩
 search_queries:
-  - "BIS AI chip export license case-by-case review China 2026"
-  - "Chip Security Act tracking technology NVIDIA implementation"
-  - "AI chip smuggling arrest enforcement 2026 Super Micro"
-  - "Blackwell B200 export control China restriction 2026"
-  - "NVIDIA AMD China AI chip sales approval denial 2026"
+- BIS AI chip export license case-by-case review China 2026
+- Chip Security Act tracking technology NVIDIA implementation
+- AI chip smuggling arrest enforcement 2026 Super Micro
+- Blackwell B200 export control China restriction 2026
+- NVIDIA AMD China AI chip sales approval denial 2026
 ---
 
 # 美国 AI 芯片出口管制执法升级（追踪技术 / 走私执法 / 逐案审查）
