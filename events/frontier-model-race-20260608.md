@@ -4,12 +4,12 @@ title: 前沿模型月更竞速（Claude vs GPT vs Gemini vs Grok vs Kimi）
 seed_url: https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html
 published_date: 2026-06-01
 status: HOT
-last_check: 2026-06-08T18:46
+last_check: 2026-06-08T22:30
 last_activity: '2026-06-08'
-next_check: 2026-06-08T21:46
+next_check: 2026-06-09T01:30
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 19
+findings_count: 21
 tags:
 - tracker
 - HOT
@@ -101,4 +101,7 @@ search_queries:
 - [Trump's June 2026 AI Executive Order: 30-Day Frontier Model ...](https://letsdatascience.com/blog/trump-ai-executive-order-30-day-frontier-model-access) — 特朗普发布了一项AI行政命令，旨在让政府领先于最强大的模型。
 - [Announcing ARC-AGI-3 | ARC Prize](https://arcprize.org/blog/arc-agi-3-launch) — 宣布ARC-AGI-3，一个全新的互动环境基准测试，用于衡量智能的前沿。
 - [ARC-AGI-3](https://arcprize.org/arc-agi/3) — ARC-AGI-3是一个互动推理基准，旨在衡量AI代理的人类智能。
+### 2026-06-08
+- [ARC Prize](https://arcprize.org) — ARC Prize网站链接，可能包含新命名或官方启动公告。
+- [ARC Prize 2026 - ARC-AGI-2](https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-2) — Kaggle竞赛页面，可能包含新命名或官方启动公告。
 

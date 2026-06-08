@@ -4,12 +4,12 @@ title: OpenAI × Anthropic 双 IPO 竞赛（AI 行业最大资本事件）
 seed_url: https://fortune.com/2026/06/01/anthropic-confidentially-files-ipo-965-billion-valuation/
 published_date: 2026-06-01
 status: HOT
-last_check: 2026-06-08T18:46
+last_check: 2026-06-08T22:30
 last_activity: '2026-06-08'
-next_check: 2026-06-08T21:46
+next_check: 2026-06-09T01:30
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 12
+findings_count: 13
 tags:
 - tracker
 - HOT
@@ -89,4 +89,6 @@ search_queries:
 - [The Kobeissi Letter on X: "BREAKING: Anthropic has picked Morgan Stanley and Goldman Sachs to lead its upcoming IPO, per Bloomberg.
 
 Anthropic was valued at $965 billion in its latest funding round, officially surpassing OpenAI’s valuation for the first time." / X](https://x.com/KobeissiLetter/status/2062296014879383922) — Anthropic选择了摩根士丹利和高盛作为其IPO的主承销商，并计划在2026年10月上市，估值达到9650亿美元。
+### 2026-06-08
+- [Anthropic Files Confidential S-1 at $965B Valuation - Enterprise DNA](https://enterprisedna.co/resources/news/anthropic-ipo-s1-confidential-filing-965-billion-2026) — Anthropic向美国证券交易委员会提交了保密的S-1文件，目标是近万亿美元的估值，成为首个正式开始IPO流程的前沿人工智能实验室。
 

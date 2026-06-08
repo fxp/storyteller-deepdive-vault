@@ -4,12 +4,12 @@ title: 华为昇腾芯片生态规模化（国产算力闭环 vs HBM 瓶颈）
 seed_url: https://techblog.comsoc.org/2025/10/02/huawei-to-double-output-of-ascend-ai-chips-in-2026-openai-orders-hbm-chips-from-sk-hynix-samsung-for-stargate-uae-project/
 published_date: 2025-10-02
 status: HOT
-last_check: 2026-06-08T18:46
+last_check: 2026-06-08T22:30
 last_activity: '2026-06-08'
-next_check: 2026-06-08T21:46
+next_check: 2026-06-09T01:30
 interval_hours: 3
-consecutive_empty: 1
-findings_count: 0
+consecutive_empty: 0
+findings_count: 8
 tags:
 - tracker
 - HOT
@@ -73,3 +73,13 @@ search_queries:
 ## 后续发现
 
 <!-- 监控代理自动追加 -->
+### 2026-06-08
+- [Huawei To Ramp Up AI Chip Production In 2026](https://finance.yahoo.com/news/huawei-ramp-ai-chip-production-164141523.html) — 华为计划在2026年将Ascend 910C AI芯片的生产量翻倍，以减轻对美国Nvidia的依赖。
+- [FT on SMIC ramp up in AI chip production. Qwen AI](https://x.com/hsu_steve/status/1960716581371035709) — SMIC计划到2026年将7nm生产能力翻倍，华为的Ascend 910D和Cambricon的690芯片将引领这一增长。
+- [Huawei To Ramp Ascend Chip Production, Positioning Against ...](https://www.dailymotion.com/video/x9rej2m) — 华为计划在2026年将Ascend 910C芯片的生产量翻倍，尽管面临美国制裁。
+- [Huawei says it will double its output of high-end chips in 2026 but it ...](https://www.facebook.com/taiwanplusnews/posts/huawei-says-it-will-double-its-output-of-high-end-chips-in-2026-but-it-still-lag/818900907315986) — 华为计划在2026年生产约600,000个Ascend 910C芯片，比2025年的产量翻倍。
+- [[PDF] Huawei to Double Output of AI Chip as Nvidia Wavers in China](https://www.soitec.com/docs/default-source/press-news---articles-de-presse/september---25/huawei-to-double-output-of-its-advanced-ai-chip-ascend-unseat-nvidia-in-china---bloomberg-30-09-2025.pdf?sfvrsn=814d7435_1) — 华为计划在2026年将AI芯片的产量翻倍，以挑战Nvidia在中国市场的地位。
+- [CXMT, Huawei align on HBM3 ahead of China's 2026 AI memory leap](https://www.reddit.com/r/hardware/comments/1ogicz6/cxmt_huawei_align_on_hbm3_ahead_of_chinas_2026_ai) — CXMT已向华为交付了16nm HBM3样品，以支持中国2026年AI内存的飞跃。
+- ["To expand wafer output, CXMT has reportedly transferred its base ...](https://x.com/zephyr_z9/status/1982408056492408948) — CXMT计划在2026年将其20%的量产能力用于HBM3生产线。
+- [CXMT Reportedly Plans to Dedicate 20% of Mass Production Capacity to HBM3 Line in 2026 | TechPowerUp](https://www.techpowerup.com/346207/cxmt-reportedly-plans-to-dedicate-20-of-mass-production-capacity-to-hbm3-line-in-2026) — CXMT计划通过4.2亿美元的首次公开募股(IPO)来支持2026年HBM3的生产。
+
