@@ -378,20 +378,72 @@ def _fallback_list(findings: list[dict]) -> str:
     return f'<ul class="fallback-list">{"".join(items)}</ul>'
 
 
+def _render_facts_html(findings: list[dict], max_n: int = 6) -> str:
+    """
+    将 finding 列表直接渲染为「关键事实」HTML 块，按日期倒序排列。
+    日期来自元数据，不经过 GLM，保证准确。
+    """
+    sorted_f = sorted(findings, key=lambda x: str(x.get("date", "")), reverse=True)
+    items = []
+    seen_url: set = set()
+    for f in sorted_f:
+        if len(items) >= max_n:
+            break
+        url = str(f.get("url", ""))
+        if url and url in seen_url:
+            continue
+        if url:
+            seen_url.add(url)
+        date = str(f.get("date", ""))
+        name = source_name(url, str(f.get("source_title", "")))
+        summ = f.get("_summary", "").strip()
+        summ = re.sub(r"[，,]?\s*这是(历史发现中未出现的)?新(的)?事实[^。，\n]*", "", summ)
+        summ = re.sub(r"[，,]?\s*与事件相关[。，]?", "", summ).strip()
+        # 取第一句，最长 120 字
+        first = re.split(r"[。！？]", summ)
+        core  = first[0].strip() if first else summ
+        if len(core) > 120:
+            core = core[:118] + "…"
+
+        date_html = f'<span class="smol-fact-date">{esc(date)}</span>' if date else ""
+        link_html = (
+            f'<a class="smol-link" href="{esc(url)}" target="_blank" rel="noopener">'
+            f'{esc(name)} ↗</a>'
+        ) if url else f'<span>{esc(name)}</span>'
+        body_html = f'<span class="smol-fact-body">{esc(core)}</span>' if core else ""
+        items.append(f'<li>{date_html}{link_html}{body_html}</li>')
+
+    if not items:
+        return ""
+    return (
+        '<div class="smol-heading">关键事实</div>'
+        f'<ul class="smol-facts">{"".join(items)}</ul>'
+    )
+
+
 def synthesize_smolai(
     event_title: str,
     status: str,
     recent: list[dict],
     history: list[dict],
 ) -> str:
-    """smol.ai newsletter 风格：发生了什么 / 关键事实 / 为什么重要。
-    返回已渲染 HTML；失败时返回空字符串（调用方 fallback 到 timeline）。
+    """smol.ai newsletter 风格：发生了什么 / 关键事实（数据驱动，倒序） / 为什么重要。
+
+    关键事实直接从 finding 元数据渲染（日期精确，来源可靠）；
+    GLM 只负责写「发生了什么」和「为什么重要」两段叙事。
+    失败时返回空字符串（调用方 fallback 到 timeline）。
     """
     if not BIGMODEL_API_KEY or len(recent) < MIN_RECENT_FOR_UPDATE:
         return ""
 
     valuable = filter_valuable(event_title, recent, history)
+    # 日期倒序（最新在前）
+    valuable_sorted = sorted(valuable, key=lambda x: str(x.get("date", "")), reverse=True)
 
+    # ── 关键事实：直接从数据渲染，不经 GLM ──
+    facts_html = _render_facts_html(valuable_sorted)
+
+    # ── 叙事段落：GLM 只写两节 ──
     def fmt_f(f):
         url  = str(f.get("url", ""))
         name = source_name(url, str(f.get("source_title", "")))
@@ -400,25 +452,20 @@ def synthesize_smolai(
         ref  = f"[{name}]({url})" if url else name
         return f"- {ref}：{summ}"
 
-    recent_block  = "\n".join(fmt_f(f) for f in valuable[:10])
+    recent_block  = "\n".join(fmt_f(f) for f in valuable_sorted[:10])
     history_block = "\n".join(f"- {f.get('_summary','')[:100]}" for f in history[:8])
 
-    prompt = f"""你是 AI 新闻简报编辑，参考 smol.ai newsletter 风格，为话题「{event_title}」生成结构化情报简报。
+    prompt = f"""你是 AI 新闻简报编辑，为话题「{event_title}」生成两段情报简报。
 
-严格按以下格式输出，不要其他任何内容：
+严格按以下格式输出，不要其他内容：
 
 **发生了什么**
 （2-3句话，直接描述核心事件，有具体事实，不转述标题）
 
-**关键事实**
-- 具体事实，[来源名称](url)
-- 具体事实，[来源名称](url)
-- 具体事实，[来源名称](url)
-
 **为什么重要**
 （1-2句话说明意义和影响）
 
-规则：每条事实必须附来源链接，直接复用下方括号内 URL；不重复历史已知事实；不编造。
+规则：不重复历史已知事实；不编造内容。
 
 【近期发现】
 {recent_block}
@@ -427,32 +474,29 @@ def synthesize_smolai(
 {history_block if history_block else "（无）"}"""
 
     def _try(p: str) -> str:
-        raw = _call_glm(p, max_tokens=700, temperature=0.4, model=SYNTH_MODEL)
+        raw = _call_glm(p, max_tokens=400, temperature=0.4, model=SYNTH_MODEL)
         raw = re.sub(r"^```[^\n]*\n?|```$", "", raw, flags=re.MULTILINE).strip()
-        # Clean evaluation artifacts that may bleed into synthesis
         raw = re.sub(r"[，,]?\s*这是(历史发现中未出现的)?新(的)?事实[^。，\n]*", "", raw)
         raw = re.sub(r"[，,]?\s*与事件相关[。，]?", "", raw)
-        # Fix placeholder/verbose link text → clean source name
-        def fix_link(m):
-            anchor, url = m.group(1).strip(), m.group(2)
-            # Strip "来源：" / "来源:" prefix (e.g. "来源：Instagram" → "Instagram")
-            anchor = re.sub(r'^来源[：:]', '', anchor).strip()
-            if anchor in ('来源名称', '来源', '链接', 'source', '媒体', '媒体名', ''):
-                anchor = source_name(url, url)
-            return f'[{anchor}]({url})'
-        raw = re.sub(r'\[([^\]]+)\]\(([^)]+)\)', fix_link, raw)
-        return parse_smolai_md(raw) if raw else ""
+        # 解析 GLM 输出（只有两节）
+        glm_html = parse_smolai_md(raw) if raw else ""
+        # 将关键事实注入「为什么重要」之前
+        marker = '<div class="smol-heading">为什么重要</div>'
+        if facts_html and marker in glm_html:
+            return glm_html.replace(marker, facts_html + marker)
+        # 「为什么重要」不见了 → 追加到末尾
+        return glm_html + facts_html if glm_html else facts_html
 
     try:
-        return _try(prompt)
+        result = _try(prompt)
+        return result if result else ""
     except Exception as e:
         if "400" in str(e):
             print(f"  [WARN] smolai 400 for {event_title!r}, retrying neutral")
-            neutral_items = "\n".join(f"- {f.get('_summary','')[:80]}" for f in valuable[:4])
+            neutral_items = "\n".join(f"- {f.get('_summary','')[:80]}" for f in valuable_sorted[:4])
             neutral = (
-                "将以下信息整理为简报，格式：\n\n"
+                "将以下信息整理为两段简报：\n\n"
                 "**发生了什么**\n（2句话总结）\n\n"
-                "**关键事实**\n- 事实一\n- 事实二\n\n"
                 "**为什么重要**\n（1句话）\n\n"
                 f"信息：\n{neutral_items}"
             )
@@ -462,7 +506,8 @@ def synthesize_smolai(
                 print(f"  [WARN] neutral retry failed: {e2}")
         else:
             print(f"  [WARN] smolai synth failed for {event_title!r}: {e}")
-        return ""
+        # 最低限度：至少返回关键事实
+        return facts_html
 
 
 # ══════════════════════════════════════════════════════════════════
@@ -847,6 +892,10 @@ def generate(events: list[dict]) -> str:
     line-height: 1.55;
     padding-left: 14px;
     position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 5px;
   }}
   .smol-facts li::before {{
     content: '▸';
@@ -856,6 +905,19 @@ def generate(events: list[dict]) -> str:
     opacity: 0.5;
     font-size: 10px;
     top: 3px;
+  }}
+  .smol-fact-date {{
+    font-family: var(--font-mono);
+    font-size: 10px;
+    color: var(--text-muted);
+    white-space: nowrap;
+    flex-shrink: 0;
+  }}
+  .smol-fact-body {{
+    font-size: 12px;
+    color: var(--text-dim);
+    flex: 1;
+    min-width: 0;
   }}
   .smol-link {{
     color: var(--accent);
