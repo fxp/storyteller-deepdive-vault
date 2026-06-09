@@ -1,17 +1,17 @@
 ---
 event: "[[ai-agent-major-incident-20260608]]"
 date: 2026-06-09
-url: "https://coasty.ai/blog/autonomous-ai-agent-breakthroughs-2026-why-everything-you-heard-is-wrong"
-source_title: "Autonomous AI Agent Breakthroughs 2026: Why Everything You Heard Is Wrong - Coasty Blog"
+url: "https://www.linkedin.com/posts/rashan-grooms-522b8512_artificialintelligence-openai-ces2026-activity-7414205951366512640-GWw6"
+source_title: "OpenAI Challenges Microsoft with Enterprise AI Platform at CES 2026 | Rashan Grooms posted on the topic | LinkedIn"
 relevance: RELEVANT
 ---
 
-# Autonomous AI Agent Breakthroughs 2026: Why Everything You Heard Is Wrong - Coasty Blog
+# OpenAI Challenges Microsoft with Enterprise AI Platform at CES 2026 | Rashan Grooms posted on the topic | LinkedIn
 
-**来源**: [Autonomous AI Agent Breakthroughs 2026: Why Everything You Heard Is Wrong - Coasty Blog](https://coasty.ai/blog/autonomous-ai-agent-breakthroughs-2026-why-everything-you-heard-is-wrong)
+**来源**: [OpenAI Challenges Microsoft with Enterprise AI Platform at CES 2026 | Rashan Grooms posted on the topic | LinkedIn](https://www.linkedin.com/posts/rashan-grooms-522b8512_artificialintelligence-openai-ces2026-activity-7414205951366512640-GWw6)
 **发现时间**: 2026-06-09
 **所属事件**: [[ai-agent-major-incident-20260608]]
 
 ## 摘要
 
-OpenAI的Operator只有38%的成功率，Anthropic的Computer使用率勉强超过22%。
+OpenAI在CES 2026上挑战微软的企业AI平台。

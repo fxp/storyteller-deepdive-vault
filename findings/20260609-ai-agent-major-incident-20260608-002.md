@@ -1,17 +1,17 @@
 ---
 event: "[[ai-agent-major-incident-20260608]]"
 date: 2026-06-09
-url: "https://aiassemblylines.com/post/enterprise-ai-agents-fail-production-2026"
-source_title: "Why Do Enterprise AI Agents Fail in Production?"
+url: "https://www.gartner.com/en/newsroom/press-releases/2026-05-26-gartner-says-applying-uniform-governance-across-ai-agents-will-lead-to-enterprise-ai-agent-failure"
+source_title: "Gartner Says Applying Uniform Governance Across AI Agents Will ..."
 relevance: RELEVANT
 ---
 
-# Why Do Enterprise AI Agents Fail in Production?
+# Gartner Says Applying Uniform Governance Across AI Agents Will ...
 
-**来源**: [Why Do Enterprise AI Agents Fail in Production?](https://aiassemblylines.com/post/enterprise-ai-agents-fail-production-2026)
+**来源**: [Gartner Says Applying Uniform Governance Across AI Agents Will ...](https://www.gartner.com/en/newsroom/press-releases/2026-05-26-gartner-says-applying-uniform-governance-across-ai-agents-will-lead-to-enterprise-ai-agent-failure)
 **发现时间**: 2026-06-09
 **所属事件**: [[ai-agent-major-incident-20260608]]
 
 ## 摘要
 
-企业级AI代理在生产中失败，因为试点缺乏集成基础设施、治理框架和所需的数据质量。
+Gartner指出，在AI代理中应用统一治理将导致企业AI代理失败。

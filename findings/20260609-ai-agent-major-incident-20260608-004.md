@@ -1,17 +1,17 @@
 ---
 event: "[[ai-agent-major-incident-20260608]]"
 date: 2026-06-09
-url: "https://promethium.ai/guides/ai-agent-data-governance-enterprise-playbook-2026"
-source_title: "AI Agent Data Governance: Enterprise Playbook for 2026"
+url: "https://www.youtube.com/watch?v=5dG8489p-XY"
+source_title: "Trust Experience Glitches in the Agentic Wild: How Autonomous AI ..."
 relevance: RELEVANT
 ---
 
-# AI Agent Data Governance: Enterprise Playbook for 2026
+# Trust Experience Glitches in the Agentic Wild: How Autonomous AI ...
 
-**来源**: [AI Agent Data Governance: Enterprise Playbook for 2026](https://promethium.ai/guides/ai-agent-data-governance-enterprise-playbook-2026)
+**来源**: [Trust Experience Glitches in the Agentic Wild: How Autonomous AI ...](https://www.youtube.com/watch?v=5dG8489p-XY)
 **发现时间**: 2026-06-09
 **所属事件**: [[ai-agent-major-incident-20260608]]
 
 ## 摘要
 
-企业数据领导者如何重新设计AI代理的治理框架，包括身份管理、运行时策略执行、可审计性和合规性。
+讨论了自主AI代理在去中心化系统中操作时暴露的“信任故障”。

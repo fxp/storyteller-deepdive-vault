@@ -1,17 +1,17 @@
 ---
 event: "[[huawei-ascend-ecosystem-20260608]]"
 date: 2026-06-09
-url: "https://fudzilla.com/cxmt-hits-a-wall-on-hbm3"
-source_title: "CXMT hits a wall on HBM3 – Fudzilla.com"
+url: "https://www.digitimes.com/news/a20250911PD210/cxmt-hbm3e-production-sk-hynix-samsung.html"
+source_title: "CXMT said to target 2026 HBM3E mass production, narrowing gap ..."
 relevance: RELEVANT
 ---
 
-# CXMT hits a wall on HBM3 – Fudzilla.com
+# CXMT said to target 2026 HBM3E mass production, narrowing gap ...
 
-**来源**: [CXMT hits a wall on HBM3 – Fudzilla.com](https://fudzilla.com/cxmt-hits-a-wall-on-hbm3)
+**来源**: [CXMT said to target 2026 HBM3E mass production, narrowing gap ...](https://www.digitimes.com/news/a20250911PD210/cxmt-hbm3e-production-sk-hynix-samsung.html)
 **发现时间**: 2026-06-09
 **所属事件**: [[huawei-ascend-ecosystem-20260608]]
 
 ## 摘要
 
-CXMT在HBM3生产上遇到困难，这可能会影响华为昇腾芯片生态的规模化。
+CXMT计划在2026年实现HBM3E的大规模生产，缩小与三星和SK海力士的差距。

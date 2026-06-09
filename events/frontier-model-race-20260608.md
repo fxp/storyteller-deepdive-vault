@@ -4,11 +4,11 @@ title: 前沿模型月更竞速（Claude vs GPT vs Gemini vs Grok vs Kimi）
 seed_url: https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html
 published_date: 2026-06-01
 status: HOT
-last_check: 2026-06-09T11:01
+last_check: 2026-06-09T16:51
 last_activity: '2026-06-09'
-next_check: 2026-06-09T14:01
+next_check: 2026-06-09T19:51
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 28
 tags:
 - tracker
@@ -114,4 +114,3 @@ search_queries:
 - [AI Benchmarks I: Gemini 3 Scored 85% on ARC-AGI-2. What That ...](https://www.linkedin.com/pulse/ai-benchmarks-i-gemini-3-scored-85-arc-agi-2-what-rajasekharaiah-7h7lf) — Gemini 3.0 Deep Think在ARC-AGI-2基准测试中取得了85%的得分，创下了新纪录。
 ### 2026-06-09
 - [AIME 2026 results are out, Kimi and DeepSeek are the best ... - Reddit](https://www.reddit.com/r/DeepSeek/comments/1r1347n/aime_2026_results_are_out_kimi_and_deepseek_are) — 文章宣布了AIME 2026的结果，指出Kimi和DeepSeek是最佳开源AI模型，这是一个新的事实。
-

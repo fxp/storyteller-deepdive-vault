@@ -1,17 +1,17 @@
 ---
 event: "[[ai-agent-major-incident-20260608]]"
 date: 2026-06-09
-url: "https://www.digitalapplied.com/blog/88-percent-ai-agents-never-reach-production-failure-framework"
-source_title: "Why 88% of AI Agents Fail Production: Analysis Guide - Digital Applied"
+url: "https://www.linkedin.com/pulse/most-enterprise-ai-agents-fail-production-here-precisely-avin-jain-mmroc"
+source_title: "Most Enterprise AI Agents Fail in Production. Here Is Precisely Why"
 relevance: RELEVANT
 ---
 
-# Why 88% of AI Agents Fail Production: Analysis Guide - Digital Applied
+# Most Enterprise AI Agents Fail in Production. Here Is Precisely Why
 
-**来源**: [Why 88% of AI Agents Fail Production: Analysis Guide - Digital Applied](https://www.digitalapplied.com/blog/88-percent-ai-agents-never-reach-production-failure-framework)
+**来源**: [Most Enterprise AI Agents Fail in Production. Here Is Precisely Why](https://www.linkedin.com/pulse/most-enterprise-ai-agents-fail-production-here-precisely-avin-jain-mmroc)
 **发现时间**: 2026-06-09
 **所属事件**: [[ai-agent-major-incident-20260608]]
 
 ## 摘要
 
-88%的AI代理从未达到生产状态，分析了7种失败模式。
+解释了为什么大多数企业AI代理在生产中失败，提供了具体原因。

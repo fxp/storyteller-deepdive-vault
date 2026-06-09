@@ -1,17 +1,17 @@
 ---
 event: "[[ai-agent-major-incident-20260608]]"
 date: 2026-06-09
-url: "https://www.forbes.com/sites/bernardmarr/2026/01/05/the-5-ai-agent-mistakes-that-could-cost-businesses-millions"
-source_title: "The 5 AI Agent Mistakes That Could Cost Businesses Millions"
+url: "https://intellisee.com/intelligence/agentic-ai-liability-physical-security-2026-risk-allocation-autonomous-response"
+source_title: "Agentic AI Liability in Physical Security: 2026 Briefing | IntelliSee Intelligence"
 relevance: RELEVANT
 ---
 
-# The 5 AI Agent Mistakes That Could Cost Businesses Millions
+# Agentic AI Liability in Physical Security: 2026 Briefing | IntelliSee Intelligence
 
-**来源**: [The 5 AI Agent Mistakes That Could Cost Businesses Millions](https://www.forbes.com/sites/bernardmarr/2026/01/05/the-5-ai-agent-mistakes-that-could-cost-businesses-millions)
+**来源**: [Agentic AI Liability in Physical Security: 2026 Briefing | IntelliSee Intelligence](https://intellisee.com/intelligence/agentic-ai-liability-physical-security-2026-risk-allocation-autonomous-response)
 **发现时间**: 2026-06-09
 **所属事件**: [[ai-agent-major-incident-20260608]]
 
 ## 摘要
 
-AI代理可能导致企业损失数百万美元的5个错误。
+讨论了Agentic AI在物理安全中的责任问题，包括风险分配架构。

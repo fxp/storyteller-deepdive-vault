@@ -4,12 +4,12 @@ title: 【预期事件】首个企业级 AI Agent 重大事故引发监管响应
 seed_url: https://joget.com/ai-agent-adoption-in-2026-what-the-analysts-data-shows/
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-09T12:54
+last_check: 2026-06-09T16:51
 last_activity: '2026-06-09'
-next_check: 2026-06-09T15:54
+next_check: 2026-06-09T19:51
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 21
+findings_count: 27
 tags:
 - tracker
 - HOT
@@ -95,4 +95,11 @@ search_queries:
 - [BREAKING: Microsoft Build 2026: Copilot Has To Prove It Can Work](https://www.youtube.com/watch?v=eM_Kg7OWX1E) — Microsoft Build 2026：Copilot必须证明它能工作。
 - [Enterprise AI in 2026: A practical guide for Microsoft customers](https://www.randgroup.com/insights/services/ai-machine-learning/enterprise-ai-in-2026-a-practical-guide-for-microsoft-customers) — 2026年企业AI：微软客户的实用指南。
 - [AI Agents Move From Answers to Actions in the Enterprise](https://windowsforum.com/threads/february-2026-ai-agents-move-from-answers-to-actions-in-the-enterprise.403601) — AI代理在企业中从答案到行动。
+### 2026-06-09
+- [The 2026 Agentic AI Governance Crisis: Preventing the Predicted 40% Enterprise Failures - Accelirate](https://www.accelirate.com/agentic-ai-governance-crisis) — 首个企业级AI Agent重大事故引发监管响应，预计40%的企业将因治理危机而失败。
+- [Gartner Says Applying Uniform Governance Across AI Agents Will ...](https://www.gartner.com/en/newsroom/press-releases/2026-05-26-gartner-says-applying-uniform-governance-across-ai-agents-will-lead-to-enterprise-ai-agent-failure) — Gartner指出，在AI代理中应用统一治理将导致企业AI代理失败。
+- [Most Enterprise AI Agents Fail in Production. Here Is Precisely Why](https://www.linkedin.com/pulse/most-enterprise-ai-agents-fail-production-here-precisely-avin-jain-mmroc) — 解释了为什么大多数企业AI代理在生产中失败，提供了具体原因。
+- [Trust Experience Glitches in the Agentic Wild: How Autonomous AI ...](https://www.youtube.com/watch?v=5dG8489p-XY) — 讨论了自主AI代理在去中心化系统中操作时暴露的“信任故障”。
+- [Agentic AI Liability in Physical Security: 2026 Briefing | IntelliSee Intelligence](https://intellisee.com/intelligence/agentic-ai-liability-physical-security-2026-risk-allocation-autonomous-response) — 讨论了Agentic AI在物理安全中的责任问题，包括风险分配架构。
+- [OpenAI Challenges Microsoft with Enterprise AI Platform at CES 2026 | Rashan Grooms posted on the topic | LinkedIn](https://www.linkedin.com/posts/rashan-grooms-522b8512_artificialintelligence-openai-ces2026-activity-7414205951366512640-GWw6) — OpenAI在CES 2026上挑战微软的企业AI平台。
 

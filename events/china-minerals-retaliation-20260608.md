@@ -4,12 +4,12 @@ title: 【预期事件】中国对关键矿产发布报复性出口限制
 seed_url: https://bisi.org.uk/reports/ai-chip-smuggling-the-limits-of-us-export-controls
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-09T12:54
-last_activity: '2026-06-08'
-next_check: 2026-06-09T15:54
+last_check: 2026-06-09T16:51
+last_activity: '2026-06-09'
+next_check: 2026-06-09T19:51
 interval_hours: 3
-consecutive_empty: 1
-findings_count: 0
+consecutive_empty: 0
+findings_count: 5
 tags:
 - tracker
 - HOT
@@ -73,3 +73,10 @@ search_queries:
 ## 后续发现
 
 <!-- 监控代理自动追加 -->
+### 2026-06-09
+- [China lifts export ban gallium, germanium, antimony - The Oregon Group - Critical Minerals and Energy Intelligence](https://theoregongroup.com/commodities/gallium-germanium/china-lifts-export-ban-gallium-germanium-antimony) — 中国暂停对镓、锗等关键矿物的出口管制，直至2026年11月27日。
+- [Gallium Export Ban Suspended by China Until 2026 - Fastmarkets](https://www.fastmarkets.com/insights/china-suspends-export-prohibition-on-superhard-materials-us) — 中国宣布暂停对镓、锗、铋和钼等关键矿物的出口管制，直至2026年11月27日。
+- [China's Export Ban on Critical Minerals to the US | Green Worldwide Shipping](https://www.greenworldwide.com/china-limits-rare-mineral-exports) — 中国对关键矿物的出口管制，包括镓、锗和铋，直至2026年11月27日。
+- [China’s Strategic Use of Trade Controls – Center for Security Studies | ETH Zurich](https://css.ethz.ch/en/center/CSS-news/2026/04/chinas-strategic-use-of-trade-controls.html) — 中国利用关键矿物的出口管制作为报复、谈判和市场控制的战略手段。
+- [中國暫停鎵、鍺等兩用物項出口管制，鬆綁對美出口審查一年︱理財鴿](https://www.fintechgo.com.tw/FinDiary/Article/60868696233201083) — 中国暂停对镓、锗等两用物项的出口管制，放宽对美出口审查一年。
+
