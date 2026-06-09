@@ -4,12 +4,12 @@ title: 华为昇腾芯片生态规模化（国产算力闭环 vs HBM 瓶颈）
 seed_url: https://techblog.comsoc.org/2025/10/02/huawei-to-double-output-of-ascend-ai-chips-in-2026-openai-orders-hbm-chips-from-sk-hynix-samsung-for-stargate-uae-project/
 published_date: 2025-10-02
 status: HOT
-last_check: 2026-06-08T22:30
-last_activity: '2026-06-08'
-next_check: 2026-06-09T01:30
+last_check: 2026-06-09T03:02
+last_activity: '2026-06-09'
+next_check: 2026-06-09T06:02
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 8
+findings_count: 12
 tags:
 - tracker
 - HOT
@@ -82,4 +82,9 @@ search_queries:
 - [CXMT, Huawei align on HBM3 ahead of China's 2026 AI memory leap](https://www.reddit.com/r/hardware/comments/1ogicz6/cxmt_huawei_align_on_hbm3_ahead_of_chinas_2026_ai) — CXMT已向华为交付了16nm HBM3样品，以支持中国2026年AI内存的飞跃。
 - ["To expand wafer output, CXMT has reportedly transferred its base ...](https://x.com/zephyr_z9/status/1982408056492408948) — CXMT计划在2026年将其20%的量产能力用于HBM3生产线。
 - [CXMT Reportedly Plans to Dedicate 20% of Mass Production Capacity to HBM3 Line in 2026 | TechPowerUp](https://www.techpowerup.com/346207/cxmt-reportedly-plans-to-dedicate-20-of-mass-production-capacity-to-hbm3-line-in-2026) — CXMT计划通过4.2亿美元的首次公开募股(IPO)来支持2026年HBM3的生产。
+### 2026-06-09
+- [CXMT hits a wall on HBM3 – Fudzilla.com](https://fudzilla.com/cxmt-hits-a-wall-on-hbm3) — CXMT在HBM3生产上遇到困难，这可能会影响华为昇腾芯片生态的规模化。
+- [Chinaâs CXMT Targets 2026 HBM3 Production with $4.2 Billion IPO](https://investor.wedbush.com/wedbush/article/tokenring-2026-1-23-chinas-cxmt-targets-2026-hbm3-production-with-42-billion-ipo) — CXMT计划通过4.2亿美元的首次公开募股(IPO)来支持2026年HBM3的生产，这与中国AI内存的飞跃计划相关。
+- [Where China's AI chip supply chain stands in 2026 - The Substrate](https://www.the-substrate.net/p/where-chinas-ai-chip-supply-chain) — 文章概述了中国AI芯片供应链在2026年的状况，包括华为昇腾芯片的生产和挑战。
+- [HBM Supply Crisis 2026: The Bottleneck Redefining AI - EnkiAI](https://enkiai.com/data-center/hbm-supply-crisis-2026-the-bottleneck-redefining-ai) — 文章讨论了HBM供应危机如何定义AI基础设施，这直接关联到华为昇腾芯片生态的规模化。
 

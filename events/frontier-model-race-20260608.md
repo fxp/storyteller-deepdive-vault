@@ -4,12 +4,12 @@ title: 前沿模型月更竞速（Claude vs GPT vs Gemini vs Grok vs Kimi）
 seed_url: https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html
 published_date: 2026-06-01
 status: HOT
-last_check: 2026-06-08T22:30
-last_activity: '2026-06-08'
-next_check: 2026-06-09T01:30
+last_check: 2026-06-09T03:02
+last_activity: '2026-06-09'
+next_check: 2026-06-09T06:02
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 21
+findings_count: 24
 tags:
 - tracker
 - HOT
@@ -104,4 +104,8 @@ search_queries:
 ### 2026-06-08
 - [ARC Prize](https://arcprize.org) — ARC Prize网站链接，可能包含新命名或官方启动公告。
 - [ARC Prize 2026 - ARC-AGI-2](https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-2) — Kaggle竞赛页面，可能包含新命名或官方启动公告。
+### 2026-06-09
+- [Best AI Models in 2026: GPT-5.2 vs Claude 4.6 vs Gemini 3.1](https://replacehumans.ai/best-ai-models-2026-gpt-5-2-vs-claude-4-6-vs-gemini-3-1) — 比较了GPT-5.2、Claude 4.6和Gemini 3.1等多个AI模型的新版本。
+- [GPT vs Claude vs Kimi vs DeepSeek: AI Model Guide 2026](https://jasonpollakmarketing.com/2026/05/12/gpt-vs-claude-vs-kimi-vs-deepseek-ai-model-comparison-2026) — 比较了GPT、Claude、Kimi和DeepSeek等多个AI模型。
+- [Best LLMs for Coding in 2026: SWE-bench, HumanEval ... - Onyx AI](https://onyx.app/insights/best-llms-for-coding-2026) — 列出了2026年最佳编码LLMs，包括Claude Opus 4.6等。
 

@@ -3,16 +3,16 @@ id: us-ai-chip-export-control-20260608
 title: 美国 AI 芯片出口管制执法升级（追踪技术 / 走私执法 / 逐案审查）
 seed_url: https://www.morganlewis.com/pubs/2026/01/bis-revises-export-review-policy-for-advanced-ai-chips-destined-for-china-and-macau
 published_date: 2026-01-15
-status: HOT
-last_check: 2026-06-08T22:30
+status: ACTIVE
+last_check: 2026-06-09T03:02
 last_activity: '2026-06-08'
-next_check: 2026-06-09T01:30
-interval_hours: 3
-consecutive_empty: 3
+next_check: 2026-06-09T09:02
+interval_hours: 6
+consecutive_empty: 4
 findings_count: 0
 tags:
 - tracker
-- HOT
+- ACTIVE
 entities:
   orgs:
   - BIS（商务部工业与安全局）
