@@ -4,12 +4,12 @@ title: OpenAI × Anthropic 双 IPO 竞赛（AI 行业最大资本事件）
 seed_url: https://fortune.com/2026/06/01/anthropic-confidentially-files-ipo-965-billion-valuation/
 published_date: 2026-06-01
 status: HOT
-last_check: 2026-06-09T16:51
+last_check: 2026-06-09T20:38
 last_activity: '2026-06-09'
-next_check: 2026-06-09T19:51
+next_check: 2026-06-09T23:38
 interval_hours: 3
-consecutive_empty: 1
-findings_count: 19
+consecutive_empty: 0
+findings_count: 21
 tags:
 - tracker
 - HOT
@@ -100,3 +100,7 @@ Anthropic was valued at $965 billion in its latest funding round, officially sur
 ### 2026-06-09
 - [OpenAI Hits $25B Revenue, Eyes Late-2026 Public Listing - CodeLucky](https://codelucky.com/openai-25-billion-revenue-2026-ipo) — OpenAI 实现了约 250 亿美元的年度收入，并计划在 2026 年晚些时候上市。
 - [OpenAI Surpasses $25 Billion in Annual Revenue — Eyes Public Listing in Late 2026 - 24 Rows](https://24rows.com/openai-surpasses-25-billion-in-annual-revenue-eyes-public-listing-in-late-2026) — OpenAI 实现了约 250 亿美元的年度收入，巩固了其在商业 AI 领域的主导地位，并成为历史上增长最快的软件公司之一。
+### 2026-06-09
+- [Anthropic confidentially filed a draft S-1 IPO registration statement ...](https://x.com/Intellectualins/status/2062180000649138648) — Anthropic秘密向美国证券交易委员会提交了S-1文件草案，宣布于2026年6月1日公布，文件提交日期为2026年5月31日，经过65亿美元的融资轮后，估值约为9650亿美元，但未公布IPO日期、股票数量或价格。
+- [OpenAI IPO 2026 — Valuation, Timeline, Revenue, and What Investors Need to Know](https://aitoolsrecap.com/Blog/openai-ipo-2026-valuation-timeline-what-investors-need-to-know) — OpenAI计划通过高盛和摩根士丹利提交保密的S-1文件，目标上市估值超过1万亿美元，预计最早于2026年9月上市，公司年收入达到250亿美元，但仍在亏损，而Anthropic刚刚实现盈利。
+

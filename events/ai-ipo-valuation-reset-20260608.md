@@ -4,12 +4,12 @@ title: 【预期事件】AI IPO 引发行业估值重定价
 seed_url: https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-09T16:51
+last_check: 2026-06-09T20:38
 last_activity: '2026-06-09'
-next_check: 2026-06-09T19:51
+next_check: 2026-06-09T23:38
 interval_hours: 3
-consecutive_empty: 1
-findings_count: 5
+consecutive_empty: 0
+findings_count: 9
 tags:
 - tracker
 - HOT
@@ -76,3 +76,9 @@ search_queries:
 - [Anthropic Bests OpenAI in Valuation Race, Hitting $965B | Morningstar](https://www.morningstar.com/stocks/anthropic-bests-openai-valuation-race-hitting-965b) — Anthropic在估值竞赛中击败OpenAI，达到9650亿美元的估值。
 - [Cheap AI could derail OpenAI and Anthropic's IPOs - CNBC](https://www.cnbc.com/2026/05/20/cheap-ai-could-derail-openai-and-anthropics-ipos.html) — 廉价AI可能破坏OpenAI和Anthropic的IPO。
 - [Why It Matters if OpenAI or Anthropic Wins the IPO Race - WSJ](https://www.wsj.com/finance/stocks/openai-anthropic-ipo-race-0cf0ed36) — 如果OpenAI或Anthropic赢得IPO竞赛，这很重要。
+### 2026-06-09
+- [OpenAI and Anthropic Valuation Predictions: $2T in 2 Years | Allie K. Miller posted on the topic | LinkedIn](https://www.linkedin.com/posts/alliekmiller_what-are-my-current-valuation-predictions-activity-7450248834447740929-wqiQ) — Allie K. Miller 在LinkedIn上发布了关于OpenAI和Anthropic估值预测的文章，预测两年内将达到2万亿美元。
+- [Google Stock: As OpenAI, Anthropic Prep IPOs, Here's One Thing To ...](https://www.investors.com/news/technology/google-stock-anthropic-openai-ipo-valuation-revenue-recognition) — Google股票分析文章提到OpenAI和Anthropic准备进行IPO，并讨论了估值和收入确认问题。
+- [OpenAI IPO by...? Predictions & Odds 2026 - Polymarket](https://polymarket.com/event/openai-ipo-by) — Polymarket上关于OpenAI IPO的预测和赔率，提供了市场对OpenAI IPO的看法。
+- [SpaceX, OpenAI, and Anthropic: Here are the most anticipated IPOs ...](https://finance.yahoo.com/markets/article/spacex-openai-and-anthropic-here-are-the-most-anticipated-ipos-in-2026-114439441.html) — Yahoo Finance的文章列出了2026年最受期待的IPO，包括SpaceX、OpenAI和Anthropic。
+

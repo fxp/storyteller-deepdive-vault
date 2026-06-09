@@ -4,12 +4,12 @@ title: 【预期事件】首个企业级 AI Agent 重大事故引发监管响应
 seed_url: https://joget.com/ai-agent-adoption-in-2026-what-the-analysts-data-shows/
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-09T16:51
+last_check: 2026-06-09T20:38
 last_activity: '2026-06-09'
-next_check: 2026-06-09T19:51
+next_check: 2026-06-09T23:38
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 27
+findings_count: 29
 tags:
 - tracker
 - HOT
@@ -102,4 +102,7 @@ search_queries:
 - [Trust Experience Glitches in the Agentic Wild: How Autonomous AI ...](https://www.youtube.com/watch?v=5dG8489p-XY) — 讨论了自主AI代理在去中心化系统中操作时暴露的“信任故障”。
 - [Agentic AI Liability in Physical Security: 2026 Briefing | IntelliSee Intelligence](https://intellisee.com/intelligence/agentic-ai-liability-physical-security-2026-risk-allocation-autonomous-response) — 讨论了Agentic AI在物理安全中的责任问题，包括风险分配架构。
 - [OpenAI Challenges Microsoft with Enterprise AI Platform at CES 2026 | Rashan Grooms posted on the topic | LinkedIn](https://www.linkedin.com/posts/rashan-grooms-522b8512_artificialintelligence-openai-ces2026-activity-7414205951366512640-GWw6) — OpenAI在CES 2026上挑战微软的企业AI平台。
+### 2026-06-09
+- [AI Agent Failures: The 10 Biggest Agentic AI Disasters of Early 2026 | CallSphere Blog](https://callsphere.ai/blog/ai-agent-failures-biggest-agentic-ai-disasters-early-2026) — 首个企业级AI Agent重大事故引发监管响应，这是新的事实，与之前的历史发现不同。
+- [How to Build an AI Governance Framework: 10-Step Guide [2026]](https://www.arthur.ai/column/ai-governance-framework-guide) — 这篇指南提供了构建AI治理框架的步骤，这是新的事实。
 

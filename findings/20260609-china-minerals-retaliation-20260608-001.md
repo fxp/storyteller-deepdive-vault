@@ -1,17 +1,17 @@
 ---
 event: "[[china-minerals-retaliation-20260608]]"
 date: 2026-06-09
-url: "https://theoregongroup.com/commodities/gallium-germanium/china-lifts-export-ban-gallium-germanium-antimony"
-source_title: "China lifts export ban gallium, germanium, antimony - The Oregon Group - Critical Minerals and Energy Intelligence"
+url: "https://www.youtube.com/watch?v=WAYT83h2iNY"
+source_title: "CHINA'S Rare Earth EXPORT BAN To US - YouTube"
 relevance: RELEVANT
 ---
 
-# China lifts export ban gallium, germanium, antimony - The Oregon Group - Critical Minerals and Energy Intelligence
+# CHINA'S Rare Earth EXPORT BAN To US - YouTube
 
-**来源**: [China lifts export ban gallium, germanium, antimony - The Oregon Group - Critical Minerals and Energy Intelligence](https://theoregongroup.com/commodities/gallium-germanium/china-lifts-export-ban-gallium-germanium-antimony)
+**来源**: [CHINA'S Rare Earth EXPORT BAN To US - YouTube](https://www.youtube.com/watch?v=WAYT83h2iNY)
 **发现时间**: 2026-06-09
 **所属事件**: [[china-minerals-retaliation-20260608]]
 
 ## 摘要
 
-中国暂停对镓、锗等关键矿物的出口管制，直至2026年11月27日。
+中国对稀土元素特别是镓、锗和铋的出口实施禁令，理由是它们具有军民两用应用和国家安全方面的考虑。

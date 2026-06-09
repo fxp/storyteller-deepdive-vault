@@ -1,17 +1,17 @@
 ---
 event: "[[huawei-ascend-ecosystem-20260608]]"
 date: 2026-06-09
-url: "https://www.techpowerup.com/forums/threads/chinas-ai-chip-ambitions-limited-by-hbm-memory-supply-notes-report.340789"
-source_title: "China's AI Chip Ambitions Limited by HBM Memory Supply, Notes ..."
+url: "https://www.tomshardware.com/tech-industry/artificial-intelligence/chinas-chip-champions-ramp-up-production-of-ai-accelerators-at-domestic-fabs-but-hbm-and-fab-production-capacity-are-towering-bottlenecks"
+source_title: "China's chip champions ramp up production of AI accelerators at domestic fabs, but HBM and fab production capacity…"
 relevance: RELEVANT
 ---
 
-# China's AI Chip Ambitions Limited by HBM Memory Supply, Notes ...
+# China's chip champions ramp up production of AI accelerators at domestic fabs, but HBM and fab production capacity…
 
-**来源**: [China's AI Chip Ambitions Limited by HBM Memory Supply, Notes ...](https://www.techpowerup.com/forums/threads/chinas-ai-chip-ambitions-limited-by-hbm-memory-supply-notes-report.340789)
+**来源**: [China's chip champions ramp up production of AI accelerators at domestic fabs, but HBM and fab production capacity…](https://www.tomshardware.com/tech-industry/artificial-intelligence/chinas-chip-champions-ramp-up-production-of-ai-accelerators-at-domestic-fabs-but-hbm-and-fab-production-capacity-are-towering-bottlenecks)
 **发现时间**: 2026-06-09
 **所属事件**: [[huawei-ascend-ecosystem-20260608]]
 
 ## 摘要
 
-文章指出中国AI芯片的雄心受到HBM内存供应的限制，如果当前的投资轨迹继续且设备限制保持稳定，中国可能在2026年实现具有竞争力的HBM3E生产。
+中国芯片制造商在国内晶圆厂加速生产AI加速器，但HBM和晶圆厂生产能力是巨大的瓶颈。

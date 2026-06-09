@@ -4,12 +4,12 @@ title: 【预期事件】中国对关键矿产发布报复性出口限制
 seed_url: https://bisi.org.uk/reports/ai-chip-smuggling-the-limits-of-us-export-controls
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-09T16:51
+last_check: 2026-06-09T20:38
 last_activity: '2026-06-09'
-next_check: 2026-06-09T19:51
+next_check: 2026-06-09T23:38
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 5
+findings_count: 11
 tags:
 - tracker
 - HOT
@@ -79,4 +79,11 @@ search_queries:
 - [China's Export Ban on Critical Minerals to the US | Green Worldwide Shipping](https://www.greenworldwide.com/china-limits-rare-mineral-exports) — 中国对关键矿物的出口管制，包括镓、锗和铋，直至2026年11月27日。
 - [China’s Strategic Use of Trade Controls – Center for Security Studies | ETH Zurich](https://css.ethz.ch/en/center/CSS-news/2026/04/chinas-strategic-use-of-trade-controls.html) — 中国利用关键矿物的出口管制作为报复、谈判和市场控制的战略手段。
 - [中國暫停鎵、鍺等兩用物項出口管制，鬆綁對美出口審查一年︱理財鴿](https://www.fintechgo.com.tw/FinDiary/Article/60868696233201083) — 中国暂停对镓、锗等两用物项的出口管制，放宽对美出口审查一年。
+### 2026-06-09
+- [CHINA'S Rare Earth EXPORT BAN To US - YouTube](https://www.youtube.com/watch?v=WAYT83h2iNY) — 中国对稀土元素特别是镓、锗和铋的出口实施禁令，理由是它们具有军民两用应用和国家安全方面的考虑。
+- [China Hits “Pause” on Rare-Earth Export Controls and What it ...](https://www.clarkhill.com/news-events/news/china-hits-pause-on-rare-earth-export-controls-and-what-it-means-for-supply-chains) — 中国暂停对镓和锗的出口管制，对供应链的影响成为讨论焦点。
+- [Market Insight on China's Gallium and Germanium Export Ban](https://strategicmetalsinvest.com/market-insight-on-china-gallium-germanium-export-ban-jan-24) — 中国对镓和锗的出口管制，标志着中国首次在十多年后对技术金属和稀土实施出口限制。
+- [China's Export Controls: Critical Minerals and Strategic Pressure ...](https://anderseninstitute.org/chinas-export-control-architecture-and-its-use-of-critical-minerals-as-strategic-pressure-points) — 分析了中国对稀土矿物的出口管制，包括自2020年以来中国如何将分散的出口规则统一到一个系统中。
+- [Tungsten in the Crosshairs: China’s Export Controls and the Semiconductor Supply Chain Crisis - Core Group](https://www.coreconsultantsgroup.com/tungsten-in-the-crosshairs-chinas-export-controls-and-the-semiconductor-supply-chain-crisis) — 中国对钨的出口管制，以及对半导体供应链危机的影响。
+- [China Announces Export Controls on Five Critical Minerals - Exiger](https://www.exiger.com/perspectives/critical-minerals-export-controls) — 中国宣布对五种关键矿物实施出口管制，可能对依赖这些金属的行业造成供应链中断。
 

@@ -4,12 +4,12 @@ title: 华为昇腾芯片生态规模化（国产算力闭环 vs HBM 瓶颈）
 seed_url: https://techblog.comsoc.org/2025/10/02/huawei-to-double-output-of-ascend-ai-chips-in-2026-openai-orders-hbm-chips-from-sk-hynix-samsung-for-stargate-uae-project/
 published_date: 2025-10-02
 status: HOT
-last_check: 2026-06-09T16:51
+last_check: 2026-06-09T20:38
 last_activity: '2026-06-09'
-next_check: 2026-06-09T19:51
+next_check: 2026-06-09T23:38
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 14
+findings_count: 20
 tags:
 - tracker
 - HOT
@@ -90,4 +90,11 @@ search_queries:
 ### 2026-06-09
 - [CXMT said to target 2026 HBM3E mass production, narrowing gap ...](https://www.digitimes.com/news/a20250911PD210/cxmt-hbm3e-production-sk-hynix-samsung.html) — CXMT计划在2026年实现HBM3E的大规模生产，缩小与三星和SK海力士的差距。
 - [China's AI Chip Ambitions Limited by HBM Memory Supply, Notes ...](https://www.techpowerup.com/forums/threads/chinas-ai-chip-ambitions-limited-by-hbm-memory-supply-notes-report.340789) — 文章指出中国AI芯片的雄心受到HBM内存供应的限制，如果当前的投资轨迹继续且设备限制保持稳定，中国可能在2026年实现具有竞争力的HBM3E生产。
+### 2026-06-09
+- [Huawei / HiSilicon Supply Chain Spotlight - SemiconductorX](https://semiconductorx.com/spotlight-huawei-hisilicon.html) — 华为昇腾芯片生态规模化，TSMC代工芯片的交付情况更新。
+- [China's chip champions ramp up production of AI accelerators at domestic fabs, but HBM and fab production capacity…](https://www.tomshardware.com/tech-industry/artificial-intelligence/chinas-chip-champions-ramp-up-production-of-ai-accelerators-at-domestic-fabs-but-hbm-and-fab-production-capacity-are-towering-bottlenecks) — 中国芯片制造商在国内晶圆厂加速生产AI加速器，但HBM和晶圆厂生产能力是巨大的瓶颈。
+- [7 Apr 2026 👇 1️⃣ DeepSeek V4 to run on Huawei chips. ...](https://www.instagram.com/p/DW1LSHjgbun) — DeepSeek V4将在华为芯片上运行。
+- [Huawei Ascend 950 Orders Surge After DeepSeek V4](https://www.technology.org/2026/04/29/huawei-ascend-950-orders-surge-as-deepseek-v4-drives-chinese-cloud-giants-to-buy) — DeepSeek V4发布后，华为昇腾950芯片订单激增。
+- [2026 年 AI 芯片市场爆发：国产昇腾系列出货量突破千万颗，华为领跑人工智能算力赛道-公司新闻-皋德科技（浙江）有限公司 超级电容生产厂家定制研发](http://www.godecap.com/company-news-show-10.html) — 2026年AI芯片市场爆发，华为昇腾系列出货量突破千万颗。
+- [华为昇腾芯片技术突破，能否在2026年内实现AI算力全面国产替代？|英伟达GB200|AI芯片|开源模型|英伟达|训练_手机新浪网](https://news.sina.cn/bignews/insight/2026-06-02/detail-inhzzivn3140797.d.html?vt=4) — 华为昇腾芯片技术突破，能否在2026年内实现AI算力全面国产替代？
 

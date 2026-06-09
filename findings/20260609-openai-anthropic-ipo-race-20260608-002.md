@@ -1,17 +1,17 @@
 ---
 event: "[[openai-anthropic-ipo-race-20260608]]"
 date: 2026-06-09
-url: "https://24rows.com/openai-surpasses-25-billion-in-annual-revenue-eyes-public-listing-in-late-2026"
-source_title: "OpenAI Surpasses $25 Billion in Annual Revenue — Eyes Public Listing in Late 2026 - 24 Rows"
+url: "https://aitoolsrecap.com/Blog/openai-ipo-2026-valuation-timeline-what-investors-need-to-know"
+source_title: "OpenAI IPO 2026 — Valuation, Timeline, Revenue, and What Investors Need to Know"
 relevance: RELEVANT
 ---
 
-# OpenAI Surpasses $25 Billion in Annual Revenue — Eyes Public Listing in Late 2026 - 24 Rows
+# OpenAI IPO 2026 — Valuation, Timeline, Revenue, and What Investors Need to Know
 
-**来源**: [OpenAI Surpasses $25 Billion in Annual Revenue — Eyes Public Listing in Late 2026 - 24 Rows](https://24rows.com/openai-surpasses-25-billion-in-annual-revenue-eyes-public-listing-in-late-2026)
+**来源**: [OpenAI IPO 2026 — Valuation, Timeline, Revenue, and What Investors Need to Know](https://aitoolsrecap.com/Blog/openai-ipo-2026-valuation-timeline-what-investors-need-to-know)
 **发现时间**: 2026-06-09
 **所属事件**: [[openai-anthropic-ipo-race-20260608]]
 
 ## 摘要
 
-OpenAI 实现了约 250 亿美元的年度收入，巩固了其在商业 AI 领域的主导地位，并成为历史上增长最快的软件公司之一。
+OpenAI计划通过高盛和摩根士丹利提交保密的S-1文件，目标上市估值超过1万亿美元，预计最早于2026年9月上市，公司年收入达到250亿美元，但仍在亏损，而Anthropic刚刚实现盈利。

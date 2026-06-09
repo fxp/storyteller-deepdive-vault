@@ -1,17 +1,17 @@
 ---
 event: "[[china-minerals-retaliation-20260608]]"
 date: 2026-06-09
-url: "https://www.fastmarkets.com/insights/china-suspends-export-prohibition-on-superhard-materials-us"
-source_title: "Gallium Export Ban Suspended by China Until 2026 - Fastmarkets"
+url: "https://www.clarkhill.com/news-events/news/china-hits-pause-on-rare-earth-export-controls-and-what-it-means-for-supply-chains"
+source_title: "China Hits “Pause” on Rare-Earth Export Controls and What it ..."
 relevance: RELEVANT
 ---
 
-# Gallium Export Ban Suspended by China Until 2026 - Fastmarkets
+# China Hits “Pause” on Rare-Earth Export Controls and What it ...
 
-**来源**: [Gallium Export Ban Suspended by China Until 2026 - Fastmarkets](https://www.fastmarkets.com/insights/china-suspends-export-prohibition-on-superhard-materials-us)
+**来源**: [China Hits “Pause” on Rare-Earth Export Controls and What it ...](https://www.clarkhill.com/news-events/news/china-hits-pause-on-rare-earth-export-controls-and-what-it-means-for-supply-chains)
 **发现时间**: 2026-06-09
 **所属事件**: [[china-minerals-retaliation-20260608]]
 
 ## 摘要
 
-中国宣布暂停对镓、锗、铋和钼等关键矿物的出口管制，直至2026年11月27日。
+中国暂停对镓和锗的出口管制，对供应链的影响成为讨论焦点。
