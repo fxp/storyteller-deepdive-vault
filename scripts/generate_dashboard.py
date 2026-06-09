@@ -405,7 +405,7 @@ def _render_facts_html(findings: list[dict], max_n: int = 6) -> str:
         if len(core) > 120:
             core = core[:118] + "…"
 
-        date_html = f'<span class="smol-fact-date">{esc(date)}</span>' if date else ""
+        date_html = f'<span class="smol-fact-date">{esc(date)}</span>'  # always emit for grid alignment
         link_html = (
             f'<a class="smol-link" href="{esc(url)}" target="_blank" rel="noopener">'
             f'{esc(name)} ↗</a>'
@@ -417,7 +417,7 @@ def _render_facts_html(findings: list[dict], max_n: int = 6) -> str:
         return ""
     return (
         '<div class="smol-heading">关键事实</div>'
-        f'<ul class="smol-facts">{"".join(items)}</ul>'
+        f'<ul class="smol-facts smol-facts-data">{"".join(items)}</ul>'
     )
 
 
@@ -640,7 +640,7 @@ def render_timeline(findings: list[dict], max_n: int = 8) -> str:
     return '<div class="timeline">' + "".join(entries) + '</div>'
 
 
-def render_card(ev: dict) -> str:
+def render_card(ev: dict, idx: int = 0) -> str:
     event_id = ev["_id"]
     title    = esc(str(ev.get("title", event_id)))
     status   = str(ev.get("status", "DORMANT"))
@@ -679,19 +679,20 @@ def render_card(ev: dict) -> str:
 
     recent_count = len(recent)
 
+    delay = idx * 65
     return f"""
-    <div class="card" data-status="{esc(status)}">
+    <div class="card" data-status="{esc(status)}" style="animation-delay:{delay}ms">
       <div class="card-header">
         <div class="card-title-row">
           <h2 class="card-title">{title}</h2>
-          <span class="badge" style="color:{color_fg};background:{color_bg}">{pulse}{esc(status)}</span>
+          <span class="badge">{pulse}{esc(status)}</span>
         </div>
         {chips_html}
         <div class="card-meta">
-          <span>📄 {findings_count} 条发现</span>
-          <span>🆕 近期 {recent_count} 条</span>
-          <span>🕐 {esc(last_activity)}</span>
-          <span>🔄 每 {interval_hours}h</span>
+          <span>{findings_count} 发现</span>
+          <span>近期 {recent_count}</span>
+          <span>{esc(last_activity)}</span>
+          <span>/{interval_hours}h</span>
         </div>
       </div>
       <div class="card-body">
@@ -706,7 +707,7 @@ def generate(events: list[dict]) -> str:
     hot_count = sum(1 for e in events if str(e.get("status")) == "HOT")
 
     print(f"\nGenerating dashboard for {len(events)} events...")
-    cards_html = "\n".join(render_card(e) for e in events)
+    cards_html = "\n".join(render_card(e, i) for i, e in enumerate(events))
 
     return f"""<!DOCTYPE html>
 <html lang="zh-Hans">
@@ -714,262 +715,470 @@ def generate(events: list[dict]) -> str:
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>StoryTeller — AI 事件追踪</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=IBM+Plex+Mono:wght@400;500&family=DM+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
 <style>
   :root {{
-    --bg:          #0d0d12;
-    --surface:     #13131a;
-    --card:        #17171f;
-    --border:      #1e1e2e;
-    --border-hi:   #2e2e42;
-    --text:        #e2e8f0;
-    --text-dim:    #94a3b8;
-    --text-muted:  #64748b;
-    --accent:      #6366f1;
-    --hot:         #ef4444;
-    --font-mono:   'JetBrains Mono', 'Fira Code', ui-monospace, monospace;
+    --bg:           #09090a;
+    --surface:      #0f0f11;
+    --card:         #131315;
+    --card-hover:   #181819;
+    --border:       #1e1e22;
+    --border-hi:    #2e2e34;
+    --text:         #e4e4e8;
+    --text-dim:     #9898a0;
+    --text-muted:   #52525a;
+    --accent:       #c8892a;
+    --accent-dim:   rgba(200,137,42,.12);
+    --accent-glow:  rgba(200,137,42,.05);
+    --hot:          #e05252;
+    --hot-dim:      rgba(224,82,82,.1);
+    --active-col:   #c9a522;
+    --watching-col: #6b7fa8;
+    --font-serif: 'Playfair Display', 'Noto Serif SC', 'Songti SC', Georgia, serif;
+    --font-sans:  'DM Sans', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+    --font-mono:  'IBM Plex Mono', 'JetBrains Mono', ui-monospace, monospace;
   }}
   * {{ box-sizing: border-box; margin: 0; padding: 0; }}
   body {{
     background: var(--bg);
     color: var(--text);
-    font-family: -apple-system, 'PingFang SC', 'Noto Sans SC', sans-serif;
+    font-family: var(--font-sans);
     font-size: 14px;
     line-height: 1.7;
     min-height: 100vh;
   }}
 
-  /* ── Header ── */
+  /* ══════════════════════════════════════════════
+     HEADER
+  ══════════════════════════════════════════════ */
   .header {{
     background: var(--surface);
     border-bottom: 1px solid var(--border);
-    padding: 20px 32px;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: stretch;
+    min-height: 62px;
+  }}
+  .header-brand {{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 16px;
-    flex-wrap: wrap;
+    gap: 12px;
+    padding: 0 28px 0 28px;
+    border-right: 1px solid var(--border);
   }}
-  .header-left h1 {{ font-size: 20px; font-weight: 700; letter-spacing: -0.3px; }}
-  .header-left p  {{ color: var(--text-muted); font-size: 12px; margin-top: 2px; }}
-  .stats {{ display: flex; gap: 24px; }}
-  .stat {{ text-align: center; }}
-  .stat-value {{ font-size: 22px; font-weight: 700; font-family: var(--font-mono); }}
-  .stat-label {{ font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }}
-  .live-badge {{
-    display: flex; align-items: center; gap: 6px;
-    background: rgba(239,68,68,.1); border: 1px solid rgba(239,68,68,.25);
-    border-radius: 999px; padding: 4px 12px;
-    font-size: 12px; color: var(--hot); font-weight: 600;
+  .brand-mark {{
+    width: 34px; height: 34px; flex-shrink: 0;
+    border: 1.5px solid var(--accent);
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    position: relative;
+    color: var(--accent);
+    font-size: 13px;
+  }}
+  .brand-mark::after {{
+    content: '';
+    position: absolute;
+    inset: 4px;
+    border: 1px dashed rgba(200,137,42,.3);
+    border-radius: 50%;
+    animation: spin 12s linear infinite;
+  }}
+  @keyframes spin {{ to {{ transform: rotate(360deg); }} }}
+  .brand-text h1 {{
+    font-family: var(--font-serif);
+    font-size: 17px; font-weight: 700;
+    letter-spacing: 0.2px;
+    color: var(--text);
+    line-height: 1.2;
+  }}
+  .brand-text p {{
+    font-family: var(--font-mono);
+    font-size: 9.5px;
+    color: var(--text-muted);
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    margin-top: 2px;
   }}
 
-  /* ── Grid ── */
+  .header-stats {{
+    display: flex;
+    align-items: stretch;
+  }}
+  .stat {{
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    padding: 0 28px;
+    border-right: 1px solid var(--border);
+  }}
+  .stat-value {{
+    font-family: var(--font-mono);
+    font-size: 22px; font-weight: 500;
+    color: var(--accent);
+    line-height: 1;
+  }}
+  .stat-label {{
+    font-family: var(--font-mono);
+    font-size: 9px;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    margin-top: 3px;
+  }}
+
+  .header-right {{
+    display: flex; align-items: center;
+    gap: 14px; padding: 0 24px;
+    border-left: 1px solid var(--border);
+  }}
+  .live-badge {{
+    display: flex; align-items: center; gap: 7px;
+    background: var(--hot-dim);
+    border: 1px solid rgba(224,82,82,.18);
+    border-radius: 3px;
+    padding: 5px 11px;
+    font-family: var(--font-mono);
+    font-size: 9.5px;
+    color: var(--hot);
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+  }}
+  .timestamp {{
+    font-family: var(--font-mono);
+    font-size: 9.5px;
+    color: var(--text-muted);
+    letter-spacing: 0.4px;
+  }}
+
+  /* ══════════════════════════════════════════════
+     GRID
+  ══════════════════════════════════════════════ */
   .grid {{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(520px, 1fr));
-    gap: 20px;
-    padding: 24px 32px;
-    max-width: 1600px;
-    margin: 0 auto;
+    grid-template-columns: repeat(auto-fill, minmax(560px, 1fr));
+    gap: 0;
+    background: var(--border);
   }}
 
-  /* ── Card ── */
+  /* ══════════════════════════════════════════════
+     CARD
+  ══════════════════════════════════════════════ */
   .card {{
     background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    transition: border-color 0.2s;
+    display: flex; flex-direction: column;
+    position: relative;
+    transition: background 0.15s;
+    animation: fadeUp 0.5s cubic-bezier(0.22,1,0.36,1) both;
+    border: 1px solid transparent;  /* inner border for hover */
+    margin: -1px;  /* collapse grid gap */
   }}
-  .card:hover {{ border-color: var(--border-hi); }}
-  .card[data-status="HOT"]    {{ border-color: rgba(239,68,68,.22); }}
-  .card[data-status="ACTIVE"] {{ border-color: rgba(245,158,11,.15); }}
+  .card:hover {{ background: var(--card-hover); border-color: var(--border-hi); z-index: 1; }}
 
+  /* Left status stripe */
+  .card::before {{
+    content: '';
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    width: 2px;
+    pointer-events: none;
+  }}
+  .card[data-status="HOT"]::before      {{ background: var(--hot); box-shadow: 0 0 8px rgba(224,82,82,.4); }}
+  .card[data-status="ACTIVE"]::before   {{ background: var(--active-col); }}
+  .card[data-status="TRACKING"]::before {{ background: var(--accent); }}
+  .card[data-status="WATCHING"]::before {{ background: var(--watching-col); opacity: 0.6; }}
+  .card[data-status="COOLING"]::before  {{ background: #4a7a5a; opacity: 0.5; }}
+  .card[data-status="DORMANT"]::before  {{ background: var(--border-hi); opacity: 0.4; }}
+
+  @keyframes fadeUp {{
+    from {{ opacity: 0; transform: translateY(10px); }}
+    to   {{ opacity: 1; transform: translateY(0); }}
+  }}
+
+  /* ── Card Header ── */
   .card-header {{
-    padding: 18px 20px 14px;
+    padding: 18px 20px 13px 20px;
     border-bottom: 1px solid var(--border);
   }}
   .card-title-row {{
-    display: flex; align-items: flex-start; gap: 10px; margin-bottom: 8px;
+    display: flex; align-items: flex-start;
+    gap: 10px; margin-bottom: 10px;
   }}
   .card-title {{
-    font-size: 15px; font-weight: 600; flex: 1; line-height: 1.4;
+    font-family: var(--font-serif);
+    font-size: 14.5px; font-weight: 600;
+    flex: 1; line-height: 1.45;
+    color: var(--text);
+    letter-spacing: 0.05px;
   }}
+
+  /* ── Status Badges ── */
   .badge {{
-    display: flex; align-items: center; gap: 5px;
-    font-size: 11px; font-weight: 700;
-    padding: 3px 9px; border-radius: 6px;
+    display: inline-flex; align-items: center; gap: 5px;
+    font-family: var(--font-mono);
+    font-size: 9.5px; font-weight: 500;
+    padding: 3px 8px; border-radius: 3px;
     white-space: nowrap; flex-shrink: 0;
-    font-family: var(--font-mono); letter-spacing: 0.5px;
+    letter-spacing: 0.9px; text-transform: uppercase;
+    border: 1px solid transparent;
   }}
+  .card[data-status="HOT"]      .badge {{ color: var(--hot);          background: var(--hot-dim);                    border-color: rgba(224,82,82,.25);    }}
+  .card[data-status="ACTIVE"]   .badge {{ color: var(--active-col);   background: rgba(201,165,34,.09);              border-color: rgba(201,165,34,.22);   }}
+  .card[data-status="TRACKING"] .badge {{ color: var(--accent);       background: var(--accent-dim);                 border-color: rgba(200,137,42,.22);   }}
+  .card[data-status="WATCHING"] .badge {{ color: var(--watching-col); background: rgba(107,127,168,.08);             border-color: rgba(107,127,168,.18);  }}
+  .card[data-status="COOLING"]  .badge {{ color: #5e9170;             background: rgba(94,145,112,.08);              border-color: rgba(94,145,112,.18);   }}
+  .card[data-status="DORMANT"]  .badge {{ color: var(--text-muted);   background: rgba(82,82,90,.1);                 border-color: rgba(82,82,90,.18);     }}
+
   .pulse-dot {{
-    display: inline-block; width: 7px; height: 7px;
-    border-radius: 50%; background: #ef4444;
-    animation: pulse 1.8s ease-in-out infinite;
+    display: inline-block; width: 6px; height: 6px;
+    border-radius: 50%; background: var(--hot);
+    animation: pulse 2s ease-in-out infinite; flex-shrink: 0;
   }}
   @keyframes pulse {{
     0%, 100% {{ opacity: 1; transform: scale(1); }}
-    50%       {{ opacity: 0.4; transform: scale(0.7); }}
+    50%       {{ opacity: 0.25; transform: scale(0.55); }}
   }}
 
-  .chips {{ display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 10px; }}
-  .chip {{ font-size: 11px; padding: 2px 8px; border-radius: 4px; font-weight: 500; }}
-  .chip-person {{ background: rgba(139,92,246,.15); color: #a78bfa; }}
-  .chip-org    {{ background: rgba(59,130,246,.15);  color: #60a5fa; }}
+  /* ── Chips ── */
+  .chips {{ display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 10px; }}
+  .chip {{
+    font-family: var(--font-mono);
+    font-size: 9.5px; padding: 1px 7px;
+    border-radius: 2px; letter-spacing: 0.2px;
+    border: 1px solid transparent;
+  }}
+  .chip-person {{ background: rgba(139,92,246,.08); color: rgba(170,148,248,.8); border-color: rgba(139,92,246,.14); }}
+  .chip-org    {{ background: var(--accent-dim);    color: rgba(200,137,42,.85); border-color: rgba(200,137,42,.18); }}
 
-  .card-meta {{ display: flex; flex-wrap: wrap; gap: 12px; font-size: 12px; color: var(--text-muted); }}
+  /* ── Card Meta ── */
+  .card-meta {{
+    display: flex; flex-wrap: wrap; gap: 14px;
+    font-family: var(--font-mono);
+    font-size: 9.5px; color: var(--text-muted);
+    letter-spacing: 0.3px;
+  }}
 
-  /* ── Card body ── */
-  .card-body {{ padding: 14px 20px 18px; flex: 1; }}
+  /* ══════════════════════════════════════════════
+     CARD BODY
+  ══════════════════════════════════════════════ */
+  .card-body {{ padding: 16px 20px 20px; flex: 1; }}
 
-  /* ── Timeline ── */
+  /* ── Section Headings ── */
+  .smol-heading {{
+    display: flex; align-items: center; gap: 8px;
+    font-family: var(--font-mono);
+    font-size: 9px; font-weight: 500;
+    text-transform: uppercase; letter-spacing: 1.5px;
+    color: var(--text-muted);
+    margin: 18px 0 9px;
+  }}
+  .smol-heading:first-child {{ margin-top: 0; }}
+  .smol-heading::before {{
+    content: '§';
+    color: var(--accent); opacity: 0.65;
+    font-size: 11px; font-weight: 400; line-height: 1;
+    font-style: normal;
+  }}
+  .smol-heading::after {{
+    content: '';
+    flex: 1; height: 1px;
+    background: linear-gradient(to right, var(--border-hi) 0%, transparent 80%);
+  }}
+
+  /* ── Narrative Paragraph ── */
+  .smol-para {{
+    font-size: 12.5px;
+    color: var(--text-dim);
+    line-height: 1.72;
+    margin: 0 0 2px;
+  }}
+
+  /* ── Key Facts (data-driven, 3-col grid) ── */
+  .smol-facts {{
+    list-style: none; margin: 0 0 2px; padding: 0;
+    display: flex; flex-direction: column;
+  }}
+  .smol-facts-data li {{
+    display: grid;
+    grid-template-columns: 68px auto 1fr;
+    gap: 8px;
+    align-items: baseline;
+    padding: 6px 0;
+    border-bottom: 1px solid rgba(255,255,255,.03);
+  }}
+  .smol-facts-data li:last-child {{ border-bottom: none; padding-bottom: 2px; }}
+
+  /* GLM-written fallback bullets (no smol-facts-data class) */
+  .smol-facts:not(.smol-facts-data) li {{
+    display: flex; flex-wrap: wrap; gap: 5px;
+    padding: 5px 0 5px 12px;
+    position: relative;
+    border-bottom: 1px solid rgba(255,255,255,.03);
+    font-size: 12px; color: var(--text-dim); line-height: 1.55;
+  }}
+  .smol-facts:not(.smol-facts-data) li:last-child {{ border-bottom: none; }}
+  .smol-facts:not(.smol-facts-data) li::before {{
+    content: '·'; position: absolute; left: 1px;
+    color: var(--accent); opacity: 0.5; font-size: 14px; line-height: 1.2;
+  }}
+
+  .smol-fact-date {{
+    font-family: var(--font-mono);
+    font-size: 9.5px;
+    color: var(--text-muted);
+    white-space: nowrap;
+    padding-top: 1px;
+    letter-spacing: 0.2px;
+  }}
+  .smol-fact-body {{
+    font-size: 12px;
+    color: var(--text-dim);
+    line-height: 1.55;
+    min-width: 0;
+  }}
+  .smol-link {{
+    font-family: var(--font-mono);
+    font-size: 9px;
+    color: var(--accent);
+    text-decoration: none;
+    opacity: 0.82;
+    white-space: nowrap;
+    background: var(--accent-dim);
+    padding: 1px 5px;
+    border-radius: 2px;
+    border: 1px solid rgba(200,137,42,.16);
+    transition: opacity 0.1s, background 0.1s;
+    letter-spacing: 0.2px;
+    align-self: center;
+  }}
+  .smol-link:hover {{ opacity: 1; background: rgba(200,137,42,.2); }}
+
+  /* ── Timeline Fallback ── */
   .timeline {{ display: flex; flex-direction: column; }}
   .tl-row {{
     display: grid;
-    grid-template-columns: 76px 1fr;
-    gap: 12px;
-    padding: 9px 0;
-    border-bottom: 1px solid var(--border);
+    grid-template-columns: 68px 1fr;
+    gap: 10px;
+    padding: 7px 0;
+    border-bottom: 1px solid rgba(255,255,255,.03);
     align-items: baseline;
   }}
   .tl-row:last-child {{ border-bottom: none; padding-bottom: 2px; }}
   .tl-date {{
     font-family: var(--font-mono);
-    font-size: 11px;
-    color: var(--text-muted);
-    letter-spacing: 0.2px;
-    white-space: nowrap;
-    padding-top: 1px;
+    font-size: 9.5px; color: var(--text-muted);
+    white-space: nowrap; letter-spacing: 0.2px;
   }}
-  .tl-main {{ display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px; }}
-  .tl-body {{
-    font-size: 13px;
-    color: var(--text-dim);
-    line-height: 1.55;
-  }}
+  .tl-main {{ display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px; }}
+  .tl-body {{ font-size: 12px; color: var(--text-dim); line-height: 1.55; }}
   .tl-link {{
-    font-size: 11px;
-    color: var(--accent);
-    text-decoration: none;
-    opacity: 0.7;
-    white-space: nowrap;
-    flex-shrink: 0;
-    transition: opacity 0.12s;
-  }}
-  .tl-link:hover {{ opacity: 1; text-decoration: underline; }}
-
-  /* ── Smol.ai 简报 ── */
-  .smol-heading {{
-    font-size: 10px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.9px;
-    color: var(--accent);
-    opacity: 0.75;
-    margin: 14px 0 5px;
-    padding-bottom: 4px;
-    border-bottom: 1px solid var(--border);
-  }}
-  .smol-heading:first-child {{ margin-top: 0; }}
-  .smol-para {{
-    font-size: 13px;
-    color: var(--text-dim);
-    line-height: 1.65;
-    margin: 3px 0 6px;
-  }}
-  .smol-facts {{
-    list-style: none;
-    margin: 4px 0 8px;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 7px;
-  }}
-  .smol-facts li {{
-    font-size: 13px;
-    color: var(--text-dim);
-    line-height: 1.55;
-    padding-left: 14px;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-    gap: 5px;
-  }}
-  .smol-facts li::before {{
-    content: '▸';
-    position: absolute;
-    left: 0;
-    color: var(--accent);
-    opacity: 0.5;
-    font-size: 10px;
-    top: 3px;
-  }}
-  .smol-fact-date {{
     font-family: var(--font-mono);
-    font-size: 10px;
-    color: var(--text-muted);
-    white-space: nowrap;
-    flex-shrink: 0;
+    font-size: 9px; color: var(--accent);
+    text-decoration: none; opacity: 0.8;
+    white-space: nowrap; flex-shrink: 0;
+    background: var(--accent-dim);
+    padding: 1px 5px; border-radius: 2px;
+    border: 1px solid rgba(200,137,42,.16);
+    transition: opacity 0.1s;
   }}
-  .smol-fact-body {{
-    font-size: 12px;
-    color: var(--text-dim);
-    flex: 1;
-    min-width: 0;
-  }}
-  .smol-link {{
-    color: var(--accent);
-    text-decoration: none;
-    font-size: 11px;
-    opacity: 0.85;
-    transition: opacity 0.12s;
-  }}
-  .smol-link:hover {{ opacity: 1; text-decoration: underline; }}
+  .tl-link:hover {{ opacity: 1; }}
 
   .no-update {{
-    font-size: 13px; color: var(--text-muted); font-style: italic; padding: 8px 0;
+    font-family: var(--font-mono);
+    font-size: 10.5px; color: var(--text-muted);
+    padding: 10px 0; letter-spacing: 0.3px;
+    font-style: italic;
   }}
 
-  /* ── Footer ── */
+  /* ══════════════════════════════════════════════
+     FOOTER
+  ══════════════════════════════════════════════ */
   .footer {{
-    text-align: center; padding: 24px; color: var(--text-muted);
-    font-size: 12px; border-top: 1px solid var(--border);
+    background: var(--surface);
+    border-top: 1px solid var(--border);
+    padding: 16px 28px;
+    display: flex; align-items: center;
+    justify-content: space-between;
+    gap: 12px; flex-wrap: wrap;
   }}
-  .footer a {{ color: var(--text-muted); }}
+  .footer-left {{
+    font-family: var(--font-mono);
+    font-size: 9.5px; color: var(--text-muted);
+    letter-spacing: 0.6px; text-transform: uppercase;
+  }}
+  .footer-right {{
+    font-family: var(--font-mono);
+    font-size: 9.5px; color: var(--text-muted);
+    display: flex; gap: 16px; align-items: center;
+    letter-spacing: 0.3px;
+  }}
+  .footer-right a {{
+    color: var(--text-muted); text-decoration: none;
+    transition: color 0.1s;
+  }}
+  .footer-right a:hover {{ color: var(--accent); }}
+  .footer-divider {{ opacity: 0.3; }}
 
-  @media (max-width: 600px) {{
-    .header {{ padding: 16px; }}
-    .grid   {{ padding: 16px; grid-template-columns: 1fr; }}
-    .stats  {{ gap: 16px; }}
+  /* ══════════════════════════════════════════════
+     RESPONSIVE
+  ══════════════════════════════════════════════ */
+  @media (max-width: 800px) {{
+    .header {{
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto auto;
+    }}
+    .header-brand {{
+      border-right: none;
+      border-bottom: 1px solid var(--border);
+      padding: 14px 16px;
+    }}
+    .header-stats {{
+      border-bottom: 1px solid var(--border);
+      justify-content: space-around;
+    }}
+    .stat {{ padding: 12px 16px; border-right: 1px solid var(--border); }}
+    .stat:last-child {{ border-right: none; }}
+    .header-right {{ border-left: none; padding: 10px 16px; justify-content: space-between; }}
+    .grid {{ grid-template-columns: 1fr; }}
+    .card-body {{ padding: 14px 16px 18px; }}
+    .card-header {{ padding: 14px 16px 12px; }}
+    .smol-facts-data li {{ grid-template-columns: 60px auto 1fr; gap: 6px; }}
+    .footer {{ padding: 14px 16px; }}
+  }}
+  @media (max-width: 420px) {{
+    .smol-facts-data li {{ grid-template-columns: 1fr; }}
+    .smol-fact-date {{ display: inline; margin-right: 6px; }}
   }}
 </style>
 </head>
 <body>
 
 <header class="header">
-  <div class="header-left">
-    <h1>🔭 StoryTeller</h1>
-    <p>AI 事件持续追踪 · 更新于 {esc(now_utc)}</p>
+  <div class="header-brand">
+    <div class="brand-mark">◎</div>
+    <div class="brand-text">
+      <h1>StoryTeller</h1>
+      <p>AI 事件持续追踪</p>
+    </div>
   </div>
-  <div class="stats">
+  <div class="header-stats">
     <div class="stat">
       <div class="stat-value">{len(events)}</div>
       <div class="stat-label">追踪事件</div>
     </div>
     <div class="stat">
       <div class="stat-value">{total_findings}</div>
-      <div class="stat-label">总发现数</div>
+      <div class="stat-label">总发现</div>
     </div>
     <div class="stat">
-      <div class="stat-value">{hot_count}</div>
+      <div class="stat-value" style="color:var(--hot)">{hot_count}</div>
       <div class="stat-label">HOT</div>
     </div>
   </div>
-  <div class="live-badge">
-    <span class="pulse-dot"></span>
-    每小时自动更新
+  <div class="header-right">
+    <div class="live-badge">
+      <span class="pulse-dot"></span>每 2h 更新
+    </div>
+    <div class="timestamp">{esc(now_utc)}</div>
   </div>
 </header>
 
@@ -978,8 +1187,12 @@ def generate(events: list[dict]) -> str:
 </main>
 
 <footer class="footer">
-  <a href="https://github.com/fxp/storyteller-deepdive-vault" target="_blank">GitHub</a>
-  &nbsp;·&nbsp; 简报合成由 BigModel GLM-4-Flash 驱动 · 质量评估 GLM-5.1 · 搜索 Tavily
+  <div class="footer-left">StoryTeller · AI Intelligence Tracker</div>
+  <div class="footer-right">
+    <a href="https://github.com/fxp/storyteller-deepdive-vault" target="_blank">GitHub ↗</a>
+    <span class="footer-divider">|</span>
+    <span>GLM-4-Flash · GLM-5.1 · Tavily</span>
+  </div>
 </footer>
 
 </body>
