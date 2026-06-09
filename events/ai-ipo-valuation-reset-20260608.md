@@ -3,39 +3,41 @@ id: ai-ipo-valuation-reset-20260608
 title: 【预期事件】AI IPO 引发行业估值重定价
 seed_url: https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/
 published_date: 2026-06-08
-status: WATCHING
-last_check: "2026-06-08T12:00"
-last_activity: "2026-06-08"
-next_check: "2026-06-09T12:00"
-interval_hours: 24
+status: HOT
+last_check: 2026-06-09T12:54
+last_activity: '2026-06-09'
+next_check: 2026-06-09T15:54
+interval_hours: 3
 consecutive_empty: 0
-findings_count: 0
-tags: [tracker, WATCHING, 预期事件]
+findings_count: 5
+tags:
+- tracker
+- HOT
 entities:
   orgs:
-    - Anthropic
-    - OpenAI
-    - Goldman Sachs
-    - Morgan Stanley
-    - SEC
-    - Sequoia Capital
-    - Tiger Global
+  - Anthropic
+  - OpenAI
+  - Goldman Sachs
+  - Morgan Stanley
+  - SEC
+  - Sequoia Capital
+  - Tiger Global
   people:
-    - Dario Amodei
-    - Sam Altman
+  - Dario Amodei
+  - Sam Altman
   products: []
   topics:
-    - AI IPO
-    - 估值重定价
-    - AI 泡沫
-    - 机构投资者
-    - 二级市场
+  - AI IPO
+  - 估值重定价
+  - AI 泡沫
+  - 机构投资者
+  - 二级市场
 search_queries:
-  - "Anthropic OpenAI IPO pricing valuation correction investor reaction"
-  - "AI IPO first day trading pop drop 2026"
-  - "AI startup valuation markdown secondary market 2026"
-  - "AI bubble burst IPO comparison dotcom 2026"
-  - "venture capital AI portfolio markdown write-down 2026"
+- Anthropic OpenAI IPO pricing valuation correction investor reaction
+- AI IPO first day trading pop drop 2026
+- AI startup valuation markdown secondary market 2026
+- AI bubble burst IPO comparison dotcom 2026
+- venture capital AI portfolio markdown write-down 2026
 ---
 
 # 【预期事件】AI IPO 引发行业估值重定价
@@ -68,3 +70,10 @@ search_queries:
 ## 后续发现
 
 <!-- 监控代理自动追加 -->
+### 2026-06-09
+- [Anthropic has confidentially filed for a U.S. IPO, beating OpenAI to ...](https://www.facebook.com/firstpostin/posts/anthropic-has-confidentially-filed-for-a-us-ipo-beating-openai-to-the-public-mar/1513205054173810) — Anthropic 已秘密提交美国IPO申请，估值达到9650亿美元，领先于OpenAI的公开上市。
+- [Top Investor Sounds AI Bubble Alarm As Anthropic Files For IPO At ...](https://www.youtube.com/watch?v=wHTUVHhVGaM) — 顶级投资者对AI泡沫发出警报，指出Anthropic在9650亿美元的估值下提交IPO。
+- [Anthropic Bests OpenAI in Valuation Race, Hitting $965B | Morningstar](https://www.morningstar.com/stocks/anthropic-bests-openai-valuation-race-hitting-965b) — Anthropic在估值竞赛中击败OpenAI，达到9650亿美元的估值。
+- [Cheap AI could derail OpenAI and Anthropic's IPOs - CNBC](https://www.cnbc.com/2026/05/20/cheap-ai-could-derail-openai-and-anthropics-ipos.html) — 廉价AI可能破坏OpenAI和Anthropic的IPO。
+- [Why It Matters if OpenAI or Anthropic Wins the IPO Race - WSJ](https://www.wsj.com/finance/stocks/openai-anthropic-ipo-race-0cf0ed36) — 如果OpenAI或Anthropic赢得IPO竞赛，这很重要。
+

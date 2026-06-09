@@ -3,42 +3,44 @@ id: china-minerals-retaliation-20260608
 title: 【预期事件】中国对关键矿产发布报复性出口限制
 seed_url: https://bisi.org.uk/reports/ai-chip-smuggling-the-limits-of-us-export-controls
 published_date: 2026-06-08
-status: WATCHING
-last_check: "2026-06-08T12:00"
-last_activity: "2026-06-08"
-next_check: "2026-06-09T12:00"
-interval_hours: 24
-consecutive_empty: 0
+status: HOT
+last_check: 2026-06-09T12:54
+last_activity: '2026-06-08'
+next_check: 2026-06-09T15:54
+interval_hours: 3
+consecutive_empty: 1
 findings_count: 0
-tags: [tracker, WATCHING, 预期事件]
+tags:
+- tracker
+- HOT
 entities:
   orgs:
-    - 中国商务部
-    - 中国海关总署
-    - NVIDIA
-    - 台积电
-    - 阿斯麦（ASML）
-    - 美国商务部（BIS）
+  - 中国商务部
+  - 中国海关总署
+  - NVIDIA
+  - 台积电
+  - 阿斯麦（ASML）
+  - 美国商务部（BIS）
   people:
-    - 王文涛（中国商务部长）
+  - 王文涛（中国商务部长）
   products:
-    - 镓（Gallium）
-    - 锗（Germanium）
-    - 稀土
-    - 特种气体
-    - 钨
+  - 镓（Gallium）
+  - 锗（Germanium）
+  - 稀土
+  - 特种气体
+  - 钨
   topics:
-    - 稀土出口管制
-    - 中美贸易战
-    - 半导体供应链
-    - 关键矿产
-    - 反制措施
+  - 稀土出口管制
+  - 中美贸易战
+  - 半导体供应链
+  - 关键矿产
+  - 反制措施
 search_queries:
-  - "China gallium germanium rare earth export ban restriction 2026"
-  - "China critical minerals retaliation US chip controls 2026"
-  - "China export control semiconductor materials tungsten specialty gas"
-  - "ASML EUV materials China supply disruption 2026"
-  - "中国 镓 锗 稀土 出口管制 新规 扩大 2026"
+- China gallium germanium rare earth export ban restriction 2026
+- China critical minerals retaliation US chip controls 2026
+- China export control semiconductor materials tungsten specialty gas
+- ASML EUV materials China supply disruption 2026
+- 中国 镓 锗 稀土 出口管制 新规 扩大 2026
 ---
 
 # 【预期事件】中国对关键矿产发布报复性出口限制

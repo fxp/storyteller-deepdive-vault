@@ -3,42 +3,44 @@ id: china-hbm-breakthrough-20260608
 title: 【预期事件】长鑫存储突破 HBM，华为昇腾实现国产算力完全闭环
 seed_url: https://techblog.comsoc.org/2025/10/02/huawei-to-double-output-of-ascend-ai-chips-in-2026-openai-orders-hbm-chips-from-sk-hynix-samsung-for-stargate-uae-project/
 published_date: 2026-06-08
-status: WATCHING
-last_check: "2026-06-08T12:00"
-last_activity: "2026-06-08"
-next_check: "2026-06-09T12:00"
-interval_hours: 24
-consecutive_empty: 0
+status: HOT
+last_check: 2026-06-09T12:54
+last_activity: '2026-06-08'
+next_check: 2026-06-09T15:54
+interval_hours: 3
+consecutive_empty: 1
 findings_count: 0
-tags: [tracker, WATCHING, 预期事件]
+tags:
+- tracker
+- HOT
 entities:
   orgs:
-    - 长鑫存储（CXMT）
-    - 华为 HiSilicon
-    - SMIC
-    - 三星（Samsung）
-    - SK Hynix
-    - 美光（Micron）
-    - 美国商务部（BIS）
+  - 长鑫存储（CXMT）
+  - 华为 HiSilicon
+  - SMIC
+  - 三星（Samsung）
+  - SK Hynix
+  - 美光（Micron）
+  - 美国商务部（BIS）
   people:
-    - 任正非
+  - 任正非
   products:
-    - HBM3
-    - HBM2E
-    - 昇腾 910D
-    - 昇腾 1000
+  - HBM3
+  - HBM2E
+  - 昇腾 910D
+  - 昇腾 1000
   topics:
-    - HBM 国产化
-    - 长鑫存储
-    - 中国算力闭环
-    - AI 芯片自主
-    - 中美AI竞争转折点
+  - HBM 国产化
+  - 长鑫存储
+  - 中国算力闭环
+  - AI 芯片自主
+  - 中美AI竞争转折点
 search_queries:
-  - "CXMT HBM3 HBM2E mass production Huawei supply 2026"
-  - "长鑫存储 HBM 量产 华为 昇腾 供货 2026"
-  - "China HBM memory chip domestic production breakthrough"
-  - "Huawei Ascend 910D 1000 launch specs performance 2026"
-  - "China AI compute stack full domestic independence SMIC CXMT 2026"
+- CXMT HBM3 HBM2E mass production Huawei supply 2026
+- 长鑫存储 HBM 量产 华为 昇腾 供货 2026
+- China HBM memory chip domestic production breakthrough
+- Huawei Ascend 910D 1000 launch specs performance 2026
+- China AI compute stack full domestic independence SMIC CXMT 2026
 ---
 
 # 【预期事件】长鑫存储突破 HBM，华为昇腾实现国产算力完全闭环
