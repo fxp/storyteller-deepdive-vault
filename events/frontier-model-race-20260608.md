@@ -4,12 +4,12 @@ title: 前沿模型月更竞速（Claude vs GPT vs Gemini vs Grok vs Kimi）
 seed_url: https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html
 published_date: 2026-06-01
 status: HOT
-last_check: 2026-06-09T03:02
+last_check: 2026-06-09T07:08
 last_activity: '2026-06-09'
-next_check: 2026-06-09T06:02
+next_check: 2026-06-09T10:08
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 24
+findings_count: 27
 tags:
 - tracker
 - HOT
@@ -108,4 +108,8 @@ search_queries:
 - [Best AI Models in 2026: GPT-5.2 vs Claude 4.6 vs Gemini 3.1](https://replacehumans.ai/best-ai-models-2026-gpt-5-2-vs-claude-4-6-vs-gemini-3-1) — 比较了GPT-5.2、Claude 4.6和Gemini 3.1等多个AI模型的新版本。
 - [GPT vs Claude vs Kimi vs DeepSeek: AI Model Guide 2026](https://jasonpollakmarketing.com/2026/05/12/gpt-vs-claude-vs-kimi-vs-deepseek-ai-model-comparison-2026) — 比较了GPT、Claude、Kimi和DeepSeek等多个AI模型。
 - [Best LLMs for Coding in 2026: SWE-bench, HumanEval ... - Onyx AI](https://onyx.app/insights/best-llms-for-coding-2026) — 列出了2026年最佳编码LLMs，包括Claude Opus 4.6等。
+### 2026-06-09
+- [The Frontier AI and their real features 2026 : r/ArtificialInteligence](https://www.reddit.com/r/ArtificialInteligence/comments/1rsj1gi/the_frontier_ai_and_their_real_features_2026) — 发布了GPT-5.3、QwenMAX、KIMI-K2.5、Claude Family、Gemini 3.1和Grok的实际自我诊断报告。
+- [The New Benchmark Where the Best AI in the World Scores 0.37%](https://ivopbernardo.medium.com/the-new-benchmark-where-the-best-ai-in-the-world-scores-0-37-4b4c6a1b6c3a) — 介绍了ARC-AGI-3作为新的基准，以及AI在其中的得分情况。
+- [AI Benchmarks I: Gemini 3 Scored 85% on ARC-AGI-2. What That ...](https://www.linkedin.com/pulse/ai-benchmarks-i-gemini-3-scored-85-arc-agi-2-what-rajasekharaiah-7h7lf) — Gemini 3.0 Deep Think在ARC-AGI-2基准测试中取得了85%的得分，创下了新纪录。
 
