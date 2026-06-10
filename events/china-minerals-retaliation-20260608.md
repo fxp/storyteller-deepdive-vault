@@ -4,12 +4,12 @@ title: 【预期事件】中国对关键矿产发布报复性出口限制
 seed_url: https://bisi.org.uk/reports/ai-chip-smuggling-the-limits-of-us-export-controls
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-10T00:32
+last_check: 2026-06-10T05:28
 last_activity: '2026-06-10'
-next_check: 2026-06-10T03:32
+next_check: 2026-06-10T08:28
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 15
+findings_count: 16
 tags:
 - tracker
 - HOT
@@ -91,4 +91,6 @@ search_queries:
 - [White House gets small rare earth win, but China's export regime is ...](https://www.reuters.com/business/aerospace-defense/china-has-agreed-address-us-concerns-over-rare-earth-shortages-says-white-house-2026-05-18) — 白宫在稀土短缺问题上取得小胜利，但中国的出口制度仍然存在。
 - [Trump's China visit sparks questions over chip exports, rare earths](https://www.cnbc.com/2026/05/15/the-tech-download-trump-xi-talks-chips-rare-earths.html) — 特朗普访华引发对芯片出口和稀土获取的新疑问。
 - [Decision to implement export controls on tungsten, tellurium, bismuth, molybdenum and indium related items – Policies - IEA](https://www.iea.org/policies/26795-decision-to-implement-export-controls-on-tungsten-tellurium-bismuth-molybdenum-and-indium-related-items) — 钨供应风险增加，因为中国控制出口，日本削减WF6产量。
+### 2026-06-10
+- [中国出口管制措施重大升级，深刻影响全球供应链格局 - 金杜律师事务所](https://www.kingandwood.com/cn/zh/insights/latest-thinking/china-upgrades-export-control-measures-profoundly-affecting-the-global-supply-chain-landscape.html) — 中国出口管制措施重大升级，深刻影响全球供应链格局，包含新事实。
 

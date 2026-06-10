@@ -4,12 +4,12 @@ title: OpenAI × Anthropic 双 IPO 竞赛（AI 行业最大资本事件）
 seed_url: https://fortune.com/2026/06/01/anthropic-confidentially-files-ipo-965-billion-valuation/
 published_date: 2026-06-01
 status: HOT
-last_check: 2026-06-10T00:32
+last_check: 2026-06-10T05:28
 last_activity: '2026-06-10'
-next_check: 2026-06-10T03:32
+next_check: 2026-06-10T08:28
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 23
+findings_count: 24
 tags:
 - tracker
 - HOT
@@ -106,4 +106,6 @@ Anthropic was valued at $965 billion in its latest funding round, officially sur
 ### 2026-06-10
 - [OpenAI IPO 2026 Guide: Date, Expected Valuation, and How to Invest in ChatGPT](https://www.zacks.com/featured-articles/781/openai-ipo) — OpenAI计划在2026年9月上市，公司年收入达到250亿美元，但仍在亏损。
 - [OpenAI Eyes September IPO Despite $14 Billion Projected ...](https://www.pymnts.com/news/ipo/2026/openai-eyes-september-ipo-despite-14-billion-projected-loss) — OpenAI预计的估值为7500亿美元。
+### 2026-06-10
+- [OpenAI Eyes $750B Valuation (And What It Means for Your Portfolio ...](https://medium.com/write-a-catalyst/openai-eyes-750b-valuation-and-what-it-means-for-your-portfolio-in-2026-a4b24de3e688) — OpenAI估值达到7500亿美元，预计2026年上市。
 

@@ -4,12 +4,12 @@ title: 华为昇腾芯片生态规模化（国产算力闭环 vs HBM 瓶颈）
 seed_url: https://techblog.comsoc.org/2025/10/02/huawei-to-double-output-of-ascend-ai-chips-in-2026-openai-orders-hbm-chips-from-sk-hynix-samsung-for-stargate-uae-project/
 published_date: 2025-10-02
 status: HOT
-last_check: 2026-06-10T00:32
+last_check: 2026-06-10T05:28
 last_activity: '2026-06-10'
-next_check: 2026-06-10T03:32
+next_check: 2026-06-10T08:28
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 24
+findings_count: 28
 tags:
 - tracker
 - HOT
@@ -102,4 +102,9 @@ search_queries:
 - [Huawei Ascend Production Ramp: Die Banks, TSMC Continued Production, HBM is The Bottleneck](https://newsletter.semianalysis.com/p/huawei-ascend-production-ramp) — HBM芯片生产消耗的工厂产能是常规内存的3倍。
 - [视频AI (14) -- 华为昇腾与国产AI 芯片详解 - 知乎专栏](https://zhuanlan.zhihu.com/p/2045536666497110320) — 华为公布了昇腾AI芯片的三年发展路线图，包括采用华为自研HBM。
 - [华为算力“开链” - 经济观察网－ 专业财经新闻网站](http://www.eeo.com.cn/2026/0501/860610.shtml) — 中国国产AI芯片“三强”崛起，华为昇腾在国产AI芯片市场中占据领先地位。
+### 2026-06-10
+- [Huawei expands AI chip production in China - Facebook](https://www.facebook.com/groups/1631415757142111/posts/4237961776487483) — 华为计划在2026年生产约600,000个Ascend 910C芯片，比2025年的产量翻倍。
+- [Report: China's CXMT Begins Supplying HBM3 to Huawei ...](https://x.com/jukan05/status/1955048680538726676?lang=en) — CXMT正在向华为供应HBM3产品，并等待大规模生产的批准。
+- [华为公布昇腾AI芯片三年发展路线图](https://stcn.com/article/detail/3345926.html) — 华为公布了昇腾AI芯片的三年发展路线图，包括采用华为自研HBM。
+- [国产AI芯片“三强”并起：国产替代趋势已从政策驱动转向市场驱动 - 中国工业新闻网](https://www.cinn.cn/2026/05-25/GDBjZNKD.html) — 文章讨论了国产AI芯片“三强”并起，华为昇腾在国产AI芯片市场中占据领先地位。
 

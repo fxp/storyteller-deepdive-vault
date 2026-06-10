@@ -4,12 +4,12 @@ title: 前沿模型月更竞速（Claude vs GPT vs Gemini vs Grok vs Kimi）
 seed_url: https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html
 published_date: 2026-06-01
 status: HOT
-last_check: 2026-06-10T00:32
+last_check: 2026-06-10T05:28
 last_activity: '2026-06-10'
-next_check: 2026-06-10T03:32
+next_check: 2026-06-10T08:28
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 32
+findings_count: 36
 tags:
 - tracker
 - HOT
@@ -119,4 +119,9 @@ search_queries:
 - [Frontier Model Stack [March 2026] - Plative](https://plative.com/frontier-model-stack-march-2026) — 介绍了前沿模型栈，包括Gemini 3.1 Pro和Claude Opus 4.6，提供了新的模型信息。
 - [Best Open-Source AI Models 2026 | PUNKU.AI Blog](https://www.punku.ai/blog/beste-open-source-ki-modelle) — 比较了开源AI模型，提供了新的排名和性能数据。
 - [Best AI for Coding in 2026: Top 6 Models Ranked - Morph](https://www.morphllm.com/best-ai-model-for-coding) — 比较了编码AI模型，提供了新的性能数据。
+### 2026-06-10
+- [Best Open-Source LLMs for AI Agents May 2026: DeepSeek V4 vs ...](https://lushbinary.com/blog/best-open-source-llms-ai-agents-may-2026-comparison) — 比较了多个开源LLMs在AI代理工作负载中的表现，提供了新的性能数据。
+- [SWE-bench Pro Benchmark 2026: 35 LLM scores | BenchLM.ai](https://benchlm.ai/benchmarks/swePro) — 提供了SWE-bench Pro基准测试的35个LLM得分，包括新的模型信息。
+- [Which LLM to Choose in 2026? Selection Guide + Benchmarks](https://iternal.ai/llm-selection-guide) — 提供了选择LLM的指南和基准，包括新的模型性能数据。
+- [SWE-bench Pro Explained: The New Standard for AI Coding ...](https://codingfleet.com/blog/swe-bench-pro-explained-the-new-standard-for-ai-coding-benchmarks-2026) — 解释了SWE-bench Pro作为AI编码基准的新标准，提供了新的信息。
 

@@ -4,11 +4,11 @@ title: 【预期事件】首个企业级 AI Agent 重大事故引发监管响应
 seed_url: https://joget.com/ai-agent-adoption-in-2026-what-the-analysts-data-shows/
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-10T00:32
+last_check: 2026-06-10T05:28
 last_activity: '2026-06-10'
-next_check: 2026-06-10T03:32
+next_check: 2026-06-10T08:28
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 33
 tags:
 - tracker
@@ -110,4 +110,3 @@ search_queries:
 - [AI Governance Framework: Enterprise Guide for 2026 - Elementum AI](https://www.elementum.ai/blog/ai-governance-framework) — AI治理框架的企业指南提供了新的事实。
 - [Agentic AI Liability Framework Solves 2026 Legal Crisis - LinkedIn](https://www.linkedin.com/posts/pavanduggal_agenticai-ailiability-aiaccountability-activity-7459946748820758529-LNsE) — Agentic AI责任框架解决了2026年的法律危机，这是新的事实。
 - [What is AI Governance? 2026 Framework Guide - Kong Inc.](https://konghq.com/blog/learning-center/what-is-ai-governance) — AI治理是什么？2026年框架指南提供了新的事实。
-
