@@ -4,11 +4,11 @@ title: 前沿模型月更竞速（Claude vs GPT vs Gemini vs Grok vs Kimi）
 seed_url: https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html
 published_date: 2026-06-01
 status: HOT
-last_check: 2026-06-10T05:28
+last_check: 2026-06-10T09:09
 last_activity: '2026-06-10'
-next_check: 2026-06-10T08:28
+next_check: 2026-06-10T12:09
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 36
 tags:
 - tracker
@@ -124,4 +124,3 @@ search_queries:
 - [SWE-bench Pro Benchmark 2026: 35 LLM scores | BenchLM.ai](https://benchlm.ai/benchmarks/swePro) — 提供了SWE-bench Pro基准测试的35个LLM得分，包括新的模型信息。
 - [Which LLM to Choose in 2026? Selection Guide + Benchmarks](https://iternal.ai/llm-selection-guide) — 提供了选择LLM的指南和基准，包括新的模型性能数据。
 - [SWE-bench Pro Explained: The New Standard for AI Coding ...](https://codingfleet.com/blog/swe-bench-pro-explained-the-new-standard-for-ai-coding-benchmarks-2026) — 解释了SWE-bench Pro作为AI编码基准的新标准，提供了新的信息。
-

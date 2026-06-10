@@ -1,17 +1,17 @@
 ---
 event: "[[openai-anthropic-ipo-race-20260608]]"
 date: 2026-06-10
-url: "https://www.pymnts.com/news/ipo/2026/openai-eyes-september-ipo-despite-14-billion-projected-loss"
-source_title: "OpenAI Eyes September IPO Despite $14 Billion Projected ..."
+url: "https://finance.yahoo.com/markets/stocks/articles/anthropic-files-ipo-reaching-965-152836422.html"
+source_title: "Anthropic Files For IPO After Reaching $965 Billion Valuation"
 relevance: RELEVANT
 ---
 
-# OpenAI Eyes September IPO Despite $14 Billion Projected ...
+# Anthropic Files For IPO After Reaching $965 Billion Valuation
 
-**来源**: [OpenAI Eyes September IPO Despite $14 Billion Projected ...](https://www.pymnts.com/news/ipo/2026/openai-eyes-september-ipo-despite-14-billion-projected-loss)
+**来源**: [Anthropic Files For IPO After Reaching $965 Billion Valuation](https://finance.yahoo.com/markets/stocks/articles/anthropic-files-ipo-reaching-965-152836422.html)
 **发现时间**: 2026-06-10
 **所属事件**: [[openai-anthropic-ipo-race-20260608]]
 
 ## 摘要
 
-OpenAI预计的估值为7500亿美元。
+Anthropic秘密提交了S-1文件，目标是近万亿美元的估值，成为首个正式开始IPO流程的前沿人工智能实验室。

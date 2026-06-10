@@ -1,17 +1,17 @@
 ---
 event: "[[china-minerals-retaliation-20260608]]"
 date: 2026-06-10
-url: "https://www.iea.org/policies/26795-decision-to-implement-export-controls-on-tungsten-tellurium-bismuth-molybdenum-and-indium-related-items"
-source_title: "Decision to implement export controls on tungsten, tellurium, bismuth, molybdenum and indium related items – Policies - IEA"
+url: "https://www.voachinese.com/a/china-antimony-export-us-20240908/7775396.html"
+source_title: "继锗和镓后，中国限制稀有战略金属锑的出口，美国会被“报复”到吗？"
 relevance: RELEVANT
 ---
 
-# Decision to implement export controls on tungsten, tellurium, bismuth, molybdenum and indium related items – Policies - IEA
+# 继锗和镓后，中国限制稀有战略金属锑的出口，美国会被“报复”到吗？
 
-**来源**: [Decision to implement export controls on tungsten, tellurium, bismuth, molybdenum and indium related items – Policies - IEA](https://www.iea.org/policies/26795-decision-to-implement-export-controls-on-tungsten-tellurium-bismuth-molybdenum-and-indium-related-items)
+**来源**: [继锗和镓后，中国限制稀有战略金属锑的出口，美国会被“报复”到吗？](https://www.voachinese.com/a/china-antimony-export-us-20240908/7775396.html)
 **发现时间**: 2026-06-10
 **所属事件**: [[china-minerals-retaliation-20260608]]
 
 ## 摘要
 
-钨供应风险增加，因为中国控制出口，日本削减WF6产量。
+继锗和镓之后，中国限制稀有战略金属锑的出口。

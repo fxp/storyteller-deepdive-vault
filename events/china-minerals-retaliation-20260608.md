@@ -4,12 +4,12 @@ title: 【预期事件】中国对关键矿产发布报复性出口限制
 seed_url: https://bisi.org.uk/reports/ai-chip-smuggling-the-limits-of-us-export-controls
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-10T05:28
+last_check: 2026-06-10T09:09
 last_activity: '2026-06-10'
-next_check: 2026-06-10T08:28
+next_check: 2026-06-10T12:09
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 16
+findings_count: 20
 tags:
 - tracker
 - HOT
@@ -93,4 +93,9 @@ search_queries:
 - [Decision to implement export controls on tungsten, tellurium, bismuth, molybdenum and indium related items – Policies - IEA](https://www.iea.org/policies/26795-decision-to-implement-export-controls-on-tungsten-tellurium-bismuth-molybdenum-and-indium-related-items) — 钨供应风险增加，因为中国控制出口，日本削减WF6产量。
 ### 2026-06-10
 - [中国出口管制措施重大升级，深刻影响全球供应链格局 - 金杜律师事务所](https://www.kingandwood.com/cn/zh/insights/latest-thinking/china-upgrades-export-control-measures-profoundly-affecting-the-global-supply-chain-landscape.html) — 中国出口管制措施重大升级，深刻影响全球供应链格局，包含新事实。
+### 2026-06-10
+- [China suspended its ban on gallium, germanium, and antimony ...](https://www.reddit.com/r/Economics/comments/1ot57fd/china_suspended_its_ban_on_gallium_germanium_and) — 中国暂停对镓、锗和锑的出口禁令，但出口许可证仍然需要。
+- [Tungsten Supply Risks Mount as China Controls Exports, Japan ...](https://www.thelec.net/news/articleView.html?idxno=6325) — 由于中国控制钨出口，日本削减WF6产量，钨供应风险增加。
+- [Chinese Tungsten Product Prices Surge - Quest Metals](https://www.questmetals.com/blog/chinese-tungsten-product-prices-surge) — 中国钨产品价格因出口管制和需求增加而大幅上涨。
+- [继锗和镓后，中国限制稀有战略金属锑的出口，美国会被“报复”到吗？](https://www.voachinese.com/a/china-antimony-export-us-20240908/7775396.html) — 继锗和镓之后，中国限制稀有战略金属锑的出口。
 

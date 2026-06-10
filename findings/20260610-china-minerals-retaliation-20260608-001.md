@@ -1,17 +1,17 @@
 ---
 event: "[[china-minerals-retaliation-20260608]]"
 date: 2026-06-10
-url: "https://www.kingandwood.com/cn/zh/insights/latest-thinking/china-upgrades-export-control-measures-profoundly-affecting-the-global-supply-chain-landscape.html"
-source_title: "中国出口管制措施重大升级，深刻影响全球供应链格局 - 金杜律师事务所"
+url: "https://www.reddit.com/r/Economics/comments/1ot57fd/china_suspended_its_ban_on_gallium_germanium_and"
+source_title: "China suspended its ban on gallium, germanium, and antimony ..."
 relevance: RELEVANT
 ---
 
-# 中国出口管制措施重大升级，深刻影响全球供应链格局 - 金杜律师事务所
+# China suspended its ban on gallium, germanium, and antimony ...
 
-**来源**: [中国出口管制措施重大升级，深刻影响全球供应链格局 - 金杜律师事务所](https://www.kingandwood.com/cn/zh/insights/latest-thinking/china-upgrades-export-control-measures-profoundly-affecting-the-global-supply-chain-landscape.html)
+**来源**: [China suspended its ban on gallium, germanium, and antimony ...](https://www.reddit.com/r/Economics/comments/1ot57fd/china_suspended_its_ban_on_gallium_germanium_and)
 **发现时间**: 2026-06-10
 **所属事件**: [[china-minerals-retaliation-20260608]]
 
 ## 摘要
 
-中国出口管制措施重大升级，深刻影响全球供应链格局，包含新事实。
+中国暂停对镓、锗和锑的出口禁令，但出口许可证仍然需要。

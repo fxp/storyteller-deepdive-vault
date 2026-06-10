@@ -4,12 +4,12 @@ title: 华为昇腾芯片生态规模化（国产算力闭环 vs HBM 瓶颈）
 seed_url: https://techblog.comsoc.org/2025/10/02/huawei-to-double-output-of-ascend-ai-chips-in-2026-openai-orders-hbm-chips-from-sk-hynix-samsung-for-stargate-uae-project/
 published_date: 2025-10-02
 status: HOT
-last_check: 2026-06-10T05:28
+last_check: 2026-06-10T09:09
 last_activity: '2026-06-10'
-next_check: 2026-06-10T08:28
+next_check: 2026-06-10T12:09
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 28
+findings_count: 29
 tags:
 - tracker
 - HOT
@@ -107,4 +107,6 @@ search_queries:
 - [Report: China's CXMT Begins Supplying HBM3 to Huawei ...](https://x.com/jukan05/status/1955048680538726676?lang=en) — CXMT正在向华为供应HBM3产品，并等待大规模生产的批准。
 - [华为公布昇腾AI芯片三年发展路线图](https://stcn.com/article/detail/3345926.html) — 华为公布了昇腾AI芯片的三年发展路线图，包括采用华为自研HBM。
 - [国产AI芯片“三强”并起：国产替代趋势已从政策驱动转向市场驱动 - 中国工业新闻网](https://www.cinn.cn/2026/05-25/GDBjZNKD.html) — 文章讨论了国产AI芯片“三强”并起，华为昇腾在国产AI芯片市场中占据领先地位。
+### 2026-06-10
+- [Huawei, the leader in Chinese semiconductor development… ‘Life or death’ for SMIC 5nm mass production next year | SemiWiki](https://semiwiki.com/forum/threads/huawei-the-leader-in-chinese-semiconductor-development%E2%80%A6-%E2%80%98life-or-death%E2%80%99-for-smic-5nm-mass-production-next-year.22690) — 华为昇腾910C芯片的良率达到40%，实现盈利，并计划达到60%的行业标准。
 

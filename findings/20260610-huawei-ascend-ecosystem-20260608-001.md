@@ -1,17 +1,17 @@
 ---
 event: "[[huawei-ascend-ecosystem-20260608]]"
 date: 2026-06-10
-url: "https://www.facebook.com/groups/1631415757142111/posts/4237961776487483"
-source_title: "Huawei expands AI chip production in China - Facebook"
+url: "https://semiwiki.com/forum/threads/huawei-the-leader-in-chinese-semiconductor-development%E2%80%A6-%E2%80%98life-or-death%E2%80%99-for-smic-5nm-mass-production-next-year.22690"
+source_title: "Huawei, the leader in Chinese semiconductor development… ‘Life or death’ for SMIC 5nm mass production next year | SemiWiki"
 relevance: RELEVANT
 ---
 
-# Huawei expands AI chip production in China - Facebook
+# Huawei, the leader in Chinese semiconductor development… ‘Life or death’ for SMIC 5nm mass production next year | SemiWiki
 
-**来源**: [Huawei expands AI chip production in China - Facebook](https://www.facebook.com/groups/1631415757142111/posts/4237961776487483)
+**来源**: [Huawei, the leader in Chinese semiconductor development… ‘Life or death’ for SMIC 5nm mass production next year | SemiWiki](https://semiwiki.com/forum/threads/huawei-the-leader-in-chinese-semiconductor-development%E2%80%A6-%E2%80%98life-or-death%E2%80%99-for-smic-5nm-mass-production-next-year.22690)
 **发现时间**: 2026-06-10
 **所属事件**: [[huawei-ascend-ecosystem-20260608]]
 
 ## 摘要
 
-华为计划在2026年生产约600,000个Ascend 910C芯片，比2025年的产量翻倍。
+华为昇腾910C芯片的良率达到40%，实现盈利，并计划达到60%的行业标准。

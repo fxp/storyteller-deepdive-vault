@@ -1,17 +1,17 @@
 ---
 event: "[[china-minerals-retaliation-20260608]]"
 date: 2026-06-10
-url: "https://www.cnbc.com/2026/05/15/the-tech-download-trump-xi-talks-chips-rare-earths.html"
-source_title: "Trump's China visit sparks questions over chip exports, rare earths"
+url: "https://www.questmetals.com/blog/chinese-tungsten-product-prices-surge"
+source_title: "Chinese Tungsten Product Prices Surge - Quest Metals"
 relevance: RELEVANT
 ---
 
-# Trump's China visit sparks questions over chip exports, rare earths
+# Chinese Tungsten Product Prices Surge - Quest Metals
 
-**来源**: [Trump's China visit sparks questions over chip exports, rare earths](https://www.cnbc.com/2026/05/15/the-tech-download-trump-xi-talks-chips-rare-earths.html)
+**来源**: [Chinese Tungsten Product Prices Surge - Quest Metals](https://www.questmetals.com/blog/chinese-tungsten-product-prices-surge)
 **发现时间**: 2026-06-10
 **所属事件**: [[china-minerals-retaliation-20260608]]
 
 ## 摘要
 
-特朗普访华引发对芯片出口和稀土获取的新疑问。
+中国钨产品价格因出口管制和需求增加而大幅上涨。
