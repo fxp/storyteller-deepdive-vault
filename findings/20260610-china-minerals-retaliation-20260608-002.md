@@ -1,17 +1,17 @@
 ---
 event: "[[china-minerals-retaliation-20260608]]"
 date: 2026-06-10
-url: "https://english.mofcom.gov.cn/Policies/AnnouncementsOrders/art/2025/art_0dd87cbee7b045bf93fabe6ab2faceee.html"
-source_title: "Announcement No.18 of 2025 of The Ministry of Commerce and The ..."
+url: "https://www.allbrightlaw.com/CN/10475/b7290034f50cc965.aspx"
+source_title: "中国稀土出口管制新规解析与实务指引[英文版] - 专业文章"
 relevance: RELEVANT
 ---
 
-# Announcement No.18 of 2025 of The Ministry of Commerce and The ...
+# 中国稀土出口管制新规解析与实务指引[英文版] - 专业文章
 
-**来源**: [Announcement No.18 of 2025 of The Ministry of Commerce and The ...](https://english.mofcom.gov.cn/Policies/AnnouncementsOrders/art/2025/art_0dd87cbee7b045bf93fabe6ab2faceee.html)
+**来源**: [中国稀土出口管制新规解析与实务指引[英文版] - 专业文章](https://www.allbrightlaw.com/CN/10475/b7290034f50cc965.aspx)
 **发现时间**: 2026-06-10
 **所属事件**: [[china-minerals-retaliation-20260608]]
 
 ## 摘要
 
-商务部和海关总署发布2025年第18号公告，决定对某些中重稀土相关物品实施出口管制。
+文章提供了中国稀土出口管制新规的解析和实务指引，这是新事实。

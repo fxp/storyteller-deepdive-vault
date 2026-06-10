@@ -4,12 +4,12 @@ title: 【预期事件】中国对关键矿产发布报复性出口限制
 seed_url: https://bisi.org.uk/reports/ai-chip-smuggling-the-limits-of-us-export-controls
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-10T13:02
+last_check: 2026-06-10T17:01
 last_activity: '2026-06-10'
-next_check: 2026-06-10T16:02
+next_check: 2026-06-10T20:01
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 23
+findings_count: 25
 tags:
 - tracker
 - HOT
@@ -102,4 +102,7 @@ search_queries:
 - [Ministry of Commerce Notice 2024 No. 46 - CSET](https://cset.georgetown.edu/publication/china-rare-earth-export-ban) — 商务部发布2024年第46号公告，加强相关两用物项对美国出口管制，涉及稀土等关键矿产的出口限制。
 - [Announcement No.18 of 2025 of The Ministry of Commerce and The ...](https://english.mofcom.gov.cn/Policies/AnnouncementsOrders/art/2025/art_0dd87cbee7b045bf93fabe6ab2faceee.html) — 商务部和海关总署发布2025年第18号公告，决定对某些中重稀土相关物品实施出口管制。
 - [US China Chip War 2026: Export Impact on Semiconductors](https://oplexa.com/us-china-chip-war-2026-semiconductor) — 中国宣布对钨、锑和银等关键金属实施新的出口管制。
+### 2026-06-10
+- [China Just Pulled the Plug on ASML — The Global Chip Industry Enters a Period of Turmoil](https://www.youtube.com/watch?v=qsX7ZldoGFk) — 文章提到中国对ASML的出口限制，这是新事实。
+- [中国稀土出口管制新规解析与实务指引[英文版] - 专业文章](https://www.allbrightlaw.com/CN/10475/b7290034f50cc965.aspx) — 文章提供了中国稀土出口管制新规的解析和实务指引，这是新事实。
 

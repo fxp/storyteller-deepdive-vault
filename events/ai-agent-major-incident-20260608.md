@@ -3,16 +3,16 @@ id: ai-agent-major-incident-20260608
 title: 【预期事件】首个企业级 AI Agent 重大事故引发监管响应
 seed_url: https://joget.com/ai-agent-adoption-in-2026-what-the-analysts-data-shows/
 published_date: 2026-06-08
-status: HOT
-last_check: 2026-06-10T13:02
+status: ACTIVE
+last_check: 2026-06-10T17:01
 last_activity: '2026-06-10'
-next_check: 2026-06-10T16:02
-interval_hours: 3
-consecutive_empty: 3
+next_check: 2026-06-10T23:01
+interval_hours: 6
+consecutive_empty: 4
 findings_count: 33
 tags:
 - tracker
-- HOT
+- ACTIVE
 entities:
   orgs:
   - SEC

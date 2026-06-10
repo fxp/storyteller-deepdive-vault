@@ -4,12 +4,12 @@ title: 华为昇腾芯片生态规模化（国产算力闭环 vs HBM 瓶颈）
 seed_url: https://techblog.comsoc.org/2025/10/02/huawei-to-double-output-of-ascend-ai-chips-in-2026-openai-orders-hbm-chips-from-sk-hynix-samsung-for-stargate-uae-project/
 published_date: 2025-10-02
 status: HOT
-last_check: 2026-06-10T13:02
+last_check: 2026-06-10T17:01
 last_activity: '2026-06-10'
-next_check: 2026-06-10T16:02
+next_check: 2026-06-10T20:01
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 30
+findings_count: 31
 tags:
 - tracker
 - HOT
@@ -111,4 +111,6 @@ search_queries:
 - [Huawei, the leader in Chinese semiconductor development… ‘Life or death’ for SMIC 5nm mass production next year | SemiWiki](https://semiwiki.com/forum/threads/huawei-the-leader-in-chinese-semiconductor-development%E2%80%A6-%E2%80%98life-or-death%E2%80%99-for-smic-5nm-mass-production-next-year.22690) — 华为昇腾910C芯片的良率达到40%，实现盈利，并计划达到60%的行业标准。
 ### 2026-06-10
 - [经济观察网-华为算力“开链”-经济观察网－专业财经新闻网站](http://www.eeo.com.cn/2026/0506/865597.shtml) — 文章报道了华为宣布昇腾超节点全系列产品支持DeepSeek V4，并提及了华为昇腾NPU和英伟达GPU的对比，这是历史发现中未出现的新事实。
+### 2026-06-10
+- [Tencent Holdings Limited (TCEHY) - Poised for AI Revenue Growth ...](https://bvwd.ca.gov/first-dry/Tencent-Holdings-Limited-TCEHY-Poised-for-AI-Revenue-Growth-Amid-Huawei-Ascend-Chip-Procurement-Surge-11-2701) — 腾讯计划采购华为昇腾950PR AI芯片，这是历史发现中未出现的新事实。
 

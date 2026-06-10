@@ -4,12 +4,12 @@ title: 前沿模型月更竞速（Claude vs GPT vs Gemini vs Grok vs Kimi）
 seed_url: https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html
 published_date: 2026-06-01
 status: HOT
-last_check: 2026-06-10T13:02
+last_check: 2026-06-10T17:01
 last_activity: '2026-06-10'
-next_check: 2026-06-10T16:02
+next_check: 2026-06-10T20:01
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 37
+findings_count: 39
 tags:
 - tracker
 - HOT
@@ -126,4 +126,7 @@ search_queries:
 - [SWE-bench Pro Explained: The New Standard for AI Coding ...](https://codingfleet.com/blog/swe-bench-pro-explained-the-new-standard-for-ai-coding-benchmarks-2026) — 解释了SWE-bench Pro作为AI编码基准的新标准，提供了新的信息。
 ### 2026-06-10
 - [AI Model Benchmarks 2026: GPT vs Claude vs Gemini Compared](https://teamai.com/blog/large-language-models-llms/the-2026-ai-frontier-model-war-2) — Gemini 2.5 Flash和Kimi K2 Thinking的定价信息是新事实。
+### 2026-06-10
+- [New AI Executive Order Addresses Frontier Models and ... - Wiley Rein](https://www.wiley.law/alert-New-AI-Executive-Order-Addresses-Frontier-Models-and-Cybersecurity-Vulnerabilities) — 美国发布新的AI行政命令，关注前沿模型和网络安全漏洞。
+- [Google Search's I/O 2026 updates: AI agents and more](https://blog.google/products-and-platforms/products/search/search-io-2026) — Google更新搜索功能，将Gemini 3.5 Flash作为AI模式的默认模型。
 
