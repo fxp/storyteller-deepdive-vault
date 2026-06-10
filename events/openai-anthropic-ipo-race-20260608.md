@@ -4,12 +4,12 @@ title: OpenAI × Anthropic 双 IPO 竞赛（AI 行业最大资本事件）
 seed_url: https://fortune.com/2026/06/01/anthropic-confidentially-files-ipo-965-billion-valuation/
 published_date: 2026-06-01
 status: HOT
-last_check: 2026-06-10T09:09
+last_check: 2026-06-10T13:02
 last_activity: '2026-06-10'
-next_check: 2026-06-10T12:09
+next_check: 2026-06-10T16:02
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 27
+findings_count: 28
 tags:
 - tracker
 - HOT
@@ -112,4 +112,6 @@ Anthropic was valued at $965 billion in its latest funding round, officially sur
 - [Anthropic files to go public - TechCrunch](https://techcrunch.com/2026/06/01/anthropic-files-to-go-public) — Anthropic秘密向美国证券交易委员会提交了S-1文件草案，宣布于2026年6月1日公布，文件提交日期为2026年5月31日，经过65亿美元的融资轮后，估值约为9650亿美元，但未公布IPO日期、股票数量或价格。
 - [Anthropic Files For IPO After Reaching $965 Billion Valuation](https://finance.yahoo.com/markets/stocks/articles/anthropic-files-ipo-reaching-965-152836422.html) — Anthropic秘密提交了S-1文件，目标是近万亿美元的估值，成为首个正式开始IPO流程的前沿人工智能实验室。
 - [Anthropic confidentially submits draft S-1 to the SEC](https://www.anthropic.com/news/confidential-draft-s1-sec) — Anthropic秘密向美国证券交易委员会提交了S-1文件草案，No IPO date, share count, or price range announced yet; timing depends on market conditions and SEC review。
+### 2026-06-10
+- [OpenAI Files Confidential IPO Targeting $850B Valuation | AI Weekly](https://aiweekly.co/alerts/openai-files-confidential-ipo-targeting-850b-valuation) — OpenAI 正在秘密提交IPO，目标估值在730亿美元到850亿美元之间，预计2026年9月上市。
 

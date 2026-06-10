@@ -1,17 +1,17 @@
 ---
 event: "[[huawei-ascend-ecosystem-20260608]]"
 date: 2026-06-10
-url: "https://semiwiki.com/forum/threads/huawei-the-leader-in-chinese-semiconductor-development%E2%80%A6-%E2%80%98life-or-death%E2%80%99-for-smic-5nm-mass-production-next-year.22690"
-source_title: "Huawei, the leader in Chinese semiconductor development… ‘Life or death’ for SMIC 5nm mass production next year | SemiWiki"
+url: "http://www.eeo.com.cn/2026/0506/865597.shtml"
+source_title: "经济观察网-华为算力“开链”-经济观察网－专业财经新闻网站"
 relevance: RELEVANT
 ---
 
-# Huawei, the leader in Chinese semiconductor development… ‘Life or death’ for SMIC 5nm mass production next year | SemiWiki
+# 经济观察网-华为算力“开链”-经济观察网－专业财经新闻网站
 
-**来源**: [Huawei, the leader in Chinese semiconductor development… ‘Life or death’ for SMIC 5nm mass production next year | SemiWiki](https://semiwiki.com/forum/threads/huawei-the-leader-in-chinese-semiconductor-development%E2%80%A6-%E2%80%98life-or-death%E2%80%99-for-smic-5nm-mass-production-next-year.22690)
+**来源**: [经济观察网-华为算力“开链”-经济观察网－专业财经新闻网站](http://www.eeo.com.cn/2026/0506/865597.shtml)
 **发现时间**: 2026-06-10
 **所属事件**: [[huawei-ascend-ecosystem-20260608]]
 
 ## 摘要
 
-华为昇腾910C芯片的良率达到40%，实现盈利，并计划达到60%的行业标准。
+文章报道了华为宣布昇腾超节点全系列产品支持DeepSeek V4，并提及了华为昇腾NPU和英伟达GPU的对比，这是历史发现中未出现的新事实。

@@ -4,12 +4,12 @@ title: 【预期事件】中国对关键矿产发布报复性出口限制
 seed_url: https://bisi.org.uk/reports/ai-chip-smuggling-the-limits-of-us-export-controls
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-10T09:09
+last_check: 2026-06-10T13:02
 last_activity: '2026-06-10'
-next_check: 2026-06-10T12:09
+next_check: 2026-06-10T16:02
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 20
+findings_count: 23
 tags:
 - tracker
 - HOT
@@ -98,4 +98,8 @@ search_queries:
 - [Tungsten Supply Risks Mount as China Controls Exports, Japan ...](https://www.thelec.net/news/articleView.html?idxno=6325) — 由于中国控制钨出口，日本削减WF6产量，钨供应风险增加。
 - [Chinese Tungsten Product Prices Surge - Quest Metals](https://www.questmetals.com/blog/chinese-tungsten-product-prices-surge) — 中国钨产品价格因出口管制和需求增加而大幅上涨。
 - [继锗和镓后，中国限制稀有战略金属锑的出口，美国会被“报复”到吗？](https://www.voachinese.com/a/china-antimony-export-us-20240908/7775396.html) — 继锗和镓之后，中国限制稀有战略金属锑的出口。
+### 2026-06-10
+- [Ministry of Commerce Notice 2024 No. 46 - CSET](https://cset.georgetown.edu/publication/china-rare-earth-export-ban) — 商务部发布2024年第46号公告，加强相关两用物项对美国出口管制，涉及稀土等关键矿产的出口限制。
+- [Announcement No.18 of 2025 of The Ministry of Commerce and The ...](https://english.mofcom.gov.cn/Policies/AnnouncementsOrders/art/2025/art_0dd87cbee7b045bf93fabe6ab2faceee.html) — 商务部和海关总署发布2025年第18号公告，决定对某些中重稀土相关物品实施出口管制。
+- [US China Chip War 2026: Export Impact on Semiconductors](https://oplexa.com/us-china-chip-war-2026-semiconductor) — 中国宣布对钨、锑和银等关键金属实施新的出口管制。
 

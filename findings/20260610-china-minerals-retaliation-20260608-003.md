@@ -1,17 +1,17 @@
 ---
 event: "[[china-minerals-retaliation-20260608]]"
 date: 2026-06-10
-url: "https://www.questmetals.com/blog/chinese-tungsten-product-prices-surge"
-source_title: "Chinese Tungsten Product Prices Surge - Quest Metals"
+url: "https://oplexa.com/us-china-chip-war-2026-semiconductor"
+source_title: "US China Chip War 2026: Export Impact on Semiconductors"
 relevance: RELEVANT
 ---
 
-# Chinese Tungsten Product Prices Surge - Quest Metals
+# US China Chip War 2026: Export Impact on Semiconductors
 
-**来源**: [Chinese Tungsten Product Prices Surge - Quest Metals](https://www.questmetals.com/blog/chinese-tungsten-product-prices-surge)
+**来源**: [US China Chip War 2026: Export Impact on Semiconductors](https://oplexa.com/us-china-chip-war-2026-semiconductor)
 **发现时间**: 2026-06-10
 **所属事件**: [[china-minerals-retaliation-20260608]]
 
 ## 摘要
 
-中国钨产品价格因出口管制和需求增加而大幅上涨。
+中国宣布对钨、锑和银等关键金属实施新的出口管制。
