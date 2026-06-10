@@ -4,11 +4,11 @@ title: 【预期事件】长鑫存储突破 HBM，华为昇腾实现国产算力
 seed_url: https://techblog.comsoc.org/2025/10/02/huawei-to-double-output-of-ascend-ai-chips-in-2026-openai-orders-hbm-chips-from-sk-hynix-samsung-for-stargate-uae-project/
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-10T15:02
+last_check: 2026-06-10T18:48
 last_activity: '2026-06-10'
-next_check: 2026-06-10T18:02
+next_check: 2026-06-10T21:48
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 8
 tags:
 - tracker
@@ -83,4 +83,3 @@ search_queries:
 - [长鑫存储向华为交付HBM3样品，国产高带宽存储取得突破](http://www.dram.com.cn/wap/views.asp?menuid=34&sortid=0&id=83868&msv=1) — 长鑫存储正在建设上海HBM后段封装厂，预计2026年底投产。
 - [国产HBM3突破！ - 与非网](https://www.eefocus.com/article/1885937.html) — 长鑫存储计划在2025年底前交付HBM3样品，并预计从2026年开始全面量产。
 - [Chinese firms make headway in producing high bandwidth memory ...](https://www.reddit.com/r/AMD_Stock/comments/1csq79n/chinese_firms_make_headway_in_producing_high) — 长鑫存储与通富微电合作开发HBM芯片样品。
-
