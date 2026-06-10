@@ -4,12 +4,12 @@ title: 前沿模型月更竞速（Claude vs GPT vs Gemini vs Grok vs Kimi）
 seed_url: https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html
 published_date: 2026-06-01
 status: HOT
-last_check: 2026-06-10T17:01
+last_check: 2026-06-10T20:50
 last_activity: '2026-06-10'
-next_check: 2026-06-10T20:01
+next_check: 2026-06-10T23:50
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 39
+findings_count: 41
 tags:
 - tracker
 - HOT
@@ -129,4 +129,7 @@ search_queries:
 ### 2026-06-10
 - [New AI Executive Order Addresses Frontier Models and ... - Wiley Rein](https://www.wiley.law/alert-New-AI-Executive-Order-Addresses-Frontier-Models-and-Cybersecurity-Vulnerabilities) — 美国发布新的AI行政命令，关注前沿模型和网络安全漏洞。
 - [Google Search's I/O 2026 updates: AI agents and more](https://blog.google/products-and-platforms/products/search/search-io-2026) — Google更新搜索功能，将Gemini 3.5 Flash作为AI模式的默认模型。
+### 2026-06-10
+- [Progress of all Frontier released models from January 1st 2025 till now : r/singularity](https://www.reddit.com/r/singularity/comments/1ppmcnh/progress_of_all_frontier_released_models_from) — 提供了从2025年1月1日至今所有前沿模型的进展情况，包含新模型发布和性能数据等新事实。
+- [22 AI Frontier Models Compared for 2026 - TeamAI](https://teamai.com/blog/large-language-models-llms/the-2026-ai-frontier-model-war) — 比较了2026年的22个AI前沿模型，提供了新的模型性能数据和比较结果。
 

@@ -4,12 +4,12 @@ title: 【预期事件】中国对关键矿产发布报复性出口限制
 seed_url: https://bisi.org.uk/reports/ai-chip-smuggling-the-limits-of-us-export-controls
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-10T17:01
+last_check: 2026-06-10T20:50
 last_activity: '2026-06-10'
-next_check: 2026-06-10T20:01
+next_check: 2026-06-10T23:50
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 25
+findings_count: 26
 tags:
 - tracker
 - HOT
@@ -105,4 +105,6 @@ search_queries:
 ### 2026-06-10
 - [China Just Pulled the Plug on ASML — The Global Chip Industry Enters a Period of Turmoil](https://www.youtube.com/watch?v=qsX7ZldoGFk) — 文章提到中国对ASML的出口限制，这是新事实。
 - [中国稀土出口管制新规解析与实务指引[英文版] - 专业文章](https://www.allbrightlaw.com/CN/10475/b7290034f50cc965.aspx) — 文章提供了中国稀土出口管制新规的解析和实务指引，这是新事实。
+### 2026-06-10
+- [China Imposes Its Most Stringent Critical Minerals Export ... - CSIS](https://www.csis.org/analysis/china-imposes-its-most-stringent-critical-minerals-export-restrictions-yet-amidst) — 文章提到中国对关键矿产实施最严格的出口限制，这是新事实。
 
