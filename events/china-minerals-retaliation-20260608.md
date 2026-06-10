@@ -4,12 +4,12 @@ title: 【预期事件】中国对关键矿产发布报复性出口限制
 seed_url: https://bisi.org.uk/reports/ai-chip-smuggling-the-limits-of-us-export-controls
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-09T20:38
-last_activity: '2026-06-09'
-next_check: 2026-06-09T23:38
+last_check: 2026-06-10T00:32
+last_activity: '2026-06-10'
+next_check: 2026-06-10T03:32
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 11
+findings_count: 15
 tags:
 - tracker
 - HOT
@@ -86,4 +86,9 @@ search_queries:
 - [China's Export Controls: Critical Minerals and Strategic Pressure ...](https://anderseninstitute.org/chinas-export-control-architecture-and-its-use-of-critical-minerals-as-strategic-pressure-points) — 分析了中国对稀土矿物的出口管制，包括自2020年以来中国如何将分散的出口规则统一到一个系统中。
 - [Tungsten in the Crosshairs: China’s Export Controls and the Semiconductor Supply Chain Crisis - Core Group](https://www.coreconsultantsgroup.com/tungsten-in-the-crosshairs-chinas-export-controls-and-the-semiconductor-supply-chain-crisis) — 中国对钨的出口管制，以及对半导体供应链危机的影响。
 - [China Announces Export Controls on Five Critical Minerals - Exiger](https://www.exiger.com/perspectives/critical-minerals-export-controls) — 中国宣布对五种关键矿物实施出口管制，可能对依赖这些金属的行业造成供应链中断。
+### 2026-06-10
+- [[PDF] lose-lose US-China trade war over technology and critical minerals.](https://www.piie.com/sites/default/files/2026-03/wp26-5.pdf) — 美国芯片出口管制有所缓和。
+- [White House gets small rare earth win, but China's export regime is ...](https://www.reuters.com/business/aerospace-defense/china-has-agreed-address-us-concerns-over-rare-earth-shortages-says-white-house-2026-05-18) — 白宫在稀土短缺问题上取得小胜利，但中国的出口制度仍然存在。
+- [Trump's China visit sparks questions over chip exports, rare earths](https://www.cnbc.com/2026/05/15/the-tech-download-trump-xi-talks-chips-rare-earths.html) — 特朗普访华引发对芯片出口和稀土获取的新疑问。
+- [Decision to implement export controls on tungsten, tellurium, bismuth, molybdenum and indium related items – Policies - IEA](https://www.iea.org/policies/26795-decision-to-implement-export-controls-on-tungsten-tellurium-bismuth-molybdenum-and-indium-related-items) — 钨供应风险增加，因为中国控制出口，日本削减WF6产量。
 

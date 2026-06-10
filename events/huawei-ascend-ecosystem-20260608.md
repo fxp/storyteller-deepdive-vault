@@ -4,12 +4,12 @@ title: 华为昇腾芯片生态规模化（国产算力闭环 vs HBM 瓶颈）
 seed_url: https://techblog.comsoc.org/2025/10/02/huawei-to-double-output-of-ascend-ai-chips-in-2026-openai-orders-hbm-chips-from-sk-hynix-samsung-for-stargate-uae-project/
 published_date: 2025-10-02
 status: HOT
-last_check: 2026-06-09T20:38
-last_activity: '2026-06-09'
-next_check: 2026-06-09T23:38
+last_check: 2026-06-10T00:32
+last_activity: '2026-06-10'
+next_check: 2026-06-10T03:32
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 20
+findings_count: 24
 tags:
 - tracker
 - HOT
@@ -97,4 +97,9 @@ search_queries:
 - [Huawei Ascend 950 Orders Surge After DeepSeek V4](https://www.technology.org/2026/04/29/huawei-ascend-950-orders-surge-as-deepseek-v4-drives-chinese-cloud-giants-to-buy) — DeepSeek V4发布后，华为昇腾950芯片订单激增。
 - [2026 年 AI 芯片市场爆发：国产昇腾系列出货量突破千万颗，华为领跑人工智能算力赛道-公司新闻-皋德科技（浙江）有限公司 超级电容生产厂家定制研发](http://www.godecap.com/company-news-show-10.html) — 2026年AI芯片市场爆发，华为昇腾系列出货量突破千万颗。
 - [华为昇腾芯片技术突破，能否在2026年内实现AI算力全面国产替代？|英伟达GB200|AI芯片|开源模型|英伟达|训练_手机新浪网](https://news.sina.cn/bignews/insight/2026-06-02/detail-inhzzivn3140797.d.html?vt=4) — 华为昇腾芯片技术突破，能否在2026年内实现AI算力全面国产替代？
+### 2026-06-10
+- [TechInsights Teardown: Huawei Ascend 910c Still Contains CPU Dies from TSMC from 2020 | SemiWiki](https://semiwiki.com/forum/threads/techinsights-teardown-huawei-ascend-910c-still-contains-cpu-dies-from-tsmc-from-2020.23737) — 华为昇腾芯片生态规模化，TSMC继续生产，但HBM成为瓶颈。
+- [Huawei Ascend Production Ramp: Die Banks, TSMC Continued Production, HBM is The Bottleneck](https://newsletter.semianalysis.com/p/huawei-ascend-production-ramp) — HBM芯片生产消耗的工厂产能是常规内存的3倍。
+- [视频AI (14) -- 华为昇腾与国产AI 芯片详解 - 知乎专栏](https://zhuanlan.zhihu.com/p/2045536666497110320) — 华为公布了昇腾AI芯片的三年发展路线图，包括采用华为自研HBM。
+- [华为算力“开链” - 经济观察网－ 专业财经新闻网站](http://www.eeo.com.cn/2026/0501/860610.shtml) — 中国国产AI芯片“三强”崛起，华为昇腾在国产AI芯片市场中占据领先地位。
 

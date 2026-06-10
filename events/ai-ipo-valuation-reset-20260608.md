@@ -4,12 +4,12 @@ title: 【预期事件】AI IPO 引发行业估值重定价
 seed_url: https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-09T20:38
-last_activity: '2026-06-09'
-next_check: 2026-06-09T23:38
+last_check: 2026-06-10T00:32
+last_activity: '2026-06-10'
+next_check: 2026-06-10T03:32
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 9
+findings_count: 10
 tags:
 - tracker
 - HOT
@@ -81,4 +81,6 @@ search_queries:
 - [Google Stock: As OpenAI, Anthropic Prep IPOs, Here's One Thing To ...](https://www.investors.com/news/technology/google-stock-anthropic-openai-ipo-valuation-revenue-recognition) — Google股票分析文章提到OpenAI和Anthropic准备进行IPO，并讨论了估值和收入确认问题。
 - [OpenAI IPO by...? Predictions & Odds 2026 - Polymarket](https://polymarket.com/event/openai-ipo-by) — Polymarket上关于OpenAI IPO的预测和赔率，提供了市场对OpenAI IPO的看法。
 - [SpaceX, OpenAI, and Anthropic: Here are the most anticipated IPOs ...](https://finance.yahoo.com/markets/article/spacex-openai-and-anthropic-here-are-the-most-anticipated-ipos-in-2026-114439441.html) — Yahoo Finance的文章列出了2026年最受期待的IPO，包括SpaceX、OpenAI和Anthropic。
+### 2026-06-10
+- [I Augment](https://augment.market/pulse/openai-says-anthropics-30b-is-off-by-8b) — OpenAI 对 Anthropic 的 30 亿美元估值提出了质疑，称其夸大了收入指标约 80 亿美元。
 
