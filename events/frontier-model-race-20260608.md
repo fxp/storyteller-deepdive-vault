@@ -4,12 +4,12 @@ title: 前沿模型月更竞速（Claude vs GPT vs Gemini vs Grok vs Kimi）
 seed_url: https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html
 published_date: 2026-06-01
 status: HOT
-last_check: 2026-06-11T09:25
+last_check: 2026-06-11T13:11
 last_activity: '2026-06-11'
-next_check: 2026-06-11T12:25
+next_check: 2026-06-11T16:11
 interval_hours: 3
-consecutive_empty: 1
-findings_count: 43
+consecutive_empty: 0
+findings_count: 47
 tags:
 - tracker
 - HOT
@@ -135,3 +135,9 @@ search_queries:
 ### 2026-06-11
 - [DeepSeek in 2026: The Budget Flagship That Rivals the Best AI ...](https://mysummit.school/blog/en/deepseek-review-2026) — DeepSeek在2026年发布了一个新的模型V4，与GPT-5.4和Claude Opus 4.6在质量上竞争，同时成本更低。这是一个新的事实。
 - [Understand the SWE-Bench Leaderboard 2026 in Depth](https://www.codeant.ai/blogs/swe-bench-scores) — 文章深入探讨了SWE-Bench 2026的排行榜，提供了关于AI模型在真实GitHub问题上的表现的新信息。
+### 2026-06-11
+- [ChatGPT vs Claude vs Gemini in 2026: Which One Is Actually Worth ...](https://www.youtube.com/watch?v=qLBrYzKdZvE) — ChatGPT、Claude和Gemini在2026年的比较，提供了新的基准测试结果。
+- [AI WEEKLY PULSE | JUNE 2 – 7, 2026 - LinkedIn](https://www.linkedin.com/pulse/ai-weekly-pulse-june-2-7-2026-dhanushkumar-r-0sqbf) — OpenAI宣布其前沿模型包括GPT-5.5和Codex编码代理在Amazon Bedrock上的一般可用性。
+- [AI Updates Today (June 2026) – Latest AI Model Releases](https://llm-stats.com/llm-updates) — 实时跟踪AI模型更新和LLM发布，包括Llama 3、Mistral、Qwen和DeepSeek等模型。
+- [Frontier Model Release Velocity Index 2026 Q2 Report](https://www.digitalapplied.com/blog/frontier-model-release-velocity-index-q2-2026) — Frontier模型发布速度指数2026年第二季度报告，提供了模型发布速度的测量和排名。
+

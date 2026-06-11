@@ -4,12 +4,12 @@ title: 【预期事件】中国对关键矿产发布报复性出口限制
 seed_url: https://bisi.org.uk/reports/ai-chip-smuggling-the-limits-of-us-export-controls
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-11T09:25
+last_check: 2026-06-11T13:11
 last_activity: '2026-06-11'
-next_check: 2026-06-11T12:25
+next_check: 2026-06-11T16:11
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 29
+findings_count: 30
 tags:
 - tracker
 - HOT
@@ -113,4 +113,6 @@ search_queries:
 - [US business group says some critical minerals are 'nearly ... - Reuters](https://www.reuters.com/world/china/us-business-group-says-some-critical-minerals-are-nearly-unobtainable-china-2026-06-10) — 美国商业团体表示，一些关键矿物在中国几乎无法获得，这是一个新事实。
 ### 2026-06-11
 - [The Consequences of China’s New Rare Earths Export Restrictions](https://www.csis.org/analysis/consequences-chinas-new-rare-earths-export-restrictions) — 中国商务部对七种稀土元素和磁体实施出口限制，以回应美国总统特朗普对中国产品提高关税的措施。
+### 2026-06-11
+- [China to Curb Exports of Tungsten, Antimony, and Silver 2026](https://www.youtube.com/watch?v=46NTYdMCWhk) — 中国商务部宣布对钨、锑和银等关键金属实施新的出口管制，这是新事实。
 
