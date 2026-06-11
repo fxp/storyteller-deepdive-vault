@@ -4,12 +4,12 @@ title: 前沿模型月更竞速（Claude vs GPT vs Gemini vs Grok vs Kimi）
 seed_url: https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html
 published_date: 2026-06-01
 status: HOT
-last_check: 2026-06-11T00:34
-last_activity: '2026-06-10'
-next_check: 2026-06-11T03:34
+last_check: 2026-06-11T05:31
+last_activity: '2026-06-11'
+next_check: 2026-06-11T08:31
 interval_hours: 3
-consecutive_empty: 1
-findings_count: 41
+consecutive_empty: 0
+findings_count: 43
 tags:
 - tracker
 - HOT
@@ -132,3 +132,7 @@ search_queries:
 ### 2026-06-10
 - [Progress of all Frontier released models from January 1st 2025 till now : r/singularity](https://www.reddit.com/r/singularity/comments/1ppmcnh/progress_of_all_frontier_released_models_from) — 提供了从2025年1月1日至今所有前沿模型的进展情况，包含新模型发布和性能数据等新事实。
 - [22 AI Frontier Models Compared for 2026 - TeamAI](https://teamai.com/blog/large-language-models-llms/the-2026-ai-frontier-model-war) — 比较了2026年的22个AI前沿模型，提供了新的模型性能数据和比较结果。
+### 2026-06-11
+- [DeepSeek in 2026: The Budget Flagship That Rivals the Best AI ...](https://mysummit.school/blog/en/deepseek-review-2026) — DeepSeek在2026年发布了一个新的模型V4，与GPT-5.4和Claude Opus 4.6在质量上竞争，同时成本更低。这是一个新的事实。
+- [Understand the SWE-Bench Leaderboard 2026 in Depth](https://www.codeant.ai/blogs/swe-bench-scores) — 文章深入探讨了SWE-Bench 2026的排行榜，提供了关于AI模型在真实GitHub问题上的表现的新信息。
+

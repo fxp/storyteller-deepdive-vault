@@ -4,12 +4,12 @@ title: 【预期事件】中国对关键矿产发布报复性出口限制
 seed_url: https://bisi.org.uk/reports/ai-chip-smuggling-the-limits-of-us-export-controls
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-11T00:34
+last_check: 2026-06-11T05:31
 last_activity: '2026-06-11'
-next_check: 2026-06-11T03:34
+next_check: 2026-06-11T08:31
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 27
+findings_count: 28
 tags:
 - tracker
 - HOT
@@ -109,4 +109,6 @@ search_queries:
 - [China Imposes Its Most Stringent Critical Minerals Export ... - CSIS](https://www.csis.org/analysis/china-imposes-its-most-stringent-critical-minerals-export-restrictions-yet-amidst) — 文章提到中国对关键矿产实施最严格的出口限制，这是新事实。
 ### 2026-06-11
 - [对美出口管制放宽！镓、锗、超硬材料、石墨等限制松绑 - CIRS Group](https://www.cirs-group.com/cn/chemicals/dui-mei-chu-kou-guan-zhi-fang-kuan-jia-zhe-chao-ying-cai-liao-shi-mo-deng-xian-zhi-song-bang) — 文章提到中国放宽了对镓、锗、超硬材料、石墨等的出口管制，这是一个新事实。
+### 2026-06-11
+- [US business group says some critical minerals are 'nearly ... - Reuters](https://www.reuters.com/world/china/us-business-group-says-some-critical-minerals-are-nearly-unobtainable-china-2026-06-10) — 美国商业团体表示，一些关键矿物在中国几乎无法获得，这是一个新事实。
 
