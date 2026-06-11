@@ -4,12 +4,12 @@ title: 前沿模型月更竞速（Claude vs GPT vs Gemini vs Grok vs Kimi）
 seed_url: https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html
 published_date: 2026-06-01
 status: HOT
-last_check: 2026-06-11T13:11
+last_check: 2026-06-11T17:11
 last_activity: '2026-06-11'
-next_check: 2026-06-11T16:11
+next_check: 2026-06-11T20:11
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 47
+findings_count: 48
 tags:
 - tracker
 - HOT
@@ -140,4 +140,6 @@ search_queries:
 - [AI WEEKLY PULSE | JUNE 2 – 7, 2026 - LinkedIn](https://www.linkedin.com/pulse/ai-weekly-pulse-june-2-7-2026-dhanushkumar-r-0sqbf) — OpenAI宣布其前沿模型包括GPT-5.5和Codex编码代理在Amazon Bedrock上的一般可用性。
 - [AI Updates Today (June 2026) – Latest AI Model Releases](https://llm-stats.com/llm-updates) — 实时跟踪AI模型更新和LLM发布，包括Llama 3、Mistral、Qwen和DeepSeek等模型。
 - [Frontier Model Release Velocity Index 2026 Q2 Report](https://www.digitalapplied.com/blog/frontier-model-release-velocity-index-q2-2026) — Frontier模型发布速度指数2026年第二季度报告，提供了模型发布速度的测量和排名。
+### 2026-06-11
+- [The Frontier AI Landscape of June 2026: From Chatbots to Proactive ...](https://www.youtube.com/watch?v=aMy3Zxj607c) — 视频探讨了2026年6月人工智能领域的快速演变，包括从原始认知能力到质量-成本前沿的转变，以及专有平台如Anthropic和OpenAI与新兴开放权重平台的竞争。
 
