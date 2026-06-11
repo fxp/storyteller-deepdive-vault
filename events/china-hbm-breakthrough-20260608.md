@@ -4,11 +4,11 @@ title: 【预期事件】长鑫存储突破 HBM，华为昇腾实现国产算力
 seed_url: https://techblog.comsoc.org/2025/10/02/huawei-to-double-output-of-ascend-ai-chips-in-2026-openai-orders-hbm-chips-from-sk-hynix-samsung-for-stargate-uae-project/
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-11T11:29
+last_check: 2026-06-11T15:08
 last_activity: '2026-06-11'
-next_check: 2026-06-11T14:29
+next_check: 2026-06-11T18:08
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 12
 tags:
 - tracker
@@ -90,4 +90,3 @@ search_queries:
 - [CXMT said to target 2026 HBM3E mass production, narrowing gap with Samsung and SK Hynix to 2 years](https://www.digitimes.com/news/a20250911PD210/cxmt-hbm3e-production-sk-hynix-samsung.html) — 报道了长鑫存储计划在2026年实现HBM3E的大规模生产，并缩小与三星和SK海力士的差距。
 ### 2026-06-11
 - [Chinaâs CXMT Targets 2026 HBM3 Production with $4.2 Billion IPO](https://investor.wedbush.com/wedbush/article/tokenring-2026-1-23-chinas-cxmt-targets-2026-hbm3-production-with-42-billion-ipo) — 长鑫存储计划通过4.2亿美元的IPO在2026年实现HBM3的生产。
-

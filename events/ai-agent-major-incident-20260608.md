@@ -4,11 +4,11 @@ title: 【预期事件】首个企业级 AI Agent 重大事故引发监管响应
 seed_url: https://joget.com/ai-agent-adoption-in-2026-what-the-analysts-data-shows/
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-11T11:29
+last_check: 2026-06-11T15:08
 last_activity: '2026-06-11'
-next_check: 2026-06-11T14:29
+next_check: 2026-06-11T18:08
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 35
 tags:
 - tracker
@@ -114,4 +114,3 @@ search_queries:
 - [The Autonomous AI Agent Security Crisis of 2026](https://levelact.com/autonomous-ai-agent-security-crisis-2026) — 文章讨论了2026年自主AI代理的安全危机，这是新的事实。
 ### 2026-06-11
 - [[PDF] The State of AI Agent Security 2026](https://cdn.lawreportgroup.com/acuris/files/Law-Report-Group-Files-New/AI%20Agent%20Part%201%20NeuralTrust%20Report.pdf) — 报告提供了AI代理安全状态的新数据，包括实施和扩展AI代理的企业比例以及安全控制措施的实施情况。
-
