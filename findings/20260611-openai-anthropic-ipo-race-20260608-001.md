@@ -1,17 +1,17 @@
 ---
 event: "[[openai-anthropic-ipo-race-20260608]]"
 date: 2026-06-11
-url: "https://www.youtube.com/watch?v=aVzN3CESc5I"
-source_title: "OpenAI Files for IPO, Eyes $1 Trillion Valuation"
+url: "https://www.ktvu.com/news/san-francisco-based-anthropic-files-ipo-965-billion-valuation"
+source_title: "San Francisco-based Anthropic files for IPO with $965 billion valuation"
 relevance: RELEVANT
 ---
 
-# OpenAI Files for IPO, Eyes $1 Trillion Valuation
+# San Francisco-based Anthropic files for IPO with $965 billion valuation
 
-**来源**: [OpenAI Files for IPO, Eyes $1 Trillion Valuation](https://www.youtube.com/watch?v=aVzN3CESc5I)
+**来源**: [San Francisco-based Anthropic files for IPO with $965 billion valuation](https://www.ktvu.com/news/san-francisco-based-anthropic-files-ipo-965-billion-valuation)
 **发现时间**: 2026-06-11
 **所属事件**: [[openai-anthropic-ipo-race-20260608]]
 
 ## 摘要
 
-OpenAI提交了保密的S-1文件，目标上市估值超过1万亿美元，预计最早于2026年9月上市。
+Anthropic向美国证券交易委员会提交了IPO申请，估值达到9650亿美元。

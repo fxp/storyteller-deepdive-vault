@@ -4,11 +4,11 @@ title: 华为昇腾芯片生态规模化（国产算力闭环 vs HBM 瓶颈）
 seed_url: https://techblog.comsoc.org/2025/10/02/huawei-to-double-output-of-ascend-ai-chips-in-2026-openai-orders-hbm-chips-from-sk-hynix-samsung-for-stargate-uae-project/
 published_date: 2025-10-02
 status: HOT
-last_check: 2026-06-11T05:31
+last_check: 2026-06-11T09:25
 last_activity: '2026-06-11'
-next_check: 2026-06-11T08:31
+next_check: 2026-06-11T12:25
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 33
 tags:
 - tracker
@@ -116,4 +116,3 @@ search_queries:
 ### 2026-06-11
 - [Huawei tests China's first HBM3 as CXMT accelerates expansion to counter supply squeeze](https://www.digitimes.com/news/a20250818PD202/cxmt-hbm3-hbm-huawei-expansion.html) — 华为测试中国首个HBM3芯片，CXMT加速扩张以应对供应紧张。
 - [以开创的超节点互联技术，引领AI基础设施新范式 - Huawei](https://www.huawei.com/cn/news/2025/9/hc-xu-keynote-speech) — 华为通过超节点互联技术引领AI基础设施新范式。
-

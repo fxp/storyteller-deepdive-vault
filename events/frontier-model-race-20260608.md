@@ -4,11 +4,11 @@ title: 前沿模型月更竞速（Claude vs GPT vs Gemini vs Grok vs Kimi）
 seed_url: https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html
 published_date: 2026-06-01
 status: HOT
-last_check: 2026-06-11T05:31
+last_check: 2026-06-11T09:25
 last_activity: '2026-06-11'
-next_check: 2026-06-11T08:31
+next_check: 2026-06-11T12:25
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 43
 tags:
 - tracker
@@ -135,4 +135,3 @@ search_queries:
 ### 2026-06-11
 - [DeepSeek in 2026: The Budget Flagship That Rivals the Best AI ...](https://mysummit.school/blog/en/deepseek-review-2026) — DeepSeek在2026年发布了一个新的模型V4，与GPT-5.4和Claude Opus 4.6在质量上竞争，同时成本更低。这是一个新的事实。
 - [Understand the SWE-Bench Leaderboard 2026 in Depth](https://www.codeant.ai/blogs/swe-bench-scores) — 文章深入探讨了SWE-Bench 2026的排行榜，提供了关于AI模型在真实GitHub问题上的表现的新信息。
-
