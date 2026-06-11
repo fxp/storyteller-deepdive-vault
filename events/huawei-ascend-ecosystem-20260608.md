@@ -4,12 +4,12 @@ title: 华为昇腾芯片生态规模化（国产算力闭环 vs HBM 瓶颈）
 seed_url: https://techblog.comsoc.org/2025/10/02/huawei-to-double-output-of-ascend-ai-chips-in-2026-openai-orders-hbm-chips-from-sk-hynix-samsung-for-stargate-uae-project/
 published_date: 2025-10-02
 status: HOT
-last_check: 2026-06-11T17:11
+last_check: 2026-06-11T20:46
 last_activity: '2026-06-11'
-next_check: 2026-06-11T20:11
+next_check: 2026-06-11T23:46
 interval_hours: 3
-consecutive_empty: 3
-findings_count: 33
+consecutive_empty: 0
+findings_count: 35
 tags:
 - tracker
 - HOT
@@ -116,3 +116,7 @@ search_queries:
 ### 2026-06-11
 - [Huawei tests China's first HBM3 as CXMT accelerates expansion to counter supply squeeze](https://www.digitimes.com/news/a20250818PD202/cxmt-hbm3-hbm-huawei-expansion.html) — 华为测试中国首个HBM3芯片，CXMT加速扩张以应对供应紧张。
 - [以开创的超节点互联技术，引领AI基础设施新范式 - Huawei](https://www.huawei.com/cn/news/2025/9/hc-xu-keynote-speech) — 华为通过超节点互联技术引领AI基础设施新范式。
+### 2026-06-11
+- [Nvidia falters in China; Huawei moves to fill AI chip vacuum](https://www.digitimes.com/news/a20250930PD248/ai-chip-china-huawei-ascend-nvidia.html) — 华为计划在2026年生产约600,000个Ascend 910C芯片，总产量达到1.6百万个，比2025年产量翻倍。
+- [Competing AI strategies for the US and China | Brookings](https://www.brookings.edu/articles/competing-ai-strategies-for-the-us-and-china) — 美国AI领导者正在合作防止未来的蒸馏活动，特别是通过信息共享。华为最新的Ascend 950PR芯片预计将扩大到750,000个单位的生产规模。
+

@@ -1,17 +1,17 @@
 ---
 event: "[[china-minerals-retaliation-20260608]]"
 date: 2026-06-11
-url: "https://www.hankunlaw.com/portal/article/index/cid/8/id/15830.html"
-source_title: "中国出口管制新规要点解析：以稀土为核心的战略资源管控升级"
+url: "https://www.youtube.com/watch?v=BNywGH8FxZE"
+source_title: "China Bans Rare Mineral Exports | Zoom In Zoom Out"
 relevance: RELEVANT
 ---
 
-# 中国出口管制新规要点解析：以稀土为核心的战略资源管控升级
+# China Bans Rare Mineral Exports | Zoom In Zoom Out
 
-**来源**: [中国出口管制新规要点解析：以稀土为核心的战略资源管控升级](https://www.hankunlaw.com/portal/article/index/cid/8/id/15830.html)
+**来源**: [China Bans Rare Mineral Exports | Zoom In Zoom Out](https://www.youtube.com/watch?v=BNywGH8FxZE)
 **发现时间**: 2026-06-11
 **所属事件**: [[china-minerals-retaliation-20260608]]
 
 ## 摘要
 
-文章提供了中国出口管制新规的要点解析，特别是以稀土为核心的战略资源管控升级。
+中国对两种对半导体制造至关重要的稀有矿物——镓和锗——的新出口限制将于8月生效，这是中美之间日益加剧的贸易紧张的最新举措。

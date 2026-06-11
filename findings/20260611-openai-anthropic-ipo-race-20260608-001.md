@@ -1,17 +1,17 @@
 ---
 event: "[[openai-anthropic-ipo-race-20260608]]"
 date: 2026-06-11
-url: "https://beam.ai/agentic-insights/anthropic-ipo-965-billion-enterprise-ai-agent-buyers"
-source_title: "Anthropic IPO at $965B: An Enterprise AI Agent Lens"
+url: "https://futuresearch.ai/anthropic-financial-forecast"
+source_title: "Anthropic Revenue, Compute, and Valuation: Forecasts Through ..."
 relevance: RELEVANT
 ---
 
-# Anthropic IPO at $965B: An Enterprise AI Agent Lens
+# Anthropic Revenue, Compute, and Valuation: Forecasts Through ...
 
-**来源**: [Anthropic IPO at $965B: An Enterprise AI Agent Lens](https://beam.ai/agentic-insights/anthropic-ipo-965-billion-enterprise-ai-agent-buyers)
+**来源**: [Anthropic Revenue, Compute, and Valuation: Forecasts Through ...](https://futuresearch.ai/anthropic-financial-forecast)
 **发现时间**: 2026-06-11
 **所属事件**: [[openai-anthropic-ipo-race-20260608]]
 
 ## 摘要
 
-Anthropic的IPO估值达到9650亿美元，年度化收入达到470亿美元。
+Anthropic的财务预测主要基于Series H融资后的9650亿美元估值，Opus 4.8的发布以及Mythos的计划，以及6月1日提交的保密文件。
