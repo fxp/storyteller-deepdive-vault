@@ -4,12 +4,12 @@ title: 【预期事件】中国对关键矿产发布报复性出口限制
 seed_url: https://bisi.org.uk/reports/ai-chip-smuggling-the-limits-of-us-export-controls
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-10T20:50
-last_activity: '2026-06-10'
-next_check: 2026-06-10T23:50
+last_check: 2026-06-11T00:34
+last_activity: '2026-06-11'
+next_check: 2026-06-11T03:34
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 26
+findings_count: 27
 tags:
 - tracker
 - HOT
@@ -107,4 +107,6 @@ search_queries:
 - [中国稀土出口管制新规解析与实务指引[英文版] - 专业文章](https://www.allbrightlaw.com/CN/10475/b7290034f50cc965.aspx) — 文章提供了中国稀土出口管制新规的解析和实务指引，这是新事实。
 ### 2026-06-10
 - [China Imposes Its Most Stringent Critical Minerals Export ... - CSIS](https://www.csis.org/analysis/china-imposes-its-most-stringent-critical-minerals-export-restrictions-yet-amidst) — 文章提到中国对关键矿产实施最严格的出口限制，这是新事实。
+### 2026-06-11
+- [对美出口管制放宽！镓、锗、超硬材料、石墨等限制松绑 - CIRS Group](https://www.cirs-group.com/cn/chemicals/dui-mei-chu-kou-guan-zhi-fang-kuan-jia-zhe-chao-ying-cai-liao-shi-mo-deng-xian-zhi-song-bang) — 文章提到中国放宽了对镓、锗、超硬材料、石墨等的出口管制，这是一个新事实。
 

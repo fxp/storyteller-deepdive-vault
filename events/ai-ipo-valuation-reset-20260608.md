@@ -4,12 +4,12 @@ title: 【预期事件】AI IPO 引发行业估值重定价
 seed_url: https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-10T20:50
-last_activity: '2026-06-10'
-next_check: 2026-06-10T23:50
+last_check: 2026-06-11T00:34
+last_activity: '2026-06-11'
+next_check: 2026-06-11T03:34
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 13
+findings_count: 14
 tags:
 - tracker
 - HOT
@@ -89,4 +89,6 @@ search_queries:
 - [Cerebras stock falls after blockbuster IPO debut](https://www.cnbc.com/2026/05/15/cerebras-stock-ipo-debut-ai.html) — Cerebras Systems 完成了美国科技公司有史以来最大的IPO，筹集了55亿美元。
 ### 2026-06-10
 - [Top 100 AI Startups by Valuation (2026) | Eqvista](https://eqvista.com/top-ai-startups-by-valuation) — 文章提供了2026年估值最高的AI初创公司列表，包括Anthropic的估值。
+### 2026-06-11
+- [AI IPO Tracker 2026: SpaceX, OpenAI, Anthropic, Databricks](https://aifundingtracker.com/ai-ipo-tracker) — OpenAI预计年收入达到250亿美元，并准备在1000亿美元的估值下进行上市；Anthropic正在积极谈判，以在9000亿美元的估值下筹集500亿美元。
 
