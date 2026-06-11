@@ -4,12 +4,12 @@ title: 【预期事件】长鑫存储突破 HBM，华为昇腾实现国产算力
 seed_url: https://techblog.comsoc.org/2025/10/02/huawei-to-double-output-of-ascend-ai-chips-in-2026-openai-orders-hbm-chips-from-sk-hynix-samsung-for-stargate-uae-project/
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-10T22:35
-last_activity: '2026-06-10'
-next_check: 2026-06-11T01:35
+last_check: 2026-06-11T03:03
+last_activity: '2026-06-11'
+next_check: 2026-06-11T06:03
 interval_hours: 3
-consecutive_empty: 2
-findings_count: 8
+consecutive_empty: 0
+findings_count: 10
 tags:
 - tracker
 - HOT
@@ -83,3 +83,7 @@ search_queries:
 - [长鑫存储向华为交付HBM3样品，国产高带宽存储取得突破](http://www.dram.com.cn/wap/views.asp?menuid=34&sortid=0&id=83868&msv=1) — 长鑫存储正在建设上海HBM后段封装厂，预计2026年底投产。
 - [国产HBM3突破！ - 与非网](https://www.eefocus.com/article/1885937.html) — 长鑫存储计划在2025年底前交付HBM3样品，并预计从2026年开始全面量产。
 - [Chinese firms make headway in producing high bandwidth memory ...](https://www.reddit.com/r/AMD_Stock/comments/1csq79n/chinese_firms_make_headway_in_producing_high) — 长鑫存储与通富微电合作开发HBM芯片样品。
+### 2026-06-11
+- [Discussion: China's CXMT Ships Out HBM3 Samples to Huawei, Potentially Sorting Out a Massive Bottleneck in the Domestic AI Supply Chain](https://discussions.wccftech.com/thread/china-cxmt-ships-out-pivotal-hbm3-samples-to-huawei) — 长鑫存储向华为交付HBM3样品，解决国内AI供应链瓶颈问题。
+- [中國長鑫搶攻AI成長列車HBM3送樣華為拚2026年量產 - DIGITIMES](https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=0000735900_HCM8IFYR1PEQQ2LN2KFB2) — 长鑫存储提供16nm HBM3样品，全球记忆体大厂竞争焦点。
+
