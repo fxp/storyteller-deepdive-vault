@@ -4,12 +4,12 @@ title: 【预期事件】长鑫存储突破 HBM，华为昇腾实现国产算力
 seed_url: https://techblog.comsoc.org/2025/10/02/huawei-to-double-output-of-ascend-ai-chips-in-2026-openai-orders-hbm-chips-from-sk-hynix-samsung-for-stargate-uae-project/
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-11T15:08
+last_check: 2026-06-11T18:56
 last_activity: '2026-06-11'
-next_check: 2026-06-11T18:08
+next_check: 2026-06-11T21:56
 interval_hours: 3
-consecutive_empty: 1
-findings_count: 12
+consecutive_empty: 0
+findings_count: 14
 tags:
 - tracker
 - HOT
@@ -90,3 +90,11 @@ search_queries:
 - [CXMT said to target 2026 HBM3E mass production, narrowing gap with Samsung and SK Hynix to 2 years](https://www.digitimes.com/news/a20250911PD210/cxmt-hbm3e-production-sk-hynix-samsung.html) — 报道了长鑫存储计划在2026年实现HBM3E的大规模生产，并缩小与三星和SK海力士的差距。
 ### 2026-06-11
 - [Chinaâs CXMT Targets 2026 HBM3 Production with $4.2 Billion IPO](https://investor.wedbush.com/wedbush/article/tokenring-2026-1-23-chinas-cxmt-targets-2026-hbm3-production-with-42-billion-ipo) — 长鑫存储计划通过4.2亿美元的IPO在2026年实现HBM3的生产。
+### 2026-06-11
+- [Macro_Lin ｜ 市场观察员 on X: "长鑫存储扩产的设备供应链全景" / X](https://x.com/LinQingV/status/2056320187138453905) — 提供了长鑫存储扩产设备的供应链全景，包括产能和工艺信息。
+- [Huawei announced its AI chip roadmap through 2028. 2026 Ascend 950 will use HW-developed HBM (High Bandwidth Memory).
+
+1. Suggests SMIC capacity at 5-7nm is no longer a problem
+
+2. At the node or cluster level HW may be competitive with Nvidia even if they continue to lag at the](https://x.com/hsu_steve/status/1968629241106366878) — 华为宣布了其AI芯片路线图，包括2026年Ascend 950将使用HW开发的HBM。
+
