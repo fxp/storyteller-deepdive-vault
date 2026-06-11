@@ -3,16 +3,16 @@ id: trump-china-visit-ai-20260513
 title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折）
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
-status: ACTIVE
-last_check: 2026-06-11T00:34
-last_activity: '2026-06-10'
-next_check: 2026-06-11T06:34
-interval_hours: 6
-consecutive_empty: 5
-findings_count: 125
+status: HOT
+last_check: 2026-06-11T07:34
+last_activity: '2026-06-11'
+next_check: 2026-06-11T10:34
+interval_hours: 3
+consecutive_empty: 0
+findings_count: 126
 tags:
 - tracker
-- ACTIVE
+- HOT
 entities:
   orgs:
   - 美国政府
@@ -291,3 +291,6 @@ Guo Jiakun briefing 2026, Trump Xi AI agreement, US China artificial intelligenc
 - [但他承认双方官员在会谈中确实提及这一话题。“特朗普总统与中方 ...](https://www.instagram.com/p/DYhYRFHjVf9) — 特朗普去年12月允许英伟达向中国客户出售H200人工智能晶片，显示美国在限制中国AI发展方面的措施有所放宽。
 ### 2026-06-10
 - [U.S. pushes its AI in China and Asia after Trump-Xi meeting](https://www.cnbc.com/2026/05/22/us-china-ai-apec-asia.html) — 报道了特朗普-习近平会议后，美国在亚洲推动AI，这是一个新的事实，与事件相关。
+### 2026-06-11
+- [China Gives Nod To ByteDance, Alibaba And Tencent To Buy ...](https://www.reutersconnect.com/item/china-gives-nod-to-bytedance-alibaba-and-tencent-to-buy-nvidias-h200-chips/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMU5VUlBITzAwMDBMNlJMOA) — 中国批准字节跳动、阿里巴巴和腾讯购买英伟达的H200芯片。
+
