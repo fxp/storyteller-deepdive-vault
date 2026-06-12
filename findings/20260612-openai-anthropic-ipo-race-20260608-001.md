@@ -1,17 +1,17 @@
 ---
 event: "[[openai-anthropic-ipo-race-20260608]]"
 date: 2026-06-12
-url: "https://enterprisedna.co/resources/news/anthropic-s1-ipo-filing-june-2026"
-source_title: "Anthropic Files Confidential S-1 for Near-$1 Trillion IPO — Enterprise DNA"
+url: "https://www.linkedin.com/pulse/965b-valuation-anthropic-rushes-ipo-who-you-betting-tentenco-wyqmc"
+source_title: "$965B Valuation! Anthropic Rushes to IPO, Who Are You Betting On?"
 relevance: RELEVANT
 ---
 
-# Anthropic Files Confidential S-1 for Near-$1 Trillion IPO — Enterprise DNA
+# $965B Valuation! Anthropic Rushes to IPO, Who Are You Betting On?
 
-**来源**: [Anthropic Files Confidential S-1 for Near-$1 Trillion IPO — Enterprise DNA](https://enterprisedna.co/resources/news/anthropic-s1-ipo-filing-june-2026)
+**来源**: [$965B Valuation! Anthropic Rushes to IPO, Who Are You Betting On?](https://www.linkedin.com/pulse/965b-valuation-anthropic-rushes-ipo-who-you-betting-tentenco-wyqmc)
 **发现时间**: 2026-06-12
 **所属事件**: [[openai-anthropic-ipo-race-20260608]]
 
 ## 摘要
 
-Anthropic秘密向美国证券交易委员会提交了S-1文件草案，设定了最早于2026年秋季公开上市的可能性。
+Anthropic的估值达到9650亿美元，并计划进行IPO。
