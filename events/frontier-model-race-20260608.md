@@ -4,11 +4,11 @@ title: 前沿模型月更竞速（Claude vs GPT vs Gemini vs Grok vs Kimi）
 seed_url: https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html
 published_date: 2026-06-01
 status: HOT
-last_check: 2026-06-12T09:20
+last_check: 2026-06-12T13:02
 last_activity: '2026-06-12'
-next_check: 2026-06-12T12:20
+next_check: 2026-06-12T16:02
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 54
 tags:
 - tracker
@@ -151,4 +151,3 @@ search_queries:
 - [ARC-AGI-2 | Epoch AI](https://epoch.ai/benchmarks/arc-agi-2) — ARC-AGI-2 is introduced as a benchmark developed by the ARC Prize Foundation for abstraction and reasoning.
 ### 2026-06-12
 - [How to Choose an AI Model in 2026 (Without Getting It Wrong)](https://medium.com/@ai_93276/how-to-choose-an-ai-model-in-2026-without-getting-it-wrong-c8297672947d) — 提供了2026年选择AI模型的新指南，包括不同模型的应用场景和性能特点，这是历史发现中未出现的新事实。
-
