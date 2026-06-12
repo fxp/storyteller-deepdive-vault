@@ -4,12 +4,12 @@ title: 【预期事件】中国对关键矿产发布报复性出口限制
 seed_url: https://bisi.org.uk/reports/ai-chip-smuggling-the-limits-of-us-export-controls
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-12T16:56
+last_check: 2026-06-12T20:42
 last_activity: '2026-06-12'
-next_check: 2026-06-12T19:56
+next_check: 2026-06-12T23:42
 interval_hours: 3
-consecutive_empty: 1
-findings_count: 35
+consecutive_empty: 0
+findings_count: 36
 tags:
 - tracker
 - HOT
@@ -124,3 +124,6 @@ search_queries:
 ### 2026-06-12
 - [China's Export Control on Tungsten… 90% Price Hike Shock in ...](https://x.com/Jukanlosreve/status/1982690027986702639) — 中国对钨等战略矿产实施出口许可证制度，并减少总采矿配额。
 - [ASML Faces New China Export Restrictions: Will It Threaten Growth?](https://marketwise.com/investing/asml-earnings-china-export-restrictions-ai-chip-demand) — ASML面临新的中国出口限制，可能威胁其增长。
+### 2026-06-12
+- [Tungsten Supply Crunch: How China's Export Restrictions Rattled ...](https://theoregongroup.com/commodities/tungsten/tungsten-supply-crunch-how-chinas-export-restrictions-rattled-global-markets-guest-post-by-brian-hendrich) — 文章指出北京扩大了出口管制清单，包括多种钨化合物，这是新事实。
+

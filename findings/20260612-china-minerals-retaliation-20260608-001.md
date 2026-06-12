@@ -1,17 +1,17 @@
 ---
 event: "[[china-minerals-retaliation-20260608]]"
 date: 2026-06-12
-url: "https://x.com/Jukanlosreve/status/1982690027986702639"
-source_title: "China's Export Control on Tungsten… 90% Price Hike Shock in ..."
+url: "https://theoregongroup.com/commodities/tungsten/tungsten-supply-crunch-how-chinas-export-restrictions-rattled-global-markets-guest-post-by-brian-hendrich"
+source_title: "Tungsten Supply Crunch: How China's Export Restrictions Rattled ..."
 relevance: RELEVANT
 ---
 
-# China's Export Control on Tungsten… 90% Price Hike Shock in ...
+# Tungsten Supply Crunch: How China's Export Restrictions Rattled ...
 
-**来源**: [China's Export Control on Tungsten… 90% Price Hike Shock in ...](https://x.com/Jukanlosreve/status/1982690027986702639)
+**来源**: [Tungsten Supply Crunch: How China's Export Restrictions Rattled ...](https://theoregongroup.com/commodities/tungsten/tungsten-supply-crunch-how-chinas-export-restrictions-rattled-global-markets-guest-post-by-brian-hendrich)
 **发现时间**: 2026-06-12
 **所属事件**: [[china-minerals-retaliation-20260608]]
 
 ## 摘要
 
-中国对钨等战略矿产实施出口许可证制度，并减少总采矿配额。
+文章指出北京扩大了出口管制清单，包括多种钨化合物，这是新事实。
