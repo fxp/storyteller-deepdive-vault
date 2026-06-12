@@ -4,11 +4,11 @@ title: 【预期事件】AI IPO 引发行业估值重定价
 seed_url: https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-12T05:32
+last_check: 2026-06-12T09:20
 last_activity: '2026-06-12'
-next_check: 2026-06-12T08:32
+next_check: 2026-06-12T12:20
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 21
 tags:
 - tracker
@@ -103,4 +103,3 @@ search_queries:
 ### 2026-06-12
 - [Cerebras joins the hottest trade in AI — 5/14/2026 - YouTube](https://www.youtube.com/watch?v=w8DO0baoT1M) — Cerebras成为今年最大IPO，定价高于市场预期，并在纳斯达克上市，这是近五年来美国最大的上市活动。
 - [SpaceX IPO 2026: The AI IPO Trap That Already Crushed Figma Is Back - MarketWise](https://marketwise.com/investing/spacex-ipo-2026-anthropic-openai-figma-trap) — 文章讨论了SpaceX、Anthropic和OpenAI的IPO，以及它们可能面临的AI IPO陷阱，与Figma的情况相似。
-

@@ -1,17 +1,17 @@
 ---
 event: "[[huawei-ascend-ecosystem-20260608]]"
 date: 2026-06-12
-url: "https://www.digitimes.com/news/a20251023PD208/cxmt-hbm3-2026-dram-huawei.html"
-source_title: "CXMT, Huawei align on HBM3 ahead of China's 2026 AI memory leap"
+url: "https://pdf.dfcfw.com/pdf/H3_AP202309051597493449_1.pdf"
+source_title: "华为昇腾：国产AI 算力“扛旗者”"
 relevance: RELEVANT
 ---
 
-# CXMT, Huawei align on HBM3 ahead of China's 2026 AI memory leap
+# 华为昇腾：国产AI 算力“扛旗者”
 
-**来源**: [CXMT, Huawei align on HBM3 ahead of China's 2026 AI memory leap](https://www.digitimes.com/news/a20251023PD208/cxmt-hbm3-2026-dram-huawei.html)
+**来源**: [华为昇腾：国产AI 算力“扛旗者”](https://pdf.dfcfw.com/pdf/H3_AP202309051597493449_1.pdf)
 **发现时间**: 2026-06-12
 **所属事件**: [[huawei-ascend-ecosystem-20260608]]
 
 ## 摘要
 
-华为与CXMT合作，提前准备HBM3，以支持中国2026年AI内存的飞跃，这是历史发现中未出现的新事实。
+文章讨论了华为昇腾芯片在国产AI算力方面的领导地位，提供了关于昇腾芯片的新信息。

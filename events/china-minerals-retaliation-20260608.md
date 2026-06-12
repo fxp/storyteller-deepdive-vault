@@ -4,12 +4,12 @@ title: 【预期事件】中国对关键矿产发布报复性出口限制
 seed_url: https://bisi.org.uk/reports/ai-chip-smuggling-the-limits-of-us-export-controls
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-12T05:32
-last_activity: '2026-06-11'
-next_check: 2026-06-12T08:32
+last_check: 2026-06-12T09:20
+last_activity: '2026-06-12'
+next_check: 2026-06-12T12:20
 interval_hours: 3
-consecutive_empty: 2
-findings_count: 32
+consecutive_empty: 0
+findings_count: 33
 tags:
 - tracker
 - HOT
@@ -119,3 +119,6 @@ search_queries:
 - [中国出口管制新规要点解析：以稀土为核心的战略资源管控升级](https://www.hankunlaw.com/portal/article/index/cid/8/id/15830.html) — 文章提供了中国出口管制新规的要点解析，特别是以稀土为核心的战略资源管控升级。
 ### 2026-06-11
 - [China Bans Rare Mineral Exports | Zoom In Zoom Out](https://www.youtube.com/watch?v=BNywGH8FxZE) — 中国对两种对半导体制造至关重要的稀有矿物——镓和锗——的新出口限制将于8月生效，这是中美之间日益加剧的贸易紧张的最新举措。
+### 2026-06-12
+- [中国对镓、锗出口管制新规以及相关行业影响 - 君合](https://www.junhe.com/law-reviews/2221) — 文章提供了中国对镓、锗出口管制新规的详细分析和影响，包含新事实。
+
