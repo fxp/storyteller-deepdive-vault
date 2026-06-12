@@ -4,12 +4,12 @@ title: 前沿模型月更竞速（Claude vs GPT vs Gemini vs Grok vs Kimi）
 seed_url: https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html
 published_date: 2026-06-01
 status: HOT
-last_check: 2026-06-12T00:34
+last_check: 2026-06-12T05:32
 last_activity: '2026-06-12'
-next_check: 2026-06-12T03:34
+next_check: 2026-06-12T08:32
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 49
+findings_count: 53
 tags:
 - tracker
 - HOT
@@ -144,4 +144,9 @@ search_queries:
 - [The Frontier AI Landscape of June 2026: From Chatbots to Proactive ...](https://www.youtube.com/watch?v=aMy3Zxj607c) — 视频探讨了2026年6月人工智能领域的快速演变，包括从原始认知能力到质量-成本前沿的转变，以及专有平台如Anthropic和OpenAI与新兴开放权重平台的竞争。
 ### 2026-06-12
 - [Best Open-Source AI Models 2026: What to Use Now](https://spectrumailab.com/blog/best-open-source-ai-models-ranked-2026) — 列出了2026年最佳开源AI模型，包括DeepSeek V4、Kimi K2.6、Gemma 4和Llama 4等，提供了新的事实。
+### 2026-06-12
+- [AI Models in 2026: Which One Should You Actually Use? - GuruSup](https://gurusup.com/blog/ai-comparisons) — Grok 4 and Claude Opus 4.6 lead coding benchmarks, Gemini 3.1 Pro leads reasoning, Claude writes the most natural prose, and GPT-5.4 is the best all-around model.
+- [Introducing the AI Frontier Model Tracker | DemandSphere](https://www.demandsphere.com/blog/ai-frontier-model-tracker-launch) — AI Frontier Model Tracker is introduced as a free AI model comparison tool and leaderboard covering 42 frontier large language models.
+- [Inside the Frontier AI Model Race: Releases, Regulation, and What's ...](https://www.youtube.com/watch?v=QQVFbqtZEtg&vl=en-US) — The video discusses the frontier AI model race, including model releases, regulations, and future implications.
+- [ARC-AGI-2 | Epoch AI](https://epoch.ai/benchmarks/arc-agi-2) — ARC-AGI-2 is introduced as a benchmark developed by the ARC Prize Foundation for abstraction and reasoning.
 
