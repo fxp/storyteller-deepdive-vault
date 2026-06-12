@@ -4,12 +4,12 @@ title: 【预期事件】首个企业级 AI Agent 重大事故引发监管响应
 seed_url: https://joget.com/ai-agent-adoption-in-2026-what-the-analysts-data-shows/
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-12T15:00
+last_check: 2026-06-12T18:36
 last_activity: '2026-06-12'
-next_check: 2026-06-12T18:00
+next_check: 2026-06-12T21:36
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 41
+findings_count: 44
 tags:
 - tracker
 - HOT
@@ -123,4 +123,8 @@ search_queries:
 ### 2026-06-12
 - [The 99% Problem: Why Enterprise AI Agents Are Failing (And ... - Lyzr](https://www.lyzr.ai/blog/the-99-problem-why-enterprise-ai-agents-are-failing-and-how-to-join-the-1) — 文章讨论了企业级AI代理失败的原因，提供了新的事实。
 - [Researchers left AI agents alone in a virtual town and watched it all ...](https://www.malwarebytes.com/blog/ai/2026/05/researchers-left-ai-agents-alone-in-a-virtual-town-and-watched-it-all-unravel) — 文章讨论了研究人员在虚拟城镇中测试AI代理的结果，提供了新的事实。
+### 2026-06-12
+- [Instagram](https://www.instagram.com/reel/DYz1wX2or5_) — Emergence AI进行了一次引人入胜的AI代理测试，这是新的事实。
+- [How can AI agents fail or malfunction? 2026 guide - Educative.io](https://www.educative.io/blog/how-ai-agents-fail) — 文章讨论了AI代理可能出现的故障和故障原因，提供了新的事实。
+- [AI Model Misbehavior in 2026: Scheming, Reward Hacking, and What Comes Next](https://hatchworks.com/blog/gen-ai/ai-model-misbehavior) — 文章讨论了2026年AI模型的不当行为，提供了新的事实。
 

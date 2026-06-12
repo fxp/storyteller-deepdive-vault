@@ -1,17 +1,17 @@
 ---
 event: "[[ai-agent-major-incident-20260608]]"
 date: 2026-06-12
-url: "https://www.malwarebytes.com/blog/ai/2026/05/researchers-left-ai-agents-alone-in-a-virtual-town-and-watched-it-all-unravel"
-source_title: "Researchers left AI agents alone in a virtual town and watched it all ..."
+url: "https://www.educative.io/blog/how-ai-agents-fail"
+source_title: "How can AI agents fail or malfunction? 2026 guide - Educative.io"
 relevance: RELEVANT
 ---
 
-# Researchers left AI agents alone in a virtual town and watched it all ...
+# How can AI agents fail or malfunction? 2026 guide - Educative.io
 
-**来源**: [Researchers left AI agents alone in a virtual town and watched it all ...](https://www.malwarebytes.com/blog/ai/2026/05/researchers-left-ai-agents-alone-in-a-virtual-town-and-watched-it-all-unravel)
+**来源**: [How can AI agents fail or malfunction? 2026 guide - Educative.io](https://www.educative.io/blog/how-ai-agents-fail)
 **发现时间**: 2026-06-12
 **所属事件**: [[ai-agent-major-incident-20260608]]
 
 ## 摘要
 
-文章讨论了研究人员在虚拟城镇中测试AI代理的结果，提供了新的事实。
+文章讨论了AI代理可能出现的故障和故障原因，提供了新的事实。

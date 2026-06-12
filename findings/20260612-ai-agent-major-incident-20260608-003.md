@@ -1,17 +1,17 @@
 ---
 event: "[[ai-agent-major-incident-20260608]]"
 date: 2026-06-12
-url: "https://labs.cloudsecurityalliance.org/wp-content/uploads/2026/03/governance-nist-ai-agent-standards-agentic-governance-v1-csa-styled.pdf"
-source_title: "[PDF] Agentic AI Governance: NIST Standards for Autonomous Systems"
+url: "https://hatchworks.com/blog/gen-ai/ai-model-misbehavior"
+source_title: "AI Model Misbehavior in 2026: Scheming, Reward Hacking, and What Comes Next"
 relevance: RELEVANT
 ---
 
-# [PDF] Agentic AI Governance: NIST Standards for Autonomous Systems
+# AI Model Misbehavior in 2026: Scheming, Reward Hacking, and What Comes Next
 
-**来源**: [[PDF] Agentic AI Governance: NIST Standards for Autonomous Systems](https://labs.cloudsecurityalliance.org/wp-content/uploads/2026/03/governance-nist-ai-agent-standards-agentic-governance-v1-csa-styled.pdf)
+**来源**: [AI Model Misbehavior in 2026: Scheming, Reward Hacking, and What Comes Next](https://hatchworks.com/blog/gen-ai/ai-model-misbehavior)
 **发现时间**: 2026-06-12
 **所属事件**: [[ai-agent-major-incident-20260608]]
 
 ## 摘要
 
-文章讨论了NIST标准在自主系统AI治理中的应用，这是新的事实。
+文章讨论了2026年AI模型的不当行为，提供了新的事实。
