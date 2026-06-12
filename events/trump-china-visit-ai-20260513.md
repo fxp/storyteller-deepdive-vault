@@ -4,12 +4,12 @@ title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折�
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
 status: HOT
-last_check: 2026-06-12T07:32
+last_check: 2026-06-12T11:15
 last_activity: '2026-06-12'
-next_check: 2026-06-12T10:32
+next_check: 2026-06-12T14:15
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 133
+findings_count: 134
 tags:
 - tracker
 - HOT
@@ -304,4 +304,6 @@ Guo Jiakun briefing 2026, Trump Xi AI agreement, US China artificial intelligenc
 - [美國貿易代表：中美會談未深入討論芯片出口管制](https://hk.finance.yahoo.com/news/%E7%BE%8E%E5%9C%8B%E8%B2%BF%E6%98%93%E4%BB%A3%E8%A1%A8-%E4%B8%AD%E7%BE%8E%E6%9C%83%E8%AB%87%E6%9C%AA%E6%B7%B1%E5%85%A5%E8%A8%8E%E8%AB%96%E8%8A%AF%E7%89%87%E5%87%BA%E5%8F%A3%E7%AE%A1%E5%88%B6-024256877.html) — 美国贸易代表表示，中美会谈未深入讨论芯片出口管制，但英伟达CEO黄仁勋与中方就公司业务进行了交流，且是否购买英伟达芯片的决定权在中方。
 ### 2026-06-12
 - [中国AI芯片市场迎巨变：英伟达2026年将仅占8%_凤凰网](https://i.ifeng.com/c/8oplCIwd0nv) — 英伟达2026年将在中国AI芯片市场仅占8%，华为等本土厂商份额将大幅提升，预计华为将占据50%的份额。
+### 2026-06-12
+- [黄仁勋：英伟达已将中国AI芯片市场，拱手让给华为 - 知乎专栏](https://zhuanlan.zhihu.com/p/2041142642675815402) — 黄仁勋表示英伟达已将中国AI芯片市场拱手让给华为，预计华为将占据2026年中国AI芯片市场50%的份额。
 

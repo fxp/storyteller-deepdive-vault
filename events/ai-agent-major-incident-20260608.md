@@ -4,11 +4,11 @@ title: 【预期事件】首个企业级 AI Agent 重大事故引发监管响应
 seed_url: https://joget.com/ai-agent-adoption-in-2026-what-the-analysts-data-shows/
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-12T07:32
+last_check: 2026-06-12T11:15
 last_activity: '2026-06-12'
-next_check: 2026-06-12T10:32
+next_check: 2026-06-12T14:15
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 39
 tags:
 - tracker
@@ -120,4 +120,3 @@ search_queries:
 - [AI Agent Governance: Best Practices for Enterprise - MindStudio](https://www.mindstudio.ai/blog/ai-agent-governance) — 文章讨论了企业级AI代理的治理框架，这是新的事实。
 - ['Failure at scale': The AI risk that can tip business into chaos - CNBC](https://www.cnbc.com/2026/03/01/ai-artificial-intelligence-economy-business-risks.html) — 文章讨论了AI风险可能导致业务混乱，这是新的事实。
 - [[PDF] Agentic AI Governance: NIST Standards for Autonomous Systems](https://labs.cloudsecurityalliance.org/wp-content/uploads/2026/03/governance-nist-ai-agent-standards-agentic-governance-v1-csa-styled.pdf) — 文章讨论了NIST标准在自主系统AI治理中的应用，这是新的事实。
-
