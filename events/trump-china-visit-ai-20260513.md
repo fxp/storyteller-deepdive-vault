@@ -4,12 +4,12 @@ title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折�
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
 status: HOT
-last_check: 2026-06-11T22:33
-last_activity: '2026-06-11'
-next_check: 2026-06-12T01:33
+last_check: 2026-06-12T03:03
+last_activity: '2026-06-12'
+next_check: 2026-06-12T06:03
 interval_hours: 3
-consecutive_empty: 1
-findings_count: 131
+consecutive_empty: 0
+findings_count: 132
 tags:
 - tracker
 - HOT
@@ -300,3 +300,6 @@ Guo Jiakun briefing 2026, Trump Xi AI agreement, US China artificial intelligenc
 - [黄仁勋：中国终将向美国AI芯片开放市场 | 美国财经 | 财经 | 世界新闻网](https://www.worldjournal.com/wj/story/121208/9511085?from=wj_hot_story&zh-cn=) — 黄仁勋表示，他预期中国当局最终会允许从美国进口人工智能芯片，这是新的事实。
 - [美国正式放行英伟达对华出口H200芯片，但附加三大苛刻条件](https://www.jfdaily.com/wx/detail.do?id=1051608) — 美国政府正式批准英伟达对华出口其人工智能（AI）芯片H200，并附加了苛刻条件，这是新的事实。
 - [Beijing says China, US should work together to promote AI ...](https://www.france24.com/en/live-news/20260519-beijing-says-china-us-should-work-together-to-promote-ai-governance) — 北京表示中国和美国应共同努力促进人工智能治理，这是新的事实。
+### 2026-06-12
+- [美國貿易代表：中美會談未深入討論芯片出口管制](https://hk.finance.yahoo.com/news/%E7%BE%8E%E5%9C%8B%E8%B2%BF%E6%98%93%E4%BB%A3%E8%A1%A8-%E4%B8%AD%E7%BE%8E%E6%9C%83%E8%AB%87%E6%9C%AA%E6%B7%B1%E5%85%A5%E8%A8%8E%E8%AB%96%E8%8A%AF%E7%89%87%E5%87%BA%E5%8F%A3%E7%AE%A1%E5%88%B6-024256877.html) — 美国贸易代表表示，中美会谈未深入讨论芯片出口管制，但英伟达CEO黄仁勋与中方就公司业务进行了交流，且是否购买英伟达芯片的决定权在中方。
+
