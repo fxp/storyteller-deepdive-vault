@@ -4,12 +4,12 @@ title: 华为昇腾芯片生态规模化（国产算力闭环 vs HBM 瓶颈）
 seed_url: https://techblog.comsoc.org/2025/10/02/huawei-to-double-output-of-ascend-ai-chips-in-2026-openai-orders-hbm-chips-from-sk-hynix-samsung-for-stargate-uae-project/
 published_date: 2025-10-02
 status: HOT
-last_check: 2026-06-11T20:46
-last_activity: '2026-06-11'
-next_check: 2026-06-11T23:46
+last_check: 2026-06-12T00:34
+last_activity: '2026-06-12'
+next_check: 2026-06-12T03:34
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 35
+findings_count: 38
 tags:
 - tracker
 - HOT
@@ -119,4 +119,8 @@ search_queries:
 ### 2026-06-11
 - [Nvidia falters in China; Huawei moves to fill AI chip vacuum](https://www.digitimes.com/news/a20250930PD248/ai-chip-china-huawei-ascend-nvidia.html) — 华为计划在2026年生产约600,000个Ascend 910C芯片，总产量达到1.6百万个，比2025年产量翻倍。
 - [Competing AI strategies for the US and China | Brookings](https://www.brookings.edu/articles/competing-ai-strategies-for-the-us-and-china) — 美国AI领导者正在合作防止未来的蒸馏活动，特别是通过信息共享。华为最新的Ascend 950PR芯片预计将扩大到750,000个单位的生产规模。
+### 2026-06-12
+- [CXMT, Huawei align on HBM3 ahead of China's 2026 AI memory leap](https://www.digitimes.com/news/a20251023PD208/cxmt-hbm3-2026-dram-huawei.html) — 华为与CXMT合作，提前准备HBM3，以支持中国2026年AI内存的飞跃，这是历史发现中未出现的新事实。
+- [电子行业周报：昇腾950代际步入正式商用算力国产链值得持续关注](https://stock.finance.sina.com.cn/stock/view/paper.php?symbol=sh000001&reportid=829413104576) — 文章讨论了华为昇腾芯片的演进和目标，包括Ascend 950系列的商用，这是历史发现中未出现的新事实。
+- [华为Ai芯片昇腾910/B/C到910D对标英伟达H100——期待的920在超赶路上了-一牛网](https://m.16rd.com/writings-864770-1.html) — 文章讨论了华为昇腾芯片系列从910到910D的技术突破，与事件相关，但包含历史发现中已出现的事实。
 

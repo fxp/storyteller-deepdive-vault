@@ -4,12 +4,12 @@ title: 【预期事件】AI IPO 引发行业估值重定价
 seed_url: https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-11T20:46
-last_activity: '2026-06-11'
-next_check: 2026-06-11T23:46
+last_check: 2026-06-12T00:34
+last_activity: '2026-06-12'
+next_check: 2026-06-12T03:34
 interval_hours: 3
-consecutive_empty: 1
-findings_count: 17
+consecutive_empty: 0
+findings_count: 19
 tags:
 - tracker
 - HOT
@@ -97,3 +97,7 @@ search_queries:
 - [OpenAI IPO: what investors need to know in 2026 | CMC Markets](https://www.cmcmarkets.com/en-gb/ipo-trading/open-ai-ipo) — 文章提供了投资者在2026年需要了解的关于OpenAI IPO的信息。
 ### 2026-06-11
 - [SpaceX Seeks $1.77Tr Valuation, Anthropic Files for IPO, OpenAI ...](https://bvwd.ca.gov/expert-time/AI-Boom-Intensifies-SpaceX-Seeks-177Tr-Valuation-Anthropic-Files-for-IPO-OpenAI-Expected-to-Follow-31-13264) — SpaceX寻求1770亿美元的估值，Anthropic提交IPO申请，OpenAI预计将跟进。
+### 2026-06-12
+- [OpenAI has filed for a confidential IPO, following Anthropic's lead, as ...](https://www.facebook.com/mint.live/posts/openai-has-filed-for-a-confidential-ipo-following-anthropics-lead-as-both-aim-fo/1457933049709744) — OpenAI 已提交保密IPO申请，跟随Anthropic的步伐，两者都旨在...
+- [OpenAI vs. Anthropic Explained: Business Models, Valuations & IPO ...](https://www.youtube.com/watch?v=u6X67nHDGxg) — OpenAI与Anthropic的业务模式、估值和IPO分析
+
