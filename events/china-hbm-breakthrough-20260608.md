@@ -3,16 +3,16 @@ id: china-hbm-breakthrough-20260608
 title: 【预期事件】长鑫存储突破 HBM，华为昇腾实现国产算力完全闭环
 seed_url: https://techblog.comsoc.org/2025/10/02/huawei-to-double-output-of-ascend-ai-chips-in-2026-openai-orders-hbm-chips-from-sk-hynix-samsung-for-stargate-uae-project/
 published_date: 2026-06-08
-status: ACTIVE
-last_check: 2026-06-12T18:36
-last_activity: '2026-06-11'
-next_check: 2026-06-13T00:36
-interval_hours: 6
-consecutive_empty: 5
-findings_count: 14
+status: HOT
+last_check: 2026-06-13T03:03
+last_activity: '2026-06-13'
+next_check: 2026-06-13T06:03
+interval_hours: 3
+consecutive_empty: 0
+findings_count: 16
 tags:
 - tracker
-- ACTIVE
+- HOT
 entities:
   orgs:
   - 长鑫存储（CXMT）
@@ -97,3 +97,7 @@ search_queries:
 1. Suggests SMIC capacity at 5-7nm is no longer a problem
 
 2. At the node or cluster level HW may be competitive with Nvidia even if they continue to lag at the](https://x.com/hsu_steve/status/1968629241106366878) — 华为宣布了其AI芯片路线图，包括2026年Ascend 950将使用HW开发的HBM。
+### 2026-06-13
+- [Jukan on X: "CXMT, Huawei align on HBM3 ahead of China's 2026 AI memory leap High-bandwidth memory (HBM) has become the latest competitive front for global DRAM manufacturers. As Samsung, SK Hynix, and Micron gear up for HBM4 mass production in 2026, China's CXMT has reportedly delivered https://t.co/tcBdMincHb" / X](https://x.com/jukan05/status/1982405637326966817) — 长鑫存储向华为交付了HBM3样品，为2026年大规模制造做准备。
+- [Jukan on X: "Report: China’s semiconductor rise a “threat,” HBM3 mass production imminent… “CXMT’s performance is solid” “Frankly, if you look only at good units, the specs of Chinese memory chipmakers’ products are quite respectable in terms of density, quality, and speed. The gap with the https://t.co/sED9fh7PNC" / X](https://x.com/jukan05/status/1955045665287123206) — 中国半导体行业的崛起被视为“威胁”，HBM3的大规模生产即将到来。
+

@@ -4,12 +4,12 @@ title: 【预期事件】首个企业级 AI Agent 重大事故引发监管响应
 seed_url: https://joget.com/ai-agent-adoption-in-2026-what-the-analysts-data-shows/
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-12T22:29
-last_activity: '2026-06-12'
-next_check: 2026-06-13T01:29
+last_check: 2026-06-13T03:03
+last_activity: '2026-06-13'
+next_check: 2026-06-13T06:03
 interval_hours: 3
-consecutive_empty: 1
-findings_count: 44
+consecutive_empty: 0
+findings_count: 45
 tags:
 - tracker
 - HOT
@@ -127,3 +127,6 @@ search_queries:
 - [Instagram](https://www.instagram.com/reel/DYz1wX2or5_) — Emergence AI进行了一次引人入胜的AI代理测试，这是新的事实。
 - [How can AI agents fail or malfunction? 2026 guide - Educative.io](https://www.educative.io/blog/how-ai-agents-fail) — 文章讨论了AI代理可能出现的故障和故障原因，提供了新的事实。
 - [AI Model Misbehavior in 2026: Scheming, Reward Hacking, and What Comes Next](https://hatchworks.com/blog/gen-ai/ai-model-misbehavior) — 文章讨论了2026年AI模型的不当行为，提供了新的事实。
+### 2026-06-13
+- [Enterprise AI Agents: 5 Proven Reasons 88% Fail Production in 2026](https://www.velsof.com/ai-automation/enterprise-ai-agents-fail-production-2026) — 揭示了88%的企业级AI代理在2026年无法从试点阶段成功过渡到生产阶段的新事实。
+
