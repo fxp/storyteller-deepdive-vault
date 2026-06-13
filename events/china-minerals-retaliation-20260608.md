@@ -4,12 +4,12 @@ title: 【预期事件】中国对关键矿产发布报复性出口限制
 seed_url: https://bisi.org.uk/reports/ai-chip-smuggling-the-limits-of-us-export-controls
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-13T00:34
-last_activity: '2026-06-12'
-next_check: 2026-06-13T03:34
+last_check: 2026-06-13T05:28
+last_activity: '2026-06-13'
+next_check: 2026-06-13T08:28
 interval_hours: 3
-consecutive_empty: 1
-findings_count: 36
+consecutive_empty: 0
+findings_count: 37
 tags:
 - tracker
 - HOT
@@ -126,3 +126,6 @@ search_queries:
 - [ASML Faces New China Export Restrictions: Will It Threaten Growth?](https://marketwise.com/investing/asml-earnings-china-export-restrictions-ai-chip-demand) — ASML面临新的中国出口限制，可能威胁其增长。
 ### 2026-06-12
 - [Tungsten Supply Crunch: How China's Export Restrictions Rattled ...](https://theoregongroup.com/commodities/tungsten/tungsten-supply-crunch-how-chinas-export-restrictions-rattled-global-markets-guest-post-by-brian-hendrich) — 文章指出北京扩大了出口管制清单，包括多种钨化合物，这是新事实。
+### 2026-06-13
+- [北京限制战略金属出口将会造成中国供应过剩](https://www.voachinese.com/a/beijing-s-curbs-on-niche-metal-exports-threaten-china-supply-glut-20230706/7170240.html) — 北京限制战略金属出口，可能导致中国供应过剩，这是新事实。
+

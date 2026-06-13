@@ -1,17 +1,17 @@
 ---
 event: "[[huawei-ascend-ecosystem-20260608]]"
 date: 2026-06-13
-url: "https://x.com/jukan05/status/1982405637326966817"
-source_title: "CXMT, Huawei align on HBM3 ahead of China's 2026 AI ..."
+url: "https://action.alz.org/first-dry/Tencent-Holdings-Limited-TCEHY-Poised-for-AI-Revenue-Growth-Amid-Huawei-Ascend-Chip-Procurement-Surge-11-2701"
+source_title: "Tencent Holdings Limited (TCEHY) - Poised for AI Revenue Growth ..."
 relevance: RELEVANT
 ---
 
-# CXMT, Huawei align on HBM3 ahead of China's 2026 AI ...
+# Tencent Holdings Limited (TCEHY) - Poised for AI Revenue Growth ...
 
-**来源**: [CXMT, Huawei align on HBM3 ahead of China's 2026 AI ...](https://x.com/jukan05/status/1982405637326966817)
+**来源**: [Tencent Holdings Limited (TCEHY) - Poised for AI Revenue Growth ...](https://action.alz.org/first-dry/Tencent-Holdings-Limited-TCEHY-Poised-for-AI-Revenue-Growth-Amid-Huawei-Ascend-Chip-Procurement-Surge-11-2701)
 **发现时间**: 2026-06-13
 **所属事件**: [[huawei-ascend-ecosystem-20260608]]
 
 ## 摘要
 
-华为与CXMT合作，提前交付16nm HBM3样品，支持中国2026年AI内存的飞跃。
+腾讯计划采购华为昇腾950PR AI芯片，这是历史发现中未出现的新事实。
