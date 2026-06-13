@@ -4,12 +4,12 @@ title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折�
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
 status: HOT
-last_check: 2026-06-13T10:45
+last_check: 2026-06-13T14:42
 last_activity: '2026-06-13'
-next_check: 2026-06-13T13:45
+next_check: 2026-06-13T17:42
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 137
+findings_count: 138
 tags:
 - tracker
 - HOT
@@ -312,4 +312,6 @@ Guo Jiakun briefing 2026, Trump Xi AI agreement, US China artificial intelligenc
 - [突破！华为Atlas 350正式上市，算力碾压英伟达H20 - 腾讯云](https://cloud.tencent.com/developer/article/2648140) — 华为Atlas 350正式上市，市场份额提升至50%，成为AI加速器市场绝对主力。
 ### 2026-06-13
 - [黄仁勋：英伟达已将中国AI芯片市场，拱手让给华为](https://www.163.com/dy/article/KTHLJ0SA0511AKQE.html) — 华为预计将在2026年占据中国AI芯片市场50%的份额，超越英伟达成为国内第一大供应商。
+### 2026-06-13
+- [US China Chip Export Controls H200 2026: The Policy Shift Explained](https://semiconductorsinsight.com/us-china-chip-export-controls-h200-2026) — 美国商务部批准了包括阿里巴巴、腾讯、字节跳动和京东在内的约10家中国科技公司购买英伟达的H200人工智能芯片。
 
