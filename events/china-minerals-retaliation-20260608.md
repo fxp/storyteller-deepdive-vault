@@ -4,12 +4,12 @@ title: 【预期事件】中国对关键矿产发布报复性出口限制
 seed_url: https://bisi.org.uk/reports/ai-chip-smuggling-the-limits-of-us-export-controls
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-13T16:27
+last_check: 2026-06-13T20:26
 last_activity: '2026-06-13'
-next_check: 2026-06-13T19:27
+next_check: 2026-06-13T23:26
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 38
+findings_count: 40
 tags:
 - tracker
 - HOT
@@ -130,4 +130,7 @@ search_queries:
 - [北京限制战略金属出口将会造成中国供应过剩](https://www.voachinese.com/a/beijing-s-curbs-on-niche-metal-exports-threaten-china-supply-glut-20230706/7170240.html) — 北京限制战略金属出口，可能导致中国供应过剩，这是新事实。
 ### 2026-06-13
 - [中批准向美出口某些稀有金属 - RFI - 法国国际广播电台](https://www.rfi.fr/cn/%E4%B8%AD%E5%9B%BD/20251109-%E4%B8%AD%E6%89%B9%E5%87%86%E5%90%91%E7%BE%8E%E5%87%BA%E5%8F%A3%E6%9F%90%E4%BA%9B%E7%A8%80%E6%9C%89%E9%87%91%E5%B1%9E) — 中国批准向美国出口某些稀有金属，这是新事实。
+### 2026-06-13
+- [U.S. and China tighten respective export restrictions on advanced ...](https://www.eversheds-sutherland.com/en/united-states/insights/us-and-china-tighten-respective-export-restrictions-on-advanced-technology-and-critical-minerals) — 文章提到美国和中国都在加强各自的出口限制，包括对先进技术和关键矿物的限制，这是一个新事实。
+- [Do China’s export curbs on tungsten threaten Japan’s AI chip supply chain? | South China Morning Post](https://www.scmp.com/economy/global-economy/article/3356921/do-chinas-export-curbs-tungsten-threaten-japans-ai-chip-supply-chain) — 文章讨论了中国对钨的出口限制可能威胁到日本的AI芯片供应链，这是一个新事实。
 

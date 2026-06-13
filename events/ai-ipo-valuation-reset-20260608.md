@@ -4,12 +4,12 @@ title: 【预期事件】AI IPO 引发行业估值重定价
 seed_url: https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-13T16:27
+last_check: 2026-06-13T20:26
 last_activity: '2026-06-13'
-next_check: 2026-06-13T19:27
+next_check: 2026-06-13T23:26
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 27
+findings_count: 30
 tags:
 - tracker
 - HOT
@@ -113,4 +113,8 @@ search_queries:
 ### 2026-06-13
 - [50 Top AI Funded Startups (June 2026)](https://aifundingtracker.com/top-50-ai-startups) — 文章提供了AI初创公司Claude的最新估值信息，这是历史发现中未出现的新事实。
 - [Top Generative AI Startups by Valuation (2026)](https://newmarketpitch.com/blogs/news/generative-ai-top-startups-valuation) — 文章列出了2026年估值最高的AI初创公司，包括新的估值信息。
+### 2026-06-13
+- [Sky-High I.P.O. Pricing Isn't Great for Real People - ny times](https://www.nytimes.com/2026/05/29/business/spacex-openai-anthropic-ipo-invest.html) — 文章讨论了Sky-High I.P.O. Pricing对普通人的影响，可能包含对AI IPO估值的新观点。
+- [AI Bubble vs. Dot-com Bubble: A Data-Driven Comparison | IntuitionLabs](https://intuitionlabs.ai/articles/ai-bubble-vs-dot-com-comparison) — 文章比较了AI泡沫和互联网泡沫，可能包含对AI IPO的新观点。
+- [Stock Market Bubble: IPO Boom May Mark Peak of AI-Fueled Rally - Business Insider](https://www.businessinsider.com/stock-market-bubble-ipo-boom-ai-rally-peak-dot-com-2026-6) — 文章讨论了AI IPO繁荣可能标志着AI驱动的市场的顶峰。
 
