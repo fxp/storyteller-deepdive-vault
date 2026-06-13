@@ -4,12 +4,12 @@ title: 前沿模型月更竞速（Claude vs GPT vs Gemini vs Grok vs Kimi）
 seed_url: https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html
 published_date: 2026-06-01
 status: HOT
-last_check: 2026-06-12T20:42
-last_activity: '2026-06-12'
-next_check: 2026-06-12T23:42
+last_check: 2026-06-13T00:34
+last_activity: '2026-06-13'
+next_check: 2026-06-13T03:34
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 56
+findings_count: 58
 tags:
 - tracker
 - HOT
@@ -155,4 +155,7 @@ search_queries:
 - [AI Models Compared 2026: GPT 5.5 vs Claude 4.7 vs Kimi K2.6 ...](https://divkix.me/blog/ai-models-compared-2026) — 比较了2026年四个AI模型的性能，包括GPT 5.5, Claude 4.7, Kimi K2.6等，提供了新的基准比较数据。
 ### 2026-06-12
 - [ARC-AGI-2](https://arcprize.org/arc-agi/2) — 介绍了ARC-AGI-2作为AI推理系统能力测试的新基准，这是一个新的事实。
+### 2026-06-13
+- [Best AI Model in 2026: ChatGPT vs Claude vs Gemini Compared](https://sureprompts.com/blog/complete-guide-ai-models-2026) — Gemini 2.5 Flash具有最佳性价比，Claude Opus 4.6在深度推理方面领先，所有消费者计划每月20美元。
+- [DeepSeek previews new AI model that 'closes the gap' with frontier ...](https://techcrunch.com/2026/04/24/deepseek-previews-new-ai-model-that-closes-the-gap-with-frontier-models) — DeepSeek预览了新的AI模型，该模型在性能上缩小了与前沿模型的差距。
 
