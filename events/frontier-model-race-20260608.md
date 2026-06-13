@@ -4,12 +4,12 @@ title: 前沿模型月更竞速（Claude vs GPT vs Gemini vs Grok vs Kimi）
 seed_url: https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html
 published_date: 2026-06-01
 status: HOT
-last_check: 2026-06-13T12:31
+last_check: 2026-06-13T16:27
 last_activity: '2026-06-13'
-next_check: 2026-06-13T15:31
+next_check: 2026-06-13T19:27
 interval_hours: 3
-consecutive_empty: 1
-findings_count: 61
+consecutive_empty: 0
+findings_count: 62
 tags:
 - tracker
 - HOT
@@ -163,3 +163,6 @@ search_queries:
 - [No single best open-source AI model exists - Facebook](https://www.facebook.com/groups/vibecodinglife/posts/2028608214394372) — DeepSeek V4.0和Kimi K2.6 DeepSeek 58等开源AI模型在2026年表现出色，这是一个新的事实。
 ### 2026-06-13
 - [AI Frontier Model Tracker | DemandSphere](https://www.demandsphere.com/research/demandsphere-radar/ai-frontier-model-tracker) — DemandSphere推出了AI Frontier Model Tracker，这是一个新的AI模型比较工具和排行榜，覆盖了42个前沿大型语言模型。
+### 2026-06-13
+- [Kimi K2.6, GPT 5.5, Deepseek V4, Codex Superapp ... - YouTube](https://www.youtube.com/watch?v=F1POR_pzsew) — Kimi K2.6、GPT 5.5、Deepseek V4、Codex Superapp等新模型或应用发布，以及Gemi 3.5和Grok 5的进展。
+

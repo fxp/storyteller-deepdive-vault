@@ -4,12 +4,12 @@ title: 【预期事件】中国对关键矿产发布报复性出口限制
 seed_url: https://bisi.org.uk/reports/ai-chip-smuggling-the-limits-of-us-export-controls
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-13T12:31
+last_check: 2026-06-13T16:27
 last_activity: '2026-06-13'
-next_check: 2026-06-13T15:31
+next_check: 2026-06-13T19:27
 interval_hours: 3
-consecutive_empty: 2
-findings_count: 37
+consecutive_empty: 0
+findings_count: 38
 tags:
 - tracker
 - HOT
@@ -128,3 +128,6 @@ search_queries:
 - [Tungsten Supply Crunch: How China's Export Restrictions Rattled ...](https://theoregongroup.com/commodities/tungsten/tungsten-supply-crunch-how-chinas-export-restrictions-rattled-global-markets-guest-post-by-brian-hendrich) — 文章指出北京扩大了出口管制清单，包括多种钨化合物，这是新事实。
 ### 2026-06-13
 - [北京限制战略金属出口将会造成中国供应过剩](https://www.voachinese.com/a/beijing-s-curbs-on-niche-metal-exports-threaten-china-supply-glut-20230706/7170240.html) — 北京限制战略金属出口，可能导致中国供应过剩，这是新事实。
+### 2026-06-13
+- [中批准向美出口某些稀有金属 - RFI - 法国国际广播电台](https://www.rfi.fr/cn/%E4%B8%AD%E5%9B%BD/20251109-%E4%B8%AD%E6%89%B9%E5%87%86%E5%90%91%E7%BE%8E%E5%87%BA%E5%8F%A3%E6%9F%90%E4%BA%9B%E7%A8%80%E6%9C%89%E9%87%91%E5%B1%9E) — 中国批准向美国出口某些稀有金属，这是新事实。
+

@@ -4,12 +4,12 @@ title: 【预期事件】AI IPO 引发行业估值重定价
 seed_url: https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-13T12:31
+last_check: 2026-06-13T16:27
 last_activity: '2026-06-13'
-next_check: 2026-06-13T15:31
+next_check: 2026-06-13T19:27
 interval_hours: 3
-consecutive_empty: 2
-findings_count: 25
+consecutive_empty: 0
+findings_count: 27
 tags:
 - tracker
 - HOT
@@ -110,3 +110,7 @@ search_queries:
 - [Anthropic and OpenAI IPO timelines and valuations - FutureSearch](https://futuresearch.ai/anthropic-openai-ipo-dates-valuations) — 提供了Anthropic和OpenAI的IPO时间表和估值预测，包含新的公司模型和财务预测信息。
 ### 2026-06-13
 - [Anthropic moves toward IPO, stepping up race with OpenAI](https://www.reuters.com/business/ai-giant-anthropic-confidentially-files-us-ipo-2026-06-01) — Anthropic 秘密提交美国IPO申请，与OpenAI竞争IPO速度。
+### 2026-06-13
+- [50 Top AI Funded Startups (June 2026)](https://aifundingtracker.com/top-50-ai-startups) — 文章提供了AI初创公司Claude的最新估值信息，这是历史发现中未出现的新事实。
+- [Top Generative AI Startups by Valuation (2026)](https://newmarketpitch.com/blogs/news/generative-ai-top-startups-valuation) — 文章列出了2026年估值最高的AI初创公司，包括新的估值信息。
+

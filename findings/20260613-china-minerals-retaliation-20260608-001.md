@@ -1,17 +1,17 @@
 ---
 event: "[[china-minerals-retaliation-20260608]]"
 date: 2026-06-13
-url: "https://www.voachinese.com/a/beijing-s-curbs-on-niche-metal-exports-threaten-china-supply-glut-20230706/7170240.html"
-source_title: "北京限制战略金属出口将会造成中国供应过剩"
+url: "https://www.rfi.fr/cn/%E4%B8%AD%E5%9B%BD/20251109-%E4%B8%AD%E6%89%B9%E5%87%86%E5%90%91%E7%BE%8E%E5%87%BA%E5%8F%A3%E6%9F%90%E4%BA%9B%E7%A8%80%E6%9C%89%E9%87%91%E5%B1%9E"
+source_title: "中批准向美出口某些稀有金属 - RFI - 法国国际广播电台"
 relevance: RELEVANT
 ---
 
-# 北京限制战略金属出口将会造成中国供应过剩
+# 中批准向美出口某些稀有金属 - RFI - 法国国际广播电台
 
-**来源**: [北京限制战略金属出口将会造成中国供应过剩](https://www.voachinese.com/a/beijing-s-curbs-on-niche-metal-exports-threaten-china-supply-glut-20230706/7170240.html)
+**来源**: [中批准向美出口某些稀有金属 - RFI - 法国国际广播电台](https://www.rfi.fr/cn/%E4%B8%AD%E5%9B%BD/20251109-%E4%B8%AD%E6%89%B9%E5%87%86%E5%90%91%E7%BE%8E%E5%87%BA%E5%8F%A3%E6%9F%90%E4%BA%9B%E7%A8%80%E6%9C%89%E9%87%91%E5%B1%9E)
 **发现时间**: 2026-06-13
 **所属事件**: [[china-minerals-retaliation-20260608]]
 
 ## 摘要
 
-北京限制战略金属出口，可能导致中国供应过剩，这是新事实。
+中国批准向美国出口某些稀有金属，这是新事实。
