@@ -4,12 +4,12 @@ title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折�
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
 status: HOT
-last_check: 2026-06-13T14:42
+last_check: 2026-06-13T18:25
 last_activity: '2026-06-13'
-next_check: 2026-06-13T17:42
+next_check: 2026-06-13T21:25
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 138
+findings_count: 139
 tags:
 - tracker
 - HOT
@@ -314,4 +314,6 @@ Guo Jiakun briefing 2026, Trump Xi AI agreement, US China artificial intelligenc
 - [黄仁勋：英伟达已将中国AI芯片市场，拱手让给华为](https://www.163.com/dy/article/KTHLJ0SA0511AKQE.html) — 华为预计将在2026年占据中国AI芯片市场50%的份额，超越英伟达成为国内第一大供应商。
 ### 2026-06-13
 - [US China Chip Export Controls H200 2026: The Policy Shift Explained](https://semiconductorsinsight.com/us-china-chip-export-controls-h200-2026) — 美国商务部批准了包括阿里巴巴、腾讯、字节跳动和京东在内的约10家中国科技公司购买英伟达的H200人工智能芯片。
+### 2026-06-13
+- [商务部新闻发言人就美国商务部调整芯片出口管制有关表述答记者问](https://www.mofcom.gov.cn/xwfb/xwfyrth/art/2025/art_89c5c1d493dd4ae48f25daba13087632.html) — 商务部新闻发言人就美国商务部调整芯片出口管制有关表述答记者问，指出美方行为严重破坏中美日内瓦高层会谈共识，要求美方纠偏纠错。
 
