@@ -1,17 +1,17 @@
 ---
 event: "[[huawei-ascend-ecosystem-20260608]]"
 date: 2026-06-13
-url: "https://action.alz.org/first-dry/Tencent-Holdings-Limited-TCEHY-Poised-for-AI-Revenue-Growth-Amid-Huawei-Ascend-Chip-Procurement-Surge-11-2701"
-source_title: "Tencent Holdings Limited (TCEHY) - Poised for AI Revenue Growth ..."
+url: "https://www.reddit.com/r/technology/comments/1qjlzh5/chinese_semiconductor_industry_gears_up_for"
+source_title: "Chinese semiconductor industry gears up for domestic HBM3 ..."
 relevance: RELEVANT
 ---
 
-# Tencent Holdings Limited (TCEHY) - Poised for AI Revenue Growth ...
+# Chinese semiconductor industry gears up for domestic HBM3 ...
 
-**来源**: [Tencent Holdings Limited (TCEHY) - Poised for AI Revenue Growth ...](https://action.alz.org/first-dry/Tencent-Holdings-Limited-TCEHY-Poised-for-AI-Revenue-Growth-Amid-Huawei-Ascend-Chip-Procurement-Surge-11-2701)
+**来源**: [Chinese semiconductor industry gears up for domestic HBM3 ...](https://www.reddit.com/r/technology/comments/1qjlzh5/chinese_semiconductor_industry_gears_up_for)
 **发现时间**: 2026-06-13
 **所属事件**: [[huawei-ascend-ecosystem-20260608]]
 
 ## 摘要
 
-腾讯计划采购华为昇腾950PR AI芯片，这是历史发现中未出现的新事实。
+文章提到中国半导体行业准备在国内生产HBM3，这是华为昇腾芯片生态规模化的一部分。

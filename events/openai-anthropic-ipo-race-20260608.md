@@ -4,12 +4,12 @@ title: OpenAI × Anthropic 双 IPO 竞赛（AI 行业最大资本事件）
 seed_url: https://fortune.com/2026/06/01/anthropic-confidentially-files-ipo-965-billion-valuation/
 published_date: 2026-06-01
 status: HOT
-last_check: 2026-06-13T05:28
+last_check: 2026-06-13T09:01
 last_activity: '2026-06-13'
-next_check: 2026-06-13T08:28
+next_check: 2026-06-13T12:01
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 55
+findings_count: 56
 tags:
 - tracker
 - HOT
@@ -155,4 +155,6 @@ Anthropic was valued at $965 billion in its latest funding round, officially sur
 - [Anthropic Pre-IPO Tokens Push Onchain Valuation to $1 Trillion](https://www.ainvest.com/news/anthropic-pre-ipo-tokens-push-onchain-valuation-1-trillion-2604) — Anthropic的链上估值达到1万亿美元，这是新事实。
 - [Anthropic IPO 2026 — Date, Valuation ($380B), Timeline & How to Invest | TechStackIPO](https://www.techstackipo.com/ipo/anthropic) — Anthropic选择了摩根士丹利和高盛作为其IPO的主承销商，这是新事实。
 - [Morgan Stanley, Goldman Sachs to Lead Anthropic IPO - Bloomberg](https://www.bloomberg.com/news/articles/2026-06-03/anthropic-said-to-pick-morgan-stanley-goldman-sachs-to-lead-ipo) — Anthropic选择了摩根士丹利和高盛作为其IPO的主承销商，这是新事实。
+### 2026-06-13
+- [Markman’s Substack | Substack](https://markmancapitalinsight.substack.com/p/anthropic-files-ipo-paperwork-at) — Anthropic向美国证券交易委员会提交了IPO招股说明书，准备公开市场上市。
 
