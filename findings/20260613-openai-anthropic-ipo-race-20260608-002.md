@@ -1,17 +1,17 @@
 ---
 event: "[[openai-anthropic-ipo-race-20260608]]"
 date: 2026-06-13
-url: "https://mexicobusiness.news/cloudanddata/news/anthropic-eyes-2026-ipo-valuation-soars-past-us300-billion"
-source_title: "Anthropic Eyes 2026 IPO as Valuation Soars Past US$300 Billion"
+url: "https://futuresearch.ai/openai-revenue-forecast"
+source_title: "OpenAI Revenue, Losses, and Profitability in 2026 - FutureSearch"
 relevance: RELEVANT
 ---
 
-# Anthropic Eyes 2026 IPO as Valuation Soars Past US$300 Billion
+# OpenAI Revenue, Losses, and Profitability in 2026 - FutureSearch
 
-**来源**: [Anthropic Eyes 2026 IPO as Valuation Soars Past US$300 Billion](https://mexicobusiness.news/cloudanddata/news/anthropic-eyes-2026-ipo-valuation-soars-past-us300-billion)
+**来源**: [OpenAI Revenue, Losses, and Profitability in 2026 - FutureSearch](https://futuresearch.ai/openai-revenue-forecast)
 **发现时间**: 2026-06-13
 **所属事件**: [[openai-anthropic-ipo-race-20260608]]
 
 ## 摘要
 
-Anthropic的估值超过3000亿美元，这是新事实。
+Sam Altman表示，截至2024年6月，OpenAI的年度收入为34亿美元。

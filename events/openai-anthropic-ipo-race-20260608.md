@@ -4,12 +4,12 @@ title: OpenAI × Anthropic 双 IPO 竞赛（AI 行业最大资本事件）
 seed_url: https://fortune.com/2026/06/01/anthropic-confidentially-files-ipo-965-billion-valuation/
 published_date: 2026-06-01
 status: HOT
-last_check: 2026-06-13T09:01
+last_check: 2026-06-13T12:31
 last_activity: '2026-06-13'
-next_check: 2026-06-13T12:01
+next_check: 2026-06-13T15:31
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 56
+findings_count: 59
 tags:
 - tracker
 - HOT
@@ -157,4 +157,8 @@ Anthropic was valued at $965 billion in its latest funding round, officially sur
 - [Morgan Stanley, Goldman Sachs to Lead Anthropic IPO - Bloomberg](https://www.bloomberg.com/news/articles/2026-06-03/anthropic-said-to-pick-morgan-stanley-goldman-sachs-to-lead-ipo) — Anthropic选择了摩根士丹利和高盛作为其IPO的主承销商，这是新事实。
 ### 2026-06-13
 - [Markman’s Substack | Substack](https://markmancapitalinsight.substack.com/p/anthropic-files-ipo-paperwork-at) — Anthropic向美国证券交易委员会提交了IPO招股说明书，准备公开市场上市。
+### 2026-06-13
+- [OpenAI IPO 2026: Date, Valuation and How to Trade | ThinkMarkets](https://www.thinkmarkets.com/en/trading-academy/market-events/openai-ipo-2026-date-valuation-and-how-to-trade) — OpenAI 2024年收入预计达到37亿美元。
+- [OpenAI Revenue, Losses, and Profitability in 2026 - FutureSearch](https://futuresearch.ai/openai-revenue-forecast) — Sam Altman表示，截至2024年6月，OpenAI的年度收入为34亿美元。
+- [Goldman Sachs, Morgan Stanley vie for roles in Anthropic IPO | News | chicagostarmedia.com](https://www.chicagostarmedia.com/news/and-the-winner-is-goldman-sachs-morgan-stanley-vie-for-roles-in-anthropic-openai-ipo/article_2dcf2451-52e3-4d82-966d-937c89b1db34.html) — 高盛和摩根士丹利争夺Anthropic IPO的主承销商角色。
 

@@ -4,11 +4,11 @@ title: 华为昇腾芯片生态规模化（国产算力闭环 vs HBM 瓶颈）
 seed_url: https://techblog.comsoc.org/2025/10/02/huawei-to-double-output-of-ascend-ai-chips-in-2026-openai-orders-hbm-chips-from-sk-hynix-samsung-for-stargate-uae-project/
 published_date: 2025-10-02
 status: HOT
-last_check: 2026-06-13T09:01
+last_check: 2026-06-13T12:31
 last_activity: '2026-06-13'
-next_check: 2026-06-13T12:01
+next_check: 2026-06-13T15:31
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 42
 tags:
 - tracker
@@ -131,4 +131,3 @@ search_queries:
 - [Tencent Holdings Limited (TCEHY) - Poised for AI Revenue Growth ...](https://action.alz.org/first-dry/Tencent-Holdings-Limited-TCEHY-Poised-for-AI-Revenue-Growth-Amid-Huawei-Ascend-Chip-Procurement-Surge-11-2701) — 腾讯计划采购华为昇腾950PR AI芯片，这是历史发现中未出现的新事实。
 ### 2026-06-13
 - [Chinese semiconductor industry gears up for domestic HBM3 ...](https://www.reddit.com/r/technology/comments/1qjlzh5/chinese_semiconductor_industry_gears_up_for) — 文章提到中国半导体行业准备在国内生产HBM3，这是华为昇腾芯片生态规模化的一部分。
-
