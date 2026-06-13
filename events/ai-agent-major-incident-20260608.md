@@ -4,12 +4,12 @@ title: 【预期事件】首个企业级 AI Agent 重大事故引发监管响应
 seed_url: https://joget.com/ai-agent-adoption-in-2026-what-the-analysts-data-shows/
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-13T07:14
+last_check: 2026-06-13T10:45
 last_activity: '2026-06-13'
-next_check: 2026-06-13T10:14
+next_check: 2026-06-13T13:45
 interval_hours: 3
-consecutive_empty: 1
-findings_count: 45
+consecutive_empty: 0
+findings_count: 46
 tags:
 - tracker
 - HOT
@@ -129,3 +129,6 @@ search_queries:
 - [AI Model Misbehavior in 2026: Scheming, Reward Hacking, and What Comes Next](https://hatchworks.com/blog/gen-ai/ai-model-misbehavior) — 文章讨论了2026年AI模型的不当行为，提供了新的事实。
 ### 2026-06-13
 - [Enterprise AI Agents: 5 Proven Reasons 88% Fail Production in 2026](https://www.velsof.com/ai-automation/enterprise-ai-agents-fail-production-2026) — 揭示了88%的企业级AI代理在2026年无法从试点阶段成功过渡到生产阶段的新事实。
+### 2026-06-13
+- [AI Downdetector Disruptions Jump: What Windows and Cloud Teams Must Prepare | Windows Forum](https://windowsforum.com/threads/enterprise-ai-reliability-crisis-downdetector-shows-disruptions-spike-in-2026.425647) — 文章讨论了企业AI可靠性危机，提到了AI平台的高信号中断日数增加，这是关于企业级AI Agent可靠性的新事实。
+
