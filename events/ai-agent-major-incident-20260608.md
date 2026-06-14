@@ -4,12 +4,12 @@ title: 【预期事件】首个企业级 AI Agent 重大事故引发监管响应
 seed_url: https://joget.com/ai-agent-adoption-in-2026-what-the-analysts-data-shows/
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-13T22:21
-last_activity: '2026-06-13'
-next_check: 2026-06-14T01:21
+last_check: 2026-06-14T03:04
+last_activity: '2026-06-14'
+next_check: 2026-06-14T06:04
 interval_hours: 3
-consecutive_empty: 3
-findings_count: 46
+consecutive_empty: 0
+findings_count: 47
 tags:
 - tracker
 - HOT
@@ -131,3 +131,6 @@ search_queries:
 - [Enterprise AI Agents: 5 Proven Reasons 88% Fail Production in 2026](https://www.velsof.com/ai-automation/enterprise-ai-agents-fail-production-2026) — 揭示了88%的企业级AI代理在2026年无法从试点阶段成功过渡到生产阶段的新事实。
 ### 2026-06-13
 - [AI Downdetector Disruptions Jump: What Windows and Cloud Teams Must Prepare | Windows Forum](https://windowsforum.com/threads/enterprise-ai-reliability-crisis-downdetector-shows-disruptions-spike-in-2026.425647) — 文章讨论了企业AI可靠性危机，提到了AI平台的高信号中断日数增加，这是关于企业级AI Agent可靠性的新事实。
+### 2026-06-14
+- [AI Enforcement Accelerates as Federal Policy Stalls and States Step In](https://www.morganlewis.com/pubs/2026/04/ai-enforcement-accelerates-as-federal-policy-stalls-and-states-step-in) — 文章讨论了联邦政策停滞和各州介入AI执法加速的情况，可能与企业级AI Agent的监管响应有关。
+
