@@ -4,11 +4,11 @@ title: 美国 AI 芯片出口管制执法升级（追踪技术 / 走私执法 / 
 seed_url: https://www.morganlewis.com/pubs/2026/01/bis-revises-export-review-policy-for-advanced-ai-chips-destined-for-china-and-macau
 published_date: 2026-01-15
 status: TRACKING
-last_check: 2026-06-13T16:27
+last_check: 2026-06-14T16:29
 last_activity: '2026-06-08'
-next_check: 2026-06-14T16:27
+next_check: 2026-06-15T16:29
 interval_hours: 24
-consecutive_empty: 14
+consecutive_empty: 15
 findings_count: 0
 tags:
 - tracker

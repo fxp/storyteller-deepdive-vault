@@ -4,11 +4,11 @@ title: 前沿模型月更竞速（Claude vs GPT vs Gemini vs Grok vs Kimi）
 seed_url: https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html
 published_date: 2026-06-01
 status: HOT
-last_check: 2026-06-14T12:34
+last_check: 2026-06-14T16:29
 last_activity: '2026-06-14'
-next_check: 2026-06-14T15:34
+next_check: 2026-06-14T19:29
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 66
 tags:
 - tracker
@@ -172,4 +172,3 @@ search_queries:
 ### 2026-06-14
 - [ARC-AGI Leaderboard 2026: What AI Reasoning Costs Actually Mean](https://sanj.dev/post/arcprize-leaderboard) — 分析了2025年Berman解决方案的结果和当前的测试时间计算成本模型，探讨了AI推理的成本问题。
 - [We tested every major AI reasoning system. There is no clear winner.](https://arcprize.org/blog/which-ai-reasoning-model-is-best) — 测试了所有主要的AI推理系统，指出没有明显的赢家，并反思了前沿AI推理系统。
-

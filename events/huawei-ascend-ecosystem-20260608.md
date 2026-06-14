@@ -4,11 +4,11 @@ title: 华为昇腾芯片生态规模化（国产算力闭环 vs HBM 瓶颈）
 seed_url: https://techblog.comsoc.org/2025/10/02/huawei-to-double-output-of-ascend-ai-chips-in-2026-openai-orders-hbm-chips-from-sk-hynix-samsung-for-stargate-uae-project/
 published_date: 2025-10-02
 status: ACTIVE
-last_check: 2026-06-14T09:03
+last_check: 2026-06-14T16:29
 last_activity: '2026-06-13'
-next_check: 2026-06-14T15:03
+next_check: 2026-06-14T22:29
 interval_hours: 6
-consecutive_empty: 4
+consecutive_empty: 5
 findings_count: 43
 tags:
 - tracker

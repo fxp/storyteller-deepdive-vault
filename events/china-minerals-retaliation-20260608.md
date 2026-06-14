@@ -3,16 +3,16 @@ id: china-minerals-retaliation-20260608
 title: 【预期事件】中国对关键矿产发布报复性出口限制
 seed_url: https://bisi.org.uk/reports/ai-chip-smuggling-the-limits-of-us-export-controls
 published_date: 2026-06-08
-status: HOT
-last_check: 2026-06-14T12:34
+status: ACTIVE
+last_check: 2026-06-14T16:29
 last_activity: '2026-06-14'
-next_check: 2026-06-14T15:34
-interval_hours: 3
-consecutive_empty: 3
+next_check: 2026-06-14T22:29
+interval_hours: 6
+consecutive_empty: 4
 findings_count: 41
 tags:
 - tracker
-- HOT
+- ACTIVE
 entities:
   orgs:
   - 中国商务部
