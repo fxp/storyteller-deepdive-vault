@@ -4,11 +4,11 @@ title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折�
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
 status: HOT
-last_check: 2026-06-14T10:56
+last_check: 2026-06-14T14:44
 last_activity: '2026-06-14'
-next_check: 2026-06-14T13:56
+next_check: 2026-06-14T17:44
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 142
 tags:
 - tracker
@@ -322,4 +322,3 @@ Guo Jiakun briefing 2026, Trump Xi AI agreement, US China artificial intelligenc
 - [U.S. approves Chinese companies to buy Nvidia H200 AI chips](https://qz.com/nvidia-h200-chips-china-approval-no-sales-051426) — 美国批准中国公司购买英伟达H200 AI芯片，但北京方面的犹豫导致每笔交易都停滞不前。
 ### 2026-06-14
 - [美国最先进的AI芯片，例如英伟达Blackwell处理器 - Instagram](https://www.instagram.com/p/DZBmLEkk-q9?__d=1) — 特朗普批准英伟达向中国出售H200芯片，但后续采购和交付仍受中美双方限制。
-
