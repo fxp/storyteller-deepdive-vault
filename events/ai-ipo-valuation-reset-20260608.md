@@ -4,11 +4,11 @@ title: 【预期事件】AI IPO 引发行业估值重定价
 seed_url: https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-13T20:26
+last_check: 2026-06-14T00:31
 last_activity: '2026-06-13'
-next_check: 2026-06-13T23:26
+next_check: 2026-06-14T03:31
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 30
 tags:
 - tracker
@@ -117,4 +117,3 @@ search_queries:
 - [Sky-High I.P.O. Pricing Isn't Great for Real People - ny times](https://www.nytimes.com/2026/05/29/business/spacex-openai-anthropic-ipo-invest.html) — 文章讨论了Sky-High I.P.O. Pricing对普通人的影响，可能包含对AI IPO估值的新观点。
 - [AI Bubble vs. Dot-com Bubble: A Data-Driven Comparison | IntuitionLabs](https://intuitionlabs.ai/articles/ai-bubble-vs-dot-com-comparison) — 文章比较了AI泡沫和互联网泡沫，可能包含对AI IPO的新观点。
 - [Stock Market Bubble: IPO Boom May Mark Peak of AI-Fueled Rally - Business Insider](https://www.businessinsider.com/stock-market-bubble-ipo-boom-ai-rally-peak-dot-com-2026-6) — 文章讨论了AI IPO繁荣可能标志着AI驱动的市场的顶峰。
-

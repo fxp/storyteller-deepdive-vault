@@ -4,12 +4,12 @@ title: 【预期事件】中国对关键矿产发布报复性出口限制
 seed_url: https://bisi.org.uk/reports/ai-chip-smuggling-the-limits-of-us-export-controls
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-13T20:26
-last_activity: '2026-06-13'
-next_check: 2026-06-13T23:26
+last_check: 2026-06-14T00:31
+last_activity: '2026-06-14'
+next_check: 2026-06-14T03:31
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 40
+findings_count: 41
 tags:
 - tracker
 - HOT
@@ -133,4 +133,6 @@ search_queries:
 ### 2026-06-13
 - [U.S. and China tighten respective export restrictions on advanced ...](https://www.eversheds-sutherland.com/en/united-states/insights/us-and-china-tighten-respective-export-restrictions-on-advanced-technology-and-critical-minerals) — 文章提到美国和中国都在加强各自的出口限制，包括对先进技术和关键矿物的限制，这是一个新事实。
 - [Do China’s export curbs on tungsten threaten Japan’s AI chip supply chain? | South China Morning Post](https://www.scmp.com/economy/global-economy/article/3356921/do-chinas-export-curbs-tungsten-threaten-japans-ai-chip-supply-chain) — 文章讨论了中国对钨的出口限制可能威胁到日本的AI芯片供应链，这是一个新事实。
+### 2026-06-14
+- [Japan's semiconductor gas production has reportedly ... - Facebook](https://www.facebook.com/wccftech/posts/japans-semiconductor-gas-production-has-reportedly-been-disrupted-after-china-ti/1569525668507686) — 报道指出日本半导体气体生产因中国对钨相关材料的出口管制而受到干扰，这是新事实。
 
