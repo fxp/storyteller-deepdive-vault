@@ -1,17 +1,17 @@
 ---
 event: "[[openai-anthropic-ipo-race-20260608]]"
 date: 2026-06-14
-url: "https://www.buildmvpfast.com/blog/openai-ipo-filing-valuation-s1-2026"
-source_title: "OpenAI IPO S-1 Filing 2026: $852B Valuation Analysis"
+url: "https://www.binance.com/en/square/post/330695396358658"
+source_title: "Anthropic's IPO Journey: Final Sprint! Reports Say Morgan Stanley ..."
 relevance: RELEVANT
 ---
 
-# OpenAI IPO S-1 Filing 2026: $852B Valuation Analysis
+# Anthropic's IPO Journey: Final Sprint! Reports Say Morgan Stanley ...
 
-**来源**: [OpenAI IPO S-1 Filing 2026: $852B Valuation Analysis](https://www.buildmvpfast.com/blog/openai-ipo-filing-valuation-s1-2026)
+**来源**: [Anthropic's IPO Journey: Final Sprint! Reports Say Morgan Stanley ...](https://www.binance.com/en/square/post/330695396358658)
 **发现时间**: 2026-06-14
 **所属事件**: [[openai-anthropic-ipo-race-20260608]]
 
 ## 摘要
 
-OpenAI的IPO估值分析，提供了852亿至1万亿美元的新估值信息。
+报告指出Anthropic选择了摩根士丹利和高盛作为主承销商，这是新事实。

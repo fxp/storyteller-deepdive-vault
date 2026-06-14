@@ -4,12 +4,12 @@ title: 【预期事件】AI IPO 引发行业估值重定价
 seed_url: https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-14T00:31
-last_activity: '2026-06-13'
-next_check: 2026-06-14T03:31
+last_check: 2026-06-14T05:31
+last_activity: '2026-06-14'
+next_check: 2026-06-14T08:31
 interval_hours: 3
-consecutive_empty: 1
-findings_count: 30
+consecutive_empty: 0
+findings_count: 31
 tags:
 - tracker
 - HOT
@@ -117,3 +117,6 @@ search_queries:
 - [Sky-High I.P.O. Pricing Isn't Great for Real People - ny times](https://www.nytimes.com/2026/05/29/business/spacex-openai-anthropic-ipo-invest.html) — 文章讨论了Sky-High I.P.O. Pricing对普通人的影响，可能包含对AI IPO估值的新观点。
 - [AI Bubble vs. Dot-com Bubble: A Data-Driven Comparison | IntuitionLabs](https://intuitionlabs.ai/articles/ai-bubble-vs-dot-com-comparison) — 文章比较了AI泡沫和互联网泡沫，可能包含对AI IPO的新观点。
 - [Stock Market Bubble: IPO Boom May Mark Peak of AI-Fueled Rally - Business Insider](https://www.businessinsider.com/stock-market-bubble-ipo-boom-ai-rally-peak-dot-com-2026-6) — 文章讨论了AI IPO繁荣可能标志着AI驱动的市场的顶峰。
+### 2026-06-14
+- [The Great AI IPO Triad of 2026: How to Play It Without Getting Played](https://medium.com/@Alexnomads/the-great-ai-ipo-triad-of-2026-how-to-play-it-without-getting-played-0f5cbc561dff) — 文章讨论了AI IPO的首次公开交易价格和表现，提供了具体的新事实。
+
