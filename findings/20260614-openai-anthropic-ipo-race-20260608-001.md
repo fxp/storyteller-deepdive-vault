@@ -1,17 +1,17 @@
 ---
 event: "[[openai-anthropic-ipo-race-20260608]]"
 date: 2026-06-14
-url: "https://www.forbes.com/sites/investor-hub/article/openai-ipo-things-to-know"
-source_title: "4 Things To Know As OpenAI Eyes IPO - Forbes"
+url: "https://www.sun-sentinel.com/2026/06/01/anthropic-ipo"
+source_title: "Anthropic races toward Wall Street debut with confidential SEC filing"
 relevance: RELEVANT
 ---
 
-# 4 Things To Know As OpenAI Eyes IPO - Forbes
+# Anthropic races toward Wall Street debut with confidential SEC filing
 
-**来源**: [4 Things To Know As OpenAI Eyes IPO - Forbes](https://www.forbes.com/sites/investor-hub/article/openai-ipo-things-to-know)
+**来源**: [Anthropic races toward Wall Street debut with confidential SEC filing](https://www.sun-sentinel.com/2026/06/01/anthropic-ipo)
 **发现时间**: 2026-06-14
 **所属事件**: [[openai-anthropic-ipo-race-20260608]]
 
 ## 摘要
 
-OpenAI可能在今年上市，第一季度内部报告显示公司收入达到57亿美元。
+Anthropic向美国证券交易委员会提交了保密的S-1文件，标志着其向华尔街上市迈出了重要一步。

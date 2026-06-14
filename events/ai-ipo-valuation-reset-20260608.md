@@ -4,12 +4,12 @@ title: 【预期事件】AI IPO 引发行业估值重定价
 seed_url: https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-14T16:29
+last_check: 2026-06-14T20:26
 last_activity: '2026-06-14'
-next_check: 2026-06-14T19:29
+next_check: 2026-06-14T23:26
 interval_hours: 3
-consecutive_empty: 2
-findings_count: 36
+consecutive_empty: 0
+findings_count: 40
 tags:
 - tracker
 - HOT
@@ -125,3 +125,9 @@ search_queries:
 - [Anthropic IPO Date, Valuation & How to Invest | Danelfin](https://danelfin.com/ipo/anthropic) — Anthropic 已秘密提交了美国 IPO 申请，寻求在公开市场上市。
 - [OpenAI, Anthropic Cutting Token Prices? This War Could Dent Profits Just As Both Head For IPOs](https://finance.yahoo.com/markets/stocks/articles/openai-anthropic-cutting-token-prices-034031580.html) — OpenAI 和 Anthropic 正在降低其代币价格，这可能会损害它们的利润，同时它们正准备 IPO。
 - [SpaceX, Anthropic, and OpenAI IPOs: What They Could Mean for Stock Market Returns and Market Liquidity | Gryphon Financial Partners](https://gryphonfp.com/blog/spacex-anthropic-and-openai-ipos-what-they-could-mean-for-stock-market-returns-and-market-liquidity) — Anthropic 的估值接近 9650 亿美元，这突显了投资者对 AI 货币化的预期如何迅速扩张。
+### 2026-06-14
+- [OpenAI IPO 2026 Guide: Date, Expected Valuation, and How to ...](https://www.zacks.com/featured-articles/781/openai-ipo) — 文章提供了OpenAI IPO的日期、预期估值和投资建议，包含新事实。
+- [AI Funding: Top LLM / AI Safety Startups in 2026: Funding, Valuations & Market Leaders • Buttondown](https://buttondown.com/aaronyi/archive/ai-funding-top-llm-ai-safety-startups-in-2026) — 文章报告了2026年顶级LLM/AI安全初创公司的资金、估值和市场动态，包含新事实。
+- [AI Startup Valuation Multiples: 10x–50x Range (2026)](https://qubit.capital/blog/ai-startup-valuation-multiples) — 文章讨论了2026年AI初创公司的估值倍数范围，包含新事实。
+- [AI bubble burst by...? Predictions & Odds 2026 | Polymarket](https://polymarket.com/event/ai-bubble-burst-by) — 文章讨论了AI泡沫破裂的预测和赔率，包含新事实。
+
