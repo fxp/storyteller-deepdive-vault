@@ -4,11 +4,11 @@ title: 【预期事件】首个企业级 AI Agent 重大事故引发监管响应
 seed_url: https://joget.com/ai-agent-adoption-in-2026-what-the-analysts-data-shows/
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-14T18:25
+last_check: 2026-06-14T22:24
 last_activity: '2026-06-14'
-next_check: 2026-06-14T21:25
+next_check: 2026-06-15T01:24
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 48
 tags:
 - tracker
@@ -135,4 +135,3 @@ search_queries:
 - [AI Enforcement Accelerates as Federal Policy Stalls and States Step In](https://www.morganlewis.com/pubs/2026/04/ai-enforcement-accelerates-as-federal-policy-stalls-and-states-step-in) — 文章讨论了联邦政策停滞和各州介入AI执法加速的情况，可能与企业级AI Agent的监管响应有关。
 ### 2026-06-14
 - [AI Agent Security in 2026: Enterprise Risks & Best Practices - Beam AI](https://beam.ai/agentic-insights/ai-agent-security-in-2026-the-risks-most-enterprises-still-ignore) — Fine-tuning attacks bypass Claude Haiku and GPT-4o in a significant percentage of cases, highlighting security risks in AI agents.
-
