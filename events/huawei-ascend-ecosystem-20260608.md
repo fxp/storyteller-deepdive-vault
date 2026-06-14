@@ -3,16 +3,16 @@ id: huawei-ascend-ecosystem-20260608
 title: 华为昇腾芯片生态规模化（国产算力闭环 vs HBM 瓶颈）
 seed_url: https://techblog.comsoc.org/2025/10/02/huawei-to-double-output-of-ascend-ai-chips-in-2026-openai-orders-hbm-chips-from-sk-hynix-samsung-for-stargate-uae-project/
 published_date: 2025-10-02
-status: HOT
-last_check: 2026-06-14T05:31
+status: ACTIVE
+last_check: 2026-06-14T09:03
 last_activity: '2026-06-13'
-next_check: 2026-06-14T08:31
-interval_hours: 3
-consecutive_empty: 3
+next_check: 2026-06-14T15:03
+interval_hours: 6
+consecutive_empty: 4
 findings_count: 43
 tags:
 - tracker
-- HOT
+- ACTIVE
 entities:
   orgs:
   - 华为 HiSilicon

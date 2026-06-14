@@ -4,12 +4,12 @@ title: 【预期事件】AI IPO 引发行业估值重定价
 seed_url: https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-14T05:31
+last_check: 2026-06-14T09:03
 last_activity: '2026-06-14'
-next_check: 2026-06-14T08:31
+next_check: 2026-06-14T12:03
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 31
+findings_count: 36
 tags:
 - tracker
 - HOT
@@ -119,4 +119,10 @@ search_queries:
 - [Stock Market Bubble: IPO Boom May Mark Peak of AI-Fueled Rally - Business Insider](https://www.businessinsider.com/stock-market-bubble-ipo-boom-ai-rally-peak-dot-com-2026-6) — 文章讨论了AI IPO繁荣可能标志着AI驱动的市场的顶峰。
 ### 2026-06-14
 - [The Great AI IPO Triad of 2026: How to Play It Without Getting Played](https://medium.com/@Alexnomads/the-great-ai-ipo-triad-of-2026-how-to-play-it-without-getting-played-0f5cbc561dff) — 文章讨论了AI IPO的首次公开交易价格和表现，提供了具体的新事实。
+### 2026-06-14
+- [OpenAI’s Price War with Anthropic Could Undermine Its IPO](https://beincrypto.com/openai-price-cuts-anthropic-ipo) — Anthropic 在 2026 年 2 月完成了 30 亿美元的 G 轮融资，估值达到 3800 亿美元。
+- [OpenAI considers price cuts to compete with Anthropic, WSJ reports](https://cryptobriefing.com/openai-price-cuts-compete-anthropic) — OpenAI 正在考虑降低其 AI 服务的价格，以应对 Anthropic 的竞争。
+- [Anthropic IPO Date, Valuation & How to Invest | Danelfin](https://danelfin.com/ipo/anthropic) — Anthropic 已秘密提交了美国 IPO 申请，寻求在公开市场上市。
+- [OpenAI, Anthropic Cutting Token Prices? This War Could Dent Profits Just As Both Head For IPOs](https://finance.yahoo.com/markets/stocks/articles/openai-anthropic-cutting-token-prices-034031580.html) — OpenAI 和 Anthropic 正在降低其代币价格，这可能会损害它们的利润，同时它们正准备 IPO。
+- [SpaceX, Anthropic, and OpenAI IPOs: What They Could Mean for Stock Market Returns and Market Liquidity | Gryphon Financial Partners](https://gryphonfp.com/blog/spacex-anthropic-and-openai-ipos-what-they-could-mean-for-stock-market-returns-and-market-liquidity) — Anthropic 的估值接近 9650 亿美元，这突显了投资者对 AI 货币化的预期如何迅速扩张。
 
