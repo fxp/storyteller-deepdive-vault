@@ -1,17 +1,17 @@
 ---
 event: "[[openai-anthropic-ipo-race-20260608]]"
 date: 2026-06-14
-url: "https://www.binance.com/en/square/post/330695396358658"
-source_title: "Anthropic's IPO Journey: Final Sprint! Reports Say Morgan Stanley ..."
+url: "https://www.forbes.com/sites/investor-hub/article/openai-ipo-things-to-know"
+source_title: "4 Things To Know As OpenAI Eyes IPO - Forbes"
 relevance: RELEVANT
 ---
 
-# Anthropic's IPO Journey: Final Sprint! Reports Say Morgan Stanley ...
+# 4 Things To Know As OpenAI Eyes IPO - Forbes
 
-**来源**: [Anthropic's IPO Journey: Final Sprint! Reports Say Morgan Stanley ...](https://www.binance.com/en/square/post/330695396358658)
+**来源**: [4 Things To Know As OpenAI Eyes IPO - Forbes](https://www.forbes.com/sites/investor-hub/article/openai-ipo-things-to-know)
 **发现时间**: 2026-06-14
 **所属事件**: [[openai-anthropic-ipo-race-20260608]]
 
 ## 摘要
 
-报告指出Anthropic选择了摩根士丹利和高盛作为主承销商，这是新事实。
+OpenAI可能在今年上市，第一季度内部报告显示公司收入达到57亿美元。

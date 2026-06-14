@@ -4,11 +4,11 @@ title: 【预期事件】AI IPO 引发行业估值重定价
 seed_url: https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-14T09:03
+last_check: 2026-06-14T12:34
 last_activity: '2026-06-14'
-next_check: 2026-06-14T12:03
+next_check: 2026-06-14T15:34
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 36
 tags:
 - tracker
@@ -125,4 +125,3 @@ search_queries:
 - [Anthropic IPO Date, Valuation & How to Invest | Danelfin](https://danelfin.com/ipo/anthropic) — Anthropic 已秘密提交了美国 IPO 申请，寻求在公开市场上市。
 - [OpenAI, Anthropic Cutting Token Prices? This War Could Dent Profits Just As Both Head For IPOs](https://finance.yahoo.com/markets/stocks/articles/openai-anthropic-cutting-token-prices-034031580.html) — OpenAI 和 Anthropic 正在降低其代币价格，这可能会损害它们的利润，同时它们正准备 IPO。
 - [SpaceX, Anthropic, and OpenAI IPOs: What They Could Mean for Stock Market Returns and Market Liquidity | Gryphon Financial Partners](https://gryphonfp.com/blog/spacex-anthropic-and-openai-ipos-what-they-could-mean-for-stock-market-returns-and-market-liquidity) — Anthropic 的估值接近 9650 亿美元，这突显了投资者对 AI 货币化的预期如何迅速扩张。
-

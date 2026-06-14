@@ -4,12 +4,12 @@ title: 前沿模型月更竞速（Claude vs GPT vs Gemini vs Grok vs Kimi）
 seed_url: https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html
 published_date: 2026-06-01
 status: HOT
-last_check: 2026-06-14T09:03
+last_check: 2026-06-14T12:34
 last_activity: '2026-06-14'
-next_check: 2026-06-14T12:03
+next_check: 2026-06-14T15:34
 interval_hours: 3
-consecutive_empty: 1
-findings_count: 64
+consecutive_empty: 0
+findings_count: 66
 tags:
 - tracker
 - HOT
@@ -169,3 +169,7 @@ search_queries:
 - [ChatGPT vs Claude vs Gemini in 2026: The Definitive Comparison](https://benchlm.ai/blog/posts/chatgpt-vs-claude-vs-gemini-2026) — Gemini在ARC-AGI2基准测试中得分77.1，领先于GPT-5.4和Claude Opus 4.6，这是一个新的事实。
 ### 2026-06-14
 - [AI Model Comparison 2026: ChatGPT vs Claude vs Gemini vs Kimi ...](https://www.nxcode.io/tools/ai-model-comparison) — 提供了2026年AI模型ChatGPT、Claude、Gemini、Kimi和DeepSeek的比较，包含新的模型性能数据和比较结果。
+### 2026-06-14
+- [ARC-AGI Leaderboard 2026: What AI Reasoning Costs Actually Mean](https://sanj.dev/post/arcprize-leaderboard) — 分析了2025年Berman解决方案的结果和当前的测试时间计算成本模型，探讨了AI推理的成本问题。
+- [We tested every major AI reasoning system. There is no clear winner.](https://arcprize.org/blog/which-ai-reasoning-model-is-best) — 测试了所有主要的AI推理系统，指出没有明显的赢家，并反思了前沿AI推理系统。
+
