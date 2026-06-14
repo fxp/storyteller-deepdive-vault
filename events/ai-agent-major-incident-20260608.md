@@ -4,11 +4,11 @@ title: 【预期事件】首个企业级 AI Agent 重大事故引发监管响应
 seed_url: https://joget.com/ai-agent-adoption-in-2026-what-the-analysts-data-shows/
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-14T03:04
+last_check: 2026-06-14T07:31
 last_activity: '2026-06-14'
-next_check: 2026-06-14T06:04
+next_check: 2026-06-14T10:31
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 47
 tags:
 - tracker
@@ -133,4 +133,3 @@ search_queries:
 - [AI Downdetector Disruptions Jump: What Windows and Cloud Teams Must Prepare | Windows Forum](https://windowsforum.com/threads/enterprise-ai-reliability-crisis-downdetector-shows-disruptions-spike-in-2026.425647) — 文章讨论了企业AI可靠性危机，提到了AI平台的高信号中断日数增加，这是关于企业级AI Agent可靠性的新事实。
 ### 2026-06-14
 - [AI Enforcement Accelerates as Federal Policy Stalls and States Step In](https://www.morganlewis.com/pubs/2026/04/ai-enforcement-accelerates-as-federal-policy-stalls-and-states-step-in) — 文章讨论了联邦政策停滞和各州介入AI执法加速的情况，可能与企业级AI Agent的监管响应有关。
-
