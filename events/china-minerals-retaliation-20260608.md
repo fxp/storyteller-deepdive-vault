@@ -3,16 +3,16 @@ id: china-minerals-retaliation-20260608
 title: 【预期事件】中国对关键矿产发布报复性出口限制
 seed_url: https://bisi.org.uk/reports/ai-chip-smuggling-the-limits-of-us-export-controls
 published_date: 2026-06-08
-status: ACTIVE
-last_check: 2026-06-15T00:33
-last_activity: '2026-06-14'
-next_check: 2026-06-15T06:33
-interval_hours: 6
-consecutive_empty: 5
-findings_count: 41
+status: HOT
+last_check: 2026-06-15T07:51
+last_activity: '2026-06-15'
+next_check: 2026-06-15T10:51
+interval_hours: 3
+consecutive_empty: 0
+findings_count: 43
 tags:
 - tracker
-- ACTIVE
+- HOT
 entities:
   orgs:
   - 中国商务部
@@ -135,3 +135,7 @@ search_queries:
 - [Do China’s export curbs on tungsten threaten Japan’s AI chip supply chain? | South China Morning Post](https://www.scmp.com/economy/global-economy/article/3356921/do-chinas-export-curbs-tungsten-threaten-japans-ai-chip-supply-chain) — 文章讨论了中国对钨的出口限制可能威胁到日本的AI芯片供应链，这是一个新事实。
 ### 2026-06-14
 - [Japan's semiconductor gas production has reportedly ... - Facebook](https://www.facebook.com/wccftech/posts/japans-semiconductor-gas-production-has-reportedly-been-disrupted-after-china-ti/1569525668507686) — 报道指出日本半导体气体生产因中国对钨相关材料的出口管制而受到干扰，这是新事实。
+### 2026-06-15
+- [China curbs tech metal exports to Japan - Metal Tech News](https://www.metaltechnews.com/story/2026/03/25/tech-metals/china-curbs-tech-metal-exports-to-japan/2695.html) — 中国对日本的技术金属出口实施限制，导致镓和锗的出口量在2026年初降至零。
+- [China's tungsten export curbs threaten Japan's AI chip supply](https://www.facebook.com/PressNewsAgency.org/posts/do-chinas-export-curbs-on-tungsten-threaten-japans-ai-chip-supply-chaintwo-major/1589841849813493) — 中国对钨的出口限制可能威胁到日本的AI芯片供应链，导致两种日本化学制造商可能从下个月开始停止生产对AI芯片制造至关重要的气体。
+
