@@ -4,12 +4,12 @@ title: 前沿模型月更竞速（Claude vs GPT vs Gemini vs Grok vs Kimi）
 seed_url: https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html
 published_date: 2026-06-01
 status: HOT
-last_check: 2026-06-15T05:43
+last_check: 2026-06-15T10:03
 last_activity: '2026-06-15'
-next_check: 2026-06-15T08:43
+next_check: 2026-06-15T13:03
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 68
+findings_count: 71
 tags:
 - tracker
 - HOT
@@ -175,4 +175,8 @@ search_queries:
 ### 2026-06-15
 - [ARC Prize 2026 - ARC-AGI-3 - Kaggle](https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-3) — Kaggle上推出了ARC Prize 2026 - ARC-AGI-3竞赛，这是一个新的竞赛活动。
 - [SWE-bench Leaderboards](https://www.swebench.com) — SWE-bench Leaderboards更新了Gemini 3 Flash和GPT-5-2 Codex的得分，这是新的性能数据。
+### 2026-06-15
+- [Claude vs Gemini 2026: 80.8% SWE-bench, 1M Tokens - Tech Insider](https://tech-insider.org/claude-vs-gemini-2026-2) — Claude Opus 4.6 和 Gemini 3.1 Pro 在 SWE-bench 上分别取得了 80.8% 和 80.6% 的得分，这是新的性能数据。
+- [Q1 2026 Frontier Model Report | LayerLens](https://layerlens.ai/blog/q1-2026-frontier-model-report) — LayerLens 发布了 2026 年第一季度前沿模型报告，提供了超过 200 个模型的测试结果，这是新的发现。
+- [Kimi K2.6: NEW Open Source Model BEATS Claude & GPT-5.4!](https://www.youtube.com/watch?v=tz_Cp3Go9AA) — Kimi K2.6 作为新的开源模型，在关键编码基准测试中击败了 Claude 和 GPT-5.4，这是新的性能数据。
 
