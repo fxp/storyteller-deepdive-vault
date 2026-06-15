@@ -4,11 +4,11 @@ title: 【预期事件】AI IPO 引发行业估值重定价
 seed_url: https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-14T20:26
+last_check: 2026-06-15T00:33
 last_activity: '2026-06-14'
-next_check: 2026-06-14T23:26
+next_check: 2026-06-15T03:33
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 40
 tags:
 - tracker
@@ -130,4 +130,3 @@ search_queries:
 - [AI Funding: Top LLM / AI Safety Startups in 2026: Funding, Valuations & Market Leaders • Buttondown](https://buttondown.com/aaronyi/archive/ai-funding-top-llm-ai-safety-startups-in-2026) — 文章报告了2026年顶级LLM/AI安全初创公司的资金、估值和市场动态，包含新事实。
 - [AI Startup Valuation Multiples: 10x–50x Range (2026)](https://qubit.capital/blog/ai-startup-valuation-multiples) — 文章讨论了2026年AI初创公司的估值倍数范围，包含新事实。
 - [AI bubble burst by...? Predictions & Odds 2026 | Polymarket](https://polymarket.com/event/ai-bubble-burst-by) — 文章讨论了AI泡沫破裂的预测和赔率，包含新事实。
-
