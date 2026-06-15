@@ -4,12 +4,12 @@ title: OpenAI × Anthropic 双 IPO 竞赛（AI 行业最大资本事件）
 seed_url: https://fortune.com/2026/06/01/anthropic-confidentially-files-ipo-965-billion-valuation/
 published_date: 2026-06-01
 status: HOT
-last_check: 2026-06-15T10:03
+last_check: 2026-06-15T14:02
 last_activity: '2026-06-15'
-next_check: 2026-06-15T13:03
+next_check: 2026-06-15T17:02
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 66
+findings_count: 68
 tags:
 - tracker
 - HOT
@@ -174,4 +174,7 @@ Anthropic was valued at $965 billion in its latest funding round, officially sur
 - [Goldman Sachs and Morgan Stanley Compete for Lead Underwriter ...](https://www.binance.com/en/square/post/332539209781954) — 高盛和摩根士丹利争夺OpenAI和AnthropicIPO的主承销商角色，预计总收益超过70亿美元。
 ### 2026-06-15
 - [Matt - Anthropic Just Filed for What Could Be the First Trillion-Dollar ...](https://www.facebook.com/mattfarmerai/photos/-anthropic-just-filed-for-what-could-be-the-first-trillion-dollar-ipo-in-history/10244972129900949) — Anthropic提交了可能成为历史上首个万亿美元IPO的申请，目标上市窗口为2026年第四季度，估值达到9650亿美元。
+### 2026-06-15
+- [Anthropic Files Confidential IPO After $965B Valuation Surge - MSN](https://www.msn.com/en-us/news/other/anthropic-files-confidential-ipo-after-965b-valuation-surge/gm-GM9149975A?ocid=TobArticle) — Anthropic完成了65亿美元的H轮融资，估值达到9650亿美元，并秘密提交了IPO文件。
+- [The $3 Trillion Test: SpaceX, OpenAI and the IPO Wave That Will ...](https://www.investing.com/analysis/the-3-trillion-test-spacex-openai-and-the-ipo-wave-that-will-price-the-ai-boom-200680910) — 文章提到SpaceX、OpenAI和Anthropic的IPO，预计总市值达到3万亿美元。
 

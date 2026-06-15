@@ -4,11 +4,11 @@ title: 【预期事件】长鑫存储突破 HBM，华为昇腾实现国产算力
 seed_url: https://techblog.comsoc.org/2025/10/02/huawei-to-double-output-of-ascend-ai-chips-in-2026-openai-orders-hbm-chips-from-sk-hynix-samsung-for-stargate-uae-project/
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-15T10:03
+last_check: 2026-06-15T14:02
 last_activity: '2026-06-15'
-next_check: 2026-06-15T13:03
+next_check: 2026-06-15T17:02
 interval_hours: 3
-consecutive_empty: 1
+consecutive_empty: 2
 findings_count: 22
 tags:
 - tracker
