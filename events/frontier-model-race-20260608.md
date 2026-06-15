@@ -4,11 +4,11 @@ title: 前沿模型月更竞速（Claude vs GPT vs Gemini vs Grok vs Kimi）
 seed_url: https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html
 published_date: 2026-06-01
 status: HOT
-last_check: 2026-06-15T14:02
+last_check: 2026-06-15T17:37
 last_activity: '2026-06-15'
-next_check: 2026-06-15T17:02
+next_check: 2026-06-15T20:37
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 72
 tags:
 - tracker
@@ -181,4 +181,3 @@ search_queries:
 - [Kimi K2.6: NEW Open Source Model BEATS Claude & GPT-5.4!](https://www.youtube.com/watch?v=tz_Cp3Go9AA) — Kimi K2.6 作为新的开源模型，在关键编码基准测试中击败了 Claude 和 GPT-5.4，这是新的性能数据。
 ### 2026-06-15
 - [OpenAI frontier models and Codex are now available on AWS](https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws) — OpenAI 的前沿模型和 Codex 现在可在 AWS 上使用。
-

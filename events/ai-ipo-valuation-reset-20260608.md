@@ -4,11 +4,11 @@ title: 【预期事件】AI IPO 引发行业估值重定价
 seed_url: https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-15T14:02
+last_check: 2026-06-15T17:37
 last_activity: '2026-06-15'
-next_check: 2026-06-15T17:02
+next_check: 2026-06-15T20:37
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 43
 tags:
 - tracker
@@ -135,4 +135,3 @@ search_queries:
 - [Anthropic's Valuation Surpasses $1 Trillion, Overtaking OpenAI in Secondary Market Buzz - Houdao AI](https://www.houdao.com/d/9790-Anthropic-s-Valuation-Surpasses-1-Trillion-Overtaking-OpenAI-in-Secondary-Market-Buzz) — Anthropic 的估值超过1万亿美元，在二级市场炒作中超过 OpenAI。
 ### 2026-06-15
 - [AI startup Anthropic files for IPO after reaching $965 billion valuation • FRANCE 24 English](https://www.youtube.com/watch?v=KjnrFdy4M8s) — Anthropic 宣布提交 IPO 申请，估值达到 9650 亿美元。
-
