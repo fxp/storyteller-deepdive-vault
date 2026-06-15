@@ -3,16 +3,16 @@ id: china-hbm-breakthrough-20260608
 title: 【预期事件】长鑫存储突破 HBM，华为昇腾实现国产算力完全闭环
 seed_url: https://techblog.comsoc.org/2025/10/02/huawei-to-double-output-of-ascend-ai-chips-in-2026-openai-orders-hbm-chips-from-sk-hynix-samsung-for-stargate-uae-project/
 published_date: 2026-06-08
-status: HOT
-last_check: 2026-06-15T17:37
+status: ACTIVE
+last_check: 2026-06-15T21:00
 last_activity: '2026-06-15'
-next_check: 2026-06-15T20:37
-interval_hours: 3
-consecutive_empty: 3
+next_check: 2026-06-16T03:00
+interval_hours: 6
+consecutive_empty: 4
 findings_count: 22
 tags:
 - tracker
-- HOT
+- ACTIVE
 entities:
   orgs:
   - 长鑫存储（CXMT）
