@@ -4,12 +4,12 @@ title: OpenAI × Anthropic 双 IPO 竞赛（AI 行业最大资本事件）
 seed_url: https://fortune.com/2026/06/01/anthropic-confidentially-files-ipo-965-billion-valuation/
 published_date: 2026-06-01
 status: HOT
-last_check: 2026-06-15T00:33
-last_activity: '2026-06-14'
-next_check: 2026-06-15T03:33
+last_check: 2026-06-15T05:43
+last_activity: '2026-06-15'
+next_check: 2026-06-15T08:43
 interval_hours: 3
-consecutive_empty: 1
-findings_count: 63
+consecutive_empty: 0
+findings_count: 65
 tags:
 - tracker
 - HOT
@@ -169,3 +169,7 @@ Anthropic was valued at $965 billion in its latest funding round, officially sur
 - [4 Things To Know As OpenAI Eyes IPO - Forbes](https://www.forbes.com/sites/investor-hub/article/openai-ipo-things-to-know) — OpenAI可能在今年上市，第一季度内部报告显示公司收入达到57亿美元。
 ### 2026-06-14
 - [Anthropic races toward Wall Street debut with confidential SEC filing](https://www.sun-sentinel.com/2026/06/01/anthropic-ipo) — Anthropic向美国证券交易委员会提交了保密的S-1文件，标志着其向华尔街上市迈出了重要一步。
+### 2026-06-15
+- [Anthropic confidentially filed a draft S-1 IPO registration statement ...](https://www.instagram.com/p/DZIIyCzk6U6) — Anthropic秘密向美国证券交易委员会提交了S-1文件草案，宣布于2026年6月1日公布，文件提交日期为2026年5月31日，经过65亿美元的融资轮后，估值约为9650亿美元，但未公布IPO日期、股票数量或价格。
+- [Goldman Sachs and Morgan Stanley Compete for Lead Underwriter ...](https://www.binance.com/en/square/post/332539209781954) — 高盛和摩根士丹利争夺OpenAI和AnthropicIPO的主承销商角色，预计总收益超过70亿美元。
+

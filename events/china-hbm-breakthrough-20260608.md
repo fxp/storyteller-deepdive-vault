@@ -3,16 +3,16 @@ id: china-hbm-breakthrough-20260608
 title: 【预期事件】长鑫存储突破 HBM，华为昇腾实现国产算力完全闭环
 seed_url: https://techblog.comsoc.org/2025/10/02/huawei-to-double-output-of-ascend-ai-chips-in-2026-openai-orders-hbm-chips-from-sk-hynix-samsung-for-stargate-uae-project/
 published_date: 2026-06-08
-status: ACTIVE
-last_check: 2026-06-14T22:24
-last_activity: '2026-06-13'
-next_check: 2026-06-15T04:24
-interval_hours: 6
-consecutive_empty: 6
-findings_count: 20
+status: HOT
+last_check: 2026-06-15T05:43
+last_activity: '2026-06-15'
+next_check: 2026-06-15T08:43
+interval_hours: 3
+consecutive_empty: 0
+findings_count: 22
 tags:
 - tracker
-- ACTIVE
+- HOT
 entities:
   orgs:
   - 长鑫存储（CXMT）
@@ -106,3 +106,7 @@ search_queries:
 ### 2026-06-13
 - [今天，长鑫的设备供应链全面爆发。](https://x.com/LinQingV/status/2056630439113269617) — 报道了长鑫存储扩产的设备2026年底量产，主要供华为昇腾910。
 - [中國記憶體成功突圍？傳長鑫存儲向華為出貨HBM3樣品 - Yahoo股市](https://tw.stock.yahoo.com/news/%E4%B8%AD%E5%9C%8B%E8%A8%98%E6%86%B6%E9%AB%94%E6%88%90%E5%8A%9F%E7%AA%81%E5%9C%8D-%E5%82%B3%E9%95%B7%E9%91%AB%E5%AD%98%E5%84%B2%E5%90%91%E8%8F%AF%E7%82%BA%E5%87%BA%E8%B2%A8hbm3%E6%A8%A3%E5%93%81-064202964.html) — 报道了长鑫存储预计将于2026年第一季度启动IPO，并计划于2027年量产HBM3E。
+### 2026-06-15
+- [长鑫存储和长江存储2026年的产能和市占？_内存 - 什么值得买](https://post.smzdm.com/p/a502kkvl) — 长鑫存储合肥与北京工厂已满负荷运转，16nm DDR5工艺已量产，HBM3样品已交付给华为昇腾910C等国内头部客户，2026年HBM月产能情况更新。
+- [長鑫高頻寬記憶體 2026年量產 | 陸港經貿 | 兩岸 | 聯合新聞網](https://udn.com/news/story/7333/9093466) — 长鑫存储已向华为等国内客户交付16nm HBM3样品，预计2026年全面量产，产品良率接近三星电子水平。
+

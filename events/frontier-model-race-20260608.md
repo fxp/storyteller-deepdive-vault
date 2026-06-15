@@ -4,12 +4,12 @@ title: 前沿模型月更竞速（Claude vs GPT vs Gemini vs Grok vs Kimi）
 seed_url: https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html
 published_date: 2026-06-01
 status: HOT
-last_check: 2026-06-15T00:33
-last_activity: '2026-06-14'
-next_check: 2026-06-15T03:33
+last_check: 2026-06-15T05:43
+last_activity: '2026-06-15'
+next_check: 2026-06-15T08:43
 interval_hours: 3
-consecutive_empty: 3
-findings_count: 66
+consecutive_empty: 0
+findings_count: 68
 tags:
 - tracker
 - HOT
@@ -172,3 +172,7 @@ search_queries:
 ### 2026-06-14
 - [ARC-AGI Leaderboard 2026: What AI Reasoning Costs Actually Mean](https://sanj.dev/post/arcprize-leaderboard) — 分析了2025年Berman解决方案的结果和当前的测试时间计算成本模型，探讨了AI推理的成本问题。
 - [We tested every major AI reasoning system. There is no clear winner.](https://arcprize.org/blog/which-ai-reasoning-model-is-best) — 测试了所有主要的AI推理系统，指出没有明显的赢家，并反思了前沿AI推理系统。
+### 2026-06-15
+- [ARC Prize 2026 - ARC-AGI-3 - Kaggle](https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-3) — Kaggle上推出了ARC Prize 2026 - ARC-AGI-3竞赛，这是一个新的竞赛活动。
+- [SWE-bench Leaderboards](https://www.swebench.com) — SWE-bench Leaderboards更新了Gemini 3 Flash和GPT-5-2 Codex的得分，这是新的性能数据。
+
