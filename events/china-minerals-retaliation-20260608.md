@@ -4,12 +4,12 @@ title: 【预期事件】中国对关键矿产发布报复性出口限制
 seed_url: https://bisi.org.uk/reports/ai-chip-smuggling-the-limits-of-us-export-controls
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-15T21:00
-last_activity: '2026-06-15'
-next_check: 2026-06-16T00:00
+last_check: 2026-06-16T00:39
+last_activity: '2026-06-16'
+next_check: 2026-06-16T03:39
 interval_hours: 3
-consecutive_empty: 2
-findings_count: 44
+consecutive_empty: 0
+findings_count: 45
 tags:
 - tracker
 - HOT
@@ -140,3 +140,6 @@ search_queries:
 - [China's tungsten export curbs threaten Japan's AI chip supply](https://www.facebook.com/PressNewsAgency.org/posts/do-chinas-export-curbs-on-tungsten-threaten-japans-ai-chip-supply-chaintwo-major/1589841849813493) — 中国对钨的出口限制可能威胁到日本的AI芯片供应链，导致两种日本化学制造商可能从下个月开始停止生产对AI芯片制造至关重要的气体。
 ### 2026-06-15
 - [中国扩大出口管制多家稀土业违规出口挨罚| 世界新闻网](https://www.worldjournal.com/wj/story/121339/9535881?zh-cn=) — 中国商务部、海关总署公告了针对关键矿产的出口管制，并将稀土及稀土开采技术等纳入出口管制范畴，这是新事实。
+### 2026-06-16
+- [牛肉、水产品、水果、蔬菜和乳制品。 •中国将暂停或取消自2025年3 ...](https://x.com/fxtrader/status/1984875406613155973) — 中国将暂停或取消对稀土的大规模新出口管制及相关措施。
+

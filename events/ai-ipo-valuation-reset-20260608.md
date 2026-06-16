@@ -4,12 +4,12 @@ title: 【预期事件】AI IPO 引发行业估值重定价
 seed_url: https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-15T21:00
-last_activity: '2026-06-15'
-next_check: 2026-06-16T00:00
+last_check: 2026-06-16T00:39
+last_activity: '2026-06-16'
+next_check: 2026-06-16T03:39
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 45
+findings_count: 47
 tags:
 - tracker
 - HOT
@@ -138,4 +138,7 @@ search_queries:
 ### 2026-06-15
 - [OpenAI files for US IPO after Anthropic as AI giants head to public ...](https://www.reuters.com/technology/openai-files-us-ipo-after-anthropic-ai-giants-head-public-markets-2026-06-08) — OpenAI 正式提交美国IPO申请，这是新的事实。
 - [OpenAI's IPO Window Shifts to 2027 as Anthropic Leads ... - LinkedIn](https://www.linkedin.com/posts/harrison-rolfes_ai-openai-anthropic-activity-7457492684786810880-8mvf) — Anthropic 在本周融资65亿美元，估值达到9650亿美元，这是新的事实。
+### 2026-06-16
+- [This Is why they are doing IPO : r/ArtificialInteligence](https://www.reddit.com/r/ArtificialInteligence/comments/1u16i8t/this_is_why_they_are_doing_ipo) — Reddit用户讨论了为什么AI公司正在进行IPO，并提供了ChatGPT（OpenAI）和Anthropic的估值和收入数据。
+- [Kristy Akullian, CFA's Post - LinkedIn](https://www.linkedin.com/posts/kristyakullian_ai-mega-ipos-are-re-entering-the-spotlight-activity-7470884540283199488-rmn5) — LinkedIn上的帖子指出，2026年AI大型IPO正在重新成为焦点，平均IPO估值是去年平均值的3倍，几乎是去年的10倍。
 
