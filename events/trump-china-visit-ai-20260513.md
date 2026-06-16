@@ -4,12 +4,12 @@ title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折�
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
 status: HOT
-last_check: 2026-06-16T11:44
+last_check: 2026-06-16T15:37
 last_activity: '2026-06-16'
-next_check: 2026-06-16T14:44
+next_check: 2026-06-16T18:37
 interval_hours: 3
-consecutive_empty: 1
-findings_count: 144
+consecutive_empty: 0
+findings_count: 146
 tags:
 - tracker
 - HOT
@@ -326,3 +326,7 @@ Guo Jiakun briefing 2026, Trump Xi AI agreement, US China artificial intelligenc
 - [国产AI芯片崛起：三大门派、瓜分英伟达-36氪](https://m.36kr.com/p/3767894822925058) — 国产AI芯片市场总出货量达到约400万张，本土厂商市场份额首次突破四成，达到41%，华为昇腾以64万张的出货量领先，昆仑芯、天数智芯与寒武纪紧随其后。
 ### 2026-06-16
 - [“美国正考虑允许英伟达向中国出售H200芯片”](https://www.guancha.cn/internation/2025_11_22_797890.shtml) — 特朗普政府正在考虑批准英伟达H200人工智能芯片对中国的销售，这是历史发现中未出现的新事实。
+### 2026-06-16
+- [China Gives Nod To ByteDance, Alibaba And Tencent To Buy ...](https://www.reutersconnect.com/item/china-gives-nod-to-bytedance-alibaba-and-tencent-to-buy-nvidias-h200-chips/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMU5VUlBITzAwMDBMNVI1RQ) — 中国批准字节跳动、阿里巴巴和腾讯购买英伟达的H200芯片，这是历史发现中未出现的新事实。
+- [2026中国H200芯片采购分析：中美科技博弈新阶段](https://openaxo.com/innovation/nvidia-h200-china-procurement-analysis-us-china-tech-war) — 分析2026年中国H200芯片采购，指出美国政策从全面封锁到有条件放行的演变，这是历史发现中未出现的新事实。
+
