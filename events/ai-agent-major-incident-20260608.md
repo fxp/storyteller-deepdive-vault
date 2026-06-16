@@ -3,16 +3,16 @@ id: ai-agent-major-incident-20260608
 title: 【预期事件】首个企业级 AI Agent 重大事故引发监管响应
 seed_url: https://joget.com/ai-agent-adoption-in-2026-what-the-analysts-data-shows/
 published_date: 2026-06-08
-status: ACTIVE
-last_check: 2026-06-16T03:04
-last_activity: '2026-06-14'
-next_check: 2026-06-16T09:04
-interval_hours: 6
-consecutive_empty: 6
-findings_count: 48
+status: HOT
+last_check: 2026-06-16T09:45
+last_activity: '2026-06-16'
+next_check: 2026-06-16T12:45
+interval_hours: 3
+consecutive_empty: 0
+findings_count: 50
 tags:
 - tracker
-- ACTIVE
+- HOT
 entities:
   orgs:
   - SEC
@@ -135,3 +135,7 @@ search_queries:
 - [AI Enforcement Accelerates as Federal Policy Stalls and States Step In](https://www.morganlewis.com/pubs/2026/04/ai-enforcement-accelerates-as-federal-policy-stalls-and-states-step-in) — 文章讨论了联邦政策停滞和各州介入AI执法加速的情况，可能与企业级AI Agent的监管响应有关。
 ### 2026-06-14
 - [AI Agent Security in 2026: Enterprise Risks & Best Practices - Beam AI](https://beam.ai/agentic-insights/ai-agent-security-in-2026-the-risks-most-enterprises-still-ignore) — Fine-tuning attacks bypass Claude Haiku and GPT-4o in a significant percentage of cases, highlighting security risks in AI agents.
+### 2026-06-16
+- [AI Agent Security In 2026: What Enterprises Are Getting Wrong](https://agatsoftware.com/blog/ai-agent-security-enterprise-2026) — AI代理安全套件概述，包括Guardian Agent、Model Guardian、AI Gateway和Prompt Guardian等新信息。
+- [AI Agent Crash, Software Collapses and Non-Human Economies.](https://www.youtube.com/watch?v=9arFsSVYTnk) — AI代理崩溃、软件崩溃和非人类经济，提供了关于AI代理崩溃的新事实。
+

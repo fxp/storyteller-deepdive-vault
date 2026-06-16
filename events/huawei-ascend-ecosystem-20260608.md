@@ -3,16 +3,16 @@ id: huawei-ascend-ecosystem-20260608
 title: 华为昇腾芯片生态规模化（国产算力闭环 vs HBM 瓶颈）
 seed_url: https://techblog.comsoc.org/2025/10/02/huawei-to-double-output-of-ascend-ai-chips-in-2026-openai-orders-hbm-chips-from-sk-hynix-samsung-for-stargate-uae-project/
 published_date: 2025-10-02
-status: ACTIVE
-last_check: 2026-06-16T03:04
-last_activity: '2026-06-13'
-next_check: 2026-06-16T09:04
-interval_hours: 6
-consecutive_empty: 10
-findings_count: 43
+status: HOT
+last_check: 2026-06-16T09:45
+last_activity: '2026-06-16'
+next_check: 2026-06-16T12:45
+interval_hours: 3
+consecutive_empty: 0
+findings_count: 44
 tags:
 - tracker
-- ACTIVE
+- HOT
 entities:
   orgs:
   - 华为 HiSilicon
@@ -133,3 +133,6 @@ search_queries:
 - [Chinese semiconductor industry gears up for domestic HBM3 ...](https://www.reddit.com/r/technology/comments/1qjlzh5/chinese_semiconductor_industry_gears_up_for) — 文章提到中国半导体行业准备在国内生产HBM3，这是华为昇腾芯片生态规模化的一部分。
 ### 2026-06-13
 - [华为公布昇腾AI芯片三年发展路线图 - 新浪财经](https://finance.sina.com.cn/stock/t/2025-09-18/doc-infqwyzs5991494.shtml) — 华为公布了昇腾AI芯片的三年发展路线图，包括采用华为自研HBM。
+### 2026-06-16
+- [Huawei to Double Output of Its Advanced AI Chip Ascend, Unseat Nvidia in China - Bloomberg](https://www.bloomberg.com/news/articles/2025-09-29/huawei-to-double-output-of-top-ai-chip-as-nvidia-wavers-in-china) — 华为计划将AI芯片产量翻倍，挑战Nvidia在中国市场的地位。
+
