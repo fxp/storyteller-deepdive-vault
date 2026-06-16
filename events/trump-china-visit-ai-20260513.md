@@ -3,16 +3,16 @@ id: trump-china-visit-ai-20260513
 title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折）
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
-status: ACTIVE
-last_check: 2026-06-16T00:39
-last_activity: '2026-06-14'
-next_check: 2026-06-16T06:39
-interval_hours: 6
-consecutive_empty: 5
-findings_count: 143
+status: HOT
+last_check: 2026-06-16T07:51
+last_activity: '2026-06-16'
+next_check: 2026-06-16T10:51
+interval_hours: 3
+consecutive_empty: 0
+findings_count: 144
 tags:
 - tracker
-- ACTIVE
+- HOT
 entities:
   orgs:
   - 美国政府
@@ -324,3 +324,6 @@ Guo Jiakun briefing 2026, Trump Xi AI agreement, US China artificial intelligenc
 - [美国最先进的AI芯片，例如英伟达Blackwell处理器 - Instagram](https://www.instagram.com/p/DZBmLEkk-q9?__d=1) — 特朗普批准英伟达向中国出售H200芯片，但后续采购和交付仍受中美双方限制。
 ### 2026-06-14
 - [国产AI芯片崛起：三大门派、瓜分英伟达-36氪](https://m.36kr.com/p/3767894822925058) — 国产AI芯片市场总出货量达到约400万张，本土厂商市场份额首次突破四成，达到41%，华为昇腾以64万张的出货量领先，昆仑芯、天数智芯与寒武纪紧随其后。
+### 2026-06-16
+- [“美国正考虑允许英伟达向中国出售H200芯片”](https://www.guancha.cn/internation/2025_11_22_797890.shtml) — 特朗普政府正在考虑批准英伟达H200人工智能芯片对中国的销售，这是历史发现中未出现的新事实。
+
