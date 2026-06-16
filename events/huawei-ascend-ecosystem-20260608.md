@@ -4,12 +4,12 @@ title: 华为昇腾芯片生态规模化（国产算力闭环 vs HBM 瓶颈）
 seed_url: https://techblog.comsoc.org/2025/10/02/huawei-to-double-output-of-ascend-ai-chips-in-2026-openai-orders-hbm-chips-from-sk-hynix-samsung-for-stargate-uae-project/
 published_date: 2025-10-02
 status: HOT
-last_check: 2026-06-16T17:40
+last_check: 2026-06-16T21:00
 last_activity: '2026-06-16'
-next_check: 2026-06-16T20:40
+next_check: 2026-06-17T00:00
 interval_hours: 3
-consecutive_empty: 2
-findings_count: 44
+consecutive_empty: 0
+findings_count: 45
 tags:
 - tracker
 - HOT
@@ -135,3 +135,6 @@ search_queries:
 - [华为公布昇腾AI芯片三年发展路线图 - 新浪财经](https://finance.sina.com.cn/stock/t/2025-09-18/doc-infqwyzs5991494.shtml) — 华为公布了昇腾AI芯片的三年发展路线图，包括采用华为自研HBM。
 ### 2026-06-16
 - [Huawei to Double Output of Its Advanced AI Chip Ascend, Unseat Nvidia in China - Bloomberg](https://www.bloomberg.com/news/articles/2025-09-29/huawei-to-double-output-of-top-ai-chip-as-nvidia-wavers-in-china) — 华为计划将AI芯片产量翻倍，挑战Nvidia在中国市场的地位。
+### 2026-06-16
+- [Deep learning | Deepseek v4 will reportedly run entirely on Huawei chips in a major win for China's AI independence push (April 2026) | Facebook](https://www.facebook.com/groups/DeepLearnng/posts/4520348471532109) — DeepSeek V4将完全在华为芯片上运行，这是中国AI独立推动的重大胜利。
+
