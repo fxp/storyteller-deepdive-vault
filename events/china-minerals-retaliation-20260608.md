@@ -4,11 +4,11 @@ title: 【预期事件】中国对关键矿产发布报复性出口限制
 seed_url: https://bisi.org.uk/reports/ai-chip-smuggling-the-limits-of-us-export-controls
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-16T09:45
+last_check: 2026-06-16T13:40
 last_activity: '2026-06-16'
-next_check: 2026-06-16T12:45
+next_check: 2026-06-16T16:40
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 47
 tags:
 - tracker
@@ -145,4 +145,3 @@ search_queries:
 ### 2026-06-16
 - [China retaliates against latest US chip restrictions - Financial Times](https://www.ft.com/content/eca9a562-ffc7-4989-bbf6-734997409265?syn-25a6b1a6=1) — 中国对美国最新的芯片限制进行报复。
 - [商务部：对稀土相关技术和境外相关稀土物项实施出口管制 - 财联社](https://www.cls.cn/detail/2163829) — 商务部：对稀土相关技术和境外相关稀土物项实施出口管制。
-

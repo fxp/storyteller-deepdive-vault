@@ -4,11 +4,11 @@ title: 前沿模型月更竞速（Claude vs GPT vs Gemini vs Grok vs Kimi）
 seed_url: https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html
 published_date: 2026-06-01
 status: HOT
-last_check: 2026-06-16T09:45
+last_check: 2026-06-16T13:40
 last_activity: '2026-06-16'
-next_check: 2026-06-16T12:45
+next_check: 2026-06-16T16:40
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 76
 tags:
 - tracker
@@ -188,4 +188,3 @@ search_queries:
 - [Best Open Source Coding LLM in 2026: Developer's Guide](https://www.atlascloud.ai/blog/guides/coding-plan-best-open-source-coding-llm) — 2026 年最佳开源编码 LLM 指南中比较了 DeepSeek V4、Kimi K2、GLM-5、MiniMax M2 和 Qwen3 等模型，提供了新的性能数据。
 ### 2026-06-16
 - [Best AI Models 2026 Ranked: Claude 4.6 vs GPT-5.2 vs Gemini 3.1](https://serenitiesai.com/articles/best-ai-models-comparison-2026) — Claude 4.6, GPT-5.2 和 Gemini 3.1 的最新排名和性能数据。
-

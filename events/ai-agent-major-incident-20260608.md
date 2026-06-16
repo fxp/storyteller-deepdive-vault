@@ -4,11 +4,11 @@ title: 【预期事件】首个企业级 AI Agent 重大事故引发监管响应
 seed_url: https://joget.com/ai-agent-adoption-in-2026-what-the-analysts-data-shows/
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-16T09:45
+last_check: 2026-06-16T13:40
 last_activity: '2026-06-16'
-next_check: 2026-06-16T12:45
+next_check: 2026-06-16T16:40
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 50
 tags:
 - tracker
@@ -138,4 +138,3 @@ search_queries:
 ### 2026-06-16
 - [AI Agent Security In 2026: What Enterprises Are Getting Wrong](https://agatsoftware.com/blog/ai-agent-security-enterprise-2026) — AI代理安全套件概述，包括Guardian Agent、Model Guardian、AI Gateway和Prompt Guardian等新信息。
 - [AI Agent Crash, Software Collapses and Non-Human Economies.](https://www.youtube.com/watch?v=9arFsSVYTnk) — AI代理崩溃、软件崩溃和非人类经济，提供了关于AI代理崩溃的新事实。
-
