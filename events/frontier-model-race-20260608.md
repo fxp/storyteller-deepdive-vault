@@ -4,12 +4,12 @@ title: 前沿模型月更竞速（Claude vs GPT vs Gemini vs Grok vs Kimi）
 seed_url: https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html
 published_date: 2026-06-01
 status: HOT
-last_check: 2026-06-16T00:39
+last_check: 2026-06-16T05:47
 last_activity: '2026-06-16'
-next_check: 2026-06-16T03:39
+next_check: 2026-06-16T08:47
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 73
+findings_count: 75
 tags:
 - tracker
 - HOT
@@ -183,4 +183,7 @@ search_queries:
 - [OpenAI frontier models and Codex are now available on AWS](https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws) — OpenAI 的前沿模型和 Codex 现在可在 AWS 上使用。
 ### 2026-06-16
 - [Frontier AI Model Releases 2026: Timeline, Capabilities & What They Mean for Your Career | Job Security Meter | Job Security Meter](https://jobsecuritymeter.com/guides/frontier-ai-models-2026) — 2026年主要AI模型发布时间线、功能及其对职业生涯的影响。
+### 2026-06-16
+- [Instagram](https://www.instagram.com/reel/DUoqZ58DnsF) — Diamandis 在 2026 年 2 月 11 日宣布了 2026 年前沿实验室竞赛，这是一个能够使资深开发者完成 6 到 10 人工作的力量倍增器。
+- [Best Open Source Coding LLM in 2026: Developer's Guide](https://www.atlascloud.ai/blog/guides/coding-plan-best-open-source-coding-llm) — 2026 年最佳开源编码 LLM 指南中比较了 DeepSeek V4、Kimi K2、GLM-5、MiniMax M2 和 Qwen3 等模型，提供了新的性能数据。
 
