@@ -4,11 +4,11 @@ title: 【预期事件】中国对关键矿产发布报复性出口限制
 seed_url: https://bisi.org.uk/reports/ai-chip-smuggling-the-limits-of-us-export-controls
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-16T13:40
+last_check: 2026-06-16T17:40
 last_activity: '2026-06-16'
-next_check: 2026-06-16T16:40
+next_check: 2026-06-16T20:40
 interval_hours: 3
-consecutive_empty: 1
+consecutive_empty: 2
 findings_count: 47
 tags:
 - tracker
