@@ -1,17 +1,17 @@
 ---
 event: "[[china-minerals-retaliation-20260608]]"
 date: 2026-06-17
-url: "https://discoveryalert.com.au/strategic-materials-security-chinas-tungsten-controls-2026"
-source_title: "China Tungsten Export Controls: Supply Chain Crisis 2026"
+url: "https://www.facebook.com/ChinaAfricaProject/posts/chinas-commerce-ministry-suspended-us-targeted-export-controls-on-gallium-german/1248574080631857"
+source_title: "China's Commerce Ministry suspended U.S.-targeted export controls ..."
 relevance: RELEVANT
 ---
 
-# China Tungsten Export Controls: Supply Chain Crisis 2026
+# China's Commerce Ministry suspended U.S.-targeted export controls ...
 
-**来源**: [China Tungsten Export Controls: Supply Chain Crisis 2026](https://discoveryalert.com.au/strategic-materials-security-chinas-tungsten-controls-2026)
+**来源**: [China's Commerce Ministry suspended U.S.-targeted export controls ...](https://www.facebook.com/ChinaAfricaProject/posts/chinas-commerce-ministry-suspended-us-targeted-export-controls-on-gallium-german/1248574080631857)
 **发现时间**: 2026-06-17
 **所属事件**: [[china-minerals-retaliation-20260608]]
 
 ## 摘要
 
-中国对钨的出口管制将影响全球钨市场，并展示如何通过出口管制和战略资源管理政策将关键材料武器化。
+中国商务部暂停了对镓、锗、锑和石墨的针对美国的出口管制，直至2026年11月27日。
