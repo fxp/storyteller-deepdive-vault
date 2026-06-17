@@ -1,17 +1,17 @@
 ---
 event: "[[china-minerals-retaliation-20260608]]"
 date: 2026-06-17
-url: "https://www.facebook.com/ChinaAfricaProject/posts/chinas-commerce-ministry-suspended-us-targeted-export-controls-on-gallium-german/1248574080631857"
-source_title: "China's Commerce Ministry suspended U.S.-targeted export controls ..."
+url: "https://www.tomshardware.com/tech-industry/semiconductors/asml-is-prepared-for-chinas-rare-earth-export-controls-finance-head-says-company-has-stock-thanks-to-long-lead-times"
+source_title: "ASML is prepared for China's rare-earth export controls — finance head says company has stock thanks to long lead times | Tom's Hardware"
 relevance: RELEVANT
 ---
 
-# China's Commerce Ministry suspended U.S.-targeted export controls ...
+# ASML is prepared for China's rare-earth export controls — finance head says company has stock thanks to long lead times | Tom's Hardware
 
-**来源**: [China's Commerce Ministry suspended U.S.-targeted export controls ...](https://www.facebook.com/ChinaAfricaProject/posts/chinas-commerce-ministry-suspended-us-targeted-export-controls-on-gallium-german/1248574080631857)
+**来源**: [ASML is prepared for China's rare-earth export controls — finance head says company has stock thanks to long lead times | Tom's Hardware](https://www.tomshardware.com/tech-industry/semiconductors/asml-is-prepared-for-chinas-rare-earth-export-controls-finance-head-says-company-has-stock-thanks-to-long-lead-times)
 **发现时间**: 2026-06-17
 **所属事件**: [[china-minerals-retaliation-20260608]]
 
 ## 摘要
 
-中国商务部暂停了对镓、锗、锑和石墨的针对美国的出口管制，直至2026年11月27日。
+文章提到ASML为中国的稀土出口管制做好了准备，这是新事实。

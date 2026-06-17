@@ -3,16 +3,16 @@ id: ai-ipo-valuation-reset-20260608
 title: 【预期事件】AI IPO 引发行业估值重定价
 seed_url: https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/
 published_date: 2026-06-08
-status: HOT
-last_check: 2026-06-17T17:00
+status: ACTIVE
+last_check: 2026-06-17T20:41
 last_activity: '2026-06-17'
-next_check: 2026-06-17T20:00
-interval_hours: 3
-consecutive_empty: 3
+next_check: 2026-06-18T02:41
+interval_hours: 6
+consecutive_empty: 4
 findings_count: 49
 tags:
 - tracker
-- HOT
+- ACTIVE
 entities:
   orgs:
   - Anthropic
