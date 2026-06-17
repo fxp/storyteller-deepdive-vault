@@ -4,12 +4,12 @@ title: 前沿模型月更竞速（Claude vs GPT vs Gemini vs Grok vs Kimi）
 seed_url: https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html
 published_date: 2026-06-01
 status: HOT
-last_check: 2026-06-16T21:00
-last_activity: '2026-06-16'
-next_check: 2026-06-17T00:00
+last_check: 2026-06-17T00:34
+last_activity: '2026-06-17'
+next_check: 2026-06-17T03:34
 interval_hours: 3
-consecutive_empty: 1
-findings_count: 78
+consecutive_empty: 0
+findings_count: 79
 tags:
 - tracker
 - HOT
@@ -191,3 +191,6 @@ search_queries:
 ### 2026-06-16
 - [Best AI Models 2026: GPT-5.5 vs Claude vs Gemini vs DeepSeek](https://techiehub.blog/best-ai-models-compared) — 比较了2026年最佳AI模型GPT-5.5、Claude 4、Gemini 2.5和DeepSeek的性能、定价和用例。
 - [GPT-5.2 & ARC-AGI-2: A Benchmark Analysis of AI Reasoning](https://intuitionlabs.ai/articles/gpt-5-2-arc-agi-2-benchmark) — 分析了GPT-5.2在ARC-AGI-2基准测试中的表现，以及后续GPT-5.4 Pro的进步。
+### 2026-06-17
+- [GPT-5.5 vs Claude Opus vs Gemini: What the Benchmarks Actually ...](https://medium.com/write-your-world/gpt-5-5-vs-claude-opus-vs-gemini-what-the-benchmarks-actually-show-bc06b5b4ce22) — 提供了GPT-5.5, Claude Opus 4.7, 和 Gemini 3.1 Pro的最新模型比较，包含新的性能基准数据。
+
