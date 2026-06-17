@@ -4,11 +4,11 @@ title: 【预期事件】长鑫存储突破 HBM，华为昇腾实现国产算力
 seed_url: https://techblog.comsoc.org/2025/10/02/huawei-to-double-output-of-ascend-ai-chips-in-2026-openai-orders-hbm-chips-from-sk-hynix-samsung-for-stargate-uae-project/
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-17T13:09
+last_check: 2026-06-17T17:00
 last_activity: '2026-06-17'
-next_check: 2026-06-17T16:09
+next_check: 2026-06-17T20:00
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 28
 tags:
 - tracker
@@ -119,4 +119,3 @@ search_queries:
 - [板块一年暴涨80%，AI 吞噬式需求引爆存储超级周期-36氪](https://m.36kr.com/p/3676263778972168) — 报道了中国存储产业迎来价值重估拐点，包括存储超级周期和HBM3e量产等新事实。
 - [Chinese semiconductor industry gears up for domestic HBM3 production by the end of 2026 : r/technology](https://www.reddit.com/r/technology/comments/1qjlzh5/chinese_semiconductor_industry_gears_up_for) — 报道了中国半导体行业为HBM3量产做准备，提供了新事实。
 - [China's CXMT to Mass-Produce 12-High HBM3/HBM3E Next Year ...](https://x.com/jukan05/status/2041798826990956747?lang=en) — 报道了长鑫存储计划明年开始量产12层HBM3/HBM3E，提供了新事实。
-

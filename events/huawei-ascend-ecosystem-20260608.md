@@ -4,12 +4,12 @@ title: 华为昇腾芯片生态规模化（国产算力闭环 vs HBM 瓶颈）
 seed_url: https://techblog.comsoc.org/2025/10/02/huawei-to-double-output-of-ascend-ai-chips-in-2026-openai-orders-hbm-chips-from-sk-hynix-samsung-for-stargate-uae-project/
 published_date: 2025-10-02
 status: HOT
-last_check: 2026-06-17T13:09
+last_check: 2026-06-17T17:00
 last_activity: '2026-06-17'
-next_check: 2026-06-17T16:09
+next_check: 2026-06-17T20:00
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 49
+findings_count: 50
 tags:
 - tracker
 - HOT
@@ -144,4 +144,6 @@ search_queries:
 ### 2026-06-17
 - [DeepSeek V4 Turns “Cheap AI” Into a $20B Stack War - Medium](https://medium.com/write-a-catalyst/deepseek-v4-turns-cheap-ai-into-a-20b-stack-war-0bfc885a3363) — 文章提到腾讯和阿里巴巴计划投资DeepSeek AI初创公司，这是一个新事实，可能与华为昇腾芯片生态规模化存在间接关联。
 - [Tencent, Alibaba in talks to invest in DeepSeek at over $20 billion ...](https://www.reuters.com/world/asia-pacific/tencent-alibaba-talks-invest-deepseek-information-reports-2026-04-22) — 文章提到阿里巴巴正在讨论以超过200亿美元的估值投资DeepSeek，这是一个新事实，可能与华为昇腾芯片生态规模化存在间接关联。
+### 2026-06-17
+- [Why Alibaba & Tencent Are Racing to Invest in DeepSeek](https://www.youtube.com/watch?v=RDPXTo61-U0) — 文章讨论了阿里巴巴和腾讯为何竞相投资DeepSeek，这可能与华为昇腾芯片生态规模化存在间接关联，因为DeepSeek可能使用华为昇腾芯片。
 
