@@ -4,11 +4,11 @@ title: 【预期事件】首个企业级 AI Agent 重大事故引发监管响应
 seed_url: https://joget.com/ai-agent-adoption-in-2026-what-the-analysts-data-shows/
 published_date: 2026-06-08
 status: ACTIVE
-last_check: 2026-06-17T15:03
+last_check: 2026-06-17T22:32
 last_activity: '2026-06-16'
-next_check: 2026-06-17T21:03
+next_check: 2026-06-18T04:32
 interval_hours: 6
-consecutive_empty: 6
+consecutive_empty: 7
 findings_count: 50
 tags:
 - tracker
