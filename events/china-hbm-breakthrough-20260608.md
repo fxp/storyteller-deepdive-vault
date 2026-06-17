@@ -4,12 +4,12 @@ title: 【预期事件】长鑫存储突破 HBM，华为昇腾实现国产算力
 seed_url: https://techblog.comsoc.org/2025/10/02/huawei-to-double-output-of-ascend-ai-chips-in-2026-openai-orders-hbm-chips-from-sk-hynix-samsung-for-stargate-uae-project/
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-17T09:32
+last_check: 2026-06-17T13:09
 last_activity: '2026-06-17'
-next_check: 2026-06-17T12:32
+next_check: 2026-06-17T16:09
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 25
+findings_count: 28
 tags:
 - tracker
 - HOT
@@ -115,4 +115,8 @@ search_queries:
 - [Chinese semiconductor industry gears up for domestic HBM3 ...](https://www.tomshardware.com/pc-components/dram/chinese-semiconductor-industry-gears-up-for-domestic-hbm3-production-by-the-end-of-2026-cxmt-to-produce-chips-while-naura-maxwell-and-u-preseason-design-tools-for-assembly) — 文章提到长鑫存储计划在2026年底量产HBM3芯片，这是历史发现中未出现的新事实。
 ### 2026-06-17
 - [长鑫存储拟2027年量产12层HBM3E 与全球存储巨头技术差距或缩短至2至3年_搜狐网](https://www.sohu.com/a/1028742700_115831) — 长鑫存储计划在2027年量产12层HBM3E，与全球存储巨头的技术差距可能缩短至2至3年。
+### 2026-06-17
+- [板块一年暴涨80%，AI 吞噬式需求引爆存储超级周期-36氪](https://m.36kr.com/p/3676263778972168) — 报道了中国存储产业迎来价值重估拐点，包括存储超级周期和HBM3e量产等新事实。
+- [Chinese semiconductor industry gears up for domestic HBM3 production by the end of 2026 : r/technology](https://www.reddit.com/r/technology/comments/1qjlzh5/chinese_semiconductor_industry_gears_up_for) — 报道了中国半导体行业为HBM3量产做准备，提供了新事实。
+- [China's CXMT to Mass-Produce 12-High HBM3/HBM3E Next Year ...](https://x.com/jukan05/status/2041798826990956747?lang=en) — 报道了长鑫存储计划明年开始量产12层HBM3/HBM3E，提供了新事实。
 
