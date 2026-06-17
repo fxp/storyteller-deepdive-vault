@@ -4,11 +4,11 @@ title: OpenAI × Anthropic 双 IPO 竞赛（AI 行业最大资本事件）
 seed_url: https://fortune.com/2026/06/01/anthropic-confidentially-files-ipo-965-billion-valuation/
 published_date: 2026-06-01
 status: HOT
-last_check: 2026-06-17T00:34
+last_check: 2026-06-17T05:35
 last_activity: '2026-06-17'
-next_check: 2026-06-17T03:34
+next_check: 2026-06-17T08:35
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 74
 tags:
 - tracker
@@ -188,4 +188,3 @@ Anthropic was valued at $965 billion in its latest funding round, officially sur
 - [AI Valuations Reach Record Highs in Q1 2026 US VC Market Report](https://www.linkedin.com/posts/kaidigao_key-takeaways-from-pitchbooks-q1-2026-us-activity-7459995370505273344-5ANJ) — 文章提到2026年第一季度美国风险投资市场AI公司的估值达到78亿美元，较2025年全年增长31%。
 ### 2026-06-17
 - [Instagram](https://www.instagram.com/p/DZDVmCcCcsJ) — Anthropic以9650亿美元的估值秘密向美国证券交易委员会提交了S-1文件草案，准备公开市场上市。
-

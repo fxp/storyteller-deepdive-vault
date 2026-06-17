@@ -4,11 +4,11 @@ title: 【预期事件】中国对关键矿产发布报复性出口限制
 seed_url: https://bisi.org.uk/reports/ai-chip-smuggling-the-limits-of-us-export-controls
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-17T00:34
+last_check: 2026-06-17T05:35
 last_activity: '2026-06-17'
-next_check: 2026-06-17T03:34
+next_check: 2026-06-17T08:35
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 48
 tags:
 - tracker
@@ -147,4 +147,3 @@ search_queries:
 - [商务部：对稀土相关技术和境外相关稀土物项实施出口管制 - 财联社](https://www.cls.cn/detail/2163829) — 商务部：对稀土相关技术和境外相关稀土物项实施出口管制。
 ### 2026-06-17
 - [China Tungsten Export Controls: Supply Chain Crisis 2026](https://discoveryalert.com.au/strategic-materials-security-chinas-tungsten-controls-2026) — 中国对钨的出口管制将影响全球钨市场，并展示如何通过出口管制和战略资源管理政策将关键材料武器化。
-
