@@ -4,12 +4,12 @@ title: 前沿模型月更竞速（Claude vs GPT vs Gemini vs Grok vs Kimi）
 seed_url: https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html
 published_date: 2026-06-01
 status: HOT
-last_check: 2026-06-18T00:34
-last_activity: '2026-06-17'
-next_check: 2026-06-18T03:34
+last_check: 2026-06-18T05:32
+last_activity: '2026-06-18'
+next_check: 2026-06-18T08:32
 interval_hours: 3
-consecutive_empty: 2
-findings_count: 81
+consecutive_empty: 0
+findings_count: 83
 tags:
 - tracker
 - HOT
@@ -197,3 +197,7 @@ search_queries:
 - [Claude Opus 4.5 vs Gemini 3 Pro vs GPT-5: The Ultimate Agentic AI ...](https://www.klavis.ai/blog/claude-opus-4-5-vs-gemini-3-pro-vs-gpt-5-the-ultimate-agentic-ai-showdown-for-developers) — 比较了Claude Opus 4.5、Gemini 3 Pro和GPT-5的最新模型，提供了新的性能基准数据。
 ### 2026-06-17
 - [A Frontier Model Goes Dark: AI Week of June 16, 2026](https://dev.to/alexmercedcoder/a-frontier-model-goes-dark-ai-week-of-june-16-2026-1gk9) — 美国出口管制命令使两个前沿模型下线，影响了编码工具、芯片战略和连接智能体系统的开放协议。
+### 2026-06-18
+- [The AI Model Battle of 2026: Which Frontier LLM Actually Delivers ...](https://www.linkedin.com/pulse/ai-model-battle-2026-which-frontier-llm-actually-value-sonawane-uwrec) — GPT-5.5作为新的前沿旗舰模型发布，具有更强的推理能力和更高的可靠性。
+- [Best LLM for Coding in 2026: Ranked by SWE-bench, LCB, and Real-World Performance](https://benchlm.ai/blog/posts/best-llm-coding) — 文章根据SWE-bench、LCB和实际性能对2026年最佳编码LLM进行了排名。
+
