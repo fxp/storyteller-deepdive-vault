@@ -4,12 +4,12 @@ title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折�
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
 status: HOT
-last_check: 2026-06-18T18:45
+last_check: 2026-06-18T22:36
 last_activity: '2026-06-18'
-next_check: 2026-06-18T21:45
+next_check: 2026-06-19T01:36
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 152
+findings_count: 153
 tags:
 - tracker
 - HOT
@@ -340,4 +340,6 @@ Guo Jiakun briefing 2026, Trump Xi AI agreement, US China artificial intelligenc
 - [如何看待2026年华为已经在AI芯片领域取得了突破，英伟达为什么还 ...](https://www.zhihu.com/question/2050219304092692855/answer/2050515911342399957) — 华为在AI芯片领域取得突破，昇腾950PR推理性能达到英伟达H20的2.8倍，2025年昇腾芯片出货81.2万颗占据国内20%市场份额。
 ### 2026-06-18
 - [[PDF] Contingency Frameworks for Future U.S.-China Cooperation on AI ...](https://www.rand.org/content/dam/rand/pubs/perspectives/PEA4800/PEA4825-1/RAND_PEA4825-1.pdf) — 提出关于未来美中在AI合作上的应急框架，包含新事实。
+### 2026-06-18
+- [The Global Governance of Artificial Intelligence: Progress, Challenges, and China’s Role – China-CEE Institute](https://china-cee.eu/2026/02/12/the-global-governance-of-artificial-intelligence-progress-challenges-and-chinas-role) — 讨论了全球人工智能治理的进展、挑战以及中国在其中的角色，可能包含与特朗普访华和中美AI科技博弈相关的新事实。
 
