@@ -4,12 +4,12 @@ title: 华为昇腾芯片生态规模化（国产算力闭环 vs HBM 瓶颈）
 seed_url: https://techblog.comsoc.org/2025/10/02/huawei-to-double-output-of-ascend-ai-chips-in-2026-openai-orders-hbm-chips-from-sk-hynix-samsung-for-stargate-uae-project/
 published_date: 2025-10-02
 status: HOT
-last_check: 2026-06-17T20:41
-last_activity: '2026-06-17'
-next_check: 2026-06-17T23:41
+last_check: 2026-06-18T00:34
+last_activity: '2026-06-18'
+next_check: 2026-06-18T03:34
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 51
+findings_count: 56
 tags:
 - tracker
 - HOT
@@ -148,4 +148,10 @@ search_queries:
 - [Why Alibaba & Tencent Are Racing to Invest in DeepSeek](https://www.youtube.com/watch?v=RDPXTo61-U0) — 文章讨论了阿里巴巴和腾讯为何竞相投资DeepSeek，这可能与华为昇腾芯片生态规模化存在间接关联，因为DeepSeek可能使用华为昇腾芯片。
 ### 2026-06-17
 - [China's AI race is accelerating as demand for domestic AI ...](https://www.instagram.com/p/DXtoh0GGhAL) — 文章提到DeepSeek V4的发布后，国内对AI芯片的需求激增，这可能与华为昇腾芯片生态规模化有关。
+### 2026-06-18
+- [China reportedly enters HBM3 mass production as South Korea ...](https://www.digitimes.com/news/a20260210PD209/dram-hbm-production-china-south-korea.html) — 报道了CXMT HBM3的生产时间表推迟，华为测试中国首个HBM3，以及CXMT加速扩张以应对供应挑战，包含新事实。
+- [华为发布新一代算力芯片 - 新浪财经](https://finance.sina.com.cn/wm/2026-03-22/doc-inhrvnnv6427403.shtml) — 报道了华为发布新一代算力芯片，包含新事实。
+- [2026年国产AI算力全面落地：华为昇腾950PR量产 - 什么值得买](https://post.smzdm.com/p/a95lqvdp) — 报道了2026年国产AI算力全面落地，华为昇腾950PR量产，包含新事实。
+- [华为Ascend 950PR量产成功，2026年AI芯片营收预计达120亿美元 ...](https://zhuanlan.zhihu.com/p/2033821357394366898) — 报道了华为昇腾950PR量产成功，2026年AI芯片营收预计达120亿美元，包含新事实。
+- [华为AI芯片订单狂飙：DeepSeek V4成国产算力分水岭](https://x.com/Compute_King/status/2050789595328200958) — 报道了华为AI芯片订单激增，DeepSeek V4成为国产算力分水岭，包含新事实。
 

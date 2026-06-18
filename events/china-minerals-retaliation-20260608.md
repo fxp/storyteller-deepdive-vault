@@ -4,11 +4,11 @@ title: 【预期事件】中国对关键矿产发布报复性出口限制
 seed_url: https://bisi.org.uk/reports/ai-chip-smuggling-the-limits-of-us-export-controls
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-17T20:41
+last_check: 2026-06-18T00:34
 last_activity: '2026-06-17'
-next_check: 2026-06-17T23:41
+next_check: 2026-06-18T03:34
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 51
 tags:
 - tracker
@@ -152,4 +152,3 @@ search_queries:
 - [China Eases U.S. Export Controls on Gallium, Germanium, Ultra-Hard Materials, Graphite, and Other Dual-Use Items - Regulatory News - Chemicals - CIRS Group](https://www.cirs-group.com/en/chemicals/us-export-controls-eased-restrictions-on-gallium-germanium-ultra-hard-materials-graphite-and-others-relaxed) — 中国放宽了对镓、锗、超硬材料、石墨和其他双重用途物品的美国出口管制。
 ### 2026-06-17
 - [ASML is prepared for China's rare-earth export controls — finance head says company has stock thanks to long lead times | Tom's Hardware](https://www.tomshardware.com/tech-industry/semiconductors/asml-is-prepared-for-chinas-rare-earth-export-controls-finance-head-says-company-has-stock-thanks-to-long-lead-times) — 文章提到ASML为中国的稀土出口管制做好了准备，这是新事实。
-
