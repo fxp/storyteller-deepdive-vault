@@ -4,12 +4,12 @@ title: 【预期事件】中国对关键矿产发布报复性出口限制
 seed_url: https://bisi.org.uk/reports/ai-chip-smuggling-the-limits-of-us-export-controls
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-18T09:27
-last_activity: '2026-06-17'
-next_check: 2026-06-18T12:27
+last_check: 2026-06-18T13:02
+last_activity: '2026-06-18'
+next_check: 2026-06-18T16:02
 interval_hours: 3
-consecutive_empty: 3
-findings_count: 51
+consecutive_empty: 0
+findings_count: 53
 tags:
 - tracker
 - HOT
@@ -152,3 +152,7 @@ search_queries:
 - [China Eases U.S. Export Controls on Gallium, Germanium, Ultra-Hard Materials, Graphite, and Other Dual-Use Items - Regulatory News - Chemicals - CIRS Group](https://www.cirs-group.com/en/chemicals/us-export-controls-eased-restrictions-on-gallium-germanium-ultra-hard-materials-graphite-and-others-relaxed) — 中国放宽了对镓、锗、超硬材料、石墨和其他双重用途物品的美国出口管制。
 ### 2026-06-17
 - [ASML is prepared for China's rare-earth export controls — finance head says company has stock thanks to long lead times | Tom's Hardware](https://www.tomshardware.com/tech-industry/semiconductors/asml-is-prepared-for-chinas-rare-earth-export-controls-finance-head-says-company-has-stock-thanks-to-long-lead-times) — 文章提到ASML为中国的稀土出口管制做好了准备，这是新事实。
+### 2026-06-18
+- [China's retaliation against the U.S. government's chip export curbs ...](https://www.facebook.com/forbes/posts/chinas-retaliation-against-the-us-governments-chip-export-curbs-has-raised-fears/657486969574630) — 中国对美国芯片出口限制的报复可能包括对关键稀土元素的出口限制，这是新事实。
+- [The US wants to cut off China's chip equipment. China says the supply chain will break for everyone.](https://thenextweb.com/news/china-us-chip-export-controls-match-act) — 中国商务部警告称，美国的芯片出口法案将严重破坏全球半导体供应链，这是新事实。
+

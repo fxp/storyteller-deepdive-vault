@@ -4,11 +4,11 @@ title: OpenAI × Anthropic 双 IPO 竞赛（AI 行业最大资本事件）
 seed_url: https://fortune.com/2026/06/01/anthropic-confidentially-files-ipo-965-billion-valuation/
 published_date: 2026-06-01
 status: HOT
-last_check: 2026-06-18T09:27
+last_check: 2026-06-18T13:02
 last_activity: '2026-06-18'
-next_check: 2026-06-18T12:27
+next_check: 2026-06-18T16:02
 interval_hours: 3
-consecutive_empty: 1
+consecutive_empty: 2
 findings_count: 79
 tags:
 - tracker

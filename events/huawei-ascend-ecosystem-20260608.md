@@ -4,11 +4,11 @@ title: 华为昇腾芯片生态规模化（国产算力闭环 vs HBM 瓶颈）
 seed_url: https://techblog.comsoc.org/2025/10/02/huawei-to-double-output-of-ascend-ai-chips-in-2026-openai-orders-hbm-chips-from-sk-hynix-samsung-for-stargate-uae-project/
 published_date: 2025-10-02
 status: HOT
-last_check: 2026-06-18T09:27
+last_check: 2026-06-18T13:02
 last_activity: '2026-06-18'
-next_check: 2026-06-18T12:27
+next_check: 2026-06-18T16:02
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 58
 tags:
 - tracker
@@ -157,4 +157,3 @@ search_queries:
 ### 2026-06-18
 - [[PDF] 昇腾万里，力算未来](https://file.iyanbao.com/pdf/b826f-e3865d32-28e0-419b-a766-8bba899a2d8a.pdf) — 证券研究报告提供了华为昇腾计算体系的详细信息，包括昇腾系列硬件、基础软件和应用使能等，包含新事实。
 - [华为昇腾AI芯片及鲲鹏CPU路线图公布！-腾讯云开发者社区-腾讯云](https://cloud.tencent.com/developer/article/2643177) — 文章公布了华为昇腾AI芯片及鲲鹏CPU的路线图，包括新芯片的发布时间和技术指标，包含新事实。
-
