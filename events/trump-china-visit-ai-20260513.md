@@ -4,12 +4,12 @@ title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折�
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
 status: HOT
-last_check: 2026-06-18T03:03
-last_activity: '2026-06-17'
-next_check: 2026-06-18T06:03
+last_check: 2026-06-18T07:34
+last_activity: '2026-06-18'
+next_check: 2026-06-18T10:34
 interval_hours: 3
-consecutive_empty: 3
-findings_count: 148
+consecutive_empty: 0
+findings_count: 149
 tags:
 - tracker
 - HOT
@@ -332,3 +332,6 @@ Guo Jiakun briefing 2026, Trump Xi AI agreement, US China artificial intelligenc
 ### 2026-06-17
 - [美中峰会“芯片无交易”…中：将使用国产芯片取代英伟达 - 朝鲜日报](https://cnnews.chosun.com/client/news/viw.asp?cate=C01&mcate=M1003&nNewsNumb=20260564773&nidx=64774) — 中国限制对英伟达H200芯片的进口，以鼓励本国芯片生产。
 - [The AI Issue America and China Can Cooperate On Now - The Wire China](https://www.thewirechina.com/2026/06/14/the-ai-issue-america-and-china-can-cooperate-on-now) — 讨论了美国和中国在AI问题上的合作，可能包含新事实。
+### 2026-06-18
+- [信创世界《2026中国国产AI芯片厂商能力象限》发布：三强领跑](https://www.163.com/dy/article/KVIGV7B405319LH8.html) — 2026年中国国产AI芯片厂商能力象限发布，国产AI芯片市场总出货量达到约400万张，本土厂商市场份额首次突破四成，达到41%。
+
