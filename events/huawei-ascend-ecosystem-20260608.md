@@ -4,12 +4,12 @@ title: 华为昇腾芯片生态规模化（国产算力闭环 vs HBM 瓶颈）
 seed_url: https://techblog.comsoc.org/2025/10/02/huawei-to-double-output-of-ascend-ai-chips-in-2026-openai-orders-hbm-chips-from-sk-hynix-samsung-for-stargate-uae-project/
 published_date: 2025-10-02
 status: HOT
-last_check: 2026-06-18T05:32
+last_check: 2026-06-18T09:27
 last_activity: '2026-06-18'
-next_check: 2026-06-18T08:32
+next_check: 2026-06-18T12:27
 interval_hours: 3
-consecutive_empty: 1
-findings_count: 56
+consecutive_empty: 0
+findings_count: 58
 tags:
 - tracker
 - HOT
@@ -154,3 +154,7 @@ search_queries:
 - [2026年国产AI算力全面落地：华为昇腾950PR量产 - 什么值得买](https://post.smzdm.com/p/a95lqvdp) — 报道了2026年国产AI算力全面落地，华为昇腾950PR量产，包含新事实。
 - [华为Ascend 950PR量产成功，2026年AI芯片营收预计达120亿美元 ...](https://zhuanlan.zhihu.com/p/2033821357394366898) — 报道了华为昇腾950PR量产成功，2026年AI芯片营收预计达120亿美元，包含新事实。
 - [华为AI芯片订单狂飙：DeepSeek V4成国产算力分水岭](https://x.com/Compute_King/status/2050789595328200958) — 报道了华为AI芯片订单激增，DeepSeek V4成为国产算力分水岭，包含新事实。
+### 2026-06-18
+- [[PDF] 昇腾万里，力算未来](https://file.iyanbao.com/pdf/b826f-e3865d32-28e0-419b-a766-8bba899a2d8a.pdf) — 证券研究报告提供了华为昇腾计算体系的详细信息，包括昇腾系列硬件、基础软件和应用使能等，包含新事实。
+- [华为昇腾AI芯片及鲲鹏CPU路线图公布！-腾讯云开发者社区-腾讯云](https://cloud.tencent.com/developer/article/2643177) — 文章公布了华为昇腾AI芯片及鲲鹏CPU的路线图，包括新芯片的发布时间和技术指标，包含新事实。
+

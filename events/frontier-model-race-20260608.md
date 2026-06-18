@@ -4,11 +4,11 @@ title: 前沿模型月更竞速（Claude vs GPT vs Gemini vs Grok vs Kimi）
 seed_url: https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html
 published_date: 2026-06-01
 status: HOT
-last_check: 2026-06-18T05:32
+last_check: 2026-06-18T09:27
 last_activity: '2026-06-18'
-next_check: 2026-06-18T08:32
+next_check: 2026-06-18T12:27
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 83
 tags:
 - tracker
@@ -200,4 +200,3 @@ search_queries:
 ### 2026-06-18
 - [The AI Model Battle of 2026: Which Frontier LLM Actually Delivers ...](https://www.linkedin.com/pulse/ai-model-battle-2026-which-frontier-llm-actually-value-sonawane-uwrec) — GPT-5.5作为新的前沿旗舰模型发布，具有更强的推理能力和更高的可靠性。
 - [Best LLM for Coding in 2026: Ranked by SWE-bench, LCB, and Real-World Performance](https://benchlm.ai/blog/posts/best-llm-coding) — 文章根据SWE-bench、LCB和实际性能对2026年最佳编码LLM进行了排名。
-

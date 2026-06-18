@@ -3,16 +3,16 @@ id: ai-ipo-valuation-reset-20260608
 title: 【预期事件】AI IPO 引发行业估值重定价
 seed_url: https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/
 published_date: 2026-06-08
-status: ACTIVE
-last_check: 2026-06-18T03:03
-last_activity: '2026-06-17'
-next_check: 2026-06-18T09:03
-interval_hours: 6
-consecutive_empty: 5
-findings_count: 49
+status: HOT
+last_check: 2026-06-18T09:27
+last_activity: '2026-06-18'
+next_check: 2026-06-18T12:27
+interval_hours: 3
+consecutive_empty: 0
+findings_count: 51
 tags:
 - tracker
-- ACTIVE
+- HOT
 entities:
   orgs:
   - Anthropic
@@ -145,3 +145,7 @@ search_queries:
 - [Beyond the Hype: The Strategic Financial Metrics That Define AI Startup Valuation in 2026](https://medium.com/@valustrat/beyond-the-hype-the-strategic-financial-metrics-that-define-ai-startup-valuation-in-2026-1864ba9bae41) — 文章讨论了2026年AI初创公司的估值和财务指标，提供了新的市场跟踪数据。
 ### 2026-06-17
 - [Anthropic Is Preparing for IPO and We Should Be Worried](https://news.ycombinator.com/item?id=48193111) — Anthropic 正在准备IPO，文章提出了对此的担忧。
+### 2026-06-18
+- [Will SpaceX, OpenAI, Anthropic Mega IPOs Break The Bull Market? ‘Big Short’ Investor Michael Burry Doesn’t Think So](https://finance.yahoo.com/markets/stocks/articles/spacex-openai-anthropic-mega-ipos-061129498.html) — Michael Burry对SpaceX、OpenAI和Anthropic的巨型IPO是否会打破牛市表示怀疑。
+- [Top analyst sees 'opening of the floodgates for the IPO market' after ...](https://fortune.com/2026/06/02/anthropic-ipo-openai-valuation-ai-bubble) — Anthropic正朝着在华尔街上市的方向发展，这是其从一家不知名的研发实验室发展到估值9650亿美元的领先AI公司的最新篇章。
+
