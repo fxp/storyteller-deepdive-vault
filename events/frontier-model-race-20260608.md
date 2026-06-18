@@ -3,16 +3,16 @@ id: frontier-model-race-20260608
 title: 前沿模型月更竞速（Claude vs GPT vs Gemini vs Grok vs Kimi）
 seed_url: https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html
 published_date: 2026-06-01
-status: HOT
-last_check: 2026-06-18T17:00
+status: ACTIVE
+last_check: 2026-06-18T20:47
 last_activity: '2026-06-18'
-next_check: 2026-06-18T20:00
-interval_hours: 3
-consecutive_empty: 3
+next_check: 2026-06-19T02:47
+interval_hours: 6
+consecutive_empty: 4
 findings_count: 83
 tags:
 - tracker
-- HOT
+- ACTIVE
 entities:
   orgs:
   - Anthropic
