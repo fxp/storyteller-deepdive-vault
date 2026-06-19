@@ -4,11 +4,11 @@ title: 【预期事件】AI IPO 引发行业估值重定价
 seed_url: https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-19T18:33
+last_check: 2026-06-19T22:18
 last_activity: '2026-06-19'
-next_check: 2026-06-19T21:33
+next_check: 2026-06-20T01:18
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 54
 tags:
 - tracker
@@ -153,4 +153,3 @@ search_queries:
 ### 2026-06-19
 - [Top AI IPOs To Watch in 2026: OpenAI, Anthropic, SpaceX, and More](https://beincrypto.com/learn/top-ai-ipos) — 文章列出了2026年值得关注的顶级AI IPO，包括OpenAI、Anthropic、SpaceX等，提供了新的事实。
 - [OpenAI IPO Closing Market Cap Trading Odds & Predictions 2026 | Polymarket](https://polymarket.com/event/openai-ipo-closing-market-cap) — 文章提供了OpenAI IPO的收盘市值预测和赔率，包含新的事实。
-
