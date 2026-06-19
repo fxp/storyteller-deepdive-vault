@@ -4,11 +4,11 @@ title: 华为昇腾芯片生态规模化（国产算力闭环 vs HBM 瓶颈）
 seed_url: https://techblog.comsoc.org/2025/10/02/huawei-to-double-output-of-ascend-ai-chips-in-2026-openai-orders-hbm-chips-from-sk-hynix-samsung-for-stargate-uae-project/
 published_date: 2025-10-02
 status: HOT
-last_check: 2026-06-18T20:47
+last_check: 2026-06-19T00:38
 last_activity: '2026-06-18'
-next_check: 2026-06-18T23:47
+next_check: 2026-06-19T03:38
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 59
 tags:
 - tracker
@@ -159,4 +159,3 @@ search_queries:
 - [华为昇腾AI芯片及鲲鹏CPU路线图公布！-腾讯云开发者社区-腾讯云](https://cloud.tencent.com/developer/article/2643177) — 文章公布了华为昇腾AI芯片及鲲鹏CPU的路线图，包括新芯片的发布时间和技术指标，包含新事实。
 ### 2026-06-18
 - [Where China’s AI chip supply chain stands in 2026 - CEIAS](https://ceias.eu/where-chinas-ai-chip-supply-chain-stands-in-2026) — 中国AI芯片供应链在2026年的状况，指出国内生态系统正在改善，但受限于多个硬瓶颈，特别是光刻设备和内存生产。由于美国禁止中国公司购买先进的AI芯片，未来几年中国的大部分计算可能来自国内芯片。
-

@@ -4,12 +4,12 @@ title: 【预期事件】中国对关键矿产发布报复性出口限制
 seed_url: https://bisi.org.uk/reports/ai-chip-smuggling-the-limits-of-us-export-controls
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-18T20:47
-last_activity: '2026-06-18'
-next_check: 2026-06-18T23:47
+last_check: 2026-06-19T00:38
+last_activity: '2026-06-19'
+next_check: 2026-06-19T03:38
 interval_hours: 3
-consecutive_empty: 1
-findings_count: 54
+consecutive_empty: 0
+findings_count: 56
 tags:
 - tracker
 - HOT
@@ -157,3 +157,7 @@ search_queries:
 - [The US wants to cut off China's chip equipment. China says the supply chain will break for everyone.](https://thenextweb.com/news/china-us-chip-export-controls-match-act) — 中国商务部警告称，美国的芯片出口法案将严重破坏全球半导体供应链，这是新事实。
 ### 2026-06-18
 - [China Reverses the Global Chip Supply Chain and Takes Command of Core Specialty Gases for Semiconduc](https://www.youtube.com/watch?v=ALUrMmgjk9E) — 中国逆转全球芯片供应链，并控制了半导体核心特种气体，这是新事实。
+### 2026-06-19
+- [US China Chip Export Controls H200 2026: The Policy Shift Explained](https://semiconductorsinsight.com/us-china-chip-export-controls-h200-2026) — 美国和中国在2026年实施新的芯片出口控制政策，这是新事实。
+- [America needs partners to challenge China's critical mineral ...](https://www.chathamhouse.org/publications/the-world-today/2026-03/america-needs-partners-challenge-chinas-critical-mineral) — 美国需要伙伴来挑战中国的关键矿物控制，这是新事实。
+
