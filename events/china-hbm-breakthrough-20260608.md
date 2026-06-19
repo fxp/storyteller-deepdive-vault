@@ -4,11 +4,11 @@ title: 【预期事件】长鑫存储突破 HBM，华为昇腾实现国产算力
 seed_url: https://techblog.comsoc.org/2025/10/02/huawei-to-double-output-of-ascend-ai-chips-in-2026-openai-orders-hbm-chips-from-sk-hynix-samsung-for-stargate-uae-project/
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-19T16:46
+last_check: 2026-06-19T20:29
 last_activity: '2026-06-19'
-next_check: 2026-06-19T19:46
+next_check: 2026-06-19T23:29
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 32
 tags:
 - tracker
@@ -126,4 +126,3 @@ search_queries:
 ### 2026-06-19
 - [CXMT, Huawei align on HBM3 ahead of China's 2026 AI memory leap](https://www.digitimes.com/news/a20251023PD208/cxmt-hbm3-2026-dram-huawei.html) — 长鑫存储向华为及其合作伙伴交付了16nm HBM3样品，标志着中国进入HBM3量产阶段。
 - [China's AI Chip Strategy Is Working - RedHub.ai](https://blog.redhub.ai/chinas-ai-chip-strategy) — 中国AI芯片战略正在取得成效，构建了完整的国内半导体堆栈。
-
