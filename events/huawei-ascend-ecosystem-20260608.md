@@ -4,12 +4,12 @@ title: 华为昇腾芯片生态规模化（国产算力闭环 vs HBM 瓶颈）
 seed_url: https://techblog.comsoc.org/2025/10/02/huawei-to-double-output-of-ascend-ai-chips-in-2026-openai-orders-hbm-chips-from-sk-hynix-samsung-for-stargate-uae-project/
 published_date: 2025-10-02
 status: HOT
-last_check: 2026-06-19T09:32
+last_check: 2026-06-19T13:06
 last_activity: '2026-06-19'
-next_check: 2026-06-19T12:32
+next_check: 2026-06-19T16:06
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 60
+findings_count: 62
 tags:
 - tracker
 - HOT
@@ -161,4 +161,7 @@ search_queries:
 - [Where China’s AI chip supply chain stands in 2026 - CEIAS](https://ceias.eu/where-chinas-ai-chip-supply-chain-stands-in-2026) — 中国AI芯片供应链在2026年的状况，指出国内生态系统正在改善，但受限于多个硬瓶颈，特别是光刻设备和内存生产。由于美国禁止中国公司购买先进的AI芯片，未来几年中国的大部分计算可能来自国内芯片。
 ### 2026-06-19
 - [Chinese semiconductor industry gears up for domestic HBM3 ...](https://www.tomshardware.com/pc-components/dram/chinese-semiconductor-industry-gears-up-for-domestic-hbm3-production-by-the-end-of-2026-cxmt-to-produce-chips-while-naura-maxwell-and-u-preseason-design-tools-for-assembly) — 文章提到中国半导体行业准备在国内生产HBM3，这对华为昇腾芯片生态规模化是一个重要的发展。
+### 2026-06-19
+- [HC Newsroom - SMIC expected to produce 30% Huawei Ascend...](https://www.facebook.com/HCNewsroom/posts/smic-expected-to-produce-30-huawei-ascend-910b-ai-chips-by-end-of-2025/1354337950031033) — SMIC预计将在2025年底生产30%的华为昇腾910B AI芯片。
+- [DeepSeek slated to draw $7 billion in maiden fundraising, sources say](https://www.cnbc.com/2026/06/03/deepseek-slated-to-draw-7-billion-in-maiden-fundraising-sources-say.html) — DeepSeek计划在首次融资中筹集70亿美元。
 

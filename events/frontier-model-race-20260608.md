@@ -4,12 +4,12 @@ title: 前沿模型月更竞速（Claude vs GPT vs Gemini vs Grok vs Kimi）
 seed_url: https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html
 published_date: 2026-06-01
 status: HOT
-last_check: 2026-06-19T09:32
+last_check: 2026-06-19T13:06
 last_activity: '2026-06-19'
-next_check: 2026-06-19T12:32
+next_check: 2026-06-19T16:06
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 84
+findings_count: 85
 tags:
 - tracker
 - HOT
@@ -202,4 +202,6 @@ search_queries:
 - [Best LLM for Coding in 2026: Ranked by SWE-bench, LCB, and Real-World Performance](https://benchlm.ai/blog/posts/best-llm-coding) — 文章根据SWE-bench、LCB和实际性能对2026年最佳编码LLM进行了排名。
 ### 2026-06-19
 - [The Age of Frontier Intelligence | Digital Bricks](https://www.digitalbricks.ai/blog-posts/the-age-of-frontier-intelligence) — 文章讨论了前沿AI模型如何重塑商业创新和竞争，并解释了前沿模型是什么以及定义如何演变。
+### 2026-06-19
+- [A Frontier Model Goes Dark: AI Week of June 16, 2026 - LinkedIn](https://www.linkedin.com/pulse/frontier-model-goes-dark-ai-week-june-16-2026-alex-merced-vghwe) — Anthropic 发布了 Claude Fable 5，这是公司新 Mythos 类别中的第一个公开发布模型。
 

@@ -4,11 +4,11 @@ title: 【预期事件】中国对关键矿产发布报复性出口限制
 seed_url: https://bisi.org.uk/reports/ai-chip-smuggling-the-limits-of-us-export-controls
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-19T09:32
+last_check: 2026-06-19T13:06
 last_activity: '2026-06-19'
-next_check: 2026-06-19T12:32
+next_check: 2026-06-19T16:06
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 57
 tags:
 - tracker
@@ -162,4 +162,3 @@ search_queries:
 - [America needs partners to challenge China's critical mineral ...](https://www.chathamhouse.org/publications/the-world-today/2026-03/america-needs-partners-challenge-chinas-critical-mineral) — 美国需要伙伴来挑战中国的关键矿物控制，这是新事实。
 ### 2026-06-19
 - [China's Export Controls to Japan Create Bottleneck; 'White-Haired Stock God' Serenity Claims South Korea's Foosung to Become a 'Big Winner' | HTX Insights](https://www.htx.com/news/chinas-export-controls-to-japan-create-bottleneck-white-hair-glBKPbuH) — 中国对日本的钨出口管制导致AI内存芯片行业的供应危机，日本面临因中国钨前体短缺而关闭的风险。
-
