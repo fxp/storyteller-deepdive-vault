@@ -3,16 +3,16 @@ id: ai-ipo-valuation-reset-20260608
 title: 【预期事件】AI IPO 引发行业估值重定价
 seed_url: https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/
 published_date: 2026-06-08
-status: ACTIVE
-last_check: 2026-06-19T00:38
-last_activity: '2026-06-18'
-next_check: 2026-06-19T06:38
-interval_hours: 6
-consecutive_empty: 4
-findings_count: 51
+status: HOT
+last_check: 2026-06-19T07:46
+last_activity: '2026-06-19'
+next_check: 2026-06-19T10:46
+interval_hours: 3
+consecutive_empty: 0
+findings_count: 52
 tags:
 - tracker
-- ACTIVE
+- HOT
 entities:
   orgs:
   - Anthropic
@@ -148,3 +148,6 @@ search_queries:
 ### 2026-06-18
 - [Will SpaceX, OpenAI, Anthropic Mega IPOs Break The Bull Market? ‘Big Short’ Investor Michael Burry Doesn’t Think So](https://finance.yahoo.com/markets/stocks/articles/spacex-openai-anthropic-mega-ipos-061129498.html) — Michael Burry对SpaceX、OpenAI和Anthropic的巨型IPO是否会打破牛市表示怀疑。
 - [Top analyst sees 'opening of the floodgates for the IPO market' after ...](https://fortune.com/2026/06/02/anthropic-ipo-openai-valuation-ai-bubble) — Anthropic正朝着在华尔街上市的方向发展，这是其从一家不知名的研发实验室发展到估值9650亿美元的领先AI公司的最新篇章。
+### 2026-06-19
+- [MiniMax IPO: AI Company's Market Value Soars to HK$100B on First Day (2026)](https://miraitalk.com/article/minimax-ipo-ai-company-s-market-value-soars-to-hk-100b-on-first-day/12520) — MiniMax IPO首日市值飙升至1000亿港元，这是新的事实。
+
