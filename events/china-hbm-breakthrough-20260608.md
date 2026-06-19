@@ -3,16 +3,16 @@ id: china-hbm-breakthrough-20260608
 title: 【预期事件】长鑫存储突破 HBM，华为昇腾实现国产算力完全闭环
 seed_url: https://techblog.comsoc.org/2025/10/02/huawei-to-double-output-of-ascend-ai-chips-in-2026-openai-orders-hbm-chips-from-sk-hynix-samsung-for-stargate-uae-project/
 published_date: 2026-06-08
-status: ACTIVE
-last_check: 2026-06-19T03:04
-last_activity: '2026-06-18'
-next_check: 2026-06-19T09:04
-interval_hours: 6
-consecutive_empty: 5
-findings_count: 29
+status: HOT
+last_check: 2026-06-19T09:32
+last_activity: '2026-06-19'
+next_check: 2026-06-19T12:32
+interval_hours: 3
+consecutive_empty: 0
+findings_count: 30
 tags:
 - tracker
-- ACTIVE
+- HOT
 entities:
   orgs:
   - 长鑫存储（CXMT）
@@ -121,3 +121,6 @@ search_queries:
 - [China's CXMT to Mass-Produce 12-High HBM3/HBM3E Next Year ...](https://x.com/jukan05/status/2041798826990956747?lang=en) — 报道了长鑫存储计划明年开始量产12层HBM3/HBM3E，提供了新事实。
 ### 2026-06-18
 - [HBM：国产替代、华为技术、贸易谈判 - 知乎专栏](https://zhuanlan.zhihu.com/p/1938407144513856058) — 讨论了国产HBM2的量产能力和国内厂商的追赶情况，提供了新事实。
+### 2026-06-19
+- [存储超级周期，中国半导体爆发了! - 21经济网](https://www.21jingji.com/article/20260529/herald/6f4aa36faa3a7508a044159ce103d884.html) — 文章报道了中国存储产业的爆发，提到了中国存储用近半个世纪的追赶和巨额投入，这是历史发现中未出现的新事实。
+
