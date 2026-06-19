@@ -1,17 +1,17 @@
 ---
 event: "[[china-hbm-breakthrough-20260608]]"
 date: 2026-06-19
-url: "https://www.21jingji.com/article/20260529/herald/6f4aa36faa3a7508a044159ce103d884.html"
-source_title: "存储超级周期，中国半导体爆发了! - 21经济网"
+url: "https://www.digitimes.com/news/a20251023PD208/cxmt-hbm3-2026-dram-huawei.html"
+source_title: "CXMT, Huawei align on HBM3 ahead of China's 2026 AI memory leap"
 relevance: RELEVANT
 ---
 
-# 存储超级周期，中国半导体爆发了! - 21经济网
+# CXMT, Huawei align on HBM3 ahead of China's 2026 AI memory leap
 
-**来源**: [存储超级周期，中国半导体爆发了! - 21经济网](https://www.21jingji.com/article/20260529/herald/6f4aa36faa3a7508a044159ce103d884.html)
+**来源**: [CXMT, Huawei align on HBM3 ahead of China's 2026 AI memory leap](https://www.digitimes.com/news/a20251023PD208/cxmt-hbm3-2026-dram-huawei.html)
 **发现时间**: 2026-06-19
 **所属事件**: [[china-hbm-breakthrough-20260608]]
 
 ## 摘要
 
-文章报道了中国存储产业的爆发，提到了中国存储用近半个世纪的追赶和巨额投入，这是历史发现中未出现的新事实。
+长鑫存储向华为及其合作伙伴交付了16nm HBM3样品，标志着中国进入HBM3量产阶段。

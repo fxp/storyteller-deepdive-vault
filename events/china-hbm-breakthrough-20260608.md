@@ -4,12 +4,12 @@ title: 【预期事件】长鑫存储突破 HBM，华为昇腾实现国产算力
 seed_url: https://techblog.comsoc.org/2025/10/02/huawei-to-double-output-of-ascend-ai-chips-in-2026-openai-orders-hbm-chips-from-sk-hynix-samsung-for-stargate-uae-project/
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-19T13:06
+last_check: 2026-06-19T16:46
 last_activity: '2026-06-19'
-next_check: 2026-06-19T16:06
+next_check: 2026-06-19T19:46
 interval_hours: 3
-consecutive_empty: 1
-findings_count: 30
+consecutive_empty: 0
+findings_count: 32
 tags:
 - tracker
 - HOT
@@ -123,3 +123,7 @@ search_queries:
 - [HBM：国产替代、华为技术、贸易谈判 - 知乎专栏](https://zhuanlan.zhihu.com/p/1938407144513856058) — 讨论了国产HBM2的量产能力和国内厂商的追赶情况，提供了新事实。
 ### 2026-06-19
 - [存储超级周期，中国半导体爆发了! - 21经济网](https://www.21jingji.com/article/20260529/herald/6f4aa36faa3a7508a044159ce103d884.html) — 文章报道了中国存储产业的爆发，提到了中国存储用近半个世纪的追赶和巨额投入，这是历史发现中未出现的新事实。
+### 2026-06-19
+- [CXMT, Huawei align on HBM3 ahead of China's 2026 AI memory leap](https://www.digitimes.com/news/a20251023PD208/cxmt-hbm3-2026-dram-huawei.html) — 长鑫存储向华为及其合作伙伴交付了16nm HBM3样品，标志着中国进入HBM3量产阶段。
+- [China's AI Chip Strategy Is Working - RedHub.ai](https://blog.redhub.ai/chinas-ai-chip-strategy) — 中国AI芯片战略正在取得成效，构建了完整的国内半导体堆栈。
+

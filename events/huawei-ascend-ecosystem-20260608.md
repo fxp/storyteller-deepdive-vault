@@ -4,11 +4,11 @@ title: 华为昇腾芯片生态规模化（国产算力闭环 vs HBM 瓶颈）
 seed_url: https://techblog.comsoc.org/2025/10/02/huawei-to-double-output-of-ascend-ai-chips-in-2026-openai-orders-hbm-chips-from-sk-hynix-samsung-for-stargate-uae-project/
 published_date: 2025-10-02
 status: HOT
-last_check: 2026-06-19T13:06
+last_check: 2026-06-19T16:46
 last_activity: '2026-06-19'
-next_check: 2026-06-19T16:06
+next_check: 2026-06-19T19:46
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 62
 tags:
 - tracker
@@ -164,4 +164,3 @@ search_queries:
 ### 2026-06-19
 - [HC Newsroom - SMIC expected to produce 30% Huawei Ascend...](https://www.facebook.com/HCNewsroom/posts/smic-expected-to-produce-30-huawei-ascend-910b-ai-chips-by-end-of-2025/1354337950031033) — SMIC预计将在2025年底生产30%的华为昇腾910B AI芯片。
 - [DeepSeek slated to draw $7 billion in maiden fundraising, sources say](https://www.cnbc.com/2026/06/03/deepseek-slated-to-draw-7-billion-in-maiden-fundraising-sources-say.html) — DeepSeek计划在首次融资中筹集70亿美元。
-
