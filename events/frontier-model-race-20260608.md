@@ -4,11 +4,11 @@ title: 前沿模型月更竞速（Claude vs GPT vs Gemini vs Grok vs Kimi）
 seed_url: https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html
 published_date: 2026-06-01
 status: ACTIVE
-last_check: 2026-06-18T20:47
+last_check: 2026-06-19T03:04
 last_activity: '2026-06-18'
-next_check: 2026-06-19T02:47
+next_check: 2026-06-19T09:04
 interval_hours: 6
-consecutive_empty: 4
+consecutive_empty: 5
 findings_count: 83
 tags:
 - tracker
