@@ -4,12 +4,12 @@ title: 【预期事件】AI IPO 引发行业估值重定价
 seed_url: https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-20T10:46
+last_check: 2026-06-20T14:44
 last_activity: '2026-06-20'
-next_check: 2026-06-20T13:46
+next_check: 2026-06-20T17:44
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 64
+findings_count: 65
 tags:
 - tracker
 - HOT
@@ -166,4 +166,6 @@ search_queries:
 - [The 2026 IPO market is arriving with serious momentum, major AI ...](https://www.facebook.com/LPLFinancialLLC/posts/the-2026-ipo-market-is-arriving-with-serious-momentum-major-ai-storylines-and-sk/1437817248387321) — 2026 年 IPO 市场以强劲势头到来，主要 AI 故事线和高度期望，这是新的事实。
 - [Q1 2026 Venture Capital Hits $297B: AI Captures 81 ... - Tech Insider](https://tech-insider.org/q1-2026-venture-capital-297-billion-ai-startup-funding-record) — 2026 年第一季度风险投资达到 2970 亿美元，其中 AI 占 81%，这是新的事实。
 - [Q1 2026: A Record Quarter, a Compressed Market, and a Window ...](https://lehotlouis.medium.com/q1-2026-a-record-quarter-a-compressed-market-and-a-window-that-wont-stay-open-e337a2d2e247) — 2026 年第一季度，约 3000 亿美元被投入约 6000 家初创公司，其中 AI 占 80%，这是新的事实。
+### 2026-06-20
+- [OpenAI, Anthropic Cutting Token Prices? This War Could Dent Profits Just As Both Head For IPOs](https://stocktwits.com/news-articles/markets/equity/open-ai-anthropic-cutting-token-prices-this-war-could-dent-profits-just-as-both-head-for-ip-os/cZKTQcYR7co) — OpenAI 正在考虑降低其向客户收取的价格以赢得竞争对手 Anthropic 的客户，这是新的事实。
 
