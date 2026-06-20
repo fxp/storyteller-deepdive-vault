@@ -4,12 +4,12 @@ title: 【预期事件】AI IPO 引发行业估值重定价
 seed_url: https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-20T03:02
+last_check: 2026-06-20T07:15
 last_activity: '2026-06-20'
-next_check: 2026-06-20T06:02
+next_check: 2026-06-20T10:15
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 58
+findings_count: 60
 tags:
 - tracker
 - HOT
@@ -158,4 +158,7 @@ search_queries:
 - [The AI Software Valuation Report 2026 - LinkedIn](https://www.linkedin.com/pulse/ai-software-valuation-report-2026-ryan-allis-cbehe) — LinkedIn 上的报告提供了 AI 软件估值的详细数据和案例研究。
 - [AI Bubble Is Way Bigger Than Dot-Com | Seeking Alpha](https://seekingalpha.com/article/4912079-ai-bubble-way-bigger-than-dot-com) — Seeking Alpha 上的文章比较了即将到来的科技 IPO 的估值，指出它们超过了互联网泡沫时期的估值。
 - [The Dot-AI Bubble: Why 2026 Feels Like 2000 All Over Again](https://www.investing.com/analysis/the-dotai-bubble-why-2026-feels-like-2000-all-over-again-200668624) — Investing.com 上的文章将 2026 年与 2000 年的互联网泡沫进行了比较，指出 AI 领域的估值可能过高。
+### 2026-06-20
+- [AI Company Rankings 2026: Revenue, Funding & Valuation Data ... - TLDL](https://www.tldl.io/resources/ai-companies-landscape-2026) — 提供了2026年AI公司的收入、融资和估值数据，包括OpenAI和Anthropic的估值信息。
+- [AI Business Valuation Model 2026: Methods, Metrics & Trends for ...](https://www.feinternational.com/blog/ai-business-valuation-model-2026) — 讨论了2026年AI业务估值的方法、指标和趋势，提到了OpenAI和Anthropic的估值。
 
