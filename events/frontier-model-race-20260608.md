@@ -4,11 +4,11 @@ title: 前沿模型月更竞速（Claude vs GPT vs Gemini vs Grok vs Kimi）
 seed_url: https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html
 published_date: 2026-06-01
 status: HOT
-last_check: 2026-06-20T16:28
+last_check: 2026-06-20T20:26
 last_activity: '2026-06-20'
-next_check: 2026-06-20T19:28
+next_check: 2026-06-20T23:26
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 90
 tags:
 - tracker
@@ -212,4 +212,3 @@ search_queries:
 - [GPT-5.4 vs Claude Opus 4.6 vs Gemini 3.1 Pro - MindStudio](https://www.mindstudio.ai/blog/gpt-54-vs-claude-opus-46-vs-gemini-31-pro-benchmarks) — Claude Opus 4.6在GPQA Diamond推理基准测试中优于GPT-5.4，得分为87.4%，而GPT-5.4为83.9%
 ### 2026-06-20
 - [Claude 4 vs GPT-5 vs Gemini 3: How to Pick the Right AI Model for ...](https://ofox.ai/blog/claude-vs-gpt-vs-gemini-model-comparison-guide-2026) — 提供了选择 Claude、GPT 和 Gemini 模型的实用指南，包括它们的优点、缺点、定价以及哪个模型获胜。
-
