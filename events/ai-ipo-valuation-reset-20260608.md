@@ -4,12 +4,12 @@ title: 【预期事件】AI IPO 引发行业估值重定价
 seed_url: https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-19T22:18
-last_activity: '2026-06-19'
-next_check: 2026-06-20T01:18
+last_check: 2026-06-20T03:02
+last_activity: '2026-06-20'
+next_check: 2026-06-20T06:02
 interval_hours: 3
-consecutive_empty: 1
-findings_count: 54
+consecutive_empty: 0
+findings_count: 58
 tags:
 - tracker
 - HOT
@@ -153,3 +153,9 @@ search_queries:
 ### 2026-06-19
 - [Top AI IPOs To Watch in 2026: OpenAI, Anthropic, SpaceX, and More](https://beincrypto.com/learn/top-ai-ipos) — 文章列出了2026年值得关注的顶级AI IPO，包括OpenAI、Anthropic、SpaceX等，提供了新的事实。
 - [OpenAI IPO Closing Market Cap Trading Odds & Predictions 2026 | Polymarket](https://polymarket.com/event/openai-ipo-closing-market-cap) — 文章提供了OpenAI IPO的收盘市值预测和赔率，包含新的事实。
+### 2026-06-20
+- [IPOs: Mega Cap AI Companies, ETFs, Index Inclusion - iShares](https://www.ishares.com/us/insights/inside-the-market/ai-mega-ipos-2026) — iShares 预测 2026 年 IPO 活动将反弹，可能是历史上最大的一年。
+- [The AI Software Valuation Report 2026 - LinkedIn](https://www.linkedin.com/pulse/ai-software-valuation-report-2026-ryan-allis-cbehe) — LinkedIn 上的报告提供了 AI 软件估值的详细数据和案例研究。
+- [AI Bubble Is Way Bigger Than Dot-Com | Seeking Alpha](https://seekingalpha.com/article/4912079-ai-bubble-way-bigger-than-dot-com) — Seeking Alpha 上的文章比较了即将到来的科技 IPO 的估值，指出它们超过了互联网泡沫时期的估值。
+- [The Dot-AI Bubble: Why 2026 Feels Like 2000 All Over Again](https://www.investing.com/analysis/the-dotai-bubble-why-2026-feels-like-2000-all-over-again-200668624) — Investing.com 上的文章将 2026 年与 2000 年的互联网泡沫进行了比较，指出 AI 领域的估值可能过高。
+
