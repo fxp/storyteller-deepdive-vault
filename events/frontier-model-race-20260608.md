@@ -4,12 +4,12 @@ title: 前沿模型月更竞速（Claude vs GPT vs Gemini vs Grok vs Kimi）
 seed_url: https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html
 published_date: 2026-06-01
 status: HOT
-last_check: 2026-06-20T00:29
-last_activity: '2026-06-19'
-next_check: 2026-06-20T03:29
+last_check: 2026-06-20T05:27
+last_activity: '2026-06-20'
+next_check: 2026-06-20T08:27
 interval_hours: 3
-consecutive_empty: 3
-findings_count: 85
+consecutive_empty: 0
+findings_count: 86
 tags:
 - tracker
 - HOT
@@ -204,3 +204,6 @@ search_queries:
 - [The Age of Frontier Intelligence | Digital Bricks](https://www.digitalbricks.ai/blog-posts/the-age-of-frontier-intelligence) — 文章讨论了前沿AI模型如何重塑商业创新和竞争，并解释了前沿模型是什么以及定义如何演变。
 ### 2026-06-19
 - [A Frontier Model Goes Dark: AI Week of June 16, 2026 - LinkedIn](https://www.linkedin.com/pulse/frontier-model-goes-dark-ai-week-june-16-2026-alex-merced-vghwe) — Anthropic 发布了 Claude Fable 5，这是公司新 Mythos 类别中的第一个公开发布模型。
+### 2026-06-20
+- [opus 4 6 vs gpt 5 3 codex vs gemini 3 pro - YouTube](https://www.youtube.com/watch?v=l7EJskDA22o) — 具体新事实是Opus 4.6和GPT 5.3 Codex在2026年2月5日的发布情况。
+
