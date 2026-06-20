@@ -4,11 +4,11 @@ title: 华为昇腾芯片生态规模化（国产算力闭环 vs HBM 瓶颈）
 seed_url: https://techblog.comsoc.org/2025/10/02/huawei-to-double-output-of-ascend-ai-chips-in-2026-openai-orders-hbm-chips-from-sk-hynix-samsung-for-stargate-uae-project/
 published_date: 2025-10-02
 status: HOT
-last_check: 2026-06-20T05:27
+last_check: 2026-06-20T09:00
 last_activity: '2026-06-20'
-next_check: 2026-06-20T08:27
+next_check: 2026-06-20T12:00
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 63
 tags:
 - tracker
@@ -166,4 +166,3 @@ search_queries:
 - [DeepSeek slated to draw $7 billion in maiden fundraising, sources say](https://www.cnbc.com/2026/06/03/deepseek-slated-to-draw-7-billion-in-maiden-fundraising-sources-say.html) — DeepSeek计划在首次融资中筹集70亿美元。
 ### 2026-06-20
 - [DeepSeek V4 triggers scramble for Huawei AI chips as US export controls reshape China’s hardware market](https://capacityglobal.com/news/deepseek-v4-triggers-scramble) — DeepSeek V4的需求推动了华为AI芯片的竞争，这是历史发现中未出现的新事实
-
