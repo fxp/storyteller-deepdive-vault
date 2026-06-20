@@ -4,12 +4,12 @@ title: 【预期事件】AI IPO 引发行业估值重定价
 seed_url: https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-20T07:15
+last_check: 2026-06-20T10:46
 last_activity: '2026-06-20'
-next_check: 2026-06-20T10:15
+next_check: 2026-06-20T13:46
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 60
+findings_count: 64
 tags:
 - tracker
 - HOT
@@ -161,4 +161,9 @@ search_queries:
 ### 2026-06-20
 - [AI Company Rankings 2026: Revenue, Funding & Valuation Data ... - TLDL](https://www.tldl.io/resources/ai-companies-landscape-2026) — 提供了2026年AI公司的收入、融资和估值数据，包括OpenAI和Anthropic的估值信息。
 - [AI Business Valuation Model 2026: Methods, Metrics & Trends for ...](https://www.feinternational.com/blog/ai-business-valuation-model-2026) — 讨论了2026年AI业务估值的方法、指标和趋势，提到了OpenAI和Anthropic的估值。
+### 2026-06-20
+- [OpenAI and Anthropic are both racing toward IPOs at $1 trillion ...](https://www.facebook.com/100089314351644/posts/openai-and-anthropic-are-both-racing-toward-ipos-at-1-trillion-valuationsand-a-f/1042588982061571) — OpenAI 和 Anthropic 正在向 1000 亿美元的估值冲刺，这是新的事实。
+- [The 2026 IPO market is arriving with serious momentum, major AI ...](https://www.facebook.com/LPLFinancialLLC/posts/the-2026-ipo-market-is-arriving-with-serious-momentum-major-ai-storylines-and-sk/1437817248387321) — 2026 年 IPO 市场以强劲势头到来，主要 AI 故事线和高度期望，这是新的事实。
+- [Q1 2026 Venture Capital Hits $297B: AI Captures 81 ... - Tech Insider](https://tech-insider.org/q1-2026-venture-capital-297-billion-ai-startup-funding-record) — 2026 年第一季度风险投资达到 2970 亿美元，其中 AI 占 81%，这是新的事实。
+- [Q1 2026: A Record Quarter, a Compressed Market, and a Window ...](https://lehotlouis.medium.com/q1-2026-a-record-quarter-a-compressed-market-and-a-window-that-wont-stay-open-e337a2d2e247) — 2026 年第一季度，约 3000 亿美元被投入约 6000 家初创公司，其中 AI 占 80%，这是新的事实。
 

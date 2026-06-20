@@ -3,16 +3,16 @@ id: ai-agent-major-incident-20260608
 title: 【预期事件】首个企业级 AI Agent 重大事故引发监管响应
 seed_url: https://joget.com/ai-agent-adoption-in-2026-what-the-analysts-data-shows/
 published_date: 2026-06-08
-status: TRACKING
-last_check: 2026-06-19T09:32
-last_activity: '2026-06-16'
-next_check: 2026-06-20T09:32
-interval_hours: 24
-consecutive_empty: 12
-findings_count: 50
+status: HOT
+last_check: 2026-06-20T10:46
+last_activity: '2026-06-20'
+next_check: 2026-06-20T13:46
+interval_hours: 3
+consecutive_empty: 0
+findings_count: 51
 tags:
 - tracker
-- TRACKING
+- HOT
 entities:
   orgs:
   - SEC
@@ -138,3 +138,6 @@ search_queries:
 ### 2026-06-16
 - [AI Agent Security In 2026: What Enterprises Are Getting Wrong](https://agatsoftware.com/blog/ai-agent-security-enterprise-2026) — AI代理安全套件概述，包括Guardian Agent、Model Guardian、AI Gateway和Prompt Guardian等新信息。
 - [AI Agent Crash, Software Collapses and Non-Human Economies.](https://www.youtube.com/watch?v=9arFsSVYTnk) — AI代理崩溃、软件崩溃和非人类经济，提供了关于AI代理崩溃的新事实。
+### 2026-06-20
+- [New Governance Frameworks Offer a Roadmap for Managing Risks Unique to Agentic AI | Davis Wright Tremaine](https://www.dwt.com/blogs/artificial-intelligence-law-advisor/2026/01/roadmap-for-managing-risks-unique-to-agentic-ai) — 文章提供了关于管理Agentic AI独特风险的治理框架的新指导，这是关于AI代理治理和合规的新事实。
+
