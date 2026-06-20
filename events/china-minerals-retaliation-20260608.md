@@ -3,16 +3,16 @@ id: china-minerals-retaliation-20260608
 title: 【预期事件】中国对关键矿产发布报复性出口限制
 seed_url: https://bisi.org.uk/reports/ai-chip-smuggling-the-limits-of-us-export-controls
 published_date: 2026-06-08
-status: ACTIVE
-last_check: 2026-06-20T14:44
-last_activity: '2026-06-19'
-next_check: 2026-06-20T20:44
-interval_hours: 6
-consecutive_empty: 6
-findings_count: 57
+status: HOT
+last_check: 2026-06-20T22:24
+last_activity: '2026-06-20'
+next_check: 2026-06-21T01:24
+interval_hours: 3
+consecutive_empty: 0
+findings_count: 58
 tags:
 - tracker
-- ACTIVE
+- HOT
 entities:
   orgs:
   - 中国商务部
@@ -162,3 +162,6 @@ search_queries:
 - [America needs partners to challenge China's critical mineral ...](https://www.chathamhouse.org/publications/the-world-today/2026-03/america-needs-partners-challenge-chinas-critical-mineral) — 美国需要伙伴来挑战中国的关键矿物控制，这是新事实。
 ### 2026-06-19
 - [China's Export Controls to Japan Create Bottleneck; 'White-Haired Stock God' Serenity Claims South Korea's Foosung to Become a 'Big Winner' | HTX Insights](https://www.htx.com/news/chinas-export-controls-to-japan-create-bottleneck-white-hair-glBKPbuH) — 中国对日本的钨出口管制导致AI内存芯片行业的供应危机，日本面临因中国钨前体短缺而关闭的风险。
+### 2026-06-20
+- [欧盟对中国管制稀有金属出口表示“关切”](https://www.voachinese.com/a/eu-concerned-about-china-s-curbs-on-rare-metals-20230704/7167037.html) — 欧盟对中国管制稀有金属出口表示“关切”，这表明中国对稀有金属的出口管制可能对全球供应链产生影响，是一个新事实。
+

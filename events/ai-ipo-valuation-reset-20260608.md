@@ -4,11 +4,11 @@ title: 【预期事件】AI IPO 引发行业估值重定价
 seed_url: https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-20T18:26
+last_check: 2026-06-20T22:24
 last_activity: '2026-06-20'
-next_check: 2026-06-20T21:26
+next_check: 2026-06-21T01:24
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 66
 tags:
 - tracker
@@ -170,4 +170,3 @@ search_queries:
 - [OpenAI, Anthropic Cutting Token Prices? This War Could Dent Profits Just As Both Head For IPOs](https://stocktwits.com/news-articles/markets/equity/open-ai-anthropic-cutting-token-prices-this-war-could-dent-profits-just-as-both-head-for-ip-os/cZKTQcYR7co) — OpenAI 正在考虑降低其向客户收取的价格以赢得竞争对手 Anthropic 的客户，这是新的事实。
 ### 2026-06-20
 - [Q1 2026 Shatters Venture Funding Records As AI Boom Pushes Startup Investment To $300B](https://news.crunchbase.com/venture/record-breaking-funding-ai-global-q1-2026) — 2026年第一季度风险投资达到2970亿美元，其中AI占81%，这是新的事实。
-
