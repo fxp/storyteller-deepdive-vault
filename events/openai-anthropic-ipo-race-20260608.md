@@ -4,12 +4,12 @@ title: OpenAI × Anthropic 双 IPO 竞赛（AI 行业最大资本事件）
 seed_url: https://fortune.com/2026/06/01/anthropic-confidentially-files-ipo-965-billion-valuation/
 published_date: 2026-06-01
 status: HOT
-last_check: 2026-06-20T14:44
+last_check: 2026-06-20T18:26
 last_activity: '2026-06-20'
-next_check: 2026-06-20T17:44
+next_check: 2026-06-20T21:26
 interval_hours: 3
-consecutive_empty: 2
-findings_count: 84
+consecutive_empty: 0
+findings_count: 86
 tags:
 - tracker
 - HOT
@@ -204,3 +204,7 @@ Anthropic was valued at $965 billion in its latest funding round, officially sur
 - [OpenAI IPO: $850B Valuation, $25B Revenue [2026]](https://tech-insider.org/openai-ipo-850-billion-valuation-2026) — OpenAI确认已向美国证券交易委员会提交了保密的S-1文件，估值在7300亿美元到8520亿美元之间，年收入超过250亿美元。
 ### 2026-06-20
 - [OpenAI lays groundwork for juggernaut IPO at up to $1 trillion ...](https://www.reuters.com/business/openai-lays-groundwork-juggernaut-ipo-up-1-trillion-valuation-2025-10-29) — OpenAI考虑在2026年下半年向证券监管机构提交文件，这是新事实。
+### 2026-06-20
+- [Anthropic IPO 2026: $1T Valuation, S-1 & Key Dates](https://www.useluminix.com/reports/company-overviews/what-do-we-know-about-the-anthropic-ipo) — Anthropic于2026年6月1日向美国证券交易委员会提交了保密的S-1文件草案，将IPO流程从谣言转变为正式的监管文件。
+- [A $7 billion horse race: Goldman Sachs and Morgan Stanley battle for ‘lead left’ position ahead of OpenAI and Anthropic IPOs](https://finance.yahoo.com/markets/stocks/articles/7-billion-horse-race-goldman-070000527.html) — 文章讨论了高盛和摩根士丹利在OpenAI和AnthropicIPO前的竞争。
+
