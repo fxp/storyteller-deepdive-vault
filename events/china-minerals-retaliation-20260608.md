@@ -4,11 +4,11 @@ title: 【预期事件】中国对关键矿产发布报复性出口限制
 seed_url: https://bisi.org.uk/reports/ai-chip-smuggling-the-limits-of-us-export-controls
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-21T07:33
+last_check: 2026-06-21T11:01
 last_activity: '2026-06-21'
-next_check: 2026-06-21T10:33
+next_check: 2026-06-21T14:01
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 62
 tags:
 - tracker
@@ -170,4 +170,3 @@ search_queries:
 - [Tungsten Export Controls: Supply Chain Impact & Risks](https://discoveryalert.com.au/strategic-material-dependencies-tungsten-2026) — 文章指出中国对钨的出口管制通过复杂的许可系统从根本上改变了全球供应链动态，这是一个新事实。
 - [SunSirs: China Imposes Export Controls on Tungsten, Antimony, and Silver](https://www.sunsirs.com/uk/detail_news-27645.html) — 文章提到钨是一种军事材料，美国军事的穿甲弹都依赖于它，这是新事实。
 - [【主题研究】三大重点看中国锗镓出口管制，全面解析战略金属争霸 ...](https://sc.macromicro.me/blog/theme-research-three-key-points-to-look-at-china-s-germanium-and-gallium-export-control-comprehensive-analysis-of-strategic-metals-hegemony) — 文章全面解析了中国对锗和镓的出口管制，包括对砷化镓和氮化镓等半导体关键材料的管制，这是一个新事实。
-
