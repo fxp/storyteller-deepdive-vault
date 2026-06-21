@@ -4,11 +4,11 @@ title: 华为昇腾芯片生态规模化（国产算力闭环 vs HBM 瓶颈）
 seed_url: https://techblog.comsoc.org/2025/10/02/huawei-to-double-output-of-ascend-ai-chips-in-2026-openai-orders-hbm-chips-from-sk-hynix-samsung-for-stargate-uae-project/
 published_date: 2025-10-02
 status: HOT
-last_check: 2026-06-20T20:26
+last_check: 2026-06-21T00:31
 last_activity: '2026-06-20'
-next_check: 2026-06-20T23:26
+next_check: 2026-06-21T03:31
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 65
 tags:
 - tracker
@@ -170,4 +170,3 @@ search_queries:
 - [China's DeepSeek Looks to Tap External Investors Including ... - WSJ](https://www.wsj.com/tech/ai/chinas-deepseek-looks-to-tap-external-investors-including-alibaba-tencent-4fcb607d) — DeepSeek寻求外部投资者，包括阿里巴巴和腾讯，这可能与华为昇腾芯片生态规模化存在间接关联。
 ### 2026-06-20
 - [华为昇腾新一代AI算力全面落地_腾讯新闻](https://news.qq.com/rain/a/20260322A037N900) — 华为昇腾新一代AI算力全面落地，发布Atlas 350 AI训练推理加速卡，标志着国产高端AI推理算力进入规模化商用新阶段，并有多家核心生态伙伴推出基于该加速卡的服务器整机产品。
-

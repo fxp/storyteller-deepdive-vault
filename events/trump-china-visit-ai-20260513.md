@@ -4,12 +4,12 @@ title: 特朗普访华与中美 AI 科技博弈（H200 解禁、芯片战转折�
 seed_url: https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html
 published_date: 2026-05-13
 status: HOT
-last_check: 2026-06-20T20:26
-last_activity: '2026-06-20'
-next_check: 2026-06-20T23:26
+last_check: 2026-06-21T00:31
+last_activity: '2026-06-21'
+next_check: 2026-06-21T03:31
 interval_hours: 3
-consecutive_empty: 2
-findings_count: 154
+consecutive_empty: 0
+findings_count: 155
 tags:
 - tracker
 - HOT
@@ -344,3 +344,6 @@ Guo Jiakun briefing 2026, Trump Xi AI agreement, US China artificial intelligenc
 - [The Global Governance of Artificial Intelligence: Progress, Challenges, and China’s Role – China-CEE Institute](https://china-cee.eu/2026/02/12/the-global-governance-of-artificial-intelligence-progress-challenges-and-chinas-role) — 讨论了全球人工智能治理的进展、挑战以及中国在其中的角色，可能包含与特朗普访华和中美AI科技博弈相关的新事实。
 ### 2026-06-20
 - [美中峰会“芯片无交易”…中：将使用国产芯片取代英伟达 - 朝鲜日报](https://cnnews.chosun.com/client/news/viw.asp?nNewsNumb=20260564773&cate=c01&mcate=) — 中国限制对英伟达H200芯片的进口，以鼓励本国芯片生产。
+### 2026-06-21
+- [Global AI Regulation 2026: US, China, India, EU Policies ... - YouTube](https://www.youtube.com/watch?v=ceg4iHBWsok) — 视频内容涉及全球AI监管政策，包括美国、中国、印度和欧盟的政策，可能包含与特朗普访华和中美AI科技博弈相关的新事实。
+
