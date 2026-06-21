@@ -4,12 +4,12 @@ title: 华为昇腾芯片生态规模化（国产算力闭环 vs HBM 瓶颈）
 seed_url: https://techblog.comsoc.org/2025/10/02/huawei-to-double-output-of-ascend-ai-chips-in-2026-openai-orders-hbm-chips-from-sk-hynix-samsung-for-stargate-uae-project/
 published_date: 2025-10-02
 status: HOT
-last_check: 2026-06-21T00:31
-last_activity: '2026-06-20'
-next_check: 2026-06-21T03:31
+last_check: 2026-06-21T05:33
+last_activity: '2026-06-21'
+next_check: 2026-06-21T08:33
 interval_hours: 3
-consecutive_empty: 1
-findings_count: 65
+consecutive_empty: 0
+findings_count: 67
 tags:
 - tracker
 - HOT
@@ -170,3 +170,7 @@ search_queries:
 - [China's DeepSeek Looks to Tap External Investors Including ... - WSJ](https://www.wsj.com/tech/ai/chinas-deepseek-looks-to-tap-external-investors-including-alibaba-tencent-4fcb607d) — DeepSeek寻求外部投资者，包括阿里巴巴和腾讯，这可能与华为昇腾芯片生态规模化存在间接关联。
 ### 2026-06-20
 - [华为昇腾新一代AI算力全面落地_腾讯新闻](https://news.qq.com/rain/a/20260322A037N900) — 华为昇腾新一代AI算力全面落地，发布Atlas 350 AI训练推理加速卡，标志着国产高端AI推理算力进入规模化商用新阶段，并有多家核心生态伙伴推出基于该加速卡的服务器整机产品。
+### 2026-06-21
+- [AI Demand Locks Up Advanced Memory Supply Through 2026](https://www.linkedin.com/posts/jeffcooper_tech-giants-warn-ai-driven-memory-chip-shortage-activity-7429116555164151808-NWJo) — DeepSeek AI V4将完全在华为昇腾950PR芯片上运行，这是中国AI独立推动的重大胜利，且包含新客户信息。
+- [So, what's up in... - Ashley Dudarenok. China Digital Expert](https://www.facebook.com/AshleyDudarenok/posts/so-whats-up-in-china-issue-312-20-mar-6-apr-2026-1-deepseek-ai-v4-to-run-entirel/1401266828472632) — DeepSeek AI V4的V4模型将部署在华为的昇腾950PR芯片上，预计4月中旬发布，采用混合专家架构，参数量超过V3的两倍，包含新命名和新事实。
+
