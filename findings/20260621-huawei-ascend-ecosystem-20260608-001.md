@@ -1,17 +1,17 @@
 ---
 event: "[[huawei-ascend-ecosystem-20260608]]"
 date: 2026-06-21
-url: "https://www.bloomberg.com/news/articles/2026-04-22/deepseek-in-talks-to-raise-at-20-billion-value-the-information"
-source_title: "Tencent, Alibaba in Talks to Join DeepSeek's First Funding Round"
+url: "https://zhuanlan.zhihu.com/p/1952370354703015943"
+source_title: "华为全联接大会2025：昇腾路线与国产AI 算力路线全解析 - 知乎专栏"
 relevance: RELEVANT
 ---
 
-# Tencent, Alibaba in Talks to Join DeepSeek's First Funding Round
+# 华为全联接大会2025：昇腾路线与国产AI 算力路线全解析 - 知乎专栏
 
-**来源**: [Tencent, Alibaba in Talks to Join DeepSeek's First Funding Round](https://www.bloomberg.com/news/articles/2026-04-22/deepseek-in-talks-to-raise-at-20-billion-value-the-information)
+**来源**: [华为全联接大会2025：昇腾路线与国产AI 算力路线全解析 - 知乎专栏](https://zhuanlan.zhihu.com/p/1952370354703015943)
 **发现时间**: 2026-06-21
 **所属事件**: [[huawei-ascend-ecosystem-20260608]]
 
 ## 摘要
 
-阿里巴巴和腾讯正在讨论投资DeepSeek的首次融资轮，DeepSeek是一家与华为昇腾芯片生态规模化相关的公司。
+华为全联接大会2025上，详细解析了昇腾芯片路线与国产AI算力路线，涉及Atlas超节点、标卡到TaiShan通算平台，以及2026-2028年的昇腾芯片路线，构建完整的国产AI算力生态。

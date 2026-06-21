@@ -4,12 +4,12 @@ title: 华为昇腾芯片生态规模化（国产算力闭环 vs HBM 瓶颈）
 seed_url: https://techblog.comsoc.org/2025/10/02/huawei-to-double-output-of-ascend-ai-chips-in-2026-openai-orders-hbm-chips-from-sk-hynix-samsung-for-stargate-uae-project/
 published_date: 2025-10-02
 status: HOT
-last_check: 2026-06-21T12:35
+last_check: 2026-06-21T16:30
 last_activity: '2026-06-21'
-next_check: 2026-06-21T15:35
+next_check: 2026-06-21T19:30
 interval_hours: 3
-consecutive_empty: 1
-findings_count: 68
+consecutive_empty: 0
+findings_count: 69
 tags:
 - tracker
 - HOT
@@ -175,3 +175,6 @@ search_queries:
 - [So, what's up in... - Ashley Dudarenok. China Digital Expert](https://www.facebook.com/AshleyDudarenok/posts/so-whats-up-in-china-issue-312-20-mar-6-apr-2026-1-deepseek-ai-v4-to-run-entirel/1401266828472632) — DeepSeek AI V4的V4模型将部署在华为的昇腾950PR芯片上，预计4月中旬发布，采用混合专家架构，参数量超过V3的两倍，包含新命名和新事实。
 ### 2026-06-21
 - [Tencent, Alibaba in Talks to Join DeepSeek's First Funding Round](https://www.bloomberg.com/news/articles/2026-04-22/deepseek-in-talks-to-raise-at-20-billion-value-the-information) — 阿里巴巴和腾讯正在讨论投资DeepSeek的首次融资轮，DeepSeek是一家与华为昇腾芯片生态规模化相关的公司。
+### 2026-06-21
+- [华为全联接大会2025：昇腾路线与国产AI 算力路线全解析 - 知乎专栏](https://zhuanlan.zhihu.com/p/1952370354703015943) — 华为全联接大会2025上，详细解析了昇腾芯片路线与国产AI算力路线，涉及Atlas超节点、标卡到TaiShan通算平台，以及2026-2028年的昇腾芯片路线，构建完整的国产AI算力生态。
+
