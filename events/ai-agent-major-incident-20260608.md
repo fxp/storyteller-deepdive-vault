@@ -4,11 +4,11 @@ title: 【预期事件】首个企业级 AI Agent 重大事故引发监管响应
 seed_url: https://joget.com/ai-agent-adoption-in-2026-what-the-analysts-data-shows/
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-21T03:04
+last_check: 2026-06-21T07:33
 last_activity: '2026-06-21'
-next_check: 2026-06-21T06:04
+next_check: 2026-06-21T10:33
 interval_hours: 3
-consecutive_empty: 0
+consecutive_empty: 1
 findings_count: 52
 tags:
 - tracker
@@ -142,4 +142,3 @@ search_queries:
 - [New Governance Frameworks Offer a Roadmap for Managing Risks Unique to Agentic AI | Davis Wright Tremaine](https://www.dwt.com/blogs/artificial-intelligence-law-advisor/2026/01/roadmap-for-managing-risks-unique-to-agentic-ai) — 文章提供了关于管理Agentic AI独特风险的治理框架的新指导，这是关于AI代理治理和合规的新事实。
 ### 2026-06-21
 - [AI Agents Caused a 13-Hour Outage. Enterprise AI just changed !](https://www.youtube.com/watch?v=JFvpwoTZH0g) — AI代理导致13小时断电事件，这是关于企业级AI Agent的重大事故，是新的事实。
-

@@ -4,12 +4,12 @@ title: 【预期事件】中国对关键矿产发布报复性出口限制
 seed_url: https://bisi.org.uk/reports/ai-chip-smuggling-the-limits-of-us-export-controls
 published_date: 2026-06-08
 status: HOT
-last_check: 2026-06-21T03:04
+last_check: 2026-06-21T07:33
 last_activity: '2026-06-21'
-next_check: 2026-06-21T06:04
+next_check: 2026-06-21T10:33
 interval_hours: 3
 consecutive_empty: 0
-findings_count: 59
+findings_count: 62
 tags:
 - tracker
 - HOT
@@ -166,4 +166,8 @@ search_queries:
 - [欧盟对中国管制稀有金属出口表示“关切”](https://www.voachinese.com/a/eu-concerned-about-china-s-curbs-on-rare-metals-20230704/7167037.html) — 欧盟对中国管制稀有金属出口表示“关切”，这表明中国对稀有金属的出口管制可能对全球供应链产生影响，是一个新事实。
 ### 2026-06-21
 - [中国延长镓、锗、锑对美出口管制暂停期至2026年11月，但仍 ...](https://www.reddit.com/r/zhongwen/comments/1ot5vy0/%E4%B8%AD%E5%9B%BD%E5%BB%B6%E9%95%BF%E9%95%93%E9%94%97%E9%94%91%E5%AF%B9%E7%BE%8E%E5%87%BA%E5%8F%A3%E7%AE%A1%E5%88%B6%E6%9A%82%E5%81%9C%E6%9C%9F%E8%87%B32026%E5%B9%B411%E6%9C%88%E4%BD%86%E4%BB%8D%E9%9C%80%E8%AE%B8%E5%8F%AF) — 中国延长了对镓、锗、锑对美出口管制的暂停期至2026年11月，这是对之前美国芯片限制的反制措施。
+### 2026-06-21
+- [Tungsten Export Controls: Supply Chain Impact & Risks](https://discoveryalert.com.au/strategic-material-dependencies-tungsten-2026) — 文章指出中国对钨的出口管制通过复杂的许可系统从根本上改变了全球供应链动态，这是一个新事实。
+- [SunSirs: China Imposes Export Controls on Tungsten, Antimony, and Silver](https://www.sunsirs.com/uk/detail_news-27645.html) — 文章提到钨是一种军事材料，美国军事的穿甲弹都依赖于它，这是新事实。
+- [【主题研究】三大重点看中国锗镓出口管制，全面解析战略金属争霸 ...](https://sc.macromicro.me/blog/theme-research-three-key-points-to-look-at-china-s-germanium-and-gallium-export-control-comprehensive-analysis-of-strategic-metals-hegemony) — 文章全面解析了中国对锗和镓的出口管制，包括对砷化镓和氮化镓等半导体关键材料的管制，这是一个新事实。
 
